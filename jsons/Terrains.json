@@ -1,0 +1,18 @@
+[//地块
+
+   	{
+		"name": "Mountain",//山
+		"type": "Land",
+		"movementCost": 3,
+		"impassable": true,
+		"defenceBonus": 0.25,
+		"RGB": [120, 120, 120],
+		"uniques": ["Rough terrain",
+					"Has an elevation of [4] for visibility calculations",
+					"Occurs in chains at high elevations",
+					//"Units ending their turn on this terrain take [0] damage",
+					"Always Fertility [-2] for Map Generation",
+					"Considered [Undesirable] when determining start locations"]
+	},
+
+]

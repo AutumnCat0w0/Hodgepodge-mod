@@ -1,0 +1,725 @@
+[//单位
+    
+    
+    {
+		"name": "Work Boats",//工船
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Sailing",
+		"uniques": [
+		"Cannot enter ocean tiles <before discovering [Astronomy]>", 
+		"May create improvements on water resources", 
+		"Can build [江东铁壁] improvements on tiles"
+		"Uncapturable"]
+	},
+	
+	{
+		"name": "防御塔",
+		"unitType": "Archery",
+		"movement": 3,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 70,
+		"requiredTech": "Future Tech",
+		"uniques": [
+		"Unbuildable", //无法建造
+		"Uncapturable"//无法捕获
+		"Cannot be purchased"//无法购买
+		"[-100]% Strength <vs [Siege] units><when defending>"
+		"[+100]% Strength<during the [Medieval era]>",
+		"[+200]% Strength<during the [Renaissance era]>",
+		"[+300]% Strength<during the [Industrial era]>",
+		"[+400]% Strength <starting from the [Modern era]>",
+		"Never appears as a Barbarian unit"//蛮子不得造
+		"[+1] Sight"
+		"[+1] Range <in [Hill] tiles>"
+		"Cannot move"
+		"[50]% chance to intercept air attacks<starting from the [Modern era]>"
+		],
+		"replacementTextForUniques": "\n [[50]% chance to intercept air attacks<starting from the [Modern era]>] \n [Cannot move] \n [随着时代增长战斗力（从古典起，每过一个时代+100%，直到电气时代停止增长）]\n [[+1] Sight] \n [[-100]% 战斗力与[Siege]单位对战在防御时] \n [在丘陵地块+1射程]"
+		"promotions": ["Indirect Fire","Accuracy II",],//免费晋升
+		"hurryCostModifier": 20,
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "防御塔建筑师",
+		"uniqueTo": "符文大陆",
+		"replaces": "Catapult",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"requiredTech": "Mathematics",
+		//"obsoleteTech": "Physics",
+		//"upgradesTo": "Trebuchet",
+		"uniques": [
+		"Cannot be purchased"//无法购买
+		"Can transform to [防御塔]"
+		"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	
+	{
+		"name": "古埃及战车",
+		"unitType": "Archery",
+		"uniqueTo": "-埃及-",
+		"replaces": "Chariot Archer",
+		"movement": 5,
+		"strength": 7,
+		"rangedStrength": 11,
+		"range": 1,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Can move after attacking",//a完可以跑
+		"No defensive terrain bonus", 
+		//"Rough terrain penalty"
+		],
+		"attackSound": "arrow"
+	},
+	
+	
+	{
+		"name": "恶地象射",
+		"unitType": "Archery",
+		"uniqueTo": "*印度*",
+		"replaces": "Composite Bowman",
+		"movement": 3,
+		"strength": 9,
+		"rangedStrength": 12,
+		"cost": 70,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "镇骨",
+		"uniqueTo": "狐狸窝",
+		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 12,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "牧首",
+		"uniqueTo": "战争",
+		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 18,
+		"cost": 81,
+		"uniques": [
+		"Unit will heal every turn, even if it performs an action"//每回合都会回血
+		"[-18] HP when healing"
+		 ],
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	
+	{
+		"name": "庐江上甲",
+		"uniqueTo": "东吴",
+		"replaces": "Pikeman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		//"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"promotions": ["Drill I","Amphibious"],//免费晋升：快速学习
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "汪神撅徒",
+		"unitType": "Sword",
+		"uniqueTo": "汪神教",
+		"replaces": "Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		//"uniques": [ ],
+		 "promotions": ["Medic II","Ignore terrain cost"],//免费晋升：快速学习
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"attackSound": "nonmetalhit"
+	},
+	
+	{
+		"name": "鹦鹉",
+		"unitType": "Fighter",
+		"uniqueTo": "鸟窝",
+		"replaces": "Archer",//所代替原版的建筑（如果不想取代可以不写这项）
+		"movement": 1,
+		"strength": 5,
+		"rangedStrength": 5,
+		"range": 3,
+		"interceptRange": 0,
+		"hurryCostModifier": -50,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"uniques": [
+		"[+15]% Strength <for [Wounded] units>"//受伤的单位+10%力
+		"Unit will heal every turn, even if it performs an action"//每回合都会回血
+		"[+10] HP when healing"
+		 ],
+		 
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "河马",
+		"uniqueTo": "鸟窝",
+		"replaces": "Knight",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Mounted",
+		"movement": 2,
+		"strength": 24,
+		"cost": 110,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"uniques": [
+		"[+20]% Strength <for [Wounded] units>"//受伤的单位+10%力
+		"Unbuildable", //不可建造
+		],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "雷霆战士",
+		"unitType": "Sword",
+		"uniqueTo": "鸽子窝 闪电",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+              "promotions": ["雷霆之力"],
+		"attackSound": "metalhit"
+	},	
+	
+	
+	{
+		"name": "黄巾力士",
+		"unitType": "Sword",
+		"uniqueTo": "黄巾军",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 13,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+		"No movement cost to pillage"//无移动劫掠
+		],
+              "promotions": ["Amphibious"],//免费晋升
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "炼金魔像",
+		"uniqueTo": "爱克里西斯",
+		"replaces": "Pikeman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 17,
+		"cost": 95,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"Heal this unit by [12] HP<upon ending a turn in a [Land] tile>"
+		],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "青州兵",
+		"uniqueTo": "曹魏",
+		"replaces": "Warrior",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 7,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : [
+		"Can build [Farm] improvements on tiles",
+		"Can build [Remove Forest] improvements on tiles",
+		"May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	
+	{
+		"name": "虎豹骑",
+		"unitType": "Mounted",	
+		"uniqueTo": "曹魏",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 12,
+		"cost": 60,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-25]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": ["Great Generals I"],//免费晋升
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "狂热信徒",
+		"uniqueTo": "蓝鸦教团",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 6,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"Gain [15] [Faith] <upon being defeated>",
+		"May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	{
+		"name": "占星师",
+		"unitType": "Civilian",
+		"uniqueTo": "星之开拓者",
+		"replaces": "Great General",
+		"uniques": [
+		"[+20]% Strength bonus for [Military] units within [5] tiles",
+	    "Empire enters a [8]-turn Golden Age <by consuming this unit>"
+			"Great Person - [War]", 
+			"Unbuildable", 
+			"Uncapturable"],
+		"movement": 3
+	},
+	
+	
+	{
+		"name": "达芬奇坦克",
+		"uniqueTo": "奇匠屋",
+		"replaces": "Musketman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 20,
+		"rangedStrength": 18,
+		"cost": 150,
+		"uniques": [
+		"[2] additional attacks per turn", //可以多a一次
+		"[+100]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
+		"[-150]% Strength <when attacking> <vs [Wounded] units>"//受伤的单位+10%力
+		],
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		//"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	
+	{
+		"name": "基巴达枪兵",
+		"unitType": "Sword",
+		"uniqueTo": "基尼台美",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>"
+		"[+20]% Strength <when adjacent to a [Great General] unit>"
+		],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "白毦兵",
+		"uniqueTo": "季汉",
+		"replaces": "Pikeman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 18,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+1] Sight",//增加视野
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "刀斧手",
+		"uniqueTo": "夏尔王朝",
+		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"uniques": [
+		"[+25]% Strength <for [Wounded] units>"//受伤的单位+10%力
+		],
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "瓦基丽",
+		"unitType": "Sword",
+		"uniqueTo": "伽弥勒",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+		"Free [Warrior] appears <upon being defeated>"
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+		"promotions": ["Great Generals I"],//免费晋升
+		"attackSound": "metalhit"
+	},
+	
+	
+	{
+		"name": "雄鹰与公牛",
+		"unitType": "Mounted",	
+		"uniqueTo": "伽弥勒",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Free [Warrior] appears <upon being defeated>"
+		"Can move after attacking",
+		//"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>"
+		"[+15]% Strength <for [Spearman] units>"
+		],
+		"promotions": ["黄金荣耀"],//免费晋升
+		"attackSound": "horse"
+	},
+	
+	
+	{
+		"name": "莫斯军团",
+		"uniqueTo": "莫斯托克",
+		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 15,
+		"cost": 85,
+		/*"uniques": [
+		 ],*/
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+
+	{
+		"name": "妖灵",
+		"uniqueTo": "追忆虚无",
+		"replaces": "Knight",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 18,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"attackSound": "horse"
+	},
+	
+	
+	{
+		"name": "护鲲团",
+		"unitType": "Mounted",	
+		"uniqueTo": "ikun",
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		//"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>"
+		],
+		"promotions": ["March","Pictish Courage"],//免费晋升
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "牛战士战船",
+		"uniqueTo": "海上牛头人",
+		"replaces": "Trireme",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 12,
+		"cost": 45,
+		"requiredTech": "Sailing",
+		"uniques": ["Never appears as a Barbarian unit"
+		"Can transform to [Work Boats]"
+		],
+		"promotions": ["Great Generals I"],//免费晋升
+		"upgradesTo": "Caravel",
+		"obsoleteTech": "Astronomy",
+		"attackSound": "nonmetalhit"
+	},
+	
+	
+	{
+		"name": "黑衣剑客",
+		"uniqueTo": "刀光鸽聚集地",
+		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"uniques": ["Invisible to non-adjacent units", //只有附近的才能看到
+		 ],
+		 "promotions": ["Blitz"],//免费晋升
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "网络鸽",
+		"unitType": "Sword",
+		"replaces":"Spearman",
+		"uniqueTo": "网络鸽聚集地",
+		"movement": 3,
+		"strength": 10,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "壮网络鸽",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+15]% Strength <when attacking>"],
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "壮网络鸽",
+		"unitType": "Sword",
+		"uniqueTo": "网络鸽聚集地",
+		"replaces": "Longswordsman",
+		"movement": 3,
+		"strength": 19,
+		"cost": 120,
+		"upgradesTo": "Musketman",
+ 		"requiredTech": "Metal Casting", 
+		"requiredResource": "Iron",
+		"uniques": ["[+15]% Strength <when attacking>"],
+		"attackSound": "metalhit"
+	       },
+	       
+	{
+		"name": "百年树人",
+		"unitType": "Sword",
+		"uniqueTo": "森林同盟会",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+		"promotions": ["十年树木"],//免费晋升
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "亚人自卫队",
+		"uniqueTo": "超级犬娘酋长",
+		"replaces": "Warrior",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 7,
+		"cost": 25,
+		"upgradesTo": "Swordsman",
+		"uniques" : [
+		"May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	
+	{
+		"name": "掠海漂移体",
+		"unitType": "Archery",
+		"uniqueTo": "大群意志 生命源泉",
+		"replaces": "Chariot Archer",
+		"movement": 3,
+		"strength": 6,
+		"rangedStrength": 10,
+		"range": 2,
+		"cost": 64,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+		//"Can move after attacking",//a完可以跑
+		"Can pass through impassable tiles"//无视地形
+		"Ignore terrain cost"
+		"No defensive terrain bonus", 
+		//"Rough terrain penalty"
+		],
+		"promotions": ["深海进化"],
+		"attackSound": "arrow"
+	},
+	
+	
+	{
+		"name": "伊祖米克的子代",
+		"uniqueTo": "大群意志 生命源泉",
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 3,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost","深海进化"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	{
+		"name": "骰子神使",
+		"uniqueTo": "骰子神教",
+		"replaces": "Great Prophet",//代替
+		"unitType": "Civilian",
+		"uniques": [
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can [Spread Religion] [4] times",
+			"Removes other religions when spreading religion",
+            "May found a religion",
+            "May enhance a religion",
+			"May enter foreign tiles without open borders", "[-1] Sight",
+			"Free Great Person<by consuming this unit>"
+			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	
+	{
+		"name": "始海穿刺者",
+		"unitType": "Sword",
+		"uniqueTo": "大群意志 生长",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+		//"uniques": [],
+		"promotions": ["深海捕食"],//免费晋升
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "山雪鬼",
+		"uniqueTo": "谢拉格",
+		"replaces": "Pikeman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 60,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"Can move immediately once bought"
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+		"promotions": ["Cover I"],//免费晋升
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+
+    {
+		"name": "拉特兰刁民",
+		"uniqueTo": "拉特兰",
+		"replaces": "Worker",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"movement": 3,
+		"uniques": [
+		"Can build [Land] improvements on tiles", 
+		"Automation is a primary action"
+		"Heal this unit by [-10] HP<upon ending a turn in a [Land] tile>",
+		"May withdraw before melee ([100]%)"
+		],
+		"cost": 70
+	},
+    
+    
+]

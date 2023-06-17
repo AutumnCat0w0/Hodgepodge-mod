@@ -1,0 +1,504 @@
+
+[//信仰
+    {
+        "name": "Ancestor Worship",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Shrine]"]
+    },
+    {
+        "name": "Dance of the Aurora",
+        "type": "Pantheon",
+        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]"]
+    },
+    
+    {
+        "name": "Faith Healers",
+        "type": "Pantheon",
+        "uniques": ["[All] Units adjacent to this city heal [+30] HP per turn when healing"]
+        // This should be worded better
+    },
+    {
+        "name": "Fertility Rites",
+        "type": "Pantheon",
+        "uniques": ["[+10]% growth [in this city]"]
+        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
+    },
+    {
+        "name": "God of Craftsman",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] <in cities with at least [3] [Population]>"]
+    },
+    {
+        "name": "God of the Open Sky",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Pasture]"]
+    },
+    {
+        "name": "God of the Sea",
+        "type": "Pantheon",
+        "uniques": ["[+1 Production] from every [Fishing Boats]"]
+    },
+    {
+        "name": "God of War",
+        "type": "Pantheon",
+        "uniques": ["Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion"]
+    },
+    {
+        "name": "Goddess of Festivals",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]"]
+    },
+    {
+        "name": "Goddess of Love",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] <in cities with at least [6] [Population]>"]
+    },
+    {
+        "name": "Goddess of Protection",
+        "type": "Pantheon",
+        "uniques": ["[+30]% Strength for cities <when attacking>"]
+    },
+    {
+        "name": "Goddess of the Hunt",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Camp]"]
+    },
+    {
+        "name": "Messenger of the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+2 Science] from each Trade Route"]
+    },
+    {
+        "name": "Monument to the Gods",
+        "type": "Pantheon",
+        "uniques": ["[+15]% Production when constructing [All] wonders [in cities following this religion]"]
+        // ToDo: Should only be ancient/classical era wonders, but implementing that is another can of worms
+        // For that we really should need an era.matchesFilter(), so we could write something like:
+        //"uniques": ["[+15]% Production when constructing [Ancient era] wonders [in cities following this religion]",
+        // "[+15]% Production when constructing [Classical era] wonders [in cities following this religion]"]
+        // For now this feels like overkill, but I'll leave this here for the future
+
+        // Alternatively, we could approximate this with "[+15]% Production when constructing [All] wonders [in all cities] <during the [Ancient era]>"
+    },
+    {
+        "name": "One with Nature",
+        "type": "Pantheon",
+        "uniques": ["[+4 Faith] from every [Natural Wonder]"]
+    },
+    {
+        "name": "Oral Tradition",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Plantation]"]
+    },
+    {
+        "name": "Religious Idols",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
+    },
+    {
+        "name": "Religious Settlements",
+        "type": "Pantheon",
+        "uniques": ["[-15]% Culture cost of natural border growth [in cities following this religion]"]
+    },
+    {
+        "name": "Sacred Path",
+        "type": "Pantheon",
+        "uniques": ["[+1 Culture] from every [Jungle]"]
+    },
+    {
+        "name": "Sacred Waters",
+        "type": "Pantheon",
+        "uniques": ["[+1 Happiness] in cities on [River] tiles"]
+    },
+///////////////////////////////////////// Follower beliefs /////////////////////////////////////////
+    {
+        "name": "Asceticism",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness] from every [Shrine] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Cathedrals",
+        "type": "Follower",
+        "uniques": ["May buy [Cathedral] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Choral Music",
+        "type": "Follower",
+        "uniques": ["[+2 Culture] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Divine inspiration",
+        "type": "Follower",
+        "uniques": ["[+2 Faith] from every [Wonder]"]
+    },
+    {
+        "name": "Feed the World",
+        "type": "Follower",
+        "uniques": ["[+1 Food] from every [Shrine]", "[+1 Food] from every [Temple]"]
+    },
+    {
+        "name": "Guruship",
+        "type": "Follower",
+        "uniques": ["[+2 Production] <in cities with at least [1] [Specialists]>"]
+    },
+    
+    {
+        "name": "Liturgical Drama",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from every [Amphitheater] <in cities with at least [3] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Monasteries",
+        "type": "Follower",
+        "uniques": ["May buy [Monastery] buildings for [150] [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Mosques",
+        "type": "Follower",
+        "uniques": ["May buy [Mosque] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Pagodas",
+        "type": "Follower",
+        "uniques": ["May buy [Pagoda] buildings with [Faith] [in cities following this religion]"]
+    },
+    {
+        "name": "Peace Gardens",
+        "type": "Follower",
+        "uniques": ["[+2 Happiness] from every [Garden]"]
+    },
+    {
+        "name": "Religious Art",
+        "type": "Follower",
+        "uniques": ["[+8 Culture] from every [Hermitage]"]
+    },
+    {
+        "name": "Religious Center",
+        "type": "Follower",
+        "uniques": ["[+2 Happiness] from every [Temple] <in cities with at least [5] [Followers of this Religion]>"]
+    },
+    {
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+1]% [Production] from every follower, up to [15]%"]
+    },
+    {
+        "name": "Swords into Ploughshares",
+        "type": "Follower",
+        "uniques": ["[+15]% growth [in this city] <when not at war>"]
+    },
+///////////////////////////////////////// Founder beliefs //////////////////////////////////////////
+
+    {
+        "name": "Ceremonial Burial",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] for each global city following this religion"]
+    },
+    {
+        "name": "Church Property",
+        "type": "Founder",
+        "uniques": ["[+2 Gold] for each global city following this religion"]
+    },
+    {
+        "name": "Initiation Rites",
+        "type": "Founder",
+        "uniques": ["[+100 Gold] when a city adopts this religion for the first time (modified by game speed)"]
+    },
+    {
+        "name": "Interfaith Dialogue",
+        "type": "Founder",
+        "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Science]"]
+    }
+    {
+        "name": "Papal Primacy",
+        "type": "Founder",
+        "uniques": ["Resting point for Influence with City-States following this religion [+15]"]
+    },
+    {
+        "name": "Peace Loving",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] from every [5] global followers [in non-enemy foreign cities]"]
+    },
+    {
+        "name": "Pilgrimage",
+        "type": "Founder",
+        "uniques": ["[+2 Faith] for each global city following this religion"]
+    },
+    {
+        "name": "Tithe",
+        "type": "Founder",
+        "uniques": ["[+1 Gold] from every [4] global followers [in all cities]"]
+    },
+    {
+        "name": "World Church",
+        "type": "Founder",
+        "uniques": ["[+1 Culture] from every [5] global followers [in foreign cities]"]
+    },
+
+    ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
+
+    {
+        "name": "Defender of the Faith",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"]
+        // ToDo: Should only be friendly territory of cities that follow this religion
+    },
+    {
+        "name": "Holy Order",
+        "type": "Enhancer",
+        "uniques": ["[Faith] cost of purchasing [Missionary] units [-30]%", "[Faith] cost of purchasing [Inquisitor] units [-30]%"]
+    },
+    {
+        "name": "Itinerant Preachers",
+        "type": "Enhancer",
+        "uniques": ["Religion naturally spreads to cities [+3] tiles away"]
+    },
+    {
+        "name": "Just War",
+        "type": "Enhancer",
+        "uniques": ["[+20]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>"]
+        // ToDo: Should only be enemy territory of cities that follow this religion
+    },
+    {
+        "name": "Messiah",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Great Prophet] units>", "[-25]% Faith cost of generating Great Prophet equivalents"]
+    },
+    {
+        "name": "Missionary Zeal",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+    },
+    {
+        "name": "Religious Texts",
+        "type": "Enhancer",
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>"]
+    },
+    {
+        "name": "Religious Unity",
+        "type": "Enhancer",
+        "uniques": ["[+100]% Natural religion spread [in City-State cities]"]
+    },
+    {
+        "name": "Reliquary",
+        "type": "Enhancer",
+        "uniques": ["[+50 Faith] whenever a Great Person is expended"]
+    },
+    
+    //////////第三代
+    {
+        "name": "大地的创造者 固拉多",
+        "type": "Pantheon",
+        "uniques": ["May buy [固拉多] units with [Faith] for [1] times their normal Production cost",
+        "[+2 Faith] from [Desert] tiles [in cities following this religion]",
+        "[+2 Food, +2 Culture, +1 Production] from [Desert] tiles [in cities following this religion] <after discovering [Archaeology]>"
+         ]
+    },
+    
+    {
+        "name": "海洋的创造者 盖欧卡",
+        "type": "Pantheon",
+        "uniques": ["May buy [盖欧卡] units with [Faith] for [1] times their normal Production cost",
+        "[+2 Faith] from [Ocean] tiles [in cities following this religion]",
+        "[+1 Faith] from [Coast] tiles [in cities following this religion]",
+        "[+1 Food] from [Coast] tiles [in cities following this religion]",
+        "[+3 Faith, +1 Production] from [Water] tiles [in cities following this religion] <after discovering [Astronomy]>"
+        
+         ]
+    },
+    
+    {
+        "name": "天空的守护者 裂空座",
+        "type": "Pantheon",
+        "uniques": [
+        "All newly-trained [All] units [in cities following this religion] receive the [天空的守护者] promotion",
+        "All newly-trained [龙系] units [in cities following this religion] receive the [德尔塔气流] promotion",
+        
+         ]
+    },
+
+
+
+
+
+
+///////第四代///////
+    {
+        "name": "创世之神 阿尔宙斯",
+        "type": "Pantheon",
+        "uniques": ["[+20]% Production when constructing [All] buildings [in capital]",
+        "[+3 Production] [in capital]"
+        //"[+3 Faith] [in all cities]"
+         ]
+    },
+    
+    {
+        "name": "时间之神 帝牙卢卡",
+        "type": "Pantheon",
+        "uniques": [
+        "[+35]% Food is carried over after population increases [in cities following this religion]"
+        ]
+    },
+    
+    {
+        "name": "空间之神 帕路奇犽",
+        "type": "Pantheon",
+        "uniques": ["[-80]% Culture cost of natural border growth [in cities following this religion]"
+      ]
+    },
+    
+    {
+        "name": "巨人之神 雷吉奇卡斯",
+        "type": "Pantheon",
+        "uniques": ["[+35]% Production when constructing [All] wonders [in cities following this religion]",
+        
+      ]
+    },
+    
+    {
+        "name": "美梦之神 克雷色利亚",
+        "type": "Pantheon",
+        "uniques": [
+        //"[+1 Happiness] for each global city following this religion",
+        "[+3 Happiness]"
+        
+      ]
+    },
+    
+    {
+        "name": "噩梦之神 达克莱伊",
+        "type": "Pantheon",
+        "uniques": [
+        "May buy [信使鸟] units with [Faith] for [1] times their normal Production cost",
+        "[-3 Happiness] from [Land] tiles [in cities following this religion]",
+        "[-3 Food] from [Land] tiles [in cities following this religion]",
+        "[-3 Production] from [Land] tiles [in cities following this religion]",
+        "[-3 Faith] from [Land] tiles [in cities following this religion]",
+        "[-3 Gold] from [Land] tiles [in cities following this religion]",
+        "[+4 Happiness] from [Land] tiles [in holy cities]",
+        "[+4 Food] from [Land] tiles [in holy cities]",
+        "[+4 Production] from [Land] tiles [in holy cities]",
+        "[+3 Faith] from [Land] tiles [in holy cities]",
+        "[+3 Gold] from [Land] tiles [in holy cities]",
+        "[-3 Happiness]",
+        "[-3 Production]",
+      ]
+    },
+    
+    
+    ///////第五代//////
+    {
+        "name": "丰饶之神 土地云",
+        "type": "Pantheon",
+        "uniques": ["[+1 Food] from every [Farm]",
+        "[+1 Food] from every [Plantation]",
+        "[+1 Food] from every [Pasture]",
+        "[+1 Food] from every [Camp]",
+        "[+1 Faith] from every [Camp]",
+        
+      ]
+    },
+    
+    
+    
+    ////////第六代//////
+    {
+        "name": "死亡之神 伊裴尔塔尔",
+        "type": "Pantheon",
+        "uniques": ["All newly-trained [Military] units [in cities following this religion] receive the [死亡之翼] promotion",
+        
+      ]
+    },
+    
+    {
+        "name": "生命之神 哲尔尼亚斯",
+        "type": "Pantheon",
+        "uniques": ["All newly-trained [Military] units [in cities following this religion] receive the [大地掌控] promotion",
+        
+      ]
+    },
+    
+    
+    
+    {
+        "name": "蒸汽之神 波多凯尼恩",
+        "type": "Pantheon",
+        "uniques": ["[+2 Food, +2 Culture, +2 Production] <before discovering [Steam Power]>",
+        "[+6 Food, +6 Culture, +6 Production] <after discovering [Steam Power]>"
+        
+      ]
+    },
+    
+    
+    
+    
+    /////////////////////////
+    //////宝可梦追随者信仰
+    /////////////////////////
+    {
+        "name": "万物有灵",
+        "type": "Follower",
+        "uniques": ["[+1 Happiness] from every [Forest]",
+        "[+1 Happiness] from every [Jungle]"]
+    },
+    
+    {
+        "name": "旅游圣地",
+        "type": "Follower",
+        "uniques": [
+        "[+2 Happiness] from all [Wonder] buildings"]
+    },
+    
+    {
+        "name": "黄金年代",
+        "type": "Follower",
+        "uniques": ["[+2 Faith]<while the empire is happy>",
+        "[+2 Gold]<while the empire is happy>"]
+    },
+    
+    {
+        "name": "粮草先行",
+        "type": "Follower",
+        "uniques": ["[+2 Food] from each Trade Route"]
+    },
+    
+    {
+        "name": "淘金狂潮",
+        "type": "Follower",
+        "uniques": ["[+3 Gold] from every [Quarry]",
+        "[-1 Production] from every [Quarry]"]
+    },
+    
+    {
+        "name": "冰之妖精",
+        "type": "Follower",
+        "uniques": ["[+1 Faith] from [Tundra] tiles [in cities following this religion]",
+        "[+1 Happiness] from [Tundra] tiles [in cities following this religion]",]
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ////////////////////////////////////// 宝可梦强化者 ///////////////////////////////////////
+
+    {
+        "name": "彩虹之羽",
+        "type": "Enhancer",
+        "uniques": ["[+25]% Strength <for [All] units> <when fighting in [Land] tiles><when between [10] and [999] Happiness>",
+        "[-25]% Strength <for [All] units> <when fighting in [Land] tiles><when below [-10] Happiness>"
+        ]
+        },
+        
+        {
+        "name": "极乐净土",
+        "type": "Enhancer",
+        "uniques": ["[+5 Happiness] from all [Wonder] buildings<when between [1] and [999] Happiness>",
+        ]
+        },
+    
+]

@@ -1,0 +1,115 @@
+[//晋升
+
+{
+	"name": "驻守",
+		"uniques": ["[+10]% Strength<when fighting in [Friendly Land] tiles><when defending>"
+		],
+	},
+	
+	
+	{
+	"name": "自由之翼",
+		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory",
+			"Can pass through impassable tiles"
+		],
+	},
+	
+	{
+        "name": "雷霆之力",
+	 "uniques": [
+	 "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+	 ],
+        },
+        
+        
+    {
+	"name": "亡者降临",
+		"uniques": [
+		"May capture killed [Military] units<with [120]% chance>",
+		"Damage is ignored when determining unit Strength <for [Land] units>"
+		"Unit will heal every turn, even if it performs an action"//每回合都会回血
+		"[-12] HP when healing"
+		"[+5]% Strength<when below [80] HP>"
+		"[+5]% Strength<when below [60] HP>"
+		"[+5]% Strength<when below [40] HP>"
+		"[+5]% Strength<when below [20] HP>"
+		],
+	},
+	
+	
+	{
+        "name": "信仰狂热",
+	 "uniques": [
+	"[-10]% Strength <in [Rough terrain] tiles>",
+	 
+	 ],
+        },
+        
+    {
+        "name": "黄金荣耀",
+	 "uniques": [
+	"[+15]% Strength <during a Golden Age>",
+	]
+	},
+	
+	{
+        "name": "黑色大衣",
+	 "uniques": ["Invisible to others"]
+	},
+	
+	{
+        "name": "阐释者",
+	 "uniques": [
+		"[+50]% Strength <vs [Barbarian] units>"
+		"This Unit gains [1] XP<upon defeating a [All] unit>",
+	]
+	},
+	
+	{
+        "name": "林中潜行",
+	 "uniques": [
+	 "Invisible to others<in [Jungle] tiles><during a Golden Age>"
+	 "Invisible to others<in [Forest] tiles><during a Golden Age>"
+	 "Invisible to others<in [Jungle] tiles><with [33]% chance>"
+	 "Invisible to others<in [Forest] tiles><with [33]% chance>"
+	 ]
+	},
+	
+	{
+        "name": "十年树木",
+	 "uniques": [
+	 "Heal this unit by [5] HP<upon ending a turn in a [Forest] tile>"
+	 "[+20]% Strength <in [Forest] tiles>"
+	 "[+20]% Strength <in [Jungle] tiles>"
+	 ]
+	},
+	
+	{
+        "name": "深海进化",
+	 "uniques": [
+	 "[+1] Movement <in [Water] tiles>"
+	 //"This Unit gains [1] XP<with [33]% chance><upon ending a turn in a [Land] tile>"
+	 "This Unit gains [2] XP<upon ending a turn in a [Water] tile>"
+	 ]
+	},
+	
+	{
+        "name": "深海捕食",
+	 "uniques": [
+	 "Heal this unit by [-20] HP<upon ending a turn in a [Desert] tile>",
+	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+	 "This Unit gains [3] XP<upon defeating a [All] unit>",
+	 ]
+	},
+	
+	{
+        "name": "共感",
+	 "uniques": [
+	 "All adjacent units heal [5] HP when healing"
+	 "[+5]% Strength <when adjacent to a [Military] unit>"
+	 "Heal this unit by [5] HP<when adjacent to a [Military] unit>",
+	 ]
+	},
+	
+	
+]
