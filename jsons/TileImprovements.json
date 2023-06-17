@@ -105,9 +105,47 @@
 		"uniques": [
 		"[+1 Production] <after discovering [The Wheel]>"
 		"[+1 Production, +1 Food] <after discovering [Railroads]>"
-		
 		],
+		"techRequired": "Mining",
 	},
 	
+	{
+		"name": "秘银洞窟",
+		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
+		"uniqueTo": "森之灵",
+		"turnsToBuild": 7,
+		"production": 1,
+		"faith":2,
+		"uniques": ["Does not need removal of [Forest]",
+		"Does not need removal of [Jungle]"],
+		"techRequired": "The Wheel",
+	},
+	
+	{
+		"name": "西兰民族纪念碑",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "西兰尼亚",
+		"turnsToBuild": 7,
+		"happiness": 1,
+		"faith":1,
+		"uniques": [
+		"[+1 Faith] <after discovering [Education]>",
+		],
+		"techRequired": "Iron Working",
+	},
+	
+	{
+		"name": "突击线",
+		"uniqueTo": "云冀之庭",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"techRequired": "The Wheel",
+		"uniques": ["Can be built outside your borders", "Costs [1] [Gold] per turn"],
+        "civilopediaText": [
+            {"text":"Reduces movement cost to ½ if the other tile also has a Road or Railroad"},
+            {"text":"Reduces movement cost to ⅓ with Machinery", "link":"Technology/Machinery"},
+            {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
+        ]
+	},
 	
 ]

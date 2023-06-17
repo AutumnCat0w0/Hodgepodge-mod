@@ -120,10 +120,9 @@
 		"unitType": "Sword",
 		"movement": 3,
 		"strength": 18,
-		"cost": 81,
+		"cost": 75,
 		"uniques": [
-		"Unit will heal every turn, even if it performs an action"//每回合都会回血
-		"[-18] HP when healing"
+		"Heal this unit by [-8] HP<upon ending a turn in a [Land] tile>"
 		 ],
 		"requiredTech": "Iron Working",
 		"upgradesTo": "Longswordsman",
@@ -536,6 +535,7 @@
 		"strength": 14,
 		"cost": 75,
 		"uniques": ["Invisible to non-adjacent units", //只有附近的才能看到
+		"Heal this unit by [15] HP<upon losing at least [30] HP in a single attack>"
 		 ],
 		 "promotions": ["Blitz"],//免费晋升
 		"requiredTech": "Iron Working",
@@ -716,9 +716,129 @@
 		"Can build [Land] improvements on tiles", 
 		"Automation is a primary action"
 		"Heal this unit by [-10] HP<upon ending a turn in a [Land] tile>",
+		"May withdraw before melee ([100]%)"
 		],
 		"cost": 70
 	},
     
+    
+    {
+		"name": "游侠",
+		"uniqueTo": "森之灵",
+		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 9,
+		"cost": 75,
+		"uniques":["[-1] Range",]
+		"promotions": ["零之眼"],//免费晋升
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "花色骑士",
+		"uniqueTo": "泽埃",
+		"replaces": "Knight",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Mounted",
+		"movement": 5,
+		"strength": 22,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","Ignore terrain cost"],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "皇冠舰",
+		"uniqueTo": "泽埃",
+		"replaces": "Privateer",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer",
+		"promotions": ["Coastal Raider I","Coastal Raider II"],
+		"uniques": ["May capture killed [Water] units"],
+		"attackSound": "cannon"
+	},
+    
+    {
+		"name": "西兰亲兵",
+		"unitType": "Sword",
+		"uniqueTo": "西兰尼亚",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 10,
+		"cost": 42,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+		"[+20]% Strength <when fighting in [Friendly Land] tiles>"
+		"[+10]% Strength <when fighting in [Foreign Land] tiles>"
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "知可英勇士",
+		"uniqueTo": "知可英王国",
+		"replaces": "Warrior",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : [
+		"[+15]% Strength<vs [Melee] units>",
+		"May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	
+	{
+		"name": "长刀士卫",
+		"uniqueTo": "知可英王国",
+		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"uniques": [
+		"[+20]% Strength<vs [Melee] units>",
+		 ],
+		 "promotions": ["Great Generals I"],//免费晋升
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "天使",
+		"uniqueTo": "神圣之巅",
+		"replaces": "Great General",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
     
 ]

@@ -632,7 +632,7 @@
 			"uniqueName": "屯田法",//文明特性名
 			"uniques": [
 		"[+2 Gold] from [Farm] tiles [in this city]",
-		"[+1 Gold] from [Bonus resource] tiles <after discovering [Currency]>",
+		"[+1 Gold] from [Bonus resource] tiles [in all cities] <after discovering [Currency]>",
 			],//文明特性具体效果
 			"cities": ["魏国",]
 			
@@ -1038,7 +1038,7 @@
 		"uniques": [
 				"[+1 Food, +1 Gold] from [Tundra] tiles [in all cities]",//冻土加粮金
 				"[-1 Production] from [Forest] tiles [in all cities]",//冻土加粮金
-				"Provides the cheapest [Shrine] building in your first [4] cities for free"
+				"[+1 Faith] [in all cities] <with [3] to [6] neighboring [Tundra] tiles>",//弥补小庙
 			],//文明特性具体效果
 			"cities": ["印北",]
 			
@@ -1285,5 +1285,197 @@
 			],//文明特性具体效果
 			"cities": ["谢拉格","格兰贸易",]
 			
+	},
+	{
+	    "name":"森之灵"
+        "leaderName":"小朋友遮目"
+       "adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [130,0,10],//文明内部色*
+			"innerColor": [25,255,25],//文明外部色*
+			"favouredReligion": "P",//当作为ai时选择的宗教
+			//"uniqueText": ""
+			"uniqueName": "森之灵"
+            "uniques":[
+            "[+1] Sight <for [Ranged] units>",//增加视野
+            "[+1] Range<for [Ranged] units>",//射程增加
+            "[-30]% Strength<vs [Melee] units>"
+            "[+15]% Strength <in [Forest] tiles>"
+            ]
+			"cities": ["森之灵"]
+	},
+	{
+		"name": "泽埃",
+		"leaderName": "诺雷·维森特期·科蒙斯特",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"startIntroPart1": "伟大的泽埃，伟大的诺雷",//介绍1
+		"startIntroPart2": "您就好像流星一样来到了这",//介绍2
+		"declaringWar": "我们对你改观了，请接受这一事实",//向玩家宣战
+		"attacked":"我相信骑士们会守护我们，而你会被击败",//被玩家宣战
+		"defeated": "来尝尝最特别的味道……死亡……",//被玩家打败时
+        "introduction": "看起来不错，很高兴认识你 ",//初见
+        "neutralHello": "要去花园里闻闻花香吗",//通常问候
+        "hateHello": "我不希望我们的人民再受到迫害了，我认为可以谈谈",//战争时问候
+        "tradeRequest": "和平相处，平等互利",//向玩家申请交易时
+		"outerColor": [255,255,0],//文明内部色*
+		"innerColor": [148,0,211],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueName": "伽泰君主",//文明特性名
+		"uniques": [
+		"[+2 Culture, +4 Faith] [in all cities in which the majority religion is a major religion]",
+			],//文明特性具体效果
+			"cities": ["维森特期","里蒙","科里封","马赛","巩义","希南口","老府","西里里西","巩封","良里坨","字关","亚白尼里","京巩陵斯","佩里蒙","熊乐","福勒索菲","吉科蒙","特尔特期","索勒布朗尼桑拿","列安布亚","维森特斯","古联安","霞浦鲁哥","府陵坚里","冯提莫","法克贝尔","楠哥亚瑟","佃瑟里特","塞蒙切科",]
+			
+	},
+	
+	{
+	    "name":"西兰尼亚"
+        "leaderName":"斯亨四世"
+       "adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [180,120,10],//文明内部色*
+			"innerColor": [25,55,25],//文明外部色*
+			"favouredReligion": "P",//当作为ai时选择的宗教
+			//"uniqueText": ""
+			"uniqueName": "联合尼亚"
+            "uniques":[
+            "[+33]% [Food] from City-States",
+            "[+33]% [Culture] from City-States",
+            "[+33]% [Faith] from City-States",
+            "[+33]% [Happiness] from City-States",
+            "Military Units gifted from City-States start with [+10] XP"
+            ]
+			"cities": ["西兰尼亚"]
+	},
+	
+	{
+	    "name":"知可英王国"
+        "leaderName":"垭夫●沙和尔的"
+       "adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "知可英的神啊，来啊，保护你的人民啊！",//介绍1
+		"startIntroPart2": "知可英的人民意识到才能救自己，民间的勇士，一点一点，一点一点消灭着敌人，一点一点，一点一点将民族从深渊中拉了回来。",//介绍2
+		"declaringWar": "你不配再在这个世界活着了！",//向玩家宣战
+		"attacked":"一点一点消灭着敌人",//被玩家宣战
+		"defeated": "一点一点……",//被玩家打败时
+        "introduction": "你……你是……谁？",//初见
+        "neutralHello": "深渊……",//通常问候
+        "hateHello": "知可英的神啊，保护你的人民啊！",//战争时问候
+        "tradeRequest": "这是为了把你从深渊中拉回。",//向玩家申请交易时
+		"outerColor": [178, 34, 34],//文明内部色*
+		"innerColor": [255,0,0],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		//"uniqueText": ""
+		"uniqueName": "联合尼亚"
+        "uniques":[
+        "[All] units gain the [Quick Study] promotion",
+            ]
+		"cities": ["知可英王国"]
+	},
+	{
+	    "name":"云冀之庭"
+        "leaderName":"遗风"
+       "adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [230,0,10],//文明内部色*
+			"innerColor": [125,25,25],//文明外部色*
+			"favouredReligion": "P",//当作为ai时选择的宗教
+			//"uniqueText": ""
+			"uniqueName": "战线推进"
+            "uniques":[
+            "Earn [80]% of killed [Military] unit's [Strength] as [Science]",//杀人拿战力的
+           "[All] units gain the [战线修筑] promotion",
+            
+            ]
+			"cities": ["云冀之庭"]
+	},
+	
+	{
+	    "name":"天神机兵"
+        "leaderName":"统一意识"
+       "adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [0,0,105],//文明内部色*
+			"innerColor": [5,5,135],//文明外部色*
+			"favouredReligion": "P",//当作为ai时选择的宗教
+			//"uniqueText": ""
+			"uniqueName": "格式塔"
+            "uniques":[
+            "Gain a free [格式塔意识] [in all cities]"
+            "[+15]% Production towards any buildings that already exist in the Capital"
+            "[-100]% maintenance cost for buildings [in all cities]"
+            "[999] units cost no maintenance"
+            "No Maintenance costs for improvements in [All] tiles"
+            "[-100]% [Gold]"
+            ]
+			"cities": ["云冀之庭"]
+	},
+	{
+	    "name":"神圣之巅"
+        "leaderName":"凯瑞德斯"
+       "adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "只有信念坚定之人，才能立于险峻的山巅之上。",//介绍1
+		"startIntroPart2": "我们经历磨难，我们砥砺前行，我们将开创文明！",//介绍2
+		"declaringWar": "是时候了！战士们！天使的代行者将指引我们前进的方向，冲锋！",//向玩家宣战
+		"attacked":"作为朋友，我很欣赏。作为敌人，我不会手下留情。",//被玩家宣战
+		"defeated": "虽败犹生，长存不灭……",//被玩家打败时
+        "introduction": "您好，朋友，欢迎来到神圣之巅",//初见
+        "neutralHello": "愿，圣洁的光辉照耀您的内心。",//通常问候
+        "hateHello": "为了我的人民，我干员忍辱负重。",//战争时问候
+        "tradeRequest": "路途遥远，我从内心向您发出崇高的敬意。",//向玩家申请交易时
+		"outerColor": [8, 34, 34],//文明内部色*
+		"innerColor": [86,0,80],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		//"uniqueText": ""
+		"uniqueName": "神之恩泽"
+        "uniques":[
+        "[+2 Faith] from [Luxury resource] tiles [in this city]",//淡水非冲击的沙漠加粮
+        "[+1 Faith] from [Bonus resource] tiles [in this city]",//淡水非冲击的沙漠加粮
+            ]
+		"cities": ["凯希特斯"]
 	},
 ]

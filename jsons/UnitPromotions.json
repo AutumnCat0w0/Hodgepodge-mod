@@ -60,7 +60,7 @@
 	{
         "name": "阐释者",
 	 "uniques": [
-		"[+50]% Strength <vs [Barbarian] units>"
+		"[+50]% Strength<vs [Barbarian] units>"
 		"This Unit gains [1] XP<upon defeating a [All] unit>",
 	]
 	},
@@ -111,5 +111,32 @@
 	 ]
 	},
 	
+	{
+        "name": "零之眼",
+	 "uniques": [
+	 "[+15]% Strength<vs [Land] units>","[-20]% Strength<vs [Mounted] units>"
+	 ]
+	},
 	
+	{
+        "name": "愈战愈勇",
+	 "uniques": [
+	 "Heals [20] damage if it kills a unit<upon defeating a [All] unit>",
+	 "This Unit gains [3] XP<when defending>",
+	 ]
+	},
+	{
+        "name": "战线修筑",
+	 "uniques": [
+	 "[+10]% Strength<when fighting in [突击线] tiles><when defending>"
+	 "Can build [突击线] improvements on tiles"
+	 ]
+	},
+	{
+        "name": "量子姿态",
+	 "uniques": [
+	 "[-2] XP gained from combat"
+	 "Damage is ignored when determining unit Strength"
+	 ]
+	},
 ]

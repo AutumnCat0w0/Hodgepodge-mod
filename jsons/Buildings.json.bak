@@ -9,6 +9,27 @@
 	    "replacementTextForUniques": "\n [*1.16版更新公告]\n [Cannot move] \n [削弱了[知识][小竹屋 动物大家庭！][鸽子窝]的文明特性]\n [[档案馆]提供的科技减少1，同时在丘陵地块上获得1产能 \n 新增文明[ikun]\n"
 	},
     
+    {
+		"name": "Statue of Zeus",//宙斯神像
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [Melee] units>"
+		"[+15]% Strength <for [Ranged] units> <when attacking>"],
+		"requiredTech": "Bronze Working",
+		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
+		// "Requires [Honor]" in BNW
+	},
+	
+	{
+		"name": "Mausoleum of Halicarnassus",//陵墓
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+			"[+1 Gold, +1 Production] from [Marble] tiles [in this city]", "[+1 Gold, +1 Production] from [Stone] tiles [in this city]"],
+		"requiredTech": "Masonry",
+		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+	},
     
     {
 		"name": "狮身人面像",
@@ -78,8 +99,8 @@
 		"name": "信仰壁垒",
 		"uniqueTo": "知识",
 		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
-		"cityStrength": 6,
-		"cityHealth": 70,
+		"cityStrength": 5,
+		"cityHealth": 50,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": [
@@ -561,8 +582,8 @@
 		"name": "冰淇淋机",
 		"uniqueTo": "拉特兰",
 		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
-		"cityStrength": 5,
-		"cityHealth": 50,
+		"cityStrength": 10,
+		"cityHealth": 100,
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": [
@@ -570,6 +591,49 @@
 		"[Civilian] Units adjacent to this city heal [+90] HP per turn when healing"//临近城市回血
 		"Destroyed when the city is captured"
 		]
+	},
+	
+	{
+		"name": "云冀营",
+		"uniqueTo": "云冀之庭",
+		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		"New [Military] units start with [15] Experience [in this city]", 
+		"[+15]% Production when constructing [Military] units [in this city]",
+		"All newly-trained [Military] units [in this city] receive the [愈战愈勇] promotion",
+		"Destroyed when the city is captured"
+		],
+		"requiredTech": "Bronze Working"
+	},
+	
+	{
+		"name": "格式塔意识",
+		"uniqueTo": "天神机兵",
+		"replaces": "Courthouse",//所代替原版的建筑（如果不想取代可以不写这项）
+		"maintenance": 4,
+		"happiness":1,
+		"science":1,
+		//"percentStatBonus": {"gold": -200},
+		"hurryCostModifier": 50,
+		"uniques": [
+		"Remove extra unhappiness from annexed cities",
+			],
+		"requiredTech": "Mathematics"
+	},
+	
+	{"name": "信息化",
+		"uniqueTo": "天神机兵",
+		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		"New [Military] units start with [15] Experience [in this city]", 
+		"All newly-trained [Military] units [in this city] receive the [量子姿态] promotion",
+		"Destroyed when the city is captured"
+		],
+		"requiredTech": "Bronze Working"
 	},
 	
 ]
