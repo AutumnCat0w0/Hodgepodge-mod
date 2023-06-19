@@ -4,7 +4,7 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-LeaderIcons/兹伏奇大吾
+NationIcons/Zeai
   rotate: false
   xy: 4, 4
   size: 1080, 1080
@@ -17,11 +17,46 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/水之剧场
+BuildingIcons/Great Tomb of Nazarick
   rotate: false
-  xy: 4, 4
+  xy: 1232, 240
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+LeaderIcons/兹伏奇大吾
+  rotate: false
+  xy: 4, 712
   size: 1080, 1080
   orig: 1080, 1080
+  offset: 0, 0
+  index: -1
+NationIcons/-Egypt-
+  rotate: false
+  xy: 1092, 1280
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Acrisis
+  rotate: false
+  xy: 4, 4
+  size: 700, 700
+  orig: 700, 700
+  offset: 0, 0
+  index: -1
+NationIcons/Craftsman's Cabin
+  rotate: false
+  xy: 1092, 760
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Forest League
+  rotate: false
+  xy: 712, 192
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
 
@@ -30,11 +65,67 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-ImprovementIcons/自动化种植园
+BuildingIcons/Revelation
+  rotate: false
+  xy: 4, 524
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+BuildingIcons/SAO
+  rotate: false
+  xy: 524, 1044
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+BuildingIcons/Springans studio
+  rotate: false
+  xy: 524, 524
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+BuildingIcons/Star Library
+  rotate: false
+  xy: 1044, 1044
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Tea House
+  rotate: false
+  xy: 1044, 4
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Knowledge
+  rotate: false
+  xy: 4, 1044
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Sea Tauren
   rotate: false
   xy: 4, 4
-  size: 1080, 1080
-  orig: 1080, 1080
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Star Trailblazer
+  rotate: false
+  xy: 524, 4
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ResourceIcons/Tea
+  rotate: false
+  xy: 1044, 524
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
 
@@ -43,832 +134,666 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/SAO
+BuildingIcons/Belief barriers
   rotate: false
-  xy: 1092, 760
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-ImprovementIcons/自动采矿设备
-  rotate: false
-  xy: 4, 712
-  size: 1080, 1080
-  orig: 1080, 1080
-  offset: 0, 0
-  index: -1
-NationIcons/-埃及-
-  rotate: false
-  xy: 1092, 1280
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/亡者之路
-  rotate: false
-  xy: 712, 192
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/爱克里西斯
-  rotate: false
-  xy: 4, 4
-  size: 700, 700
-  orig: 700, 700
-  offset: 0, 0
-  index: -1
-UnitIcons/兽骑兵
-  rotate: false
-  xy: 1232, 240
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-
-game5.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-BuildingIcons/护宝炮妖工作室
-  rotate: false
-  xy: 4, 524
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-BuildingIcons/星书馆
-  rotate: false
-  xy: 4, 4
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-BuildingIcons/纳萨力大坟墓
-  rotate: false
-  xy: 1044, 4
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/奇匠屋
-  rotate: false
-  xy: 4, 1044
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/星之开拓者
-  rotate: false
-  xy: 524, 1044
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/森林同盟会
-  rotate: false
-  xy: 524, 524
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/海上牛头人
-  rotate: false
-  xy: 524, 4
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/知识
-  rotate: false
-  xy: 1044, 524
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-UnitIcons/河马
-  rotate: false
-  xy: 1044, 1044
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-
-game6.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-BuildingIcons/信仰壁垒
-  rotate: false
-  xy: 1032, 1116
+  xy: 1372, 1656
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-BuildingIcons/无水磨
+BuildingIcons/Dice Inspiration
   rotate: false
-  xy: 1168, 268
+  xy: 524, 328
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-BuildingIcons/日天神社
+BuildingIcons/Forest Altar
   rotate: false
-  xy: 1432, 268
+  xy: 852, 616
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-BuildingIcons/森林祭坛
+BuildingIcons/Mill
   rotate: false
-  xy: 1432, 4
+  xy: 1308, 1060
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-BuildingIcons/牛头军备仓
+BuildingIcons/Ri Tian shrine
   rotate: false
-  xy: 1696, 268
+  xy: 1116, 796
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-BuildingIcons/默示录
+BuildingIcons/Sphinx
   rotate: false
-  xy: 4, 340
-  size: 512, 512
-  orig: 512, 512
+  xy: 1380, 796
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Supermarket
+  rotate: false
+  xy: 1116, 532
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Tauren Armament Warehouse
+  rotate: false
+  xy: 1380, 532
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 ImprovementIcons/教廷
   rotate: false
-  xy: 1560, 532
+  xy: 1644, 864
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-ImprovementIcons/海洋基地
+NationIcons/Bird's Nest
   rotate: false
-  xy: 524, 872
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-ImprovementIcons/科技农场
-  rotate: false
-  xy: 1044, 1392
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-ImprovementIcons/自动采矿设备β
-  rotate: false
-  xy: 524, 364
-  size: 500, 500
-  orig: 500, 500
-  offset: 0, 0
-  index: -1
-ImprovementIcons/茶楼
-  rotate: false
-  xy: 4, 1380
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/云山茶楼
-  rotate: false
-  xy: 640, 100
+  xy: 1044, 1060
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-NationIcons/伽弥勒
+NationIcons/Dice Divine Sect
   rotate: false
-  xy: 904, 100
+  xy: 1636, 1656
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-NationIcons/城邦之友
+NationIcons/Fox's Nest
   rotate: false
-  xy: 1560, 1060
+  xy: 332, 64
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-NationIcons/自由者之翼
+NationIcons/Freedom Wings
   rotate: false
-  xy: 332, 32
+  xy: 1044, 1324
   size: 300, 300
   orig: 300, 300
   offset: 0, 0
   index: -1
+NationIcons/Friends of the City State
+  rotate: false
+  xy: 596, 64
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Gamila
+  rotate: false
+  xy: 788, 328
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/The Paths of the Dead
+  rotate: false
+  xy: 4, 1400
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Yunshan Tea House
+  rotate: false
+  xy: 1124, 268
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jade
+  rotate: false
+  xy: 860, 64
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/伊祖米克的子代
   rotate: false
-  xy: 4, 52
+  xy: 1044, 1632
   size: 320, 280
   orig: 320, 280
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/掠海漂移体
   rotate: false
-  xy: 1552, 1612
+  xy: 4, 72
   size: 320, 280
   orig: 320, 280
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/炼金魔像
   rotate: false
-  xy: 1552, 1324
+  xy: 524, 592
   size: 320, 280
   orig: 320, 280
   offset: 0, 0
   index: -1
+UnitIcons/兽骑兵
+  rotate: false
+  xy: 4, 880
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 UnitIcons/刀斧手
   rotate: false
-  xy: 1032, 852
+  xy: 1388, 268
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/占星师
   rotate: false
-  xy: 1296, 1060
+  xy: 1388, 4
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/古埃及战车
   rotate: false
-  xy: 1296, 796
+  xy: 1372, 1392
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/基巴达枪兵
   rotate: false
-  xy: 1560, 796
+  xy: 1636, 1392
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/庐江上甲
   rotate: false
-  xy: 1296, 532
+  xy: 1572, 1128
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
+UnitIcons/河马
+  rotate: false
+  xy: 524, 1400
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 UnitIcons/牛战士战船
   rotate: false
-  xy: 1696, 4
+  xy: 1652, 336
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/瓦基丽
+  rotate: false
+  xy: 1652, 72
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/虎豹骑
   rotate: false
-  xy: 4, 860
+  xy: 4, 360
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/雷霆战士
   rotate: false
-  xy: 524, 1380
+  xy: 524, 880
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitPromotionIcons/十年树木
   rotate: false
-  xy: 1032, 588
+  xy: 1124, 4
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
-UnitIcons/百年树人
+UnitPromotionIcons/林中潜行
   rotate: false
-  xy: 1032, 588
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/林间潜行
-  rotate: false
-  xy: 1168, 4
+  xy: 1644, 600
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 
-game7.png
+game5.png
 size: 2048, 1024
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/丰饶碑
+BuildingIcons/Crystal Tower
   rotate: false
-  xy: 1740, 918
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/周边礼品店
-  rotate: false
-  xy: 1060, 554
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-BuildingIcons/喇叭芽之塔
-  rotate: false
-  xy: 1740, 810
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/天气研究所
-  rotate: false
-  xy: 1848, 810
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/学院
-  rotate: false
-  xy: 1268, 546
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/岚山
-  rotate: false
-  xy: 1376, 602
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/树果林
-  rotate: false
-  xy: 1376, 494
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/水晶塔
-  rotate: false
-  xy: 1268, 366
+  xy: 1706, 848
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-BuildingIcons/烧焦塔
+BuildingIcons/Dome Arena
   rotate: false
-  xy: 1592, 602
+  xy: 1634, 920
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/狮身人面像
+BuildingIcons/Dove gathering place
   rotate: false
-  xy: 4, 498
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-BuildingIcons/球果
-  rotate: false
-  xy: 1700, 702
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/生祠
-  rotate: false
-  xy: 212, 26
+  xy: 4, 28
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/白森林
+BuildingIcons/Fengrao Monument 
   rotate: false
-  xy: 1700, 594
+  xy: 1850, 920
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/穹顶竞技场
+BuildingIcons/Lanshan
   rotate: false
-  xy: 1808, 702
+  xy: 532, 184
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/解密石阵-棕
+BuildingIcons/Surrounding gift shops
   rotate: false
-  xy: 1808, 486
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/解密石阵-灰
-  rotate: false
-  xy: 1808, 486
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/解密石阵-蓝
-  rotate: false
-  xy: 1808, 486
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/超级市场
-  rotate: false
-  xy: 4, 234
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-BuildingIcons/铃铛塔
-  rotate: false
-  xy: 1592, 386
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/鸽子聚集地
-  rotate: false
-  xy: 1532, 818
+  xy: 796, 556
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/龙螺旋之塔-白
+BuildingIcons/Temple to a living person
   rotate: false
-  xy: 1808, 378
-  size: 100, 100
-  orig: 100, 100
+  xy: 1060, 820
+  size: 200, 200
+  orig: 200, 200
   offset: 0, 0
   index: -1
-BuildingIcons/龙螺旋之塔-黑
+ImprovementIcons/Archives
   rotate: false
-  xy: 1808, 378
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/学院
-  rotate: false
-  xy: 1268, 438
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-BuildingIcons/学院图标
-  rotate: false
-  xy: 1268, 438
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ImprovementIcons/档案馆
-  rotate: false
-  xy: 1956, 954
+  xy: 528, 4
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-ImprovementIcons/海洋扩张
+NationIcons/Blue Jay Professoriate
   rotate: false
-  xy: 1592, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/【战争】
-  rotate: false
-  xy: 4, 26
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/战争
-  rotate: false
-  xy: 4, 26
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-NationIcons/以太基金会
-  rotate: false
-  xy: 686, 126
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/格伦帝国
-  rotate: false
-  xy: 1484, 602
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-NationIcons/狐狸窝
-  rotate: false
-  xy: 4, 762
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-NationIcons/蓝鸦教团
-  rotate: false
-  xy: 1956, 882
+  xy: 672, 4
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
-NationIcons/骰子神教
+NationIcons/Dovecote
   rotate: false
-  xy: 796, 762
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-NationIcons/鸟窝
-  rotate: false
-  xy: 532, 234
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-NationIcons/鸽子窝
-  rotate: false
-  xy: 1060, 346
+  xy: 532, 292
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/学院
+NationIcons/Dovecote lightning
   rotate: false
-  xy: 1324, 782
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/壮网络鸽
-  rotate: false
-  xy: 1010, 194
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/网络鸽
-  rotate: false
-  xy: 1916, 770
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/走路草
-  rotate: false
-  xy: 578, 88
-  size: 46, 30
-  orig: 46, 30
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/防御塔
-  rotate: false
-  xy: 1956, 818
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-UnitIcons/以太基建
-  rotate: false
-  xy: 1848, 918
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/伊祖米克的子代
-  rotate: false
-  xy: 420, 76
-  size: 150, 150
-  orig: 150, 150
-  offset: 0, 0
-  index: -1
-UnitIcons/农民
-  rotate: false
-  xy: 1168, 238
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/壮网络鸽
-  rotate: false
-  xy: 1340, 411
-  size: 19, 19
-  orig: 19, 19
-  offset: 0, 0
-  index: -1
-UnitIcons/宝可梦护林员
-  rotate: false
-  xy: 1376, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/工人
-  rotate: false
-  xy: 1484, 710
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/掠海漂移体
-  rotate: false
-  xy: 1324, 818
-  size: 200, 200
-  orig: 200, 200
-  offset: 0, 0
-  index: -1
-UnitIcons/炼金魔像
-  rotate: false
-  xy: 1484, 494
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/牧首
-  rotate: false
-  xy: 1592, 494
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/瓦基丽
-  rotate: false
-  xy: 268, 762
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/网络鸽
-  rotate: false
-  xy: 1956, 791
-  size: 19, 19
-  orig: 19, 19
-  offset: 0, 0
-  index: -1
-UnitIcons/达芬奇坦克
-  rotate: false
-  xy: 1376, 386
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/防御塔
-  rotate: false
-  xy: 420, 4
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-UnitIcons/防御塔建筑师
-  rotate: false
-  xy: 420, 4
-  size: 64, 64
-  orig: 64, 64
-  offset: 0, 0
-  index: -1
-UnitIcons/雄鹰与公牛
-  rotate: false
-  xy: 532, 762
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/青州兵
-  rotate: false
-  xy: 268, 234
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/驯兽使
-  rotate: false
-  xy: 1700, 378
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/骰子神使
-  rotate: false
-  xy: 532, 498
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/鹦鹉
-  rotate: false
-  xy: 796, 498
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitPromotionIcons/CT
-  rotate: false
-  xy: 1060, 238
+  xy: 1742, 920
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/亡者降临
   rotate: false
-  xy: 578, 126
+  xy: 1742, 920
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/鸽子窝 闪电
+NationIcons/Glenn Empire
   rotate: false
-  xy: 578, 126
+  xy: 420, 20
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/伏特替换
+NationIcons/War
   rotate: false
-  xy: 794, 126
+  xy: 212, 28
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+NationIcons/【War】
+  rotate: false
+  xy: 212, 28
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Rice
+  rotate: false
+  xy: 744, 96
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Andosols
+  rotate: false
+  xy: 1958, 965
+  size: 64, 55
+  orig: 64, 55
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Archives
+  rotate: false
+  xy: 1004, 728
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Atlantis
+  rotate: false
+  xy: 600, 12
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Crater lake
+  rotate: false
+  xy: 1634, 856
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Devils Tower
+  rotate: false
+  xy: 1778, 856
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Eye of the Sahara
+  rotate: false
+  xy: 1850, 856
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Eyjafjallajokull
+  rotate: false
+  xy: 1492, 698
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Jade
+  rotate: false
+  xy: 748, 168
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mount Qomolangma
+  rotate: false
+  xy: 820, 166
+  size: 64, 58
+  orig: 64, 58
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Tea
+  rotate: false
+  xy: 892, 169
+  size: 64, 55
+  orig: 64, 55
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Yggdrasil
+  rotate: false
+  xy: 744, 4
+  size: 64, 84
+  orig: 64, 84
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/壮网络鸽
+  rotate: false
+  xy: 740, 460
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/网络鸽
+  rotate: false
+  xy: 956, 408
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/防御塔
+  rotate: false
+  xy: 816, 102
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+UnitIcons/以太基建
+  rotate: false
+  xy: 528, 76
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/健壮胸肌
+UnitIcons/伊祖米克的子代
   rotate: false
-  xy: 902, 126
+  xy: 1476, 870
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+UnitIcons/农民
+  rotate: false
+  xy: 796, 448
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/学习力
+UnitIcons/壮网络鸽
   rotate: false
-  xy: 1268, 654
+  xy: 1958, 938
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+UnitIcons/宝可梦护林员
+  rotate: false
+  xy: 1060, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/考古
+UnitIcons/工人
   rotate: false
-  xy: 1808, 594
+  xy: 1168, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/自由之翼
+UnitIcons/掠海漂移体
   rotate: false
-  xy: 1700, 486
+  xy: 1268, 820
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+UnitIcons/炼金魔像
+  rotate: false
+  xy: 1276, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/进化！
+UnitIcons/牧首
   rotate: false
-  xy: 1484, 386
+  xy: 1384, 712
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitPromotionIcons/阐释者
+UnitIcons/百年树人
   rotate: false
-  xy: 268, 498
+  xy: 4, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/网络鸽
+  rotate: false
+  xy: 1600, 843
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+UnitIcons/达芬奇坦克
+  rotate: false
+  xy: 848, 340
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/防御塔
+  rotate: false
+  xy: 816, 30
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/防御塔建筑师
+  rotate: false
+  xy: 816, 30
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/雄鹰与公牛
+  rotate: false
+  xy: 268, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/青州兵
+  rotate: false
+  xy: 4, 236
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/驯兽使
+  rotate: false
+  xy: 856, 232
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/骰子神使
+  rotate: false
+  xy: 268, 500
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/鹦鹉
+  rotate: false
+  xy: 532, 764
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/黑衣剑士
   rotate: false
-  xy: 268, 498
+  xy: 796, 764
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/CT
+  rotate: false
+  xy: 420, 128
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/伏特替换
+  rotate: false
+  xy: 640, 184
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/健壮胸肌
+  rotate: false
+  xy: 636, 76
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/学习力
+  rotate: false
+  xy: 904, 448
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/考古
+  rotate: false
+  xy: 1492, 762
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/自由之翼
+  rotate: false
+  xy: 740, 340
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/进化！
+  rotate: false
+  xy: 748, 232
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/阐释者
+  rotate: false
+  xy: 4, 500
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitPromotionIcons/黄金荣耀
   rotate: false
-  xy: 1060, 762
+  xy: 268, 236
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitPromotionIcons/黑色大衣
   rotate: false
-  xy: 796, 234
+  xy: 532, 500
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
