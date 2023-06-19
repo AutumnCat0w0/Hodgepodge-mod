@@ -1,6 +1,14 @@
 [//晋升
+    
+    
+    {
+	"name": "高山之心",
+		"uniques": [
+		"Units ignore terrain costs when moving into any tile with Hills",
+		],
+	},
 
-{
+    {
 	"name": "驻守",
 		"uniques": ["[+10]% Strength<when fighting in [Friendly Land] tiles><when defending>"
 		],
@@ -61,7 +69,7 @@
         "name": "阐释者",
 	 "uniques": [
 		"[+50]% Strength<vs [Barbarian] units>"
-		"This Unit gains [1] XP<upon defeating a [All] unit>",
+		"This Unit gains [3] XP<upon defeating a [Barbarian] unit>",
 	]
 	},
 	
@@ -122,7 +130,7 @@
         "name": "愈战愈勇",
 	 "uniques": [
 	 "Heals [20] damage if it kills a unit<upon defeating a [All] unit>",
-	 "This Unit gains [3] XP<when defending>",
+	 "This Unit gains [2] XP<when defending>",
 	 ]
 	},
 	{
@@ -135,8 +143,17 @@
 	{
         "name": "量子姿态",
 	 "uniques": [
-	 "[-2] XP gained from combat"
+	 "[-2] XP gained from combat<for [Melee] units>"
+	 "[-1] XP gained from combat<for [Ranged] units>"
 	 "Damage is ignored when determining unit Strength"
+	 ]
+	},
+	
+	{
+        "name": "吸血鬼",
+	 "uniques": [
+	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+	 "[+33]% Strength<vs [Barbarian] units>"
 	 ]
 	},
 ]

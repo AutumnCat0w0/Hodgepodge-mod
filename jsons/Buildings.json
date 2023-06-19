@@ -1,13 +1,13 @@
 [   
     
-    {
+    /*{
 		"name": "↑更新公告",
 		"uniques": ["Unbuildable", //无法建造
 		"Uncapturable"//无法捕获
 		"Cannot be purchased"//无法购买
 		]
-	    "replacementTextForUniques": "\n [*1.16版更新公告]\n [Cannot move] \n [削弱了[知识][小竹屋 动物大家庭！][鸽子窝]的文明特性]\n [[档案馆]提供的科技减少1，同时在丘陵地块上获得1产能 \n 新增文明[ikun]\n"
-	},
+	    "replacementTextForUniques": "\n [*1.16版更新公告]\n [Cannot move] \n [削弱了][小竹屋 动物大家庭！][鸽子窝]的文明特性]\n [[档案馆]提供的科技减少1，同时在丘陵地块上获得1产能 \n 新增文明[ikun]\n"
+	},*/
     
     {
 		"name": "Statue of Zeus",//宙斯神像
@@ -32,9 +32,9 @@
 	},
     
     {
-		"name": "狮身人面像",
+		"name": "Sphinx",//狮身人面像
 		"replaces": "Temple",
-		"uniqueTo": "-埃及-",
+		"uniqueTo": "-Egypt-",//埃及
 		"maintenance": 2,
 		"uniques": ["Doubles Gold given to enemy if city is captured"],
 		"faith": 3,
@@ -66,7 +66,7 @@
     
 	{
 		"name": "FOX",
-		"uniqueTo": "狐狸窝",
+		"uniqueTo": "Fox's Nest",//狐狸窝
 		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -81,8 +81,8 @@
 	
 	
 	{
-		"name": "生祠",
-		"uniqueTo": "战争",
+		"name": "Temple to a living person",//生祠
+		"uniqueTo": "War",//战争
 		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 25,
 		"faith": 2,
@@ -96,8 +96,8 @@
 	
 	
 	{
-		"name": "信仰壁垒",
-		"uniqueTo": "知识",
+		"name": "Belief barriers",//信仰壁垒
+		"uniqueTo": "Knowledge",//知识
 		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
 		"cityStrength": 5,
 		"cityHealth": 50,
@@ -111,8 +111,8 @@
 	
 	
 	{
-		"name": "岚山",
-		"uniqueTo": "自由者之翼",
+		"name": "Lanshan",//岚山
+		"uniqueTo": "Freedom Wings",//自由者之翼
 		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food":1,
 		"production":1,
@@ -128,8 +128,8 @@
 	},
 	
 	{
-		"name": "穹顶竞技场",
-		"uniqueTo": "自由者之翼",
+		"name": "Dome Arena",//穹顶竞技场
+		"uniqueTo": "Freedom Wings",//自由者之翼
 		"replaces": "Circus",//所代替原版的建筑（如果不想取代可以不写这项）
 		//"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"cost": 50,
@@ -143,8 +143,8 @@
 	
 	
 	{
-		"name": "周边礼品店",
-		"uniqueTo": "鸽子窝",
+		"name": "Surrounding gift shops",//周边礼品店
+		"uniqueTo": "Dovecote",//鸽子窝
 		"replaces": "Market",//所代替原版的建筑（如果不想取代可以不写这项）
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
@@ -152,13 +152,13 @@
 		"[+3 Gold] from every [Wonder]<in this city>"
 			],//特性具体效果
 		"hurryCostModifier": 25,
-		"percentStatBonus": {"gold": 20},
+		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
 	},
 	
 	{
 		"name": "鸽子聚集地",
-		"uniqueTo": "鸽子窝",
+		"uniqueTo": "Dovecote",//鸽子窝
 		"replaces": "Armory",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -216,7 +216,7 @@
 	{
 		"name": "不管群，摆大烂",
 		"replaces": "Circus",		
-		"uniqueTo": "鸽子窝 闪电",
+		"uniqueTo": "Dovecote lightning",//鸽子窝 闪电
 		"happiness": 1,
 		"cost": 60,
 		"requiredTech": "Trapping",
@@ -226,7 +226,7 @@
 	
 	{
 		"name": "众议院",
-		"uniqueTo": "格伦帝国",
+		"uniqueTo": "Glenn Empire",//格伦帝国
 		"replaces": "Amphitheater",//所代替原版的建筑（如果不想取代可以不写这项）
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
@@ -242,7 +242,7 @@
 	
 	{
 		"name": "神殿",
-		"uniqueTo": "格伦帝国",
+		"uniqueTo": "Glenn Empire",//格伦帝国
 		"replaces": "Temple",//所代替
 		"faith": 2,
 		"happiness": 1,
@@ -256,8 +256,8 @@
 	},
 	
 	{
-		"name": "纳萨力大坟墓",
-		"uniqueTo": "亡者之路",
+		"name": "Great Tomb of Nazarick",//纳萨力克大坟墓
+		"uniqueTo": "The Paths of the Dead",//亡者之路
 		"replaces": "Palace",//所代替
 		"isNationalWonder": true,
 		"production": 3,
@@ -267,13 +267,13 @@
 		"cityStrength": 0,
 		"cost": 1,
 		"uniques": [
-		"[+2 Gold] per [2] population [in all cities]",
+		"[+3 Gold] per [2] population [in all cities]",
 		"Indicates the capital city"]
 	},
 	
 	{
-		"name": "默示录",//纪念碑
-		"uniqueTo": "亡者之路",
+		"name": "Revelation",//默示录
+		"uniqueTo": "The Paths of the Dead",//亡者之路
 		"replaces": "Monument",//所代替
 		"culture": 2,
 		"faith": 2,
@@ -315,8 +315,8 @@
 	
 	
 	{
-		"name": "丰饶碑",
-		"uniqueTo": "爱克里西斯",
+		"name": "Fengrao Monument",//丰饶碑
+		"uniqueTo": "Acrisis",//爱克里西斯
 		"replaces": "Shrine",//所代替原版的建筑（如果不想取代可以不写这项）
 		"culture": 2,
 		"faith": 2,
@@ -329,7 +329,7 @@
 	
 	{
 		"name": "镖局",
-		"uniqueTo": "云山茶楼",
+		"uniqueTo": "Yunshan Tea House",//云山茶楼
 		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -342,8 +342,8 @@
 	
 	
 	{
-		"name": "星书馆",
-		"uniqueTo": "星之开拓者",
+		"name": "Star Library",//星书馆
+		"uniqueTo": "Star Trailblazer",//星之开拓者
 		"replaces": "Library",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 15,
 		"maintenance": 1,
@@ -356,8 +356,8 @@
 	},
 	
 	{
-		"name": "护宝炮妖工作室",
-		"uniqueTo": "奇匠屋",
+		"name": "Springans studio",//护宝炮妖工作室
+		"uniqueTo": "Craftsman's Cabin",//奇匠屋
 		"replaces": "Workshop",//所代替原版的建筑（如果不想取代可以不写这项）
 		"maintenance": 2,
 		"production": 2,
@@ -373,7 +373,7 @@
 	
 	
 	{
-		"name": "日天神社",
+		"name": "Ri Tian shrine",//日天神社
 		"uniqueTo": "基尼台美",
 		"replaces": "Shrine",//所代替原版的建筑（如果不想取代可以不写这项）
 		"faith": 1,
@@ -434,7 +434,7 @@
 	},
 	
 	{
-		"name": "水晶塔",
+		"name": "Crystal Tower",//水晶塔
 		"uniqueTo": "符文大陆",
 		"replaces": "Palace",//所代替
 		"isNationalWonder": true,
@@ -477,8 +477,8 @@
 	},
 	
 	{
-		"name": "牛头军备仓",
-		"uniqueTo": "海上牛头人",
+		"name": "Tauren Armament Warehouse",//牛头军备仓
+		"uniqueTo": "Sea Tauren",//海上牛头人
 		"replaces": "Harbor",//所代替原版的建筑（如果不想取代可以不写这项）
 		"cost": 80,
 		"maintenance": 2,
@@ -513,8 +513,8 @@
 	},
 	
 	{
-		"name": "森林祭坛",//纪念碑
-		"uniqueTo": "森林同盟会",
+		"name": "Forest Altar",//森林祭坛
+		"uniqueTo": "Forest League",//森林同盟会
 		"replaces": "Monument",//所代替
 		"faith":1,
 		"culture": 2,
@@ -526,8 +526,8 @@
 	},
 	
 	{
-		"name": "超级市场",
-		"uniqueTo": "城邦之友",
+		"name": "Supermarket",//超级市场
+		"uniqueTo": "Friends of the City State",//城邦之友
 		"replaces": "Market",//所代替原版的建筑（如果不想取代可以不写这项）
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
@@ -541,8 +541,8 @@
 	
 	
 	{
-		"name": "无水磨",
-		"uniqueTo": "城邦之友",
+		"name": "Mill",//无水磨
+		"uniqueTo": "Friends of the City State",//城邦之友
 		"replaces": "Water Mill",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food": 2,
 		"production": 1,
@@ -551,8 +551,8 @@
 	},
 	
 	{
-		"name": "骰子启灵",
-		"uniqueTo": "骰子神教",
+		"name": "Dice Inspiration",//骰子启灵
+		"uniqueTo": "Dice Divine Sect",//骰子神教
 		"replaces": "Shrine",//所代替原版的建筑（如果不想取代可以不写这项）
 		"faith": 1,
 		"cost": 40,
@@ -646,5 +646,34 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"requiredTech": "Theology"
+	},
+	
+	{
+		"name": "交易中心",
+		"uniqueTo": "宋氏财阀",
+		"replaces": "Market",//所代替原版的建筑（如果不想取代可以不写这项）
+		"gold": 2,
+		"science":3,
+		"specialistSlots": {"Merchant": 1},
+		"uniques": [
+		//"[-25]% maintenance cost for buildings [in all cities]"
+			],//特性具体效果
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 35},
+		"requiredTech": "Currency"
+	},
+	
+	{
+		"name": "黑色方尖碑",//纪念碑
+		"uniqueTo": "宋氏财阀",
+		"replaces": "Monument",//所代替
+		"culture": 2,
+		"happiness":1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 2,
+		"uniques": [
+		//"Each city founded increases culture cost of policies [33]% less than normal"
+		"Destroyed when the city is captured"]
 	},
 ]

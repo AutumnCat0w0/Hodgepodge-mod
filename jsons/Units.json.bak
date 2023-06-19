@@ -17,7 +17,7 @@
 	{
 		"name": "防御塔",
 		"unitType": "Archery",
-		"movement": 3,
+		"movement": 1,
 		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 70,
@@ -64,7 +64,7 @@
 	{
 		"name": "古埃及战车",
 		"unitType": "Archery",
-		"uniqueTo": "-埃及-",
+		"uniqueTo": "-Egypt-",//埃及
 		"replaces": "Chariot Archer",
 		"movement": 5,
 		"strength": 7,
@@ -100,7 +100,7 @@
 	
 	{
 		"name": "镇骨",
-		"uniqueTo": "狐狸窝",
+		"uniqueTo": "Fox's Nest",//狐狸窝
 		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Archery",
 		"movement": 2,
@@ -115,7 +115,7 @@
 	
 	{
 		"name": "牧首",
-		"uniqueTo": "战争",
+		"uniqueTo": "War",
 		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 3,
@@ -167,7 +167,7 @@
 	{
 		"name": "鹦鹉",
 		"unitType": "Fighter",
-		"uniqueTo": "鸟窝",
+		"uniqueTo": "Bird's Nest",//鸟窝
 		"replaces": "Archer",//所代替原版的建筑（如果不想取代可以不写这项）
 		"movement": 1,
 		"strength": 5,
@@ -188,7 +188,7 @@
 	
 	{
 		"name": "河马",
-		"uniqueTo": "鸟窝",
+		"uniqueTo": "Bird's Nest",//鸟窝
 		"replaces": "Knight",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Mounted",
 		"movement": 2,
@@ -207,7 +207,7 @@
 	{
 		"name": "雷霆战士",
 		"unitType": "Sword",
-		"uniqueTo": "鸽子窝 闪电",
+		"uniqueTo": "Dovecote lightning",//鸽子窝 闪电
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 12,
@@ -298,7 +298,7 @@
 	
 	{
 		"name": "狂热信徒",
-		"uniqueTo": "蓝鸦教团",
+		"uniqueTo": "Blue Jay Professoriate",//蓝鸦教团
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -315,7 +315,7 @@
 	{
 		"name": "占星师",
 		"unitType": "Civilian",
-		"uniqueTo": "星之开拓者",
+		"uniqueTo": "Star Trailblazer",//星之开拓者
 		"replaces": "Great General",
 		"uniques": [
 		"[+20]% Strength bonus for [Military] units within [5] tiles",
@@ -329,7 +329,7 @@
 	
 	{
 		"name": "达芬奇坦克",
-		"uniqueTo": "奇匠屋",
+		"uniqueTo": "Craftsman's Cabin",//奇匠屋
 		"replaces": "Musketman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Gunpowder",
 		"movement": 3,
@@ -405,7 +405,7 @@
 	{
 		"name": "瓦基丽",
 		"unitType": "Sword",
-		"uniqueTo": "伽弥勒",
+		"uniqueTo": "Gamila",//伽弥勒
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 11,
@@ -425,7 +425,7 @@
 	{
 		"name": "雄鹰与公牛",
 		"unitType": "Mounted",	
-		"uniqueTo": "伽弥勒",
+		"uniqueTo": "Gamila",//伽弥勒
 		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 12,
@@ -509,7 +509,7 @@
 	
 	{
 		"name": "牛战士战船",
-		"uniqueTo": "海上牛头人",
+		"uniqueTo": "Sea Tauren",//海上牛头人
 		"replaces": "Trireme",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Melee Water",
 		"movement": 4,
@@ -578,7 +578,7 @@
 	{
 		"name": "百年树人",
 		"unitType": "Sword",
-		"uniqueTo": "森林同盟会",
+		"uniqueTo": "Forest League",//森林同盟会
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 11,
@@ -654,7 +654,7 @@
 	
 	{
 		"name": "骰子神使",
-		"uniqueTo": "骰子神教",
+		"uniqueTo": "Dice Divine Sect",//骰子神教
 		"replaces": "Great Prophet",//代替
 		"unitType": "Civilian",
 		"uniques": [
@@ -835,7 +835,8 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
-            
+            "[+25] HP when healing <in [Foreign Land] tiles>", 
+            "All adjacent units heal [+25] HP when healing"
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2

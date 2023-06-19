@@ -4765,7 +4765,7 @@ Reliquary = 圣物柜
 Stele = 石碑
 
 
-Shrine = 祠堂
+Shrine = 神社
 
 Pyramid = 金字塔
 
@@ -5763,3 +5763,80 @@ Tutorial = 教程
 CityState = 城邦
 ModOptions = 模组选项
 Conditional = 有前提的
+
+# Hodgepodge MOD
+
+# 国家
+
+War = 战争
+Knowledge = 知识
+-Egypt- = -埃及-
+Acrisis = 爱克里西斯
+Friends of the City State = 城邦之友
+Gamila = 伽弥勒
+Dovecote = 鸽子窝
+Dovecote lightning = 鸽子窝 闪电
+Glenn Empire = 格伦帝国
+Craftsman's Cabin = 奇匠屋
+Sea Tauren = 海上牛头人
+Fox's Nest = 狐狸窝
+Blue Jay Professoriate = 蓝鸦教团
+Bird's Nest = 鸟窝
+Forest League = 森林同盟会
+Dice Divine Sect = 骰子神教
+The Paths of the Dead = 亡者之路
+Star Trailblazer = 星之开拓者
+Yunshan Tea House = 云山茶楼
+Zeai = 泽埃
+Freedom Wings = 自由者之翼
+
+
+
+# 建筑
+Supermarket = 超级市场
+Fengrao Monument = 丰饶碑
+Dove gathering place = 鸽子聚集地
+Springans studio = 护宝炮妖工作室
+Lanshan = 岚山
+Revelation = 默示录
+Great Tomb of Nazarick = 纳萨力克大坟墓
+Tauren Armament Warehouse = 牛头军备仓
+Dome Arena = 穹顶竞技场
+Ri Tian shrine = 日天神社
+Forest Altar = 森林祭坛
+Temple to a living person = 生祠
+Sphinx = 狮身人面像
+Crystal Tower = 水晶塔
+Dice Inspiration = 骰子启灵
+Mill = 无水磨
+Belief barriers = 信仰壁垒
+Star Library = 星书馆
+Surrounding gift shops = 周边礼品店
+
+
+
+
+
+
+
+#改进
+Tea House = 茶楼
+
+
+
+# 奇观/设施/资源部分
+Eyjafjallajokull = 艾雅法拉火山
+andosols = 火山土
+Eye of the Sahara = 撒哈拉之眼
+Devils Tower = 魔鬼塔
+Mount Qomolangma = 珠穆朗玛峰
+Crater lake = 火山口湖
+Yggdrasil = 世界树
+Atlantis = 亚特兰蒂斯
+
+Archives = 档案馆
+
+# 资源
+Rice = 大米
+Tea = 茶叶
+Jade = 玉

@@ -1,5 +1,20 @@
 [//农场之类的建筑
 		
+	
+		
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Hill","火山土"],
+		"production": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Mining",
+		"uniques": ["[+2 Production] <in [火山土] tiles>",
+		"[+1 Production] <after discovering [Chemistry]>", 
+		"Pillaging this improvement yields approximately [+20 Gold]"
+		],
+		"shortcutKey": "M"
+	},
+	
 	{
 		"name": "江东铁壁",
 		"terrainsCanBeBuiltOn": ["Water"],
@@ -34,7 +49,7 @@
 	{
 		"name": "茶楼",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniqueTo": "云山茶楼",
+		"uniqueTo": "Yunshan Tea House",//云山茶楼
 		"turnsToBuild": 7,
 		"gold": 2,
 		"uniques": [
@@ -46,7 +61,7 @@
 	{
 		"name": "教廷",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniqueTo": "蓝鸦教团",
+		"uniqueTo": "Blue Jay Professoriate",//蓝鸦教团
 		"turnsToBuild": 7,
 		"faith": 1,
 		"food": 1,
@@ -57,9 +72,9 @@
 		
 	
 	{
-		"name": "档案馆",
+		"name": "Archives",//档案馆
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniqueTo": "知识",
+		"uniqueTo": "Knowledge",
 		"turnsToBuild": 7,
 		"science": 2,
 		"uniques": ["Can only be built on [Luxury resource] tiles"
