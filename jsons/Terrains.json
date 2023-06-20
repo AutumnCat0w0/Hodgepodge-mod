@@ -16,7 +16,7 @@
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
-            "Becomes [火山土] when adjacent to [艾雅法拉火山]"
+            "Becomes [Andosols] when adjacent to [艾雅法拉火山]"
             ]
 	},*/
 	
@@ -63,7 +63,8 @@
 		"occursOn": ["Tundra"],
 		"uniques": ["Must be adjacent to [3] to [6] [Tundra] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
-			"Neighboring tiles will convert to [火山土]"
+			"Must be adjacent to [0] [Coast] tiles",
+			"Neighboring tiles will convert to [Andosols]"
 			],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -72,7 +73,7 @@
 	},
 	
 	{
-		"name": "Andosols",//火山图
+		"name": "Andosols",//火山土
 		"type": "TerrainFeature",
 		"food": 2,
 		"science":1,
