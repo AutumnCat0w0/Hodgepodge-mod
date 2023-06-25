@@ -123,6 +123,7 @@
 		"uniques": [
 		"[+3 Production] from [Mountain] tiles [in this city]",
 		//"[+1 Production, +1 Food] from [Mountain] tiles [in this city] <after discovering [Civil Service]>"
+		//"Automatically built in all cities where it is buildable"可建造时赠送
 		"Destroyed when the city is captured"
 		]
 	},
@@ -381,7 +382,7 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
-		"[+20]% growth [in all cities]"
+		"[+20]% growth [in this city]"
 		"Hidden when religion is disabled"]
 	},
 	
@@ -675,5 +676,43 @@
 		"uniques": [
 		//"Each city founded increases culture cost of policies [33]% less than normal"
 		"Destroyed when the city is captured"]
+	},
+	
+	{
+		"name": "Breeding base",//繁育基地
+		"uniqueTo": "Fungal kingdom",//真菌国度
+		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		"New [Military] units start with [15] Experience [in this city]", 
+		"All newly-trained [Military] units [in this city] receive the [Fungal infection] promotion",
+		"Destroyed when the city is captured"
+		],
+		"requiredTech": "Bronze Working"
+	},
+	
+	{
+		"name": "Artificial nest",//人工鸟巢
+		"uniqueTo": "Bird free pigeon nest",//无鸟鸽子窝
+		"replaces": "Monument",//所代替
+		"culture": 2,
+		"gold":1,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"uniques": [
+		"Destroyed when the city is captured"]
+	},
+	
+	{
+		"name": "Holy Hall",//神圣殿堂
+		"uniqueTo": "Chaotic Pigeon Nest",//混沌鸽子窝
+		"replaces": "Cathedral",//所代替
+		"cost": 0,
+		"faith": 3,
+		"culture": 3,
+		"happiness": 3,
+		"specialistSlots": {"Artist": 1},
+		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
 ]

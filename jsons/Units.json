@@ -15,7 +15,7 @@
 	},
 	
 	{
-		"name": "防御塔",
+		"name": "TOWER",//防御塔
 		"unitType": "Archery",
 		"movement": 1,
 		"strength": 7,
@@ -44,8 +44,8 @@
 	},
 	
 	{
-		"name": "防御塔建筑师",
-		"uniqueTo": "符文大陆",
+		"name": "Defense Tower Architect",//防御塔建筑师
+		"uniqueTo": "符文大陆",//符文大陆
 		"replaces": "Catapult",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Civilian",
 		"movement": 2,
@@ -55,14 +55,14 @@
 		//"upgradesTo": "Trebuchet",
 		"uniques": [
 		"Cannot be purchased"//无法购买
-		"Can transform to [防御塔]"
+		"Can transform to [TOWER]"
 		"Never appears as a Barbarian unit"],
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
 	
 	{
-		"name": "古埃及战车",
+		"name": "Ancient Egypt chariot",//古埃及战车
 		"unitType": "Archery",
 		"uniqueTo": "-Egypt-",//埃及
 		"replaces": "Chariot Archer",
@@ -114,8 +114,8 @@
 	},
 	
 	{
-		"name": "牧首",
-		"uniqueTo": "War",
+		"name": "Patriarch",//牧首
+		"uniqueTo": "War",//战争
 		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 3,
@@ -134,8 +134,8 @@
 	
 	
 	{
-		"name": "庐江上甲",
-		"uniqueTo": "东吴",
+		"name": "Lujiang Armored Soldier",//庐江上甲
+		"uniqueTo": "东吴",//东吴
 		"replaces": "Pikeman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 2,
@@ -165,7 +165,7 @@
 	},
 	
 	{
-		"name": "鹦鹉",
+		"name": "Parrot",//鹦鹉
 		"unitType": "Fighter",
 		"uniqueTo": "Bird's Nest",//鸟窝
 		"replaces": "Archer",//所代替原版的建筑（如果不想取代可以不写这项）
@@ -187,7 +187,7 @@
 	},
 	
 	{
-		"name": "河马",
+		"name": "Hippo",//河马
 		"uniqueTo": "Bird's Nest",//鸟窝
 		"replaces": "Knight",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Mounted",
@@ -205,7 +205,7 @@
 	},
 	
 	{
-		"name": "雷霆战士",
+		"name": "Thunder Warrior",//雷霆战士
 		"unitType": "Sword",
 		"uniqueTo": "Dovecote lightning",//鸽子窝 闪电
 		"replaces": "Spearman",
@@ -239,8 +239,8 @@
 	},
 	
 	{
-		"name": "炼金魔像",
-		"uniqueTo": "爱克里西斯",
+		"name": "Alchemy Demon Statue",//炼金魔像
+		"uniqueTo": "Acrisis",//爱克里西斯
 		"replaces": "Pikeman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 2,
@@ -256,8 +256,8 @@
 	},
 	
 	{
-		"name": "青州兵",
-		"uniqueTo": "曹魏",
+		"name": "Qingzhou Soldier",//青州兵
+		"uniqueTo": "曹魏",//曹魏
 		"replaces": "Warrior",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 2,
@@ -276,9 +276,9 @@
 	},
 	
 	{
-		"name": "虎豹骑",
+		"name": "Tiger and Leopard Riding",//虎豹骑
 		"unitType": "Mounted",	
-		"uniqueTo": "曹魏",
+		"uniqueTo": "曹魏",//曹魏
 		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 12,
@@ -313,12 +313,12 @@
 	},
 	
 	{
-		"name": "占星师",
+		"name": "Astrologer",//占星师
 		"unitType": "Civilian",
 		"uniqueTo": "Star Trailblazer",//星之开拓者
 		"replaces": "Great General",
 		"uniques": [
-		"[+20]% Strength bonus for [Military] units within [5] tiles",
+		"[+25]% Strength bonus for [Military] units within [5] tiles",
 	    "Empire enters a [8]-turn Golden Age <by consuming this unit>"
 			"Great Person - [War]", 
 			"Unbuildable", 
@@ -328,7 +328,7 @@
 	
 	
 	{
-		"name": "达芬奇坦克",
+		"name": "Da Vinci Tank",//达芬奇坦克
 		"uniqueTo": "Craftsman's Cabin",//奇匠屋
 		"replaces": "Musketman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Gunpowder",
@@ -348,7 +348,7 @@
 	},
 	
 	{
-		"name": "基巴达枪兵",
+		"name": "Kibada Spearman",//基巴达枪兵
 		"unitType": "Sword",
 		"uniqueTo": "基尼台美",
 		"replaces": "Spearman",
@@ -360,13 +360,13 @@
 		"upgradesTo": "Pikeman",
 		"uniques": [
 		"[+50]% Strength <vs [Mounted] units>"
-		"[+20]% Strength <when adjacent to a [Great General] unit>"
 		],
+		"promotions": ["Quick Study"],
 		"attackSound": "metalhit"
 	},
 	
 	{
-		"name": "白毦兵",
+		"name": "White Army",//白毦兵
 		"uniqueTo": "季汉",
 		"replaces": "Pikeman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
@@ -384,7 +384,7 @@
 	},
 	
 	{
-		"name": "刀斧手",
+		"name": "Axeman",//刀斧手
 		"uniqueTo": "夏尔王朝",
 		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
@@ -403,7 +403,7 @@
 	},
 	
 	{
-		"name": "瓦基丽",
+		"name": "Wakili",//瓦基丽
 		"unitType": "Sword",
 		"uniqueTo": "Gamila",//伽弥勒
 		"replaces": "Spearman",
@@ -423,7 +423,7 @@
 	
 	
 	{
-		"name": "雄鹰与公牛",
+		"name": "Eagle and Bull",//雄鹰与公牛
 		"unitType": "Mounted",	
 		"uniqueTo": "Gamila",//伽弥勒
 		"replaces": "Horseman",
@@ -441,7 +441,7 @@
 		"[-33]% Strength <vs cities> <when attacking>"
 		"[+15]% Strength <for [Spearman] units>"
 		],
-		"promotions": ["黄金荣耀"],//免费晋升
+		"promotions": ["Gold Glory"],//免费晋升
 		"attackSound": "horse"
 	},
 	
@@ -508,7 +508,7 @@
 	},
 	
 	{
-		"name": "牛战士战船",
+		"name": "Bull Warrior Warship",//牛战士战船
 		"uniqueTo": "Sea Tauren",//海上牛头人
 		"replaces": "Trireme",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Melee Water",
@@ -527,8 +527,8 @@
 	
 	
 	{
-		"name": "黑衣剑客",
-		"uniqueTo": "刀光鸽聚集地",
+		"name": "Black Swordsman",//黑衣剑士
+		"uniqueTo": "刀光鸽聚集地",//刀光鸽聚集地
 		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 2,
@@ -547,7 +547,7 @@
 	},
 	
 	{
-		"name": "网络鸽",
+		"name": "Network Pigeon",//网络鸽
 		"unitType": "Sword",
 		"replaces":"Spearman",
 		"uniqueTo": "网络鸽聚集地",
@@ -556,12 +556,12 @@
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "壮网络鸽",
+		"upgradesTo": "Robust Network Pigeon",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>","[+15]% Strength <when attacking>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "壮网络鸽",
+		"name": "Robust Network Pigeon",//壮网络鸽
 		"unitType": "Sword",
 		"uniqueTo": "网络鸽聚集地",
 		"replaces": "Longswordsman",
@@ -576,7 +576,7 @@
 	       },
 	       
 	{
-		"name": "百年树人",
+		"name": "Tree People",//百年树人
 		"unitType": "Sword",
 		"uniqueTo": "Forest League",//森林同盟会
 		"replaces": "Spearman",
@@ -589,7 +589,7 @@
 		"uniques": [
 		"[+50]% Strength <vs [Mounted] units>"
 		],
-		"promotions": ["十年树木"],//免费晋升
+		"promotions": ["Decadal Trees"],//免费晋升
 		"attackSound": "metalhit"
 	},
 	
@@ -653,7 +653,7 @@
 	},
 	
 	{
-		"name": "骰子神使",
+		"name": "Dice Divine Envoy",//骰子神使
 		"uniqueTo": "Dice Divine Sect",//骰子神教
 		"replaces": "Great Prophet",//代替
 		"unitType": "Civilian",
@@ -842,4 +842,51 @@
 		"movement": 2
 	},
     
+    {
+		"name": "Infected spores",//感染孢子
+		"uniqueTo": "Fungal kingdom",//真菌国度
+		"replaces": "Warrior",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"upgradesTo": "Swordsman",
+		"uniques" : [
+		],
+		"attackSound": "nonmetalhit",
+		"promotions": ["Fungal infection"],//免费晋升
+	},
+	
+	{
+		"name": "Fierce Eagle",//很凶的老鹰
+		"uniqueTo": "Bird free pigeon nest",//无鸟鸽子窝
+		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 12,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Shadow of Chaos",//混沌之影
+		"uniqueTo": "Chaotic Pigeon Nest",//混沌鸽子窝
+		"replaces": "Settler",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+		"Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		//"May Paradrop up to [6] tiles from inside friendly territory",//空降
+		"May found a religion<after [80] turns>",//创教
+			"May enter foreign tiles without open borders",//偷家
+			"Can [Spread Religion] [1] times",//传教一次
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	
 ]

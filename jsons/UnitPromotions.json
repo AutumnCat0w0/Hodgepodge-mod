@@ -16,7 +16,7 @@
 	
 	
 	{
-	"name": "自由之翼",
+	"name": "Wings of Freedo",//自由之翼
 		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory",
 			"Can pass through impassable tiles"
 		],
@@ -31,7 +31,7 @@
         
         
     {
-	"name": "亡者降临",
+	"name": "The Undead Comes",//亡者降临
 		"uniques": [
 		"May capture killed [Military] units<with [120]% chance>",
 		"Damage is ignored when determining unit Strength <for [Land] units>"
@@ -54,19 +54,19 @@
         },
         
     {
-        "name": "黄金荣耀",
+        "name": "Gold Glory",//黄金荣耀
 	 "uniques": [
 	"[+15]% Strength <during a Golden Age>",
 	]
 	},
 	
 	{
-        "name": "黑色大衣",
+        "name": "Black coat",//黑色大衣
 	 "uniques": ["Invisible to others"]
 	},
 	
 	{
-        "name": "阐释者",
+        "name": "Elucidator",//阐释者
 	 "uniques": [
 		"[+50]% Strength<vs [Barbarian] units>"
 		"This Unit gains [3] XP<upon defeating a [Barbarian] unit>",
@@ -74,7 +74,7 @@
 	},
 	
 	{
-        "name": "林中潜行",
+        "name": "Stealth in the forest",//林中潜行
 	 "uniques": [
 	 "Invisible to others<in [Jungle] tiles><during a Golden Age>"
 	 "Invisible to others<in [Forest] tiles><during a Golden Age>"
@@ -84,7 +84,7 @@
 	},
 	
 	{
-        "name": "十年树木",
+        "name": "Decadal Trees",//十年树木
 	 "uniques": [
 	 "Heal this unit by [5] HP<upon ending a turn in a [Forest] tile>"
 	 "[+20]% Strength <in [Forest] tiles>"
@@ -113,9 +113,9 @@
 	{
         "name": "共感",
 	 "uniques": [
-	 "All adjacent units heal [5] HP when healing"
-	 "[+5]% Strength <when adjacent to a [Military] unit>"
-	 "Heal this unit by [5] HP<upon ending a turn in a [Land] tile><when adjacent to a [Military] unit>",
+	 "All adjacent units heal [10] HP when healing"
+	 "[+9]% Strength <when adjacent to a [Military] unit>"
+	 "Heal this unit by [10] HP<upon ending a turn in a [Land] tile><when adjacent to a [Military] unit>",
 	 ]
 	},
 	
@@ -143,8 +143,8 @@
 	{
         "name": "量子姿态",
 	 "uniques": [
-	 "[-2] XP gained from combat<for [Melee] units>"
-	 "[-1] XP gained from combat<for [Ranged] units>"
+	 "[1] XP gained from combat<for [Melee] units>"
+	 "[1] XP gained from combat<for [Ranged] units>"
 	 "Damage is ignored when determining unit Strength"
 	 ]
 	},
@@ -156,4 +156,13 @@
 	 "[+33]% Strength<vs [Barbarian] units>"
 	 ]
 	},
+	
+	{
+        "name": "Fungal infection",//真菌感染
+	 "uniques": [
+	 "[+1] population in a random city<upon defeating a [Military] unit>"
+	 "[-1] population in a random city<upon defeating a [Barbarian] unit><with [33]% chance>"
+	 ]
+	},
+	
 ]

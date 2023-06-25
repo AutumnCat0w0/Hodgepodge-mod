@@ -4,11 +4,11 @@
 		
 	{
 		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill","火山土"],
+		"terrainsCanBeBuiltOn": ["Hill","Andosols"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+2 Production] <in [火山土] tiles>",
+		"uniques": ["[+2 Production] <in [Andosols] tiles>",
 		"[+1 Production] <after discovering [Chemistry]>", 
 		"Pillaging this improvement yields approximately [+20 Gold]"
 		],
@@ -47,7 +47,7 @@
 	},
 	
 	{
-		"name": "茶楼",
+		"name": "Tea House",//茶楼
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniqueTo": "Yunshan Tea House",//云山茶楼
 		"turnsToBuild": 7,

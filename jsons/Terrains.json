@@ -16,7 +16,7 @@
             "Considered [Desirable] when determining start locations <in [Tundra] Regions>",
             "Becomes [Plains] when adjacent to [River]",
             "Every [16] tiles with this terrain will receive a major deposit of a strategic resource."
-            "Becomes [Andosols] when adjacent to [艾雅法拉火山]"
+            "Becomes [火山土] when adjacent to [艾雅法拉火山]"
             ]
 	},*/
 	
@@ -59,11 +59,12 @@
 	{
 		"name": "Eyjafjallajokull",//艾雅法拉火山
 		"type": "NaturalWonder",
-		//"science": 
+		"science": 4
 		"occursOn": ["Tundra"],
 		"uniques": ["Must be adjacent to [3] to [6] [Tundra] tiles",
-			"Must be adjacent to [0] [Desert] tiles",
+		    "Tile provides yield without assigned population"//不需要人
 			"Must be adjacent to [0] [Coast] tiles",
+			"Must be adjacent to [0] [Desert] tiles",
 			"Neighboring tiles will convert to [Andosols]"
 			],
 		"turnsInto": "Mountain",
@@ -74,16 +75,17 @@
 	
 	{
 		"name": "Andosols",//火山土
-		"type": "TerrainFeature",
+		"type": "Land",
 		"food": 2,
 		"science":1,
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": -0.30
-		//"occursOn": ["Desert", "Grassland", "Plains","Tundra"],
+		"occursOn": ["Tundra"],
 		"uniques": [//"Base Terrain on this tile is not counted for Region determination",
 			"Units ending their turn on this terrain take [20] damage",
-			"Doesn't generate naturally",
+			"[-5] Strength for cities built on this terrain",
+			//"Doesn't generate naturally",
 			"Never receives any resources"
 	]
 		"civilopediaText": [

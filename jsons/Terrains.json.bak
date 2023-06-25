@@ -59,11 +59,12 @@
 	{
 		"name": "Eyjafjallajokull",//艾雅法拉火山
 		"type": "NaturalWonder",
-		//"science": 
+		"science": 4
 		"occursOn": ["Tundra"],
 		"uniques": ["Must be adjacent to [3] to [6] [Tundra] tiles",
+		    "Tile provides yield without assigned population"//不需要人
 			"Must be adjacent to [0] [Desert] tiles",
-			"Neighboring tiles will convert to [火山土]"
+			"Neighboring tiles will convert to [Andosols]"
 			],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -72,17 +73,18 @@
 	},
 	
 	{
-		"name": "Andosols",//火山图
-		"type": "TerrainFeature",
+		"name": "Andosols",//火山土
+		"type": "Land",
 		"food": 2,
 		"science":1,
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": -0.30
-		//"occursOn": ["Desert", "Grassland", "Plains","Tundra"],
+		"occursOn": ["Tundra"],
 		"uniques": [//"Base Terrain on this tile is not counted for Region determination",
 			"Units ending their turn on this terrain take [20] damage",
-			"Doesn't generate naturally",
+			"[-5] Strength for cities built on this terrain",
+			//"Doesn't generate naturally",
 			"Never receives any resources"
 	]
 		"civilopediaText": [
@@ -147,7 +149,7 @@
 	},
 	
 	{
-		"name": "火山口湖",//火山口湖
+		"name": "Crater lake",//火山口湖
 		"type": "NaturalWonder",
 		"faith": 5,
 		"science": 1,

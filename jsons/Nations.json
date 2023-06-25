@@ -224,7 +224,7 @@
 			"uniqueName": "俯瞰世界",//文明特性名
 			"uniques": [
 			"[+1] Sight <for [All] units>",//增加视野
-		"[All] units gain the [自由之翼] promotion"
+		"[All] units gain the [Wings of Freedom] promotion"
 			],//文明特性具体效果
 			"cities": ["翱","羽","翼","比","翎","翅",]
 			
@@ -421,22 +421,19 @@
 	
 	
 	{
-			"name": "Glenn Empire",//格伦帝国
-			"leaderName": "探索者",
-			"adjective": ["格伦帝国"],
-		//"startBias": ["Forest"],//起始偏好
+		"name": "Glenn Empire",//格伦帝国
+		"leaderName": "探索者",
+        "adjective": ["格伦帝国"],
+		"startBias": ["Forest"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
-		
-			"startIntroPart1": "咕咕咕",//介绍1
-			"startIntroPart2": "咕咕咕",//介绍2
-			//"startIntroPart3": "空",
-			"declaringWar": "咕咕咕！",//向玩家宣战
-			"attacked":"咕 咕 咕 ！",//被玩家宣战
-			"defeated": "咕……",//被玩家打败时
-            "introduction": "咕，咕咕？",//初见
-            "neutralHello": "咕咕咕~",//通常问候
-            "hateHello": "咕咕！",//战争时问候
-            "tradeRequest": "咕咕~",//向玩家申请交易时
+		"startIntroPart1": "伟大的陛下，请你带领我们征服这个世界，让其照耀在女神的圣光下。愿魔圣光永存，剑士的荣耀永垂不朽。"
+		"declaringWar": "在帝国的铁骑下颤抖吧",//
+		"attacked": "帝国的荣耀不容侵犯",//
+		"defeated": "帝国还会回来的",//
+		"introduction": "你好，异国",//
+		"neutralHello": "让我们各取所需",//
+		"hateHello": "让我们成为朋友吧",//
+		"tradeRequest": "希望你接受它",//
 			"outerColor": [110, 66, 175],//文明内部色*
 			"innerColor": [118,125,115],//文明外部色*
 			"favouredReligion": "P",//当作为ai时选择的宗教
@@ -447,6 +444,8 @@
 			"[-66]% maintenance on road & railroads"
 			"Units ignore terrain costs when moving into any tile with Hills",//丘陵不消耗移动
 			"[+15]% Strength <in [Hill] tiles> <when adjacent to a [Military] unit>",
+			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",//买兵
+			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",//杀人拿
 			
 		
 			],//文明特性具体效果
@@ -475,14 +474,14 @@
         "outerColor": [205, 255, 205],//文明内部色*
 		"innerColor": [10,15,15],//文明外部色*
 		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[-20]% [Science]和[Culture] [in all cities]\n击杀[Military]后获得[Strength] [50]%的[Science][Culture]\n所有 [Military] 获得 [亡者降临] 晋升"
+		"uniqueText": "[-20]% [Science]和[Culture] [in all cities]\n击杀[Military]后获得[Strength] [50]%的[Science][Culture]\n所有 [Military] 获得 [The Undead Comes] 晋升"
 		"uniqueName": "不死者之王",//文明特性名
 		"uniques": [
 		"[-15]% [Science] [in all cities]",
 		"[-15]% [Culture] [in all cities]",
 		"Earn [50]% of killed [Military] unit's [Strength] as [Science]",//杀人拿战力的
 		"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",//杀人拿战力的
-		"[Military] units gain the [亡者降临] promotion"
+		"[Military] units gain the [The Undead Comes] promotion"
 		],//文明特性具体效果
 		"cities": ["大坟墓",]
 			
@@ -1006,11 +1005,11 @@
 		"outerColor": [0, 0, 0],//文明内部色*
 		"innerColor": [0,0,0],//文明外部色*
 		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "任何人都不能从[胜利进度]查看你的当前数值\n你的平民单位获得[黑色大衣]晋升，军事单位获得[阐释者]晋升。\n [黑色大衣]：当你的军事单位与平民单位重叠时，其他人无法直接看到你的军事单位（仍然能进行战斗）"
+		"uniqueText": "任何人都不能从[胜利进度]查看你的当前数值\n你的平民单位获得[Black coat]晋升，军事单位获得[Elucidator]晋升。\n [Black coat]：当你的军事单位与平民单位重叠时，其他人无法直接看到你的军事单位（仍然能进行战斗）"
 		"uniqueName": "我爱拉刀光",//文明特性名
 		"uniques": [
-		"[Civilian] units gain the [黑色大衣] promotion"
-		"[Military] units gain the [阐释者] promotion"
+		"[Civilian] units gain the [Black coat] promotion"
+		"[Military] units gain the [Elucidator] promotion"
 			],//文明特性具体效果
 			"cities": ["艾恩葛朗特",]
 			
@@ -1096,7 +1095,7 @@
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		"Empire enters a [3]-turn Golden Age<upon constructing [Faith]>",
 		"[All] units gain the [Woodsman] promotion",
-		"[Military] units gain the [林中潜行] promotion",
+		"[Military] units gain the [Stealth in the forest] promotion",
 			],//文明特性具体效果
 			"cities": ["呀哈哈之森","百草园","三味书屋","草丛","绿色头顶之城"]
 			
@@ -1214,16 +1213,16 @@
 		"outerColor": [111, 215, 0],//文明内部色*
 		"innerColor": [100,131,0],//文明外部色*
 		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"
+		"uniqueText": "分别有25%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的人口增长增加20%/40%/60%\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"
 		"uniqueName": "随机应变",//文明特性名
 		"uniques": [
 		"May choose [1] additional belief(s) of any type when [founding] a religion"
 		"Gain a free [Pantheon] belief<upon founding a Pantheon>"
 	"[+20]% growth [in all cities]<with [60]% chance>"
-	"[+30]% growth [in all cities]<with [30]% chance>"
-	"[+50]% growth [in all cities]<with [15]% chance>"
-	"[1] additional attacks per turn<with [33]% chance>", //可以多a一次
-	"[+1] Movement <for [All] units> <with [33]% chance>",
+	"[+20]% growth [in all cities]<with [30]% chance>"
+	"[+20]% growth [in all cities]<with [15]% chance>"
+	"[1] additional attacks per turn<with [25]% chance>", //可以多a一次
+	"[+1] Movement <for [All] units> <with [25]% chance>",
 			],//文明特性具体效果
 			"cities": ["骰子群","骰子团","骰子窝","骰子圣地",]
 			
@@ -1250,8 +1249,8 @@
 		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
 		"uniqueName": "复兴之路",//文明特性名
 		"uniques": [
-		"[+1 Production] from [Tundra] tiles [in this city]",//地块加产
-		"[+1 Food] from [Snow] tiles [in this city]",//地块加产
+		"[+1 Production] from [Tundra] tiles without [Hill] [in this city]",//地块加产
+		"[+1 Production, +1 Food] from [Snow] tiles [in this city]",//地块加产
 		"[+2 Food] [in all cities connected to capital]",
 		"[+25]% tile improvement construction time"
 			],//文明特性具体效果
@@ -1445,7 +1444,7 @@
 			"uniqueName": "格式塔"
             "uniques":[
             "Gain a free [格式塔意识] [in all cities]"
-            "[+15]% Production towards any buildings that already exist in the Capital"
+            "[+30]% Production towards any buildings that already exist in the Capital"
             "[-100]% maintenance cost for buildings [in all cities]"
             "[999] units cost no maintenance"
             "No Maintenance costs for improvements in [All] tiles"
@@ -1509,4 +1508,89 @@
 			"cities": ["吸血中心",]
 			
 	},
+	
+	{
+		"name": "Fungal kingdom",//真菌国度
+		"leaderName": "蘑菇人",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [211, 155, 110],//文明内部色*
+		"innerColor": [37,35,210],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "感染孢子",//文明特性名
+		"uniques": [
+		"Nullifies Growth [in all cities]"
+		"[+3] population in a random city<upon entering a Golden Age>"
+			],//文明特性具体效果
+			"cities": ["Fungal kingdom",]
+			
+	},
+	
+	{
+		"name": "Bird free pigeon nest",//无鸟鸽子窝
+		"leaderName": "麻雀",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [2, 180, 1],//文明内部色*
+		"innerColor": [217,5,20],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "麻雀虽小",//文明特性名
+		"uniques": [
+		"Receive triple Gold from Barbarian encampments and pillaging Cities"
+		"[-50]% Gold cost of upgrading"
+			],//文明特性具体效果
+			"cities": ["Bird free pigeon nest",]
+			
+	},
+	
+	{
+		"name": "Chaotic Pigeon Nest",//混沌鸽子窝
+		"leaderName": "特勒西",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [211, 155, 110],//文明内部色*
+		"innerColor": [37,35,210],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "混沌崇拜",//文明特性名
+		"uniques": [
+		"When defeating a [Barbarian] unit, earn [5] Gold and recruit it<with [25]% chance>"
+		"May buy [{Melee} {Land}] units with [Faith] for [3] times their normal Production cost"
+			],//文明特性具体效果
+			"cities": ["Chaotic Pigeon Nest",]
+			
+	},
+	
 ]
