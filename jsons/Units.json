@@ -172,7 +172,7 @@
 		"movement": 1,
 		"strength": 5,
 		"rangedStrength": 5,
-		"range": 3,
+		"range": 5,
 		"interceptRange": 0,
 		"hurryCostModifier": -50,
 		"cost": 40,
@@ -338,7 +338,7 @@
 		"cost": 150,
 		"uniques": [
 		"[2] additional attacks per turn", //可以多a一次
-		"[+100]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
+		"[+80]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
 		"[-150]% Strength <when attacking> <vs [Wounded] units>"//受伤的单位+10%力
 		],
 		"requiredTech": "Gunpowder",
@@ -887,6 +887,72 @@
 			"Can [Spread Religion] [1] times",//传教一次
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
+	},
+	
+	{
+		"name": "SP-8108As",
+		"uniqueTo": "Zeaikat",//泽埃伽泰
+		"replaces": "Bomber",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Bomber",
+		"movement": 1,
+		"strength": 50,
+		"rangedStrength": 75,
+		"range": 10,
+		"cost": 375,
+		"promotions": ["Blitz"],//免费晋升
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "Stealth Bomber",
+		"attackSound": "bombing"
+	},
+	
+	{
+		"name": "Free Pioneers",//自由开拓者
+		"uniqueTo": "Zeaikat",//泽埃伽泰
+		"replaces": "Destroyer",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Melee Water",
+		"movement": 8,
+		"strength": 55,
+		"interceptRange": 2,
+		"cost": 375,
+		"requiredTech": "Combustion",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"promotions": ["Lethal Strike"],//免费晋升
+		"attackSound": "shipguns"
+	},
+	
+	{
+		"name": "United Knights",//联合骑士
+		"uniqueTo": "Takeoff Federation",//起飞联邦
+		"replaces": "Knight",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 21,
+		"cost": 120,
+		"hurryCostModifier": -33,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
+		"Reduce the amount of money required to purchase this unit by 33%"
+		],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Nansi Musketeers",//南思火枪手
+		"uniqueTo": "Takeoff Federation",//起飞联邦
+		"replaces": "Musketman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 26,
+		"cost": 130,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Rifleman",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
 	},
 	
 ]

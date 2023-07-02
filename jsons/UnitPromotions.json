@@ -165,4 +165,12 @@
 	 ]
 	},
 	
+	{
+        "name": "Lethal Strike",//致命打击
+	 "uniques": [
+	 "[+33]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
+		"[-33]% Strength <when attacking> <vs [Wounded] units>"//受伤的单位+10%力
+	 ]
+	},
+	
 ]

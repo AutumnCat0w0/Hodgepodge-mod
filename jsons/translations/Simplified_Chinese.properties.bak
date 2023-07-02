@@ -5792,12 +5792,12 @@ Dice Divine Sect = 骰子神教
 The Paths of the Dead = 亡者之路
 Star Trailblazer = 星之开拓者
 Yunshan Tea House = 云山茶楼
-Zeai = 泽埃
+Zeai = 泽埃帝国
 Freedom Wings = 自由者之翼
 Fungal kingdom = 真菌国度
 Bird free pigeon nest = 无鸟鸽子窝
 Chaotic Pigeon Nest = 混沌鸽子窝
-
+Zeaikat = 泽埃伽泰
 
 
 # 建筑
@@ -5822,7 +5822,7 @@ Star Library = 星书馆
 Surrounding gift shops = 周边礼品店
 Breeding base = 繁育基地
 Artificial nest = 人工鸟巢
-
+Holy Hall = 神圣殿堂
 
 
 
@@ -5879,6 +5879,12 @@ Parrot = 鹦鹉
 Astrologer = 占星师
 Fierce Eagle = 很凶的老鹰
 Shadow of Chaos = 混沌之影
+Free Pioneers = 自由开拓者
+United Knights = 联合骑士
+Nansi Musketeers = 南思火枪手
+
+
+
 
 
 # 晋升
@@ -5890,6 +5896,7 @@ Decadal Trees = 十年树木
 The Undead Comes = 亡者降临
 Wings of Freedom = 自由之翼
 Fungal infection = 真菌感染
+Lethal Strike = 致命打击
 
 
 
@@ -5903,8 +5910,8 @@ Fungal infection = 真菌感染
 
 
 
-
-
+# 无效文本
+Reduce the amount of money required to purchase this unit by 33% = 购买此单位所需的金钱减少33%
 
 
 

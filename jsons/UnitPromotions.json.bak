@@ -114,7 +114,7 @@
         "name": "共感",
 	 "uniques": [
 	 "All adjacent units heal [10] HP when healing"
-	 "[+10]% Strength <when adjacent to a [Military] unit>"
+	 "[+9]% Strength <when adjacent to a [Military] unit>"
 	 "Heal this unit by [10] HP<upon ending a turn in a [Land] tile><when adjacent to a [Military] unit>",
 	 ]
 	},

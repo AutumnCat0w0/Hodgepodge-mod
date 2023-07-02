@@ -1586,11 +1586,67 @@
 		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
 		"uniqueName": "混沌崇拜",//文明特性名
 		"uniques": [
-		"When defeating a [Barbarian] unit, earn [5] Gold and recruit it"
+		"When defeating a [Barbarian] unit, earn [5] Gold and recruit it<with [25]% chance>"
 		"May buy [{Melee} {Land}] units with [Faith] for [3] times their normal Production cost"
 			],//文明特性具体效果
 			"cities": ["Chaotic Pigeon Nest",]
 			
 	},
 	
+	{
+		"name": "Zeaikat",//泽埃伽泰
+		"leaderName": "慕勒布朗·列叶·里亚姿蒙
+",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+	"startIntroPart1": "来看看这一片还没征服的地区！",//介绍1
+			"startIntroPart2": "空",//介绍2
+			//"startIntroPart3": "空",
+			"declaringWar": "哦好吧，你挡着我们挣钱了",//向玩家宣战
+			"attacked":"想抢劫？",//被玩家宣战
+			"defeated": "国库空了……",//被玩家打败时
+"introduction": "你好吗，来花园看看吧",//初见
+"neutralHello": "我闻到这的花香了，那是一片大的花海",//通常问候
+"hateHello": "从国家利益来看，我们应该谈谈",//战争时问候
+"tradeRequest": "做生意，不寒碜",//向玩家申请交易时
+			"outerColor": [151,160,221],//文明内部色*
+			"innerColor": [255,255,0],//文明外部色*
+			"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueName": "瑟提亚模式",//文明特性名
+		"uniques": [
+		"[-20]% Gold cost of upgrading <when at war>"
+		"[Gold] cost of purchasing [Melee] units [-33]% <when at war>"
+			],//文明特性具体效果
+			"cities": ["布朗里尼","佩里蒙","科里封","马赛","思其义","希南口","老府","西里里西","思其封","良里坨","字关","维森特期","京巩陵斯","维森特期","熊乐","福勒索菲","吉科蒙","特尔特期","索勒布朗尼桑拿","列安布亚","伟联勒姆","古联安","霞浦鲁哥","府陵坚里","冯提莫","法克贝尔","楠哥亚瑟","佃瑟里特","塞蒙切科"]
+			
+	},
+	
+	{
+		"name": "Takeoff Federation",//起飞联邦
+		"leaderName": "起某",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "起飞联邦，欢迎你的到来",//介绍1
+			"startIntroPart2": "欢迎你来到由四个民族统一建立的联邦，起飞联邦",//介绍2
+			//"startIntroPart3": "空",
+			"declaringWar": "你已经影响到了起飞联邦，我们必须做出抉择",//向玩家宣战
+			"attacked":"我相信由我们四个民族联合的军队很快就会将你打败",//被玩家宣战
+			"defeated": "起飞联邦从此之后就不存在了...被一个恶人..毁..灭..了..",//被玩家打败时
+"introduction": "看起来不错，交个朋友 ",//初见
+"neutralHello": "去河边钓鱼吗？",//通常问候
+"hateHello": "我觉得这场对双方无力的战争应该结束了，我们应该谈谈",//战争时问候
+"tradeRequest": "和平贸易，既得钱又得声誉",//向玩家申请交易时
+			"outerColor": [127,155,212],//文明内部色*
+			"innerColor": [240,255,255],//文明外部色*
+			"favouredReligion": "P",//当作为ai时选择的宗教
+			"uniqueName": "起飞联邦",//文明特性名
+		"uniques": [
+		"Free [Horseman] appears<upon declaring war with a major Civilization><after discovering [Horseback Riding]>"
+		"Free [Knight] appears<upon declaring war with a major Civilization><after discovering [Chivalry]>"
+			],//文明特性具体效果
+			"cities": ["起地","南思","荒芜","飞者","南平","西纳","延巴","卡齐纳","安其","扎贝","麦那","桑纳","意掩钉真","科拉","科音布拉","衷菲","莱斯","云中燕","满洪","布亚里","仲玉","阿克尚","樊扎","上克","马尔","奈克","明难","安可","安思"]
+			
+	},
 ]
