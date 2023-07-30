@@ -40,13 +40,6 @@ NationIcons/Acrisis
   index: -1
 NationIcons/Craftsman's Cabin
   rotate: false
-  xy: 712, 192
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/Forest League
-  rotate: false
   xy: 1232, 240
   size: 512, 512
   orig: 512, 512
@@ -59,6 +52,13 @@ UnitIcons/Beast Cavalry
   orig: 512, 512
   offset: 0, 0
   index: -1
+UnitIcons/Chicken Defender
+  rotate: false
+  xy: 712, 192
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
 
 game3.png
 size: 2048, 2048
@@ -67,54 +67,61 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Great Tomb of Nazarick
   rotate: false
-  xy: 4, 1044
+  xy: 4, 524
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
-BuildingIcons/Revelation
-  rotate: false
-  xy: 4, 4
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-BuildingIcons/SAO
-  rotate: false
-  xy: 524, 524
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-BuildingIcons/Springans studio
-  rotate: false
-  xy: 524, 4
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-BuildingIcons/Star Library
-  rotate: false
-  xy: 1044, 524
-  size: 512, 512
-  orig: 512, 512
-  offset: 0, 0
-  index: -1
-NationIcons/Knowledge
+BuildingIcons/Happy Animal Home
   rotate: false
   xy: 524, 1044
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
-NationIcons/Sea Tauren
+BuildingIcons/Revelation
+  rotate: false
+  xy: 524, 4
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+BuildingIcons/S monument
+  rotate: false
+  xy: 524, 4
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+BuildingIcons/SAO
+  rotate: false
+  xy: 1044, 524
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Mithril Cavern
   rotate: false
   xy: 1044, 1044
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
-NationIcons/Star Trailblazer
+NationIcons/Forest League
+  rotate: false
+  xy: 4, 1044
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Knowledge
+  rotate: false
+  xy: 524, 524
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+NationIcons/Sea Tauren
   rotate: false
   xy: 1044, 4
   size: 512, 512
@@ -123,7 +130,7 @@ NationIcons/Star Trailblazer
   index: -1
 UnitIcons/Hippo
   rotate: false
-  xy: 4, 524
+  xy: 4, 4
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
@@ -134,779 +141,1401 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-BuildingIcons/Belief barriers
+BuildingIcons/Springans studio
   rotate: false
-  xy: 524, 328
-  size: 256, 256
-  orig: 256, 256
+  xy: 4, 524
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
-BuildingIcons/Dice Inspiration
+BuildingIcons/Star Library
   rotate: false
-  xy: 1380, 796
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-BuildingIcons/Forest Altar
-  rotate: false
-  xy: 1124, 268
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-BuildingIcons/Mill
-  rotate: false
-  xy: 1644, 600
-  size: 256, 256
-  orig: 256, 256
+  xy: 524, 1044
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
 ImprovementIcons/Tea House
   rotate: false
-  xy: 4, 880
+  xy: 1044, 1044
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
-NationIcons/Bird's Nest
+NationIcons/Song's chaebol
   rotate: false
-  xy: 852, 616
-  size: 256, 256
-  orig: 256, 256
+  xy: 4, 1044
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
-NationIcons/Dice Divine Sect
+NationIcons/Star Trailblazer
   rotate: false
-  xy: 1116, 796
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-NationIcons/Fox's Nest
-  rotate: false
-  xy: 1388, 268
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-NationIcons/Freedom Wings
-  rotate: false
-  xy: 1044, 1324
-  size: 300, 300
-  orig: 300, 300
-  offset: 0, 0
-  index: -1
-NationIcons/Friends of the City State
-  rotate: false
-  xy: 1124, 4
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-NationIcons/Gamila
-  rotate: false
-  xy: 1388, 4
-  size: 256, 256
-  orig: 256, 256
+  xy: 4, 4
+  size: 512, 512
+  orig: 512, 512
   offset: 0, 0
   index: -1
 NationIcons/The Paths of the Dead
   rotate: false
-  xy: 524, 1400
+  xy: 524, 4
   size: 512, 512
   orig: 512, 512
-  offset: 0, 0
-  index: -1
-ResourceIcons/Jade
-  rotate: false
-  xy: 1636, 1392
-  size: 256, 256
-  orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Tea
   rotate: false
-  xy: 4, 1400
+  xy: 524, 524
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Alchemy Demon Statue
-  rotate: false
-  xy: 1044, 1632
-  size: 320, 280
-  orig: 320, 280
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/伊祖米克的子代
-  rotate: false
-  xy: 4, 72
-  size: 320, 280
-  orig: 320, 280
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/掠海漂移体
-  rotate: false
-  xy: 524, 592
-  size: 320, 280
-  orig: 320, 280
-  offset: 0, 0
-  index: -1
-UnitIcons/Ancient Egypt chariot
-  rotate: false
-  xy: 1372, 1656
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Astrologer
-  rotate: false
-  xy: 1044, 1060
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Axeman
-  rotate: false
-  xy: 1636, 1656
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Black Swordsman
-  rotate: false
-  xy: 332, 64
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Bull Warrior Warship
-  rotate: false
-  xy: 788, 328
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Dice Divine Envoy
-  rotate: false
-  xy: 1308, 1060
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Eagle and Bull
-  rotate: false
-  xy: 1116, 532
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Kibada Spearman
-  rotate: false
-  xy: 1572, 1128
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Lujiang Armored Soldier
-  rotate: false
-  xy: 1644, 864
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Parrot
-  rotate: false
-  xy: 1652, 336
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
-UnitIcons/Qingzhou Soldier
-  rotate: false
-  xy: 1652, 72
-  size: 256, 256
-  orig: 256, 256
-  offset: 0, 0
-  index: -1
 UnitIcons/Thunder Warrior
   rotate: false
-  xy: 4, 360
+  xy: 1044, 524
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
 UnitIcons/Tiger and Leopard Riding
   rotate: false
-  xy: 524, 880
+  xy: 1044, 4
   size: 512, 512
   orig: 512, 512
   offset: 0, 0
   index: -1
+
+game5.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingIcons/Artificial nest
+  rotate: false
+  xy: 1116, 1672
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Belief barriers
+  rotate: false
+  xy: 1644, 1672
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Black obelisk
+  rotate: false
+  xy: 596, 856
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Breeding base
+  rotate: false
+  xy: 788, 1384
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Infected spores
+  rotate: false
+  xy: 788, 1384
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Chicken farm
+  rotate: false
+  xy: 1580, 1408
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dice Inspiration
+  rotate: false
+  xy: 1388, 880
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Diligent Animal Park
+  rotate: false
+  xy: 1652, 1144
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Dog basin
+  rotate: false
+  xy: 268, 268
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Forest Altar
+  rotate: false
+  xy: 312, 576
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Gestalt consciousness
+  rotate: false
+  xy: 1368, 352
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Animal Home
+  rotate: false
+  xy: 4, 268
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Bird free pigeon nest
+  rotate: false
+  xy: 524, 1384
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Bird's Nest
+  rotate: false
+  xy: 332, 1120
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Chaotic Pigeon Nest
+  rotate: false
+  xy: 1316, 1408
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Dice Divine Sect
+  rotate: false
+  xy: 1388, 1144
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Dog Order
+  rotate: false
+  xy: 1652, 880
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Excalibur
+  rotate: false
+  xy: 1652, 616
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Fox's Nest
+  rotate: false
+  xy: 576, 592
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Freedom Wings
+  rotate: false
+  xy: 4, 532
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+NationIcons/Friends of the City State
+  rotate: false
+  xy: 840, 592
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Fungal kingdom
+  rotate: false
+  xy: 576, 328
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Gamila
+  rotate: false
+  xy: 1104, 352
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Giant Windmill
+  rotate: false
+  xy: 1632, 352
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Gini Taimei
+  rotate: false
+  xy: 532, 64
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Heavenly God Machine Soldier
+  rotate: false
+  xy: 1588, 88
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/ikun
+  rotate: false
+  xy: 4, 1416
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Alchemy Demon Statue
+  rotate: false
+  xy: 4, 1128
+  size: 320, 280
+  orig: 320, 280
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/伊祖米克的子代
+  rotate: false
+  xy: 524, 1648
+  size: 320, 280
+  orig: 320, 280
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/掠海漂移体
+  rotate: false
+  xy: 4, 840
+  size: 320, 280
+  orig: 320, 280
+  offset: 0, 0
+  index: -1
+UnitIcons/Ancient Egypt chariot
+  rotate: false
+  xy: 852, 1672
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Astrologer
+  rotate: false
+  xy: 4, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Axeman
+  rotate: false
+  xy: 1380, 1672
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Black Swordsman
+  rotate: false
+  xy: 332, 856
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Bull Warrior Warship
+  rotate: false
+  xy: 1052, 1408
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Dice Divine Envoy
+  rotate: false
+  xy: 1124, 880
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Dog follower
+  rotate: false
+  xy: 268, 4
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Eagle and Bull
+  rotate: false
+  xy: 1124, 616
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Fierce Eagle
+  rotate: false
+  xy: 1124, 616
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Great Guardian
+  rotate: false
+  xy: 1060, 64
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Guardian
+  rotate: false
+  xy: 1324, 88
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Black coat
   rotate: false
-  xy: 596, 64
+  xy: 596, 1120
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Corvee
+  rotate: false
+  xy: 860, 1120
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Damage absorption
+  rotate: false
+  xy: 860, 856
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Damage absorption-X
+  rotate: false
+  xy: 860, 856
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Decadal Trees
   rotate: false
-  xy: 860, 64
+  xy: 1124, 1144
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Elucidator
   rotate: false
-  xy: 1380, 532
+  xy: 1388, 616
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Gallop
+  rotate: false
+  xy: 840, 328
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Gallop-X
+  rotate: false
+  xy: 840, 328
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Gold Glory
   rotate: false
-  xy: 1372, 1392
+  xy: 796, 64
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 
-game5.png
-size: 2048, 1024
+game6.png
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Crystal Tower
   rotate: false
-  xy: 672, 4
+  xy: 1852, 1484
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 BuildingIcons/Dome Arena
   rotate: false
-  xy: 1742, 920
+  xy: 162, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Dove gathering place
   rotate: false
-  xy: 4, 28
+  xy: 1588, 1052
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Fengrao Monument 
   rotate: false
-  xy: 420, 20
+  xy: 270, 96
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Holy Hall
+  rotate: false
+  xy: 4, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Informatization
+  rotate: false
+  xy: 532, 1788
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/Lanshan
   rotate: false
-  xy: 528, 76
+  xy: 378, 96
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Mill
+  rotate: false
+  xy: 796, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Missionary Temple
+  rotate: false
+  xy: 4, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 BuildingIcons/Ri Tian shrine
   rotate: false
-  xy: 4, 764
+  xy: 796, 1260
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/Sphinx
   rotate: false
-  xy: 4, 500
+  xy: 268, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Super Library
+  rotate: false
+  xy: 1060, 1260
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/Supermarket
   rotate: false
-  xy: 4, 236
+  xy: 1324, 1524
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/Surrounding gift shops
   rotate: false
-  xy: 796, 556
+  xy: 1324, 524
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 BuildingIcons/Tauren Armament Warehouse
   rotate: false
-  xy: 268, 500
+  xy: 268, 204
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 BuildingIcons/Temple to a living person
   rotate: false
-  xy: 1060, 820
+  xy: 1588, 844
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+BuildingIcons/Theocratic society
+  rotate: false
+  xy: 796, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+BuildingIcons/Trading center 
+  rotate: false
+  xy: 1324, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 ImprovementIcons/Archives
   rotate: false
-  xy: 528, 4
+  xy: 1904, 772
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 ImprovementIcons/The Vatican
   rotate: false
-  xy: 532, 764
+  xy: 532, 468
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 NationIcons/Blue Jay Professoriate
   rotate: false
-  xy: 600, 4
+  xy: 594, 132
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 NationIcons/Dovecote
   rotate: false
-  xy: 532, 292
+  xy: 1060, 260
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Dovecote lightning
   rotate: false
-  xy: 1850, 920
+  xy: 1852, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitPromotionIcons/The Undead Comes
   rotate: false
-  xy: 1850, 920
+  xy: 1852, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 NationIcons/Glenn Empire
   rotate: false
-  xy: 532, 184
+  xy: 1852, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/War
+NationIcons/Holy Staff
   rotate: false
-  xy: 212, 28
-  size: 200, 200
-  orig: 200, 200
+  xy: 4, 1524
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
-NationIcons/【War】
+NationIcons/Immortal Shield
   rotate: false
-  xy: 212, 28
+  xy: 268, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Mostock
+  rotate: false
+  xy: 268, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Rune Continent
+  rotate: false
+  xy: 1060, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/SB
+  rotate: false
+  xy: 1324, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Spirit of Mori
+  rotate: false
+  xy: 532, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/Takeoff Federation
+  rotate: false
+  xy: 1588, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/VampirE
+  rotate: false
+  xy: 796, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/War
+  rotate: false
+  xy: 1588, 636
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Yunshan Tea House
   rotate: false
-  xy: 796, 764
+  xy: 1324, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+NationIcons/【War】
+  rotate: false
+  xy: 1796, 1052
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+ResourceIcons/Jade
+  rotate: false
+  xy: 4, 996
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 ResourceIcons/Rice
   rotate: false
-  xy: 1276, 748
+  xy: 1960, 1716
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Andosols
   rotate: false
-  xy: 1958, 965
+  xy: 1796, 673
   size: 64, 55
   orig: 64, 55
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Archives
   rotate: false
-  xy: 1588, 834
+  xy: 234, 4
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Atlantis
   rotate: false
-  xy: 740, 436
+  xy: 1852, 1556
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Crater lake
   rotate: false
-  xy: 740, 372
+  xy: 1960, 1916
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Devils Tower
   rotate: false
-  xy: 740, 308
+  xy: 1960, 1852
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Eye of the Sahara
   rotate: false
-  xy: 812, 364
+  xy: 1852, 1420
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Eyjafjallajokull
   rotate: false
-  xy: 1060, 756
+  xy: 738, 140
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Jade
   rotate: false
-  xy: 1132, 756
+  xy: 1960, 1788
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Mount Qomolangma
   rotate: false
-  xy: 1204, 754
+  xy: 1852, 1354
   size: 64, 58
   orig: 64, 58
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Pantanal
+  rotate: false
+  xy: 810, 140
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Tea
   rotate: false
-  xy: 812, 301
+  xy: 1960, 1653
   size: 64, 55
   orig: 64, 55
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Yggdrasil
   rotate: false
-  xy: 884, 400
+  xy: 162, 4
   size: 64, 84
   orig: 64, 84
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.09.28
   rotate: false
-  xy: 1004, 708
+  xy: 1532, 676
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.10.06
   rotate: false
-  xy: 1420, 764
+  xy: 1532, 620
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.10.20
   rotate: false
-  xy: 1476, 814
+  xy: 1268, 412
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.10.27
   rotate: false
-  xy: 884, 344
+  xy: 1324, 468
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.10.35
   rotate: false
-  xy: 1004, 652
+  xy: 1132, 204
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.10.44
   rotate: false
-  xy: 1060, 700
+  xy: 954, 148
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.10.50
   rotate: false
-  xy: 1532, 814
+  xy: 234, 40
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.10.57
   rotate: false
-  xy: 1004, 596
+  xy: 1532, 564
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.11.04
   rotate: false
-  xy: 1116, 700
+  xy: 1588, 580
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.11.10
   rotate: false
-  xy: 1060, 644
+  xy: 1268, 356
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.11.16
   rotate: false
-  xy: 1116, 644
+  xy: 1324, 412
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.11.23
   rotate: false
-  xy: 1634, 864
+  xy: 1380, 468
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.11.28
   rotate: false
-  xy: 1690, 864
+  xy: 1188, 204
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.11.34
   rotate: false
-  xy: 1746, 864
+  xy: 1010, 148
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/2023-06-23_21.11.39
   rotate: false
-  xy: 1802, 864
+  xy: 290, 40
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Ancient Egypt chariot
+  rotate: false
+  xy: 1960, 1980
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Anti-Aircraft Gun
+  rotate: false
+  xy: 1644, 580
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Anti-Tank Gun
+  rotate: false
+  xy: 1268, 300
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Artillery
+  rotate: false
+  xy: 1324, 356
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Black Swordsman
   rotate: false
-  xy: 1858, 864
+  xy: 1380, 412
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cannon
+  rotate: false
+  xy: 1436, 468
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Catapult
+  rotate: false
+  xy: 1066, 148
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Cavalry
+  rotate: false
+  xy: 346, 40
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Chariot Archer
   rotate: false
-  xy: 796, 500
-  size: 96, 48
-  orig: 96, 48
+  xy: 1060, 204
+  size: 64, 48
+  orig: 64, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Companion Cavalry
+  rotate: false
+  xy: 1700, 580
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Da Vinci Tank
+  rotate: false
+  xy: 1324, 300
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Horseman
+  rotate: false
+  xy: 1380, 356
+  size: 48, 48
+  orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Infected spores
   rotate: false
-  xy: 1476, 758
+  xy: 1436, 412
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Kibada Spearman
   rotate: false
-  xy: 1532, 758
+  xy: 1122, 148
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Knight
+  rotate: false
+  xy: 402, 40
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lancer
+  rotate: false
+  xy: 1380, 300
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Landship
+  rotate: false
+  xy: 1436, 356
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Lujiang Armored Soldier
   rotate: false
-  xy: 1060, 588
+  xy: 1178, 148
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mechanized Infantry
+  rotate: false
+  xy: 458, 40
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mobile SAM
+  rotate: false
+  xy: 1436, 300
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Modern Armor
+  rotate: false
+  xy: 514, 40
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Network Pigeon
   rotate: false
-  xy: 1914, 880
+  xy: 1492, 484
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Qingzhou Soldier
   rotate: false
-  xy: 1116, 588
+  xy: 1532, 508
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Rifleman
   rotate: false
-  xy: 1004, 540
+  xy: 1588, 524
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Robust Network Pigeon
   rotate: false
-  xy: 1588, 794
+  xy: 4, 6
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler
+TileSets/FantasyHex/Units/Rocket Artillery
   rotate: false
-  xy: 1348, 756
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Spearman
-  rotate: false
-  xy: 1060, 532
+  xy: 1644, 524
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/TOWER
+TileSets/FantasyHex/Units/Settler
   rotate: false
-  xy: 900, 492
+  xy: 1852, 1290
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/TOWER
+  rotate: false
+  xy: 882, 140
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tank
+  rotate: false
+  xy: 1700, 524
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Trebuchet
+  rotate: false
+  xy: 1268, 244
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Tree People
   rotate: false
-  xy: 1116, 532
+  xy: 1324, 244
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/White Army
   rotate: false
-  xy: 1958, 909
+  xy: 1380, 244
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats
   rotate: false
-  xy: 884, 288
+  xy: 1436, 244
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/妖灵
+  rotate: false
+  xy: 1756, 580
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/护鲲团
+  rotate: false
+  xy: 1756, 524
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/花色骑士
+  rotate: false
+  xy: 1868, 680
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/虎豹骑
+  rotate: false
+  xy: 1924, 1564
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/镇骨
+  rotate: false
+  xy: 1924, 1508
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/防御塔建筑师
+  rotate: false
+  xy: 1924, 1452
+  size: 48, 48
+  orig: 48, 48
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/黄巾力士
+  rotate: false
+  xy: 1924, 1396
   size: 48, 48
   orig: 48, 48
   offset: 0, 0
   index: -1
 UnitIcons/Alchemy Demon Statue
   rotate: false
-  xy: 420, 128
+  xy: 1852, 1944
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Da Vinci Tank
   rotate: false
-  xy: 1634, 920
+  xy: 1796, 736
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Defense Tower Architect 
   rotate: false
-  xy: 812, 428
+  xy: 666, 132
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
 UnitIcons/TOWER
   rotate: false
-  xy: 812, 428
+  xy: 666, 132
   size: 64, 64
   orig: 64, 64
   offset: 0, 0
   index: -1
+UnitIcons/Honor Iron Cavalry
+  rotate: false
+  xy: 4, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Kibada Spearman
+  rotate: false
+  xy: 268, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Lujiang Armored Soldier
+  rotate: false
+  xy: 532, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Nansi Musketeers
+  rotate: false
+  xy: 532, 1260
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 UnitIcons/Network Pigeon
   rotate: false
-  xy: 1172, 729
+  xy: 1976, 817
   size: 19, 19
   orig: 19, 19
+  offset: 0, 0
+  index: -1
+UnitIcons/Opening the Country Door
+  rotate: false
+  xy: 796, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Parrot
+  rotate: false
+  xy: 1060, 1788
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Patriarch
   rotate: false
-  xy: 640, 184
+  xy: 1852, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Qingzhou Soldier
+  rotate: false
+  xy: 268, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Ranger
+  rotate: false
+  xy: 532, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 UnitIcons/Robust Network Pigeon
   rotate: false
-  xy: 972, 529
+  xy: 594, 105
   size: 19, 19
   orig: 19, 19
   offset: 0, 0
   index: -1
+UnitIcons/Shadow of Chaos
+  rotate: false
+  xy: 4, 204
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 UnitIcons/Tree People
   rotate: false
-  xy: 268, 236
+  xy: 1588, 1524
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/United Knights
+  rotate: false
+  xy: 532, 204
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/VampirE guardian
+  rotate: false
+  xy: 1060, 732
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitIcons/Veteran
+  rotate: false
+  xy: 1588, 1260
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/Wakili
   rotate: false
-  xy: 532, 500
+  xy: 796, 204
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitIcons/伊祖米克的子代
   rotate: false
-  xy: 1476, 870
+  xy: 4, 46
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 UnitIcons/掠海漂移体
   rotate: false
-  xy: 1268, 820
+  xy: 1796, 844
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
+UnitPromotionIcons/Honing
+  rotate: false
+  xy: 268, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Honing-X
+  rotate: false
+  xy: 268, 1788
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pursuit
+  rotate: false
+  xy: 4, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Pursuit-X
+  rotate: false
+  xy: 4, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
 UnitPromotionIcons/Stealth in the forest
   rotate: false
-  xy: 268, 764
+  xy: 796, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tough
+  rotate: false
+  xy: 1060, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Tough-X
+  rotate: false
+  xy: 1060, 996
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/Vampire
+  rotate: false
+  xy: 1324, 996
   size: 256, 256
   orig: 256, 256
   offset: 0, 0
   index: -1
 UnitPromotionIcons/Wings of Freedom
   rotate: false
-  xy: 636, 76
+  xy: 486, 96
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/X Corps
+  rotate: false
+  xy: 1060, 468
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+UnitPromotionIcons/X Corps-X
+  rotate: false
+  xy: 1060, 468
+  size: 256, 256
+  orig: 256, 256
   offset: 0, 0
   index: -1
