@@ -172,9 +172,9 @@
 		"movement": 1,
 		"strength": 5,
 		"rangedStrength": 5,
-		"range": 5,
+		"range": 3,
 		"interceptRange": 0,
-		"hurryCostModifier": -50,
+		"hurryCostModifier": -35,
 		"cost": 40,
 		"requiredTech": "Archery",
 		"uniques": [
@@ -199,6 +199,7 @@
 		"upgradesTo": "Cavalry",
 		"uniques": [
 		"[+20]% Strength <for [Wounded] units>"//受伤的单位+10%力
+		"Can carry [3] [Parrot] units"
 		"Unbuildable", //不可建造
 		],
 		"attackSound": "horse"
@@ -357,7 +358,6 @@
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Guilds",
-		"upgradesTo": "Pikeman",
 		"uniques": [
 		"[+50]% Strength <vs [Mounted] units>"
 		],
@@ -955,4 +955,110 @@
 		"attackSound": "shot"
 	},
 	
+	{
+		"name": "Lvben Army",//旅贲军
+		"uniqueTo": "HuaHan",//泽埃
+		"replaces": "Knight",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 20,
+		"rangedStrength": 18,
+		"range": 1,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Veteran",//老兵
+		"uniqueTo": "Excalibur",//王者之剑
+		"replaces": "Archer",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 6,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"attackSound": "arrow"
+		"promotions": ["Pursuit"],//免费晋升
+	},
+	
+	{
+		"name": "Honor Iron Cavalry",//荣耀铁骑
+		"unitType": "Mounted",	
+		"uniqueTo": "Excalibur",//王者之剑
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 15,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Can move after attacking",
+		"[-33]% Strength <vs cities> <when attacking>"
+		
+		],
+		"promotions": ["Great Generals I","Gallop"],//免费晋升
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Guardian",//守护者
+		"uniqueTo": "Immortal Shield",//不朽之盾
+		"replaces": "Pikeman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>"
+		"[+35]% Strength <vs [Mounted] units><when defending><when adjacent to a [Pikeman] unit>"
+		"[+15]% Strength <vs [Ranged] units><when defending><when adjacent to a [Pikeman] unit>"
+		],
+		"promotions": ["Damage absorption"],//免费晋升
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
+	{
+	    "name": "Great Guardian",//大守护者
+		"uniqueTo": "Immortal Shield",//不朽之盾
+		"replaces": "Great General",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"uniques": [
+		    "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Empire enters a [6]-turn Golden Age <[1] times>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <for [4] movement><[1] times>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 4
+	},
+	
+	{
+		"name": "「Opening the Country Door」",//“打开国门”
+		"uniqueTo": "Holy Staff",//神圣之杖
+		"replaces": "Catapult",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
 ]

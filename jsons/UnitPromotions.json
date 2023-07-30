@@ -167,9 +167,134 @@
 	
 	{
         "name": "Lethal Strike",//致命打击
-	 "uniques": [
+	    "uniques": [
 	 "[+33]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
 		"[-33]% Strength <when attacking> <vs [Wounded] units>"//受伤的单位+10%力
+	 ]
+	},
+	
+	{
+        "name": "SB up",//SB up
+	    "uniques": [
+		"[+33]% Strength<vs [Barbarian] units>"
+		"Must set up to ranged attack"
+        "[-1] Movement",//移动减少
+        "Heal this unit by [3] HP<upon ending a turn in a [Land] tile>",
+	 ]
+	},
+	
+	{
+        "name": "Honing",//磨砺
+	    "uniques": [
+		"This Unit gains the [Honing-X] promotion<upon defeating a [All] unit>",
+	 ]
+	},
+	
+	{
+        "name": "Honing-X",//磨砺-附属
+	    "uniques": [
+		"[+2]% Strength<for [10] turns>"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Gallop",//疾行
+	    "uniques": [
+		"This Unit gains the [Gallop-X] promotion<upon defeating a [All] unit>",
+	 ]
+	},
+	
+	{
+        "name": "Gallop-X",//疾行-附属
+	    "uniques": [
+		"[+1] Movement<for [3] turns><for [Honor Iron Cavalry] units>"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Pursuit",//追击
+	    "uniques": [
+		"This Unit gains the [Pursuit-X] promotion<upon defeating a [All] unit>",
+	 ]
+	},
+	
+	{
+        "name": "Pursuit-X",//追击-X
+	    "uniques": [
+		"[1] additional attacks per turn<for [1] turns><for [Veteran] units>"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Tough",//坚韧
+	    "uniques": [
+	    "Heal this unit by [10] HP<for [1] movement><[3] times>"
+	 ]
+	},
+	
+	/*{
+        "name": "Tough-X",//坚韧-附属
+	    "uniques": [
+		"Heal this unit by [10] HP<upon ending a turn in a [Land] tile><for [5] turns>"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},*/
+	
+	{
+        "name": "Damage absorption",//伤害吸收
+	    "uniques": [
+		"This Unit gains the [Damage absorption-X] promotion<upon losing at least [10] HP in a single attack>",
+	 ]
+	},
+	
+	{
+        "name": "Damage absorption-X",//伤害吸收-附属
+	    "uniques": [
+		"Heal this unit by [5] HP"
+		"This Unit gains [2] XP"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Corvee I",//劳役
+	    "uniques": [
+	    "Can instantly construct a [Plantation] improvement <for [2] movement><[1] times>"//造种植园
+	    "Can instantly construct a [Mine] improvement <for [2] movement><[1] times>"//造矿井
+	    "Can instantly construct a [Pasture] improvement <for [2] movement><[1] times>"//造牧场
+	 ]
+	},
+	
+	{
+        "name": "Corvee II",//劳役
+	    "uniques": [
+	    "This Unit gains the [Corvee III] promotion<for [0] movement><[1] times>"
+	 ]
+	},
+	
+	{
+        "name": "Corvee III",//劳役
+	    "uniques": [
+	    "[-100]% tile improvement construction time<for [1] turns>"
+	    "Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "X Corps",//X军团
+	    "uniques": [
+	    "This Unit gains the [X Corps-X] promotion<for [0] movement><[2] times>"
+	 ]
+	},
+	
+	{
+        "name": "X Corps-X",//X军团-附属
+	    "uniques": [
+		"[+1] Movement<for [2] turns>"
+		"Doing so will consume this opportunity to choose a Promotion"
 	 ]
 	},
 	

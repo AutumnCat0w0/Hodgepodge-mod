@@ -5,7 +5,7 @@ Allow City States to spawn with additional units,//允许城邦使用mod单位
 
 
 constants://常量
-{maxXPfromBarbarians:30,//来自蛮子的最大经验
+{maxXPfromBarbarians:99999,//来自蛮子的最大经验（默认30）
 //cityStrengthBase :20,//城市初始力
 //cityStrengthFromTechsMultiplier:4,//来自科技的城市实力
 //cityStrengthFromTechsExponent:4,//来自技术城市实力

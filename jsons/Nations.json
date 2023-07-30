@@ -347,7 +347,7 @@
 	    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
 	   "Receive triple Gold from Barbarian encampments and pillaging Cities",//
 	   "No movement cost to pillage"//无移动劫掠
-	   "May buy [河马] units with [Faith] for [2] times their normal Production cost",
+	   "May buy [Hippo] units with [Faith] for [2] times their normal Production cost",
 		],//文明特性具体效果
 		"cities": ["雀巢",]
 	},
@@ -732,7 +732,7 @@
 		"[+30]% [Faith] [in annexed cities]"
 		"[+30]% [Gold] [in annexed cities]"
 		"[+30]% [Food] [in annexed cities]"
-		//"[+100 Production] [in all cities]"
+		//"[+3 Production] [in all cities]"
 			],//文明特性具体效果
 			"cities": ["星书馆",]
 			
@@ -1213,7 +1213,7 @@
 		"outerColor": [111, 215, 0],//文明内部色*
 		"innerColor": [100,131,0],//文明外部色*
 		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "分别有25%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的人口增长增加20%/40%/60%\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"
+		"uniqueText": "分别有25%的概率使你发单位可以额外攻击一次。\n有60%/30%/15%的概率使每个城市的人口增长增加20%/40%/60%\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"
 		"uniqueName": "随机应变",//文明特性名
 		"uniques": [
 		"May choose [1] additional belief(s) of any type when [founding] a religion"
@@ -1222,7 +1222,7 @@
 	"[+20]% growth [in all cities]<with [30]% chance>"
 	"[+20]% growth [in all cities]<with [15]% chance>"
 	"[1] additional attacks per turn<with [25]% chance>", //可以多a一次
-	"[+1] Movement <for [All] units> <with [25]% chance>",
+	//"[+1] Movement <for [All] units> <with [25]% chance>",
 			],//文明特性具体效果
 			"cities": ["骰子群","骰子团","骰子窝","骰子圣地",]
 			
@@ -1504,6 +1504,7 @@
 		"Each city founded increases culture cost of policies [200]% less than normal"
 		"[Melee] units gain the [吸血鬼] promotion",
 	"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
+	"Earn [100]% of killed [Barbarian] unit's [Strength] as [Gold]",//杀人拿战力的
 			],//文明特性具体效果
 			"cities": ["吸血中心",]
 			
@@ -1649,4 +1650,172 @@
 			"cities": ["起地","南思","荒芜","飞者","南平","西纳","延巴","卡齐纳","安其","扎贝","麦那","桑纳","意掩钉真","科拉","科音布拉","衷菲","莱斯","云中燕","满洪","布亚里","仲玉","阿克尚","樊扎","上克","马尔","奈克","明难","安可","安思"]
 			
 	},
+	
+	{
+		"name": "Giant Windmill",//大风车
+		"leaderName": "酒瓶",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [11, 15, 10],//文明内部色*
+		"innerColor": [137,35,210],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "大风车吱呀吱哟哟地转",//文明特性名
+		"uniques": [
+		"Gain a free [Windmill] [in all cities]<in tiles without [Hill]>"
+		"[+1 Food, -1 Production] from [Hill] tiles [in this city]",//淡水非冲击的沙漠加粮
+			],//文明特性具体效果
+			"cities": ["Giant Windmill",]
+			
+	},
+	
+	{
+		"name": "SB",//撒比
+		"leaderName": "SB",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [255, 125, 150],//文明内部色*
+		"innerColor": [17,135,110],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "我是SB",//文明特性名
+		"uniques": [
+		"[All] units gain the [SB up] promotion",
+			],//文明特性具体效果
+			"cities": ["SB",]
+			
+	},
+	
+	{
+		"name": "HuaHan",//华汉
+		"leaderName": "王明宝",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [255, 125, 250],//文明内部色*
+		"innerColor": [17,35,10],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "比例税制",//文明特性名
+		"uniques": [
+		"[+100]% [Gold]"
+			],//文明特性具体效果
+			"cities": ["华汉",]
+			
+	},
+	
+	{
+		"name": "Excalibur",//王者之剑
+		"leaderName": "King",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [25, 0, 255],//文明内部色*
+		"innerColor": [17,35,10],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "Excalibur",//文明特性名
+		"uniques": [
+		"[All] units gain the [Honing] promotion",
+			],//文明特性具体效果
+			"cities": ["Excalibur",]
+			
+	},
+	
+	
+	{
+		"name": "Immortal Shield",//不朽之盾
+		"leaderName": "Guardian",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [25, 215, 25],//文明内部色*
+		"innerColor": [17,35,10],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "Immortal Shield",//文明特性名
+		"uniques": [
+		"[All] units gain the [Tough] promotion",
+			],//文明特性具体效果
+			"cities": ["Immortal Shield",]
+			
+	},
+	
+	{
+		"name": "Holy Staff",//神圣之杖
+		"leaderName": "教皇",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [25, 125, 65],//文明内部色*
+		"innerColor": [17,35,109],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
+		"uniqueName": "Holy Staff",//文明特性名
+		"uniques": [
+		"[Worker] units gain the [Corvee I] promotion",
+		"[+1 Faith] from every [Pasture]", 
+		"[+1 Gold] from every [Mine]",
+		"[+1 Faith, +1 Gold] from every [Plantation]", 
+			],//文明特性具体效果
+			"cities": ["Holy Staff",]
+			
+	},
+	
 ]

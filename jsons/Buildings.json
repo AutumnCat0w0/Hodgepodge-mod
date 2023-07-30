@@ -715,4 +715,99 @@
 		"specialistSlots": {"Artist": 1},
 		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
 	},
+	
+	{
+		"name": "River crabs are obstructing",//河蟹有碍
+		"uniqueTo": "Giant Windmill",//大风车
+		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
+		"cityStrength": 0,
+		"cityHealth": 0,
+		"happiness":2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": [
+		"[-4]% Strength"
+		"Destroyed when the city is captured"
+		]
+	},
+	
+	{
+		"name": "Children channel",//少儿频道
+		"uniqueTo": "Giant Windmill",//大风车
+		"replaces": "Broadcast Tower",//所代替原版的建筑（如果不想取代可以不写这项）
+		"culture": 3,
+		"happiness": 4,
+		"percentStatBonus": {"culture": 33},
+		//"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": [
+		"[+1]% [Culture] from every [Building]"
+		"[+3 Culture] from every [Wonders]"
+		"Destroyed when the city is captured"]
+	},
+	
+	{
+		"name": "S monument",//撒碑
+		"uniqueTo": "SB",
+		"replaces": "Monument",//所代替
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+		"[1] free [Worker] units appear"
+		"[1] free [Scout] units appear"
+		"Destroyed when the city is captured"]
+	},
+	
+	{
+		"name": "Super Library",//超●图书馆
+		"uniqueTo": "SB",
+		"replaces": "The Great Library",//所代替
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"percentStatBonus": {"science": 25},
+		"isNationalWonder": true,
+		"requiredTech": "Writing",
+		"uniques": ["Free Technology", 
+		"Gain a free [Library] [in this city]"
+		"[+1] Movement",//移动减少
+		"Triggers the following global alert: [我们SB有智慧！]"
+		],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+	},
+	
+	{
+		"name": "Guoxue Society",//国学社
+		"uniqueTo": "HuaHan",
+		"replaces": "University",//所代替
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 60},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"
+		"[+2 Science] from [Academy] tiles [in this city]"
+		],
+		"requiredTech": "Education"
+	},
+	
+	{
+		"name": "Theocratic society",//神权教廷
+		"uniqueTo": "Holy Staff",//神圣之杖
+		"replaces": "Shrine",//所代替原版的建筑（如果不想取代可以不写这项）
+		"faith": 1,
+		"maintenance": 1,
+		"cost": 40,
+		"requiredTech": "Pottery",
+		"uniques": [
+		"[Worker] units gain the [Corvee II] promotion",
+		"[Military] units gain the [X Corps] promotion",
+		"Hidden when religion is disabled"]
+	},
+	
+	
+	
 ]
