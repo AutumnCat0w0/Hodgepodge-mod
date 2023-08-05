@@ -1,5 +1,7 @@
 [//晋升
+
     
+    ///////////////
     
     {
 	"name": "高山之心",
@@ -16,7 +18,7 @@
 	
 	
 	{
-	"name": "Wings of Freedo",//自由之翼
+	"name": "Wings of Freedom",//自由之翼
 		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory",
 			"Can pass through impassable tiles"
 		],
@@ -33,25 +35,18 @@
     {
 	"name": "The Undead Comes",//亡者降临
 		"uniques": [
-		"May capture killed [Military] units<with [120]% chance>",
+		"May capture killed [Military] units",
 		"Damage is ignored when determining unit Strength <for [Land] units>"
 		"Unit will heal every turn, even if it performs an action"//每回合都会回血
 		"[-12] HP when healing"
 		"[+5]% Strength<when below [80] HP>"
-		"[+5]% Strength<when below [60] HP>"
-		"[+5]% Strength<when below [40] HP>"
-		"[+5]% Strength<when below [20] HP>"
+		"[+10]% Strength<when below [60] HP>"
+		"[+15]% Strength<when below [40] HP>"
+		"[+20]% Strength<when below [20] HP>"
 		],
 	},
 	
-	
-	{
-        "name": "信仰狂热",
-	 "uniques": [
-	"[-10]% Strength <in [Rough terrain] tiles>",
-	 
-	 ],
-        },
+
         
     {
         "name": "Gold Glory",//黄金荣耀
@@ -93,7 +88,7 @@
 	},
 	
 	{
-        "name": "深海进化",
+        "name": "Deep-sea evolution",//深海进化
 	 "uniques": [
 	 "[+1] Movement <in [Water] tiles>"
 	 //"This Unit gains [1] XP<with [33]% chance><upon ending a turn in a [Land] tile>"
@@ -102,7 +97,7 @@
 	},
 	
 	{
-        "name": "深海捕食",
+        "name": "Deep-sea predation",//深海捕食
 	 "uniques": [
 	 "Heal this unit by [-20] HP<upon ending a turn in a [Desert] tile>",
 	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
@@ -150,7 +145,7 @@
 	},
 	
 	{
-        "name": "吸血鬼",
+        "name": "Vampire",//吸血鬼
 	 "uniques": [
 	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
 	 "[+33]% Strength<vs [Barbarian] units>"
@@ -262,21 +257,27 @@
 	{
         "name": "Corvee I",//劳役
 	    "uniques": [
-	    "Can instantly construct a [Plantation] improvement <for [2] movement><[1] times>"//造种植园
-	    "Can instantly construct a [Mine] improvement <for [2] movement><[1] times>"//造矿井
-	    "Can instantly construct a [Pasture] improvement <for [2] movement><[1] times>"//造牧场
+	    "This Unit gains the [Corvee II] promotion<for [0] movement><[2] times>"
+	 ]
+	},
+	
+	{
+        "name": "Corvee+ I",//劳役
+	    "uniques": [
+	    "This Unit gains the [Corvee+ II] promotion<for [0] movement><[3] times>"
 	 ]
 	},
 	
 	{
         "name": "Corvee II",//劳役
 	    "uniques": [
-	    "This Unit gains the [Corvee III] promotion<for [0] movement><[1] times>"
+	    "[-90]% tile improvement construction time<for [1] turns>"
+	    "Doing so will consume this opportunity to choose a Promotion"
 	 ]
 	},
 	
 	{
-        "name": "Corvee III",//劳役
+        "name": "Corvee+ II",//劳役
 	    "uniques": [
 	    "[-100]% tile improvement construction time<for [1] turns>"
 	    "Doing so will consume this opportunity to choose a Promotion"
@@ -286,7 +287,7 @@
 	{
         "name": "X Corps",//X军团
 	    "uniques": [
-	    "This Unit gains the [X Corps-X] promotion<for [0] movement><[2] times>"
+	    "This Unit gains the [X Corps-X] promotion<for [0] movement><[1] times>"
 	 ]
 	},
 	
@@ -298,4 +299,49 @@
 	 ]
 	},
 	
+	{
+        "name": "Bullet Screen Evasion Expert",//弹幕躲避高手
+	    "uniques": [
+	    "[+20]% Strength<when defending><for units with [Accuracy I]>"
+	    "[+20]% Strength<when defending><for units with [Accuracy II]>"
+	    "[+20]% Strength<when defending><for units with [Accuracy III]>"
+	    "[+20]% Strength<when defending><for units with [Barrage I]>"
+	    "[+20]% Strength<when defending><for units with [Barrage II]>"
+	    "[+20]% Strength<when defending><for units with [Barrage III]>"
+	 ]
+	},
+	
+	{
+        "name": "Hedgehog",//刺猬
+	    "uniques": [
+		"Deals 5 damage to enemies attacking our unit and loses 2XP"//无效文本
+		"Hedgehog"
+	 ]
+	},
+	
+	{
+        "name": "The Power of Unity",//统合之力
+	    "uniques": [
+	    "[+15]% Strength<when above [1] [Race Chess]><when fighting units from a Civilization with more Cities than you>"
+		"[+15]% Strength <in [Forest] tiles> <when above [2] [Race Chess]>"
+		
+		"[+1] Movement <for [Melee] units> <in [Open terrain] tiles> <when above [4] [Race Chess]>"
+		
+		"[0] Movement point cost to disembark<when above [6] [Race Chess]>"
+		"May attack when embarked<when above [6] [Race Chess]>"
+		"This Unit gains the [Pseudocode - Heavenly Strike] promotion<for [0] movement><[0] times> <when above [7] [Race Chess]> "
+	    
+	    
+	    
+	 ]
+	},
+	
+	{
+        "name": "Pseudocode - Heavenly Strike",//伪典-天击
+	    "uniques": [
+	    "Free [Pseudocode - Heavenly Strike] appears<when above [7] [Race Chess]>"
+	    "Instantly consumes [4] [Race Chess]<when above [7] [Race Chess]>"
+	    "Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
 ]

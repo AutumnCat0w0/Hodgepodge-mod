@@ -1,14 +1,5 @@
 [   
     
-    /*{
-		"name": "↑更新公告",
-		"uniques": ["Unbuildable", //无法建造
-		"Uncapturable"//无法捕获
-		"Cannot be purchased"//无法购买
-		]
-	    "replacementTextForUniques": "\n [*1.16版更新公告]\n [Cannot move] \n [削弱了][小竹屋 动物大家庭！][鸽子窝]的文明特性]\n [[档案馆]提供的科技减少1，同时在丘陵地块上获得1产能 \n 新增文明[ikun]\n"
-	},*/
-    
     {
 		"name": "Statue of Zeus",//宙斯神像
 		"culture": 1,
@@ -122,8 +113,7 @@
 		"requiredTech": "Masonry",
 		"uniques": [
 		"[+3 Production] from [Mountain] tiles [in this city]",
-		//"[+1 Production, +1 Food] from [Mountain] tiles [in this city] <after discovering [Civil Service]>"
-		//"Automatically built in all cities where it is buildable"可建造时赠送
+		"[+1 Food] from [Mountain] tiles [in this city] <after discovering [Civil Service]>"
 		"Destroyed when the city is captured"
 		]
 	},
@@ -170,8 +160,8 @@
 	},
 	
 	{
-		"name": "汪神德狗盆",
-		"uniqueTo": "汪神教",
+		"name": "Dog basin",//汪神德狗盆
+		"uniqueTo": "Dog Order",//汪神教
 		"replaces": "Granary",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food": 2,
 		"gold": 2,
@@ -184,8 +174,8 @@
 	},
 	
 	{
-		"name": "快乐动物之家！",
-		"uniqueTo": "小竹屋 动物大家庭！",
+		"name": "Happy Animal Home",//快乐动物之家！
+		"uniqueTo": "Animal Home",//小竹屋 动物大家庭！
 		"replaces": "Circus",//所代替原版的建筑（如果不想取代可以不写这项）
 		"cost": 80,
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
@@ -197,8 +187,8 @@
 	},
 	
 	{
-		"name": "辛勤动物之地！",
-		"uniqueTo": "小竹屋 动物大家庭！",
+		"name": "Diligent Animal Park",//辛勤动物之地！
+		"uniqueTo": "Animal Home",//小竹屋 动物大家庭！
 		"replaces": "Granary",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food": 2,
 		"cost": 60,
@@ -287,8 +277,8 @@
 	},
 	
 	{
-		"name": "传教坛",
-		"uniqueTo": "黄巾军",
+		"name": "Missionary Temple",//传教坛
+		"uniqueTo": "VampirE",//黄巾军
 		"replaces": "Granary",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food": 2,
 		"cost": 60,
@@ -351,7 +341,7 @@
 		"uniques": [
 		"[+1 Science] per [2] population [in this city]"
 		"[+2 Science] per [7] population [in this city]"
-		"[+7]% Strength<when below [77] HP>"
+		"[+17]% Strength<when below [77] HP><in this city>"
 		],
 		"requiredTech": "Writing"
 	},
@@ -375,7 +365,7 @@
 	
 	{
 		"name": "Ri Tian shrine",//日天神社
-		"uniqueTo": "基尼台美",
+		"uniqueTo": "Gini Taimei",//基尼台美
 		"replaces": "Shrine",//所代替原版的建筑（如果不想取代可以不写这项）
 		"faith": 1,
 		"cost": 40,
@@ -422,7 +412,7 @@
 	
 	{
 		"name": "科技交流会",
-		"uniqueTo": "莫斯托克",
+		"uniqueTo": "Mostock",//莫斯托克
 		"replaces": "University",//所代
 		"science": 2,
 		"maintenance": 2,
@@ -436,7 +426,7 @@
 	
 	{
 		"name": "Crystal Tower",//水晶塔
-		"uniqueTo": "符文大陆",
+		"uniqueTo": "Rune Continent",//符文大陆
 		"replaces": "Palace",//所代替
 		"isNationalWonder": true,
 		"production": 3,
@@ -466,7 +456,7 @@
 	},
 	
 	{
-		"name": "养鸡场",
+		"name": "Chicken farm",//养鸡场
 		"uniqueTo": "ikun",
 		"replaces": "Stable",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food":2,
@@ -566,8 +556,8 @@
 	
 	
 	{
-		"name": "雕石碑林",//纪念碑
-		"uniqueTo": "大群意志 生长",
+		"name": "Forest of carved stone tablets",//雕石碑林
+		"uniqueTo": "Mass Will - Growth",//大群意志-生长
 		"replaces": "Monument",//所代替
 		"culture": 2,
 		"science":2,
@@ -610,8 +600,8 @@
 	},
 	
 	{
-		"name": "格式塔意识",
-		"uniqueTo": "天神机兵",
+		"name": "Gestalt consciousness",//格式塔意识
+		"uniqueTo": "Heavenly God Machine Soldier",//天神机兵
 		"replaces": "Courthouse",//所代替原版的建筑（如果不想取代可以不写这项）
 		"maintenance": 4,
 		"happiness":1,
@@ -624,8 +614,8 @@
 		"requiredTech": "Mathematics"
 	},
 	
-	{"name": "信息化",
-		"uniqueTo": "天神机兵",
+	{"name": "Informatization",//信息化
+		"uniqueTo": "Heavenly God Machine Soldier",//天神机兵
 		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -650,11 +640,11 @@
 	},
 	
 	{
-		"name": "交易中心",
-		"uniqueTo": "宋氏财阀",
+		"name": "Trading center",//交易中心
+		"uniqueTo": "Song's chaebol",//宋氏财阀
 		"replaces": "Market",//所代替原版的建筑（如果不想取代可以不写这项）
 		"gold": 2,
-		"science":3,
+		"science":2,
 		"specialistSlots": {"Merchant": 1},
 		"uniques": [
 		//"[-25]% maintenance cost for buildings [in all cities]"
@@ -665,8 +655,8 @@
 	},
 	
 	{
-		"name": "黑色方尖碑",//纪念碑
-		"uniqueTo": "宋氏财阀",
+		"name": "Black obelisk",//黑色方尖碑
+		"uniqueTo": "Song's chaebol",//宋氏财阀
 		"replaces": "Monument",//所代替
 		"culture": 2,
 		"happiness":1,
@@ -803,10 +793,132 @@
 		"cost": 40,
 		"requiredTech": "Pottery",
 		"uniques": [
-		"[Worker] units gain the [Corvee II] promotion",
+		"[Worker] units gain the [Corvee+ I] promotion",
 		"[Military] units gain the [X Corps] promotion",
 		"Hidden when religion is disabled"]
 	},
+	
+	{
+		"name": "Trash can",//垃圾桶
+		"uniqueTo": "The King of Garbage",//垃圾之王
+		"replaces": "Granary",//所代替原版的建筑（如果不想取代可以不写这项）
+		"food": 2,
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 30,
+		"uniques": [
+		"[+1 Food] from [Rough terrain] tiles [in this city]<with [1] to [6] neighboring [Bonus resource] tiles><starting from the [Industrial era]>",//白地加成
+		"[+1 Food] from [Rough terrain] tiles [in this city]<with [1] to [6] neighboring [Luxury resource] tiles><starting from the [Medieval era]>",//白地加成
+		"[+1 Food] from [Rough terrain] tiles [in this city]<with [1] to [6] neighboring [Strategic resource] tiles>",//白地加成
+			],
+		"requiredTech": "Pottery"
+	},
+	
+	{
+		"name": "Garbage station",//垃圾站
+		"uniqueTo": "The King of Garbage",//垃圾之王
+		"replaces": "Stable",//所代替原版的建筑（如果不想取代可以不写这项）
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+		"[+1 Production] from [Open terrain] tiles [in this city]<with [1] to [6] neighboring [Bonus resource] tiles><starting from the [Industrial era]>",//白地加成
+		"[+1 Production] from [Open terrain] tiles [in this city]<with [1] to [6] neighboring [Luxury resource] tiles><starting from the [Medieval era]>",//白地加成
+		"[+1 Production] from [Open terrain] tiles [in this city]<with [1] to [6] neighboring [Strategic resource] tiles>",//白地加成
+		"[+15]% Production when constructing [Mounted] units [in this city]"
+		]
+		"requiredTech": "Horseback Riding"
+	},
+	
+	{
+		"name": "Stele of Famous Officials",//名仕碑
+		"uniqueTo": "A majestic country",//雄伟之国
+		"replaces": "Monument",//所代替
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+		//"Obtaining 1 engineer seat newly added"
+		"[+15 Gold] whenever a Great Person is expended"
+		"[+1 Food] from every specialist [in this city]"
+		"Destroyed when the city is captured"]
+	},
+	
+	{
+	    "name": "Grand Garden",//宏伟园林
+		"uniqueTo": "A majestic country",//雄伟之国
+		"replaces": "Garden",//所代替
+		"food":2,
+		"specialistSlots": {"Engineer": 1},
+		"uniques": [
+		"[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"
+		"[+1 Food] from every specialist [in all cities]"
+		"Obtaining 1 engineer seat newly added"
+		],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Construction"
+	},
+	
+	
+	/*{
+		"name": "Earth Spirit Hall",//地灵殿
+		"uniqueTo": "Earth Spirit Hall",//地灵殿
+		"replaces": "Palace",//所代替
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 2,
+		"culture": 1,
+		"cityStrength": 5,
+		"cityHealth": 20,
+		"cost": 1,
+		"uniques": [
+		"Indicates the capital city"]
+	},*/
+	
+	{
+		"name": "Hakurei Shrine",//博丽神社
+		"uniqueTo": "Hakurei Shrine",//博丽神社
+		"replaces": "Shrine",//所代替
+		"happiness": 2,
+		"faith": 2,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": [
+		"[-1 Gold] per [1] population [in this city]",
+		"[+15]% [Gold] from Trade Routes"
+		"Hidden when religion is disabled"]
+	},
+	
+	
+	{
+	    "name": "Game Arena",//游戏斗技场
+		"uniqueTo": "Elchia Federation",//艾尔奇亚联邦
+		"replaces": "Colosseum",//所代替
+		"maintenance": 0,
+		"hurryCostModifier": 25,
+		"uniques": [
+		"[+1 Happiness, +1 Science] per [2] population [in this city]",
+		"Destroyed when the city is captured"]
+		"requiredTech": "Construction"
+	},
+	
+	{
+		"name": "Secret Study",//隐秘书斋
+		"uniqueTo": "Elchia Federation",//艾尔奇亚联邦
+		"replaces": "Library",//所代替原版的建筑（如果不想取代可以不写这项）
+		"cost":40,
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		"[+1 Science] per [2] population [in this city]"
+		"[+40 Science] whenever a Great Person is expended"
+		],
+		"requiredTech": "Writing"
+	},
+	
 	
 	
 	

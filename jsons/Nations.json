@@ -224,7 +224,7 @@
 			"uniqueName": "俯瞰世界",//文明特性名
 			"uniques": [
 			"[+1] Sight <for [All] units>",//增加视野
-		"[All] units gain the [Wings of Freedom] promotion"
+		"[Land] units gain the [Wings of Freedom] promotion"
 			],//文明特性具体效果
 			"cities": ["翱","羽","翼","比","翎","翅",]
 			
@@ -291,7 +291,7 @@
 	
 	
 	{
-			"name": "汪神教",
+			"name": "Dog Order",//汪神教
 			"leaderName": "群汪神",
 			"adjective": ["狗窝"],
 		//"startBias": ["Forest"],//起始偏好
@@ -355,7 +355,7 @@
 	
 	
 	{
-			"name": "小竹屋 动物大家庭！",
+			"name": "Animal Home",//小竹屋 动物大家庭！
 			"leaderName": "竹纸",
 			"adjective": ["小竹屋"],
 		//"startBias": ["Forest"],//起始偏好
@@ -489,9 +489,9 @@
 	
 	
 	{
-			"name": "黄巾军",
+			"name": "VampirE",//黄巾军
 			"leaderName": "张角",
-			"adjective": ["黄巾军"],
+			"adjective": ["VampirE"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		
 			"startIntroPart1": "咕咕咕",//介绍1
@@ -661,9 +661,9 @@
 			"uniqueName": "重商主义",//文明特性名
 			"uniques": [
 		"[+2 Gold, +2 Science] from each Trade Route", 
-		"[+10]% [Gold] from Trade Routes"
+		"[+15]% [Gold] from Trade Routes"
 		"[+1] Happiness from each type of luxury resource"
-		"Retain [+20]% of the happiness from a luxury after the last copy has been traded away"//交易后保留奢侈品的n%乐……等下？可以不止100%？
+		"Retain [+25]% of the happiness from a luxury after the last copy has been traded away"//交易后保留奢侈品的n%乐……等下？可以不止100%？
 			],//文明特性具体效果
 			"cities": ["云山茶楼",]
 			
@@ -770,7 +770,7 @@
 	
 	
 	{
-			"name": "基尼台美",
+			"name": "Gini Taimei",//基尼台美
 			"leaderName": "小嘿子",
 			"adjective": ["姬"],
 		//"startBias": ["Forest"],//起始偏好
@@ -853,7 +853,7 @@
 	},
 	
 	{
-		"name": "莫斯托克",
+		"name": "Mostock",//莫斯托克
 		"leaderName": "布莱特科夫",
 		"adjective": ["x"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -875,12 +875,12 @@
 		"[+1 Production] from every [Science]"
 		"[+1] Movement <for [Mounted] units> <during a Golden Age>",
 			],//文明特性具体效果
-			"cities": ["莫斯托克",]
+			"cities": ["Mostock",]
 			
 	},
 	
 	{
-		"name": "符文大陆",
+		"name": "Rune Continent",//符文大陆
 		"leaderName": "LXL",
 		"adjective": ["x"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1093,7 +1093,7 @@
 		"uniqueName": "森林之子",//文明特性名
 		"uniques": [
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
-		"Empire enters a [3]-turn Golden Age<upon constructing [Faith]>",
+		"Empire enters a [2]-turn Golden Age<upon constructing [Faith]>",
 		"[All] units gain the [Woodsman] promotion",
 		"[Military] units gain the [Stealth in the forest] promotion",
 			],//文明特性具体效果
@@ -1133,7 +1133,7 @@
 	
 	
 	{
-		"name": "大群意志 生命源泉",
+		"name": "Mass Will - Source of Life",//大群意志-生命源泉
 		"leaderName": "伊祖米克",
 		"adjective": ["x"],
 		"startBias": ["Coast"],//起始偏好
@@ -1158,14 +1158,14 @@
 	"[+1 Food] from [Coast] tiles [in this city]",//
 	//"[+1 Happiness] from [Ocean] tiles [in this city]",
 	"[0] Movement point cost to disembark"
-	"[Water] units gain the [深海进化] promotion",
+	"[Water] units gain the [Deep-sea evolution] promotion",
 			],//文明特性具体效果
 			"cities": ["深海","大群","意志","回溯",]
 			
 	},
 	
 	{
-		"name": "大群意志 生长",
+		"name": "Mass Will - Growth",//大群意志-生长
 		"leaderName": "伊祖米克",
 		"adjective": ["x"],
 		"startBias": ["Coast"],//起始偏好
@@ -1286,7 +1286,7 @@
 			
 	},
 	{
-	    "name":"森之灵"
+	    "name":"Spirit of Mori"//森之灵
         "leaderName":"小朋友遮目"
        "adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -1422,7 +1422,7 @@
 	},
 	
 	{
-	    "name":"天神机兵"
+	    "name":"Heavenly God Machine Soldier"//天神机兵
         "leaderName":"统一意识"
        "adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -1443,12 +1443,12 @@
 			//"uniqueText": ""
 			"uniqueName": "格式塔"
             "uniques":[
-            "Gain a free [格式塔意识] [in all cities]"
+            "Gain a free [Gestalt consciousness] [in all cities]"
             "[+30]% Production towards any buildings that already exist in the Capital"
             "[-100]% maintenance cost for buildings [in all cities]"
             "[999] units cost no maintenance"
             "No Maintenance costs for improvements in [All] tiles"
-            "[-100]% [Gold]"
+            "[-99]% [Gold]"
             ]
 			"cities": ["云冀之庭"]
 	},
@@ -1480,7 +1480,7 @@
 	},
 	
 	{
-		"name": "宋氏财阀",
+		"name": "Song's chaebol",//宋氏财阀
 		"leaderName": "宋医师",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -1500,10 +1500,10 @@
 		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"*/
 		"uniqueName": "吸血压榨",//文明特性名
 		"uniques": [
-		"[-200]% maintenance cost for buildings [in all cities]"
-		"Each city founded increases culture cost of policies [200]% less than normal"
-		"[Melee] units gain the [吸血鬼] promotion",
-	"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
+		"[-150]% maintenance cost for buildings [in all cities]"
+		"Each city founded increases culture cost of policies [150]% less than normal"
+		"[Melee] units gain the [Vampire] promotion",
+	"Earn [50]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
 	"Earn [100]% of killed [Barbarian] unit's [Strength] as [Gold]",//杀人拿战力的
 			],//文明特性具体效果
 			"cities": ["吸血中心",]
@@ -1816,6 +1816,225 @@
 			],//文明特性具体效果
 			"cities": ["Holy Staff",]
 			
+	},
+	
+	{
+		"name": "The King of Garbage",//垃圾之王
+		"leaderName": "The King of Garbage",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [25, 68, 215],//文明内部色*
+		"innerColor": [127,35,19],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "[Marsh]+2[Production]与[Faith]\n开阔地形+1[Production]与[Gold]，崎岖地形+1[Food]与[Gold]，但是奖金资源以及奢侈资源不提供产出，战略资源减少2点全产出\n城市2格范围内有奢侈资源时-4[Happiness]，3格内没有奢侈资源时+2[Happiness]"
+		"uniqueName": "The King of Garbage",//文明特性名
+		"uniques": [
+		"[+2 Production, +2 Faith] from [Marsh] tiles [in this city]",//沼泽加产
+		"[-4 Happiness] [in this city]<within [2] tiles of a [Luxury resource]>",//有奢就不乐
+		"[-2 Happiness] [in this city]<within [3] tiles of a [Luxury resource]>",//四格内无奢加乐-上
+		"[+2 Happiness] [in this city]"//四格内无奢加乐-下
+		
+		"[+1 Production, +1 Gold] from [Open terrain] tiles [in this city]",//白地加成
+		"[+1 Food, +1 Gold] from [Rough terrain] tiles [in this city]",//白地加成
+		
+		
+		"[-10 Production, -10 Food, -10 Gold, -10 Faith, -10 Culture, -10 Science] from [Bonus resource] tiles [in this city]",//奖金减产出
+		"[-10 Production, -10 Food, -10 Gold, -10 Faith, -10 Culture, -10 Science] from [Luxury resource] tiles [in this city]",//奢侈减产出
+		"[-2 Production, -2 Food, -2 Gold, -2 Faith, -2 Culture, -2 Science] from [Strategic resource] tiles [in this city]",//战略减产出
+			],//文明特性具体效果
+			"cities": ["The King of Garbage",]
+	},
+	
+	{
+		"name": "A majestic country",//雄伟之国
+		"leaderName": "建筑师",
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [215, 68, 215],//文明内部色*
+		"innerColor": [17,35,255],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "伟人建筑能够为周围一圈的地块提供1点对应的产出，如果该地块拥有设施再提供1点对应产出。\n研究[Engineering]后每隔400年获得一个免费伟人（不可重复）"
+		"uniqueName": "A majestic country",//文明特性名
+		"uniques": [
+		"[+1 Science] from [All] tiles [in this city]<with [1] to [6] neighboring [Academy] tiles>",//白地加成
+		"[+1 Science] from [All] tiles [in this city]<with [2] to [6] neighboring [Academy] tiles>",//白地加成
+		"[+1 Science] from [All] tiles [in this city]<with [3] to [6] neighboring [Academy] tiles>",//白地加成
+		"[+1 Science] from [All] tiles [in this city]<with [4] to [6] neighboring [Academy] tiles>",//白地加成
+		"[+1 Science] from [All] tiles [in this city]<with [5] to [6] neighboring [Academy] tiles>",//白地加成
+		"[+1 Science] from [All] tiles [in this city]<with [6] to [6] neighboring [Academy] tiles>",//白地加成
+		
+		"[+1 Culture] from [All] tiles [in this city]<with [1] to [6] neighboring [Landmark] tiles>",//白地加成
+		"[+1 Culture] from [All] tiles [in this city]<with [2] to [6] neighboring [Landmark] tiles>",//白地加成
+		"[+1 Culture] from [All] tiles [in this city]<with [3] to [6] neighboring [Landmark] tiles>",//白地加成
+		"[+1 Culture] from [All] tiles [in this city]<with [4] to [6] neighboring [Landmark] tiles>",//白地加成
+		"[+1 Culture] from [All] tiles [in this city]<with [5] to [6] neighboring [Landmark] tiles>",//白地加成
+		"[+1 Culture] from [All] tiles [in this city]<with [6] to [6] neighboring [Landmark] tiles>",//白地加成
+		
+		"[+1 Production] from [All] tiles [in this city]<with [1] to [6] neighboring [Manufactory] tiles>",//白地加成
+		"[+1 Production] from [All] tiles [in this city]<with [2] to [6] neighboring [Manufactory] tiles>",//白地加成
+		"[+1 Production] from [All] tiles [in this city]<with [3] to [6] neighboring [Manufactory] tiles>",//白地加成
+		"[+1 Production] from [All] tiles [in this city]<with [4] to [6] neighboring [Manufactory] tiles>",//白地加成
+		"[+1 Production] from [All] tiles [in this city]<with [5] to [6] neighboring [Manufactory] tiles>",//白地加成
+		"[+1 Production] from [All] tiles [in this city]<with [6] to [6] neighboring [Manufactory] tiles>",//白地加成
+		
+		"[+1 Gold] from [All] tiles [in this city]<with [1] to [6] neighboring [Customs house] tiles>",//白地加成
+		"[+1 Gold] from [All] tiles [in this city]<with [2] to [6] neighboring [Customs house] tiles>",//白地加成
+		"[+1 Gold] from [All] tiles [in this city]<with [3] to [6] neighboring [Customs house] tiles>",//白地加成
+		"[+1 Gold] from [All] tiles [in this city]<with [4] to [6] neighboring [Customs house] tiles>",//白地加成
+		"[+1 Gold] from [All] tiles [in this city]<with [5] to [6] neighboring [Customs house] tiles>",//白地加成
+		"[+1 Gold] from [All] tiles [in this city]<with [6] to [6] neighboring [Customs house] tiles>",//白地加成
+		
+		"[+1 Faith] from [All] tiles [in this city]<with [1] to [6] neighboring [Holy site] tiles>",//白地加成
+		"[+1 Faith] from [All] tiles [in this city]<with [2] to [6] neighboring [Holy site] tiles>",//白地加成
+		"[+1 Faith] from [All] tiles [in this city]<with [3] to [6] neighboring [Holy site] tiles>",//白地加成
+		"[+1 Faith] from [All] tiles [in this city]<with [4] to [6] neighboring [Holy site] tiles>",//白地加成
+		"[+1 Faith] from [All] tiles [in this city]<with [5] to [6] neighboring [Holy site] tiles>",//白地加成
+		"[+1 Faith] from [All] tiles [in this city]<with [6] to [6] neighboring [Holy site] tiles>",//白地加成
+		
+		"Receive a free Great Person at the end of every [你的王国吸引了更多的有识之士慕名而来] (every 394 years), after researching [Engineering]. Each bonus person can only be chosen once."
+		
+		
+			],//文明特性具体效果
+			"cities": ["A majestic country",]
+	},
+	
+	/*{
+		"name": "Earth Spirit Hall",//地灵殿
+		"leaderName": "Komeiji Koishi",//古明地恋
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [208, 193, 94],//文明内部色*
+		"innerColor": [200, 145, 200],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		//"uniqueText": ""
+		"uniqueName": "Unconscious level of ability",//文明特性名
+		"uniques": [
+		
+		
+			],//文明特性具体效果
+			"cities": ["Earth Spirit Hall",]
+	},*/
+	
+	{
+		"name": "Hakurei Shrine",//博丽神社
+		"leaderName": "Hakurei Reimu",//博丽灵梦
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [235, 0, 0],//文明内部色*
+		"innerColor": [255, 255, 255],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		//"uniqueText": ""
+		"uniqueName": "Bullet Screen Evasion Expert",//文明特性名
+		"uniques": [
+		"[All] units gain the [Bullet Screen Evasion Expert] promotion",
+		"[+5]% Yield from every [Faith]"
+			],//文明特性具体效果
+			"cities": ["Hakurei Shrine",]
+	},
+	
+	/*{
+		"name": "Hedgehog Nest",//刺猬窝
+		"leaderName": "Hedgehog",//刺猬
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [185, 60, 60],//文明内部色*
+		"innerColor": [55, 155, 25],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "Deals 5 damage to enemies attacking our unit and loses 2XP"
+		"uniqueName": "你敢打我？",//文明特性名
+		"uniques": [
+		"[All] units gain the [Hedgehog] promotion",
+			],//文明特性具体效果
+			"cities": ["Hedgehog Nest",]
+	},*/
+	
+	{
+		"name": "Elchia Federation",//艾尔奇亚联邦
+		"leaderName": "Sora & Shiro",//空&白
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [185, 60, 60],//文明内部色*
+		"innerColor": [255, 255, 255],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "●每拥有一枚种族之棋，就会获得特殊的效果：\n1枚：城邦好感下降速率-50%\n2枚：与城市比我方多的文明作战时+15%战斗力\n3枚：单位在[Forest]地块作战时+15%战斗力，[Forest]+1[Production]\n4枚：每座城市+2[Science]与[Gold]\n5枚：军事单位在开阔地形+1移动力\n6枚：新建军事单位获得[Vampire]晋升\n7枚：远程单位可在船运状态下攻击，所有单位上岸不消耗移动力\n8枚：消耗4枚[Race Chess]，获得一次[Pseudocode - Heavenly Strike]的使用次数\n\n●获得种族之棋的方法：\n与文明宣布友谊+1\n进入黄金时代+1\n占领城市+1\n建造奇观+1"
+		"uniqueName": "Race Chess",//文明特性名
+		"uniques": [
+		"[All] units gain the [The Power of Unity] promotion",
+		"Instantly provides [1] [Race Chess]<upon declaring friendship>"//宣友拿棋
+		"Instantly provides [1] [Race Chess]<upon entering a Golden Age>"//黄金拿棋
+		"Instantly provides [1] [Race Chess]<upon conquering a city>"//攻城拿棋
+		"Instantly provides [1] [Race Chess]<upon constructing [Wonder]>"//奇观拿棋
+		
+		
+		
+		"[-50]% City-State Influence degradation<when above [0] [Race Chess]>"
+		"[+1 Production] from [Forest] tiles [in this city]<when above [2] [Race Chess]>",//森林加产
+		"[+2 Science, +2 Gold] [in all cities]<when above [3] [Race Chess]>"
+		"[Melee] units gain the [Vampire] promotion <when above [5] [Race Chess]>",
+		
+		
+			],//文明特性具体效果
+			"cities": ["Elchia Federation",]
 	},
 	
 ]

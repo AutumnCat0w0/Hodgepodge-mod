@@ -21,7 +21,7 @@
 		"strength": 7,
 		"rangedStrength": 10,
 		"cost": 70,
-		"requiredTech": "Future Tech",
+		"requiredTech": "Special technology",
 		"uniques": [
 		"Unbuildable", //无法建造
 		"Uncapturable"//无法捕获
@@ -44,8 +44,26 @@
 	},
 	
 	{
+		"name": "Pseudocode - Heavenly Strike",//伪典-天击
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 300,
+		"rangedStrength": 300,
+		"cost": -1,
+		"requiredTech": "Special technology",
+		"range": 25,
+		"uniques": [
+		
+		"Nuclear weapon of Strength [3]", 
+		"Blast radius [3]",
+		
+		]
+		"attackSound": "throw"
+	},
+	
+	{
 		"name": "Defense Tower Architect",//防御塔建筑师
-		"uniqueTo": "符文大陆",//符文大陆
+		"uniqueTo": "Rune Continent",//符文大陆
 		"replaces": "Catapult",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Civilian",
 		"movement": 2,
@@ -142,7 +160,7 @@
 		"strength": 17,
 		"cost": 90,
 		"requiredTech": "Civil Service",
-		//"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"promotions": ["Drill I","Amphibious"],//免费晋升：快速学习
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
@@ -150,9 +168,9 @@
 	},
 	
 	{
-		"name": "汪神撅徒",
+		"name": "Dog follower",//汪神撅徒
 		"unitType": "Sword",
-		"uniqueTo": "汪神教",
+		"uniqueTo": "Dog Order",//汪神教
 		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
@@ -222,9 +240,9 @@
 	
 	
 	{
-		"name": "黄巾力士",
+		"name": "VampirE guardian",//黄巾力士
 		"unitType": "Sword",
-		"uniqueTo": "黄巾军",
+		"uniqueTo": "VampirE",//黄巾军
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 13,
@@ -351,7 +369,7 @@
 	{
 		"name": "Kibada Spearman",//基巴达枪兵
 		"unitType": "Sword",
-		"uniqueTo": "基尼台美",
+		"uniqueTo": "Gini Taimei",//基尼台美
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 11,
@@ -448,7 +466,7 @@
 	
 	{
 		"name": "莫斯军团",
-		"uniqueTo": "莫斯托克",
+		"uniqueTo": "Mostock",//莫斯托克
 		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 3,
@@ -487,7 +505,7 @@
 	
 	
 	{
-		"name": "护鲲团",
+		"name": "Chicken Defender",//护鲲团
 		"unitType": "Mounted",	
 		"uniqueTo": "ikun",
 		"replaces": "Horseman",
@@ -611,9 +629,9 @@
 	},
 	
 	{
-		"name": "掠海漂移体",
+		"name": "Sea skimming drift body",//掠海漂移体
 		"unitType": "Archery",
-		"uniqueTo": "大群意志 生命源泉",
+		"uniqueTo": "Mass Will - Source of Life",//大群意志-生命源泉
 		"replaces": "Chariot Archer",
 		"movement": 3,
 		"strength": 6,
@@ -631,14 +649,14 @@
 		"No defensive terrain bonus", 
 		//"Rough terrain penalty"
 		],
-		"promotions": ["深海进化"],
+		"promotions": ["Deep-sea evolution"],
 		"attackSound": "arrow"
 	},
 	
 	
 	{
-		"name": "伊祖米克的子代",
-		"uniqueTo": "大群意志 生命源泉",
+		"name": "Izumik's descendants",//伊祖米克的子代
+		"uniqueTo": "Mass Will - Source of Life",//大群意志-生命源泉
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -648,7 +666,7 @@
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
 		"May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
-		"promotions": ["Ignore terrain cost","深海进化"],
+		"promotions": ["Ignore terrain cost","Deep-sea evolution"],
 		"attackSound": "nonmetalhit"
 	},
 	
@@ -672,9 +690,9 @@
 	},
 	
 	{
-		"name": "始海穿刺者",
+		"name": "Ancient Ocean Puncturer",//始海穿刺者
 		"unitType": "Sword",
-		"uniqueTo": "大群意志 生长",
+		"uniqueTo": "Mass Will - Growth",//大群意志-生长
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 11,
@@ -683,7 +701,7 @@
 		"obsoleteTech": "Guilds",
 		"upgradesTo": "Pikeman",
 		//"uniques": [],
-		"promotions": ["深海捕食"],//免费晋升
+		"promotions": ["Deep-sea predation"],//免费晋升
 		"attackSound": "metalhit"
 	},
 	
@@ -723,8 +741,8 @@
     
     
     {
-		"name": "游侠",
-		"uniqueTo": "森之灵",
+		"name": "Ranger",//游侠
+		"uniqueTo": "Spirit of Mori",//森之灵
 		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Archery",
 		"movement": 2,
@@ -1045,7 +1063,7 @@
 	},
 	
 	{
-		"name": "「Opening the Country Door」",//“打开国门”
+		"name": "Opening the Country Door",//“打开国门”
 		"uniqueTo": "Holy Staff",//神圣之杖
 		"replaces": "Catapult",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Siege",
@@ -1061,4 +1079,66 @@
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
+	
+	/*{
+		"name": "No existence",//无存在
+		"uniqueTo": "Earth Spirit Hall",//地灵殿
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+	    "[-10] Sight"
+	    "Invisible to others"
+	    "Cannot attack"
+	    "May enter foreign tiles without open borders"
+	    "Can only heal by pillaging"
+		"Indicates the capital city"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},*/
+	
+	{
+		"name": "Mobile cash box",//移动收钱箱
+		"uniqueTo": "Hakurei Shrine",//博丽神社
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 3,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+	    "Cannot attack"
+	    "Gain [50]-[125] [Gold]<upon being defeated>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	/*{
+		"name": "Hedgehog Rolling Ball",//刺猬滚球
+		"unitType": "Sword",	
+		"uniqueTo": "Hedgehog Nest",//刺猬窝
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 11,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		//"requiredResource": "Horses",
+		"upgradesTo": "Trapping",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Can move after attacking",
+		"[+10]% Strength<when fighting in [Open terrain] tiles><when defending>"
+		],
+		"promotions": ["Cover I"],//免费晋升
+		"attackSound": "arrow"
+	},*/
+
+	
+	
+	
 ]

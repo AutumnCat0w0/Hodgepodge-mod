@@ -125,9 +125,9 @@
 	},
 	
 	{
-		"name": "秘银洞窟",
+		"name": "Mithril Cavern",//秘银洞窟
 		"terrainsCanBeBuiltOn": ["Forest","Jungle"],
-		"uniqueTo": "森之灵",
+		"uniqueTo": "Spirit of Mori",//森之灵
 		"turnsToBuild": 7,
 		"production": 1,
 		"faith":2,
@@ -162,5 +162,23 @@
             {"text":"Requires Engineering to bridge rivers", "link":"Technology/Engineering"}
         ]
 	},
+	
+	/*{
+		"name": "Hedgehog Cave",//刺猬洞
+		"uniqueTo": "Hedgehog Nest",//刺猬窝
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 5,
+		"food": 1,
+		"uniques": [
+		"Can only be built on [Bonus resource] tiles"
+		"[+1 Production, -1 Food] <in [Hill] tiles>",
+		"[+1 Food] <after discovering [Fertilizer]>",
+		"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+		"Can be built outside your borders", "Gives a defensive bonus of [25]% <for units with [Hedgehog]>"
+		"Pillaging this improvement yields approximately [+20 Gold]"
+		"Deals 5 damage and loses 2XP to non our units that end their turn around"
+		],
+		"techRequired": "Animal Husbandry",
+	},*/
 	
 ]
