@@ -642,6 +642,7 @@
 			"name": "Yunshan Tea House",//云山茶楼
 			"leaderName": "咕咕子",
 			"adjective": ["咕咕子"],
+			"startBias": ["Hill"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		
 			"startIntroPart1": "咕咕咕",//介绍1
@@ -743,6 +744,7 @@
 			"name": "Craftsman's Cabin",//奇匠屋
 			"leaderName": "姬特",
 			"adjective": ["姬特"],
+			"startBias": ["Desert"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		
 			"startIntroPart1": "咕咕咕",//介绍1
@@ -965,6 +967,7 @@
 		"name": "Sea Tauren",//海上牛头人
 		"leaderName": "牛头战士",
 		"adjective": ["x"],
+		"startBias": ["Coast"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -1020,6 +1023,7 @@
 		"name": "印北",
 		"leaderName": "李固",
 		"adjective": ["x"],
+		"startBias": ["Tundra","Avoid [Desert]"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -1213,7 +1217,7 @@
 		"outerColor": [111, 215, 0],//文明内部色*
 		"innerColor": [100,131,0],//文明外部色*
 		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "分别有25%的概率使你发单位可以额外攻击一次。\n有60%/30%/15%的概率使每个城市的人口增长增加20%/40%/60%\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"
+		"uniqueText": "分别有25%的概率使我方单位可以额外攻击一次。\n有60%/30%/15%的概率使每个城市的人口增长增加20%/40%/60%\n创建万神殿时额外选择一个万神殿，创建宗教时额外提供一个任意信仰"
 		"uniqueName": "随机应变",//文明特性名
 		"uniques": [
 		"May choose [1] additional belief(s) of any type when [founding] a religion"
@@ -1232,7 +1236,7 @@
 		"name": "谢拉格",
 		"leaderName": "银灰",
 		"adjective": ["x"],
-		"startBias": ["Tundra"],//起始偏好
+		"startBias": ["Tundra","Avoid [Desert]"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -1289,7 +1293,7 @@
 	    "name":"Spirit of Mori"//森之灵
         "leaderName":"小朋友遮目"
        "adjective": ["x"],
-		//"startBias": ["Tundra"],//起始偏好
+		"startBias": ["Forest"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -1514,7 +1518,7 @@
 		"name": "Fungal kingdom",//真菌国度
 		"leaderName": "蘑菇人",
 		"adjective": ["x"],
-		//"startBias": ["Tundra"],//起始偏好
+		"startBias": ["Forest"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -1542,7 +1546,7 @@
 		"name": "Bird free pigeon nest",//无鸟鸽子窝
 		"leaderName": "麻雀",
 		"adjective": ["x"],
-		//"startBias": ["Tundra"],//起始偏好
+		"startBias": ["Forest"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -1570,7 +1574,7 @@
 		"name": "Chaotic Pigeon Nest",//混沌鸽子窝
 		"leaderName": "特勒西",
 		"adjective": ["x"],
-		//"startBias": ["Tundra"],//起始偏好
+		"startBias": ["Forest"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -1655,7 +1659,7 @@
 		"name": "Giant Windmill",//大风车
 		"leaderName": "酒瓶",
 		"adjective": ["x"],
-		//"startBias": ["Tundra"],//起始偏好
+		"startBias": ["Grassland"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -1859,7 +1863,7 @@
 		"name": "A majestic country",//雄伟之国
 		"leaderName": "建筑师",
 		"adjective": ["x"],
-		//"startBias": ["Tundra"],//起始偏好
+		"startBias": ["Mountain"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		"startIntroPart1": "咕咕咕",//介绍1
 		"startIntroPart2": "咕咕咕",//介绍2
@@ -2016,7 +2020,7 @@
 		"outerColor": [185, 60, 60],//文明内部色*
 		"innerColor": [255, 255, 255],//文明外部色*
 		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "●每拥有一枚种族之棋，就会获得特殊的效果：\n1枚：城邦好感下降速率-50%\n2枚：与城市比我方多的文明作战时+15%战斗力\n3枚：单位在[Forest]地块作战时+15%战斗力，[Forest]+1[Production]\n4枚：每座城市+2[Science]与[Gold]\n5枚：军事单位在开阔地形+1移动力\n6枚：新建军事单位获得[Vampire]晋升\n7枚：远程单位可在船运状态下攻击，所有单位上岸不消耗移动力\n8枚：消耗4枚[Race Chess]，获得一次[Pseudocode - Heavenly Strike]的使用次数\n\n●获得种族之棋的方法：\n与文明宣布友谊+1\n进入黄金时代+1\n占领城市+1\n建造奇观+1"
+		"uniqueText": "●每拥有一枚种族之棋，就会获得特殊的效果：\n1枚：城邦好感下降速率-50%\n2枚：与城市比我方多的文明作战时+15%战斗力\n3枚：单位在[Forest]地块作战时+15%战斗力，[Forest]+1[Production]\n4枚：每座城市+2[Science]与[Gold]\n5枚：军事单位在开阔地形+1移动力\n6枚：新建军事单位获得[Vampire]晋升\n7枚：远程单位可在船运状态下攻击，所有单位上岸不消耗移动力\n8枚：消耗4枚[Race Chess]，获得一次[Pseudocode - Heavenly Strike]的使用次数\n\n●获得种族之棋的方法：\n进入新时代+1\n与文明宣布友谊+1\n进入黄金时代+1\n占领城市+1\n建造/发现奇观+1"
 		"uniqueName": "Race Chess",//文明特性名
 		"uniques": [
 		"[All] units gain the [The Power of Unity] promotion",
@@ -2024,7 +2028,15 @@
 		"Instantly provides [1] [Race Chess]<upon entering a Golden Age>"//黄金拿棋
 		"Instantly provides [1] [Race Chess]<upon conquering a city>"//攻城拿棋
 		"Instantly provides [1] [Race Chess]<upon constructing [Wonder]>"//奇观拿棋
-		
+		"Instantly provides [1] [Race Chess]<upon discovering a Natural Wonder>"//奇观拿棋2
+		"Instantly provides [1] [Race Chess]<upon entering the [Classical era]>"//新时代拿棋-古典
+		"Instantly provides [1] [Race Chess]<upon entering the [Medieval era]>"//新时代拿棋-中古
+		"Instantly provides [1] [Race Chess]<upon entering the [Renaissance era]>"//新时代拿棋-启蒙
+		"Instantly provides [1] [Race Chess]<upon entering the [Industrial era]>"//新时代拿棋-工业
+		"Instantly provides [1] [Race Chess]<upon entering the [Modern era]>"//新时代拿棋-电气
+		"Instantly provides [1] [Race Chess]<upon entering the [Atomic era]>"//新时代拿棋-原子
+		"Instantly provides [1] [Race Chess]<upon entering the [Information era]>"//新时代拿棋-信息
+		"Instantly provides [1] [Race Chess]<upon entering the [Future era]>"//新时代拿棋-未来
 		
 		
 		"[-50]% City-State Influence degradation<when above [0] [Race Chess]>"
@@ -2035,6 +2047,121 @@
 		
 			],//文明特性具体效果
 			"cities": ["Elchia Federation",]
+	},
+	
+	{
+		"name": "Breath of the Wild",//荒野之息
+		"leaderName": "Link",//林克
+		"adjective": ["x"],
+		"startBias": ["Mountain"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [21, 60, 210],//文明内部色*
+		"innerColor": [55, 255, 0],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "●可以通过大军事家切换护佑的英杰，获得不同的效果，单位选择其中1个英杰的技能后不能够使用其他英杰的技能，只有在对应的英杰存在时才能够正常使用效果（否则会浪费）：\nI 米法：单位解锁[Mipha's Prayer I]（回复25HP）\nII 乌尔波扎：随时代提升战斗力（+5%→+30%）\nIII 塞尔达：首都建造建筑时获得当前时代平均所需科技值的30%的科技点数（电气时代后停止增长）\nIV 达尔克尔：防御时+15%战斗力，单位解锁[Daruk's Guardian I]（+100%防御时的战斗力）\nV 力巴尔：军事单位解锁[Revali's Courage I]（单位永久获得空降）"
+		"uniqueName": "Guardians of the Four Gods",//文明特性名
+		"uniques": [
+		"[Military] units gain the [The Power of Heroes] promotion",
+		"[Great General] units gain the [Switch Heroes] promotion",
+		
+		"Instantly provides [3] [Hero Counter]"//拿棋
+		//" <when above [0] [Hero Counter]><when below [2] [Hero Counter]>"//水
+		
+		
+		"Gain [8] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//远古
+		"Gain [27] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//古典
+		"Gain [75] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//中古
+		"Gain [190] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//启蒙
+		"Gain [390] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//工业
+		"Gain [712] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//电气
+		
+		
+		
+			],//文明特性具体效果
+			"cities": ["Breath of the Wild",]
+	},
+	
+	{
+		"name": "Magical Girl",//魔法少女
+		"leaderName": "丘比",//丘比
+		"adjective": ["x"],
+		//"startBias": ["Tundra"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [208, 193, 94],//文明内部色*
+		"innerColor": [200, 145, 200],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "初始拥有150[Magic power]，可以消耗平民单位回复10点\n军事单位在战争时每回合都会消耗1[Magic power]，非战争时每回合有10%概率消耗1[Magic power]，击杀单位回复3[Magic power]并获得1[Demon Night Counter]\n当[Magic power]高于50时，可以消耗5[Magic power]使所有军事单位在本回合提升10%战斗力\n当[Magic power]为0时，停止所有增长，战斗力-9999%\n当[Demon Night Counter]达到500时，可以建造[]获取游戏胜利"
+		"uniqueName": "奇迹与魔法",//文明特性名
+		"uniques": [
+		"Instantly provides [150] [Magic power]"//拿资源
+		"[Military] units gain the [Burning Magic I] promotion",//给晋升
+		"[Civilian] units gain the [Sacrifice] promotion",//给晋升
+		"Discover [Resource Technology]"//开资源
+		
+		"Free [QB] appears<upon constructing [Palace]>"//免费qb
+		
+		"Nullifies [Culture] [in all cities] <when below [1] [Magic power]>"
+		"Nullifies [Food] [in all cities] <when below [1] [Magic power]>"
+		"Nullifies [Production] [in all cities] <when below [1] [Magic power]>"
+		"Nullifies [Gold] [in all cities] <when below [1] [Magic power]>"
+		"Nullifies [Faith] [in all cities] <when below [1] [Magic power]>"
+		"Nullifies [Happiness] [in all cities] <when below [1] [Magic power]>"
+		"Nullifies [Science] [in all cities] <when below [1] [Magic power]>"
+		"[-9999]% Strength <when below [1] [Magic power]>"
+		
+		
+			],//文明特性具体效果
+			"cities": ["神滨市","泷源市","新光市","安卡市","安提缪翁",]
+	},
+	
+	{
+		"name": "Shuruima",//恕瑞玛
+		"leaderName": "阿兹尔",//阿兹尔
+		"adjective": ["x"],
+		"startBias": ["Avoid [Jungle]","Avoid [Forest]", "Desert"],
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [201, 203, 0],//文明内部色*
+		"innerColor": [128, 0, 150],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "[Military]单位获得[Sandman I]（在沙漠地块获得晋升时回复25HP）\n每进入一个新时代获得一个[Ascender]，直到启蒙时代\n非丘陵与冲积平原的沙漠地块+1[Production]与[Food]"
+		"uniqueName": "黄沙之国",//文明特性名
+		"uniques": [
+		"[Military] units gain the [Sandman I] promotion",//给晋升
+		
+		"[+1 Production, +1 Food] from [Desert] tiles without [Flood plains] [in this city]<in tiles without [Hill]>",//淡水非冲击的沙漠加粮
+		
+		"Free [Ascender] appears <upon entering the [Classical era]>"//进时代送大军
+		"Free [Ascender] appears <upon entering the [Medieval era]>"//进时代送大军
+		"Free [Ascender] appears <upon entering the [Renaissance era]>"//进时代送大军
+			],//文明特性具体效果
+			"cities": ["Shuruima",]
 	},
 	
 ]

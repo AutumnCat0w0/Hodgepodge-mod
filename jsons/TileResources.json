@@ -556,11 +556,53 @@
 
 	{
 		"name": "Race Chess",//种族之棋
-		"resourceType": "Strategic",
+		"resourceType": "Bonus",
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"
 		
 		]
 	},
+	
+	{
+		"name": "Hero Counter",//英杰计数器
+		"resourceType": "Bonus",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"
+		
+		]
+	},
+	
+	{
+		"name": "Magic power",//魔力
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
+	/*{
+		"name": "Consume magic this turn",//本回合消耗魔力
+		"resourceType": "Strategic",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"//库存
+		
+		]
+	},*/
+	
+	{
+		"name": "Demon Night Counter",//魔女之夜计数器
+		"resourceType": "Bonus",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		
+		]
+	},
+	
+	
 ]

@@ -322,17 +322,15 @@
 	{
         "name": "The Power of Unity",//统合之力
 	    "uniques": [
-	    "[+15]% Strength<when above [1] [Race Chess]><when fighting units from a Civilization with more Cities than you>"
-		"[+15]% Strength <in [Forest] tiles> <when above [2] [Race Chess]>"
+	    "[+15]% Strength<when above [1] [Race Chess]><when fighting units from a Civilization with more Cities than you>"//打多城加力
+		"[+15]% Strength <in [Forest] tiles> <when above [2] [Race Chess]>"//森林加力
 		
-		"[+1] Movement <for [Melee] units> <in [Open terrain] tiles> <when above [4] [Race Chess]>"
+		"[+1] Movement <for [Melee] units> <in [Open terrain] tiles> <when above [4] [Race Chess]>"//加移动
 		
 		"[0] Movement point cost to disembark<when above [6] [Race Chess]>"
 		"May attack when embarked<when above [6] [Race Chess]>"
-		"This Unit gains the [Pseudocode - Heavenly Strike] promotion<for [0] movement><[0] times> <when above [7] [Race Chess]> "
-	    
-	    
-	    
+		"This Unit gains the [Pseudocode - Heavenly Strike] promotion<for [0] movement> <when above [7] [Race Chess]> "
+		
 	 ]
 	},
 	
@@ -344,4 +342,149 @@
 	    "Doing so will consume this opportunity to choose a Promotion"
 	 ]
 	},
+	
+	{
+        "name": "The Power of Heroes",//英杰之力
+	    "uniques": [
+	    "This Unit gains the [Mipha's Prayer I] promotion <for [0] movement> <[1] times> <when above [0] [Hero Counter]><when below [2] [Hero Counter]>"//米法晋升
+	    
+	    "This Unit gains the [Daruk's Guardian I] promotion <for [0] movement> <[1] times> <when above [3] [Hero Counter]><when below [5] [Hero Counter]>"//达尔克尔晋升
+	    
+	    "This Unit gains the [Revali's Courage I] promotion <for [0] movement> <[1] times> <when above [4] [Hero Counter]><when below [6] [Hero Counter]>"//力巴尔晋升
+	    
+	    
+	    
+		
+		//"Heal this unit by [5] HP<upon losing at least [1] HP in a single attack><when above [0] [Hero Counter]><when below [2] [Hero Counter]>"
+		
+		"[+5]% Strength <during the [Ancient era]><when above [1] [Hero Counter]><when below [3] [Hero Counter]>",
+		"[+10]% Strength <during the [Classical era]><when above [1] [Hero Counter]><when below [3] [Hero Counter]>",
+		"[+15]% Strength <during the [Medieval era]><when above [1] [Hero Counter]><when below [5] [Hero Counter]>",
+		"[+20]% Strength <during the [Renaissance era]><when above [1] [Hero Counter]><when below [3] [Hero Counter]>",
+		"[+25]% Strength <during the [Industrial era]><when above [1] [Hero Counter]><when below [5] [Hero Counter]>",
+		"[+30]% Strength <starting from the [Modern era]><when above [1] [Hero Counter]><when below [3] [Hero Counter]>",
+		
+		
+		"[+15]% Strength <when defending><when above [3] [Hero Counter]><when below [5] [Hero Counter]>"
+	 ]
+	},
+	
+	{
+        "name": "Mipha's Prayer I",//米法的祝福
+	    "uniques": [
+		"This Unit gains the [Mipha's Prayer II] promotion <when above [0] [Hero Counter]><when below [2] [Hero Counter]>"//米法晋升
+	 ]
+	},
+	
+	{
+        "name": "Mipha's Prayer II",//米法的祝福
+	    "uniques": [
+		"Heal this unit by [25] HP"
+	 ]
+	},
+	
+	{
+        "name": "Daruk's Guardian I",//达尔克尔的守护
+	    "uniques": [
+		"This Unit gains the [Daruk's Guardian II] promotion <when above [3] [Hero Counter]><when below [5] [Hero Counter]>"//达尔克尔晋升
+	 ]
+	},
+	
+	{
+        "name": "Daruk's Guardian II",//达尔克尔的守护
+	    "uniques": [
+		"[+100]% Strength<when defending><for [1] turns><for units with [Daruk's Guardian]>"
+	 ]
+	},
+	
+	{
+        "name": "Revali's Courage I",//力巴尔的愤怒
+	    "uniques": [
+		"This Unit gains the [Revali's Courage II] promotion <for units with [Revali's Courage I]> <when above [4] [Hero Counter]><when below [6] [Hero Counter]>"//力巴尔晋升
+	 ]
+	},
+	
+	{
+        "name": "Revali's Courage II",//力巴尔的愤怒
+	    "uniques": [
+		"May Paradrop up to [4] tiles from inside friendly territory"
+	 ]
+	},
+	
+	{
+        "name": "Switch Heroes",//切换英雄
+	    "uniques": [
+		"Instantly provides [1] [Hero Counter]<for [5] movement>"//拿棋
+		"Instantly consumes [1] [Hero Counter]<for [5] movement>"
+	 ]
+	},
+	
+	{
+        "name": "Burning Magic I",//燃烧魔力
+	    "uniques": [
+		"This Unit gains the [Burning Magic II] promotion <for [0] movement>"//烧！
+		"Instantly consumes [1] [Magic power]<upon ending a turn in a [All] tile> <when at war>"//每回合减资源-战争时
+		"Instantly consumes [1] [Magic power]<upon ending a turn in a [All] tile> <when not at war> <with [10]% chance>"//每回合减资源-非战争时
+		"Instantly provides [3] [Magic power]<upon defeating a [All] unit>"//杀人拿资源
+		"Instantly provides [1] [Demon Night Counter]<upon defeating a [All] unit>"//杀人拿资源2
+	 ]
+	},
+	
+	{
+        "name": "Burning Magic II",//燃烧魔力
+	    "uniques": [
+		"This Unit gains the [Burning Magic III] promotion<when above [50] [Magic power]>"//烧
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Burning Magic III",//燃烧魔力
+	    "uniques": [
+		"[+10]% Strength<for [1] turns>"
+		"Instantly consumes [5] [Magic power]"//减资源
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Sacrifice",//牺牲
+	    "uniques": [
+		"Instantly provides [10] [Magic power]<by consuming this unit>"//拿资源
+	 ]
+	},
+	
+	{
+        "name": "Sandman I",//沙兵
+	    "uniques": [
+	    "This Unit gains the [Sandman II] promotion<upon being promoted>"//沙地检测
+		
+	 ]
+	},
+	
+	{
+        "name": "Sandman II",//沙兵
+	    "uniques": [
+		"Heal this unit by [25] HP<in [Desert] tiles>"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Ascender",//飞升者
+	    "uniques": [
+	    "[+25]% Strength"
+		"[+1] Movement"
+		"Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+		"[+50]% XP gained from combat"
+		"[+15]% Strength bonus for [Military] units within [3] tiles",
+	 ]
+	},
+	
+	
+	
+	
+	
+	
+	
 ]

@@ -1,6 +1,21 @@
 [//单位
-    
-    
+    /*{
+		"name": "测试",//
+		"uniqueTo": "Breath of the Wild",//
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 50,
+		"cost": -1,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"Instantly provides [1] [Hero Counter]<for [0] movement>"//拿棋
+		"Instantly consumes [1] [Hero Counter]<for [0] movement>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+    */
     {
 		"name": "Work Boats",//工船
 		"unitType": "Civilian Water",
@@ -53,7 +68,7 @@
 		"requiredTech": "Special technology",
 		"range": 25,
 		"uniques": [
-		
+		"Only available <for [Elchia Federation]>"
 		"Nuclear weapon of Strength [3]", 
 		"Blast radius [3]",
 		
@@ -1138,7 +1153,40 @@
 		"attackSound": "arrow"
 	},*/
 
+	{
+		"name": "QB",//QB
+	    "uniqueTo": "Magical Girl",//魔法少女
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 4,
+		"strength": 2,
+		"cost": 120,
+		"uniques": [
+		
+	    "Free [QB] appears <upon being defeated>"
+	    "[+10000]% Strength <vs cities><when defending>",
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
 	
-	
-	
+	{
+		"name": "Ascender",//飞升者
+		"unitType": "Civilian",
+		"uniqueTo": "Shuruima",//恕瑞玛
+		"replaces": "Great General",
+		"uniques": [
+		    "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", 
+			"Can transform to [Warrior]"//转化为什么单位
+			"Can transform to [Archer]"//转化为什么单位
+	    "Can transform to [Spearman]"//转化为什么单位
+		"Can transform to [Horseman]<starting from the [Classical era]>"//转化为什么单位
+			"Unbuildable", 
+			"Uncapturable"],
+		"promotions": ["Ascender"],
+		"movement": 2
+	},
 ]

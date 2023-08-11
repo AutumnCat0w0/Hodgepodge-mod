@@ -209,9 +209,9 @@
 		"replaces": "Circus",		
 		"uniqueTo": "Dovecote lightning",//鸽子窝 闪电
 		"happiness": 1,
-		"cost": 60,
+		"cost": 75,
 		"requiredTech": "Trapping",
-              "uniques": ["[+1 Production] from every [Pasture]<in this city>"],
+              "uniques": ["[+1 Production] from every [Horses]<in this city>"],
 	},
 	
 	
@@ -919,7 +919,69 @@
 		"requiredTech": "Writing"
 	},
 	
+	{
+		"name": "Tower of Hikar",//希卡之塔
+		"uniqueTo": "Breath of the Wild",//荒野之息
+		"replaces": "Walls",//所代替
+		"science":2,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"cost":40,
+		"hurryCostModifier": 25,
+		"uniques": [
+		"Reveal up to [100] [All] within a [10] tile radius"
+		//"Reveal up to [50] [Open terrain] within a [10] tile radius"
+		"Reveal up to [10] [Luxury resource] within a [20] tile radius"
+		"Reveal up to [10] [Bonus resource] within a [20] tile radius"
+		"Destroyed when the city is captured"
+		]
+	},
 	
+	{
+		"name": "Trial Temple",//试炼神庙
+		"replaces": "Temple",
+		"uniqueTo": "Breath of the Wild",//试炼神庙
+		"maintenance": 0,
+		"uniques": [
+		"New [Military] units start with [20] Experience [in this city]",
+		"[+1 Science] per [3] population [in this city]<during the [Medieval era]>"
+		"[+1 Science] per [2] population [in this city]<during the [Renaissance era]>"
+		"[+1 Science] per [1] population [in this city]<starting from the [Industrial era]>"
+		],
+		"culture": 2,
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
 	
+	{
+	    "name": "Walpurgis Night",//魔女之夜
+		"uniqueTo": "Magical Girl",//魔法少女
+		"replaces": "Utopia Project",//所代替
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": [
+		//"Hidden until [5] social policy branches have been completed", 
+		"Unbuildable <when below [500] [Demon Night Counter]>"
+		"Triggers a global alert upon build start",
+		"Triggers a Cultural Victory upon completion", 
+		"Hidden when [Walpurgis Night] Victory is disabled", 
+		"Cannot be hurried"
+		]
+	},
+	
+	{
+		"name": "Solar Disk",//太阳圆盘
+		"uniqueTo": "Shuruima",//恕瑞玛
+		"replaces": "Monument",//所代替
+		"culture": 3,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+		"[+1 Faith] per [2] population [in this city]<in [Desert] tiles>"
+		"Destroyed when the city is captured"]
+	},
 	
 ]

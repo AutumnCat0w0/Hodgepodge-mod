@@ -5,6 +5,18 @@
 		"techCost": 20,
 		"buildingCost": 40,
 		"techs": [
+		
+		    {
+				"name": "Resource Technology",//资源科技
+				"cost": 999999999,
+				"row": 1,
+				"uniques": [
+				"Only available<after discovering [Future Tech]>"
+				],
+				"quote": "A"
+			}
+		
+		
 			{
 				"name": "Agriculture",
 				"row": 6,
@@ -132,7 +144,7 @@
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
 		]
-	},
+	},//105+175=280/2=140*0.3=42
 	{
 		"columnNumber": 4,
 		"era": "Classical era",
@@ -207,7 +219,7 @@
 				"quote": "'When pieces of bronze or gold or iron break, the metal-smith welds them together again in the fire, and the bond is established.' - Sri Guru Granth Sahib"
 			}
 		]
-	},
+	},//275+485=760/2=380*0.3=114
 	{
 		"columnNumber": 6,
 		"era": "Medieval era",
@@ -295,7 +307,7 @@
 				"quote": "'The day when two army corps can annihilate each other in one second, all civilized nations, it is to be hoped, will recoil from war and discharge their troops.' - Alfred Nobel"
 			}
 		]
-	},
+	},//780+1150=1930/2=965*0.3=289.5
 	{
 		"columnNumber": 8,
 		"era": "Renaissance era",
@@ -379,7 +391,7 @@
 				"quote": "'The nation that destroys its soil destroys itself.' - Franklin Delano Roosevelt"
 			}
 		]
-	},
+	},//1600+2350=3950/2=1975*0.3=592.5
 	{
 		"columnNumber": 10,
 		"era": "Industrial era",
@@ -452,7 +464,7 @@
 				"quote": "'The introduction of so powerful an agent as steam to a carriage on wheels will make a great change in the situation of man.' - Thomas Jefferson"
 			}
 		]
-	},
+	},//3100+4100=7200/2=3600*0.3=1080
 	{
 		"columnNumber": 12,
 		"era": "Modern era",
@@ -664,6 +676,8 @@
 				],
 				"quote": "A"
 			}
+			
+			
 		]
 	}
 ]
