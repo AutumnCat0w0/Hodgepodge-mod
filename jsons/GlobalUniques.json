@@ -1,4 +1,9 @@
 {//全局状态
-   
+   "name": "Global uniques",
+    "uniques": [
+        //"Invisible to non-adjacent units<for [Military] units><when above [0] [Snake Charm]>"//蛇符咒
+        
+        
+            ]
           
 }

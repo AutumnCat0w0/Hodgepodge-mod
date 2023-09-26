@@ -69,6 +69,14 @@
 	},
 	
 	{
+        "name": "Self-healing",//自愈
+	    "uniques": [
+		"Heal this unit by [15] HP"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
         "name": "Stealth in the forest",//林中潜行
 	 "uniques": [
 	 "Invisible to others<in [Jungle] tiles><during a Golden Age>"
@@ -481,8 +489,61 @@
 	 ]
 	},
 	
+	{
+        "name": "Robbery!",//打劫！
+	 "uniques": [
+	 "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
+		"Earn [10]% of the damage done to [All] units as [Gold]"//伤害转化钱
+	 ]
+	},
+    
+    
+    {
+        "name": "Developer Effect Peach",//开发者协同效应：桃
+	 "uniques": [
+	 "This Unit gains [1] XP<with [33]% chance><upon ending a turn in a [Land] tile>"
+	 "[+10]% Strength<for units with [Developer Effect Green]>"
+	 ]
+	},
 	
+	{
+        "name": "Developer Effect Green",//开发者协同效应：绿
+	 "uniques": [
+	 "Heal this unit by [5] HP<upon ending a turn in a [Land] tile>"
+	 "Heal this unit by [5] HP<upon ending a turn in a [Land] tile><for units with [Developer Effect Peach]>"
+	 ]
+	},
 	
+	{
+        "name": "Offensive mode",//进攻模式
+	 "uniques": [
+	 "[+80]% Strength<when attacking>"
+	 "[+40]% Strength<when defending>"
+	 "[3] XP gained from combat"
+	 ]
+	},
+	
+	{
+        "name": "Defense Mode",//防御模式
+	 "uniques": [
+	 "[+40]% Strength<when attacking>"
+	 "[+80]% Strength<when defending>"
+	 "Heal this unit by [5] HP<upon ending a turn in a [Land] tile>"
+	 ]
+	},
+	
+	{
+	"name": "Undead",//不死者
+		"uniques": [
+		"May capture killed [Military] units",
+		"Damage is ignored when determining unit Strength <for [Land] units>"
+		"Heal this unit by [-5] HP<upon ending a turn in a [All] tile>"
+		"[+10]% Strength<when below [80] HP>"
+		"[+10]% Strength<when below [60] HP>"
+		"[+10]% Strength<when below [40] HP>"
+		"[+10]% Strength<when below [20] HP>"
+		],
+	},
 	
 	
 	

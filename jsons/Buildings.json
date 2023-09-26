@@ -887,7 +887,7 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
-		"[-1 Gold] per [1] population [in this city]",
+		"[+1 Gold] per [2] population [in this city]",
 		"[+15]% [Gold] from Trade Routes"
 		"Hidden when religion is disabled"]
 	},
@@ -982,6 +982,137 @@
 		"uniques": [
 		"[+1 Faith] per [2] population [in this city]<in [Desert] tiles>"
 		"Destroyed when the city is captured"]
+	},
+	
+	{
+		"name": "Beer volcano",//啤酒火山
+		"uniqueTo": "FSM",//飞天意面
+		"replaces": "Circus",//所代替
+		"requiredNearbyImprovedResources": ["Ivory","Horses","Wine","Sugar"],
+		"happiness": 2,
+		"faith": 2,
+		//"uniques": [    ],
+		"hurryCostModifier": 25,
+		"requiredTech": "Trapping"
+	},
+	
+	{
+	    "name": "Pasta Paradise",//意面天堂
+		"uniqueTo": "FSM",//飞天意面
+		"replaces": "Garden",//所代替
+		"happiness": 1,
+		"food": 1,
+		"uniques": [
+		"[+25]% Great Person generation [in this city]",
+		],
+		"hurryCostModifier": 25,
+		"maintenance": 0,
+		"requiredTech": "Theology"
+	},
+	
+	{
+	    "name": "Stargazing Tower",//观星塔
+		"uniqueTo": "Star Explorer",//星之探索者
+		"replaces": "Observatory",//所代替
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": [
+		
+		"Can only be built [in all cities] <within [3] tiles of a [Mountain]>"
+		"Reveal up to [1] [Natural Wonder] within a [50] tile radius"
+		
+		],
+		"requiredTech": "Astronomy"
+	},
+	
+	{
+		"name": "Crypt",//地穴
+		"uniqueTo": "Ant tribe",//蚁族
+		"replaces": "Granary",//所代替原版的建筑（如果不想取代可以不写这项）
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 30,
+		"uniques": ["[+1 Food] from [Bonus resource] tiles [in this city]",
+			],
+		"requiredTech": "Pottery"
+	},
+	
+	{
+		"name": "Countermeasure Committee",//对策委员会
+		"uniqueTo": "Abydos highschool",//阿拜多斯-对策委员会
+		"replaces": "Palace",//所代替
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 2,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": [
+		"All newly-trained [All] units [in this city] receive the [Robbery!] promotion"
+	   "[+35]% [Gold]"
+		"Indicates the capital city"]
+	},
+
+    {
+		"name": "Game Development Department",//游戏开发部
+		"uniqueTo": "Millennium Science School - Game Development Department",//千年-游戏开发部
+		"replaces": "Barracks",//所代替
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		"New [Military] units start with [15] Experience [in this city]", 
+		"All newly-trained [All] units [in this city] receive the [Developer Effect Green] promotion"
+		"Destroyed when the city is captured"
+		],
+		"requiredTech": "Bronze Working"
+	},
+	
+	{
+		"name": "Game Gear",//游戏齿轮
+		"uniqueTo": "Millennium Science School - Game Development Department",//千年-游戏开发部
+		"replaces": "Water Mill",//所代替
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+		"All newly-trained [Melee] units [in this city] receive the [Developer Effect Peach] promotion"
+		],
+		"requiredTech": "The Wheel"
+	},
+    
+    {
+		"name": "Convenience Housing Division",//便利屋分部
+		"uniqueTo": "Gehenna School - Convenience House 68",//歌赫娜-便利屋68
+		"replaces": "Barracks",//所代替
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+		"New [Military] units start with [30] Experience [in this city]", 
+		"Destroyed when the city is captured"
+		],
+		"requiredTech": "Bronze Working"
+	},
+	
+	{
+		"name": "Great Tomb of Nazarick",//纳萨力克大坟墓
+		"uniqueTo": "BOSS The King of the Undead",//不死者之王
+		"replaces": "Palace",//所代替
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 5,
+		"cityHealth": 400,
+		"cost": 1,
+		"uniques": [
+		"[+3 Gold] per [2] population [in all cities]",
+		"Indicates the capital city"]
 	},
 	
 ]

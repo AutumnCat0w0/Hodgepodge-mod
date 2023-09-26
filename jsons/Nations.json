@@ -191,7 +191,7 @@
 			"uniqueName": "记录，编纂，传承",//文明特性名
 			"uniques": [
 		"[+1 Science, +2 Gold] [in all cities]<after [10] turns><during the [Ancient era]>"
-		"[+2 Science, +4 Gold,  +1 Culture] [in all cities]<during the [Classical era]>"
+		"[+2 Science, +4 Gold, +1 Culture] [in all cities]<during the [Classical era]>"
 		"[+1 Culture, +3 Science, +6 Gold] [in all cities]<during the [Medieval era]>"
 		"[+2 Culture, +4 Science, +8 Gold] [in all cities]<starting from the [Renaissance era]>"
 			],//文明特性具体效果
@@ -2162,6 +2162,305 @@
 		"Free [Ascender] appears <upon entering the [Renaissance era]>"//进时代送大军
 			],//文明特性具体效果
 			"cities": ["Shuruima",]
+	},
+	
+	{
+		"name": "FSM",//FSM
+		"leaderName": "Flying Spaghetti",//飞天意面
+		"adjective": ["x"],
+		//"startBias": ["Wine","Sugar"],
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [1, 203, 160],//文明内部色*
+		"innerColor": [8, 0, 150],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "[Wine]与[Sugar]地块+2[Production][Happiness][Faith][Food]\n城市范围4格内有[Wine]或[Sugar]时+1[Production]与+2[Faith]（每种限1次）"
+		"uniqueName": "Flying Spaghetti Monsterism",//文明特性名
+		"uniques": [
+		"[+2 Production, +2 Happiness, +2 Faith, +2 Food] from [Wine] tiles [in this city]",//酒 与糖！
+		"[+2 Production, +2 Happiness, +2 Faith, +2 Food] from [Sugar] tiles [in this city]",//酒与 糖！
+		"[+2 Faith, +1 Production] [in this city]<within [4] tiles of a [Wine]>",//有奢就不乐
+		"[+2 Faith, +1 Production] [in this city]<within [4] tiles of a [Sugar]>",//有奢就不乐
+		
+			],//文明特性具体效果
+			"cities": ["FSM",]
+	},
+	
+	{
+		"name": "Star Explorer",//星之探索者
+		"leaderName": "星萌",//星萌
+		"adjective": ["x"],
+		//"startBias": ["Wine","Sugar"],
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [138, 43, 226],//文明内部色*
+		"innerColor": [0,0,128],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		//"uniqueText": "   "
+		"uniqueName": "Revealing the Dust Star",//文明特性名
+		"uniques": [
+		"Gain [20] [Culture]<upon discovering a Natural Wonder>"
+		"[+3 Gold, +1 Culture, +1 Happiness] for every known Natural Wonder"
+		"[+50]% Yield from every [Natural Wonder]"//自然奇观翻倍产出
+		"[+2 Food] from every [Natural Wonder]"
+			],//文明特性具体效果
+			"cities": ["Star Explorer",]
+	},
+	
+	{
+		"name": "Ant tribe",//蚁族
+		"leaderName": "蚁王",//蚁王
+		"adjective": ["x"],
+		//"startBias": ["Wine","Sugar"],
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [18, 43, 126],//文明内部色*
+		"innerColor": [0,180,128],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		//"uniqueText": "   "
+		"uniqueName": "集合之力",//文明特性名
+		"uniques": [
+		"[-15]% Strength<for [Melee] units>"
+		"[+100]% to Flank Attack bonuses"
+			],//文明特性具体效果
+			"cities": ["皇族地穴",]
+	},
+	
+	{
+		"name": "Green grassland",//青青草原
+		"leaderName": "Pleasant Goat",//喜羊羊
+		"adjective": ["x"],
+		//"startBias": ["Wine","Sugar"],
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [188, 0, 126],//文明内部色*
+		"innerColor": [0,80,128],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		//"uniqueText": "   "
+		"uniqueName": "Green grassland",//文明特性名
+		"uniques": [
+		"[+1 Food] from [Grassland] tiles [in this city]<with [3] to [6] neighboring [Grassland] tiles>",//白地加成
+			],//文明特性具体效果
+			"cities": ["Green grassland",]
+	},
+	
+	
+	
+	/*{
+		"name": "Fire Demon",//火之恶魔
+		"leaderName": "Shendu",//圣主
+		"adjective": ["x"],
+		//"startBias": ["Wine","Sugar"],
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [138, 43, 226],//文明内部色*
+		"innerColor": [0,0,128],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "每次建造奇观，你都会获得一个符咒，每个符咒提供不同的效果\n[Ox Charm]:军事单位+10%战斗力\n[Rabbit Charm]:军事单位+1移动力"
+		"uniqueName": "Twelve Zodiac Charms",//文明特性名
+		"uniques": [
+		"Instantly provides [5] [Charms]<upon constructing [Wonder]>"//奇观拿符咒
+		//"Instantly provides [1] [Charms]<upon discovering a Natural Wonder>"//奇观拿棋2
+		
+		"Provides [1] [Ox Charm] <when above [0] [Charms]>"//给符咒-牛
+		"Provides [1] [Rabbit Charm] <when above [1] [Charms]>"//给符咒-兔
+		"Provides [1] [Snake Charm] <when above [2] [Charms]>"//给符咒-蛇
+		"Provides [1] [Talisman charm] <when above [3] [Charms]>"//给符咒-马
+			],//文明特性具体效果
+			"cities": ["Shendu",]
+	},*/
+	{
+		"name": "Abydos highschool",
+		"leaderName": "小鸟游星野",
+		"adjective": ["x"],
+		//"startBias": ["Coast"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [111, 215, 0],//文明内部色*
+		"innerColor": [100,131,0],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		//"uniqueText": ""
+		"uniqueName": "得~得↑得↓得",//文明特性名
+		"uniques": [
+		"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
+	   "Receive triple Gold from Barbarian encampments and pillaging Cities",//三倍掠夺
+	   "No movement cost to pillage"//无移动劫掠
+	   "[-120]% [Gold]"
+	   
+			],//文明特性具体效果
+			"cities": ["Abydos highschool",]
+			
+	},
+	
+	{
+		"name": "Millennium Science School - Game Development Department",
+		"leaderName": "柚子",
+		"adjective": ["x"],
+		//"startBias": ["Coast"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [11, 25, 0],//文明内部色*
+		"innerColor": [100,131,0],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "[Happiness]建筑额外提供+1[Happiness]与+2[Gold]\n[Developer Effect Peach]：单位每回合有33%概率+1XP，若同时拥有[Developer Effect Green]，则额外提升10%战斗力\n[Developer Effect Green]：单位每回合回复5HP，若同时拥有[Developer Effect Peach]，则额外回复5HP"
+		"uniqueName": "G.Bibei",//文明特性名
+		"uniques": [
+		"[+1 Happiness, +2 Gold] from all [Happiness] buildings"
+			],//文明特性具体效果
+			"cities": ["游戏开发部",]
+			
+	},
+	
+	{
+		"name": "Gehenna School - Convenience House 68",
+		"leaderName": "爱露",
+		"adjective": ["x"],
+		//"startBias": ["Coast"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [11, 25, 0],//文明内部色*
+		"innerColor": [100,131,0],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "拥有1位[Mercenary]，可以通过贸易雇佣给其他文明，使其获得军队战斗力+15%，但其他文明需要每回合向你支付10[Gold]与2[Culture]与2[Science]"
+		"uniqueName": "便利屋，使命必达！",//文明特性名
+		"uniques": [
+		"Instantly provides [1] [68]"//拿资源
+		"Provides [1] [Mercenary]"
+		"[+10 Gold, +2 Culture, +2 Science]"
+			],//文明特性具体效果
+			"cities": ["便利屋",]
+			
+	},
+	
+	{
+		"name": "Caesar Group",//凯撒集团
+		"leaderName": "凯撒",
+		"adjective": ["x"],
+		//"startBias": ["Coast"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕，咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [1, 125, 20],//文明内部色*
+		"innerColor": [100,31,0],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "可以和其他文明进行特殊交易（交易[Culture][Science][Faith]）"
+		"uniqueName": "合作愉快",//文明特性名
+		"uniques": [
+		"Provides [1] [Caesar provides: Culture 5]"
+		"Provides [1] [Caesar provides: Science 5]"
+		"Provides [1] [Caesar provides: Faith 5]"
+		"Provides [1] [Caesar's Needs: Culture 5]"
+		"Provides [1] [Caesar's Needs: Science 5]"
+		"Provides [1] [Caesar's Needs: Faith 5]"
+			],//文明特性具体效果
+			"cities": ["凯撒公司",]
+			
+	},
+	
+	{
+			"name": "BOSS The King of the Undead",//不死者之王
+			"leaderName": "The King of the Undead",
+			"adjective": ["The King of the Undead"],
+		//"startBias": ["Forest"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		
+	    "startIntroPart1": "不死者帝国的领土中散布着死亡的气息和阴影。在这里，您将统御不死军团，他们由昔日的敌人和英勇的战士们组成。通过掌握死亡的奥秘和黑暗魔法，您将能够强化自己的军队，复活战斗中陨落的单位，并将他们转化为不朽的战斗力量。然而，您在追求统治的道路上将面临许多挑战。其他统治者对不死者帝国的力量充满了忌惮与嫉妒，他们可能会试图联合起来对抗您。您需要运用智慧、策略和黑暗力量来捍卫不死者帝国的崛起与统治。在您的统治下，不死者帝国将展现出独特的特色。您可以扩展您的领土，建立强大的堡垒和坟墓，培养强大的不死军团，并探索更多黑暗魔法的奥秘。您可以与其他文明进行合作或征服，通过您的统治来塑造世界的格局。",//介绍2
+		"startIntroPart2": "安兹·乌，时代的舞台已经准备好了。您是否愿意接受挑战，领导不死者帝国在这个世界中崛起？展现您的统治者魅力，将死亡力量的黑暗辉煌带到全世界。历史的一页等待着您的书写！",//介绍2
+		"declaringWar": "嚯嚯嚯，死亡将会席卷这片大地！",//向玩家宣战
+		"attacked":"哼，不知死活。",//被玩家宣战
+		"defeated": "哈哈哈哈，你让我尽兴了，下个世纪再见吧！",//被玩家打败时
+        "introduction": "哈哈哈，你好啊新新生代！",//初见
+        "neutralHello": "哦？来我这干什么来了？",//通常问候
+        "hateHello": "嚯嚯嚯。",//战争时问候
+        "tradeRequest": "来各取所需吧！",//向玩家申请交易时
+        "outerColor": [205, 255, 205],//文明内部色*
+		"innerColor": [10,15,15],//文明外部色*
+		"favouredReligion": "P",//当作为ai时选择的宗教
+		"uniqueText": "减少80%来自人口的不快乐\n击杀[Military]后获得[Strength] [50]%的[Science][Culture]与100%的[Gold]\n黄金时代持续时间+100%，当与其他文明宣战时进入黄金时代\n每次获得奇观进入黄金时代\n所有 [Military] 获得 [Undead] 晋升，处于黄金时代时+10%战斗力"
+		"uniqueName": "不死者之王",//文明特性名
+		"uniques": [
+		"[-80]% Unhappiness from [Population] [in all cities]"
+		"Earn [50]% of killed [Military] unit's [Strength] as [Science]",//杀人拿战力的
+		"Earn [50]% of killed [Military] unit's [Strength] as [Culture]",//杀人拿战力的
+		"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
+		"[Military] units gain the [Undead] promotion"
+		"[+100]% Golden Age length"
+		"[+10]% Strength<during a Golden Age>"
+		"Empire enters golden age<upon declaring war with a major Civilization>"//宣战开黄金
+		"Empire enters golden age<upon constructing [Wonder]>"//奇观开黄金
+		],//文明特性具体效果
+		"cities": ["大坟墓",]
 	},
 	
 ]

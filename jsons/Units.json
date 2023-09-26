@@ -1,21 +1,21 @@
 [//单位
     /*{
 		"name": "测试",//
-		"uniqueTo": "Breath of the Wild",//
+		"uniqueTo": "Star Explorer",//
 		"replaces": "Scout",
-		"unitType": "Scout",
-		"movement": 3,
-		"strength": 50,
+		"unitType": "Sword",
+		"movement": 5,
+		"strength": 300,
 		"cost": -1,
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
-		"Instantly provides [1] [Hero Counter]<for [0] movement>"//拿棋
-		"Instantly consumes [1] [Hero Counter]<for [0] movement>"
+		"[+10] Sight <for [All] units>",//增加视野
+		"Destroys tile improvements when attacking"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
-	},
-    */
+	},*/
+    
     {
 		"name": "Work Boats",//工船
 		"unitType": "Civilian Water",
@@ -66,11 +66,11 @@
 		"rangedStrength": 300,
 		"cost": -1,
 		"requiredTech": "Special technology",
-		"range": 25,
+		"range": 15,
 		"uniques": [
 		"Only available <for [Elchia Federation]>"
-		"Nuclear weapon of Strength [3]", 
-		"Blast radius [3]",
+		"Nuclear weapon of Strength [2]", 
+		"Blast radius [2]",
 		
 		]
 		"attackSound": "throw"
@@ -568,7 +568,7 @@
 		"strength": 14,
 		"cost": 75,
 		"uniques": ["Invisible to non-adjacent units", //只有附近的才能看到
-		"Heal this unit by [15] HP<upon losing at least [30] HP in a single attack>"
+		"This Unit gains the [Self-healing] promotion <upon losing at least [30] HP in a single attack>"
 		 ],
 		 "promotions": ["Blitz"],//免费晋升
 		"requiredTech": "Iron Working",
@@ -1127,7 +1127,7 @@
 		"obsoleteTech": "Scientific Theory",
 		"uniques": [
 	    "Cannot attack"
-	    "Gain [50]-[125] [Gold]<upon being defeated>"
+	    "Gain [75]-[187] [Gold]<upon being defeated>"
 		],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -1188,5 +1188,217 @@
 			"Uncapturable"],
 		"promotions": ["Ascender"],
 		"movement": 2
+	},
+	
+	{
+		"name": "Cartographer",//制图师
+	    "uniqueTo": "Star Explorer",//星之探索者
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 6,
+		"cost": 25,
+		"uniques": [
+		"Reveal up to [16] [All] within a [25] tile radius<for [0] movement> <[2] times>"
+		"[+50]% Strength<vs [Barbarian] units>"
+		"May upgrade to [Archer] through ruins-like effects",
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	{
+		"name": "Worker-priest",//工蚁
+		"uniqueTo": "Ant tribe",//蚁族
+		"replaces": "Worker",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"movement": 4,
+		"uniques": [
+		"Can build [Land] improvements on tiles", 
+		"[-20]% tile improvement construction time"
+		],
+		"cost": 70
+	},
+	
+	{
+		"name": "Pleasant Goat",//喜羊羊
+		"uniqueTo": "Green grassland",//青青草原
+		"replaces": "Great General",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"
+			"Free Technology<[1] times>"
+			],
+		"movement": 2
+	},
+	
+	{
+		"name": "Slow sheep",//喜羊羊
+		"uniqueTo": "Green grassland",//青青草原
+		"replaces": "Great Scientist",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"uniques": [
+            "Can hurry technology research",
+            "Can instantly construct a [Academy] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"
+            "Free Technology<[1] times>"
+            ],
+		"movement": 2
+	},
+	
+	{
+		"name": "Masked swimsuit group",//蒙面泳装团
+		"unitType": "Sword",
+		"uniqueTo": "Abydos highschool",//阿拜多斯高等学院
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"hurryCostModifier": -33,    
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>"
+		"Can move immediately once bought"
+		"购买费用下降33%"
+		],
+		"promotions": ["Cover I"],
+		"attackSound": "metalhit"
+	},
+    
+    {
+		"name": "Rikuhachima",//陆八魔
+		"unitType": "Civilian",
+		"uniqueTo": "Gehenna School - Convenience House 68",//便利屋68
+		"replaces": "Great General",
+		"uniques": [
+		"[+25]% Strength bonus for [Ranged] units within [2] tiles",
+	    "Empire enters a [8]-turn Golden Age <by consuming this unit>"
+			"Great Person - [War]", 
+			"Unbuildable", 
+			"Uncapturable"],
+		"movement": 2
+	},
+	
+	{
+		"name": "Sentinel drone",//哨卫无人机
+		"uniqueTo": "Caesar Group",//凯撒集团
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 1,
+		"strength": 6,
+		"rangedStrength": 4,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"[+2] Sight",//增加视野
+		"[+50]% Strength<when defending>"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
+	
+	{
+		"name": "Metal Max",//重装机兵
+		"uniqueTo": "Caesar Group",//凯撒集团
+		"replaces": "Pikeman",//所代替
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 12,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"This Unit gains the [Offensive mode] promotion<[1] times><for [0] movement><if it hasn't used other actions yet>"
+		"This Unit gains the [Defense Mode] promotion<[1] times><for [0] movement><if it hasn't used other actions yet>"
+		"[+1] Movement<for units without [Offensive mode]><for units without [Defense Mode]>"
+		],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+    
+    
+    {
+		"name": "Undead avant-garde",//不死前卫
+		"unitType": "Sword",
+		"uniqueTo": "BOSS The King of the Undead",//不死者之王
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Guilds",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+		"Free [Undead avant-garde] appears <upon being defeated><during a Golden Age>"
+		"Gain [-50] [Gold]<upon being defeated><during a Golden Age>"
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+		"promotions": ["Great Generals I"],//免费晋升
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Undead Knights",//不死骑士
+		"unitType": "Mounted",	
+		"uniqueTo": "BOSS The King of the Undead",//不死者之王
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Can move after attacking",
+		"Free [Undead Knights] appears <upon being defeated><during a Golden Age>"
+		"Gain [-80] [Gold]<upon being defeated><during a Golden Age>"
+		],
+		//"promotions": ["Gold Glory"],//免费晋升
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Skeleton Archer",//骷髅射手
+		"uniqueTo": "BOSS The King of the Undead",//不死者之王
+		"replaces": "Composite Bowman",//所代替
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 9,
+		"rangedStrength": 13,
+		"cost": 75,
+		"uniques": [
+		"Can move after attacking",
+		"Free [Skeleton Archer] appears <upon being defeated><during a Golden Age>"
+		"Gain [-80] [Gold]<upon being defeated><during a Golden Age>"
+		],
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Undead Crazy Warrior",//不死狂战士
+		"uniqueTo": "BOSS The King of the Undead",//战争
+		"replaces": "Swordsman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 18,
+		"cost": 75,
+		"uniques": [
+		"Free [Undead Crazy Warrior] appears <upon being defeated><during a Golden Age>"
+		"Gain [-120] [Gold]<upon being defeated><during a Golden Age>"
+		 ],
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 ]

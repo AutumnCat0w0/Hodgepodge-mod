@@ -604,5 +604,128 @@
 		]
 	},
 	
+	{
+		"name": "Charms",//符咒
+		"resourceType": "Bonus",
+		"uniques": ["Stockpiled"//库存
+		]
+	},
+	
+	/*{
+		"name": "Rat Charm",//鼠符咒
+		"resourceType": "Luxury",
+		"uniques": [
+		]
+	},*/
+	
+	{
+		"name": "Ox Charm",//牛符咒
+		"resourceType": "Luxury",
+		"uniques": [
+		"[+10]% Strength"
+		"[-3 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Rabbit Charm",//兔符咒
+		"resourceType": "Luxury",
+		"uniques": [
+		"[+1] Movement"
+		"[-3 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Snake Charm",//蛇符咒
+		"resourceType": "Luxury",
+		"uniques": [
+		"Invisible to non-adjacent units<for [Military] units>"
+		"[-3 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Talisman charm",//马符咒
+		"resourceType": "Luxury",
+		"uniques": [
+		"Heal this unit by [5] HP<upon ending a turn in a [Land] tile>"
+		"[-3 Happiness]"
+		]
+	},
+	
+	/*{
+		"name": "Ox charm",//牛符咒
+		"resourceType": "Luxury",
+		"uniques": [
+		]
+	},*/
+	
+	{
+		"name": "Mercenary",//雇佣兵
+		"resourceType": "Luxury",
+		"uniques": [
+		"[-10 Gold, -2 Culture, -2 Science, -4 Happiness]"
+		"[+15]% Strength<when below [1] [68]>"
+					]
+	},
+	
+	{
+		"name": "68",//68
+		"resourceType": "Bonus",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		
+		]
+	},
+	
+	{
+		"name": "Caesar provides: Culture 5",//凯撒提供 文化5
+		"resourceType": "Luxury",
+		"uniques": [
+		"[+5 Culture, -4 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Caesar provides: Science 5",//凯撒提供 科技5
+		"resourceType": "Luxury",
+		"uniques": [
+		"[+5 Science, -4 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Caesar provides: Faith 5",//凯撒提供 信仰5
+		"resourceType": "Luxury",
+		"uniques": [
+		"[+5 Faith, -4 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Caesar's Needs: Culture 5",//凯撒需求 文化5
+		"resourceType": "Luxury",
+		"uniques": [
+		"[-5 Culture, -4 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Caesar's Needs: Science 5",//凯撒需求 科技5
+		"resourceType": "Luxury",
+		"uniques": [
+		"[-5 Science, -4 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Caesar's Needs: Faith 5",//凯撒需求 信仰5
+		"resourceType": "Luxury",
+		"uniques": [
+		"[-5 Faith, -4 Happiness]"
+		]
+	},
 	
 ]
