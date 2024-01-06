@@ -48,7 +48,7 @@
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Marsh] tiles",
 			"Must not be on [1] largest landmasses"
-			"Grants [高山之心] ([你的部队攀登过珠穆朗玛峰后，在丘陵上如履平地]) to adjacent [Military] units for the rest of the game"
+			"Grants [Heart of the High Mountains] ([你的部队攀登过珠穆朗玛峰后，在丘陵上如履平地]) to adjacent [Military] units for the rest of the game"
 			],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -60,8 +60,9 @@
 		"name": "Eyjafjallajokull",//艾雅法拉火山
 		"type": "NaturalWonder",
 		"science": 4
-		"occursOn": ["Tundra"],
-		"uniques": ["Must be adjacent to [3] to [6] [Tundra] tiles",
+		"occursOn": ["Tundra","Snow"],
+		"uniques": ["Must be adjacent to [1] to [6] [Tundra] tiles",
+		"Must be adjacent to [1] to [6] [Snow] tiles",
 		    "Tile provides yield without assigned population"//不需要人
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
@@ -119,7 +120,7 @@
 		"faith": 6,
 		"happiness":2,
 		"occursOn": ["Plains","Grassland"],
-		"uniques": [
+		"uniques": ["Fresh water",
 		"Must be adjacent to [0] [Tundra] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
 			"Must be adjacent to [0] [Coast] tiles",
@@ -134,13 +135,15 @@
 	{
 		"name": "Atlantis",//亚特兰蒂斯
 		"type": "NaturalWonder",
-		"culture": 8,
-		"production":2,
-		"food":1,
-		"gold":2,
-		"occursOn": ["Ocean"],
+		"culture": 5,
+		"production":3,
+		"food":2,
+		"gold":4,
+		//"science":1,
+		"occursOn": ["Coast"],
 		"uniques": [
-		"Must be adjacent to [1] [Coast] tiles",
+		"Must be adjacent to [2] [Coast] tiles",
+		"Must be adjacent to [4] [Ocean] tiles",
 		"Tile provides yield without assigned population"//不需要人
 			],
 		"turnsInto": "Ocean",
@@ -158,7 +161,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.1,
 		"occursOn": ["Desert","Tundra","Plains","Grassland"],
-		"uniques": [
+		"uniques": ["Fresh water",
 					"Must be adjacent to [0] [Coast] tiles",
 					"Must be adjacent to [0] [Mountain] tiles",
 					"Must be adjacent to [0] [Snow] tiles"],
@@ -186,5 +189,21 @@
 		"movementCost": 2,
 	},
 	
+	{
+		"name": "Pantanal",//潘塔纳尔湿地
+		"type": "NaturalWonder",
+		"culture":4,
+		//"science":4,
+		//"food":2,
+		"movementCost": 3,
+		"turnsInto": "Grassland",
+		"unbuildable": true,
+		"defenceBonus": -0.15,
+		"occursOn": ["Grassland"],
+		"uniques": ["Fresh water",
+					"[-2] to Fertility for Map Generation",
+					"Occurs in groups of [3] to [4] tiles"
+					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
+	},
 
 ]

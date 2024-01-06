@@ -1,23 +1,23 @@
-{uniques:[//"Can convert gold to science with sliders",//允许金钱转化为科技，在统计页面，可以自由调整比例。
 
-Allow City States to spawn with additional units,//允许城邦使用mod单位
-]
-
-
-constants://常量
-{maxXPfromBarbarians:99999,//来自蛮子的最大经验（默认30）
-//cityStrengthBase :20,//城市初始力
-//cityStrengthFromTechsMultiplier:4,//来自科技的城市实力
-//cityStrengthFromTechsExponent:4,//来自技术城市实力
-//unitUpgradeCost:{},//单位升级成本（空为无）
-naturalWonderCountMultiplier:0.284,//自然奇迹计数乘数器（自然奇观基数）
-riverCountMultiplier:0.01,//河流计数乘数器（默认0.01）
-minRiverLength:5,//最小河流长度（默认5）
-maxRiverLength:999//最大河流长度（默认999）
-ancientRuinCountMultiplier:0.04,//盲盒计数器（默认0.02）
-}
-
-    //"isBaseRuleset": true,//是否为规则集
+{
+    "isBaseRuleset": false,
     "author":"Autumn Rain Cat"
-    //"nationsToRemove":["彩虹火箭队","马师傅武馆"]
+    "constants": {
+        "maxXPfromBarbarians": 30,//来自蛮子最大XP（默认30）
+        "unitUpgradeCost": {},
+        "naturalWonderCountMultiplier": 0.01,
+        "naturalWonderCountAddedConstant": 0.5,
+        "ancientRuinCountMultiplier": 0.05,//盲盒
+        "maxLakeSize": 18,
+        "riverCountMultiplier": 0.02,//河流
+        "minRiverLength": 1,
+        "maxRiverLength": 999,
+        "naturalWonderCountMultiplier":0.284,//自然奇迹计数乘数器（自然奇观基数）
+    },
+    "uniques":[
+        "Allow City States to spawn with additional units"
+        "Cannot be used as permanent audiovisual mod",
+        "Mod is incompatible with [Civ6 mod]",
+        "Mod is incompatible with [Civilization 6 Mod]",
+    ]
 }

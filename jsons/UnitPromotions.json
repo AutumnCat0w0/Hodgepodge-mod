@@ -4,7 +4,7 @@
     ///////////////
     
     {
-	"name": "高山之心",
+	"name": "Heart of the High Mountains",//高山之心
 		"uniques": [
 		"Units ignore terrain costs when moving into any tile with Hills",
 		],
@@ -19,8 +19,10 @@
 	
 	{
 	"name": "Wings of Freedom",//自由之翼
-		"uniques": ["May Paradrop up to [4] tiles from inside friendly territory",
+		"uniques": ["May Paradrop up to [3] tiles from inside friendly territory",
 			"Can pass through impassable tiles"
+			"Ignores Zone of Control"
+			//"[+1] Sight <for [All] units>",//增加视野
 		],
 	},
 	
@@ -37,12 +39,11 @@
 		"uniques": [
 		"May capture killed [Military] units",
 		"Damage is ignored when determining unit Strength <for [Land] units>"
-		"Unit will heal every turn, even if it performs an action"//每回合都会回血
-		"[-12] HP when healing"
+		"This Unit takes [5] damage<upon ending a turn in a [Land] tile>",
 		"[+5]% Strength<when below [80] HP>"
-		"[+10]% Strength<when below [60] HP>"
-		"[+15]% Strength<when below [40] HP>"
-		"[+20]% Strength<when below [20] HP>"
+		"[+5]% Strength<when below [60] HP>"
+		"[+5]% Strength<when below [40] HP>"
+		"[+5]% Strength<when below [20] HP>"
 		],
 	},
 	
@@ -107,7 +108,7 @@
 	{
         "name": "Deep-sea predation",//深海捕食
 	 "uniques": [
-	 "Heal this unit by [-20] HP<upon ending a turn in a [Desert] tile>",
+	 "This Unit takes [20] damage<upon ending a turn in a [Desert] tile>",
 	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
 	 "This Unit gains [3] XP<upon defeating a [All] unit>",
 	 ]
@@ -139,7 +140,7 @@
 	{
         "name": "战线修筑",
 	 "uniques": [
-	 "[+10]% Strength<when fighting in [突击线] tiles><when defending>"
+	 "[+10]% Strength<when fighting in [突击线] tiles>"
 	 "Can build [突击线] improvements on tiles"
 	 ]
 	},
@@ -164,7 +165,7 @@
         "name": "Fungal infection",//真菌感染
 	 "uniques": [
 	 "[+1] population in a random city<upon defeating a [Military] unit>"
-	 "[-1] population in a random city<upon defeating a [Barbarian] unit><with [33]% chance>"
+	 "[-1] population [in all cities]<upon defeating a [Barbarian] unit>"
 	 ]
 	},
 	
@@ -272,7 +273,7 @@
 	{
         "name": "Corvee+ I",//劳役
 	    "uniques": [
-	    "This Unit gains the [Corvee+ II] promotion<for [0] movement><[3] times>"
+	    "This Unit gains the [Corvee+ II] promotion<for [0] movement><[2] times>"
 	 ]
 	},
 	
@@ -302,7 +303,7 @@
 	{
         "name": "X Corps-X",//X军团-附属
 	    "uniques": [
-		"[+1] Movement<for [2] turns>"
+		"[+1] Movement<for [2] turns><for [Ranged] units>"
 		"Doing so will consume this opportunity to choose a Promotion"
 	 ]
 	},
@@ -319,13 +320,13 @@
 	 ]
 	},
 	
-	{
+	/*{
         "name": "Hedgehog",//刺猬
 	    "uniques": [
 		"Deals 5 damage to enemies attacking our unit and loses 2XP"//无效文本
 		"Hedgehog"
 	 ]
-	},
+	},*/
 	
 	{
         "name": "The Power of Unity",//统合之力
@@ -485,7 +486,7 @@
 		"[+1] Movement"
 		"Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
 		"[+50]% XP gained from combat"
-		"[+15]% Strength bonus for [Military] units within [3] tiles",
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
 	 ]
 	},
 	
@@ -537,7 +538,7 @@
 		"uniques": [
 		"May capture killed [Military] units",
 		"Damage is ignored when determining unit Strength <for [Land] units>"
-		"Heal this unit by [-5] HP<upon ending a turn in a [All] tile>"
+		"This Unit takes [5] damage<upon ending a turn in a [All] tile>"
 		"[+10]% Strength<when below [80] HP>"
 		"[+10]% Strength<when below [60] HP>"
 		"[+10]% Strength<when below [40] HP>"
@@ -545,7 +546,244 @@
 		],
 	},
 	
+	{
+	"name": "Magic Control I",//魔力掌控
+		"uniques": [
+		"Instantly provides [1] [Magic power]"//单位拿魔力
+		//"Instantly provides [1] [Magic power]<upon losing at least [0] HP in a single attack>"//打架拿魔力
+		"Instantly provides [3] [Magic power]<upon defeating a [Wounded] unit>"//击杀拿魔力
+		
+		],
+	},
 	
+	{
+	"name": "Magic Control II",//魔力掌控
+		"uniques": [
+		"Instantly provides [4] [Magic power]<upon ending a turn in a [All] tile>"
+		],
+	},
 	
+	{
+	"name": "King",//王者
+		"uniques": [
+		"Founds a new city"
+		],
+	},
 	
+	{
+        "name": "Awakening Gargoyle",//觉醒石像鬼
+	    "uniques": [
+		"Heal this unit by [50] HP"
+	 ]
+	},
+	
+	{
+        "name": "Energy replenishment",//能源补充
+	    "uniques": [
+		"[+15]% Strength decreasing with distance from the capital"
+		"Double movement in [All]<in [Friendly Land] tiles>"
+	 ]
+	},
+	
+	{
+        "name": "Puppet recasting",//傀儡重铸
+	    "uniques": [
+		"Heal this unit by [65] HP"
+		"[+25]% Strength decreasing with distance from the capital"
+		"Consumes [2] [Iron]"
+	 ]
+	},
+	
+	{
+        "name": "Knight's Code",//骑士守则
+	 "uniques": [
+	 "[2] XP gained from combat"
+	 ]
+	},
+	
+	{
+        "name": "God's Hunt I",//神狩
+	 "uniques": [
+		"Gain [-4] [Culture]<upon defeating a [All] unit>"
+		"Gain [-8] [Science]<upon defeating a [All] unit>"
+		"Earn [200]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
+		"[+100]% Strength<vs [Barbarian] units>"
+	 ]
+	},
+	
+	{
+        "name": "God's Hunt II",//神狩
+	 "uniques": [
+		"Free [Hunter] appears<upon defeating a [Barbarian] unit>"
+	 ]
+	},
+	
+	{
+        "name": "Rock toughness",//岩韧
+	    "uniques": [
+		"This Unit gains the [Rock toughness-X] promotion<upon losing at least [0] HP in a single attack>",
+	 ]
+	},
+	
+	{
+        "name": "Rock toughness-X",//岩韧-附属
+	 "uniques": [
+	 	"This Unit gains [1] XP"
+	 	//"This Unit gains [1] XP<with [40]% chance>"
+		//"This Unit gains [1] XP<with [20]% chance>"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Solid Rock",//坚岩
+	 "uniques": [
+	 "[+100]% Strength<vs [Spearman] units>"
+		"[+100]% Strength<vs [Pikeman] units>"
+	 ]
+	},
+	
+	{
+        "name": "Flame of Life",//生命燃焰
+	    "uniques": [
+		"Free [Ash] appears <upon being defeated>"
+	 ]
+	},
+	
+	{
+	"name": "Terror",//恐怖
+		"uniques": [
+		"Instantly provides [1] [Blood Witch Counter - Non Barbarian]<upon defeating a [All] unit>"//击杀拿
+		"Instantly consumes [1] [Blood Witch Counter - Non Barbarian]<upon defeating a [Barbarian] unit>"
+		"Instantly provides [1] [Blood Witch Counter - Barbarians]<upon defeating a [Barbarian] unit>"//击杀拿
+		
+		"[+50]% Strength<vs [Barbarian] units><when above [7] [Blood Witch Counter - Barbarians]><when below [16] [Blood Witch Counter - Barbarians]>"//杀10人加对蛮族战力
+		"[+100]% Strength<vs [Barbarian] units><when above [15] [Blood Witch Counter - Barbarians]><when below [24] [Blood Witch Counter - Barbarians]>"//杀10人加对蛮族战力
+		"[+150]% Strength<vs [Barbarian] units><when above [23] [Blood Witch Counter - Barbarians]><when below [32] [Blood Witch Counter - Barbarians]>"//杀10人加对蛮族战力
+		"[+200]% Strength<vs [Barbarian] units><when above [31] [Blood Witch Counter - Barbarians]>"//杀10人加对蛮族战力
+		
+		"[+5]% Strength <when above [7] [Blood Witch Counter - Barbarians]><when below [16] [Blood Witch Counter - Barbarians]>"//杀10人加战力
+		"[+10]% Strength <when above [15] [Blood Witch Counter - Barbarians]><when below [24] [Blood Witch Counter - Barbarians]>"//杀10人加战力
+		"[+15]% Strength <when above [23] [Blood Witch Counter - Barbarians]>"//杀10人加战力
+		],
+	},
+	
+	{
+        "name": "Solo",//独奏
+	    "uniques": [
+		"Free [Performer] appears<for [1] movement> <by consuming this unit> <when above [0] [奏者计数器]>"//转化为什么单位
+	
+	 ]
+	},
+	
+	{
+        "name": "Concerted",//协奏
+	    "uniques": [
+		"Invisible to non-adjacent units <when above [0] [律动计数器]>"//计数器高于0（激昂）
+		//"[+15]% Strength<when defending> <when below [0] [律动计数器]>"//计数器低于0（沉沦）
+		
+	 ]
+	},
+	
+	{
+        "name": "Blood Shadow I",//血影 I
+	    "uniques": [
+		"Reveal up to [1] [City center] within a [50] tile radius<for [1] movement>"//探测城市
+	    "[+33]% Strength <when attacking> <vs [Military] units>"//首刀暴击
+		"[-33]% Strength <when attacking> <vs [Wounded] units>"//首刀暴击
+		//"[+100]% Strength<vs [Barbarian] units>"//对蛮族战力
+	 ]
+	},
+	
+	{
+        "name": "Blood Shadow II",//血影 II
+	    "uniques": [
+	    "[+64]% Strength <when attacking> <vs [Military] units>"//首刀暴击
+		"[-64]% Strength <when attacking> <vs [Wounded] units>"//首刀暴击
+	 ]
+	},
+	
+	{
+        "name": "Track paving",//赛道铺展
+	    "uniques": [
+	    "Can instantly construct a [Road] improvement <for [0] movement><[3] times>",
+	 ]
+	},
+	
+	{
+        "name": "Deep Ones",//深潜者
+	 "uniques": [
+	 "Invisible to non-adjacent units<in [Water] tiles>"//隐身
+	 "Defense bonus when embarked"//船运正常防
+	 "May attack when embarked"//船运可攻击
+	 "Double movement in [Coast]<in [Water] tiles>"
+	 "Double movement in [Ocean]<in [Water] tiles>"
+	 "Double movement in [Fresh Water]"
+	 "[+1] Sight <in [Water] tiles> <for [Land] units>",//增加视野
+	 "[+2] Movement<in [Water] tiles><for [Mounted] units>"
+	 "[+2] Movement<in [Water] tiles><for [Chariot Archer] units>"
+	 "Heal this unit by [10] HP<upon ending a turn in a [Water] tile>",
+	 ]
+	},
+	
+	{
+        "name": "Bully the weak and fear the strong",//欺软怕硬
+	    "uniques": [
+	    "Instantly provides [1] [Goblin Counter]<upon ending a turn in a [All] tile> <when below [36] [Goblin Counter]>"//每回合拿计数器
+		"Instantly consumes [3] [Goblin Counter]<upon being defeated> <when above [0] [Goblin Counter]>"//死亡掉资源
+		"[+10]% Strength <when above [24] [Goblin Counter]>"//计数器加战力
+		"[-10]% Strength <when below [13] [Goblin Counter]>"//计数器减战力
+	 ]
+	},
+	
+	{
+	"name": "Mountain ethnic groups",//山地民族
+		"uniques": [
+			"Can pass through impassable tiles"
+			"Double movement in [Mountain]"
+			"Double movement in [Hill]"
+			"[+10]% Strength <in [Mountain] tiles>"
+		],
+	},
+	
+	{
+	"name": "The Glory of Knights",//骑士的荣耀
+		"uniques": [
+		"[+10]% Strength<when defending><when adjacent to a [All] unit><when above [0] [Knight's Oath]>"
+		"Heal this unit by [5] HP<when adjacent to a [All] unit><when above [0] [Knight's Oath]>",
+		],
+	},
+	
+	{
+	"name": "The Light of Shelter",//庇护之光
+		"uniques": [
+		"Heal this unit by [4] HP<upon ending a turn in a [All] tile>",
+		"[+25]% XP gained from combat"
+		"May withdraw before melee ([100]%) <for [Civilian] units>"
+		],
+	},
+	
+	{
+        "name": "Combat encouragementr",//战斗鼓舞
+	    "uniques": [
+	    "[+40]% XP gained from combat"
+	 ]
+	},
+	
+	{
+        "name": "Fireworks Protection",//薪火守护
+        "uniques":[
+        "Heal this unit by [5] HP<upon ending a turn in a [Land] tile>"
+        "When defeating a [Barbarians] unit, earn [0] Gold and recruit it",
+        "[+50]% Strength <vs [Barbarians] units>"]
+    },
+    
+    {
+       "name": "Leader's will",//领袖意志
+       "uniques":[
+       "[+1] Movement",
+       "[+30]% Strength",
+       "Can transform to [Spark Keeper]",//转化
+       ]
+    },
 ]

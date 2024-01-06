@@ -544,7 +544,9 @@
 		"culture": 1,
 		"improvement": "Quarry",
 		"improvementStats": {"gold": 1},
-		"uniques": ["Generated with weight [5] <in [Jungle] Regions>",
+		"uniques": [
+		"[+15]% [Culture]"
+		"Generated with weight [5] <in [Jungle] Regions>",
 					"Generated with weight [30] <in [Forest] Regions>",
 					"Generated with weight [5] <in [Plains] Regions>",
 					"Generated with weight [5] <in [Grassland] Regions>",
@@ -601,6 +603,15 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		
+		]
+	},
+	
+	{
+		"name": "QB",//
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
 		]
 	},
 	
@@ -728,4 +739,121 @@
 		]
 	},
 	
+	{
+		"name": "Domain King Counter",//王战计数器
+		"resourceType": "Bonus",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
+	{
+		"name": "Awakening counter",//觉醒计数器
+		"resourceType": "Bonus",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
+	{
+		"name": "BD Counter",//病毒计数器
+		"resourceType": "Luxury",
+		"uniques": [
+		"[-4 Happiness]"
+		"Cannot be traded"//不能交易
+		]
+	},
+	
+	/*{
+		"name": "Holy Water",//圣水
+		"resourceType": "Strategic",
+		//"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},*/
+	
+	{
+		"name": "Blood Witch Counter - Non Barbarian",//血巫计数器-非蛮族
+		"resourceType": "Bonus",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		
+		]
+	},
+	
+	{
+		"name": "Blood Witch Counter - Barbarians",//血巫计数器-蛮族
+		"resourceType": "Bonus",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		
+		]
+	},
+	
+	{
+		"name": "Blood Witch Counter - Distortion",//血巫计数器畸变
+		"resourceType": "Bonus",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		
+		]
+	},
+	
+	{
+		"name": "Rhythm counter",//律动计数器
+		"resourceType": "Luxury",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Stockpiled"
+		"[-4 Happiness]"
+		]
+	},
+	
+	{
+		"name": "Performer counter",//奏者计数器
+		"resourceType": "Luxury",
+		"uniques": [
+		"[-4 Happiness]"
+		"Cannot be traded"//不能交易
+		]
+	},
+	
+	{
+		"name": "Switch Counter",//血巫计数器畸变
+		"resourceType": "Bonus",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		
+		]
+	},
+	
+	{
+		"name": "Goblin Counter",//哥布林计数器
+		"resourceType": "Bonus",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		
+		]
+	},
+	
+	{
+		"name": "Knight's Oath",//骑士的誓约
+		"resourceType": "Luxury",
+		"uniques": [
+		"[-4 Happiness]"
+		//"All newly-trained [Military] units [in all cities] receive the [The Glory of Knights] promotion"
+		"[Military] units gain the [The Glory of Knights] promotion"
+		]
+	},
 ]

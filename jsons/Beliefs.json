@@ -1,3 +1,48 @@
 [//信仰
 
+    {
+        "name": "Sylvania",//希尔瓦尼亚
+        "type": "Pantheon",
+        "uniques": [
+        "[+2 Food] from every [Marsh]",
+        "[+1 Food] from every [Flood plains]",
+        
+      ]
+    },
+    
+    {
+        "name": "Aqua",//阿库娅
+        "type": "Pantheon",
+        "uniques": [
+        "[-50]% [Science]"
+        "[+9 Happiness]"
+      ]
+    },
+
+    {
+        "name": "Ares",//阿瑞斯
+        "type": "Pantheon",
+        "uniques": [
+        "All newly-trained [Military] units [in this city] receive the [Combat encouragementr] promotion"
+      ]
+    },
+    
+    {
+        "name": "Mountain King",//山王
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Gold] from every [Hill]",
+      ]
+    },
+    
+    {
+        "name": "Everyone in One",//人人合一
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Food] per [3] population [in this city]"
+      ]
+    },
+
+
+
 ]

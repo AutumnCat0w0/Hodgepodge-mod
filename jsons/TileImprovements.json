@@ -18,7 +18,7 @@
 	{
 		"name": "江东铁壁",
 		"terrainsCanBeBuiltOn": ["Water"],
-		"uniqueTo": "东吴",
+		"uniqueTo": "WU",//东吴
 		"turnsToBuild": 7,
 		"uniques": [
 		"Can be built outside your borders", 
@@ -28,9 +28,9 @@
 		
 		
 	{
-		"name": "亚人巢穴",
+		"name": "Subhuman Nest",//亚人巢穴
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill","Snow","Tundra"],
-		"uniqueTo": "犬酋地下室",
+		"uniqueTo": "Canine chieftain basement",//犬酋地下室*
 		"turnsToBuild": 7,
 		"techRequired": "Agriculture",
 		"uniques": [
@@ -86,9 +86,9 @@
 		
 		
 	{
-		"name": "低棚屋",
+		"name": "Low shed"//低棚屋,
 		"terrainsCanBeBuiltOn": ["Tundra"],
-		"uniqueTo": "印北",
+		"uniqueTo": "YinBei",//印北
 		"turnsToBuild": 7,
 		"production": 1,
 		//"uniques": [],
@@ -97,7 +97,7 @@
 	{
 		"name": "采集城堡",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniqueTo": "超级犬娘酋长",
+		"uniqueTo": "SP-Canine chieftain basement",//超级犬娘酋长
 		"turnsToBuild": 7,
 		"uniques": [
 		"Can be built outside your borders", 
@@ -118,7 +118,7 @@
 		"turnsToBuild": 7,
 		"production": 1,
 		"uniques": [
-		"[+1 Production] <after discovering [The Wheel]>"
+		"[+1 Production] <after discovering [The Wheel]> <in tiles without [Bonus resource]>"
 		"[+1 Production, +1 Food] <after discovering [Railroads]>"
 		],
 		"techRequired": "Mining",
@@ -137,9 +137,9 @@
 	},
 	
 	{
-		"name": "西兰民族纪念碑",
+		"name": "Silania National Monument",//西兰民族纪念碑
 		"terrainsCanBeBuiltOn": ["Land"],
-		"uniqueTo": "西兰尼亚",
+		"uniqueTo": "Silania",//西兰尼亚
 		"turnsToBuild": 7,
 		"happiness": 1,
 		"faith":1,
@@ -181,4 +181,57 @@
 		"techRequired": "Animal Husbandry",
 	},*/
 	
+	{
+		"name": "Silver Maze City",//白银迷宫城
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Baiyin City",//白银城
+		"turnsToBuild": 7,
+		"food":1,
+		"uniques": [
+		//"Costs [1] [Gold] per turn"
+		"Adjacent enemy units ending their turn take [8] damage"
+		"[+1 Production, -1 Food] <in [Hill] tiles>",
+		//"[+1 Food] <after discovering [Fertilizer]>",
+		"[+1 Culture, -1 Food] <in [Hill] tiles> <after discovering [Civil Service]>",
+		"[+1 Food] <after discovering [Civil Service]>",
+		"[+2 Production] <in [Andosols] tiles>",
+		],
+		"techRequired": "Masonry",
+	},
+	
+	{
+		"name": "Diffusive infection",//扩散感染
+		"uniqueTo": "Giant viruses",//巨大病毒
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 10,
+		"uniques": [
+		"Consumes [1] [BD Counter]",
+		"Tile provides yield without assigned population<when above [-1] [BD Counter]>"//不需要人
+		"Can be built outside your borders",
+		 "Constructing it will take over the tiles around it and assign them to your closest city"
+		 "Removes removable features when built"
+		 "Irremovable"
+		 ],
+		
+	},
+	
+	{
+		"name": "Resonant Music Tower",//共鸣乐塔
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniqueTo": "Minstrel",//吟游者
+		"turnsToBuild": 7,
+		"culture":1,
+		"uniques": [
+		"处于【激昂】状态时+1[Production]与[Gold]，研究文官制度后再提升1点\n处于【沉沦】状态时+1[Science]与[Culture]，研究文官制度后再提升1点\n工业时代后+1[Production]与[Science]"
+		],
+		"techRequired": "Masonry",
+	},
+	
+	{
+		"name": "Relic",//遗迹
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Great Improvement",
+		//"Unpillagable", 
+		"Provides a random bonus when entered",]
+	},
 ]
