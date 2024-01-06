@@ -3419,8 +3419,8 @@
 		"[+10]% [Production] <in cities with at least [1] [Specialists]>"
 		"[-1 Food] [in this city]<in cities with at least [1] [Specialists]>"
 		//"[+7]% [Production] <in cities with at least [2] [Specialists]>"*/
-		"[+25%]% Great Person generation [in this city]<after discovering [Writing]>",
-		"[-100%]% Great Person generation [in this city]<before discovering [Writing]>",
+		"[+25]% Great Person generation [in this city]<after discovering [Writing]>",
+		"[-100]% Great Person generation [in this city]<before discovering [Writing]>",
 		"[+2 Production] from every specialist [in this city]"
 		"Gain a free [Library] [in capital] <upon discovering [Writing]>"
 		/////特色单位///////
