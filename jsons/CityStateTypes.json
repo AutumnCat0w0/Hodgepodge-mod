@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Cultured",//文化
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Medieval era]>",
+            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Culture] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+6 Culture] <before the [Medieval era]>",
+            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Culture] <starting from the [Industrial era]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    {
+        "name": "Maritime",//航海
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "color": [56, 255, 112]
+    },
+    {
+        "name": "Mercantile",//快乐
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>",
+            "Provides a unique luxury"
+        ],
+        "color": [255, 216, 0]
+    },
+    {
+        "name": "Militaristic",//军事
+        "friendBonusUniques": ["Provides military units every ≈[20] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[17] turns"],
+        "color": [255, 0, 0]
+    },
+    {
+        "name": "Religious",//信仰
+        "friendBonusUniques":  [
+            "[+3 Faith] <before the [Medieval era]>",
+            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Faith] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Faith] <before the [Medieval era]>",
+            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Faith] <starting from the [Industrial era]>"
+        ],
+        "color": [255, 255, 255]
+    }
+    
+    
+    ////////////////////////////////////////////////////////////
+    ///////////////////////MOD城邦//////////////////////////
+    ////////////////////////////////////////////////////////////
+    
+    
+    {
+        "name": "Cultured - Eternal Kingdom",//文化型 - 永恒之国
+        "friendBonusUniques": [
+            "[+3 Culture] <before the [Medieval era]>",
+            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Culture] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Science] [in all cities]"
+            "[+6 Culture] <before the [Medieval era]>",
+            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Culture] <starting from the [Industrial era]>"
+        ],
+        "color": [139, 96, 255]
+    },
+    
+    {
+        "name": "Militaristic - Sword of the Lily of the Rings",//铃兰之剑
+        "friendBonusUniques": ["Provides military units every ≈[14] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[10] turns"
+        "Free [Archer] appears"
+        "[3] free [Spearman] units appear"
+        "[-20]% Gold cost of upgrading"
+        ],
+        "color": [255, 0, 0]
+    },
+    
+    {
+        "name": "Militaristic - Agito",//军事型 - 阿基多
+        "friendBonusUniques": ["Provides military units every ≈[14] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[10] turns"
+        "[+25]% XP gained from combat"
+        "[+50]% Production when constructing [Barracks] buildings [in all cities]"//加速锤军营
+        ],
+        "color": [255, 0, 0]
+    },
+    
+    {
+        "name": "Militaristic - Stream Sect",//军事型 - 流水宗
+        "friendBonusUniques": ["Provides military units every ≈[14] turns"],
+        "allyBonusUniques": ["Provides military units every ≈[10] turns"
+        "[1] additional attacks per turn<for [Melee] units>"
+        ],
+        "color": [255, 0, 0]
+    },
+    
+    {
+        "name": "Maritime - Tatako",//航海型 - 塔塔可
+        "friendBonusUniques": ["[+2 Food] [in capital]"],
+        "allyBonusUniques": [
+        "[+1 Food, +1 Science, +1 Production] per [3] population [in capital]",
+        "[+1 Food] [in all cities]"
+        ],
+        "color": [56, 255, 112]
+    },
+    
+    {
+        "name": "Mercantile - Death Prison Township",//快乐型 - 死狱乡
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>",
+            "Provides a unique luxury"
+            "[+1] Happiness from each type of luxury resource"
+        ],
+        "color": [255, 216, 0]
+    },
+]

@@ -1,0 +1,73 @@
+[//事件
+    {
+        "name":"夜观天象 I",//4t
+        "text":"夫占天之道，以谓明苍，制历数，所以行于天。\n纪于阴阳，皆四时之叙，而与天合同。\n是无他道焉，知此则适矣。\n是以察生态之理，以知祸福之类，则可知矣。",
+        "choices":[
+        {
+        "text":"吾观天象，见繁星闪烁，祥云缭绕。心中默念咒语，摇指算筹，得知天命所归，乃有吉兆降临。\n好事将至，福泽绵长，诸事皆宜，万事如意。",
+        "triggeredUniques":[
+        "Gain [2] [Culture]","Gain [5] [Culture]<after [40] turns>",
+		    ],
+        },
+        {
+        "text":"避祸之道，曰：远嫌疑，无得罪于人。知可否之界，临事而断。察天时，明地理，知己知彼，可避祸矣。",
+        "triggeredUniques":["Gain [3] [Faith]","[1] free [Scout] units appear<after [20] turns>","Gain [2] [Faith]<after [40] turns>",
+            ],
+        }
+        ]
+    }
+    
+    {
+        "name":"夜观天象 II",//16t
+        "text":"夫八卦，乾坤震巽坎离艮兑也。各主一方，掌万物之数。\n观天象，以定吉凶。星辰之行，与卦相符。",
+        "choices":[
+        {
+        "text":"观天象之异，得八卦之妙，趋吉避凶，遇福如神。\n占星辰之变动，识阴阳之转化，顺天应时，福至心灵。",
+        "triggeredUniques":[
+        "Gain [20] [Culture]","Gain [65] [Gold]","Gain [300] [Science]<after [80] turns>","Gain [200] [Gold]<after [80] turns>",
+		    ],
+        },
+        {
+        "text":"观乾坤之奥，洞星辰之微，以八卦推步天机，可趋吉避凶。\n察天道人事，知进退存亡，故仙家凭卦象，避世之大祸。",
+        "triggeredUniques":["[Wounded] units gain the [Heal Instantly] promotion"
+            ],
+        }
+        ]
+    }
+    
+    {
+        "name":"夜观天象 III",//32t
+        "text":"趋吉避凶，算无遗策。吾辈修仙者，亦须借此以参天道，得真悟。天地之间，八卦相荡。星宿明灭，皆有其时。顺乎天时，合乎卦理，可得逍遥于世。",
+        "choices":[
+        {
+        "text":"观乾坤之象，洞悉天机，八卦明吉凶，得遇祥瑞之事。瞻仰星河，察星辰之变易，以八卦推演，趋吉避凶，得以逢迎福祉之缘。",
+        "triggeredUniques":[
+        "Gain [65] [Gold]","Gain [200] [Science]","Empire enters a [8]-turn Golden Age<after [120] turns>"
+		    ],
+        },
+        {
+        "text":"观乾坤之象，洞悉天机。知星宿之行，得趋吉避凶。\n以八卦之智，算尽星辰，可避天地之祸端。",
+        "triggeredUniques":["[Wounded] units gain the [Heal Instantly] promotion","[Melee] units gain the [Drill I] promotion","[Ranged] units gain the [Barrage I] promotion","[Melee] units gain the [Drill III] promotion<after [150] turns>","[Ranged] units gain the [Barrage II] promotion<after [150] turns>"
+            ],
+        }
+        ]
+    }
+    
+    {
+        "name":"夜观天象 IV",//64t
+        "text":"抉择",
+        "choices":[
+        {
+        "text":"天赐良机",
+        "triggeredUniques":[
+        "Empire enters a [12]-turn Golden Age","[1] Free Technologies","[2] Free Technologies<after [180] turns>"
+		    ],
+        },
+        {
+        "text":"操练兵马",
+        "triggeredUniques":["[All] units gain the [Cover II] promotion","[All] units gain the [March] promotion<after [180] turns>"
+            ],
+        }
+        ]
+    }
+]

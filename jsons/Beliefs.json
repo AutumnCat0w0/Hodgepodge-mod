@@ -1,0 +1,66 @@
+[//信仰
+    {
+        "name": "Holy Warriors",//神圣战士
+        "type": "Follower",
+        "uniques": [
+        "在中古时代之前可以以2倍成本的[Faith]购买 陆地 军事 单位"
+        "May buy [{Military} {Land} {non-[Diglett]} {non-[FineHair]} {non-['AHugeUglyThing']}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]><hidden from users>"]
+    },
+    
+    
+    {
+        "name": "Sylvania",//希尔瓦尼亚
+        "type": "Pantheon",
+        "uniques": [
+        "[+2 Food] from every [Marsh]",
+        "[+1 Food] from every [Flood plains]",
+        
+      ]
+    },
+    
+    {
+        "name": "Aqua",//阿库娅
+        "type": "Pantheon",
+        "uniques": [
+        "[-50]% [Science]"
+        "[+9 Happiness]"
+      ]
+    },
+
+    {
+        "name": "Ares",//阿瑞斯
+        "type": "Pantheon",
+        "uniques": [
+        "All newly-trained [Military] units [in this city] receive the [Combat encouragementr] promotion"
+      ]
+    },
+    
+    {
+        "name": "Mountain King",//山王
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Gold] from every [{Hill} {non-[City center]} {non-[Bonus resource]} {non-[Luxury resource]}]",
+      ]
+    },
+    
+    {
+        "name": "Everyone in One",//人人合一
+        "type": "Pantheon",
+        "uniques": [
+        "[+1 Food] per [3] population [in this city]"
+      ]
+    },
+    
+    /*{
+        "name": "Hephaestus",//赫菲斯托斯
+        "type": "Pantheon",
+        "uniques": [
+        "Provides [2] [Horses]<in this city>"//拿马
+        "Provides [2] [Iron]<in this city>"//拿铁
+        "[+5]% Production when constructing [Sword] units [in this city]"
+      ]
+    },*/
+
+
+
+]
