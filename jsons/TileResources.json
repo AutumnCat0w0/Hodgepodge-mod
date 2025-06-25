@@ -660,7 +660,7 @@
 		"name": "Talisman charm",//马符咒
 		"resourceType": "Luxury",
 		"uniques": [
-		"Heal this unit by [5] HP<upon ending a turn in a [Land] tile>"
+		"[This Unit] heals [5] HP <upon ending a turn in a [Land] tile>"
 		"[-3 Happiness]"
 		]
 	},
@@ -1165,6 +1165,93 @@
 		"Not shown on world screen",//不显示
 		"No defensive terrain bonus"//无防御奖励
 		
+		]
+	},
+	
+	{
+		"name": "CostCounter",//成本计数器cost计数器
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		]
+	},
+	
+	{
+		"name": "Devon",//德文
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		]
+	},
+	
+	{
+		"name": "Compute",//算力
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		]
+	},
+	
+	{
+		"name": "Compute-1",//算力LV.1
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		"[+10]% Strength"
+		"[+10]% Strength<when attacking>"
+		]
+	},
+	
+	{
+		"name": "Compute-2",//算力Lv.2
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		"[+15]% Strength"
+		"[+10]% Strength<when attacking>"
+		"[+1] Movement"//移动
+		]
+	},
+	
+	{
+		"name": "Compute-3",//算力Lv.3
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		"[+15]% Strength"
+		"[+15]% Strength<when attacking>"
+		"[+1] Movement"//移动
+		]
+	},
+	
+	{
+		"name": "Compute-4",//算力Lv.4
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		"[+15]% Strength"
+		"[+15]% Strength<when attacking>"
+		"[+1] Movement"//移动
+		"[1] Range"
 		]
 	},
 ]

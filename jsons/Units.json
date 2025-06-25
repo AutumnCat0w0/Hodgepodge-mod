@@ -2,7 +2,7 @@
     /*{
 		"name": "测试",//
 		"uniqueTo": "Millennium Science School - Seminar",//千年 - 研讨会",
-		"replaces": "Scout",
+		"replaces": "Scout",//取代
 		"unitType": "Sword",
 		"strength": 7,
 		"movement": 10,
@@ -40,6 +40,7 @@
 		"cost": 70,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Unbuildable", //无法建造
 		"Uncapturable"//无法捕获
 		"Cannot be purchased"//无法购买
@@ -70,7 +71,8 @@
 		"requiredTech": "Special technology",
 		"range": 15,
 		"uniques": [
-		"Only available <for [Elchia Federation]>"
+		"伪UU<hidden from users>"
+		"Only available <for [Elchia Federation] Civilizations>"
 		"Nuclear weapon of Strength [2]", 
 		"Blast radius [2]",
 		"Never appears as a Barbarian unit"//蛮子不得造
@@ -92,7 +94,10 @@
 		"Cannot be purchased"//无法购买
 		"Can transform to [TOWER]"
 		"Never appears as a Barbarian unit"
+		
+		"Cost increases by [10] when built"
 		],
+		//"promotions": ["CostIncrease"],//免费晋升
 		"hurryCostModifier": 20,
 		"attackSound": "throw"
 	},
@@ -105,6 +110,7 @@
 		"cost": 56,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Never appears as a Barbarian unit"//蛮子不得造
 		],
 		//"promotions": ["Great Generals I"],//免费晋升
@@ -119,6 +125,7 @@
 		"cost": 120,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Cannot attack"//无法攻击
 		"Cannot move"//无法移动
 		"No Sight"//无视野
@@ -139,6 +146,7 @@
 		"cost": 120,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Instantly consumes [1] [Awakening counter]"//立即消耗
 		"Never appears as a Barbarian unit"//蛮子不得造
 		],
@@ -157,6 +165,7 @@
 		"cost": 40,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Cannot move"
 		"[This Unit] takes [100] damage<upon ending a turn in a [All] tile>"
 		"Self-destructs when attacking"
@@ -179,6 +188,7 @@
 		"cost": 40,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		//"[+10] HP when healing"
 		"Never appears as a Barbarian unit"//蛮子不得造
 		"Must set up to ranged attack"
@@ -195,6 +205,7 @@
 		"requiredTech": "Special technology",
 		"cost": 40,
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Cannot move"
 		"[This Unit] takes [15] damage<upon ending a turn in a [All] tile>"//每回合掉血
 		"[+15]% Strength bonus for [Military] units within [5] tiles",
@@ -220,6 +231,7 @@
 		"requiredTech": "Special technology",
 		"cost": 56,
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Instantly consumes [2] [Blood Witch Counter - Distortion]"
 		"[This Unit] takes [7] damage<upon ending a turn in a [All] tile>"//每回合掉血
 		],
@@ -233,6 +245,7 @@
 		"requiredTech": "Special technology",
 		"cost": 0,
 		"uniques": [
+		"伪UU<hidden from users>"
             "[+15]% Strength bonus for [Military] units within [5] tiles <when above [0] [Rhythm counter]>"//计数器高于0（激昂）
             
             
@@ -260,6 +273,7 @@
 		"upgradesTo": "Knight",
 		//"requiredResource": "Horses",
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Can move after attacking",
 		"Can transform to [Hedgehog]"//转化为什么单位
 		],
@@ -275,6 +289,7 @@
 		"cost": 75,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		"[+200]% Strength <vs cities> <when attacking>",
 		"Cannot move"//无法移动
 		"No Sight"//无视野
@@ -292,6 +307,7 @@
 		"rangedStrength": 9,
 		"cost": 56,
 		"uniques": [
+		"伪UU<hidden from users>"
 		"[+25]% Strength <vs [Mounted] units>"
 		"Can transform to [Magic Kingdom Spearmen]"//转化为什么单位
 		],
@@ -311,6 +327,7 @@
 		//"hurryCostModifier": -35,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		//"Unit will heal every turn, even if it performs an action"//每回合都会回血
 		"[+20] HP when healing"
 		"Never appears as a Barbarian unit"//蛮子不得造
@@ -327,6 +344,7 @@
 		"strength": 10,
 		"cost": 65,
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Unbuildable", //无法建造
 		"Cannot be purchased<when below [1] [R]>"//无法购买
 		//"Can pass through impassable tiles",//可以无视地行
@@ -347,6 +365,7 @@
 		"cost": 90,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		    "Can pass through impassable tiles",//可以无视地行
 			"Invisible to non-adjacent units", //只有附近的才能看到
 			"Can build [Road] improvements on tiles",//可以制造道路
@@ -366,6 +385,7 @@
 		"requiredTech": "Special technology",
 		"cost": 20,
 		"uniques": [
+		"伪UU<hidden from users>"
 		    "Unbuildable",
 			"Cannot attack",
 			"Never appears as a Barbarian unit",
@@ -381,6 +401,7 @@
 		"requiredTech": "Special technology",
 		"cost": 0,
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Instantly consumes [1] [UniversalCounter]"
 		"Instantly provides [1] [ElitismCounter]<upon losing at least [1] HP in a single attack>"
 		"[This Unit] takes [100] damage<upon ending a turn in a [All] tile>"//每回合掉血
@@ -407,6 +428,7 @@
 		"requiredTech": "Special technology",
 		"cost": 0,
 		"uniques": [
+		"伪UU<hidden from users>"
 		"[+30]% Strength when stacked with [FifthInfantryBrigade]"
 		"Unit will heal every turn, even if it performs an action"//每回合都会回血
 		"[+10] HP when healing"
@@ -422,7 +444,8 @@
 		"strength": 8,
 		"movement": 2,
 		"uniques": [
-		"Can build [Land] improvements on tiles<after [20] turns>",
+		"伪UU<hidden from users>"
+		"Can build [Land] improvements on tiles<after turn number [20]>",
 		"[-100]% Strength when stacked with [Civilian]"
 		"Cannot attack"//无法攻击不能攻击
 		"[+1000]% Strength<vs [Barbarian] units>"
@@ -446,12 +469,57 @@
 		"cost": 40,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"伪UU<hidden from users>"
 		"Self-destructs when attacking"
 		"Never appears as a Barbarian unit"//蛮子不得造
 		 ],
 		"attackSound": "arrow"
 	},
 	
+	{
+		"name": "Ektilnir·TimbercrackX",//“木裂”埃克提尔尼尔
+		"unitType": "Sword",	
+		"movement": 3,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Special technology",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"伪UU<hidden from users>"
+		"Comment [改为[Sword]兵种]",
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>"
+		
+		"[This Unit] gains the [ScarwoodCharge I] promotion<upon turn end><hidden from users>"
+		"[This Unit] loses the [ScarwoodCharge I] promotion<upon turn start><hidden from users>"
+		
+		"Comment [一旦被攻击，移动力直到下次行动+2并无视区块控制（不可叠加）]",	
+		
+		"[This Unit] gains the [EnergyStock I] status for [1] turn(s)<upon entering a [All] tile><hidden from users>"
+		"Comment [回合内随移动距离逐渐提升战斗力（每格5%，上限8层）]",
+		
+		"[This Unit] gains the [EnergyStock II] status for [1] turn(s)<for units with [Drill II]><for units without [Shock II]><upon entering a [All] tile><hidden from users>"
+		"[This Unit] gains the [EnergyStock II] status for [1] turn(s)<for units with [Shock II]><for units without [Drill II]><upon entering a [All] tile><hidden from users>"
+		"[This Unit] gains the [EnergyStock II] status for [1] turn(s)<for units with [Drill II]><for units with [Shock II]><upon entering a [All] tile><hidden from users>"
+		"Comment [拥有[Drill II]/[Shock II]级晋升时回合内随移动距离逐渐提升战斗力（每格7%，上限8层）]",
+		],
+		"attackSound": "arrow"
+	},
+	
+	/*{
+		"name": "Metagross",//巨金怪
+		"unitType": "Sword",
+		"requiredTech": "Special technology",
+		"strength": 8,
+		"movement": 2,
+		"uniques": [
+		"伪UU<hidden from users>"
+		],
+		"promotions": ["MatrixComputation I"],//免费晋升
+		"cost": 70
+	},*/
 	
 	////////////////////////伪uu///////////////////////
 	
@@ -685,7 +753,7 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": [
-		"Heal this unit by [9] HP<upon ending a turn in a [Land] tile>"
+		"[This Unit] heals [9] HP <upon ending a turn in a [Land] tile>"
 		],
 		"upgradesTo": "Lancer",
 		"obsoleteTech": "Metallurgy",
@@ -703,7 +771,7 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques" : [
-		"[+50]% construction time for [All] improvements"
+		"Can build [all] improvements at a [-50]% rate",
 		"Can build [Farm] improvements on tiles",
 		"Can build [Remove Forest] improvements on tiles",
 		"May upgrade to [Spearman] through ruins-like effects"],
@@ -758,7 +826,7 @@
 		"uniques": ["Can be earned through combat",
 		"[+20]% Strength bonus for [Military] units within [3] tiles",
 	    "Empire enters a [8]-turn Golden Age <by consuming this unit>"
-			"Great Person - [War]", 
+			"Great Person - [War]", "Is part of Great Person group [General]",
 			"Unbuildable", 
 			"Uncapturable"],
 		"movement": 2
@@ -1050,7 +1118,7 @@
 	{
 		"name": "Sea skimming drift body",//掠海漂移体
 		"unitType": "Archery",
-		"uniqueTo": "Mass Will - Source of Life",//大群意志-生命源泉
+		"uniqueTo": "MassWill-SourceOfLife",//大群意志-生命源泉
 		"replaces": "Chariot Archer",
 		"movement": 3,
 		"strength": 6,
@@ -1074,7 +1142,7 @@
 	
 	{
 		"name": "Izumik's descendants",//伊祖米克的子代
-		"uniqueTo": "Mass Will - Source of Life",//大群意志-生命源泉
+		"uniqueTo": "MassWill-SourceOfLife",//大群意志-生命源泉
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -1101,7 +1169,7 @@
             "May enhance a religion",
 			"May enter foreign tiles without open borders", "[-1] Sight",
 			"Free Great Person<by consuming this unit>"
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 		"movement": 2,
 		"religiousStrength": 1000
@@ -1110,7 +1178,7 @@
 	{
 		"name": "Ancient Ocean Puncturer",//始海穿刺者
 		"unitType": "Sword",
-		"uniqueTo": "Mass Will - Growth",//大群意志-生长
+		"uniqueTo": "MassWill-Growth",//大群意志-生长
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 11,
@@ -1143,8 +1211,8 @@
 	},
 
     {
-		"name": "拉特兰刁民",
-		"uniqueTo": "拉特兰",
+		"name": "MonasteryDweller",//修道院居民（拉特兰刁民
+		"uniqueTo": "Laterano",//拉特兰
 		"replaces": "Worker",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Civilian",
 		"movement": 3,
@@ -1152,7 +1220,7 @@
 		"Can build [Land] improvements on tiles", 
 		"Automation is a primary action"
 		"[This Unit] takes [10] damage<upon ending a turn in a [Land] tile>",
-		"May withdraw before melee ([100]%)"
+		"Withdraws before melee combat <with [100]% chance>"
 		],
 		"cost": 70
 	},
@@ -1275,7 +1343,7 @@
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "All adjacent units heal [+25] HP when healing"
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"Great Person - [War]", "Is part of Great Person group [General]","Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
     
@@ -1319,7 +1387,7 @@
 		"uniques": [
 		"Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 		"May Paradrop up to [4] tiles from inside friendly territory",//空降
-		"May found a religion<after [60] turns>",//创教
+		"May found a religion<after turn number [60]>",//创教
 			"May enter foreign tiles without open borders",//偷家
 			"Can Spread Religion<[1] times>"//传教一次
 			"Requires at least [2] population"],
@@ -1355,7 +1423,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"May withdraw before melee ([80]%)", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
 			"promotions": ["Lethal Strike"],//免费晋升
 		"attackSound": "shipguns"
 	},
@@ -1478,7 +1546,7 @@
             "Empire enters a [6]-turn Golden Age <[1] times>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <for [4] movement><[1] times>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+			"Great Person - [War]","Is part of Great Person group [General]", "Unbuildable", "Uncapturable"],
 		"movement": 3,
 	},
 	
@@ -1587,7 +1655,7 @@
 		    "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", 
+			"Great Person - [War]", "Is part of Great Person group [General]",
 			"Can transform to [Warrior]"//转化为什么单位
 			"Can transform to [Archer]"//转化为什么单位
 	    "Can transform to [Spearman]"//转化为什么单位
@@ -1623,7 +1691,7 @@
 		"movement": 4,
 		"uniques": [
 		"Can build [Land] improvements on tiles", 
-		"[-20]% tile improvement construction time"
+		"[-20]% construction time for [All] improvements"
 		],
 		"cost": 70
 	},
@@ -1637,7 +1705,7 @@
             "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", "Unbuildable", "Uncapturable"
+			"Great Person - [War]","Is part of Great Person group [General]", "Unbuildable", "Uncapturable"
 			"Free Technology<[1] times>"
 			],
 		"movement": 2
@@ -1685,7 +1753,7 @@
 		"uniques": ["Can be earned through combat",
 		"[+30]% Strength bonus for [Ranged] units within [2] tiles",
 	    "Empire enters a [8]-turn Golden Age <by consuming this unit>"
-			"Great Person - [War]", 
+			"Great Person - [War]", "Is part of Great Person group [General]",
 			"Unbuildable", 
 			"Uncapturable"],
 		"movement": 2
@@ -1822,7 +1890,7 @@
             "May found a religion",
             "May enhance a religion",
 			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
-			"Unbuildable", "Religious Unit", "Hidden when religion is disabled",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
 			"promotions": ["Magic Control II"],//免费晋升
 		"movement": 2,
@@ -1999,7 +2067,9 @@
 		"rangedStrength": 10,
 		"cost": 75,
 		"uniques" : [
-		"Free [Ash] appears <upon losing at least [1] HP in a single attack>"
+		"Free [Ash] appears <upon damaging a [All] unit><hidden from users>"
+		"Free [Ash] appears <upon losing at least [1] HP in a single attack><hidden from users>"
+		"Comment [每次攻击或被攻击时获得1个免费的[Ash]]",
 		],
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
@@ -2044,7 +2114,9 @@
 		"upgradesTo": "Pikeman",
 		"uniques": [
 		"[+50]% Strength <vs [Mounted] units>"
-		"[This Unit] gains [5] XP<upon losing at least [1] HP in a single attack>"
+		"[This Unit] gains [5] XP<upon damaging a [All] unit><hidden from users>"
+		"[This Unit] gains [5] XP<upon losing at least [1] HP in a single attack><hidden from users>"
+		"Comment [每次攻击或被攻击时此单位+5XP]",
 		],
 		"promotions": ["Great Generals II"],//免费晋升
 		"attackSound": "metalhit"
@@ -2074,8 +2146,10 @@
 		"rangedStrength": 13,
 		"cost": 75,
 		"uniques" : [
-		"Free [Ash] appears <upon losing at least [1] HP in a single attack>"
+		"Free [Ash] appears <upon damaging a [All] unit><hidden from users>"
+		"Free [Ash] appears <upon losing at least [1] HP in a single attack><hidden from users>"
 		"Free [Ash] appears<upon defeating a [All] unit>"
+		"Comment [每次攻击或被攻击时获得1个免费的[Ash]]",
 		],
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
@@ -2114,7 +2188,7 @@
 		    "Empire enters a [8]-turn Golden Age <by consuming this unit>",
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", 
+			"Great Person - [War]", "Is part of Great Person group [General]",
 			"Can transform to [Blood and Meat Factory]"//转化为什么单位
 			"Unbuildable", 
 			"Uncapturable"],
@@ -2371,7 +2445,7 @@
 		"Can move after attacking",
 		"No defensive terrain bonus",
 		"[-33]% Strength <vs cities> <when attacking>"
-		"Heal this unit by [10] HP<upon ending a turn in a [Friendly Land] tile>",
+		"[This Unit] heals [10] HP <upon ending a turn in a [Friendly Land] tile>",
 		],
 		//"promotions": ["March","Pictish Courage"],//免费晋升
 		"attackSound": "horse"
@@ -2439,7 +2513,7 @@
 		"[+15]% Strength bonus for [Military] units within [2] tiles",
 	    "Empire enters a [8]-turn Golden Age <by consuming this unit>"
 	    "Free [Spearman] appears<upon ending a turn in a [All] tile><every [7] turns>"
-			"Great Person - [War]", 
+			"Great Person - [War]", "Is part of Great Person group [General]",
 			"Unbuildable", 
 			"Uncapturable"],
 		"movement": 2
@@ -2546,7 +2620,7 @@
 		"Can build [Land] improvements on tiles", 
 		"Automation is a primary action"
 		"[+1] Movement",
-		"[-25]% construction time for [All] improvements"
+		"Can build [all] improvements at a [+25]% rate",
 		],
 		"cost": 70
 	},
@@ -2593,7 +2667,7 @@
 		"uniques": [
 			"Empire enters a [8]-turn Golden Age <by consuming this unit>",
 			"Can transform to [Spearman]",
-			"Great Person - [War]",
+			"Great Person - [War]","Is part of Great Person group [General]",
 			"Unbuildable",
 			"Uncapturable",
 			"Can be earned through combat"
@@ -2646,7 +2720,7 @@
             "[+15]% Strength bonus for [Military] units within [2] tiles",
             "[+30]% Strength bonus for [Military] units within [5] tiles<in [Enemy Land] tiles>",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
-			"Great Person - [War]", 
+			"Great Person - [War]", "Is part of Great Person group [General]",
 			"Unbuildable", 
 			"Uncapturable"],
 			"promotions": ["Ignore terrain cost"],//免费晋升：快速学习
@@ -2755,7 +2829,8 @@
 		"[This Unit] gains the [Elitism I] promotion<upon ending a turn in a [Land] tile><when above [10] [ElitismCounter]>"
 		"[This Unit] gains the [Elitism II] promotion<upon ending a turn in a [Land] tile><when above [20] [ElitismCounter]>"
 		"[This Unit] gains the [Elitism III] promotion<upon ending a turn in a [Land] tile><when above [40] [ElitismCounter]>"
-			"Great Person - [War]", 
+			"Great Person - [War]", "Is part of Great Person group [General]",
+			"Is part of Great Person group [General]",
 			"Unbuildable", 
 			"Uncapturable"],
 		"movement": 2
@@ -2822,7 +2897,7 @@
 		"cost": 25,
 		"uniques": [
 		"[This Unit] gains [1] XP<upon discovering a [All] tile><with [40]% chance><hidden from users>"
-		"This Unit upgrades for free including special upgrades<upon discovering a [Natural Wonder] tile>"
+		"[This Unit] upgrades for free including special upgrades <upon discovering a [Natural Wonder] tile>"
 		"May upgrade to [Archer] through ruins-like effects",
 		],
 		"promotions": ["Ignore terrain cost"],
@@ -2841,7 +2916,7 @@
 	    "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 	    "[Wounded] units gain the [Heal Instantly] promotion<[1] times><for [4] movement>"
 	    "[Wounded] units gain the [Heal Instantly] promotion<[2] times><for [0] movement><during a Golden Age>"
-			"Great Person - [War]", 
+			"Great Person - [War]", "Is part of Great Person group [General]",
 			"Unbuildable", 
 			"Uncapturable"],
 		"movement": 2
@@ -2965,8 +3040,10 @@
 		"[-1] Sight",
 		"Never appears as a Barbarian unit"
 		"Can carry [9] [SpringansRockey] units"
-		"Free [SpringansRockey] appears <upon losing at least [1] HP in a single attack>"
-		"Free [SpringansRockey] appears <upon losing at least [1] HP in a single attack>"
+		"Free [SpringansRockey] appears <upon damaging a [All] unit><hidden from users>"
+		"Free [SpringansRockey] appears <upon losing at least [1] HP in a single attack><hidden from users>"
+		"Free [SpringansRockey] appears <upon losing at least [1] HP in a single attack><hidden from users>"
+		"Comment [每次攻击或被攻击时获得1个免费的[SpringansRockey]，被攻击时额外获得1个]",
 		],
 		"attackSound": "throw"
 	},
@@ -2978,7 +3055,7 @@
 		"replaces": "Great General",
 		"strength":17
 		"uniques": [
-			"Great Person - [War]",
+			"Great Person - [War]","Is part of Great Person group [General]",
 			"Unbuildable",
 			"Uncapturable",
 			"Can be earned through combat",
@@ -3048,7 +3125,7 @@
 	},
 	
 	{
-		"name": "ArraySpearman",//武装攻城锤
+		"name": "ArraySpearman",//阵枪
 		"unitType": "Sword",
 		"uniqueTo": "NaztaEmpire",//纳兹塔武装帝国
 		"replaces": "Spearman",
@@ -3082,10 +3159,180 @@
 		"No defensive terrain bonus", 
 		"Rough terrain penalty"
 		"[Target Unit] gains the [Bloodrot I] promotion<upon damaging a [All] unit><hidden from users>"
-		"攻击使目标获得【血溃】：每回合结束时-3HP，每次受到攻击伤害时叠加1层，最多可叠加3层（可被浴火重生解除）。"
+		"Comment [攻击使目标获得【血溃】：每回合结束时-3HP，每次受到攻击伤害时叠加1层，最多可叠加3层（可被浴火重生解除）。]",
 		],
 		"attackSound": "metalhit"
 	},
+	
+	{
+		"name": "Abysslurk",//深渊潜伏者
+		"uniqueTo": "Charybyss",//卡里比斯
+		"replaces": "Scout",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+		"[This Unit] gains the [Umbraghast I] promotion<upon turn end><hidden from users>"
+		"[This Unit] loses the [Umbraghast I] promotion<upon turn start><hidden from users>"
+		"Comment [一旦被攻击，进入3回合的隐身状态。下次攻击前无视区块控制并获得+50%战斗力。]",
+		"Comment [处于隐身状态时，立即并每回合回复10HP，一旦移动将解除隐身状态]",
+		"May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+		"link":"Promomtions/Umbraghast II"
+	},
+	
+	{
+		"name": "Abyssoth",//潜渊猎食者
+		"uniqueTo": "Charybyss",//卡里比斯
+		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"uniques": [
+		"[-20]% Strength<hidden from users>"
+		"Ranged attacks may be performed over obstacles<hidden from users>"//跨越障碍
+		"Instantly provides [1] [Magic power]<upon damaging a [All] unit><hidden from users>"
+		"[Target Unit] gains the [Hadalgrip] promotion<upon damaging a [All] unit><hidden from users>"
+		"Comment [可以跨过障碍进行射击，攻击获得1[Magic power]并额外造成5点伤害]",
+		"Comment [攻击使目标[Hadalgrip]：必须消耗1移动力解除否则无法攻击/移动]",
+		"Comment [战斗力-20%，科技移动至[Bronze Working]（产能不变）]",
+		],
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "AberrantGlowDrift",//异光体漂游者
+		"uniqueTo": "MassWill-Necrosion",//大群意志-腐化之心
+		"replaces": "Settler",//所代替原版的建筑（如果不想取代可以不写这项）
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": [
+		"Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"promotions": ["Ignore terrain cost"],
+		"hurryCostModifier": 20
+	},
+	
+	{
+		"name": "Hadalforsaken",//"被弃者"
+		"uniqueTo": "MassWill-Necrosion",//大群意志-腐化之心
+		"replaces": "Swordsman",//所代替
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 45,
+		"uniques": [
+		"Limited to [3] per Civilization"
+		],
+			
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "TimbercrackWarrior",//木裂战士
+		"unitType": "Sword",	
+		"uniqueTo": "ScarwoodClan",//树痕部落
+		"replaces": "Horseman",
+		"movement": 3,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Comment [改为[Sword]兵种]",
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>"
+		
+		"[This Unit] gains the [ScarwoodCharge I] promotion<upon turn end><hidden from users>"
+		"[This Unit] loses the [ScarwoodCharge I] promotion<upon turn start><hidden from users>"
+		
+		"Comment [一旦被攻击，移动力直到下次行动+2并无视区块控制（不可叠加）]",	
+		
+		"[This Unit] gains the [EnergyStock I] status for [1] turn(s)<upon entering a [All] tile><hidden from users>"
+		"Comment [回合内随移动距离逐渐提升战斗力（每格5%，上限10层）]",
+		
+		"[This Unit] gains the [EnergyStock II] status for [1] turn(s)<for units with [Drill II]><for units without [Shock II]><upon entering a [All] tile><hidden from users>"
+		"[This Unit] gains the [EnergyStock II] status for [1] turn(s)<for units with [Shock II]><for units without [Drill II]><upon entering a [All] tile><hidden from users>"
+		"[This Unit] gains the [EnergyStock II] status for [1] turn(s)<for units with [Drill II]><for units with [Shock II]><upon entering a [All] tile><hidden from users>"
+		"Comment [拥有[Drill II]/[Shock II]级晋升时回合内随移动距离逐渐提升战斗力（每格7%，上限10层）]",
+		
+		],
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Ektilnir·Timbercrack",//“木裂”埃克提尔尼尔
+		"unitType": "Civilian",
+		"uniqueTo": "ScarwoodClan",//树痕部落
+		"replaces": "Great General",
+		"uniques": [
+			"Can be earned through combat",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Great Person - [War]", "Is part of Great Person group [General]",
+			"Comment [可以转化为异画[TimbercrackWarrior]]",
+			"Can transform to [Ektilnir·TimbercrackX]<after discovering [Horseback Riding]><hidden from users>"//转化为什么单位
+			"Unbuildable", 
+			"Uncapturable"],
+		"promotions": ["ScarwoodChieftain"],
+		"movement": 2
+	},
+	
+	{
+		"name": "Reisläufer",//瑞士佣兵
+		"uniqueTo": "Switzerland",//瑞士
+		"replaces": "Pikeman",//所代替
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>"
+		"[+100]% maintenance costs<for [This Unit] units>"
+		],
+		"promotions": ["Spearwall I"],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 ]

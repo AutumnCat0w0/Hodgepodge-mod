@@ -48,7 +48,7 @@
         "Unsellable"//无法出售
         "Automatically built in all cities where it is buildable<when [Building.StrongerPolicies] Victory is enabled>"
         "Unbuildable <when [Building.StrongerPolicies] Victory is disabled>", //无法建造
-        "Hidden when [Pattern.StrongerPolicies] Victory is disabled",]
+        "Only available <when [Pattern.StrongerPolicies] Victory is enabled>",]
     },
     {//暗世界模式
         "name": "DarkWorld",
@@ -58,7 +58,7 @@
         "Automatically built in all cities where it is buildable<when [Building.DarkWorld] Victory is enabled>"
         "Unbuildable <when [Building.DarkWorld] Victory is disabled>", //无法建造
 		"[All] units gain the [Dark World] promotion"
-        "Hidden when [Pattern.DarkWorld] Victory is disabled",]
+        "Only available <when [Pattern.DarkWorld] Victory is enabled>",]
     },
     
     {//强大蛮族模式
@@ -69,7 +69,7 @@
         "Automatically built in all cities where it is buildable<when [Building.PowerfulBarbarians] Victory is enabled>"
         "Unbuildable <when [Building.PowerfulBarbarians] Victory is disabled>", //无法建造
 		"[-15]% Strength<vs [Barbarian] units>"
-        "Hidden when [Pattern.PowerfulBarbarians] Victory is disabled",]
+        "Only available <when [Pattern.PowerfulBarbarians] Victory is enabled>",]
     },
     /*——————————额外奇观——————————*/
     {
@@ -83,7 +83,7 @@
         "Must be next to [Farm]"//与麦农场毗邻
         "[+35]% Natural religion spread [in all cities]"
         
-        "Hidden when [Pattern.MoreWonders] Victory is disabled",]
+        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
         "quote": "这是魔鬼制造的图腾，又或是人类所伪造。"
     },
     
@@ -98,7 +98,7 @@
 		"Must be next to [Flood plains]"//与冲积相邻
         "[+1 Faith] from [Flood plains] tiles [in all cities]",
             
-        "Hidden when [Pattern.MoreWonders] Victory is disabled",
+        "Only available <when [Pattern.MoreWonders] Victory is enabled>",
             ],
 		"quote": "就算落入的是无情的滤筛，\n我仍愿意将我的爱情之水倾泻倒下。\n即使失败，我也在所不惜。如此，如虔诚的印度人一般。\n我愿虔诚信仰，\n我崇拜太阳，炙热阳光普照信徒，\n 但却不知一人为它痴狂。\n ——威廉·莎士比亚"
 	},
@@ -112,7 +112,7 @@
 		"Must be on [Desert]"//处于沙漠
         "[+1 Culture, +3 Science, +3 Gold] from every [Palace]"
             
-        "Hidden when [Pattern.MoreWonders] Victory is disabled",
+        "Only available <when [Pattern.MoreWonders] Victory is enabled>",
             ],
 		"quote": "这东西吞噬一切：飞禽、走兽、树木、花草、啃咬钢铁、磨碎坚硬的石头吃掉、杀死诸王、摧毁城墙、还能将高山击倒。\n——斯芬克斯的迷题"
 	},
@@ -132,7 +132,7 @@
         "[+1 Happiness] [in this city] <with [4] to [6] neighboring [Lakes] tiles>",
         "[+1 Happiness] [in this city] <with [5] to [6] neighboring [Lakes] tiles>",
         "[+1 Happiness] [in this city] <with [6] to [6] neighboring [Lakes] tiles>",
-            "Hidden when [Pattern.MoreWonders] Victory is disabled",
+            "Only available <when [Pattern.MoreWonders] Victory is enabled>",
             ],
         "replacementTextForUniques":"在研究[Masonry]后可以建造\n城市必须毗邻[Lakes]\n每个相邻的[Lakes]提供+1[Happiness]，这个城市的[Lakes]+1[Food]+2[Production]"
         "quote": "但维齐洛波奇特利非常生气，作为牺牲，穿过了4个房间，献身于太阳神，天空中的太阳消失了，或再次出现了。\n——福莱·迪亚哥·杜兰"
@@ -151,7 +151,7 @@
         
         "[+15]% City Strength from defensive buildings"
         
-        "Hidden when [Pattern.MoreWonders] Victory is disabled",]
+        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
         "quote": "他们为你造了圣而高的坟墓。\n克里特人，常说谎话，乃是恶兽，又馋又懒。\n你们却没有死，而是活在世上，永久长存。\n因为在你里面，我们生活，行动，有我们的存在\n——埃庇米尼得斯"
     },
     
@@ -167,7 +167,7 @@
         "Must be on [River]"//沿河
         "[+1 Gold] from [River] tiles [in this city]",
         "All newly-trained [Military] units [in this city] receive the [Amphibious] promotion"
-        "Hidden when [Pattern.MoreWonders] Victory is disabled",]
+        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
         "quote": "峡口雷声震碧端，离堆凿破几经年。\n流出古今秦汉月，问他伏龙可曾寒。\n ——《游伏龙观随吟》董湘琴"
     },
     
@@ -182,7 +182,7 @@
             "[+2 Faith] [in all cities]"
            "Must be on [Hill]"//沿河 
             "Provides [6] [Iron]"//回合铁
-            "Hidden when [Pattern.MoreWonders] Victory is disabled",]
+            "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
         "quote": "这座山的西南角有一道深深的裂缝，从山的主体分出了一块巨大的陡峭砂岩...它的外观宛如一尊巨像。\n——E. A.沃利斯·巴奇"
     },
     
@@ -196,7 +196,7 @@
         "[3] free [Missionary] units appear"
         "[-25]% City-State Influence degradation"
         "Resting point for Influence with City-States following this religion [50]"
-        "Hidden when [Pattern.MoreWonders] Victory is disabled",]
+        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
         "quote": "在印度比哈尔邦尘土飞扬的喧闹角落里，有一个神奇的地方被人们当作佛教中心\n ——《旅游者指南》里的菩提伽耶"
     },
     
@@ -210,7 +210,7 @@
         "Unbuildable<before discovering [Civil Service]>"//科技限制-文官制度
         "[+2 Culture] [in annexed cities]"
         "[+1 Happiness] from [Landmark] tiles [in this city]",
-        "Hidden when [Pattern.MoreWonders] Victory is disabled",]
+        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
         "quote": "从明后而嬉游兮， 登层台以娱情。\n见太府之广开兮， 观圣德之所营。\n ——《铜雀台赋》曹植"
     },
     
@@ -223,7 +223,7 @@
 		"uniques": [
 		"Unbuildable <when below [1] [Switch Counter]>", //无法建造
 		"Provides [1] [Rhythm counter]"//提供计数器
-		"Can only be built [in capital]"
+		"Can only be built <in [in capital] cities>"
 		"Remove [Sink into] [in this city] <hidden from users>",
 		],
 	},
@@ -235,7 +235,7 @@
 		"uniques": [
 		"Unbuildable <when below [1] [Switch Counter]>", //无法建造
 		"Provides [-1] [Rhythm counter]"//提供计数器
-		"Can only be built [in capital]"
+		"Can only be built <in [in capital] cities>"
 		"Remove [Roused] [in this city] <hidden from users>",
 		],
 	},
@@ -254,7 +254,7 @@
 		"uniques": [
 		//"Limited to [1] per Civilization"
 		"Provides [1] [Magic power]<every [1] turns>"//回合魔
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"],
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 	},
 	
 	{   
@@ -266,7 +266,7 @@
 		"Provides [1] [Black soil]"//黑土
 		"[+1 Gold] from [Hill] tiles [in all cities]",//
 		"[+1 Gold] from [All] tiles [in all cities]<in tiles without [Bonus resource]>",//
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"],
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 	},
 	
 	{   
@@ -278,7 +278,7 @@
 		"[+2 Production, +2 Food, +2 Culture] [in all cities]"
 		"[+25]% Production when constructing [Civilian] units [in all cities]"
 		"[+1] Movement <for [Civilian] units>",
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"],
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 	},
 	
 	{   
@@ -289,7 +289,7 @@
 		"Provides [1] [Crimson]"//赤成
 		"[+25]% Production when constructing [Sword] units [in all cities]"
 		"[4] free [Spearman] units appear"
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"],
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 	},
 	
 	{   
@@ -301,7 +301,7 @@
 		"Empire enters a [16]-turn Golden Age"
 		"[+20]% [Production] [in all cities]"
 		"[+20]% [Culture] [in all cities]"
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"],
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 	},
 	
 	{   
@@ -312,7 +312,7 @@
 		"Provides [1] [Aurum]<every [24] turns>"//黄金
 		"[2] Free Social Policies"//免费政策
 		"[3] Free Technologies"//免费科技
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"],
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 	},
     
     {
@@ -581,7 +581,7 @@
 		"Unbuildable <when below [2] [Mazelevel]> <hidden from users>", //无法建造
 		"Only available <in cities without a [HideMinotaurBuild]><hidden from users>"//隐藏建筑
 		"[3] units cost no maintenance"
-		"New [All] units start with [5] Experience [in this city]"
+		"New [All] units start with [5] XP [in this city]"
 		//"All newly-trained [All] units [in this city] receive the [Survivalism I] promotion"
 		"MinotaurBuild"//米诺陶建筑
         ],
@@ -631,7 +631,7 @@
 		"hurryCostModifier": 10,
 		"uniques": [
 		"Unbuildable <when below [1] [RechargeSwitch]>", //无法建造
-		"Can only be built [in capital]"
+		"Can only be built <in [in capital] cities>"
 		"Gain [1]-[8] [Culture]<with [40]% chance>"
 		"Gain [3]-[15] [Faith]<with [50]% chance>"
 		"Gain [5]-[20] [Science]<with [60]% chance>"
@@ -647,7 +647,7 @@
 		"hurryCostModifier": 50,
 		"uniques": [
 		"Unbuildable <when below [1] [RechargeSwitch]>", //无法建造
-		"Can only be built [in capital]"
+		"Can only be built <in [in capital] cities>"
 		"Gain [5]-[60] [Culture]<with [60]% chance>"
 		"Gain [15]-[75] [Faith]<with [70]% chance>"
 		"Gain [25]-[100] [Science]<with [80]% chance>"
@@ -663,7 +663,7 @@
 		"hurryCostModifier": 100,
 		"uniques": [
 		"Unbuildable <when below [1] [RechargeSwitch]>", //无法建造
-		"Can only be built [in capital]"
+		"Can only be built <in [in capital] cities>"
 		"Gain [20]-[300] [Culture]<with [80]% chance>"
 		"Gain [60]-[360] [Faith]<with [90]% chance>"
 		"Gain [100]-[500] [Science]<with [95]% chance>"
@@ -700,7 +700,7 @@
 		"Unbuildable <when below [1] [SnowDemonCounter]>", //无法建造
 		"Automatically built in all cities where it is buildable"
 		"Must be on [Tundra]"
-		"[+1 Food, +1 Production, +1 Faith] from all [SnowDemon] buildings<after [14] turns>",//加产出
+		"[+1 Food, +1 Production, +1 Faith] from all [SnowDemon] buildings<after turn number [14]>",//加产出
 		],
 	},
     
@@ -768,6 +768,98 @@
 		"quote": "冰！！！！！！！！"
 	},
 	
+	{
+		"name": "DevonCorporationHQ",//得文公司总部
+		"cost": 0,
+		"uniques": [
+		"Automatically built in all cities where it is buildable"//自动建造
+		"Unsellable"//无法出售
+		"Only available <in [in capital] cities><when number of [Devon] is more than [0]><hidden from users>" //其他文明无法建
+		"Provides [1] [Magic power]<when number of [Magic power] is less than [20]><hidden from users>"
+		"Comment [持续提供[Magic power]（上限20）]",
+		]
+	},
+	
+	{
+		"name": "Pre-infer",//推断-预备
+		"cost": 0,
+		"uniques": [
+		//"Automatically built in all cities where it is buildable<hidden from users>"//自动建造
+		"Unsellable"//无法出售
+		"Only available <in [in capital] cities> <when number of [Magic power] is equal to [20]><when number of [Devon] is more than [0]><hidden from users>", //其他文明无法建
+		"Comment [在建造前请考虑，一旦建造将不可逆]",
+		"Comment [建造后的下个回合开始，10个回合内，每个回合结束都会判断UA条件，若满足则获得对应能力10回合]",
+		
+		"Gain a free [Compute-Execute] [in capital]<upon turn end>"
+		]
+	},
+	
+	{
+		"name": "Compute-Execute",//计算-执行
+		"cost": 99999999999999,
+		"requiredTech": "Special technology",
+		"uniques": [
+		"Unsellable"//无法出售
+		//"Only available <in [in capital] cities> <when number of [Magic power] is equal to [20]><when number of [Devon] is more than [0]><hidden from users>", //其他文明无法建
+		"Provides [1] [Compute]<hidden from users>"
+		"Remove [Pre-infer] [in all cities]<upon turn end><when number of [Compute] is more than [9]><hidden from users>"
+		"Remove [Compute-Execute] [in all cities]<upon turn end><when number of [Compute] is more than [9]><hidden from users>"
+		"Instantly consumes [20] [Magic power]<upon turn end><when number of [Compute] is more than [9]><hidden from users>"
+		"Comment [10回合后自毁（回合结束时会自动建造，请勿硬锤）]",
+		]
+	},
+	
+	{
+		"name": "ComputeExplosionLV.1",//算力爆发Lv.1
+		"cost": 0,
+		"uniques": [
+		"Automatically built in all cities where it is buildable"//自动建造
+		"Unsellable"//无法出售
+		"Only available <in cities with a [Compute-Execute]><when number of [[[Military] Units]*10] is equal to [Gold]><when number of [[[Melee] Units]+[[Ranged] Units]] is equal to [([Era number]+2)*2]><hidden from users>",
+		"Provides [1] [Compute-1]<hidden from users>"
+		"Remove [ComputeExplosionLv.1] [in all cities]<upon turn end><when number of [Compute-1] is more than [9]><hidden from users>"
+		]
+	},
+	
+	{
+		"name": "ComputeExplosionLV.2",//算力爆发Lv.2
+		"cost": 0,
+		"uniques": [
+		"Automatically built in all cities where it is buildable"//自动建造
+		"Unsellable"//无法出售
+		"Only available <in cities with a [Compute-Execute]><when number of [[[Melee] Units]*10+[[Ranged] Units]*20] is equal to [Gold]><when number of [[[Melee] Units]+[[Ranged] Units]] is equal to [([Era number]+[Adopted [All] Policies])*2]><hidden from users>",
+		"Provides [1] [Compute-2]<hidden from users>"
+		"Remove [ComputeExplosionLv.2] [in all cities]<upon turn end><when number of [Compute-2] is more than [9]><hidden from users>"
+		]
+	},
+	
+	{
+		"name": "ComputeExplosionLV.3",//算力爆发Lv.3
+		"cost": 0,
+		"uniques": [
+		"Automatically built in all cities where it is buildable"//自动建造
+		"Unsellable"//无法出售
+		"Only available <in cities with a [Compute-Execute]><when number of [[[Melee] Units]%([[Ranged] Units]+1)*50] is equal to [Gold]><when number of [[([Melee] Units]+[[Ranged] Units])*2] is equal to [[Era number]*[Adopted [All] Policies]]><hidden from users>",
+		"Provides [1] [Compute-60]<hidden from users>"
+		"Remove [ComputeExplosionLv.3] [in all cities]<upon turn end><when number of [Compute-3] is more than [9]><hidden from users>"
+		]
+	},
+	
+	{
+		"name": "ComputeExplosionLV.4",//算力爆发Lv.4
+		"cost": 0,
+		"uniques": [
+		"Automatically built in all cities where it is buildable"//自动建造
+		"Unsellable"//无法出售
+		"Only available <in cities with a [Compute-Execute]><when number of [([[Melee] Units]+[[Ranged] Units]+[Era number]+[Adopted [All] Policies])*20] is equal to [Gold]><when number of [[[Melee] Units]*[[Ranged] Units]] is equal to [[Era number]*[Adopted [All] Policies]]><hidden from users>",
+		"Provides [1] [Compute-80]<hidden from users>"
+		"Remove [ComputeExplosionLv.4] [in all cities]<upon turn end><when number of [Compute-4] is more than [9]><hidden from users>"
+		]
+	},
+	
+	
+	/////////////////////伪ub///////////////////////
+	
     ////////////////////原版奇观//////////////////
     
     {
@@ -788,7 +880,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Provides a sum of gold each time you spend a Great Person",
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+1 Gold, +1 Production, +1 Food] from [Marble] tiles [in this city]", "[+1 Gold, +1 Production, +1 Food] from [Stone] tiles [in this city]"],
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
@@ -864,7 +956,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"All newly-trained [Land] units [in this city] receive the [驻守] promotion",
 		"Destroyed when the city is captured"
 		
@@ -881,7 +973,7 @@
 		"faith": 2,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -1118,7 +1210,7 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
-		"Hidden when religion is disabled"]
+		"Only available <when religion is enabled>"]
 	},
 	
 	{
@@ -1128,7 +1220,7 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 		"[+10]% [Gold] from Trade Routes"
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -1176,7 +1268,7 @@
 		"requiredTech": "Pottery",
 		"uniques": [
 		"[+20]% growth [in this city]"
-		"Hidden when religion is disabled"]
+		"Only available <when religion is enabled>"]
 	},
 	
 	{
@@ -1358,13 +1450,13 @@
 		"uniques": [
 		"Gain [10]-[20] [Faith]<upon constructing [Culture]>"
 		"Gain [8]-[16] [Culture]<upon constructing [Faith]><in this city>"
-		"Hidden when religion is disabled"]
+		"Only available <when religion is enabled>"]
 	},
 	
 	
 	{
 		"name": "Forest of carved stone tablets",//雕石碑林
-		"uniqueTo": "Mass Will - Growth",//大群意志-生长
+		"uniqueTo": "MassWill-Growth",//大群意志-生长
 		"replaces": "Monument",//所代替
 		"culture": 2,
 		"science":2,
@@ -1377,8 +1469,8 @@
 	},
 	
 	{
-		"name": "冰淇淋机",
-		"uniqueTo": "拉特兰",
+		"name": "GelatoStop",//冰淇淋机
+		"uniqueTo": "Laterano",//拉特兰
 		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
 		"cityStrength": 10,
 		"cityHealth": 100,
@@ -1398,7 +1490,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"[+15]% Production when constructing [Military] units [in this city]",
 		"All newly-trained [Military] units [in this city] receive the [愈战愈勇] promotion",
 		"Destroyed when the city is captured"
@@ -1427,7 +1519,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"All newly-trained [Military] units [in this city] receive the [量子姿态] promotion",
 		"Destroyed when the city is captured"
 		],
@@ -1482,7 +1574,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"All newly-trained [Military] units [in this city] receive the [Fungal infection] promotion",
 		"Destroyed when the city is captured"
 		],
@@ -1511,7 +1603,7 @@
 		"culture": 3,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Hidden when religion is disabled"]
+		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
 	},
 	
 	{
@@ -1603,7 +1695,7 @@
 		"uniques": [
 		"[Worker] units gain the [Corvee+ I] promotion",
 		"[Military] units gain the [X Corps] promotion<after discovering [Theology]><before the [Industrial era]>",
-		"Hidden when religion is disabled"]
+		"Only available <when religion is enabled>"]
 	},
 	
 	{
@@ -1698,7 +1790,7 @@
 		"uniques": [
 		"[-1 Gold] per [1] population [in this city]",
 		"[+25]% [Gold] from Trade Routes"
-		"Hidden when religion is disabled"]
+		"Only available <when religion is enabled>"]
 	},
 	
 	
@@ -1753,7 +1845,7 @@
 		"uniqueTo": "Breath of the Wild",//试炼神庙
 		"maintenance": 2,
 		"uniques": [
-		"New [Military] units start with [10] Experience [in this city]",
+		"New [Military] units start with [10] XP [in this city]",
 		"[+1 Science] per [4] population [in this city]<during the [Medieval era]>"
 		"[+1 Science] per [3] population [in this city]<during the [Renaissance era]>"
 		"[+1 Science] per [2] population [in this city]<starting from the [Industrial era]>"
@@ -1776,7 +1868,7 @@
 		"Unbuildable <when below [500] [Demon Night Counter]>"
 		"Triggers a global alert upon build start",
 		"Triggers a Cultural Victory upon completion", 
-		"Hidden when [Walpurgis Night] Victory is disabled", 
+		"Only available <when [Walpurgis Night] Victory is enabled>", 
 		"Cannot be hurried"
 		]
 	},
@@ -1790,7 +1882,7 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-		"[+1 Faith] [in this city]<in cities with at least [2] [Population]> <in [Desert] tiles>",
+		"[+1 Faith] [in this city]<in cities with at least [2] [Population]> <in tiles adjacent to [Desert] tiles>",
 		"Destroyed when the city is captured"]
 	},
 	
@@ -1830,7 +1922,7 @@
 		"percentStatBonus": {"science": 66},
 		"requiredBuilding": "Library",
 		"uniques": [
-		"Can only be built [in all cities] <within [4] tiles of a [Mountain]>"
+		"Can only be built <in [in all cities] cities> <within [4] tiles of a [Mountain]>"
 		"Reveal up to [1] [Natural Wonder] within a [50] tile radius"
 		],
 		"requiredTech": "Astronomy"
@@ -1872,7 +1964,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"All newly-trained [All] units [in this city] receive the [Developer Effect Green] promotion"
 		"Destroyed when the city is captured"
 		],
@@ -1901,8 +1993,8 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
-		"New [Ranged] units start with [15] Experience [in this city]",
+		"New [Military] units start with [15] XP [in this city]", 
+		"New [Ranged] units start with [15] XP [in this city]",
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -1990,7 +2082,7 @@
 		//"gold":2,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"[+15]% Production when constructing [Land] units [in this city]"
 		//"[+50]% Production when constructing [Barracks] buildings [in all cities]"//加速锤军营
 		"All newly-trained [Melee] units [in this city] receive the [Knight's Code] promotion"//拿晋升
@@ -2055,7 +2147,7 @@
 		"maintenance": 2,
 		"percentStatBonus": {"production": 10},
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -2116,7 +2208,7 @@
 		//"maintenance": 0,
 		"percentStatBonus": {"production": 25},
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"Destroyed when the city is captured"
 		],
 		"requiredTech": "Bronze Working"
@@ -2177,7 +2269,7 @@
     	"[+2 Faith]<when above [15] [Blood Witch Counter - Barbarians]><hidden from users>"//杀10人加快乐
     	"[+2 Faith]<when above [23] [Blood Witch Counter - Barbarians]><hidden from users>"//杀10人加快乐
     	"每击杀8个非蛮族单位获得+1[Food]（上限+4）\n每击杀8个蛮族单位获得+2[Faith]（上限+6）<Suppress warning [validationWarning]>"
-			"Unbuildable", "Hidden when religion is disabled", "Destroyed when the city is captured"],
+			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 			
 	},
 	
@@ -2412,8 +2504,8 @@
 		"maintenance": 1,
 		"uniques": [
 		"[+1 Science] per [2] population [in this city]"
-		"[+1 Science] per [3] population [in this city]<when below [780] [Science] (modified by game speed)>"
-		"[+15]% [Science] [in this city]<when above [780] [Science] (modified by game speed)>"
+		"[+1 Science] per [3] population [in this city]<when below [780] [Science]><(modified by game speed)>"
+		"[+15]% [Science] [in this city]<when above [780] [Science]><(modified by game speed)>"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2503,8 +2595,8 @@
 		"percentStatBonus": {"faith": 5},
 		"requiredTech": "Pottery",
 		"uniques": [
-		"New [Military] units start with [5] Experience [in this city]",
-		"Hidden when religion is disabled"]
+		"New [Military] units start with [5] XP [in this city]",
+		"Only available <when religion is enabled>"]
 	},
 	
 	{
@@ -2611,7 +2703,7 @@
 		"production": 1,
 		"maintenance": 2,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"[8] units cost no maintenance"
 		"Automatically built in all cities where it is buildable"
 		"Destroyed when the city is captured"
@@ -2632,7 +2724,7 @@
         "[+1 Faith] [in this city] <with [2] to [6] neighboring [Desert] tiles>",
         "[+1 Faith] [in this city] <with [3] to [6] neighboring [Desert] tiles>",
 		"[+1 Production] [in this city] <with [6] to [6] neighboring [Desert] tiles>",
-		"Hidden when religion is disabled"]
+		"Only available <when religion is enabled>"]
 		"replacementTextForUniques":"城市必须相邻于[Desert]\n每个相邻的[Desert]提供+1[Faith](上限3[Faith])\n与6个[Desert]相邻时+1[Production]"
 	},
 	
@@ -2693,9 +2785,9 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]",
+		"New [Military] units start with [15] XP [in this city]",
 		"[+1 Culture] from every [Destroyed when the city is captured]<in this city>"
-		"Hidden when religion is disabled"]
+		"Only available <when religion is enabled>"]
 		"replacementTextForUniques":"所在城市中新军事单位获得 15 初始经验值\n在此城市所有【当城市被占领时会被摧毁】建筑+1[Culture]"
 	},
 	
@@ -2706,7 +2798,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"[+1 Gold] from every [New [Military] units start with [15] Experience [in this city]]"
 		"Destroyed when the city is captured"
 		],
@@ -2722,7 +2814,7 @@
 		"gold":1,
 		"maintenance": 0,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"[All] Units adjacent to this city heal [+10] HP per turn when healing<in this city>"//临近城市回血
 		"[+1 Food] [in this city]<in cities with at least [4] [Population]>",
 		"Destroyed when the city is captured"
@@ -2801,7 +2893,7 @@
 		"production": 1,
 		"maintenance": 1,
 		"uniques": [
-		"New [Military] units start with [15] Experience [in this city]", 
+		"New [Military] units start with [15] XP [in this city]", 
 		"All newly-trained [Ranged] units [in this city] receive the [Seduce] promotion"//拿晋升
 		
 		"Destroyed when the city is captured"
@@ -2887,7 +2979,7 @@
 		"[-33]% production cost<when above [600] [HeuristicValue]>",//探索值
 		"[+2 Production]<when above [800] [HeuristicValue]>",//探索值
 		"[+2 Food]<when above [1200] [HeuristicValue]>",//探索值
-		"Hidden when religion is disabled", 
+		"Only available <when religion is enabled>", 
 		"Destroyed when the city is captured"
 		]
 	},
@@ -2950,7 +3042,7 @@
 		"gold":1,
 		"faith":2,
 		"uniques":[
-		"New [Military] units start with [15] Experience [in this city]",
+		"New [Military] units start with [15] XP [in this city]",
 	    "Destroyed when the city is captured",
 		"[-15]% Culture cost of natural border growth [in this city]"
 		],
@@ -2967,7 +3059,7 @@
 		"maintenance": 1,
 		"uniques": [
 		"Notified of new Barbarian encampments"
-	    "[-50]% maintenance cost for buildings [in this city]<if [ConcentrationTower] is constructed in all [in all cities] cities>",
+	    "[-50]% maintenance cost for [all] buildings [in this city] <if [ConcentrationTower] is constructed in all [in all cities] cities>",
 		"Destroyed when the city is captured"]
 	},
 	
@@ -3087,7 +3179,7 @@
 		"hurryCostModifier": 10,
 		"uniques": [
 		"Unbuildable <when below [1] [TheHallOfHate]> <hidden from users>",
-		"Can only be built [in capital]",
+		"Can only be built <in [in capital] cities>",
 		"Instantly provides [9] [DyingCounter]",
 		"Remove [NearDeathReincarnationHallNearDeath] [in this city] <hidden from users>",
 		"Instantly provides [1] [Torment]",]
@@ -3101,7 +3193,7 @@
 		"production": 1,
 		"cost": 40,
 		"maintenance": 1,
-		"uniques": ["Hidden when religion is disabled"]
+		"uniques": ["Only available <when religion is enabled>"]
 	},
 	
 	{
@@ -3200,11 +3292,61 @@
 		"Destroyed when the city is captured"]
 	},
 	
+	{
+		"name": "DevonTech",//得文科技
+		"uniqueTo": "DevonCorporation",//得文公司
+		"replaces": "Library",//所代替原版的建筑（如果不想取代可以不写这项）
+		"hurryCostModifier": 15,
+		"maintenance": 1,
+		"uniques": [
+		"[+1 Science] per [2] population [in this city]"
+		"[+10]% [Science] [in this city]<when number of [[turns]%10] is between [2] and [8]><hidden from users>"
+		"[+10]% [Science] [in this city]<when number of [[turns]%10] is between [3] and [7]><hidden from users>"
+		"[+10]% [Science] [in this city]<when number of [[turns]%10] is between [4] and [6]><hidden from users>"
+		"Comment [如果回合数的个位数为3~7，则+10%[Science]]",
+		"Comment [如果回合数的个位数为4~6，则+20%[Science]]",
+		"Comment [如果回合数的个位数为5~5，则+30%[Science]]",
+		"Comment [(加成取最大)]",
+		],
+		"requiredTech": "Writing"
+	},
 	
+	{
+		"name": "DevonMonument",//得文纪念碑
+		"uniqueTo": "DevonCorporation",//得文公司
+		"replaces": "Monument",//所代替
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+		"[+1 Culture] [in this city]<when number of [[turns]%10] is between [0] and [10]><hidden from users>"
+		"[+1 Culture] [in this city]<when number of [[turns]%10] is between [0] and [7]><hidden from users>"
+		"[+1 Culture] [in this city]<when number of [[turns]%10] is between [0] and [4]><hidden from users>"
+		"Comment [如果回合数的个位数为1~9，则+1[Culture]]",
+		"Comment [如果回合数的个位数为1~6，则+2[Culture]]",
+		"Comment [如果回合数的个位数为1~3，则+3[Culture]]",
+		"Comment [(加成取最大)]",
+		"Destroyed when the city is captured"]
+	},
 	
-	
-	
-	
+	{
+		"name": "AlpineKäserei",//高山奶酪窖
+		"uniqueTo": "Switzerland",//瑞士
+		"replaces": "Granary",//所代替原版的建筑（如果不想取代可以不写这项）
+		"food": 2,
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 30,
+		"uniques": [
+		"[+1 Food] from [Deer] tiles [in this city]",
+		"[+1 Food] from [Bananas] tiles [in this city]",
+		"[+1 Food] from [Wheat] tiles [in this city]",
+		"[+2 Food] [in this city]<for every adjacent [Mountain]>",
+		"May buy [Military] units with [Production] for [1] times their normal Production cost"
+			],
+		"requiredTech": "Pottery"
+	},
 	
 	
 	

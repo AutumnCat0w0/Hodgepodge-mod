@@ -210,7 +210,7 @@
 		"Consumes [1] [BD Counter]",
 		"Tile provides yield without assigned population<when above [-1] [BD Counter]>"//不需要人
 		"Can be built outside your borders",
-		 "Constructing it will take over the tiles around it and assign them to your closest city"
+		 "Gain control over [all] tiles in a [1]-tile radius"
 		 "Removes removable features when built"
 		 "Irremovable"
 		 ],
