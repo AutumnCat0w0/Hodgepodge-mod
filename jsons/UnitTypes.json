@@ -13,4 +13,11 @@
         "name": "Kal'tsit",//凯尔希
         "movementType": "Land"
     },
+	
+	{
+        "name": "LandSwordWater",//陆地近战水
+        "movementType": "Land"
+    },
+	
+	
 ]

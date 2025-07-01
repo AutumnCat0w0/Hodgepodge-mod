@@ -562,6 +562,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		
 		]
 	},
@@ -572,7 +573,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"
-		
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -602,7 +603,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -612,6 +613,7 @@
 		"revealedBy": "Resource Technology",
 		"uniques": [
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -676,14 +678,16 @@
 		"name": "Mercenary",//雇佣兵
 		"resourceType": "Luxury",
 		"uniques": [
-		"[-10 Gold, -2 Culture, -2 Science, -4 Happiness]"
-		"[-10 Gold, -2 Culture, -2 Science, +1 Happiness]<when above [1] [Mercenary]>"
-		"[-10 Gold, -2 Culture, -2 Science, +1 Happiness]<when above [2] [Mercenary]>"
-		"[-10 Gold, -2 Culture, -2 Science, +1 Happiness]<when above [3] [Mercenary]>"
-		"[-10 Gold, -2 Culture, -2 Science, +1 Happiness]<when above [4] [Mercenary]>"
-		
-		"[+15]% Strength<when above [0] [Mercenary]><when below [1] [68]>"
-		"[+15]% Strength<when above [1] [Mercenary]><when below [1] [68]>"
+		"[-10 Gold, -2 Culture, -2 Science, -4 Happiness]<hidden from users>"
+		"[-10 Gold, -2 Culture, -2 Science]<when above [1] [Mercenary]><hidden from users>"
+		"[-10 Gold, -2 Culture, -2 Science]<when above [2] [Mercenary]><hidden from users>"
+		"[-10 Gold, -2 Culture, -2 Science]<when above [3] [Mercenary]><hidden from users>"
+		"[-10 Gold, -2 Culture, -2 Science]<when above [4] [Mercenary]><hidden from users>"
+		"Comment [不提供奢侈品的基础快乐，若外派到其他文明中，该文明适用以下效果：]",
+		"Comment [每拥有1个[Mercenary]，每回合将此文明的10[Gold]2[Culture]2[Science]反哺到原本文明中。（直接扣除文明资源）]",
+		"[+15]% Strength<when above [0] [Mercenary]><when below [1] [68]><hidden from users>"
+		"[+15]% Strength<when above [1] [Mercenary]><when below [1] [68]><hidden from users>"
+		"Comment [每拥有1个[Mercenary]，战斗力+15%（上限30%）]",
 					]
 	},
 	
@@ -693,7 +697,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -701,7 +705,8 @@
 		"name": "Caesar provides: Culture 5",//凯撒提供 文化5
 		"resourceType": "Luxury",
 		"uniques": [
-		"[+5 Culture, -4 Happiness]"
+		"[+5 Culture, -4 Happiness]<hidden from users>"
+		"Comment [仅+5[Culture]，不提供快乐]",
 		]
 	},
 	
@@ -709,7 +714,8 @@
 		"name": "Caesar provides: Science 5",//凯撒提供 科技5
 		"resourceType": "Luxury",
 		"uniques": [
-		"[+5 Science, -4 Happiness]"
+		"[+5 Science, -4 Happiness]<hidden from users>"
+		"Comment [仅+5[Science]，不提供快乐]",
 		]
 	},
 	
@@ -717,7 +723,8 @@
 		"name": "Caesar provides: Faith 5",//凯撒提供 信仰5
 		"resourceType": "Luxury",
 		"uniques": [
-		"[+5 Faith, -4 Happiness]"
+		"[+5 Faith, -4 Happiness]<hidden from users>"
+		"Comment [仅+5[Faith]，不提供快乐]",
 		]
 	},
 	
@@ -725,7 +732,8 @@
 		"name": "Caesar's Needs: Culture 5",//凯撒需求 文化5
 		"resourceType": "Luxury",
 		"uniques": [
-		"[-5 Culture, -4 Happiness]"
+		"[-5 Culture, -4 Happiness]<hidden from users>"
+		"Comment [仅-5[Culture]，不提供快乐]",
 		]
 	},
 	
@@ -733,7 +741,8 @@
 		"name": "Caesar's Needs: Science 5",//凯撒需求 科技5
 		"resourceType": "Luxury",
 		"uniques": [
-		"[-5 Science, -4 Happiness]"
+		"[-5 Science, -4 Happiness]<hidden from users>"
+		"Comment [仅-5[Science]，不提供快乐]",
 		]
 	},
 	
@@ -741,7 +750,8 @@
 		"name": "Caesar's Needs: Faith 5",//凯撒需求 信仰5
 		"resourceType": "Luxury",
 		"uniques": [
-		"[-5 Faith, -4 Happiness]"
+		"[-5 Faith, -4 Happiness]<hidden from users>"
+		"Comment [仅-5[Faith]，不提供快乐]",
 		]
 	},
 	
@@ -752,6 +762,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -762,6 +773,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -771,6 +783,7 @@
 		"uniques": [
 		"[-4 Happiness]"
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -781,6 +794,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},*/
 	
@@ -790,7 +804,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -800,7 +814,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -810,7 +824,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -821,6 +835,7 @@
 		"Cannot be traded"//不能交易
 		//"Stockpiled"
 		"[-4 Happiness]"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -830,6 +845,7 @@
 		"revealedBy": "Special technology",
 		"uniques": [
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -839,7 +855,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -849,7 +865,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
-		
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -869,6 +885,7 @@
 		"uniques": [
 		"[-4 Happiness]"
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -879,6 +896,7 @@
 		"[-10]% Strength"
 		"[-4 Happiness]"
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -889,6 +907,7 @@
 		"[+10]% Strength"
 		"[-4 Happiness]"
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -896,8 +915,9 @@
 		"name": "Black soil",//黑土
 		"resourceType": "Luxury",
 		"uniques": [
-		"[-2 Happiness]"
+		"[-2 Happiness]<hidden from users>"
 		"Cannot be traded"//不能交易
+		"Comment [仅提供+2[Happiness]]",
 		]
 	},
 	
@@ -905,8 +925,9 @@
 		"name": "Chalk",//白垩
 		"resourceType": "Luxury",
 		"uniques": [
-		"[-2 Happiness]"
+		"[-2 Happiness]<hidden from users>"
 		"Cannot be traded"//不能交易
+		"Comment [仅提供+2[Happiness]]",
 		]
 	},
 	
@@ -914,8 +935,9 @@
 		"name": "Crimson",//赤成
 		"resourceType": "Luxury",
 		"uniques": [
-		"[-2 Happiness]"
+		"[-2 Happiness]<hidden from users>"
 		"Cannot be traded"//不能交易
+		"Comment [仅提供+2[Happiness]]",
 		]
 	},
 	
@@ -923,8 +945,9 @@
 		"name": "Aurum",//黄金
 		"resourceType": "Luxury",
 		"uniques": [
-		"[-2 Happiness]"
+		"[-2 Happiness]<hidden from users>"
 		"Cannot be traded"//不能交易
+		"Comment [仅提供+2[Happiness]]",
 		]
 	},
 	
@@ -934,6 +957,7 @@
 		"uniques": [
 		"[-4 Happiness]"
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -944,6 +968,7 @@
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
 		"City-level resource"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -954,6 +979,7 @@
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
 		"City-level resource"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -963,6 +989,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -972,6 +999,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -981,6 +1009,7 @@
 		"revealedBy": "Special technology",
 		"uniques": [
 		"[-2048]% Production when constructing [RechargeBuild] buildings [in all cities]"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1000,6 +1029,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1010,6 +1040,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1020,6 +1051,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1028,7 +1060,7 @@
 		"resourceType": "Bonus",
 		"revealedBy": "Resource Technology",
 		"uniques": [
-		"[+2 Gold] [in all cities]"
+		"[+4 Gold] [in all cities]"
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		]
@@ -1040,6 +1072,7 @@
 		"revealedBy": "Resource Technology",
 		"uniques": [
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1049,6 +1082,7 @@
 		"revealedBy": "Resource Technology",
 		"uniques": [
 		"Cannot be traded"//不能交易
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1059,6 +1093,7 @@
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
 		"City-level resource"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1069,6 +1104,7 @@
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
 		"City-level resource"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1079,6 +1115,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1089,6 +1126,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1096,7 +1134,9 @@
 		"name": "TheHallOfHate",//轮回之馆
 		"resourceType": "Strategic",
 		"revealedBy": "Special technology",
-		"uniques": []
+		"uniques": [
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
 	},
 	
 	{
@@ -1106,6 +1146,7 @@
 		"uniques": [
 		"Cannot be traded"
 		"Stockpiled"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	{
@@ -1114,7 +1155,9 @@
 		"revealedBy": "Special technology",
 		"uniques": [
 		"Cannot be traded"
-		"Stockpiled"]
+		"Stockpiled"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
 	},
 	
 	{
@@ -1124,6 +1167,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1153,6 +1197,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1164,6 +1209,7 @@
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
 		"No defensive terrain bonus"//无防御奖励
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		
 		]
 	},
@@ -1175,6 +1221,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1185,6 +1232,7 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1196,6 +1244,7 @@
 		"Cannot be traded"//不能交易
 		"Not shown on world screen",//不显示
 		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	
@@ -1254,4 +1303,45 @@
 		"[1] Range"
 		]
 	},
+	
+	{
+		"name": "JokerMonarchAbility-Spade",//小丑皇能力-黑桃
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
+	{
+		"name": "JokerMonarchAbility-Heart",//小丑皇能力-红心
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
+	{
+		"name": "JokerMonarchAbility-Club",//小丑皇能力-梅花
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
+	{
+		"name": "JokerMonarchAbility-Diamond",//小丑皇能力-方片
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		]
+	},
+	
 ]

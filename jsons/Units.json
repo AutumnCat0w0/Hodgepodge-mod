@@ -30,7 +30,92 @@
 		"Can build [江东铁壁] improvements on tiles"
 		"Uncapturable"]
 	},
+	
+	{
+		"name": "Spearman",//枪兵
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"
+		"Can transform to [ProteanJoker] <for [No.200JokerMonarch] Civilizations><costs [+75 Gold] stats><after discovering [Civil Service]><on [Standard] game speed><hidden from users>",//转化为幻变王牌-标速
+		
+		"Can transform to [ProteanJoker] <for [No.200JokerMonarch] Civilizations><costs [+50 Gold] stats><after discovering [Civil Service]><on [Quick] game speed><hidden from users>",//转化为幻变王牌-快速
+		],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Composite Bowman",//复合弓兵
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"uniques": [
+		"Can transform to [ProteanJoker] <for [No.200JokerMonarch] Civilizations><costs [+40 Gold] stats><after discovering [Civil Service]><on [Standard] game speed><hidden from users>"//转化为幻变王牌-标速
+		
+		"Can transform to [ProteanJoker] <for [No.200JokerMonarch] Civilizations><costs [+25 Gold] stats><after discovering [Civil Service]><on [Quick] game speed><hidden from users>"//转化为幻变王牌-快速
+		],
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Horseman",//骑手
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>" 
+		"Can transform to [ProteanJoker] <for [No.200JokerMonarch] Civilizations><costs [+40 Gold] stats><after discovering [Civil Service]><on [Standard] game speed><hidden from users>"//转化为幻变王牌-标速
+		
+		"Can transform to [ProteanJoker] <for [No.200JokerMonarch] Civilizations><costs [+25 Gold] stats><after discovering [Civil Service]><on [Quick] game speed><hidden from users>"//转化为幻变王牌-快速
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+		
+	{
+		"name": "Swordsman",//铁剑 剑士
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"uniques": [
+		"Can transform to [ProteanJoker] <for [No.200JokerMonarch] Civilizations><costs [+40 Gold] stats><after discovering [Civil Service]><on [Standard] game speed><hidden from users>"//转化为幻变王牌-标速
+		
+		"Can transform to [ProteanJoker] <for [No.200JokerMonarch] Civilizations><costs [+25 Gold] stats><after discovering [Civil Service]><on [Quick] game speed><hidden from users>"//转化为幻变王牌-快速
+		],
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
 	///////////////////伪uu//////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	
+	
 	{
 		"name": "TOWER",//防御塔
 		"unitType": "Archery",
@@ -402,18 +487,26 @@
 		"cost": 0,
 		"uniques": [
 		"伪UU<hidden from users>"
-		"Instantly consumes [1] [UniversalCounter]"
-		"Instantly provides [1] [ElitismCounter]<upon losing at least [1] HP in a single attack>"
-		"[This Unit] takes [100] damage<upon ending a turn in a [All] tile>"//每回合掉血
-		"[-50]% Strength",
-		"[+50]% Strength<during the [Medieval era]>",
-		"[+100]% Strength<during the [Renaissance era]>",
-		"[+200]% Strength<during the [Industrial era]>",
-		"[+400]% Strength <starting from the [Modern era]>",
-		"[+25]% Strength <when above [10] [ElitismCounter]>",
-		"[+25]% Strength <when above [20] [ElitismCounter]>",
-		"[+25]% Strength <when above [30] [ElitismCounter]>",
-		"[+25]% Strength <when above [40] [ElitismCounter]>",
+		"Instantly consumes [1] [UniversalCounter]<hidden from users>"
+		"Instantly provides [1] [ElitismCounter]<upon losing at least [1] HP in a single attack><hidden from users>"
+		"[This Unit] takes [100] damage<upon ending a turn in a [All] tile><hidden from users>"//每回合掉血
+		"Comment [回合结束时消失]",
+		
+		"[-50]% Strength<before the [Medieval era]><hidden from users>",
+		//"[+50]% Strength<during the [Medieval era]>",
+		"[+50]% Strength<during the [Renaissance era]><hidden from users>",
+		"[+150]% Strength<during the [Industrial era]><hidden from users>",
+		"[+300]% Strength <starting from the [Modern era]><hidden from users>",
+		"Comment [根据时代获得战斗力：\n[Medieval era]之前：-50%\n[Medieval era]：无变化\n[Renaissance era]：+50%战斗力\n[Industrial era]：+150%战斗力\n[Modern era]之后：+300%战斗力\n]",
+		
+		"[+25]% Strength <when above [9] [ElitismCounter]><hidden from users>",
+		"[+25]% Strength <when above [19] [ElitismCounter]><hidden from users>",
+		"[+25]% Strength <when above [29] [ElitismCounter]><hidden from users>",
+		"[+25]% Strength <when above [39] [ElitismCounter]><hidden from users>",
+		"Comment [根据[ElitismCounter]数量获得战斗力：\n10+：+25%\n20+：+50%\n30+：+75%\n40+：+100%]",
+		
+		"[Target Unit] gains the [M3Ability] promotion<hidden from users>"
+		"Comment [被攻击单位受到M3攻击获取的XP减半（不影响大军事家点数）]",
 		],
 		"attackSound": "metalhit"
 	},
@@ -480,7 +573,7 @@
 		"name": "Ektilnir·TimbercrackX",//“木裂”埃克提尔尼尔
 		"unitType": "Sword",	
 		"movement": 3,
-		"strength": 14,
+		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Special technology",
 		"upgradesTo": "Knight",
@@ -490,7 +583,6 @@
 		"Comment [改为[Sword]兵种]",
 		"Can move after attacking",
 		"No defensive terrain bonus",
-		"[-33]% Strength <vs cities> <when attacking>"
 		
 		"[This Unit] gains the [ScarwoodCharge I] promotion<upon turn end><hidden from users>"
 		"[This Unit] loses the [ScarwoodCharge I] promotion<upon turn start><hidden from users>"
@@ -521,7 +613,92 @@
 		"cost": 70
 	},*/
 	
+	
+	{
+		"name": "TerranautSpade",//陆航黑桃 No.200小丑皇
+		"unitType": "LandSwordWater",
+		"requiredTech": "Special technology",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"uniques": [
+		"伪UU<hidden from users>"
+		"May travel on Water tiles without embarking<hidden from users>"
+		"Double movement in [Coast]<hidden from users>"
+		"Double movement in [Ocean]<hidden from users>"
+		"Comment [在[Coast][Ocean]地块消耗的移动力减半]",
+		"Eliminates combat penalty for attacking across a coast<hidden from users>"
+		"[This Unit] loses the [Ignore terrain cost] promotion"
+		"Comment [可以将水上地块当作陆地行动（不影响其他判定）]",
+		"Comment [失去[Sword]晋升树，但同时拥有[Melee Water]与[Ranged Water]晋升树]",
+		],
+		"attackSound": "metalhit"
+		"civilopediaText": [{"text":"由[ProteanJoker]转化而来", "link":"Units/ProteanJoker"},]
+	},
+	
+	{
+		"name": "MarauderHeart",//掠骑红心
+		"unitType": "Mounted",
+		"requiredTech": "Special technology",
+		"movement": 4,
+		"strength": 18,
+		"cost": 110,
+		"requiredResource": "Horses",
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>"
+		"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
+		"Receive triple Gold from Barbarian encampments and pillaging Cities",//三倍掠夺
+		"No movement cost to pillage"//无移动劫掠
+		],
+		"promotions": ["Cover I"],//免费晋升
+		"attackSound": "horse"
+		"civilopediaText": [{"text":"由[ProteanJoker]转化而来", "link":"Units/ProteanJoker"},]
+	},
+	
+	{   "name": "FrightChordClub",//惊弦梅花
+		"unitType": "Archery",
+		"requiredTech": "Special technology",
+		"movement": 2,
+		"strength": 10,
+		"rangedStrength": 16,
+		"range": 2,
+		"cost": 110,
+		"uniques": [
+		"Invisible to non-adjacent units", //只有附近的才能看
+		],
+		"attackSound": "crossbow"
+		"civilopediaText": [{"text":"由[ProteanJoker]转化而来", "link":"Units/ProteanJoker"},]
+	},
+	
+	{
+		"name": "BloodironDiamond",//铁血方片
+		"unitType": "Sword",
+		"requiredTech": "Special technology",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>"
+		"[This Unit] heals [35] HP <upon being promoted>"
+		],
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+		"civilopediaText": [{"text":"由[ProteanJoker]转化而来", "link":"Units/ProteanJoker"},]
+	},
+	
 	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	////////////////////////伪uu///////////////////////
+	
+	
+	
 	
 	{
 		"name": "Ancient Egypt chariot",//古埃及战车
@@ -682,7 +859,7 @@
 		"requiredTech": "Archery",
 		"uniques": [
 		"[+15]% Strength <for [Wounded] units>"//受伤的单位+10%力
-		"[+100]% Strength when stacked with [Hippo]"
+		"[+100]% Strength <when stacked with a [Hippo] unit>"
 		"Unit will heal every turn, even if it performs an action"//每回合都会回血
 		"[+10] HP when healing"
 		 ],
@@ -717,6 +894,9 @@
 		"movement": 2,
 		"strength": 12,
 		"cost": 56,
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>"
+		],
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Guilds",
 		"upgradesTo": "Pikeman",
@@ -771,7 +951,8 @@
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
 		"uniques" : [
-		"Can build [all] improvements at a [-50]% rate",
+		"Can build [all] improvements at a [-50]% rate<hidden from users>",
+		"Comment [修建设施的效率-50%]",
 		"Can build [Farm] improvements on tiles",
 		"Can build [Remove Forest] improvements on tiles",
 		"May upgrade to [Spearman] through ruins-like effects"],
@@ -843,9 +1024,9 @@
 		"rangedStrength": 18,
 		"cost": 150,
 		"uniques": [
-		"[2] additional attacks per turn", //可以多a一次
-		"[+80]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
-		"[-150]% Strength <when attacking> <vs [Wounded] units>"//受伤的单位+10%力
+		"[+2] additional attacks per turn", //可以多a一次
+		//"[+80]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
+		"[+50]% Strength <when attacking> <vs [non-[Wounded]] units>"//首刀暴击
 		],
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Rifleman",
@@ -1921,12 +2102,13 @@
 		"uniqueTo": "Baiyin City",//白银城
 		"replaces": "Longswordsman",
 		"unitType": "Sword",
-		"movement": 1,
+		"movement": 2,
 		"strength": 24,
-		"cost": 140,
+		"cost": 130,
 		"uniques": [
-		"Must set up to ranged attack"
-		"Free [Gargoyle-Slumber] appears <upon being defeated>"
+		"Must set up to ranged attack",
+		"Free [Gargoyle-Slumber] appears <upon being defeated>",
+		"[-33]% Strength <when defending>",
 		 ],
 		"requiredTech": "Steel",
 		"requiredResource": "Iron",
@@ -2104,7 +2286,7 @@
 	{
 		"name": "G-Phoenix Guard",//神凰卫队
 		"unitType": "Sword",
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens"//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens"//四天之千神凰
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 13,
@@ -2124,7 +2306,7 @@
 	
 	{
 		"name": "G-Phoenix Guardian",//神凰近卫
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千凰神
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千凰神
 		"replaces": "Warrior",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 2,
@@ -2138,7 +2320,7 @@
 	
 	{
 		"name": "G-Phoenix Bow Team",//神凰弓队
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Archery",
 		"movement": 2,
@@ -2160,7 +2342,7 @@
 	{
 		"name": "G-Phoenix Air Team",//神凰空队
 		"unitType": "Mounted",	
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千凰神
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千凰神
 		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 14,
@@ -2565,29 +2747,31 @@
 		"attackSound": "arrow"
 		"uniques": [
 		"Must set up to ranged attack"//架设
+		"Comment [无法升级为[Composite Bowman]]",
 		],
 		"promotions": ["Extended Range"],//免费晋升
 	},
 	
 	{
 		"name": "Winged Hussar",//翼骑兵
-		"replaces": "Lancer",
+		"replaces": "Lancer",//所代替
 		"uniqueTo": "Poland",//波兰
 		"unitType": "Mounted",
 		"movement": 5,
 		"strength": 28,
 		"cost": 185,
 		"requiredTech": "Metallurgy",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Anti-Tank Gun",
+		"requiredResource": "Horses",
 		"uniques": [
-			"Can move after attacking",
-			"No defensive terrain bonus",
-			"[-33]% Strength <vs cities>",
-			"Consumes [1] [Horses]",
-			"[+50]% to Flank Attack bonuses"
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"Never appears as a Barbarian unit"
+		"[+50]% to Flank Attack bonuses"
 		],
-		"promotions": [ "Shock I", "Formation I"],
+		"promotions": ["Shock I","Formation I"],
+		"upgradesTo": "Anti-Tank Gun",
+		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
 	
@@ -2798,7 +2982,7 @@
          
             "Great Person - [Science]", "Unbuildable", "Uncapturable"],
 		"movement": 4,
-		"replacementTextForUniques":"从中古时代开始，随时代提升战斗力，上限400%\n每次战斗使自身+4%战斗力，持续10回合\n使2格范围内的军事单位+15%战斗力\n攻击时破坏目标地块设施\n仅1次可以建造[Academy]"
+		"replacementTextForUniques":"从中古时代开始，随时代提升战斗力，上限400%\n每次战斗使['AHugeUglyThing']+4%战斗力，持续10回合\n使2格范围内的军事单位+15%战斗力\n攻击时破坏目标地块设施\n仅1次可以建造[Academy]"
 		
 	},
 	
@@ -2822,18 +3006,27 @@
 		"replaces": "Great General",
 		"uniques": ["Can be earned through combat",
 		"[+15]% Strength bonus for [Military] units within [2] tiles",
-	    "Empire enters a [8]-turn Golden Age <by consuming this unit>"
-	    "Instantly provides [1] [UniversalCounter]"
-		"Instantly provides [1] [UniversalCounter]<upon ending a turn in a [All] tile><when below [1] [UniversalCounter]>"
-		"Free [Mon3tr] appears<for [99] movement><when above [0] [UniversalCounter]>"
-		"[This Unit] gains the [Elitism I] promotion<upon ending a turn in a [Land] tile><when above [10] [ElitismCounter]>"
-		"[This Unit] gains the [Elitism II] promotion<upon ending a turn in a [Land] tile><when above [20] [ElitismCounter]>"
-		"[This Unit] gains the [Elitism III] promotion<upon ending a turn in a [Land] tile><when above [40] [ElitismCounter]>"
+	    "Instantly provides [1] [UniversalCounter]<hidden from users>"
+		"Instantly provides [1] [UniversalCounter]<upon ending a turn in a [All] tile><when below [1] [UniversalCounter]><hidden from users>"
+		
+		"[This Unit] gains the [Kal'tsitAbility] promotion<upon turn start><hidden from users>"
+		"[This Unit] loses the [Kal'tsitAbility] promotion<upon turn end><hidden from users>"
+		
+		"Comment [每回合若没有消耗过移动力，可以召唤一次[Mon3tr]]",
+		
+		"[This Unit] gains the [Elitism I] promotion<upon ending a turn in a [Land] tile><when above [10] [ElitismCounter]><hidden from users>"
+		"[This Unit] gains the [Elitism II] promotion<upon ending a turn in a [Land] tile><when above [20] [ElitismCounter]><hidden from users>"
+		"[This Unit] gains the [Elitism III] promotion<upon ending a turn in a [Land] tile><when above [40] [ElitismCounter]><hidden from users>"
+		"Comment [每回合结束积累1点[ElitismCounter],累积到10/20/40及以上时获得对应等级的精英化]",
 			"Great Person - [War]", "Is part of Great Person group [General]",
 			"Is part of Great Person group [General]",
 			"Unbuildable", 
 			"Uncapturable"],
 		"movement": 2
+		"civilopediaText": [{"text":"Mon3tr", "link":"Units/Mon3tr"},
+		{"text":"精英化 I", "link":"Promotions/Elitism I"},
+		{"text":"精英化 II", "link":"Promotions/Elitism II"},
+		{"text":"精英化 III", "link":"Promotions/Elitism III"}]
 	},
 	
 	{
@@ -2996,7 +3189,7 @@
 		"obsoleteTech": "Guilds",
 		"upgradesTo": "Pikeman",
 		"uniques": [
-		"[+30]% Strength<in cities with a [Palace]><in [Enemy Land] tiles>"
+		"[+20]% Strength <while the empire is happy><when fighting in [Enemy Land] tiles>"
 		"[+50]% Strength <vs [Mounted] units>"
 		],
 		"attackSound": "metalhit"
@@ -3114,7 +3307,7 @@
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 3,
-		"cost": 40,
+		"cost": 30,
 		"uniques": [
 		"Transfer Movement to [Military]"
 		"[+10]% Strength bonus for [Military] units within [0] tiles",
@@ -3258,7 +3451,6 @@
 		"Comment [改为[Sword]兵种]",
 		"Can move after attacking",
 		"No defensive terrain bonus",
-		"[-33]% Strength <vs cities> <when attacking>"
 		
 		"[This Unit] gains the [ScarwoodCharge I] promotion<upon turn end><hidden from users>"
 		"[This Unit] loses the [ScarwoodCharge I] promotion<upon turn start><hidden from users>"
@@ -3291,7 +3483,7 @@
 			"Can transform to [Ektilnir·TimbercrackX]<after discovering [Horseback Riding]><hidden from users>"//转化为什么单位
 			"Unbuildable", 
 			"Uncapturable"],
-		"promotions": ["ScarwoodChieftain"],
+		"promotions": ["ScarwoodChieftain I"],
 		"movement": 2
 	},
 	
@@ -3306,7 +3498,7 @@
 		"requiredTech": "Civil Service",
 		"uniques": [
 		"[+50]% Strength <vs [Mounted] units>"
-		"[+100]% maintenance costs<for [This Unit] units>"
+		"[-1 Gold]"
 		],
 		"promotions": ["Spearwall I"],
 		"upgradesTo": "Lancer",
@@ -3314,13 +3506,121 @@
 		"attackSound": "metalhit"
 	},
 	
+	{
+		"name": "RedTag-Eradicator",//红标-根除者
+		"unitType": "Archery",
+		"uniqueTo": "RedTagMercenaryCorps",//红标佣兵团
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"range": 2,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+		"No defensive terrain bonus", 
+		"Rough terrain penalty"
+		
+		"[1] additional attacks per turn"
+		"[This Unit] gains the [RedTag-EradicatorCapacity] promotion <upon damaging a [All] unit><hidden from users>"
+		"[This Unit] loses the [RedTag-EradicatorCapacity] promotion <upon turn end><hidden from users>"
+		"Comment [每次额外攻击必须消耗10[Gold]，[Gold]不足时无法额外攻击]",
+		],
+		"attackSound": "arrow"
+	},
 	
+	{
+        "name":"Pathfinder",//探路者
+        "uniqueTo":"Shoshone",//肖肖尼
+        "replaces": "Scout",
+        "unitType": "Scout",
+        "movement": 2,
+        "strength": 8,
+        "cost": 45,
+        "obsoleteTech": "Scientific Theory",
+        "uniques": [
+            "May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"
+        ],
+        "promotions": ["Ignore terrain cost","IndigenousLanguages"],
+        "attackSound": "nonmetalhit"
+    },
 	
+	{
+        "name": "ComancheRiders",//科曼切骑兵
+		"uniqueTo": "Shoshone",//肖肖尼
+        "unitType": "Mounted",
+        "replaces": "Cavalry",
+        "movement": 5,
+        "strength": 34,
+        "cost": 200,
+        "requiredTech": "Military Science",
+        "obsoleteTech": "Combustion",
+        "requiredResource": "Horses",
+        "upgradesTo": "Landship",
+        "uniques": [
+            "Can move after attacking",
+            "No defensive terrain bonus",
+            "[-33]% Strength <vs cities> <when attacking>",
+            "Never appears as a Barbarian unit"
+        ],
+        "attackSound": "horse"
+    },
 	
+	{
+		"name": "ProteanJoker",//幻型王牌
+		"uniqueTo": "No.200JokerMonarch",//No.200小丑皇
+		"replaces": "Scout",//所代替
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Civil Service"
+		"uniques": [
+		"May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"
+		
+		"Can transform to [TerranautSpade] <when number of [JokerMonarchAbility-Spade] is more than [2]><costs [+10 Production] stats><on [Standard] game speed><hidden from users>"//转化为黑桃单位-标速
+		"Can transform to [MarauderHeart] <when number of [JokerMonarchAbility-Heart] is more than [2]><costs [+20 Production] stats><on [Standard] game speed><hidden from users>"//转化为红心单位
+		"Can transform to [FrightChordClub] <when number of [JokerMonarchAbility-Club] is more than [2]><costs [+20 Production] stats><on [Standard] game speed><hidden from users>"//转化为梅花单位
+		"Can transform to [BloodironDiamond] <when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"//转化为方片单位
+		
+		"Can transform to [TerranautSpade] <when number of [JokerMonarchAbility-Spade] is more than [2]><costs [+7 Production] stats><on [Quick] game speed><hidden from users>"//转化为黑桃单位-标速
+		"Can transform to [MarauderHeart] <when number of [JokerMonarchAbility-Heart] is more than [2]><costs [+13 Production] stats><on [Quick] game speed><hidden from users>"//转化为红心单位
+		"Can transform to [FrightChordClub] <when number of [JokerMonarchAbility-Club] is more than [2]><costs [+13 Production] stats><on [Quick] game speed><hidden from users>"//转化为梅花单位
+		
+		
+		"Comment [当对应的花色点数有3及以上时可以转职为对应单位(转化会自动扣除差距产能)]",
+		"Comment [科技推迟至[Civil Service]]",
+		"Comment [可以由[Spearman][Swordsman][Composite Bowman][Horseman]升级(消耗金钱转化)而来]",
+		],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+		"civilopediaText": [{"text":"[TerranautSpade]：100[Production]]", "link":"Units/TerranautSpade"},
+		{"text":"[MarauderHeart]：110[Production]", "link":"Units/MarauderHeart"},
+		{"text":"[FrightChordClub]：110[Production]", "link":"Units/FrightChordClub"},
+		{"text":"[BloodironDiamond]：90[Production]", "link":"Units/BloodironDiamond"},
+		]
+	},
 	
-	
-	
-	
+	{
+		"name": "Feng",//风
+		"unitType": "Archery",
+		"uniqueTo": "Song",//大松饼
+		"replaces": "Chariot Archer",//所代替
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 48,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
+		"promotions": ["Feng"],
+		"attackSound": "arrow"
+	},
 	
 	
 	

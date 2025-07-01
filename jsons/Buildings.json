@@ -1,4 +1,49 @@
 [   
+
+	////原版建筑/////
+	////原版建筑/////
+	////原版建筑/////
+	////原版建筑/////
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"
+		"Gain control over [Coast] tiles in a [100]-tile radius<for [原始之地] Civilizations><hidden from users>"
+		"Gain control over [Ocean] tiles in a [100]-tile radius<for [原始之地] Civilizations><hidden from users>"
+		"Gain control over [Luxury resource] tiles in a [100]-tile radius<for [测试] Civilizations><hidden from users>"
+		
+		"Gain control over [Land] tiles in a [2]-tile radius<for [原始之地] Civilizations><hidden from users>"
+		]
+	},
+
+	{
+		"name": "Stone Works",//石工坊
+		"happiness": 1,
+		"production": 1,
+		"requiredNearbyImprovedResources": ["Marble", "Stone", "Jade"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": ["Must not be on [Plains]",
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Jade] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"],
+		"requiredTech": "Calendar"
+	},
+	////原版建筑////
+	////原版建筑////
+	////原版建筑////
+	
+
+
+
+
+
     /*模组专属模式开关隐藏建筑*/
     {//启用更多奇观
         "name": "Building.WorldWonder",
@@ -216,6 +261,10 @@
     
     
     /////////////////////伪ub///////////////////////
+	/////////////////////伪ub///////////////////////
+	/////////////////////伪ub///////////////////////
+	/////////////////////伪ub///////////////////////
+	
     {
 		"name": "Roused",//激昂
 		"cost": 0,
@@ -264,7 +313,7 @@
 		"uniques": [
 		//"Limited to [1] per Civilization"
 		"Provides [1] [Black soil]"//黑土
-		"[+1 Gold] from [Hill] tiles [in all cities]",//
+		"[+1 Gold] from [Luxury resource] tiles [in all cities]",//
 		"[+1 Gold] from [All] tiles [in all cities]<in tiles without [Bonus resource]>",//
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 	},
@@ -686,9 +735,10 @@
 		"name": "WarakuChise",//和乐千世
 		"cost": 0,
 		"uniques": [
-		"Unbuildable <when below [1] [WarakuChiseCounter]>", //无法建造
-		"Limited to [1] per Civilization"
+		"Unbuildable <when below [1] [WarakuChiseCounter]><hidden from users>", //无法建造
+		"Limited to [1] per Civilization<hidden from users>"
 		"[-50]% Unhappiness from [Population] [in this city]"
+		"Comment [仅有一位]",
 		
 		],
 	},
@@ -708,24 +758,25 @@
 		"name": "SeedOfLife",//生命之种
 		"cost": 0,
 		"uniques": [
+		"Unsellable"//无法出售
 		"Unbuildable <when below [1] [ElvenKingdomCounter]>", //无法建造
 		"Automatically built in all cities where it is buildable"
 		
 		
 		//城市与森林相邻时//
 		"Provides [1] [EKC.F] <with [1] to [6] neighboring [Forest] tiles>",
-		"[+1 Gold] from [{All} {non-[Bonus resource]} {non-[Luxury resource]} {non-[Strategic resource]}] tiles [in this city]<in tiles adjacent to [Forest]><when above [0] [EKC.F]>",//白地加成
-		"[+1 Food] from [{Jungle} {non-[Bonus resource]} {non-[Luxury resource]} {non-[Strategic resource]}] tiles [in this city]<in tiles adjacent to [Forest]><when above [0] [EKC.F]>",//白地加成
+		"[+1 Gold] from [{non-[Luxury resource]} {non-[Strategic resource]}] tiles [in this city]<in tiles adjacent to [Forest] tiles><when above [0] [EKC.F]>",//白地加成
+		"[+1 Food] from [{Jungle} {non-[Luxury resource]} {non-[Strategic resource]}] tiles [in this city]<in tiles adjacent to [Forest] tiles><when above [0] [EKC.F]>",//白地加成
 		
 		//城市与丛林相邻时//
 		"Provides [1] [EKC.J] <with [1] to [6] neighboring [Jungle] tiles>",
-		"[+1 Gold] from [{All} {non-[Bonus resource]} {non-[Luxury resource]} {non-[Strategic resource]}] tiles [in this city]<in tiles adjacent to [Jungle]><when above [0] [EKC.J]>",//白地加成
-		"[+1 Faith] from [{Forest} {non-[Bonus resource]} {non-[Luxury resource]} {non-[Strategic resource]}] tiles [in this city]<in tiles adjacent to [Jungle]><when above [0] [EKC.J]>",//白地加成
+		"[+1 Gold] from [{non-[Luxury resource]} {non-[Strategic resource]}] tiles [in this city]<in tiles adjacent to [Jungle] tiles><when above [0] [EKC.J]>",//白地加成
+		"[+1 Faith] from [{Forest} {non-[Luxury resource]} {non-[Strategic resource]}] tiles [in this city]<in tiles adjacent to [Jungle] tiles><when above [0] [EKC.J]>",//白地加成
 		
 		//城市与森林丛林同时相邻时//
-		"[+1 Happiness] from [All] tiles [in this city]<in tiles adjacent to [Forest]><in tiles adjacent to [Jungle]><when above [0] [EKC.J]><when above [0] [EKC.F]>",//白地加成
+		"[+1 Happiness] from [All] tiles [in this city]<in tiles adjacent to [Forest] tiles><in tiles adjacent to [Jungle] tiles><when above [0] [EKC.J]><when above [0] [EKC.F]>",//白地加成
 		],
-	    "replacementTextForUniques":"城市与森林相邻时，该城市与森林相邻的非资源地块+1[Gold]，若为丛林地块再额外+1[Food]\n城市与丛林相邻时，该城市与丛林相邻的非资源地块+1[Gold]，若为森林地块再额外+1[Faith]\n当同时与森林和丛林相邻时，该城市同时与森林和丛林相邻的地块+1[Happiness]"
+	    "replacementTextForUniques":"城市与森林相邻时，该城市与森林相邻的非战略/奢侈资源地块+1[Gold]，若为丛林地块再额外+1[Food]\n城市与丛林相邻时，该城市与丛林相邻的非战略/奢侈资源地块+1[Gold]，若为森林地块再额外+1[Faith]\n当同时与森林和丛林相邻时，该城市同时与森林和丛林相邻的地块+1[Happiness]"
 	},
 	
 	
@@ -761,7 +812,7 @@
 		"cost": 10,
 		"isWonder": true,
 		"uniques": [
-		"Unbuildable <when below [1] [pp]>", //无法建
+		"Unbuildable <when below [1] [pp]><hidden from users>", //无法建
 		"[+1]% [Culture] from every [Wonders]"
 		"[+2 Gold] from all [Wonders] buildings"
 		]
@@ -818,6 +869,7 @@
 		"Only available <in cities with a [Compute-Execute]><when number of [[[Military] Units]*10] is equal to [Gold]><when number of [[[Melee] Units]+[[Ranged] Units]] is equal to [([Era number]+2)*2]><hidden from users>",
 		"Provides [1] [Compute-1]<hidden from users>"
 		"Remove [ComputeExplosionLv.1] [in all cities]<upon turn end><when number of [Compute-1] is more than [9]><hidden from users>"
+		"Instantly consumes [10] [Compute-1]<upon turn end><when number of [Compute-1] is more than [9]><hidden from users>"
 		]
 	},
 	
@@ -830,6 +882,7 @@
 		"Only available <in cities with a [Compute-Execute]><when number of [[[Melee] Units]*10+[[Ranged] Units]*20] is equal to [Gold]><when number of [[[Melee] Units]+[[Ranged] Units]] is equal to [([Era number]+[Adopted [All] Policies])*2]><hidden from users>",
 		"Provides [1] [Compute-2]<hidden from users>"
 		"Remove [ComputeExplosionLv.2] [in all cities]<upon turn end><when number of [Compute-2] is more than [9]><hidden from users>"
+		"Instantly consumes [10] [Compute-2]<upon turn end><when number of [Compute-2] is more than [9]><hidden from users>"
 		]
 	},
 	
@@ -840,8 +893,9 @@
 		"Automatically built in all cities where it is buildable"//自动建造
 		"Unsellable"//无法出售
 		"Only available <in cities with a [Compute-Execute]><when number of [[[Melee] Units]%([[Ranged] Units]+1)*50] is equal to [Gold]><when number of [[([Melee] Units]+[[Ranged] Units])*2] is equal to [[Era number]*[Adopted [All] Policies]]><hidden from users>",
-		"Provides [1] [Compute-60]<hidden from users>"
+		"Provides [1] [Compute-3]<hidden from users>"
 		"Remove [ComputeExplosionLv.3] [in all cities]<upon turn end><when number of [Compute-3] is more than [9]><hidden from users>"
+		"Instantly consumes [10] [Compute-3]<upon turn end><when number of [Compute-3] is more than [9]><hidden from users>"
 		]
 	},
 	
@@ -852,13 +906,46 @@
 		"Automatically built in all cities where it is buildable"//自动建造
 		"Unsellable"//无法出售
 		"Only available <in cities with a [Compute-Execute]><when number of [([[Melee] Units]+[[Ranged] Units]+[Era number]+[Adopted [All] Policies])*20] is equal to [Gold]><when number of [[[Melee] Units]*[[Ranged] Units]] is equal to [[Era number]*[Adopted [All] Policies]]><hidden from users>",
-		"Provides [1] [Compute-80]<hidden from users>"
+		"Provides [1] [Compute-4]<hidden from users>"
 		"Remove [ComputeExplosionLv.4] [in all cities]<upon turn end><when number of [Compute-4] is more than [9]><hidden from users>"
+		"Instantly consumes [10] [Compute-4]<upon turn end><when number of [Compute-4] is more than [9]><hidden from users>"
+		]
+	},
+	
+	{
+		"name": "GreatExpanseAbility",//无垠之地能力
+		"cost": 0,
+		"requiredTech": "Special technology",
+		"uniques": [
+		"Unsellable"//无法出售
+		"Gain control over [8] tiles [in this city]<hidden from users>"
+		"Comment [建造城市后立即获得8块领土]",
 		]
 	},
 	
 	
+	
+	{
+		"name": "SunburstAbility",//大日照能力
+		"cost": 0,
+		"requiredTech": "Special technology",
+		"uniques": [
+		"Unsellable"//无法出售
+		"Moves to new capital when capital changes",//首都更变时转移
+		"Comment [只要存在，所有文明在水上移动力变为1]",
+		]
+	},
+	
 	/////////////////////伪ub///////////////////////
+	/////////////////////伪ub///////////////////////
+	/////////////////////伪ub///////////////////////
+	/////////////////////伪ub///////////////////////
+	/////////////////////伪ub///////////////////////
+	/////////////////////伪ub///////////////////////
+	
+	
+	
+	
 	
     ////////////////////原版奇观//////////////////
     
@@ -881,7 +968,7 @@
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-			"[+1 Gold, +1 Production, +1 Food] from [Marble] tiles [in this city]", "[+1 Gold, +1 Production, +1 Food] from [Stone] tiles [in this city]"],
+			"[+1 Gold, +1 Production, +1 Food] from [Marble] tiles [in this city]", "[+1 Gold, +1 Production, +1 Food] from [Stone] tiles [in this city]","[+1 Gold, +1 Production, +1 Food] from [Jade] tiles [in this city]"],
 		"requiredTech": "Masonry",
 		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
 	},
@@ -1114,13 +1201,14 @@
 		"uniqueTo": "Glenn Empire",//格伦帝国
 		"replaces": "Amphitheater",//所代替原版的建筑（如果不想取代可以不写这项）
 		"culture": 3,
+		"happiness": 1,
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"uniques": [
-		"[+1 Faith] per [3] population [in this city]",
-		"[+1 Happiness, +1 Gold, +1 Culture] per [5] population [in this city]",
+		"[+1 Faith, +1 Gold] per [4] population [in this city]",
+		"[+1 Culture] per [6] population [in this city]",
 		"Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
 	},
@@ -1739,7 +1827,7 @@
 		"maintenance": 1,
 		"uniques": [
 		//"Obtaining 1 engineer seat newly added"
-		"[+15 Gold] whenever a Great Person is expended"
+		"Gain [30] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>"
 		"[+1 Food] from every specialist [in this city]"
 		"Destroyed when the city is captured"]
 	},
@@ -1953,6 +2041,7 @@
 		"cost": 1,
 		"uniques": [
 		"All newly-trained [All] units [in this city] receive the [Robbery!] promotion"
+		"Comment [[Robbery!]:击杀单位获得目标战斗力100%的[Gold]，造成伤害的10%转化为[Gold]]",
 	   "[+35]% [Gold]"
 		"Indicates the capital city"]
 	},
@@ -1962,6 +2051,7 @@
 		"uniqueTo": "Millennium Science School - Game Development Department",//千年-游戏开发部
 		"replaces": "Barracks",//所代替
 		"hurryCostModifier": 25,
+		"happiness": 1,
 		"maintenance": 1,
 		"uniques": [
 		"New [Military] units start with [15] XP [in this city]", 
@@ -2133,6 +2223,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Jade] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Calendar"
 	},
@@ -2171,7 +2262,7 @@
 	
 	{
 		"name": "G-Ice Crystal Temple",//G-冰晶神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Shrine",//所代替
 		"faith":1,
 		"culture": 1,
@@ -2183,7 +2274,7 @@
 	},
 	
 	{   "name": "G-Cornerstone Temple",//G-磐石神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens"//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens"//四天之千神凰
 		"replaces": "Stone Works",//所代替
 		"faith":1,
 		"happiness": 2,
@@ -2194,13 +2285,14 @@
 		"uniques": [
 		    "[+1 Production] from [Hill] tiles [in this city]",
 			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Jade] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Calendar"
 	},
 	
 	{
 		"name": "G-Bathing Fire Temple",//G-浴火神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 25,
 		"faith":1,
@@ -2216,7 +2308,7 @@
 	
 	{
 		"name": "G-Sky Temple",//G-岚空神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food":2,
 		"faith":1,
@@ -2234,7 +2326,7 @@
 	
 	{
 		"name": "Four Heavens Temple",//四天神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Palace",//所代替
 		"isNationalWonder": true,
 		"production": 3,
@@ -2260,15 +2352,15 @@
 		"[+1 Faith] from [Cattle] tiles [in this city]",
 			"[+1 Culture] from [Horses] tiles [in this city]",
 			"[+1 Faith] from [Sheep] tiles [in this city]"
-    	"[+1 Food]<when above [7] [Blood Witch Counter - Non Barbarian]><hidden from users>"//杀10人加粮
-    	"[+1 Food]<when above [15] [Blood Witch Counter - Non Barbarian]><hidden from users>"//杀10人加快乐
-    	"[+1 Food]<when above [23] [Blood Witch Counter - Non Barbarian]><hidden from users>"//杀10人加快乐
-    	"[+1 Food]<when above [31] [Blood Witch Counter - Non Barbarian]><hidden from users>"//杀10人加快乐
-			
-		"[+2 Faith]<when above [7] [Blood Witch Counter - Barbarians]><hidden from users>"//杀10人加快乐
-    	"[+2 Faith]<when above [15] [Blood Witch Counter - Barbarians]><hidden from users>"//杀10人加快乐
-    	"[+2 Faith]<when above [23] [Blood Witch Counter - Barbarians]><hidden from users>"//杀10人加快乐
-    	"每击杀8个非蛮族单位获得+1[Food]（上限+4）\n每击杀8个蛮族单位获得+2[Faith]（上限+6）<Suppress warning [validationWarning]>"
+    	"[+1 Food]<when number of [Blood Witch Counter - Non Barbarian] is more than [7]><hidden from users>"//杀10人加粮
+    	"[+1 Food]<when number of [Blood Witch Counter - Non Barbarian] is more than [15]><hidden from users>"//杀10人加快乐
+    	"[+1 Food]<when number of [Blood Witch Counter - Non Barbarian] is more than [23]><hidden from users>"//杀10人加快乐
+    	"[+1 Food]<when number of [Blood Witch Counter - Non Barbarian] is more than [31]><hidden from users>"//杀10人加快乐
+		"Comment [每击杀8个非蛮族单位获得+1[Food]（上限+4）]",
+		"[+2 Faith]<when number of [Blood Witch Counter - Non Barbarian] is more than [7]><hidden from users>"//杀10人加快乐
+    	"[+2 Faith]<when number of [Blood Witch Counter - Non Barbarian] is more than [15]><hidden from users>"//杀10人加快乐
+    	"[+2 Faith]<when number of [Blood Witch Counter - Non Barbarian] is more than [23]><hidden from users>"//杀10人加快乐
+		"Comment [每击杀8个蛮族单位获得+2[Faith]（上限+6）]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"],
 			
 	},
@@ -2461,6 +2553,7 @@
 		"uniques": [
 		"Technology advanced to [Mining]"//科技提前
 		"[+1 Production] from [Stone] tiles [in this city]",
+		"[+1 Production] from [Jade] tiles [in this city]",
 		"[+1 Production] from [Marble] tiles [in this city]"
 		"[+15]% Production when constructing [Land] units [in this city]"
 			],
@@ -2625,17 +2718,18 @@
 		"name": "Senate",//思议院
 		"uniqueTo": "Scieation",//凡尔训
 		"replaces": "Library",//所代替原版的建筑（如果不想取代可以不写这项）
-		"cost":37,
+		"cost":20,
 		"hurryCostModifier": 15,
 		"maintenance": 1,
 		"uniques": [
+		"[+1 Science] per [2] population [in this city]"
 		"[+1 Science] per [2] population [in this city]"
 		],
 		"requiredTech": "Writing"
 	},
 	
 	{
-		"name": "Duke's stable",//公爵马厩
+		"name": "Ducal Stable",//公爵马厩
 		"replaces": "Stable",
 		"uniqueTo": "Poland",//波兰
 		"cost": 75,
@@ -2643,7 +2737,7 @@
 		"requiredNearbyImprovedResources": [ "Horses", "Sheep", "Cattle" ],
 		"hurryCostModifier": 25,
 		"uniques": [
-			"New [Mounted] units start with [15] Experience [in this city]",
+			"New [Mounted] units start with [15] XP [in this city]",
 			"[+15]% Production when constructing [Mounted] units [in this city]",
 			"[+1 Production, +1 Gold] from [Cattle] tiles [in this city]",
 			"[+1 Production, +1 Gold] from [Horses] tiles [in this city]",
@@ -2910,6 +3004,7 @@
 		"hurryCostModifier": 0,
 		"uniques":["Free [Worker] appears","Unsellable"
 		"[+1 Production] from [Stone] tiles [in this city]",
+		"[+1 Production] from [Jade] tiles [in this city]",
 			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Calendar"
 	},
@@ -2942,7 +3037,7 @@
 	{   "name": "TreeOfLife",//生命之树
 		"uniqueTo": "ElvenKingdom",//精灵之国
 		"replaces": "Circus Maximus",
-		"cost": 125,
+		"cost": 80,
 		"happiness": 5,
 		"culture": 1,
 		"isNationalWonder": true,
@@ -2957,7 +3052,8 @@
 	    "name": "LifeBranch",//生命枝丫
 		"uniqueTo": "ElvenKingdom",//精灵之国
 		"replaces": "Colosseum",//所代替
-		"happiness":1,
+		"cost": 60,
+		"happiness":2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
@@ -3059,7 +3155,7 @@
 		"maintenance": 1,
 		"uniques": [
 		"Notified of new Barbarian encampments"
-	    "[-50]% maintenance cost for [all] buildings [in this city] <if [ConcentrationTower] is constructed in all [in all cities] cities>",
+	    "[-50]% maintenance cost for [All] buildings [in this city]<if [ConcentrationTower] is constructed in all [in all cities] cities>",
 		"Destroyed when the city is captured"]
 	},
 	
@@ -3300,9 +3396,9 @@
 		"maintenance": 1,
 		"uniques": [
 		"[+1 Science] per [2] population [in this city]"
-		"[+10]% [Science] [in this city]<when number of [[turns]%10] is between [2] and [8]><hidden from users>"
 		"[+10]% [Science] [in this city]<when number of [[turns]%10] is between [3] and [7]><hidden from users>"
 		"[+10]% [Science] [in this city]<when number of [[turns]%10] is between [4] and [6]><hidden from users>"
+		"[+10]% [Science] [in this city]<when number of [[turns]%10] is between [5] and [5]><hidden from users>"
 		"Comment [如果回合数的个位数为3~7，则+10%[Science]]",
 		"Comment [如果回合数的个位数为4~6，则+20%[Science]]",
 		"Comment [如果回合数的个位数为5~5，则+30%[Science]]",
@@ -3343,11 +3439,71 @@
 		"[+1 Food] from [Bananas] tiles [in this city]",
 		"[+1 Food] from [Wheat] tiles [in this city]",
 		"[+2 Food] [in this city]<for every adjacent [Mountain]>",
-		"May buy [Military] units with [Production] for [1] times their normal Production cost"
+		"[+1 Faith] [in this city]<within [3] tiles of a [Mountain]>",
 			],
 		"requiredTech": "Pottery"
 	},
 	
+	{
+		"name": "RedTag-Hall",//红标-大厅
+		"uniqueTo": "RedTagMercenaryCorps",//红标佣兵团
+		"replaces": "Market",//所代替原版的建筑（如果不想取代可以不写这项）
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"uniques": [
+		"[+1 Gold] from [Bonus resource] tiles [in this city]",//奖金减产出
+		"[+2 Gold] from [Luxury resource] tiles [in this city]",//奖金减产出
+			],//特性具体效果
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
 	
+	{
+		"name": "Cartomancy",//牌意解读
+		"uniqueTo": "No.200JokerMonarch",//No.200小丑皇
+		"replaces": "Amphitheater",//所代替原版的建筑（如果不想取代可以不写这项）
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": [
+		"[+2 Science] [in this city] <when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"//根据点数加成
+		"[+1 Food] [in this city] <when number of [JokerMonarchAbility-Heart] is more than [2]><hidden from users>"//根据点数加成
+		"[+3 Gold] [in this city] <when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"//根据点数加成
+		"[+1 Production] [in this city] <when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"//根据点数加成
+		
+		"Comment [当花色点数在3及以上时：\n♠：+2[Science]\n♥：+1[Food]\n♣：+3[Gold]\n♦：+1[Production]]",
+		
+		"[+1 Science] from [All] tiles [in this city]<in tiles adjacent to [Jungle] tiles><when number of [JokerMonarchAbility-Spade] is more than [4]><hidden from users>",//白地加成
+		"[+1 Faith] [in this city]<for every [1] [[Happiness] Buildings]><when number of [JokerMonarchAbility-Heart] is more than [4]><hidden from users>"
+		
+		"[-50]% maintenance cost for [all] buildings [in all cities]<when number of [JokerMonarchAbility-Club] is more than [4]><hidden from users>"
+		"[-100]% maintenance on road & railroads<when number of [JokerMonarchAbility-Club] is more than [4]><hidden from users>"
+		
+		"[+1 Production] from [Strategic resource] tiles [in this city]<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>",//战略加产出
+		"Comment [当花色点数在5及以上时：\n♠：此城市与[Jungle]相邻的地块+1[Science]\n♥：每有1个[Happiness]建筑此城市+1[Faith]\n♣：建筑维护费与道路维护费-50%\n♦：战略资源地块+1[Production]]",
+		
+		"Destroyed when the city is captured"],
+		"requiredTech": "Drama and Poetry"
+	},
+	
+	{
+		"name": "Ge",//格
+		"uniqueTo": "Song",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city"
+			"Instantly gain [2] [Golden Age points] <upon turn end> <for every [Owned [Farm] Tiles]>"
+			"Instantly gain [2] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>"
+			"Instantly gain [2] [Golden Age points] <upon turn end> <for every [Owned [Camp] Tiles]>"]
+	},
 	
 ]
