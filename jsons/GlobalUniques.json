@@ -1,0 +1,13 @@
+{//全局状态
+   "name": "Global uniques",
+    "uniques": [
+        //"Starts with [AristocracyX] adopted"
+			"[-10] Movement<in [Coast] tiles> <if [SunburstAbility] is constructed by anybody>"
+			"[-10] Movement<in [Ocean] tiles> <if [SunburstAbility] is constructed by anybody>"
+			"[+100]% [Production] [in all cities]<for [City-States] Civilizations>"
+		
+		
+		
+            ]
+          
+}

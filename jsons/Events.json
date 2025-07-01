@@ -1,0 +1,160 @@
+[//事件
+    {
+        "name":"夜观天象 I",//4t
+        "text":"夫占天之道，以谓明苍，制历数，所以行于天。\n纪于阴阳，皆四时之叙，而与天合同。\n是无他道焉，知此则适矣。\n是以察生态之理，以知祸福之类，则可知矣。",
+        "choices":[
+        {
+        "text":"吾观天象，见繁星闪烁，祥云缭绕。心中默念咒语，摇指算筹，得知天命所归，乃有吉兆降临。\n好事将至，福泽绵长，诸事皆宜，万事如意。",
+        "uniques":[
+        "Gain [2] [Culture]","Gain [5] [Culture]<after turn number [40]>",
+		    ],
+        },
+        {
+        "text":"避祸之道，曰：远嫌疑，无得罪于人。知可否之界，临事而断。察天时，明地理，知己知彼，可避祸矣。",
+        "uniques":["Gain [3] [Faith]","[1] free [Scout] units appear<after turn number [20]>","Gain [2] [Faith]<after turn number [40]>",
+            ],
+        }
+        ]
+    }
+    
+    {
+        "name":"夜观天象 II",//16t
+        "text":"夫八卦，乾坤震巽坎离艮兑也。各主一方，掌万物之数。\n观天象，以定吉凶。星辰之行，与卦相符。",
+        "choices":[
+        {
+        "text":"观天象之异，得八卦之妙，趋吉避凶，遇福如神。\n占星辰之变动，识阴阳之转化，顺天应时，福至心灵。",
+        "uniques":[
+        "Gain [20] [Culture]","Gain [65] [Gold]","Gain [300] [Science]<after turn number [80]>","Gain [200] [Gold]<after turn number [80]>",
+		    ],
+        },
+        {
+        "text":"观乾坤之奥，洞星辰之微，以八卦推步天机，可趋吉避凶。\n察天道人事，知进退存亡，故仙家凭卦象，避世之大祸。",
+        "uniques":["[Wounded] units gain the [Heal Instantly] promotion"
+            ],
+        }
+        ]
+    }
+    
+    {
+        "name":"夜观天象 III",//32t
+        "text":"趋吉避凶，算无遗策。吾辈修仙者，亦须借此以参天道，得真悟。天地之间，八卦相荡。星宿明灭，皆有其时。顺乎天时，合乎卦理，可得逍遥于世。",
+        "choices":[
+        {
+        "text":"观乾坤之象，洞悉天机，八卦明吉凶，得遇祥瑞之事。瞻仰星河，察星辰之变易，以八卦推演，趋吉避凶，得以逢迎福祉之缘。",
+        "uniques":[
+        "Gain [65] [Gold]","Gain [200] [Science]","Empire enters a [8]-turn Golden Age<after turn number [120]>"
+		    ],
+        },
+        {
+        "text":"观乾坤之象，洞悉天机。知星宿之行，得趋吉避凶。\n以八卦之智，算尽星辰，可避天地之祸端。",
+        "uniques":["[Wounded] units gain the [Heal Instantly] promotion","[Melee] units gain the [Drill I] promotion","[Ranged] units gain the [Barrage I] promotion","[Melee] units gain the [Drill III] promotion<after turn number [150]>","[Ranged] units gain the [Barrage II] promotion<after turn number [150]>"
+            ],
+        }
+        ]
+    }
+    
+    {
+        "name":"夜观天象 IV",//64t
+        "text":"抉择",
+        "choices":[
+        {
+        "text":"天赐良机",
+        "uniques":[
+        "Empire enters a [12]-turn Golden Age","[1] Free Technologies","[2] Free Technologies<after turn number [180]>"
+		    ],
+        },
+        {
+        "text":"操练兵马",
+        "uniques":["[All] units gain the [Cover II] promotion","[All] units gain the [March] promotion<after turn number [180]>"
+            ],
+        }
+        ]
+    }
+	
+	{
+        "name":"遗迹选择",//遗迹选择
+        "text":"我们发现了......",
+        "choices":[
+        {
+        "text":"discover cultural artifacts",//文化
+        "uniques": ["Gain [20] [Culture] <(modified by game speed)>"],
+        },
+		
+        {
+        "text":"squatters willing to work for you",//工人
+        "uniques": [
+		"Free [Worker] appears<on [Settler] difficulty><hidden from users>"
+		"Free [Worker] appears<on [Chieftain] difficulty><hidden from users>"
+		"Free [Worker] appears<on [Warlord] difficulty><hidden from users>"
+		"Comment [仅在[Warlord]及以下难度：获得1个免费的[Worker]]",
+		],
+        }
+		
+		{
+        "text":"squatters wishing to settle under your rule",//移民
+        "uniques": [
+		"Free [Settler] appears<on [Settler] difficulty><hidden from users>"
+		"Free [Settler] appears<on [Chieftain] difficulty><hidden from users>"
+		"Comment [仅在[Chieftain]及以下难度：获得1个免费的移民]",
+		],
+        }
+		
+		{
+        "text":"your exploring unit receives training",
+        "uniques": ["[This Unit] gains [10] XP<after turn number [10]>"
+		"Comment [在第10回合之后选择才会生效：此单位获得10XP]",
+		]
+        }
+		
+		{
+        "text":"survivors (adds population to a city)",
+        "uniques": ["[+1] population in a random city"],
+        }
+		
+		{
+        "text":"a stash of gold",
+        "uniques": ["Gain [50]-[100] [Gold] <(modified by game speed)>"],
+        }
+		
+		{
+        "text":"discover a lost technology",
+        "uniques": ["[1] free random researchable Tech(s) from the [Ancient era]"],
+        }
+		
+		{
+        "text":"advanced weaponry for your explorer",
+        "uniques": ["[This Unit] upgrades for free including special upgrades"]
+        }
+		
+		{
+        "text":"reveal nearby Barbarian camps",
+        "uniques": ["Reveal up to [All] [Barbarian encampment] within a [10] tile radius"
+		
+		]
+        }
+		
+		{
+        "text":"find a crudely-drawn map",
+        "uniques": [
+		"Reveal up to [7] [All] within a [20] tile radius<hidden from users>"
+		"Reveal up to [6] [All] within a [20] tile radius<with [80]% chance><hidden from users>"
+		"Reveal up to [5] [All] within a [20] tile radius<with [60]% chance><hidden from users>"
+		"Reveal up to [4] [All] within a [20] tile radius<with [40]% chance><hidden from users>"
+		"Reveal up to [3] [All] within a [20] tile radius<with [20]% chance><hidden from users>"
+		"Comment [随机点亮半径20格内的部分地图（7~25格）]",
+		]
+        }
+		
+		{
+        "text":"discover holy symbols",
+        "uniques": ["Gain enough Faith for a Pantheon <before founding a Pantheon> <after turn number [20]>"],
+        }
+		
+		{
+        "text":"an ancient prophecy",
+        "uniques": ["Gain enough Faith for [33]% of a Great Prophet<after founding a Pantheon> <after turn number [20]>", "Unavailable <after generating a Great Prophet>",],
+        }
+		
+        ]
+    }
+]

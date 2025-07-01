@@ -1,0 +1,34 @@
+[
+	{
+		"name":"Scientist",//科学家
+		"science":3,
+		"greatPersonPoints": {"Great Scientist":3},
+		"color": [0,0,255]
+	},
+	{
+		"name":"Merchant",//大商
+		"gold":3,
+		"greatPersonPoints": {"Great Merchant":3},
+		"color": [255,215,0]
+	},
+	{
+		"name":"Artist",//大艺
+		"culture":2,
+		"greatPersonPoints": {"Great Artist":3},
+		"color": [160,32,240]
+	},
+	{
+		"name":"Engineer",//大工
+		"production":2,
+		"greatPersonPoints": {"Great Engineer":3},
+		"color": [139,69,19]
+	}
+	
+	{
+		"name":"Mechanic",//机械师
+		"science":2,
+		"production":1,
+		"greatPersonPoints": {"Millennium Machine Soldier":3},//千年机兵
+		"color": [0,0,255]
+	},
+]

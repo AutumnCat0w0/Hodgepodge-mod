@@ -1,0 +1,49 @@
+[//胜利方式
+    {
+        "name": "宗教",
+        "victoryScreenHeader": "Complete all the spaceship parts\nto win!",
+        "milestones": [
+            "Become the world religion"
+        ],
+       
+        "victoryString":"我们的一个基本需求是相信一个比自己更伟大的，传说之中的存在，祂会带给我们安心，给世界带来安宁，现在……我编不下去了，恭喜你，宗教胜利",
+        "defeatString": "你寄了，人家宗教传满了（x）",
+   },
+   
+   {
+        "name": "Walpurgis Night",//魔女之夜
+        "victoryScreenHeader": "Winning by summoning the witch!",
+        "milestones": ["Build [Walpurgis Night]"],
+        "victoryString": "You win",
+        "defeatString": "A creature called a witch has appeared in the world, and our proud technology has no effect on these monsters... but this is only one of the worlds. Will you win next time?"
+   },
+   
+   
+   {//启用额外世界奇观
+        "name":"Pattern.MoreWonders",
+        "hiddenInVictoryScreen":true,
+        "milestones":["Build [Building.WorldWonder]"]
+    },
+   
+   {//启用强化政策
+        "name":"Pattern.StrongerPolicies",
+        "hiddenInVictoryScreen":true,
+        "milestones":["Build [Building.StrongerPolicies]"]
+   },
+    
+   {//启用暗世界模式
+        "name":"Pattern.DarkWorld",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+        "Build [Building.DarkWorld]"
+        ]
+   },
+   
+   {//启用强大蛮族模式
+        "name":"Pattern.PowerfulBarbarians",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+        "Build [Building.PowerfulBarbarians]"
+        ]
+    },
+]
