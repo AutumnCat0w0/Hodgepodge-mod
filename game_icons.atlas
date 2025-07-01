@@ -1,0 +1,55 @@
+
+game_icons.png
+size: 2048, 512
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+BuildingPortraits/Bing
+  rotate: false
+  xy: 848, 79
+  size: 245, 245
+  orig: 245, 245
+  offset: 0, 0
+  index: -1
+BuildingPortraits/CityOfEnd
+  rotate: false
+  xy: 332, 106
+  size: 250, 218
+  orig: 250, 218
+  offset: 0, 0
+  index: -1
+BuildingPortraits/FinalShadowCrystal
+  rotate: false
+  xy: 4, 4
+  size: 320, 320
+  orig: 320, 320
+  offset: 0, 0
+  index: -1
+BuildingPortraits/HuiyiTemple
+  rotate: false
+  xy: 1101, 124
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+BuildingPortraits/JebelBarkal
+  rotate: false
+  xy: 590, 79
+  size: 250, 245
+  orig: 250, 245
+  offset: 0, 0
+  index: -1
+BuildingPortraits/Mahabodhi Temple
+  rotate: false
+  xy: 1309, 128
+  size: 200, 196
+  orig: 200, 196
+  offset: 0, 0
+  index: -1
+BuildingPortraits/Mohanju Daro Bathhouse
+  rotate: false
+  xy: 1517, 128
+  size: 200, 196
+  orig: 200, 196
+  offset: 0, 0
+  index: -1
