@@ -1,0 +1,2028 @@
+[//晋升
+
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	
+	
+    {
+		"name": "Heal Instantly",//浴火重生
+		"uniques": [
+		"[This Unit] heals [50] HP", 
+		"Doing so will consume this opportunity to choose a Promotion"
+		"[This Unit] loses the [Bloodrot I] promotion<hidden from users>"
+		"[This Unit] loses the [Bloodrot II] promotion<hidden from users>"
+		"[This Unit] loses the [Bloodrot III] promotion<hidden from users>"
+		],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine","Dugtrio","LandSwordWater"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 0,
+        "column": 0
+    },
+	
+	{
+		"name": "Extended Range",//射程拓展 远射
+		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine","LandSwordWater"],
+        "column": 3,
+        "row": 3
+	},
+	{
+		"name": "Indirect Fire",//间隙瞄准 穿障
+		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
+		"uniques": ["Ranged attacks may be performed over obstacles"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","LandSwordWater"],
+        "column": 3,
+        "row": 4
+	},
+	// Water melee水面近战
+	{
+		"name": "Boarding Party I",//接舷
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water","LandSwordWater"],
+        "column": 11,
+        "row": 1
+	},
+	{
+		"name": "Boarding Party II",//接舷
+		"prerequisites": ["Boarding Party I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water","LandSwordWater"],
+        "column": 11,
+        "row": 2
+	},
+	{
+		"name": "Boarding Party III",//接舷
+		"prerequisites": ["Boarding Party II"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water","LandSwordWater"],
+        "column": 11,
+        "row": 3
+	},
+
+	{
+		"name": "Coastal Raider I",//海掠
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water","LandSwordWater"],
+        "column": 12,
+        "row": 1
+	},
+	{
+		"name": "Coastal Raider II",//海掠
+		"prerequisites": ["Coastal Raider I"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water","LandSwordWater"],
+        "column": 12,
+        "row": 2
+	},
+	{
+		"name": "Coastal Raider III",//海掠
+		"prerequisites": ["Coastal Raider II"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Melee Water","LandSwordWater"],
+        "column": 12,
+        "row": 3
+	},
+	{
+		"name": "Landing Party",//抢滩
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Melee Water","LandSwordWater"],
+        "column": 12,
+        "row": 5
+	},
+	// Water Ranged水面远程
+	{
+		"name": "Targeting I",//定位
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water","LandSwordWater"],
+        "column": 13,
+        "row": 1
+	},
+	{
+		"name": "Targeting II",//定位
+		"prerequisites": ["Targeting I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water","LandSwordWater"],
+        "column": 13,
+        "row": 2
+	},
+	{
+		"name": "Targeting III",//定位
+		"prerequisites": ["Targeting II"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Ranged Water","LandSwordWater"],
+        "column": 13,
+        "row": 3
+	},
+	// Mixed Water
+	{
+		"name" : "Supply",//海上补给
+		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Melee Water", "Ranged Water","LandSwordWater"],
+        "column": 16,
+        "row": 4
+	},
+	
+	{
+		"name": "Mobility",//机动能力
+		"prerequisites": ["Shock II","Drill II","Targeting I",
+			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine","LandSwordWater"],
+        "column": 24,
+        "row": 3
+	},
+	{
+		"name": "Sentry",//警戒能力
+		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water","LandSwordWater"],
+        "column": 24,
+        "row": 4
+	},
+	{
+		"name": "Logistics",//后勤补给
+		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
+			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
+		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
+		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter","LandSwordWater"],
+        "column": 24,
+        "row": 5
+	},
+	// Water ranged and air units
+	{
+		"name": "Bombardment I",//轰炸
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber","LandSwordWater"],
+        "column": 26,
+        "row": 1
+	},
+	{
+		"name": "Bombardment II",//轰炸
+		"prerequisites": ["Bombardment I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber","LandSwordWater"],
+        "column": 26,
+        "row": 2
+	},
+	{
+		"name": "Bombardment III",//轰炸
+		"prerequisites": ["Bombardment II"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"unitTypes": ["Ranged Water","Fighter","Bomber","LandSwordWater"],
+        "column": 26,
+        "row": 3
+	},
+	
+	
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+	//////////////////原版晋升//////////////////////
+    
+    {
+		"name": "20XP",
+		"uniques": ["[This Unit] gains [20] XP", "Doing so will consume this opportunity to choose a Promotion"],
+    },
+    
+    {
+        "name": "Dark World",//暗世界
+	 "uniques": [
+	 "No Sight"//无视野
+	 ],
+	},
+	
+    ////MOD兵种晋升树-三地鼠//////
+    {
+		"name": "Grinding claw I",//磨爪1
+		"uniques": ["[+15]% Strength"],
+		"unitTypes": ["Dugtrio"],
+        "column": 50,
+        "row": 1
+	},
+	{
+		"name": "Grinding claw II",//磨爪2
+		"prerequisites": ["Grinding claw I"],
+		"uniques": ["[+15]% Strength"],
+		"unitTypes": ["Dugtrio"],
+        "column": 50,
+        "row": 2
+	},
+	{
+		"name": "Grinding claw III",//磨爪3
+		"prerequisites": ["Grinding claw II"],
+		"uniques": ["[+15]% Strength"],
+		"unitTypes": ["Dugtrio"],
+        "column": 50,
+        "row": 3
+	},
+	
+	{
+		"name": "Burrow",//挖地洞
+		"prerequisites": ["Grinding claw II"],
+		"uniques": [
+		"Invisible to non-adjacent units",//隐身
+		"Ignores terrain cost"//移动1cost
+		],
+		"unitTypes": ["Dugtrio"],
+        "column": 51,
+        "row": 3
+	},
+	
+	////MOD兵种晋升树-毫毛//////
+	{
+    "name": "Body Outside Body",//身外身
+    "uniques": ["Can transform to [The Monkey King]",
+    "[-15]% Strength",
+    ],
+    "unitTypes": ["FineHair"],
+    "column": 52,
+    "row": 1
+    }
+    
+    ////MOD兵种晋升树-凯尔希//////
+    {
+		"name": "Elitism I",//精英化1
+		"uniques": ["[+15]% Strength bonus for [Military] units within [3] tiles",
+		"[+20]% Strength bonus for [Military] units within [2] tiles",
+		],
+		"unitTypes": ["Kal'tsit"],
+        "column": 54,
+        "row": 1
+	},
+	{
+		"name": "Elitism II",//精英化2
+		"prerequisites": ["Elitism I"],
+		"uniques": ["[+15]% Strength bonus for [Military] units within [4] tiles",
+		"[+20]% Strength bonus for [Military] units within [2] tiles",
+		],
+		"unitTypes": ["Kal'tsit"],
+        "column": 54,
+        "row": 2
+	},
+	{
+		"name": "Elitism III",//精英化3
+		"prerequisites": ["Elitism II"],
+		"uniques": ["[+15]% Strength bonus for [Military] units within [4] tiles",
+		"[+30]% Strength bonus for [Military] units within [2] tiles",
+		"[+35]% Strength bonus for [Military] units within [1] tiles",
+		],
+		"unitTypes": ["Kal'tsit"],
+        "column": 54,
+        "row": 3
+	},
+	
+
+    ///////////////
+    
+    {
+	"name": "Heart of the High Mountains",//高山之心
+		"uniques": [
+		"Units ignore terrain costs when moving into any tile with Hills",
+		],
+	},
+
+    {
+	"name": "驻守",
+		"uniques": ["[+10]% Strength<when fighting in [Friendly Land] tiles><when defending>"
+		],
+	},
+	
+	
+	{
+	"name": "Wings of Freedom",//自由之翼
+		"uniques": ["May Paradrop up to [3] tiles from inside friendly territory",
+			"Can pass through impassable tiles"
+			"Ignores Zone of Control"
+			//"[+1] Sight <for [All] units>",//增加视野
+		],
+	},
+	
+	{
+        "name": "雷霆之力",
+	 "uniques": [
+	 "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
+	 ],
+        },
+        
+        
+    {
+	"name": "The Undead Comes",//亡者降临
+		"uniques": [
+		"May capture killed [Military] units",
+		"No damage penalty for wounded units <for [Land] units>"
+		"[This Unit] takes [5] damage<upon ending a turn in a [Land] tile>",
+		"[+5]% Strength<when below [80] HP>"
+		"[+5]% Strength<when below [60] HP>"
+		"[+5]% Strength<when below [40] HP>"
+		"[+5]% Strength<when below [20] HP>"
+		],
+	},
+	
+
+        
+    {
+        "name": "Gold Glory",//黄金荣耀
+	 "uniques": [
+	"[+15]% Strength <during a Golden Age>",
+	]
+	},
+	
+	{
+        "name": "Black coat",//黑色大衣
+	 "uniques": ["Invisible to others"]
+	},
+	
+	{
+        "name": "Elucidator",//阐释者
+	 "uniques": [
+		"[+50]% Strength<vs [Barbarian] units>"
+		"[This Unit] gains [3] XP<upon defeating a [Barbarian] unit>",
+	]
+	},
+	
+	{
+        "name": "Self-healing",//自愈
+	    "uniques": [
+		"[This Unit] heals [15] HP"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Stealth in the forest",//林中潜行
+	 "uniques": [
+	 "Invisible to others<in [Jungle] tiles><during a Golden Age>"
+	 "Invisible to others<in [Forest] tiles><during a Golden Age>"
+	 "Invisible to others<in [Jungle] tiles><with [33]% chance>"
+	 "Invisible to others<in [Forest] tiles><with [33]% chance>"
+	 ]
+	},
+	
+	{
+        "name": "Decadal Trees",//十年树木
+	 "uniques": [
+	 "[This Unit] heals [5] HP<upon ending a turn in a [Forest] tile>"
+	 "[+20]% Strength <in [Forest] tiles>"
+	 "[+20]% Strength <in [Jungle] tiles>"
+	 ]
+	},
+	
+	{
+        "name": "Deep-sea evolution",//深海进化
+	 "uniques": [
+	 //"[+1] Movement <in [Water] tiles>"
+	 //"[This Unit] gains [1] XP<with [33]% chance><upon ending a turn in a [Land] tile>"
+	 "[This Unit] gains [2] XP<upon ending a turn in a [Water] tile>"
+	 ]
+	},
+	
+	{
+        "name": "Deep-sea predation",//深海捕食
+	 "uniques": [
+	 "[This Unit] takes [20] damage<upon ending a turn in a [Desert] tile>",
+	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+	 "[This Unit] gains [3] XP<upon defeating a [All] unit>",
+	 ]
+	},
+	
+	{
+        "name": "共感",
+	 "uniques": [
+	 "All adjacent units heal [10] HP when healing"
+	 "[+9]% Strength <when adjacent to a [Military] unit>"
+	 "[This Unit] heals [10] HP <upon ending a turn in a [Land] tile> <when adjacent to a [Military] unit>",
+	 ]
+	},
+	
+	{
+        "name": "零之眼",
+	 "uniques": [
+	 "[+15]% Strength<vs [Land] units>","[-20]% Strength<vs [Mounted] units>"
+	 ]
+	},
+	
+	{
+        "name": "愈战愈勇",
+	 "uniques": [
+	 "Heals [20] damage if it kills a unit<upon defeating a [All] unit>",
+	 "[This Unit] gains [2] XP<when defending>",
+	 ]
+	},
+	{
+        "name": "战线修筑",
+	 "uniques": [
+	 "[+10]% Strength<when fighting in [突击线] tiles>"
+	 "Can build [突击线] improvements on tiles"
+	 ]
+	},
+	{
+        "name": "量子姿态",
+	 "uniques": [
+	 "[1] XP gained from combat<for [Melee] units>"
+	 "[1] XP gained from combat<for [Ranged] units>"
+	 "No damage penalty for wounded units"
+	 ]
+	},
+	
+	{
+        "name": "Vampire",//吸血鬼
+	 "uniques": [
+	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+	 "[+33]% Strength<vs [Barbarian] units>"
+	 ]
+	},
+	
+	{
+        "name": "Fungal infection",//真菌感染
+	 "uniques": [
+	 "[+1] population in a random city<upon defeating a [Military] unit>"
+	 "[-1] population [in all cities]<upon defeating a [Barbarian] unit>"
+	 ]
+	},
+	
+	{
+        "name": "Lethal Strike",//致命打击
+	    "uniques": [
+	 "[+33]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
+		"[-33]% Strength <when attacking> <vs [Wounded] units>"//受伤的单位+10%力
+	 ]
+	},
+	
+	{
+        "name": "SB up",//SB up
+	    "uniques": [
+		"[+33]% Strength<vs [Barbarian] units>"
+		"Must set up to ranged attack"
+        "[-1] Movement",//移动减少
+        "[This Unit] heals [3] HP <upon ending a turn in a [Land] tile>",
+	 ]
+	},
+	
+	{
+        "name": "Honing",//磨砺
+	    "uniques": [
+		"[This Unit] gains the [Honing-X] promotion<upon defeating a [All] unit>",
+	 ]
+	},
+	
+	{
+        "name": "Honing-X",//磨砺-附属
+	    "uniques": [
+		"[+2]% Strength<for [10] turns>"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Gallop",//疾行
+	    "uniques": [
+		"[This Unit] gains the [Gallop-X] promotion<upon defeating a [All] unit><hidden from users>",
+		"Comment [对单位造成伤害后[Honor Iron Cavalry]单位获得+1移动力（持续3回合，可叠加）]",
+	 ]
+	},
+	
+	{
+        "name": "Gallop-X",//疾行-附属
+	    "uniques": [
+		"[+1] Movement<for [3] turns><for [Honor Iron Cavalry] units>"
+		"Doing so will consume this opportunity to choose a Promotion"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+	 ]
+	},
+	
+	{
+        "name": "Pursuit",//追击
+	    "uniques": [
+		"[This Unit] gains the [Pursuit-X] promotion<upon defeating a [All] unit><hidden from users>",
+		"Comment [击杀单位后[Veteran]单位获得1次额外攻击机会]",
+	 ]
+	},
+	
+	{
+        "name": "Pursuit-X",//追击-X
+	    "uniques": [
+		"[1] additional attacks per turn<for [1] turns><for [Veteran] units>"
+		"Doing so will consume this opportunity to choose a Promotion"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+	 ]
+	},
+	
+	{
+        "name": "Tough",//坚韧
+	    "uniques": [
+	    "[This Unit] heals [10] HP <for [1] movement> <[3] times>"
+		"Comment [可以消耗1移动力回复10HP]",
+	 ]
+	},
+	
+	/*{
+        "name": "Tough-X",//坚韧-附属
+	    "uniques": [
+		"Heal this unit by [10] HP<upon ending a turn in a [Land] tile><for [5] turns>"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},*/
+	
+	{
+        "name": "Damage absorption",//伤害吸收
+	    "uniques": [
+		"[This Unit] gains the [Damage absorption-X] promotion<upon losing at least [10] HP in a single attack><hidden from users>",
+		"Comment [单次战斗损失10以上HP时，回复5HP，获得2XP]",
+	 ]
+	},
+	
+	{
+        "name": "Damage absorption-X",//伤害吸收-附属
+	    "uniques": [
+		"[This Unit] heals [5] HP"
+		"[This Unit] gains [2] XP"
+		"Doing so will consume this opportunity to choose a Promotion"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+	 ]
+	},
+	
+	{
+        "name": "Corvee I",//劳役
+	    "uniques": [
+	    "[This Unit] gains the [Corvee II] promotion<for [0] movement><[2] times>"
+	 ]
+	},
+	
+	{
+        "name": "Corvee+ I",//劳役
+	    "uniques": [
+	    "[This Unit] gains the [Corvee+ II] promotion<for [0] movement><[2] times>"
+	 ]
+	},
+	
+	{
+        "name": "Corvee II",//劳役
+	    "uniques": [
+	    "[-90]% construction time for [All] improvements"
+	    "[This Unit] loses the [Corvee II] promotion<upon turn end><hidden from users>"
+		"Comment [回合结束时自动删除]",
+	 ]
+	},
+	
+	{
+        "name": "Corvee+ II",//劳役
+	    "uniques": [
+	    "[-100]% construction time for [All] improvements <for [1] turns>"
+	    "[This Unit] loses the [Corvee+ II] promotion<upon turn end><hidden from users>"
+		"Comment [回合结束时自动删除]",
+	 ]
+	},
+	
+	{
+        "name": "X Corps",//X军团
+	    "uniques": [
+	    "[This Unit] gains the [X Corps-X] promotion<for [0] movement><[1] times>"
+		"Comment [仅一次，让[Ranged]单位+1移动力（持续2回合）]",
+	 ]
+	},
+	
+	{
+        "name": "X Corps-X",//X军团-附属
+	    "uniques": [
+		"[+1] Movement<for [2] turns><for [Ranged] units>"
+		"Doing so will consume this opportunity to choose a Promotion"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+	 ]
+	},
+	
+	{
+        "name": "Bullet Screen Evasion Expert",//弹幕躲避高手
+	    "uniques": [
+	    "[+20]% Strength<when defending><for units with [Accuracy I]>"
+	    "[+20]% Strength<when defending><for units with [Accuracy II]>"
+	    "[+20]% Strength<when defending><for units with [Accuracy III]>"
+	    "[+20]% Strength<when defending><for units with [Barrage I]>"
+	    "[+20]% Strength<when defending><for units with [Barrage II]>"
+	    "[+20]% Strength<when defending><for units with [Barrage III]>"
+	 ]
+	},
+	
+	/*{
+        "name": "Hedgehog",//刺猬
+	    "uniques": [
+		"Deals 5 damage to enemies attacking our unit and loses 2XP"//无效文本
+		"Hedgehog"
+	 ]
+	},*/
+	
+	{
+        "name": "The Power of Unity",//统合之力
+	    "uniques": [
+	    "[+15]% Strength<when above [1] [Race Chess]><when fighting units from a Civilization with more Cities than you>"//打多城加力
+		"[+15]% Strength <in [Forest] tiles> <when above [2] [Race Chess]>"//森林加力
+		
+		"[+1] Movement <for [Melee] units> <in [Open terrain] tiles> <when above [4] [Race Chess]>"//加移动
+		
+		"[0] Movement point cost to disembark<when above [6] [Race Chess]>"
+		"May attack when embarked<when above [6] [Race Chess]>"
+		"[This Unit] gains the [Pseudocode - Heavenly Strike] promotion<for [0] movement> <when above [7] [Race Chess]> "
+		
+	 ]
+	},
+	
+	{
+        "name": "Pseudocode - Heavenly Strike",//伪典-天击
+	    "uniques": [
+	    "Free [Pseudocode - Heavenly Strike] appears<when above [7] [Race Chess]>"
+	    "Instantly consumes [4] [Race Chess]<when above [7] [Race Chess]>"
+	    "Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "The Power of Heroes",//英杰之力
+	    "uniques": [
+	    "[This Unit] gains the [Mipha's Prayer I] promotion <for [0] movement> <[1] times> <when number of [Hero Counter] is equal to [1]>"//米法晋升
+	    
+		"[This Unit] gains the [Urbosa's Anger I] promotion <for [0] movement> <[1] times> <when number of [Hero Counter] is equal to [2]>"//乌尔波扎晋升
+		
+	    "[This Unit] gains the [Daruk's Guardian I] promotion <for [0] movement> <[1] times> <when number of [Hero Counter] is equal to [4]>"//达尔克尔晋升
+	    
+	    "[This Unit] gains the [Revali's Courage I] promotion <for [0] movement> <[1] times> <when number of [Hero Counter] is equal to [5]>"//力巴尔晋升
+	    
+	    
+	    
+		
+		//"Heal this unit by [5] HP<upon losing at least [1] HP in a single attack><when above [0] [Hero Counter]><when below [2] [Hero Counter]>"
+		
+		
+	 ]
+	},
+	
+	{
+        "name": "Mipha's Prayer I",//米法的祝福
+	    "uniques": [
+		"[This Unit] gains the [Mipha's Prayer II] promotion <for [0] movement>"//米法晋升
+		"[This Unit] loses the [The Power of Heroes] promotion<hidden from users>",//删除选择机会
+	 ]
+	},
+	
+	{
+        "name": "Mipha's Prayer II",//米法的祝福
+	    "uniques": [
+		"[This Unit] heals [25] HP"
+	 ]
+	},
+	
+	{
+        "name": "Urbosa's Anger I",//乌尔波扎的愤怒
+	    "uniques": [
+		"[+5]% Strength <during the [Ancient era]>",
+		"[+8]% Strength <during the [Classical era]>",
+		"[+11]% Strength <during the [Medieval era]>",
+		"[+14]% Strength <during the [Renaissance era]>",
+		"[+17]% Strength <during the [Industrial era]>",
+		"[+20]% Strength <starting from the [Modern era]>",
+		"[This Unit] loses the [The Power of Heroes] promotion<hidden from users>",//删除选择机会
+	 ]
+	},
+	
+	/*{
+        "name": "Urbosa's Anger II",//乌尔波扎的愤怒
+	    "uniques": [
+		"[+5]% Strength <during the [Ancient era]>",
+		"[+8]% Strength <during the [Classical era]>",
+		"[+11]% Strength <during the [Medieval era]>",
+		"[+14]% Strength <during the [Renaissance era]>",
+		"[+17]% Strength <during the [Industrial era]>",
+		"[+20]% Strength <starting from the [Modern era]>",
+	 ]
+	},*/
+	
+	{
+        "name": "Daruk's Guardian I",//达尔克尔的守护
+	    "uniques": [
+		"[+15]% Strength <when defending>"
+		"[This Unit] gains the [Daruk's Guardian II] promotion <for [0] movement>"//达尔克尔晋升
+		"[This Unit] loses the [The Power of Heroes] promotion<hidden from users>",//删除选择机会
+	 ]
+	},
+	
+	{
+        "name": "Daruk's Guardian II",//达尔克尔的守护
+	    "uniques": [
+		"[+100]% Strength<when defending><for [1] turns>"
+	 ]
+	},
+	
+	{
+        "name": "Revali's Courage I",//力巴尔的勇猛
+	    "uniques": [
+		"May Paradrop up to [4] tiles from inside friendly territory"
+		"[This Unit] loses the [The Power of Heroes] promotion<hidden from users>",//删除选择机会
+	 ]
+	},
+	
+	/*{
+        "name": "Revali's Courage II",//力巴尔的勇猛
+	    "uniques": [
+		"May Paradrop up to [4] tiles from inside friendly territory"
+	 ]
+	},*/
+	
+	{
+        "name": "Switch Heroes",//切换英雄
+	    "uniques": [
+		"Instantly provides [1] [Hero Counter]<for [0] movement><when number of [Hero Counter] is less than [5]>"//拿棋
+		"Instantly consumes [1] [Hero Counter]<for [0] movement><when number of [Hero Counter] is more than [1]>"//扣棋
+
+	 ]
+	},
+	
+	{
+        "name": "Burning Magic I",//燃烧魔力
+	    "uniques": [
+		"[This Unit] gains the [Burning Magic II] promotion <for [0] movement>"//烧！
+		"Instantly consumes [1] [Magic power]<upon ending a turn in a [All] tile> <when at war>"//每回合减资源-战争时
+		"Instantly consumes [1] [Magic power]<upon ending a turn in a [All] tile> <when not at war> <with [10]% chance>"//每回合减资源-非战争时
+		"Instantly provides [3] [Magic power]<upon defeating a [All] unit>"//杀人拿资源
+		"Instantly provides [1] [Demon Night Counter]<upon defeating a [All] unit>"//杀人拿资源2
+	 ]
+	},
+	
+	{
+        "name": "Burning Magic II",//燃烧魔力
+	    "uniques": [
+		"[This Unit] gains the [Burning Magic III] promotion<when above [50] [Magic power]>"//烧
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Burning Magic III",//燃烧魔力
+	    "uniques": [
+		"[+10]% Strength<for [1] turns>"
+		"Instantly consumes [5] [Magic power]"//减资源
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Sacrifice",//牺牲
+	    "uniques": [
+		"Instantly provides [10] [Magic power]<by consuming this unit><hidden from users>"//拿资源
+	 ]
+	},
+	
+	{
+        "name": "Sandman I",//沙兵
+	    "uniques": [
+	    "[This Unit] gains the [Sandman II] promotion<upon being promoted>"//沙地检测
+		"Comment [在沙漠地块获得晋升时回复该单位25HP]",
+		
+	 ]
+	},
+	
+	{
+        "name": "Sandman II",//沙兵
+	    "uniques": [
+		"[This Unit] heals [25] HP <in [Desert] tiles>"
+		"Doing so will consume this opportunity to choose a Promotion"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+	 ]
+	},
+	
+	{
+        "name": "Ascender",//飞升者
+	    "uniques": [
+	    "[+25]% Strength"
+		"[+1] Movement"//移动
+		"Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+		"[+50]% XP gained from combat"
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
+	 ]
+	},
+	
+	{
+        "name": "Robbery!",//打劫！
+	 "uniques": [
+	 "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
+		"Earn [10]% of the damage done to [All] units as [Gold]"//伤害转化钱
+	 ]
+	},
+    
+    
+    {
+        "name": "Developer Effect Peach",//开发者协同效应：桃
+	 "uniques": [
+	 "[This Unit] gains [1] XP<with [33]% chance><upon ending a turn in a [Land] tile>"
+	 "[+7]% Strength<for units with [Developer Effect Green]>"
+	 ]
+	},
+	
+	{
+        "name": "Developer Effect Green",//开发者协同效应：绿
+	 "uniques": [
+	 "[This Unit] heals [2] HP <upon ending a turn in a [Land] tile>"
+	 "[This Unit] heals [3] HP <upon ending a turn in a [Land] tile> <for units with [Developer Effect Peach]>"
+	 ]
+	},
+	
+	{
+        "name": "Offensive mode",//进攻模式
+	 "uniques": [
+	 "[+80]% Strength<when attacking>"
+	 "[+40]% Strength<when defending>"
+	 "[3] XP gained from combat"
+	 ]
+	},
+	
+	{
+        "name": "Defense Mode",//防御模式
+	 "uniques": [
+	 "[+40]% Strength<when attacking>"
+	 "[+80]% Strength<when defending>"
+	 "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile>"
+	 ]
+	},
+	
+	{
+	"name": "Undead",//不死者
+		"uniques": [
+		"May capture killed [Military] units",
+		"No damage penalty for wounded units <for [Land] units>"
+		"[This Unit] takes [5] damage<upon ending a turn in a [All] tile>"
+		"[+10]% Strength<when below [80] HP>"
+		"[+10]% Strength<when below [60] HP>"
+		"[+10]% Strength<when below [40] HP>"
+		"[+10]% Strength<when below [20] HP>"
+		],
+	},
+	
+	{
+	"name": "Magic Control I",//魔力掌控
+		"uniques": [
+		"Instantly provides [1] [Magic power]"//单位拿魔力
+		//"Instantly provides [1] [Magic power]<upon losing at least [1] HP in a single attack>"//打架拿魔力
+		"Instantly provides [3] [Magic power]<upon defeating a [Wounded] unit>"//击杀拿魔力
+		
+		],
+	},
+	
+	{
+	"name": "Magic Control II",//魔力掌控
+		"uniques": [
+		"Instantly provides [4] [Magic power]<upon ending a turn in a [All] tile>"
+		],
+	},
+	
+	{
+	"name": "King",//王者
+		"uniques": [
+		"Founds a new city"
+		],
+	},
+	
+	{
+        "name": "Awakening Gargoyle",//觉醒石像鬼
+	    "uniques": [
+		"[This Unit] heals [50] HP"
+	 ]
+	},
+	
+	{
+        "name": "Energy replenishment",//能源补充
+	    "uniques": [
+		"[+15]% Strength decreasing with distance from the capital"
+		"Double movement in [All]<in [Friendly Land] tiles>"
+	 ]
+	},
+	
+	{
+        "name": "Puppet recasting",//傀儡重铸
+	    "uniques": [
+		"[This Unit] heals [65] HP"
+		"[+25]% Strength decreasing with distance from the capital"
+		"Consumes [2] [Iron]"
+	 ]
+	},
+	
+	{
+        "name": "Knight's Code",//骑士守则
+	 "uniques": [
+	 "[2] XP gained from combat"
+	 ]
+	},
+	
+	{
+        "name": "God's Hunt I",//神狩
+	 "uniques": [
+		"Gain [-4] [Culture]<upon defeating a [All] unit>"
+		"Gain [-8] [Science]<upon defeating a [All] unit>"
+		"Earn [200]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
+		"[+100]% Strength<vs [Barbarian] units>"
+	 ]
+	},
+	
+	{
+        "name": "God's Hunt II",//神狩
+	 "uniques": [
+		"Free [Hunter] appears<upon defeating a [Barbarian] unit>"
+	 ]
+	},
+	
+	{
+        "name": "Rock toughness",//岩韧
+	    "uniques": [
+		"[This Unit] gains the [Rock toughness-X] promotion<upon losing at least [1] HP in a single attack>",
+	 ]
+	},
+	
+	{
+        "name": "Rock toughness-X",//岩韧-附属
+	 "uniques": [
+	 	"[This Unit] gains [1] XP"
+	 	"[This Unit] heals [2] HP"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Solid Rock",//坚岩
+	 "uniques": [
+	 "[+100]% Strength<vs [Spearman] units>"
+		"[+100]% Strength<vs [Pikeman] units>"
+	 ]
+	},
+	
+	{
+        "name": "Flame of Life",//生命燃焰
+	    "uniques": [
+		"Free [Ash] appears <upon being defeated>"
+	 ]
+	},
+	
+	{
+	"name": "Terror",//恐怖 血巫
+		"uniques": [
+		"Instantly provides [1] [Blood Witch Counter - Non Barbarian]<upon defeating a [non-[Barbarian]] unit><hidden from users>"//击杀拿
+		"Instantly provides [1] [Blood Witch Counter - Barbarians]<upon defeating a [Barbarian] unit><hidden from users>"//击杀拿
+		
+		"[+50]% Strength<vs [Barbarian] units> <when number of [Blood Witch Counter - Barbarians] is between [8] and [15]><hidden from users>"//杀10人加对蛮族战力
+		"[+100]% Strength<vs [Barbarian] units> <when number of [Blood Witch Counter - Barbarians] is between [16] and [23]><hidden from users>"//杀10人加对蛮族战力
+		"[+150]% Strength<when number of [Blood Witch Counter - Barbarians] is between [24] and [31]><hidden from users>"//杀10人加对蛮族战力
+		"[+200]% Strength<vs [Barbarian] units> <when number of [Blood Witch Counter - Barbarians] is more than [31]><hidden from users>"//杀10人加对蛮族战力
+		
+		"[+5]% Strength <when number of [Blood Witch Counter - Barbarians] is between [8] and [15]><hidden from users>"//杀10人加战力
+		"[+10]% Strength <when number of [Blood Witch Counter - Barbarians] is between [16] and [23]><hidden from users>"//杀10人加战力
+		"[+15]% Strength <when number of [Blood Witch Counter - Barbarians] is between [24] and [31]><hidden from users>"//杀10人加战力
+		
+		"Comment [每击杀8个蛮族单位使单位+5%战斗力(上限15%)]",
+		"Comment [每击杀8个蛮族单位使单位与蛮族作战时额外获得+50%战斗力(上限200%)]",
+		],
+	},
+	
+	{
+        "name": "Solo",//独奏
+	    "uniques": [
+		"Free [Performer] appears<for [1] movement> <by consuming this unit> <when above [0] [奏者计数器]>"//转化为什么单位
+	
+	 ]
+	},
+	
+	{
+        "name": "Concerted",//协奏
+	    "uniques": [
+		"Invisible to non-adjacent units <when above [0] [律动计数器]>"//计数器高于0（激昂）
+		//"[+15]% Strength<when defending> <when below [0] [律动计数器]>"//计数器低于0（沉沦）
+		
+	 ]
+	},
+	
+	{
+        "name": "Blood Shadow I",//血影 I
+	    "uniques": [
+		"Reveal up to [1] [City center] within a [50] tile radius<for [1] movement>"//探测城市
+	    "[+33]% Strength <when attacking> <vs [non-[Wounded]] units>"//首刀暴击
+		//"[-33]% Strength <when attacking> <vs [Wounded] units>"//首刀暴击
+		//"[+100]% Strength<vs [Barbarian] units>"//对蛮族战力
+	 ]
+	},
+	
+	{
+        "name": "Blood Shadow II",//血影 II
+	    "uniques": [
+	    "[+64]% Strength <when attacking> <vs [non-[Wounded]] units>"//首刀暴击
+		//"[-64]% Strength <when attacking> <vs [Wounded] units>"//首刀暴击
+	 ]
+	},
+	
+	{
+        "name": "Track paving",//赛道铺展
+	    "uniques": [
+	    "Can instantly construct a [Road] improvement <for [1] movement><[2] times>",
+	 ]
+	},
+	
+	{
+        "name": "Deep Ones",//深潜者
+	 "uniques": [
+	 //"Invisible to non-adjacent units<in [Water] tiles>"//隐身
+	 "[+100]% Strength <when defending> <when [Embarked]> <hidden from users>"//船运正常防
+	 "May attack when embarked<hidden from users>"//船运可攻击
+	 "Eliminates combat penalty for attacking across a coast<hidden from users>"//消除跨海攻击影响
+	 "Comment [船运状态不降低防御，并且可以正常攻击]",
+	 "Double movement in [Coast]<in [Water] tiles><hidden from users>"
+	 "Double movement in [Ocean]<in [Water] tiles><hidden from users>"
+	 "Double movement in [Fresh Water]<hidden from users>",
+	 "Comment [在水上/淡水地块中拥有双倍移动力]",
+	 "[+1] Sight <in [Water] tiles> <for [Land] units>",//增加视野
+	 "[This Unit] gains the [Dive] promotion<upon entering a [Water] tile><hidden from users>"
+	 "Comment [登陆时获得1移动力]",
+	 ]
+	},
+	
+		{
+        "name": "Dive",//潜水
+	    "uniques": [
+		"[This Unit] gains the [SurpriseAttack] promotion<upon entering a [Land] tile><hidden from users>"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+	 ]
+	},
+	
+	{
+        "name": "SurpriseAttack",//突袭
+	    "uniques": [
+		"Doing so will consume this opportunity to choose a Promotion<hidden from users>",
+		"[This Unit] gains [1] movement<hidden from users>",
+		"[1] Movement<for [1] turns><hidden from users>",
+		"[This Unit] loses the [Dive] promotion<hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+	 ]
+	},
+	
+	{
+        "name": "Bully the weak and fear the strong",//欺软怕硬
+	    "uniques": [
+	    "Instantly provides [1] [Goblin Counter]<upon ending a turn in a [All] tile> <when below [36] [Goblin Counter]>"//每回合拿计数器
+		"Instantly consumes [3] [Goblin Counter]<upon being defeated> <when above [0] [Goblin Counter]>"//死亡掉资源
+		"[+10]% Strength <when above [24] [Goblin Counter]>"//计数器加战力
+		"[-10]% Strength <when below [13] [Goblin Counter]>"//计数器减战力
+	 ]
+	},
+	
+	{
+	"name": "Mountain ethnic groups",//山地民族
+		"uniques": [
+			"Can pass through impassable tiles"
+			"Double movement in [Mountain]"
+			"Double movement in [Hill]"
+			"[+10]% Strength <in [Mountain] tiles>"
+		],
+	},
+	
+	{
+	"name": "The Glory of Knights",//骑士的荣耀
+		"uniques": [
+		"[+10]% Strength<when defending><when adjacent to a [All] unit><when above [0] [Knight's Oath]>"
+		"[This Unit] heals [5] HP <when adjacent to a [All] unit> <when above [0] [Knight's Oath]>",
+		],
+	},
+	
+	{
+	"name": "The Light of Shelter",//庇护之光
+		"uniques": [
+		"[This Unit] heals [4] HP <upon ending a turn in a [All] tile>",
+		"[+25]% XP gained from combat"
+		"Withdraws before melee combat <with [100]% chance> <for [Civilian] units>"
+		],
+	},
+	
+	{
+        "name": "Combat encouragementr",//战斗鼓舞
+	    "uniques": [
+	    "[+40]% XP gained from combat"
+	 ]
+	},
+	
+	{
+        "name": "Fireworks Protection",//薪火守护
+        "uniques":[
+        "[This Unit] heals [3] HP <upon ending a turn in a [Land] tile>"
+        "When defeating a [Barbarians] unit, earn [-10] Gold and recruit it",
+        "[+50]% Strength <vs [Barbarians] units>"]
+    },
+    
+    {
+       "name": "Leader's will",//领袖意志
+       "uniques":[
+       "[+1] Movement",
+       "[+15]% Strength",
+       "Can transform to [Spark Keeper]",//转化
+       ]
+    },
+    
+    {
+        "name": "G",//G
+	    "uniques": [
+	    "Gain [10] [Gold]<upon ending a turn in a [All] tile>"
+	 ]
+	},
+	
+	{
+        "name": "Midnight Carnival",//午夜狂欢
+	    "uniques": [
+	    //"[-10]% Strength<when below [13] [Magic power]>",//白天减力
+	    //"[+15]% Strength<when above [19] [Magic power]>"
+		"[+1] Movement<when above [19] [Magic power]>"//移动
+		//"Invisible to non-adjacent units<when above [19] [Magic power]>"
+		"[-50]% construction time for [All] improvements <when above [19] [Magic power]>"
+	 ]
+	},
+	
+	{
+        "name": "The Light of Justice I",//正义之光
+	    "uniques": [
+		"[This Unit] gains the [The Light of Justice II] promotion <for [0] movement><hidden from users>"//烧！
+		"Comment [在[Renaissance era]以及之前可以消耗信仰获取+10%战斗力提升（所需[Faith]随时代提升，从远古时代开始：25/50/100/150）]",
+	 ]
+	},
+	
+	{
+        "name": "The Light of Justice II",//正义之光
+	    "uniques": [
+		"[This Unit] gains the [The Light of Justice III] promotion<when above [25] [Faith]><during the [Ancient era]>"//烧
+		"[This Unit] gains the [The Light of Justice III] promotion<when above [50] [Faith]><during the [Classical era]>"//烧
+		"[This Unit] gains the [The Light of Justice III] promotion<when above [100] [Faith]><during the [Medieval era]>"//烧
+		"[This Unit] gains the [The Light of Justice III] promotion<when above [150] [Faith]><during the [Renaissance era]>"//烧
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "The Light of Justice III",//正义之光
+	    "uniques": [
+		"[+10]% Strength<for [2] turns>"
+		"Gain [-25] [Faith]<during the [Ancient era]>"//减资源
+		"Gain [-50] [Faith]<during the [Classical era]>"//减资源
+		"Gain [-100] [Faith]<during the [Medieval era]>"//减资源
+		"Gain [-150] [Faith]<during the [Renaissance era]>"//减资源
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+        "name": "Seaman",//海人
+	    "uniques": [
+	    "[+100]% Strength <when defending> <when [Embarked]>"//船运正常防
+	    "May attack when embarked"//船运可攻击
+	    "[+1] Sight <in [Water] tiles> <for [Land] units>",//增加视野
+	 ]
+	},
+	
+	{
+    "name": "Stubborn monkey",//顽猴
+        "uniques": [
+        "All tiles cost 1 movement",
+    ]
+  },
+  {
+        "name": "The Monkey King",//齐天大圣
+        "uniques": [
+        "[+30]% Strength",
+        "[+1] Movement",
+        "[+1] Movement<for units without [Body Outside Body]>",
+        "[2] free [FineHair] units appear <upon being defeated><for units without [Body Outside Body]>",
+        //"May travel on Water tiles without embarking",
+        "[1] additional attacks per turn"
+        "No damage penalty for wounded units"
+    ]
+  },
+  
+  {
+        "name": "Furious Axe",//狂暴之斧
+	    "uniques": [
+	    "[+15]% Strength"
+		"[+1] Movement"//移动
+		"[+50]% XP gained from combat"
+	 ]
+	},
+
+	
+	{
+        "name": "RoaringChainsaw",//轰鸣链锯
+	    "uniques": [
+		"[+4]% Strength<for [10] turns><for ['AHugeUglyThing'] units><hidden from users>"
+		"Doing so will consume this opportunity to choose a Promotion<hidden from users>"
+		"Comment [每次战斗使['AHugeUglyThing']+4%战斗力]",
+	 ]
+	},
+	
+	{
+        "name": "Crusades",//十字军
+	    "uniques": [
+	    //"Can Spread Religion<for [0] movement> <[1] times>"
+	    "[+15]% Strength<when adjacent to a [ArmoredHorseTeam] unit><hidden from users>"
+	 ]
+	},
+	
+	/*{
+        "name": "Labourer I",//劳工 I
+	    "uniques": [
+	   	"[This Unit] gains the [Labourer II] promotion<for [0] movement> <[1] times>"
+	 ]
+	},
+	
+	{
+        "name": "Labourer II",//劳工II
+	    "uniques": [
+	   	"Instantly provides [2] [AcceleratingWonders]"
+	 ]
+	},*/
+	
+	{
+	"name": "AccompanyingMedicalCare",//随行医疗
+		"uniques": [
+		"All adjacent units heal [10] HP when healing<when above [0] [MedicalStaff]>"
+	    "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile> <when above [0] [MedicalStaff]>",
+		],
+	},
+	
+	{
+        "name": "SummonedMon3tr",//召唤Mon3tr 召唤M3
+		"unitTypes": ["Kal'tsit"],
+	    "uniques": [
+		"Free [Mon3tr] appears"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	},
+	
+	{
+		"name": "NavalSupport",//海军支援
+		"uniques": ["[+100]% Strength <when defending> <when [Embarked]>",
+		"[+15]% Strength <when above [99] HP>"
+      ]
+	},
+  
+	{
+	"name": "Seduce",//诱惑-雪之魅魔
+		"uniques": [
+		"May capture killed [All] units<with [25]% chance><every [2] turns>",
+		],
+	},
+	
+	{
+	"name": "CaptureLandscapes",//绘山河-星之制图师
+		"uniques": [
+		"Gain [1] [Gold]<upon discovering a [All] tile><hidden from users>"
+		"Gain [-1] [Gold]<upon discovering a [Hill] tile><hidden from users>"
+		"Comment [发现[Hill]以外的地块时+1[Gold]]",
+		
+		"Gain [1] [Culture]<upon discovering a [River] tile><hidden from users>"
+		"Gain [-2] [Gold]<upon discovering a [River] tile><hidden from users>"
+		"Comment [发现[River]地块时改为-1[Gold]+1[Culture]]",
+		
+		"Gain [3] [Science]<upon discovering a [Mountain] tile><hidden from users>"
+		"Gain [-5] [Gold]<upon discovering a [Mountain] tile><hidden from users>"
+		"Comment [发现[Mountain]地块时改为-4[Gold]+3[Culture]]",
+		"Instantly provides [1] [HeuristicValue]<upon discovering a [All] tile>"
+		],
+	},
+	
+	{
+	"name": "MoveMountain",//山行-山河社稷
+		"uniques": [
+		"Turn this tile into a [Mountain] tile<[1] times><for [0] movement><if it hasn't used other actions yet>"
+		"Turn this tile into a [Hill] tile<[1] times><for [0] movement><if it hasn't used other actions yet>"
+		],
+	},
+	
+	{
+	"name": "SummoningForest",//昭林-山河社稷
+		"uniques": [
+		"Turn this tile into a [Forest] tile<[1] times><for [1] movement><if it hasn't used other actions yet>"
+		"Turn this tile into a [Jungle] tile<[1] times><for [1] movement><if it hasn't used other actions yet>"
+		],
+	},
+	
+	{
+    "name": "March10th",//三月十日-樱花国
+    "uniques": [
+     "[This Unit] gains the [ExtremeMission] promotion <once> <for [0] movement>"
+	 "Comment [仅一次，直到回合结束获得以下状态：+100%战斗力，无视血量影响，攻击后自毁]",
+    ]
+  }
+  {
+    "name": "ExtremeMission",//极限使命-樱花国
+    "uniques": [
+     "[+100]% Strength <for [1] turns>",
+     "Self-destructs when attacking",
+     "No damage penalty for wounded units <for [1] turns>",
+    ]
+  }
+  
+  {
+	"name": "Alchemy",//炼金术-黑土炼金学会
+		"uniques": [
+		"Turn this tile into a [Hill] tile<[3] times><for [0] movement><in [non-[Bonus resource]] tiles>"
+		"Turn this tile into a [Coast] tile<[3] times><for [0] movement><in [non-[Bonus resource]] tiles><when fighting in [Friendly Land] tiles>"//在友好领土
+		"Turn this tile into a [Grassland] tile<[3] times><for [0] movement><in [non-[Bonus resource]] tiles>"
+		"May travel on Water tiles without embarking"
+		],
+	},
+	
+	{
+    "name": "RocketJump",//火箭跳-护宝炮妖
+    "uniques": [
+        "[This Unit] takes [30] damage<for [-1] movement><for [Civilian] units>"//火箭跳
+        "[This Unit] takes [35] damage<for [-1] movement><for [Military] units><costs [+1 Gold] stats>"//火箭跳
+        "[This Unit] takes [1] damage<for [-1] movement><costs [+10 Production] stats><during the [Ancient era]>"//火箭跳
+        "[This Unit] takes [1] damage<for [-1] movement><costs [+15 Production] stats><during the [Classical era]>"//火箭跳
+        "[This Unit] takes [1] damage<for [-1] movement><costs [+20 Production] stats><during the [Medieval era]>"//火箭跳
+        "[This Unit] takes [1] damage<for [-1] movement><costs [+25 Production] stats><during the [Renaissance era]>"//火箭跳
+        ]
+    }
+    
+    {
+        "name": "BarbarianKing'sWrath",//蛮王怒威
+        "uniques": [
+        "[-15]% Strength <vs cities>",
+        "[+2048]% Strength <vs [Barbarians] units>",
+        "Can only heal by pillaging",
+        "No movement cost to pillage",
+        "When defeating a [Barbarians] unit, earn [0] Gold and recruit it"
+        "[-200]% XP gained from combat"
+        ]
+    },
+    {
+    "name": "Slave",//奴隶
+    "uniques": [
+    "Instantly provides [4] [Horses] <by consuming this unit>",
+    "Instantly provides [4] [Iron] <by consuming this unit>",
+    "Instantly provides [4] [Aluminum] <by consuming this unit>"
+    "Instantly provides [4] [Oil] <by consuming this unit>"
+     ]
+  },
+  
+  {
+	 "name": "Vanguard of war",//战争先锋
+	 "uniques": [//"Can build [Road] improvements on tiles",
+	       "Can build [Fort] improvements on tiles",
+	       "[+25]% construction time for [Military] improvements"]
+     },
+     {
+	 "name": "Mountain hunter",//山地猎手
+	 "uniques": [
+	 "[-10]% Strength <for [Archery] units>",
+     "[+1] Movement <in [Rough terrain] tiles> <for [Archery] units>",
+     "[+2]% Strength<when attacking> <upon ending a turn in a [Rough terrain] tile> <for [2] turns> <for [Archery] units>"]//-10战力，单位在崎岖结束回合+1移动持续1回合，单位在崎岖结束回合所有弓箭+2战力持续3回合
+     },
+	
+	 {
+        "name": "软体生物",
+        "uniques": ["[This Unit] gains the [软体生物-附属] promotion<upon losing at least [1] HP in a single attack>"
+        "Unit will heal every turn, even if it performs an action"]
+     },
+     {
+        "name": "软体生物-附属",
+	    "uniques": [
+		"[This Unit] heals [2] HP"
+		"Doing so will consume this opportunity to choose a Promotion"
+	 ]
+	 }
+	
+	 {
+        "name": "MYR",//末影人
+	    "uniques": [
+		"Instantly provides [1] [Magic power]<upon ending a turn in a [Enemy Land] tile><for [Civilian] units>"//每回合拿资源-平民在异国领土
+		"All tiles cost 1 movement<for [Civilian] units>",
+		"[This Unit] takes [10] damage<upon ending a turn in a [Water] tile><for [non-Water] units>"//在水上每回合掉血
+		"[+5]% Strength<when defending>"
+		"[+5]% Strength<when defending><vs [Ranged] units><with [60]% chance>"
+		"[+5]% Strength<when defending><vs [Ranged] units><with [40]% chance>"
+	     ]
+	 },
+	 
+	 {
+        "name": "Nazta",//纳兹塔
+	    "uniques": [
+		"Can move after attacking"
+	 ]
+	 }
+	 
+	 {
+        "name": "沼地爬行",//沼地爬行-烂泥怪
+	    "uniques": [
+		"All tiles cost 1 movement<within [1] tiles of a [Marsh]>",
+		
+	     ]
+	 },
+	 
+	 {
+        "name": "溜冰冰",//溜冰冰
+	    "uniques": [
+		"Double movement in [Crystallize]"//结晶加速
+	 ]
+	 },
+	 
+	 {
+        "name": "CCC",//溜冰冰
+	    "uniques": [
+		"Cost increases by [3] per owned city"
+		]
+	 },
+	 
+	 {
+        "name": "LegionRampage",//破军之势
+	    "uniques": [
+		"[Target Unit] gains the [LineBroken] promotion<upon damaging a [All] unit>"
+		]
+	},
+	
+	{
+        "name": "LineBroken",//战线崩溃
+	    "uniques": [
+		"Provides [1] [LineBrokenCounter]<for [2] turns>"//战线崩溃计数器（破军计数器
+		"Doing so will consume this opportunity to choose a Promotion"
+		]
+	},
+	
+	{
+        "name": "Bloodrot I",//血溃-1
+	    "uniques": [
+		"[This Unit] takes [3] damage<upon ending a turn in a [All] tile>"//dot
+		"[This Unit] gains the [Bloodrot II] promotion<upon losing at least [1] HP in a single attack>"
+		"Comment [可使用[Heal Instantly]解除。]",
+		]
+	},
+	
+	{
+        "name": "Bloodrot II",//血溃-2
+	    "uniques": [
+		"[This Unit] takes [3] damage<upon ending a turn in a [All] tile>"//dot
+		"[This Unit] gains the [Bloodrot III] promotion<upon losing at least [1] HP in a single attack>"
+		"Comment [可使用[Heal Instantly]解除。]",
+		]
+	},
+	
+	{
+        "name": "Bloodrot III",//血溃-3
+	    "uniques": [
+		"[This Unit] takes [3] damage<upon ending a turn in a [All] tile>"//dot
+		"Comment [可使用[Heal Instantly]解除。]",
+		]
+	},
+	
+	{
+        "name": "AbyssLurk",//深渊潜伏
+	    "uniques": [
+		"May travel on Water tiles without embarking"
+		"Double movement in [Coast]"
+		"Eliminates combat penalty for attacking across a coast"
+		"[This Unit] gains the [AbyssLurkX] status for [1] turn(s)<in [Water] tiles><for [1] movement><costs [3] [Magic power]>"
+		]
+	},
+	
+	{
+        "name": "AbyssLurkX",//深渊潜伏-附属
+	    "uniques": [
+		"[1] Range<in [Water] tiles>"
+		"[+10]% Strength<in [Water] tiles>"
+		]
+	},
+
+	
+	{
+        "name": "Hadalgrip",//深渊缠绕
+	    "uniques": [
+		"Cannot attack"//无法攻击
+		"Cannot move"//无法移动
+		"[This Unit] takes [5] damage"
+		"[This Unit] loses the [Dive] promotion<for [1] movement><hidden from users>"
+		]
+	},
+	
+	{
+        "name": "Umbraghast I",//黑暗幽灵
+	    "uniques": [
+				"[This Unit] gains the [Umbraghast II] status for [3] turn(s)<upon losing at least [1] HP in a single attack>"
+				"Comment [一旦被攻击，进入[Umbraghast III]状态]",		
+		]
+	},
+	
+	{
+        "name": "Umbraghast II",//黑暗幽灵
+	    "uniques": [
+		"Invisible to others<hidden from users>",//隐身
+		"[This Unit] heals [10] HP <hidden from users>",
+		"[This Unit] heals [10] HP <upon ending a turn in a [All] tile> <hidden from users>",
+		"[This Unit] gains the [Umbraghast III] promotion<upon turn start><hidden from users>"
+		]
+	},
+	
+	{
+        "name": "Umbraghast III",//黑暗幽灵
+	    "uniques": [
+		"[This Unit] loses the [Umbraghast II] status<upon entering a [All] tile><hidden from users>",//破隐
+		"[This Unit] loses the [Umbraghast II] status<upon damaging a [All] unit><hidden from users>",//破隐
+		"[This Unit] loses the [Umbraghast III] promotion<upon damaging a [All] unit><hidden from users>",//破隐
+		"[+50]% Strength<hidden from users>",
+		"Ignores Zone of Control<hidden from users>"
+		"Comment [处于隐身状态，立即回复并每回合回复10HP，一旦移动将解除隐身状态]",
+		"Comment [下次攻击前无视区块控制并获得+50%战斗力]",
+		]
+	},
+	
+	{
+        "name": "SnowfieldWarrior",//雪原战士
+	    "uniques": [
+		"Double movement in [Tundra]<hidden from users>"
+		"Double movement in [Snow]<hidden from users>"
+		"[This Unit] heals [2] HP<upon entering a [All] tile><hidden from users>"
+		"[This Unit] heals [2] HP<when below [50] HP><upon entering a [All] tile><hidden from users>"
+		"Comment [在[Tundra][Snow]地块获得双倍移动力]",
+		"Comment [每次移动回复2HP，低于50HP时回复量翻倍]",
+		]
+	},
+	
+	
+	{
+        "name": "ScarwoodCharge I",//树痕冲锋
+	    "uniques": [
+				"[This Unit] gains the [ScarwoodCharge II] promotion<upon losing at least [1] HP in a single attack>"
+				"Comment [一旦被攻击，进入[ScarwoodCharge III]状态]",		
+		]
+	},
+	
+	{
+        "name": "ScarwoodCharge II",//树痕冲锋
+	    "uniques": [
+		"[2] Movement"
+		"[This Unit] gains the [ScarwoodCharge III] promotion<upon turn start><hidden from users>"
+		"[This Unit] loses the [ScarwoodCharge III] promotion<upon turn end><hidden from users>"
+		]
+	},
+	
+	{
+        "name": "ScarwoodCharge III",//树痕冲锋
+	    "uniques": [
+		"Ignores Zone of Control"
+		"[This Unit] loses the [ScarwoodCharge II] promotion<upon entering a [All] tile><hidden from users>",//破隐
+		"[This Unit] loses the [ScarwoodCharge II] promotion<upon damaging a [All] unit><hidden from users>",//破隐
+		"[This Unit] loses the [ScarwoodCharge III] promotion<upon entering a [All] tile><hidden from users>",//破隐
+		"[This Unit] loses the [ScarwoodCharge III] promotion<upon damaging a [All] unit><hidden from users>",//破隐
+		//"[This Unit] gains [2] movement<hidden from users>",
+		]
+	},
+	
+	{
+        "name": "EnergyStock I",//蓄能
+	    "uniques": [
+		"[+5]% Strength<when attacking><for units with [EnergyStock I]><for units without [A-1]>",
+		"[+10]% Strength<when attacking><for units with [A-1]><for units without [A-2]>",
+		"[+15]% Strength<when attacking><for units with [A-2]><for units without [A-3]>",
+		"[+20]% Strength<when attacking><for units with [A-3]><for units without [A-4]>",
+		"[+25]% Strength<when attacking><for units with [A-4]><for units without [A-5]>",
+		"[+30]% Strength<when attacking><for units with [A-5]><for units without [A-6]>",
+		"[+35]% Strength<when attacking><for units with [A-6]><for units without [A-7]>",
+		"[+40]% Strength<when attacking><for units with [A-7]><for units without [A-8]>",
+		"[+45]% Strength<when attacking><for units with [A-8]><for units without [A-9]>",
+		"[+50]% Strength<when attacking><for units with [A-9]>",
+		"[This Unit] gains the [A-1] status for [1] turn(s)<upon entering a [All] tile><hidden from users>"
+		]
+	},
+	
+	{
+        "name": "A-1",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [A-2] status for [1] turn(s)<upon entering a [All] tile><hidden from users>"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "A-2",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [A-3] status for [1] turn(s)<upon entering a [All] tile><hidden from users>"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "A-3",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [A-4] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "A-4",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [A-5] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "A-5",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [A-6] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "A-6",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [A-7] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "A-7",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [A-8] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "A-8",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [A-9] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "A-9",//蓄能
+	    "uniques": [
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "EnergyStock II",//蓄能
+	    "uniques": [
+		"[+7]% Strength<when attacking><for units with [EnergyStock I]><for units without [B-1]>",
+		"[+14]% Strength<when attacking><for units with [B-1]><for units without [B-2]>",
+		"[+21]% Strength<when attacking><for units with [B-2]><for units without [B-3]>",
+		"[+28]% Strength<when attacking><for units with [B-3]><for units without [B-4]>",
+		"[+35]% Strength<when attacking><for units with [B-4]><for units without [B-5]>",
+		"[+42]% Strength<when attacking><for units with [B-5]><for units without [B-6]>",
+		"[+49]% Strength<when attacking><for units with [B-6]><for units without [B-7]>",
+		"[+56]% Strength<when attacking><for units with [B-7]><for units without [B-8]>",
+		"[+63]% Strength<when attacking><for units with [B-8]><for units without [B-9]>",
+		"[+70]% Strength<when attacking><for units with [B-9]>",
+		"[This Unit] gains the [B-1] status for [1] turn(s)<upon entering a [All] tile><hidden from users>"
+		]
+	},
+	
+	{
+        "name": "B-1",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [B-2] status for [1] turn(s)<upon entering a [All] tile><hidden from users>"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "B-2",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [B-3] status for [1] turn(s)<upon entering a [All] tile><hidden from users>"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "B-3",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [B-4] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "B-4",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [B-5] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "B-5",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [B-6] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "B-6",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [B-7] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "B-7",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [B-8] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "B-8",//蓄能
+	    "uniques": [
+		"[This Unit] gains the [B-9] status for [1] turn(s)<upon entering a [All] tile><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "B-9",//蓄能
+	    "uniques": [
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	
+	{
+        "name": "ScarwoodChieftain I",//树痕领袖 I
+	    "uniques": [
+		"[+1] Movement"//移动
+		"[+15]% Strength bonus for [Military] units within [3] tiles",
+		"Ignores Zone of Control"
+		"[This Unit] gains the [ScarwoodChieftain II] promotion<upon turn start><hidden from users><hidden from users>"
+		"[This Unit] loses the [ScarwoodChieftain II] promotion<upon turn end><hidden from users><hidden from users>"
+
+		"[This Unit] gains the [ScarwoodChieftain II] promotion<upon turn start><hidden from users>"
+		"[This Unit] loses the [ScarwoodChieftain II] promotion<upon turn end><hidden from users>"
+		"Comment [攻击使目标[Frostchill II]：防御力+100%但无法攻击并-1移动。消耗3[Faith]或3回合后解除]",
+		"Comment [若本回合未移动，则可以消耗全部移动力，使所有移动力不满的非远程单位获得+1移动力]",
+		]
+	},
+	
+	{
+        "name": "ScarwoodChieftain II",//树痕领袖 II
+	    "uniques": [
+			"[This Unit] loses the [ScarwoodCharge II] promotion <upon entering a [All] tile><hidden from users>",//破隐
+			"[non-[Ranged]] units gain the [ScarwoodChieftainX] promotion<for all movement><hidden from users>"
+		]
+	},
+	
+	{
+        "name": "ScarwoodChieftainX",//树痕领袖-附属
+	    "uniques": [
+		//"[+1] Movement"//移动
+		"[This Unit] gains [1] movement",
+		"[This Unit] loses the [ScarwoodChieftainX] promotion<upon turn end><hidden from users>"
+	 ]
+	},
+	
+	
+	
+	{
+        "name": "Frostchill I",//刺骨之寒
+	    "uniques": [
+		"[Target Unit] gains the [Frostchill II] status for [3] turn(s)<upon damaging a [All] unit><hidden from users>"
+		]
+	},
+	
+		{
+        "name": "Frostchill II",//刺骨之寒
+	    "uniques": [
+		"Cannot attack"//无法攻击
+		"[-1] Movement"//移动
+		"[-100]% XP gained from combat"
+		"[+100]% Strength<when defending>"
+		"[This Unit] loses the [Frostchill II] status<for [0] movement><costs [+3 Faith] stats>"
+		]
+	},
+	
+	{
+        "name": "MatrixComputation",//计算矩阵
+	    "uniques": [
+		"[This Unit] heals [5] HP<upon entering a [All] tile><hidden from users><when above [0] [MegaEvolution.Lv60]>"
+		"[This Unit] gains [2] XP<upon entering a [All] tile><hidden from users><when above [0] [MegaEvolution.Lv60]>"
+		
+		"[This Unit] heals [5] HP<upon entering a [All] tile><hidden from users><when above [0] [MegaEvolution.Lv80]>"
+		"[This Unit] gains [2] XP<upon entering a [All] tile><hidden from users><when above [0] [MegaEvolution.Lv80]>"
+		]
+	},
+	
+	{
+        "name": "Spearwall I",//枪墙
+	    "uniques": [
+		"[+6]% Strength<when attacking><for units with [EnergyStock I]><for units without [Spearwall-1]><hidden from users>",
+		"[+12]% Strength<when attacking><for units with [Spearwall-1]><for units without [Spearwall-2]><hidden from users>",
+		"[+18]% Strength<when attacking><for units with [Spearwall-2]><for units without [Spearwall-3]><hidden from users>",
+		"[+24]% Strength<when attacking><for units with [Spearwall-3]><for units without [Spearwall-4]><hidden from users>",
+		"[+30]% Strength<when attacking><for units with [Spearwall-4]><for units without [Spearwall-5]><hidden from users>",
+		"[+36]% Strength<when attacking><for units with [Spearwall-5]><for units without [Spearwall-6]><hidden from users>",
+		"[+42]% Strength<when attacking><for units with [Spearwall-6]><for units without [Spearwall-7]><hidden from users>",
+		"[+48]% Strength<when attacking><for units with [Spearwall-7]><for units without [Spearwall-8]><hidden from users>",
+		"[+54]% Strength<when attacking><for units with [Spearwall-8]><for units without [Spearwall-9]><hidden from users>",
+		"[+60]% Strength<when attacking><for units with [Spearwall-9]><hidden from users>",
+		"[This Unit] gains the [Spearwall-1] promotion<upon turn end><hidden from users>",
+		"[This Unit] gains the [Spearwall II] promotion<upon turn start><hidden from users>"
+		"[This Unit] loses the [Spearwall II] promotion<upon turn end><hidden from users>"
+		
+		
+		"Comment [每回合获得+6%攻击力（最高10层）（攻击或移动2次解除）]",
+		]
+	},
+	
+	{
+        "name": "Spearwall II",//枪墙
+	    "uniques": [
+		"[This Unit] loses the [Spearwall-1] promotion<upon damaging a [All] unit><hidden from users>",
+		"[This Unit] loses the [Spearwall-2] promotion<upon damaging a [All] unit><hidden from users>",
+		"[This Unit] loses the [Spearwall-3] promotion<upon damaging a [All] unit><hidden from users>",
+		"[This Unit] loses the [Spearwall-4] promotion<upon damaging a [All] unit><hidden from users>",
+		"[This Unit] loses the [Spearwall-5] promotion<upon damaging a [All] unit><hidden from users>",
+		"[This Unit] loses the [Spearwall-6] promotion<upon damaging a [All] unit><hidden from users>",
+		"[This Unit] loses the [Spearwall-7] promotion<upon damaging a [All] unit><hidden from users>",
+		"[This Unit] loses the [Spearwall-8] promotion<upon damaging a [All] unit><hidden from users>",
+		"[This Unit] loses the [Spearwall-9] promotion<upon damaging a [All] unit><hidden from users>",//攻击解除
+		
+		"[This Unit] gains the [Spearwall III] promotion <upon entering a [All] tile><hidden from users>"
+		]
+	},
+	
+	{
+        "name": "Spearwall III",//枪墙
+	    "uniques": [
+		"[This Unit] loses the [Spearwall-1] promotion<upon entering a [All] tile><hidden from users>",
+		"[This Unit] loses the [Spearwall-2] promotion<upon entering a [All] tile><hidden from users>",
+		"[This Unit] loses the [Spearwall-3] promotion<upon entering a [All] tile><hidden from users>",
+		"[This Unit] loses the [Spearwall-4] promotion<upon entering a [All] tile><hidden from users>",
+		"[This Unit] loses the [Spearwall-5] promotion<upon entering a [All] tile><hidden from users>",
+		"[This Unit] loses the [Spearwall-6] promotion<upon entering a [All] tile><hidden from users>",
+		"[This Unit] loses the [Spearwall-7] promotion<upon entering a [All] tile><hidden from users>",
+		"[This Unit] loses the [Spearwall-8] promotion<upon entering a [All] tile><hidden from users>",
+		"[This Unit] loses the [Spearwall-9] promotion<upon entering a [All] tile><hidden from users>",//移动解除
+		
+		
+		
+		"[This Unit] loses the [Spearwall III] promotion<upon turn end><hidden from users>"
+		]
+	},
+	
+	{
+        "name": "Spearwall-1",//枪墙-1
+	    "uniques": [
+		"[This Unit] gains the [Spearwall-2] promotion<upon turn end><hidden from users>"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "Spearwall-2",//枪墙-2
+		"prerequisites": ["Spearwall-1"],
+	    "uniques": [
+		"[This Unit] gains the [Spearwall-3] promotion<upon turn end><hidden from users>"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "Spearwall-3",//枪墙-3
+		"prerequisites": ["Spearwall-2"],
+	    "uniques": [
+		"[This Unit] gains the [Spearwall-4] promotion<upon turn end><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "Spearwall-4",//枪墙-4
+		"prerequisites": ["Spearwall-3"],
+	    "uniques": [
+		"[This Unit] gains the [Spearwall-5] promotion<upon turn end><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "Spearwall-5",//枪墙-5
+		"prerequisites": ["Spearwall-4"],
+	    "uniques": [
+		"[This Unit] gains the [Spearwall-6] promotion<upon turn end><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "Spearwall-6",//枪墙-6
+	    "uniques": [
+		"[This Unit] gains the [Spearwall-7] promotion<upon turn end><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "Spearwall-7",//枪墙-7
+		"prerequisites": ["Spearwall-6"],
+	    "uniques": [
+		"[This Unit] gains the [Spearwall-8] promotion<upon turn end><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "Spearwall-8",//枪墙-8
+		"prerequisites": ["Spearwall-7"],
+	    "uniques": [
+		"[This Unit] gains the [Spearwall-9] promotion<upon turn end><hidden from users>",
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+        "name": "Spearwall-9",//枪墙-9
+		"prerequisites": ["Spearwall-"],
+	    "uniques": [
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	
+	{
+        "name": "RedTag I",//红标
+	    "uniques": [
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+3 Gold] stats><during the [Ancient era]><when number of [Gold] is more than [2]><hidden from users>"
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+4 Gold] stats><during the [Classical era]><when number of [Gold] is more than [3]><hidden from users>"
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+5 Gold] stats><during the [Medieval era]><when number of [Gold] is more than [4]><hidden from users>"
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+6 Gold] stats><during the [Renaissance era]><when number of [Gold] is more than [5]><hidden from users>"
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+7 Gold] stats><during the [Industrial era]><when number of [Gold] is more than [6]><hidden from users>"
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+8 Gold] stats><during the [Modern era]><when number of [Gold] is more than [7]><hidden from users>"
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+9 Gold] stats><during the [Atomic era]><when number of [Gold] is more than [8]><hidden from users>"
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+10 Gold] stats><during the [Information era]><when number of [Gold] is more than [9]><hidden from users>"
+		"[This Unit] gains the [RedTag II] promotion <for [0] movement><costs [+11 Gold] stats><during the [Future era]><when number of [Gold] is more than [10]><hidden from users>"
+		"Comment [可以消耗[Gold]获得XP（比例3+时代编号:1）]",
+		]
+	},
+	
+	{
+        "name": "RedTag II",//红标-附属
+	    "uniques": [
+		"[This Unit] gains [1] XP"
+		"Doing so will consume this opportunity to choose a Promotion"
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+	 ]
+	},
+	
+	{
+        "name": "RedTag-EradicatorCapacity",//红标-根除者能力
+	    "uniques": [
+		"Cannot attack<when number of [Gold] is less than [10]><hidden from users>"//无法攻击
+		"Gain [-10] [Gold] <upon damaging a [All] unit><hidden from users>",//攻击扣钱
+		]
+	},
+	
+	{
+        "name": "IndigenousLanguages",//土著语言
+	    "uniques": [
+		"Triggers a [遗迹选择] event <upon entering a [Ancient ruins] tile><hidden from users>",
+		"Comment [进入遗迹时额外获得一次可以选择的遗迹结果]",
+		]
+	},
+	
+	{
+        "name": "Kal'tsitAbility",//凯尔希能力
+	    "uniques": [
+		"Free [Mon3tr] appears<for [1] movement> <when above [0] [UniversalCounter]>"
+		"[This Unit] loses the [Kal'tsitAbility] promotion<upon entering a [All] tile><hidden from users>",//移动解除
+		"Comment [每回合若没有消耗过移动力，可以召唤一次[Mon3tr]]",
+		]
+	},
+	
+	{
+        "name": "M3Ability",//M3能力
+	    "uniques": [
+		"[This Unit] gains [-2] XP"
+		]
+	},
+	
+	{
+        "name": "Song",//松
+        "uniques":["Gain [1] [Gold]<upon ending a turn in a [Foreign Land] tile>", "Gain [1] [Faith]<upon ending a turn in a [Enemy Land] tile>", "Gain [1] [Science]<upon ending a turn in a [Enemy Land] tile>", "Gain [1] [Culture]<upon ending a turn in a [Enemy Land] tile>"]
+    },
+    {
+        "name": "Feng",//风
+        "uniques":["[+1] Movement"]
+    },
+	
+]
