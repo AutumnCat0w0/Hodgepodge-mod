@@ -46,21 +46,21 @@
 
     /*模组专属模式开关隐藏建筑*/
     {//启用更多奇观
-        "name": "Building.WorldWonder",
+        "name": "Building-WorldWonder",
         "cost": 0,
         "uniques":[
         "Unbuildable",
         "Will not be displayed in Civilopedia"]
     },
     {//启用强化政策
-        "name": "Building.StrongerPolicies",
+        "name": "Building-StrongerPolicies",
         "cost": 0,
         "uniques":[
         "Unbuildable",
         "Will not be displayed in Civilopedia"]
     },
     {//启用暗世界模式
-        "name": "Building.DarkWorld",
+        "name": "Building-DarkWorld",
         "cost": 0,
         "uniques":[
         "Unbuildable",
@@ -68,7 +68,7 @@
     },
     
     {//启用强大蛮族模式
-        "name": "Building.PowerfulBarbarians",
+        "name": "Building-PowerfulBarbarians",
         "cost": 0,
         "uniques":[
         "Unbuildable",
@@ -90,31 +90,32 @@
         "name": "StrongerPolicies",
         "cost": 0,
         "uniques":[
-        "Unsellable"//无法出售
-        "Automatically built in all cities where it is buildable<when [Building.StrongerPolicies] Victory is enabled>"
-        "Unbuildable <when [Building.StrongerPolicies] Victory is disabled>", //无法建造
-        "Only available <when [Pattern.StrongerPolicies] Victory is enabled>",]
+        "Unsellable",//无法出售
+        "Comment [更大，更好，更强的政策]",
+        "Automatically built in all cities where it is buildable<when [PatternStrongerPolicies] Victory is enabled> <hidden from users>"
+        "Unbuildable <when [PatternStrongerPolicies] Victory is disabled> <hidden from users>", //无法建造
+        "Only available <when [PatternStrongerPolicies] Victory is enabled> <hidden from users>",]
     },
     {//暗世界模式
         "name": "DarkWorld",
         "cost": 0,
         "uniques":[
-        "Unsellable"//无法出售
-        "Automatically built in all cities where it is buildable<when [Building.DarkWorld] Victory is enabled>"
-        "Unbuildable <when [Building.DarkWorld] Victory is disabled>", //无法建造
-		"[All] units gain the [Dark World] promotion"
-        "Only available <when [Pattern.DarkWorld] Victory is enabled>",]
+        "Unsellable",//无法出售
+        "Comment [总之，开了这个以后会让所有非初始单位变成瞎子]",
+        "Unbuildable <when [PatternDarkWorld] Victory is disabled> <hidden from users>", //无法建造
+		"[All] units gain the [Dark World] promotion <hidden from users>"
+        "Only available <when [PatternDarkWorld] Victory is enabled> <hidden from users>",]
     },
     
     {//强大蛮族模式
         "name": "PowerfulBarbarians",
         "cost": 0,
         "uniques":[
-        "Unsellable"//无法出售
-        "Automatically built in all cities where it is buildable<when [Building.PowerfulBarbarians] Victory is enabled>"
-        "Unbuildable <when [Building.PowerfulBarbarians] Victory is disabled>", //无法建造
-		"[-15]% Strength<vs [Barbarian] units>"
-        "Only available <when [Pattern.PowerfulBarbarians] Victory is enabled>",]
+        "Unsellable",//无法出售
+        "Comment [和蛮子互相殴打时，失去15%的战斗力，包括屏幕前的那位]",
+        "Unbuildable <when [PatternPowerfulBarbarians] Victory is disabled> <hidden from users>", //无法建造
+		"[-15]% Strength<vs [Barbarian] units> <hidden from users>"
+        "Only available <when [PatternPowerfulBarbarians] Victory is enabled> <hidden from users>",]
     },
     /*——————————额外奇观——————————*/
     {
@@ -128,7 +129,7 @@
         "Must be next to [Farm]"//与麦农场毗邻
         "[+35]% Natural religion spread [in all cities]"
         
-        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
+        "Only available <when [PatternMoreWonders] Victory is enabled>",]
         "quote": "这是魔鬼制造的图腾，又或是人类所伪造。"
     },
     
@@ -143,7 +144,7 @@
 		"Must be next to [Flood plains]"//与冲积相邻
         "[+1 Faith] from [Flood plains] tiles [in all cities]",
             
-        "Only available <when [Pattern.MoreWonders] Victory is enabled>",
+        "Only available <when [PatternMoreWonders] Victory is enabled>",
             ],
 		"quote": "就算落入的是无情的滤筛，\n我仍愿意将我的爱情之水倾泻倒下。\n即使失败，我也在所不惜。如此，如虔诚的印度人一般。\n我愿虔诚信仰，\n我崇拜太阳，炙热阳光普照信徒，\n 但却不知一人为它痴狂。\n ——威廉·莎士比亚"
 	},
@@ -157,7 +158,7 @@
 		"Must be on [Desert]"//处于沙漠
         "[+1 Culture, +3 Science, +3 Gold] from every [Palace]"
             
-        "Only available <when [Pattern.MoreWonders] Victory is enabled>",
+        "Only available <when [PatternMoreWonders] Victory is enabled>",
             ],
 		"quote": "这东西吞噬一切：飞禽、走兽、树木、花草、啃咬钢铁、磨碎坚硬的石头吃掉、杀死诸王、摧毁城墙、还能将高山击倒。\n——斯芬克斯的迷题"
 	},
@@ -177,7 +178,7 @@
         "[+1 Happiness] [in this city] <with [4] to [6] neighboring [Lakes] tiles>",
         "[+1 Happiness] [in this city] <with [5] to [6] neighboring [Lakes] tiles>",
         "[+1 Happiness] [in this city] <with [6] to [6] neighboring [Lakes] tiles>",
-            "Only available <when [Pattern.MoreWonders] Victory is enabled>",
+            "Only available <when [PatternMoreWonders] Victory is enabled>",
             ],
         "replacementTextForUniques":"在研究[Masonry]后可以建造\n城市必须毗邻[Lakes]\n每个相邻的[Lakes]提供+1[Happiness]，这个城市的[Lakes]+1[Food]+2[Production]"
         "quote": "但维齐洛波奇特利非常生气，作为牺牲，穿过了4个房间，献身于太阳神，天空中的太阳消失了，或再次出现了。\n——福莱·迪亚哥·杜兰"
@@ -196,7 +197,7 @@
         
         "[+15]% City Strength from defensive buildings"
         
-        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
+        "Only available <when [PatternMoreWonders] Victory is enabled>",]
         "quote": "他们为你造了圣而高的坟墓。\n克里特人，常说谎话，乃是恶兽，又馋又懒。\n你们却没有死，而是活在世上，永久长存。\n因为在你里面，我们生活，行动，有我们的存在\n——埃庇米尼得斯"
     },
     
@@ -212,7 +213,7 @@
         "Must be on [River]"//沿河
         "[+1 Gold] from [River] tiles [in this city]",
         "All newly-trained [Military] units [in this city] receive the [Amphibious] promotion"
-        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
+        "Only available <when [PatternMoreWonders] Victory is enabled>",]
         "quote": "峡口雷声震碧端，离堆凿破几经年。\n流出古今秦汉月，问他伏龙可曾寒。\n ——《游伏龙观随吟》董湘琴"
     },
     
@@ -227,7 +228,7 @@
             "[+2 Faith] [in all cities]"
            "Must be on [Hill]"//沿河 
             "Provides [6] [Iron]"//回合铁
-            "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
+            "Only available <when [PatternMoreWonders] Victory is enabled>",]
         "quote": "这座山的西南角有一道深深的裂缝，从山的主体分出了一块巨大的陡峭砂岩...它的外观宛如一尊巨像。\n——E. A.沃利斯·巴奇"
     },
     
@@ -241,7 +242,7 @@
         "[3] free [Missionary] units appear"
         "[-25]% City-State Influence degradation"
         "Resting point for Influence with City-States following this religion [50]"
-        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
+        "Only available <when [PatternMoreWonders] Victory is enabled>",]
         "quote": "在印度比哈尔邦尘土飞扬的喧闹角落里，有一个神奇的地方被人们当作佛教中心\n ——《旅游者指南》里的菩提伽耶"
     },
     
@@ -255,7 +256,7 @@
         "Unbuildable<before discovering [Civil Service]>"//科技限制-文官制度
         "[+2 Culture] [in annexed cities]"
         "[+1 Happiness] from [Landmark] tiles [in this city]",
-        "Only available <when [Pattern.MoreWonders] Victory is enabled>",]
+        "Only available <when [PatternMoreWonders] Victory is enabled>",]
         "quote": "从明后而嬉游兮， 登层台以娱情。\n见太府之广开兮， 观圣德之所营。\n ——《铜雀台赋》曹植"
     },
     
@@ -812,7 +813,7 @@
 		"cost": 10,
 		"isWonder": true,
 		"uniques": [
-		"Unbuildable <when below [1] [pp]><hidden from users>", //无法建
+		"Unbuildable <when below [1] [pp]>", //无法建
 		"[+1]% [Culture] from every [Wonders]"
 		"[+2 Gold] from all [Wonders] buildings"
 		]
@@ -868,7 +869,7 @@
 		"Unsellable"//无法出售
 		"Only available <in cities with a [Compute-Execute]><when number of [[[Military] Units]*10] is equal to [Gold]><when number of [[[Melee] Units]+[[Ranged] Units]] is equal to [([Era number]+2)*2]><hidden from users>",
 		"Provides [1] [Compute-1]<hidden from users>"
-		"Remove [ComputeExplosionLv.1] [in all cities]<upon turn end><when number of [Compute-1] is more than [9]><hidden from users>"
+		"Remove [ComputeExplosionLV.1] [in all cities]<upon turn end><when number of [Compute-1] is more than [9]><hidden from users>"
 		"Instantly consumes [10] [Compute-1]<upon turn end><when number of [Compute-1] is more than [9]><hidden from users>"
 		]
 	},
@@ -881,7 +882,7 @@
 		"Unsellable"//无法出售
 		"Only available <in cities with a [Compute-Execute]><when number of [[[Melee] Units]*10+[[Ranged] Units]*20] is equal to [Gold]><when number of [[[Melee] Units]+[[Ranged] Units]] is equal to [([Era number]+[Adopted [All] Policies])*2]><hidden from users>",
 		"Provides [1] [Compute-2]<hidden from users>"
-		"Remove [ComputeExplosionLv.2] [in all cities]<upon turn end><when number of [Compute-2] is more than [9]><hidden from users>"
+		"Remove [ComputeExplosionLV.2] [in all cities]<upon turn end><when number of [Compute-2] is more than [9]><hidden from users>"
 		"Instantly consumes [10] [Compute-2]<upon turn end><when number of [Compute-2] is more than [9]><hidden from users>"
 		]
 	},
@@ -892,9 +893,9 @@
 		"uniques": [
 		"Automatically built in all cities where it is buildable"//自动建造
 		"Unsellable"//无法出售
-		"Only available <in cities with a [Compute-Execute]><when number of [[[Melee] Units]%([[Ranged] Units]+1)*50] is equal to [Gold]><when number of [[([Melee] Units]+[[Ranged] Units])*2] is equal to [[Era number]*[Adopted [All] Policies]]><hidden from users>",
+		"Only available <in cities with a [Compute-Execute]><when number of [([[Melee] Units]%([[Ranged] Units]+1))*50] is equal to [Gold]><when number of [([[Melee] Units]+[[Ranged] Units])*2] is equal to [[Era number]*[Adopted [All] Policies]]><hidden from users>",
 		"Provides [1] [Compute-3]<hidden from users>"
-		"Remove [ComputeExplosionLv.3] [in all cities]<upon turn end><when number of [Compute-3] is more than [9]><hidden from users>"
+		"Remove [ComputeExplosionLV.3] [in all cities]<upon turn end><when number of [Compute-3] is more than [9]><hidden from users>"
 		"Instantly consumes [10] [Compute-3]<upon turn end><when number of [Compute-3] is more than [9]><hidden from users>"
 		]
 	},
@@ -907,7 +908,7 @@
 		"Unsellable"//无法出售
 		"Only available <in cities with a [Compute-Execute]><when number of [([[Melee] Units]+[[Ranged] Units]+[Era number]+[Adopted [All] Policies])*20] is equal to [Gold]><when number of [[[Melee] Units]*[[Ranged] Units]] is equal to [[Era number]*[Adopted [All] Policies]]><hidden from users>",
 		"Provides [1] [Compute-4]<hidden from users>"
-		"Remove [ComputeExplosionLv.4] [in all cities]<upon turn end><when number of [Compute-4] is more than [9]><hidden from users>"
+		"Remove [ComputeExplosionLV.4] [in all cities]<upon turn end><when number of [Compute-4] is more than [9]><hidden from users>"
 		"Instantly consumes [10] [Compute-4]<upon turn end><when number of [Compute-4] is more than [9]><hidden from users>"
 		]
 	},
@@ -1369,7 +1370,7 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
 		"uniques": [
-		"[1] free [白毦兵] units appear",
+		"[1] free [White Army] units appear",
 		"Destroyed when the city is captured"
 		]
 	},
@@ -1596,7 +1597,7 @@
 		//"percentStatBonus": {"gold": -200},
 		"hurryCostModifier": 50,
 		"uniques": [
-		"Remove extra unhappiness from annexed cities",
+		"Removes extra unhappiness from annexed cities",
 			],
 		"requiredTech": "Mathematics"
 	},
@@ -1903,8 +1904,8 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": [
-		"[+1 Science] per [2] population [in this city]"
-		"[+40 Science] whenever a Great Person is expended"
+		"[+1 Science] per [2] population [in this city]",
+		"Gain [40] [Science] <upon expending a [Great Person] unit> <(modified by game speed)>"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2262,7 +2263,7 @@
 	
 	{
 		"name": "G-Ice Crystal Temple",//G-冰晶神殿
-		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Shrine",//所代替
 		"faith":1,
 		"culture": 1,
@@ -2274,7 +2275,7 @@
 	},
 	
 	{   "name": "G-Cornerstone Temple",//G-磐石神殿
-		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens"//四天之千神凰
+		"uniqueTo": "The Thousand Phoenix God of the Four Heavens"//四天之千神凰
 		"replaces": "Stone Works",//所代替
 		"faith":1,
 		"happiness": 2,
@@ -2292,7 +2293,7 @@
 	
 	{
 		"name": "G-Bathing Fire Temple",//G-浴火神殿
-		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 25,
 		"faith":1,
@@ -2308,7 +2309,7 @@
 	
 	{
 		"name": "G-Sky Temple",//G-岚空神殿
-		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food":2,
 		"faith":1,
@@ -2326,7 +2327,7 @@
 	
 	{
 		"name": "Four Heavens Temple",//四天神殿
-		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Palace",//所代替
 		"isNationalWonder": true,
 		"production": 3,
@@ -2438,7 +2439,7 @@
 		//"maintenance": 0,
 		"hurryCostModifier": 25,
 		"uniques": [
-		"Technology advanced to [Sailing]"
+		"Comment [Technology advanced to [Sailing]]"
 		"[+1 Production] from [Water resource] tiles [in this city]",
 		"Connects trade routes over water","Must be next to [Coast]"
 			],
@@ -2551,7 +2552,7 @@
 		"cost": 75,
 		//"hurryCostModifier": ,
 		"uniques": [
-		"Technology advanced to [Mining]"//科技提前
+		"Comment [Technology advanced to [Mining]]"//科技提前
 		"[+1 Production] from [Stone] tiles [in this city]",
 		"[+1 Production] from [Jade] tiles [in this city]",
 		"[+1 Production] from [Marble] tiles [in this city]"
@@ -2829,7 +2830,7 @@
 		"culture":2,
 		"hurryCostModifier": 50,
 		"uniques": [
-		"Remove extra unhappiness from annexed cities",
+		"Removes extra unhappiness from annexed cities",
 		"[-75]% Culture cost of natural border growth [in this city]"
 		
 			],
@@ -2893,7 +2894,7 @@
 		"maintenance": 1,
 		"uniques": [
 		"New [Military] units start with [15] XP [in this city]", 
-		"[+1 Gold] from every [New [Military] units start with [15] Experience [in this city]]"
+		"[+1 Gold] from every [New [Military] units start with [15] XP [in this city]]"
 		"Destroyed when the city is captured"
 		],
 		"replacementTextForUniques":"所有【所在城市中新军事单位获得 15 初始经验值】建筑+1[Gold]"
@@ -3270,14 +3271,14 @@
 	},
 	
 	{
-		"name": "NearDeathReincarnationHallNearDeath Reincarnation Hall",
+		"name": "Reincarnation Hall",
 		"cost": 0,
 		"hurryCostModifier": 10,
 		"uniques": [
 		"Unbuildable <when below [1] [TheHallOfHate]> <hidden from users>",
 		"Can only be built <in [in capital] cities>",
 		"Instantly provides [9] [DyingCounter]",
-		"Remove [NearDeathReincarnationHallNearDeath] [in this city] <hidden from users>",
+		"Remove [Reincarnation Hall] [in this city] <hidden from users>",
 		"Instantly provides [1] [Torment]",]
 		},//隐藏建筑
 		
