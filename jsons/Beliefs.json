@@ -3,8 +3,9 @@
         "name": "Holy Warriors",//神圣战士
         "type": "Follower",
         "uniques": [
-        "在中古时代之前可以以2倍成本的[Faith]购买 陆地 军事 单位"
-        "May buy [{Military} {Land} {non-[伪UU]} {non-['AHugeUglyThing']}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]><hidden from users>"]
+        "Comment [在中古时代之前可以以2倍成本的[Faith]购买 陆地 军事 单位]"
+        //"May buy [{Military} {Land} {non-[伪UU]} {non-['AHugeUglyThing']}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]><hidden from users>"
+        ]
     },
     
     
@@ -23,7 +24,7 @@
         "type": "Pantheon",
         "uniques": [
         "[-50]% [Science]"
-        "[+9 Happiness]"
+        "Comment [+9 Happiness]"
       ]
     },
 
