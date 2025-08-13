@@ -20,30 +20,30 @@
    
    
    {//启用额外世界奇观
-        "name":"Pattern.MoreWonders",
+        "name":"PatternMoreWonders",
         "hiddenInVictoryScreen":true,
-        "milestones":["Build [Building.WorldWonder]"]
+        "milestones":["Build [Building-WorldWonder]"]
     },
    
    {//启用强化政策
-        "name":"Pattern.StrongerPolicies",
+        "name":"PatternStrongerPolicies",
         "hiddenInVictoryScreen":true,
-        "milestones":["Build [Building.StrongerPolicies]"]
+        "milestones":["Build [Building-StrongerPolicies]"]
    },
     
    {//启用暗世界模式
-        "name":"Pattern.DarkWorld",
+        "name":"PatternDarkWorld",
         "hiddenInVictoryScreen":true,
         "milestones":[
-        "Build [Building.DarkWorld]"
+        "Build [Building-DarkWorld]"
         ]
    },
    
    {//启用强大蛮族模式
-        "name":"Pattern.PowerfulBarbarians",
+        "name":"PatternPowerfulBarbarians",
         "hiddenInVictoryScreen":true,
         "milestones":[
-        "Build [Building.PowerfulBarbarians]"
+        "Build [Building-PowerfulBarbarians]"
         ]
     },
 ]
