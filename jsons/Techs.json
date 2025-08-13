@@ -11,7 +11,8 @@
 				"cost": 999999999,
 				"row": 1,
 				"uniques": [
-				"Only available<after discovering [Future Tech]>"
+				"Only available<after discovering [Future Tech]>",
+				"Unavailable <after discovering [Agriculture]>",
 				"Will not be displayed in Civilopedia"
 				],
 				"quote": "A"
@@ -671,10 +672,11 @@
 				"cost": 999999999,
 				"row": 1,
 				"uniques": [
-				"Cannot be hurried"
-				"Can be continually researched"
-				"Will not be displayed in Civilopedia"
-				"Only available<after discovering [Future Tech]>"
+				"Cannot be hurried",
+				"Can be continually researched",
+				"Will not be displayed in Civilopedia",
+				"Only available<after discovering [Future Tech]>",
+				"Unavailable <after discovering [Agriculture]>",
 				],
 				"quote": "A"
 			}
