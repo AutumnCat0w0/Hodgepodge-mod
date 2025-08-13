@@ -4,10 +4,18 @@
         //"Starts with [AristocracyX] adopted"
 			"[-10] Movement<in [Coast] tiles> <if [SunburstAbility] is constructed by anybody>"
 			"[-10] Movement<in [Ocean] tiles> <if [SunburstAbility] is constructed by anybody>"
-			"[+100]% [Production] [in all cities]<for [City-States] Civilizations>"
-		
-		
-		
+			"[+100]% [Production] [in all cities]<for [City-States] Civilizations>",
+		"May buy [{Military} {Land} {non-['AHugeUglyThing']}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]><after adopting [Holy Warriors]>"
+		"[+9 Happiness] <after adopting [Aqua]>",
+		"Gain a free [StrongerPolicies] [in capital] <when [PatternStrongerPolicies] Victory is enabled>",
+		"Gain a free [PowerfulBarbarians] [in capital] <when [PatternPowerfulBarbarians] Victory is enabled>",
+		"Gain a free [DarkWorld] [in capital] <when [PatternDarkWorld] Victory is enabled>",
             ]
-          
+    "unitUniques": [
+        "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile> <when above [0] [Talisman charm]>",
+        "Invisible to non-adjacent units <for [Military] units> <when above [0] [Snake Charm]>",
+        "[This Unit] heals [15] HP <upon ending a turn in a [Improvement] tile> <in [Enemy Land] tiles> <for [Dystopia] Civilizations>",
+        "May capture killed [Water] units <for [Sea Tauren] Civilizations>",
+        "Destroys tile improvements when attacking <for [CastleDestroyer] Civilizations>"
+    ]
 }
