@@ -288,7 +288,7 @@
     {
 	"name": "Heart of the High Mountains",//高山之心
 		"uniques": [
-		"Units ignore terrain costs when moving into any tile with Hills",
+		"Ignores terrain cost",
 		],
 	},
 
@@ -724,7 +724,7 @@
 	{
         "name": "Revali's Courage I",//力巴尔的勇猛
 	    "uniques": [
-		"May Paradrop up to [4] tiles from inside friendly territory"
+		"May Paradrop to [Land] tiles up to [4] tiles away <in [{Friendly} {Land}] tiles>",
 		"[This Unit] loses the [The Power of Heroes] promotion<hidden from users>",//删除选择机会
 	 ]
 	},
@@ -991,16 +991,17 @@
 	{
         "name": "Solo",//独奏
 	    "uniques": [
-		"Free [Performer] appears<for [1] movement> <by consuming this unit> <when above [0] [奏者计数器]>"//转化为什么单位
+		"Free [Performer] appears<for [1] movement> <by consuming this unit> <when above [0] [Performer counter]>"//转化为什么单位
 	
 	 ]
 	},
+	//baka秋雨！中英文都能弄错！baka！
 	
 	{
         "name": "Concerted",//协奏
 	    "uniques": [
-		"Invisible to non-adjacent units <when above [0] [律动计数器]>"//计数器高于0（激昂）
-		//"[+15]% Strength<when defending> <when below [0] [律动计数器]>"//计数器低于0（沉沦）
+		"Invisible to non-adjacent units <when above [0] [Rhythm counter]>"//计数器高于0（激昂）
+		//"[+15]% Strength<when defending> <when below [0] [Rhythm counter]>"//计数器低于0（沉沦）
 		
 	 ]
 	},
@@ -1114,8 +1115,10 @@
 	{
         "name": "Fireworks Protection",//薪火守护
         "uniques":[
-        "[This Unit] heals [3] HP <upon ending a turn in a [Land] tile>"
-        "When defeating a [Barbarians] unit, earn [-10] Gold and recruit it",
+        "[This Unit] heals [3] HP <upon ending a turn in a [Land] tile>",
+        "May capture killed [Barbarians] units",
+        "Gain [-10] [Gold]<upon defeating a [Barbarians] unit>"
+        //"When defeating a [Barbarians] unit, earn [-10] Gold and recruit it",
         "[+50]% Strength <vs [Barbarians] units>"]
     },
     
@@ -1356,17 +1359,18 @@
         "[+2048]% Strength <vs [Barbarians] units>",
         "Can only heal by pillaging",
         "No movement cost to pillage",
-        "When defeating a [Barbarians] unit, earn [0] Gold and recruit it"
+        "May capture killed [Barbarians] units",
         "[-200]% XP gained from combat"
         ]
     },
     {
     "name": "Slave",//奴隶
     "uniques": [
-    "Instantly provides [4] [Horses] <by consuming this unit>",
-    "Instantly provides [4] [Iron] <by consuming this unit>",
-    "Instantly provides [4] [Aluminum] <by consuming this unit>"
-    "Instantly provides [4] [Oil] <by consuming this unit>"
+    /*"Provides [4] [Horses] <by consuming this unit>",
+    "Provides [4] [Iron] <by consuming this unit>",
+    "Provides [4] [Aluminum] <by consuming this unit>"
+    "Provides [4] [Oil] <by consuming this unit>"*/
+    "[+1] Sight"
      ]
   },
   
@@ -1374,7 +1378,7 @@
 	 "name": "Vanguard of war",//战争先锋
 	 "uniques": [//"Can build [Road] improvements on tiles",
 	       "Can build [Fort] improvements on tiles",
-	       "[+25]% construction time for [Military] improvements"]
+	       "[+25]% construction time for [Land] improvements"]
      },
      {
 	 "name": "Mountain hunter",//山地猎手
@@ -1402,7 +1406,7 @@
 	    "uniques": [
 		"Instantly provides [1] [Magic power]<upon ending a turn in a [Enemy Land] tile><for [Civilian] units>"//每回合拿资源-平民在异国领土
 		"All tiles cost 1 movement<for [Civilian] units>",
-		"[This Unit] takes [10] damage<upon ending a turn in a [Water] tile><for [non-Water] units>"//在水上每回合掉血
+		"[This Unit] takes [10] damage<upon ending a turn in a [Water] tile><for [non-[Water]] units>"//在水上每回合掉血
 		"[+5]% Strength<when defending>"
 		"[+5]% Strength<when defending><vs [Ranged] units><with [60]% chance>"
 		"[+5]% Strength<when defending><vs [Ranged] units><with [40]% chance>"
@@ -1814,11 +1818,11 @@
 	{
         "name": "MatrixComputation",//计算矩阵
 	    "uniques": [
-		"[This Unit] heals [5] HP<upon entering a [All] tile><hidden from users><when above [0] [MegaEvolution.Lv60]>"
-		"[This Unit] gains [2] XP<upon entering a [All] tile><hidden from users><when above [0] [MegaEvolution.Lv60]>"
-		
-		"[This Unit] heals [5] HP<upon entering a [All] tile><hidden from users><when above [0] [MegaEvolution.Lv80]>"
-		"[This Unit] gains [2] XP<upon entering a [All] tile><hidden from users><when above [0] [MegaEvolution.Lv80]>"
+		"[This Unit] heals [5] HP<upon entering a [All] tile><hidden from users><when number of [([[Melee] Units]%([[Ranged] Units]+1))*50] is equal to [Gold]><when number of [([[Melee] Units]+[[Ranged] Units])*2] is equal to [[Era number]*[Adopted [All] Policies]]>",
+		"[This Unit] gains [2] XP<upon entering a [All] tile><hidden from users><when number of [([[Melee] Units]%([[Ranged] Units]+1))*50] is equal to [Gold]><when number of [([[Melee] Units]+[[Ranged] Units])*2] is equal to [[Era number]*[Adopted [All] Policies]]>",
+		"[This Unit] heals [5] HP<upon entering a [All] tile><hidden from users><when number of [([[Melee] Units]+[[Ranged] Units]+[Era number]+[Adopted [All] Policies])*20] is equal to [Gold]><when number of [[[Melee] Units]*[[Ranged] Units]] is equal to [[Era number]*[Adopted [All] Policies]]>",
+		"[This Unit] gains [2] XP<upon entering a [All] tile><hidden from users><when number of [([[Melee] Units]+[[Ranged] Units]+[Era number]+[Adopted [All] Policies])*20] is equal to [Gold]><when number of [[[Melee] Units]*[[Ranged] Units]] is equal to [[Era number]*[Adopted [All] Policies]]>",
+		"Comment [看不懂吗？看不懂就对了]"
 		]
 	},
 	
@@ -1952,7 +1956,7 @@
 	
 	{
         "name": "Spearwall-9",//枪墙-9
-		"prerequisites": ["Spearwall-"],
+		"prerequisites": ["Spearwall-8"],
 	    "uniques": [
 		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
