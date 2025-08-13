@@ -17,8 +17,7 @@
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"
-			],
+            "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
 	{
@@ -39,13 +38,13 @@
 		"uniques": ["[+2 Production] <in [Andosols] tiles>",
 		"[+1 Production] <after discovering [Chemistry]>", 
 		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"
-		"Gain control over [Horses] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Iron] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Coal] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Oil] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Aluminum] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Uranium] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
+		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"
+		"Gain control over [Horses] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
+		"Gain control over [Iron] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
+		"Gain control over [Coal] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
+		"Gain control over [Oil] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
+		"Gain control over [Aluminum] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
+		"Gain control over [Uranium] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
 		],
 		"shortcutKey": "M"
 	},
@@ -64,37 +63,21 @@
 		"name": "Camp",//猎场
 		"turnsToBuild": 7,
 		"techRequired": "Trapping",
-		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"],
+		"uniques": ["Does not need removal of [Forest]","Does not need removal of [Jungle]","[+1 Gold] <after discovering [Economics]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"],
 		"shortcutKey": "C"
 	},
 	{
 		"name": "Oil well",//油井
 		"turnsToBuild": 9,
 		"techRequired": "Biology",
-		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"
-		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"
-		"Gain control over [Horses] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Iron] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Coal] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Oil] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Aluminum] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Uranium] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		],
+		"uniques": ["Can only be built to improve a resource", "Cannot be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "W"
 	},
 	{
 		"name": "Offshore Platform",//海上平台
 		"turnsToBuild": 1,  // Allows this to be constructed for city-states
 		"techRequired": "Refrigeration",
-		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"
-		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"
-		"Gain control over [Horses] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Iron] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Coal] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Oil] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Aluminum] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Uranium] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		],
+		"uniques": ["Can only be built to improve a resource", "Can only be built on [Water] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
 		"shortcutKey": "P"
 	},
 	{
@@ -105,13 +88,7 @@
 		"[+1 Food] <after discovering [Fertilizer]>", 
 		"Can only be built to improve a resource", 
 		"Pillaging this improvement yields approximately [+10 Gold]"
-		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"
-		"Gain control over [Horses] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Iron] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Coal] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Oil] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Aluminum] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
-		"Gain control over [Uranium] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>"
+		"Gain [10] [Gold] <when number of [JokerMonarchAbility-Heart] is more than [2]><hidden from users>",
 		],
 		"shortcutKey": "P"
 	},
@@ -124,7 +101,7 @@
 		"[+1 Food] <after discovering [Fertilizer]>", 
 		"Can only be built to improve a resource", 
 		"Pillaging this improvement yields approximately [+10 Gold]"
-		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"
+		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"
 		],
 		"shortcutKey": "P"
 	},
@@ -132,7 +109,7 @@
 		"name": "Quarry",//石工坊
 		"turnsToBuild": 8,
 		"techRequired": "Masonry",
-		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"],
+		"uniques": ["[+1 Production] <after discovering [Chemistry]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+20 Gold]","Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"],
 		"shortcutKey": "Q"
 	},
 	{
@@ -141,7 +118,7 @@
 		"terrainsCanBeBuiltOn": ["Coast"],
 		"food": 1,
 		"techRequired": "Sailing",
-		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"],
+		"uniques": ["[+1 Gold] <after discovering [Compass]>", "Can only be built to improve a resource", "Pillaging this improvement yields approximately [+10 Gold]","Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"],
 		"shortcutKey": "F"
 	},
 
@@ -390,10 +367,10 @@
 		"uniques": [
 		"Can be built outside your borders", 
 		"Gives a defensive bonus of [30]%",
-		"[+1 Food] <with [1] to [6] neighboring [unimproved] [Luxury resource] tiles>"
-		"[+1 Production] <with [1] to [6] neighboring [unimproved] [Bonus resource] tiles>"
-		"[+1 Production] <with [1] to [6] neighboring [unimproved] [Forest] tiles><with [1] to [6] neighboring [unimproved] [Jungle] tiles>"
-		"[+1 Production] <with [1] to [6] neighboring [unimproved] [Hill] tiles>"
+		"[+1 Food] <with [1] to [6] neighboring [{unimproved} {Luxury resource}] tiles>"
+		"[+1 Production] <with [1] to [6] neighboring [{unimproved} {Bonus resource}] tiles>"
+		"[+1 Production] <with [1] to [6] neighboring [{unimproved} {Forest}] tiles><with [1] to [6] neighboring [{unimproved} {Jungle}] tiles>"
+		"[+1 Production] <with [1] to [6] neighboring [{unimproved} {Hill}] tiles>"
 		"[+1 Gold] <with [1] to [6] neighboring [unimproved] tiles>"
 		],
 	},
@@ -509,7 +486,7 @@
 		"turnsToBuild": 7,
 		"gold":1,
 		"uniques": [
-		"处于【激昂】状态时+1[Production]与[Gold]，研究文官制度后再提升1点\n处于【沉沦】状态时+1[Science]与[Culture]，研究文官制度后再提升1点[Gold]/[Culture]\n工业时代后+1[Production]与[Science]"
+		"Comment [处于【激昂】状态时+1[Production]与[Gold]，研究文官制度后再提升1点\n处于【沉沦】状态时+1[Science]与[Culture]，研究文官制度后再提升1点[Gold]/[Culture]\n工业时代后+1[Production]与[Science]]"
 		],
 		"techRequired": "Masonry",
 	},
