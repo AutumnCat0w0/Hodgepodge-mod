@@ -89,8 +89,8 @@
 			//"Doesn't generate naturally",
 			"Never receives any resources"
 	]
-		"civilopediaText": [
-		{"text":"只在艾雅法拉火山周围生成", "link":"艾雅法拉火山"}]
+		/*"civilopediaText": [
+		{"text":"只在艾雅法拉火山周围生成", "link":"艾雅法拉火山"}]*/
     "turnsInto": "Tundra",
     },
     
