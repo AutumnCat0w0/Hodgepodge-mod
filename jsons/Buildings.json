@@ -14,11 +14,11 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city"
-		"Gain control over [Coast] tiles in a [100]-tile radius<for [原始之地] Civilizations><hidden from users>"
-		"Gain control over [Ocean] tiles in a [100]-tile radius<for [原始之地] Civilizations><hidden from users>"
-		"Gain control over [Luxury resource] tiles in a [100]-tile radius<for [测试] Civilizations><hidden from users>"
+		"Gain control over [Coast] tiles in a [100]-tile radius<for [原始之地] Civilizations><for [Human player] Civilizations><hidden from users>"
+		"Gain control over [Ocean] tiles in a [100]-tile radius<for [原始之地] Civilizations><for [Human player] Civilizations><hidden from users>"
+		"Gain control over [Luxury resource] tiles in a [100]-tile radius<for [测试] Civilizations><for [Human player] Civilizations><hidden from users>"
 		
-		"Gain control over [Land] tiles in a [2]-tile radius<for [原始之地] Civilizations><hidden from users>"
+		"Gain control over [Land] tiles in a [2]-tile radius<for [原始之地] Civilizations><for [Human player] Civilizations><hidden from users>"
 		]
 	},
 
@@ -93,7 +93,7 @@
         "Unsellable",//无法出售
         "Comment [更大，更好，更强的政策]",
         "Automatically built in all cities where it is buildable<when [PatternStrongerPolicies] Victory is enabled> <hidden from users>"
-        "Unbuildable <when [PatternStrongerPolicies] Victory is disabled> <hidden from users>", //无法建造
+        "Unbuildable<hidden from users>", //无法建造
         "Only available <when [PatternStrongerPolicies] Victory is enabled> <hidden from users>",]
     },
     {//暗世界模式
@@ -102,7 +102,7 @@
         "uniques":[
         "Unsellable",//无法出售
         "Comment [总之，开了这个以后会让所有非初始单位变成瞎子]",
-        "Unbuildable <when [PatternDarkWorld] Victory is disabled> <hidden from users>", //无法建造
+        "Unbuildable<hidden from users>", //无法建造
 		"[All] units gain the [Dark World] promotion <hidden from users>"
         "Only available <when [PatternDarkWorld] Victory is enabled> <hidden from users>",]
     },
@@ -111,6 +111,7 @@
         "name": "PowerfulBarbarians",
         "cost": 0,
         "uniques":[
+        "Unbuildable<hidden from users>",
         "Unsellable",//无法出售
         "Comment [和蛮子互相殴打时，失去15%的战斗力，包括屏幕前的那位]",
         "Unbuildable <when [PatternPowerfulBarbarians] Victory is disabled> <hidden from users>", //无法建造
@@ -2674,7 +2675,7 @@
 		"hurryCostModifier": 0,
 		"uniques": [
 		"[-10]% Unhappiness from [Population] [in this city]"
-		"Remove extra unhappiness from annexed cities",
+		"Removes extra unhappiness from annexed cities",
 			],
 		"requiredTech": "Mathematics"
 	},
@@ -3505,6 +3506,43 @@
 			"Instantly gain [2] [Golden Age points] <upon turn end> <for every [Owned [Farm] Tiles]>"
 			"Instantly gain [2] [Golden Age points] <upon turn end> <for every [Owned [Plantation] Tiles]>"
 			"Instantly gain [2] [Golden Age points] <upon turn end> <for every [Owned [Camp] Tiles]>"]
+	},
+	{
+		"name": "Black Souls",//黑色灵魂
+		"uniqueTo": "Wonderland",
+		"replaces": "Monument",
+		"culture": 2,
+		"cost": 20,
+		"maintenance": 1,
+		"uniques": ["Destroyed when the city is captured",
+		"[+100]% production cost <for every [Adopted [All] Policies]><hidden from users>",
+		"[+1 Culture] <for every [Adopted [All] Policies]><hidden from users>",
+		"Comment [每推行1个政策造价+100%]",
+		"Comment [每推行1个政策+1[Culture]]",]
+	},
+	{
+		"name": "College",
+		"uniqueTo": "South Korea",
+		"replaces": "University",
+		"cost": 120,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+2 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Stargazing Terrace",
+		"uniqueTo": "South Korea",
+		"replaces": "Observatory",
+		"maintenance": 0,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountain]","Free Technology","Unsellable"],
+		"requiredTech": "Astronomy"
 	},
 	
 ]

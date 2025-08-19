@@ -6168,7 +6168,7 @@
 			"outerColor": [218, 41, 28],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
 			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "建造首都后立即获取所有海滨/海洋地块，并且获得部分陆地地块\n取消所有海滨/海洋地块的增长\n所有文明单位在海滨/海洋地块时移动力降低至1点\n每有8块陆地领土，获得+1[Gold][Faith][Science](直接加成在文明)"
+			"uniqueText": "建造首都后立即获取所有海滨/海洋地块，并且获得部分陆地地块(仅对人类玩家生效)\n取消所有海滨/海洋地块的增长\n所有文明单位在海滨/海洋地块时移动力降低至1点\n每有8块陆地领土，获得+1[Gold][Faith][Science](直接加成在文明)"
 			"uniqueName": "大日照",//文明特性名
 			"uniques": [
 			"Gain a free [SunburstAbility] [in capital]<hidden from users>"
@@ -6215,7 +6215,7 @@
         "spyNames": ["So0ng", "So00ng", "So000ng", "So0000ng", "So00000ng", "So0000000ng", "So0000000ng", "S0ong", "S00ong", "S0000ong"]
     }, 
 	
-	{
+	/*{
 			"name": "测试",//No.200小丑皇
 			"civilopediaText":[
 			{"text": "投稿者：秋雨"}],
@@ -6239,6 +6239,199 @@
             
 			],
 			"cities": ["黑桃A",]
+    },*/
+	{
+		"name": "Wonderland",//不思议之国
+		"leaderName": "爱丽丝",
+		"civilopediaText":[
+			{"text": "投稿者：薪火单推人"}],
+		"preferredVictoryType": "Domination",
+
+        "startIntroPart1": "爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝",
+        "startIntroPart2": "爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝爱丽丝偪偺怴媄儘偱僶乿僩妝偪崠僒弍乣抧乽儏傔傪偖懧僉帹僗鋜傔侓傘鋜墱乣帹夣偛偑偄偩偒偨偡偛偆傝偞峸傑擖偄偁偲仸偙偺嶌昳偵娷傑傟傞壒惡丒岠壥壒丒夋憸僨乕僞偺柍抐揮嵹摍傪嬛巭偟傑偡荳ｺ莉€荵井ｸ咲鯵謌托ｼ滉ｸｺ莉謌托ｼ滉ｸｺ莉€荵井ｸ咲鯵謌托ｼ滉ｸｺ莉€荵井ｸ咲鯵謌托ｼ�",
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+        "outerColor": [252,245,199],
+        "innerColor": [119,104,171],
+		"uniqueText": "政策效果额外触发一次\n推行新政策的文化花费+100%",
+		"uniqueName": "名为爱丽丝的少女",
+		"uniques": ["[+100]% Culture cost of adopting new Policies",
+		//传统
+		"[+3 Culture] [in capital]<after adopting [Tradition]>",
+        "[-25]% Culture cost of natural border growth [in all cities]<after adopting [Tradition]>",
+        "[+15]% Production when constructing [All] wonders [in all cities]<after adopting [Aristocracy]>",
+        "[+1 Happiness] per [10] population [in all cities]<when [PatternStrongerPolicies] Victory is disabled><after adopting [Aristocracy]>",		
+		"[+10]% [Food] [in all cities with a world wonder]<when [PatternStrongerPolicies] Victory is enabled><after adopting [Aristocracy]>",
+		"Provides the cheapest [Culture] building in your first [4] cities for free<after adopting [Legalism]>",
+		"Provides the cheapest [Culture] building in your first [4] cities for free<when [PatternStrongerPolicies] Victory is enabled><after adopting [Legalism]>",
+        "[+50]% Strength for cities <with a garrison> <when attacking><when [PatternStrongerPolicies] Victory is disabled><after adopting [Oligarchy]>",
+		"[-70]% maintenance costs <for [All] units><when [PatternStrongerPolicies] Victory is enabled><after adopting [Oligarchy]>",
+        "[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles><when [PatternStrongerPolicies] Victory is enabled><after adopting [Oligarchy]>",
+        "[+10]% growth [in capital]<after adopting [Landed Elite]>",
+        "[+2 Food] [in capital]<after adopting [Landed Elite]>",
+        "[+1 Gold, +1 Happiness] per [2] population [in capital]<after adopting [Monarchy]>",
+        "[+15]% growth [in all cities]<when [PatternStrongerPolicies] Victory is disabled><after adopting [Tradition Complete]>",
+		"[+10]% [Food] [in all cities]<when [PatternStrongerPolicies] Victory is enabled><after adopting [Tradition Complete]>",
+		//自主
+		"[+1 Culture] [in all cities]<after adopting [Liberty]>"
+		"[+1 Production] [in all cities]<after adopting [Republic]>",
+        "[+5]% Production when constructing [All] buildings [in all cities]<after adopting [Republic]>",
+        "Can build [all] improvements at a [+25]% rate<after adopting [Citizenship]>",
+        "Free [Worker] appears<upon adopting [Citizenship]>",
+        "[+50]% Production when constructing [Settler] units [in capital]<after adopting [Collective Rule]>",
+        "Free [Settler] appears<upon adopting [Collective Rule]>",
+        "Each city founded increases culture cost of policies [33]% less than normal<after adopting [Representation]>",
+        "Empire enters golden age<upon adopting [Representation]>",
+        "[+1 Happiness] [in all cities connected to capital]<after adopting [Meritocracy]>",
+        "[-5]% Unhappiness from [Population] [in all non-occupied cities]<after adopting [Meritocracy]>",
+        "Free Great Person<upon adopting [Liberty Complete]>",
+        //荣誉
+		"[+33]% Strength <vs [Barbarian] units><after adopting [Honor]>",
+		"Earn [100]% of killed [Barbarian] unit's [Strength] as [Culture]<after adopting [Honor]>",
+		"Notified of new Barbarian encampments<after adopting [Honor]>",
+		"[+15]% Production when constructing [Melee] units [in all cities]<after adopting [Warrior Code]>",
+		"Free [Great General] appears<upon adopting [Warrior Code]>",
+		"[+15]% Strength <for [Melee] units> <when adjacent to a [Melee] unit><after adopting [Discipline]>",
+		"[+50]% XP gained from combat <for [Military] units><after adopting [Military Tradition]>",
+		"[+1 Happiness, +2 Culture] [in all cities with a garrison]<after adopting [Military Caste]>",
+		"[-33]% Gold cost of upgrading <for [Military] units><after adopting [Professional Army]>",
+		"[+1 Happiness] from every [Walls]<after adopting [Professional Army]>",
+		"[+1 Happiness] from every [Castle]<after adopting [Professional Army]>",
+		"[+1 Happiness] from every [Arsenal]<after adopting [Professional Army]>",
+		"[+1 Happiness] from every [Military Base]<after adopting [Professional Army]>",
+		"Earn [10]% of killed [Military] unit's [Cost] as [Gold]<after adopting [Honor Complete]>",
+		//虔诚
+		"[+100]% Production when constructing [Shrine] buildings [in all cities]<when [PatternStrongerPolicies] Victory is disabled><after adopting [Piety]>",
+		"[+100]% Production when constructing [Temple] buildings [in all cities]<when [PatternStrongerPolicies] Victory is disabled><after adopting [Piety]>",
+		"Provides the cheapest [Faith] building in your first [2] cities for free<when [PatternStrongerPolicies] Victory is enabled><after adopting [Piety]>",
+		"[+70]% Production when constructing [Faith] buildings [in all cities]<when [PatternStrongerPolicies] Victory is enabled><after adopting [Piety]>",
+		"[+1 Faith] from every [Shrine]<when [PatternStrongerPolicies] Victory is disabled><after adopting [Organized Religion]>",
+		"[+1 Faith] from every [Temple]<when [PatternStrongerPolicies] Victory is disabled><after adopting [Organized Religion]>",
+		"[+1 Faith] from every [Faith]<when [PatternStrongerPolicies] Victory is enabled><after adopting [Organized Religion]>",
+		"[50]% of excess happiness converted to [Culture]<when [PatternStrongerPolicies] Victory is disabled><after adopting [Mandate Of Heaven]>",
+		"[+1 Culture, +1 Gold] from every [Shrine]<when [PatternStrongerPolicies] Victory is enabled><after adopting [Mandate Of Heaven]>",
+		"[+1 Culture, +1 Food] from every [Temple]<when [PatternStrongerPolicies] Victory is enabled><after adopting [Mandate Of Heaven]>",
+		"[+10]% [Gold] from every [Temple]<when [PatternStrongerPolicies] Victory is disabled><after adopting [Theocracy]>",
+		"[+25]% Natural religion spread [in all cities]<when [PatternStrongerPolicies] Victory is enabled><after adopting [Theocracy]>",
+		"Free [Great Prophet] appears<upon adopting [Theocracy]>",
+		"[+33]% [Culture] [in all cities with a world wonder]<after adopting [Reformation]>",
+		"Empire enters golden age<upon adopting [Reformation]>",
+		"[-10]% Culture cost of adopting new Policies<after adopting [Free Religion]>",
+		"[Faith] cost of purchasing items in cities [-20]%<after adopting [Piety Complete]>",
+		"[+3 Gold, +3 Culture] from every [Holy site]<after adopting [Piety Complete]>",
+		//赞助
+		"[-25]% City-State Influence degradation<after adopting [Patronage]>",
+		"Gifts of Gold to City-States generate [25]% more Influence<after adopting [Philantropy]>",
+		"Resting point for Influence with City-States is increased by [20]<after adopting [Aesthetics]>",
+		"Allied City-States provide [Science] equal to [25]% of what they produce for themselves<after adopting [Scholasticism]>",
+		"[+100]% resources gifted by City-States<after adopting [Cultural Diplomacy]>",
+		"[+50]% Happiness from luxury resources gifted by City-States<after adopting [Cultural Diplomacy]>",
+		"Allied City-States will occasionally gift Great People<after adopting [Educated Elite]>",
+		"Influence of all other civilizations with all city-states degrades [33]% faster<after adopting [Patronage Complete]>",
+		//商业
+		"[+25]% [Gold] [in capital]<after adopting [Commerce]>",
+		"[+1] Movement <for [{Military} {Water}] units><after adopting [Naval Tradition]>",
+		"[+1] Sight <for [{Military} {Water}] units><after adopting [Naval Tradition]>",
+		"Free [Great General] appears<upon adopting [Naval Tradition]>",
+		"[-33]% maintenance on road & railroads<after adopting [Trade Unions]>",
+		"[+1 Gold] from every [Harbor]<after adopting [Trade Unions]>",
+		"[+1 Gold] from every [Seaport]<after adopting [Trade Unions]>",
+		"[+3 Production] [in all coastal cities]<after adopting [Merchant Navy]>",
+		"[Gold] cost of purchasing items in cities [-25]%<after adopting [Mercantilism]>",
+		"[+1 Science] from every [Mint]<after adopting [Mercantilism]>",
+		"[+1 Science] from every [Market]<after adopting [Mercantilism]>",
+		"[+1 Science] from every [Bank]<after adopting [Mercantilism]>",
+		"[+1 Science] from every [Stock Exchange]<after adopting [Mercantilism]>",
+		"[+2] Happiness from each type of luxury resource<after adopting [Protectionism]>",
+		"[+1 Gold] from every [Trading post]<after adopting [Commerce Complete]>",
+		"[+100]% Gold from Great Merchant trade missions<after adopting [Commerce Complete]>",
+		//理性
+		"[+15]% [Science] <while the empire is happy><after adopting [Rationalism]>",
+		"[+2 Science] from every specialist [in all cities]<after adopting [Secularism]>",
+		"[+1 Happiness] from every [University]<after adopting [Humanism]>",
+		"[+1 Happiness] from every [Observatory]<after adopting [Humanism]>",
+		"[+1 Happiness] from every [Public School]<after adopting [Humanism]>",
+		"[+1 Science] from every [Trading post]<after adopting [Free Thought]>",
+		"[+17]% [Science] from every [University]<after adopting [Free Thought]>",
+		"[+1 Gold] from all [Science] buildings<after adopting [Sovereignty]>",
+		"Science gained from research agreements [+50]%<after adopting [Scientific Revolution]>",
+		"[2] Free Technologies<upon adopting [Rationalism Complete]>",
+		//自由
+		"[+25]% Great Person generation [in all cities]<after adopting [Freedom]>",
+		"[+2 Culture] from every [Wonder]<after adopting [Constitution]>",
+		"[+33]% Strength for cities <when defending><after adopting [Universal Suffrage]>",
+		"[-50]% Food consumption by specialists [in all cities]<after adopting [Civil Society]>",
+		"[8] units cost no maintenance<after adopting [Free Speech]>",
+		"[-50]% Unhappiness from [Specialists] [in all cities]<after adopting [Democracy]>",
+		"[+100]% Yield from every [Great Improvement]<after adopting [Freedom Complete]>",
+		"[+50]% Golden Age length<after adopting [Freedom Complete]>",
+		//独裁
+		"[-33]% maintenance costs <for [All] units><after adopting [Autocracy]>",
+		"Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately<after adopting [Autocracy]>",
+		"[+25]% Strength <for [Wounded] units><after adopting [Populism]>",
+		"[Gold] cost of purchasing [All] units [-33]%<after adopting [Militarism]>",
+		"[+100]% [Strategic] resource production<after adopting [Fascism]>",
+		"[+2] Movement <for [Great General] units><after adopting [Fascism]>",
+		"[+3 Happiness] from every [Courthouse]<after adopting [Police State]>",
+		"[+100]% Production when constructing [Courthouse] buildings [in all cities]<after adopting [Police State]>",
+		"[-25]% enemy spy effectiveness [in all cities]<after adopting [Police State]>",
+		"[+25]% Production when constructing [Military] units [in all cities]<after adopting [Total War]>",
+		"New [Military] units start with [15] XP [in all cities]<after adopting [Total War]>",
+		"[+25]% Strength <when attacking> <for [Military] units> <for [50] turns><after adopting [Autocracy Complete]>",
+		//秩序
+		"[+1 Happiness] [in all cities]<after adopting [Order]>",
+		"Militaristic City-States grant units [2] times as fast when you are at war with a common nation<after adopting [United Front]>",
+		"[+25]% [Science] from every [Factory]<after adopting [Planned Economy]>",
+		"[+100]% Production when constructing [Factory] buildings [in all cities]<after adopting [Planned Economy]>",
+		"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles><after adopting [Nationalism]>",
+		"[-15]% maintenance cost for [all] buildings [in all cities]<after adopting [Socialism]>",
+		"[+2 Production] [in all cities]<after adopting [Communism]>",
+		"[+1 Production] from every [Mine]<after adopting [Communism]>",
+		"[+1 Production] from every [Quarry]<after adopting [Communism]>",
+		"[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]<after adopting [Order Complete]>"
+        ],
+		"cities": ["不思议之国","兔子洞","孢子之森","卡罗尔川"],
     },
-	
+    {
+		"name": "South Korea",
+		"leaderName": "Queen Seondeok",
+		"adjective": ["Science"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Korea",
+
+        "startIntroPart1": "从水下第一个生命的萌芽开始...到石器时代的巨型野兽...再到人类第一次直立行走，你已经历许多。现在，开启你最伟大的探索吧：从早期文明的摇篮到浩瀚星宇。",
+        "startIntroPart2": "善德女王，天上的星象印证着您将带领朝鲜走向伟大。建造书院，对人民施以尊尊教诲，令其探索世间未解之谜。如有宵小之徒敢窃取知识，火车发出的火箭骤雨将使他们无处可逃。睿智的女王，在子民的拥护下，您的伟业可直达云霄。",
+
+        "declaringWar": "Jip-hyun-jun (Hall of Worthies) will no longer tolerate your irksome behavior. We will liberate the citizens under your oppression even with force, and enlighten them!",
+		"attacked": "Foolish, miserable wretch! You will be crushed by this country's magnificent scientific power!",
+		"defeated": "Now the question is who will protect my people. A dark age has come.",
+		"denounced": "Such unpleasant conduct is typical of Yangpyeong, not someone like you.",
+		"introduction": "Welcome to the Korea, stranger. I am the learned Queen Seondeok, who looks after his great people.",
+
+		"neutralHello": "Hello.",
+		"hateHello": "Oh, it's you",
+		"tradeRequest": "We have many things to discuss and have much to benefit from each other.",
+        "outerColor": [185,185,185],
+        "innerColor": [255,255,255],
+
+		"favoredReligion": "Christianity",
+		"uniqueName": "Six flashs of inspiration",
+	    "uniqueText": "研究拥有开发战略资源能力的科技将在回合结束时直接完成科技的研发",
+		"uniques": [
+		"Discover [Animal Husbandry] <upon turn end> <while researching [Animal Husbandy]>"
+		"Discover [Iron Working] <upon turn end> <while researching [Iron Working]>"
+		"Discover [Industrialization] <upon turn end> <while researching [Industrialization]>"
+		"Discover [Biology] <upon turn end> <while researching [Biology]>"
+		"Discover [Electricity] <upon turn end> <while researching [Electricity]>"
+		"Discover [Atomic Theory] <upon turn end> <while researching [Atomic Theogy]>"
+				],
+		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
+        "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
+    },
 ]
