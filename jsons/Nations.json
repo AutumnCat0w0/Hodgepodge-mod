@@ -502,7 +502,7 @@
     {
 		"name": "SP-Egypt",//埃及改
 		"civilopediaText":[
-        {"text": "投稿者：潜水"}],
+        {"text": "设计者：潜水"}],
 		"leaderName": "Ramesses II",
 		"adjective": ["Egyptian"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]", "[Flood plains]"],
@@ -541,7 +541,7 @@
     {
 		"name": "SP-India",//SP印度
 		"civilopediaText":[
-        {"text": "投稿者：恶"}],
+        {"text": "设计者：恶"}],
 		"leaderName": "Gandhi",
 		"adjective": ["Indian"],
 		"startBias": ["Grassland"],
@@ -574,7 +574,7 @@
     {
 		"name": "SP-America",//SP美国 SP美利坚
 		"civilopediaText":[
-        {"text": "投稿者：苏莱曼十一世"}],
+        {"text": "设计者：苏莱曼十一世"}],
 		"leaderName": "罗斯福",
 		"adjective": ["American"],
 		"preferredVictoryType": "Scientific",
@@ -592,8 +592,8 @@
         "outerColor": [ 28,51,119],
         "innerColor": [255,255,255],
         "favoredReligion": "Christianity",
-        "uniqueText": "自然奇观/山脉/沼泽+1[Culture]与[Science]，自然奇观与山脉周围没有设施或仅拥有保护区时额外+2[Culture]+1[Science]（市中心不计入设施）\n未开发的[Jungle]与非资源地块[Forest]+1[Science]"
-		"uniqueName": "自然魅力",
+        "uniqueText": "Natural Wonder/Mountain/Marsh+1[Culture] and [Science], Natural Wonder and Mountain receive an additional +2[Culture]+1[Science] when surrounded by no improvements or only Preserve (City Center does not count as an improvement)\nUnimproved [Jungle] and non-resource [Forest] tiles+1[Science]"	//"自然奇观/山脉/沼泽+1[Culture]与[Science]，自然奇观与山脉周围没有设施或仅拥有保护区时额外+2[Culture]+1[Science]（市中心不计入设施）\n未开发的[Jungle]与非资源地块[Forest]+1[Science]"
+		"uniqueName": "Natural Charm",//自然魅力
 		"uniques": [
 		"[+3 Culture, +2 Science] from [Mountain] tiles [in this city]",//山脉产出
 		"[+3 Culture, +2 Science] from [{Natural Wonder} {non-[Mountain]}] tiles [in this city]",//奇观产出
@@ -631,7 +631,7 @@
 	{
 		"name": "SP-Byzantium",//SP拜占庭
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Theodora",
 		"adjective": ["Byzantine"],
 		"startBias": ["Coast"],
@@ -649,8 +649,8 @@
 		"outerColor": [114, 162, 233],
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
-		"uniqueText": "军事单位在信仰我方宗教的敌方城市中+15%战斗力\n第12回合开始，军事单位在信仰我方宗教的城市的4格范围内被击杀时，获取其战斗力100%的[Faith]与50%的[Culture]\n我方单位击杀军事单位时获取其战斗力30%的[Faith]"
-		"uniqueName": "君权神授",
+		"uniqueText": "Military units gain +15% [Strength] in enemy cities following your religion\nAfter turn 12, grants 100% of the [Strength] as [Faith] and 50% as [Culture] when military units are killed within 4 tiles of your religion's cities\nGrants 30% of the [Strength] as [Faith] when your units kill military units"//军事单位在信仰我方宗教的敌方城市中+15%战斗力\n第12回合开始，军事单位在信仰我方宗教的城市的4格范围内被击杀时，获取其战斗力100%的[Faith]与50%的[Culture]\n我方单位击杀军事单位时获取其战斗力30%的[Faith]
+		"uniqueName": "Divine Right"//君权神授",
 		"uniques": [
 		"[+15]% Strength<for [All] units><in cities following our religion><in [Foreign Land] tiles>"
 		"[Military] units gain the [Crusades] promotion"
@@ -666,6 +666,40 @@
 			"Patra", "Korinthos"],
         "spyNames": ["Basil", "Nikophoros", "Demetrios", "Philippos", "Theophylaktos", "Simonis", "Zoe", "Ioanno", "Xene", "Euphrosyne"]
     },
+	
+	{
+			"name": "SP-VampirE",//SP黄巾军
+			"civilopediaText":[
+        {"text": "设计者：苏莱曼十一世&抚意wind"}],
+			"leaderName": "张角",
+			"adjective": ["VampirE"],
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教
+		"startIntroPart1": "咕咕咕",
+		"startIntroPart2": "咕咕咕",
+		"declaringWar": "咕咕！",
+		"attacked": "咕咕！",
+		"defeated": "咕咕.",
+		"introduction": "咕咕.",
+		"neutralHello": "咕咕咕",
+		"neutralLetsHearIt": [ "咕咕咕" ],
+		"neutralNo": [ "咕咕咕" ],
+		"neutralYes": [ "咕咕咕" ],
+		"hateHello": "咕咕咕",
+		"hateLetsHearIt": [ "咕咕咕" ],
+		"hateNo": [ "咕咕咕" ],
+		"hateYes": [ "咕咕咕" ],
+		"afterPeace": "咕咕咕",
+		"tradeRequest": "咕咕咕",
+		"outerColor": [ 241, 3, 0 ],
+		"innerColor": [ 80, 11, 14 ],
+		"uniqueText": "Military units gain +15% Combat Strength in enemy cities following your Religion\nStarting from turn 12, when a military unit is killed within 4 tiles of a city following your Religion, gain [Faith] equal to 100% of its Combat Strength and [Culture] equal to 50% of its Combat Strength\nWhen your units kill military units, gain [Faith] equal to 30% of their Combat Strength"//每座城市[Faith]收入+25%\n可以用1倍成本的[Faith]购买陆地军事单位\n军事单位-15%战斗力",
+		"uniqueName": "Heaven Dead, Yellow Sky Rises"//苍天已死，黄天当立", //文明特性名
+		"uniques": [
+			"[+25]% [Faith] [in all cities]"
+"May buy [{Military} {Land} {non-[Diglett]} {non-[FineHair]}] units with [Faith] for [1] times their normal Production cost"
+             "[-15]% Strength"], //文明特性具体效果
+		"cities": ["苍天已死","黄天当立"]
+	}
     
     {
 		"name": "Qin-China",//秦-中华
@@ -688,7 +722,7 @@
         "innerColor": [255,255,255],
 
 		"favouredReligion": "Taoism",
-		"uniqueName": "没有水泡",
+		"uniqueName": "Blister-Free March"//没有水泡",
 		"uniques": [
 		/*"[Worker] units gain the [Labourer I] promotion"
 		"Provides [-1] [AcceleratingWonders]<when above [0] [AcceleratingWonders]>"//清空*/
@@ -706,7 +740,7 @@
     {
 			"name": "Dovecote",//鸽子窝
 			"civilopediaText":[
-        {"text": "投稿者：云咕咕"}],
+        {"text": "设计者：云咕咕"}],
 			"leaderName": "云咕咕",
 			"adjective": ["鸽子窝"],
 		"startBias": ["Forest"],//起始偏好
@@ -724,9 +758,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [10, 66, 175],//文明内部色*
 			"innerColor": [8,25,5],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "奇观上瘾",//文明特性名
+			"uniqueName": "Wonder Addiction"//奇观上瘾",//文明特性名
 			"uniques": [
 		"[+15]% Production when constructing [All] wonders [in all cities]"//奇观加速
 		"[+1 Food] from every [Wonder]"
@@ -742,7 +776,7 @@
 	{
 			"name": "Fox's Nest",//狐狸窝
 			"civilopediaText":[
-        {"text": "投稿者：墨明棋妙的狐狸"}],
+        {"text": "设计者：墨明棋妙的狐狸"}],
 			"leaderName": "墨明棋妙的狐狸",
 			"adjective": ["狐狸窝"],
 		"startBias": ["Forest"],//起始偏好
@@ -760,9 +794,9 @@
             "tradeRequest": "来看看吧,你有什么需要的。",//向玩家申请交易时
 			"outerColor": [120, 86, 125],//文明内部色*
 			"innerColor": [85,25,35],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "守业",//文明特性名
+			"uniqueName": "Legacy Safeguarding",//文明特性名 守业
 			"uniques": [
 		"[All] Units adjacent to this city heal [+15] HP per turn when healing"//临近城市回血
 		"[+30]% Strength for cities <with a garrison>"
@@ -776,13 +810,13 @@
 	{
 			"name": "War",//【战争】
 			"civilopediaText":[
-        {"text": "投稿者：阁德"}],
+        {"text": "设计者：阁德"}],
 			"leaderName": "德维尔",
 			"adjective": ["战争与不败之神"],
 		//"startBias": ["El Dorado"],//起始偏好
 		"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		
-			"startIntroPart1": "名为【战争】却是最和平安稳的国度,外有信仰凝成的晶壁阻隔虚空中的风暴,内有身为众神之首的你终止所有纷争
+			"startIntroPart1":"名为【战争】却是最和平安稳的国度,外有信仰凝成的晶壁阻隔虚空中的风暴,内有身为众神之首的你终止所有纷争
       ",//介绍1
 			"startIntroPart2": "然而再坚实的壁垒都抵不住时间的流逝,特别是构成这壁垒的还是最易变更的人心,更别提,这信仰所带来的同化正在慢慢将神转化为疯子,你虽意识到但却以无力改变,但这并不重要,一个全新的世界正摆在您的面前,来吧！去征服！去为您的子民找寻一个全新的未来！",
 			"declaringWar": "报歉,但我必须这么做",//向玩家宣战
@@ -794,9 +828,9 @@
             "tradeRequest": "*战争之主同意向贵方提供庇护*",//向玩家申请交易时
 			"outerColor": [120, 6, 25],//文明内部色*
 			"innerColor": [175,5,44],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "圣都",//文明特性名
+			"uniqueName": "Holy Capital"//圣都",//文明特性名
 			"uniques": [
 		"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [50]% chance>",
 		"[+10]% Strength <for [Wounded] units>"//受伤的单位+10%力
@@ -809,14 +843,13 @@
 	{
 			"name": "Knowledge",//【知识】
 			"civilopediaText":[
-        {"text": "投稿者：阁德"}],
+        {"text": "设计者：阁德"}],
 			"leaderName": "帕拉多克斯",
 			"adjective": ["智慧与学识之主"],
 		//"startBias": ["El Dorado"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 		
-			"startIntroPart1": "此为智识之地,无数学者聚集于此,或许这里比起国度,更像是一个大型研讨会,而这其中所有的研究成果都只是为了取悦那位尊上,虽然伟大的智慧之主不接纳任何信徒就是了
-",//介绍1
+			"startIntroPart1": "此为智识之地,无数学者聚集于此,或许这里比起国度,更像是一个大型研讨会,而这其中所有的研究成果都只是为了取悦那位尊上,虽然伟大的智慧之主不接纳任何信徒就是了",//介绍1
 			"startIntroPart2": "智慧与学识之主,文明的记录者,历史的传述者……你曾有过很多称谓,但你知道,这些毫无用处,你早已预见了友人的结局却无法逆转,按剧本走下去？不！这种苦果品鉴的已经够多了",//介绍2
 			//
 			"declaringWar": "放心,这只是一次友好的切磋,我保证",//向玩家宣战
@@ -829,9 +862,9 @@
 			"outerColor": [120, 86, 25],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
 
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "从远古时代开始,在10回合后,所有城市获得+1 [Science],并且获得此特性获得的[Science]2倍的[Gold]与1/2的[Culture],直到启蒙时代为止,每过一个时代使此特性获得的[Science]+1"
-			"uniqueName": "记录,编纂,传承",//文明特性名
+			
+			"uniqueText": "From the Ancient Era, after 10 turns, all cities gain +1 [Science], and receive [Gold] equal to twice the [Science] provided by this ability and [Culture] equal to half (rounded down). This effect lasts until the Enlightenment Era, with the [Science] yield increasing by +1 per era"//从远古时代开始,在10回合后,所有城市获得+1 [Science],并且获得此特性获得的[Science]*2的[Gold]与1/2的[Culture]（向下取整）。\n直到启蒙时代为止,每过一个时代使此特性获得的[Science]+1"
+			"uniqueName": "Recording, Compilation, Inheritance"//记录,编纂,传承",//文明特性名
 			"uniques": [
 		"[+1 Science, +2 Gold] [in all cities]<after turn number [10]><during the [Ancient era]>"
 		"[+2 Science, +4 Gold, +1 Culture] [in all cities]<during the [Classical era]>"
@@ -846,7 +879,7 @@
 	{
 			"name": "Freedom Wings",//自由者之翼
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "翎羽",
 			"adjective": ["自由者之翼"],
 		"startBias": ["Mountain"],//起始偏好
@@ -864,9 +897,9 @@
             "tradeRequest": "我们的商队到访了。",//向玩家申请交易时
 			"outerColor": [128, 138, 135],//文明内部色*
 			"innerColor": [25,25,135],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "俯瞰世界",//文明特性名
+			"uniqueName": "Overlooking the World"//俯瞰世界",//文明特性名
 			"uniques": [
 			"[+1] Sight <for [All] units>",//增加视野
 		"[Land] units gain the [Wings of Freedom] promotion"
@@ -880,7 +913,7 @@
 	{
 			"name": "WU",//东吴
 			"civilopediaText":[
-        {"text": "投稿者：蓝天"}],
+        {"text": "设计者：蓝天"}],
 			"leaderName": "孙策",
 			"adjective": ["东吴"],
 		"startBias": ["Coast"],//起始偏好
@@ -897,9 +930,9 @@
             "tradeRequest": "哈哈哈哈哈哈哈！",//向玩家申请交易时
 			"outerColor": [100, 66, 175],//文明内部色*
 			"innerColor": [8,25,5],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "据险而守",//文明特性名
+			"uniqueName": "Hold the Advantageous Position"//据险而守",//文明特性名
 			"uniques": [
 		"[+15]% Strength <in [Fresh water] tiles><when defending>",
 		"[-50]% maintenance on road & railroads"
@@ -911,7 +944,7 @@
 	{
 			"name": "SHU",//蜀汉
 			"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 			"leaderName": "刘备",
 			"adjective": ["季汉"],
 		//"startBias": ["Forest"],//起始偏好
@@ -927,9 +960,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 166, 205],//文明内部色*
 		"innerColor": [98,0,95],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "直百钱",//文明特性名
+		"uniqueName": "Zhibai Coin"//直百钱",//文明特性名
 		"uniques": [
 	    "Gain a free [Market] [in all cities]"
 	    "[+1 Gold] [in all cities]<after discovering [Currency]>",
@@ -942,7 +975,7 @@
 	{
 			"name": "Dog Order",//汪神教
 			"civilopediaText":[
-        {"text": "投稿者：带汪神"}],
+        {"text": "设计者：带汪神"}],
 			"leaderName": "群汪神",
 			"adjective": ["狗窝"],
 		//"startBias": ["Forest"],//起始偏好
@@ -959,9 +992,9 @@
             "tradeRequest": "这是你表达臣服的好机会",//向玩家申请交易时
 			"outerColor": [0, 0, 0],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "又狗又好撅",//文明特性名
+			"uniqueName": "Dogs Who Dig"//又狗又好撅",//文明特性名
 			"uniques": [
 		"When conquering an encampment, earn [10] Gold and recruit a Barbarian unit <with [50]% chance>",
 		"[-6]% Strength for cities"
@@ -976,7 +1009,7 @@
 	{
 			"name": "Bird's Nest",//鸟窝
 			"civilopediaText":[
-        {"text": "投稿者：鹦鹉(半藏)"}],
+        {"text": "设计者：鹦鹉(半藏)"}],
 			"leaderName": "半藏鹦鹉",
 			"adjective": ["鸟窝"],
 		"startBias": ["Forest"],//起始偏好
@@ -993,9 +1026,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [90, 166, 205],//文明内部色*
 		"innerColor": [98,25,95],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "我们就这德性",//文明特性名
+		"uniqueName": "This Is Our Nature"//我们就这德性",//文明特性名
 		"uniques": [
 	    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
 	   "Receive triple Gold from Barbarian encampments and pillaging Cities",//
@@ -1010,7 +1043,7 @@
 	{
 			"name": "Animal Home",//小竹屋 动物大家庭！
 			"civilopediaText":[
-        {"text": "投稿者：竹纸"}],
+        {"text": "设计者：竹纸"}],
 			"leaderName": "竹纸",
 			"adjective": ["小竹屋"],
 		//"startBias": ["Forest"],//起始偏好
@@ -1028,9 +1061,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [110, 66, 175],//文明内部色*
 			"innerColor": [118,125,115],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "是生机勃勃的地方！",//文明特性名
+			"uniqueName": "A Thriving Place!"//是生机勃勃的地方！",//文明特性名
 			"uniques": [
 		"[+1 Culture] [in all cities] <with [1] to [6] neighboring [Bonus resource] tiles>",
 			"[+1 Production] [in all cities] <with [2] to [6] neighboring [Bonus resource] tiles>",
@@ -1043,7 +1076,7 @@
 	{
 		"name": "Dovecote lightning",//鸽子窝 闪电
 		"civilopediaText":[
-        {"text": "投稿者：闪电"}],
+        {"text": "设计者：闪电"}],
 		"leaderName": "⚡",
 		"preferredVictoryType": "Domination",
 		"startBias": ["Horses"],		
@@ -1055,7 +1088,7 @@
 		"neutralHello": "来吧！我慷慨的朋友！",
 		"hateHello": "让我们坐下来好好谈谈,好吗？",
 		"tradeRequest":"这对我们都有好处,我喜欢这样！",
-              "uniqueName": "发育！发育！发育！",		
+              "uniqueName": "Develop! Develop! Develop!"//发育！发育！发育！",		
               "uniques": [
               "[+1 Food] [in this city]<in cities with at least [2] [Population]>",
 		//"[+1 Food] [in all cities]",
@@ -1072,7 +1105,7 @@
 	{
 		"name": "Glenn Empire",//格伦帝国
 		"civilopediaText":[
-        {"text": "投稿者：探索者"}],
+        {"text": "设计者：探索者"}],
 		"leaderName": "探索者",
         "adjective": ["格伦帝国"],
 		"startBias": ["Forest"],//起始偏好
@@ -1087,14 +1120,14 @@
 		"tradeRequest": "希望你接受它",//
 			"outerColor": [110, 66, 175],//文明内部色*
 			"innerColor": [118,125,115],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "高掌远拓",//文明特性名
+			"uniqueName": "Expanding Territories"//高掌远拓",//文明特性名
 			"uniques": [
 			"Improves movement speed on roads",//道路1/3
 			"[-33]% maintenance on road & railroads"
 			"Units ignore terrain costs when moving into any tile with Hills",//丘陵不消耗移动
-			"May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost",//买兵
+			"May buy [{Military} {Land} {non-[伪UU]}] units with [Faith] for [2] times their normal Production cost",//买兵
 			"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",//杀人拿
 			
 		
@@ -1108,7 +1141,7 @@
 	{
 			"name": "The Paths of the Dead",//亡者之路
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "安兹●乌",
 			"adjective": ["不死者之王"],
 		//"startBias": ["Forest"],//起始偏好
@@ -1125,9 +1158,9 @@
         "tradeRequest": "来各取所需吧！",//向玩家申请交易时
         "outerColor": [205, 255, 205],//文明内部色*
 		"innerColor": [10,15,15],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[-20]% [Science]和[Culture] [in all cities]\n击杀[Military]后获得[Strength] [50]%的[Science][Culture]\n所有 [Military] 获得 [The Undead Comes] 晋升"
-		"uniqueName": "不死者之王",//文明特性名
+		
+		"uniqueText": "[-20]% [Science] and [Culture] [in all cities]\nGain [Science] and [Culture] equal to [50]% of [Strength] when killing [Military] units\nAll [Military] units gain [The Undead Comes] promotion"//[-20]% [Science]和[Culture] [in all cities]\n击杀[Military]后获得[Strength] [50]%的[Science][Culture]\n所有 [Military] 获得 [The Undead Comes] 晋升"
+		"uniqueName": "The Undying"//不死者",//文明特性名
 		"uniques": [
 		"[-20]% [Science] [in all cities]",
 		"[-20]% [Culture] [in all cities]",
@@ -1143,7 +1176,7 @@
 	{
 			"name": "VampirE",//黄巾军
 			"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 			"leaderName": "张角",
 			"adjective": ["VampirE"],
 		"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1160,9 +1193,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [150, 66, 75],//文明内部色*
 			"innerColor": [228,25,5],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "岁在甲子,天下大吉",//文明特性名
+			"uniqueName": "Year of Jiazi, Great Fortune"//岁在甲子,天下大吉",//文明特性名
 			"uniques": [
 		"[+1 Production, -1 Food] from every [Pasture]", 
 		"[+1 Production, -1 Food] from every [Farm]",
@@ -1176,7 +1209,7 @@
 	{
 			"name": "Canine chieftain basement",//犬酋地下室
 			"civilopediaText":[
-        {"text": "投稿者：犬娘翁温"}],
+        {"text": "设计者：犬娘翁温"}],
 			"leaderName": "犬娘酋长",
 			"adjective": ["犬娘酋长"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1193,9 +1226,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [150, 166, 75],//文明内部色*
 			"innerColor": [28,25,5],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "挖地洞",//文明特性名
+			"uniqueName": "Digging Tunnels"//挖地洞",//文明特性名
 			"uniques": [
 		"[+20]% Strength <when defending>"
 		"[-20]% Strength <when attacking>"
@@ -1207,7 +1240,7 @@
 	{
 			"name": "SP-Canine chieftain basement",//SP犬娘酋长
 			"civilopediaText":[
-        {"text": "投稿者：犬娘翁温"}],
+        {"text": "设计者：犬娘翁温"}],
 			"leaderName": "犬娘酋长",
 			"adjective": ["犬娘酋长"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1224,9 +1257,9 @@
             "tradeRequest": "这就是,条件了。",//向玩家申请交易时
 			"outerColor": [150, 166, 75],//文明内部色*
 			"innerColor": [28,25,5],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "懦弱,苟且,但坚毅的反抗",//文明特性名
+			"uniqueName": "Cowardly but Tenacious Resistance"//懦弱,苟且,但坚毅的反抗",//文明特性名
 			"uniques": [
 			"Units ignore terrain costs when moving into any tile with Hills",//丘陵不消耗移动
 		"[+40]% Strength <when defending>"
@@ -1243,7 +1276,7 @@
 	{
 			"name": "Acrisis",//爱克里西斯
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "爱希莉亚",
 			"adjective": ["炼金之国"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1259,9 +1292,9 @@
             "tradeRequest": "庆贺吧,爱克里西斯的商队来到了此地。",//向玩家申请交易时
 			"outerColor": [255, 215, 000],//文明内部色*
 			"innerColor": [218,25,95],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "炼金秘术",//文明特性名
+			"uniqueName": "Secret Art of Alchemy"//炼金秘术",//文明特性名
 			"uniques": [
 		"Free [Worker] appears <upon constructing [Fengrao Monument]>"
 		//"[+2]% Yield from every [Faith]"
@@ -1273,7 +1306,7 @@
 	{
 			"name": "WEI",//曹魏
 			"civilopediaText":[
-        {"text": "投稿者：蓝天"}],
+        {"text": "设计者：蓝天"}],
 			"leaderName": "曹操",
 			"adjective": ["曹操"],
 		"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1289,9 +1322,9 @@
             "tradeRequest": "我有嘉宾,鼓瑟吹笙",//向玩家申请交易时
 			"outerColor": [85, 85, 142],//文明内部色*
 			"innerColor": [0,0,0],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "屯田法",//文明特性名
+			"uniqueName": "Tuntian System"//屯田法",//文明特性名
 			"uniques": [
 		"[+2 Gold] from [Farm] tiles [in this city]",
 		"[+1 Gold] from [Bonus resource] tiles [in all cities] <after discovering [Currency]>",
@@ -1304,7 +1337,7 @@
 	{
 			"name": "Yunshan Tea House",//云山茶楼
 			"civilopediaText":[
-        {"text": "投稿者：云咕咕"}],
+        {"text": "设计者：云咕咕"}],
 			"leaderName": "咕咕子",
 			"adjective": ["咕咕子"],
 			"startBias": ["Hill"],//起始偏好
@@ -1322,9 +1355,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [150, 166, 75],//文明内部色*
 			"innerColor": [28,25,5],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "重商主义",//文明特性名
+			"uniqueName": "Mercantilism"//重商主义",//文明特性名
 			"uniques": [
 		"[+2 Gold, +2 Science] from each Trade Route", 
 		"[+50]% [Gold] from Trade Routes"
@@ -1339,7 +1372,7 @@
 	{
 			"name": "Blue Jay Professoriate",//蓝鸦教团
 			"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 			"leaderName": "格瑞夫·伊莎贝尔",
 			"adjective": ["格瑞夫·伊莎贝尔"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1355,9 +1388,9 @@
             "tradeRequest": "教会的发展需要您的支持,请务必同意吧......",//向玩家申请交易时
 			"outerColor": [29,188,164],//文明内部色*
 			"innerColor": [245,183,15],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "我是你的救世主",//文明特性名
+			"uniqueName": "I Am Your Savior"//我是你的救世主",//文明特性名
 			"uniques": [
 		"[+1 Faith] [in all cities]",
 		//"[-10]% Strength <in [Rough terrain] tiles>",
@@ -1372,7 +1405,7 @@
 	{
 			"name": "Star Trailblazer",//星之开拓者
 			"civilopediaText":[
-        {"text": "投稿者：骰子"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "星噬",
 			"adjective": ["星噬"],
 		"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1389,9 +1422,9 @@
             "tradeRequest": "做笔交易如何？",//向玩家申请交易时
 			"outerColor": [0, 63, 226],//文明内部色*
 			"innerColor": [100,30,48],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "获得免费的[Courthouse] [in annexed cities]\n[-77]% 产生的不快乐 [Population] [in annexed cities]\n吞并的城市增加30%[Science][Production][Culture][Faith][Gold][Food]产出。\n显示全部地图"
-			"uniqueName": "群星之噬",//文明特性名
+			
+			"uniqueText": "Free [Courthouse] [in annexed cities]\n[-77]% Unhappiness from [Population] [in annexed cities]\nAnnexed cities produce 30% more [Science][Production][Culture][Faith][Gold][Food]\nReveals entire map"//获得免费的[Courthouse] [in annexed cities]\n[-77]% 产生的不快乐 [Population] [in annexed cities]\n吞并的城市增加30%[Science][Production][Culture][Faith][Gold][Food]产出。\n显示全部地图"
+			"uniqueName": "Devourer of Stars"//群星之噬",//文明特性名
 			"uniques": [
 		"Reveals the entire map"
 		"Gain a free [Courthouse] [in annexed cities]"
@@ -1412,7 +1445,7 @@
 	{
 			"name": "Craftsman's Cabin",//奇匠屋
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "姬特",
 			"adjective": ["姬特"],
 			"startBias": ["Desert"],//起始偏好
@@ -1430,9 +1463,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [255, 143, 126],//文明内部色*
 			"innerColor": [255,0,128],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "建造提供[Science]的建筑/奇观时提供随机数量的[Science],如果是提供[Science]的世界奇观,则额外提供一次。"
-			"uniqueName": "三匠之才",//文明特性名
+			
+			"uniqueText": "Constructing [Science]-providing buildings/wonders grants random amount of [Science], with an additional bonus for [Science]-providing world wonders"//建造提供[Science]的建筑/奇观时提供随机数量的[Science],如果是提供[Science]的世界奇观,则额外提供一次。"
+			"uniqueName": "Three Artisans' Talents"//三匠之才",//文明特性名
 			"uniques": [
 			"Gain [30]-[80] [Science] <upon constructing [Science]>"
 			"Gain [30]-[80] [Science] <upon constructing [Wonder]>"
@@ -1445,7 +1478,7 @@
 	{
 			"name": "Gini Taimei",//基尼台美
 			"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 			"leaderName": "小嘿子",
 			"adjective": ["姬"],
 		//"startBias": ["Forest"],//起始偏好
@@ -1461,9 +1494,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 	    "outerColor": [190, 16, 205],//文明内部色*
 		"innerColor": [198,25,95],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "特别寄",//文明特性名
+		"uniqueName": "Special Delivery"//特别寄",//文明特性名
 		"uniques": [
 	    "[+15]% Food is carried over after population increases [in all cities]"
 	    //"[+50]% Unhappiness from [Population] [in all cities]"
@@ -1475,7 +1508,7 @@
 	{
 			"name": "Xia Dynasty",//夏尔王朝
 			"civilopediaText":[
-        {"text": "投稿者：潜水"}],
+        {"text": "设计者：潜水"}],
 			"leaderName": "伯克里●夏尔",
 			"adjective": ["夏尔"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1490,9 +1523,9 @@
 "tradeRequest": "希望你可以同意",//向玩家申请交易时
 			"outerColor": [255, 175, 28],//文明内部色*
 			"innerColor": [240,234,0],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "军政不一",//文明特性名
+			"uniqueName": "Military-Civil Disunity"//军政不一",//文明特性名
 			"uniques": [
 		"[-10]% Production when constructing [All] buildings [in all cities]"
 		"[+20]% Production when constructing [Military] units [in all cities]"
@@ -1504,7 +1537,7 @@
 	{
 		"name": "Gamila",//伽弥勒
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "伽弥勒",
 		"adjective": ["伽弥勒"],
 		"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1519,9 +1552,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [238, 53, 226],//文明内部色*
 		"innerColor": [110,0,128],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "研究远古时代科技获得对应陆地军事单位\n组建骑乘单位时+15%，黄金时代额外+15%\n军事单位无需维护费"
-		"uniqueName": "不灭英魂",//文明特性名
+		
+		"uniqueText": "Researching Ancient Era technologies grants corresponding land military units\n+15% production toward mounted units, +15% more during Golden Ages\nMilitary units require no maintenance"//研究远古时代科技获得对应陆地军事单位\n组建骑乘单位时+15%，黄金时代额外+15%\n军事单位无需维护费"
+		"uniqueName": "Undying Heroic Spirits"//不灭英魂",//文明特性名
 		"uniques": [
 		"Free [Wakili] appears <upon discovering [Bronze Working] technology>"
 		"Free [Archer] appears <upon discovering [Archery] technology>"
@@ -1537,7 +1570,7 @@
 	{
 		"name": "Mostock",//莫斯托克
 		"civilopediaText":[
-        {"text": "投稿者：雷"}],
+        {"text": "设计者：雷"}],
 		"leaderName": "布莱特科夫",
 		"adjective": ["x"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1552,9 +1585,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [8, 43, 226],//文明内部色*
 		"innerColor": [80,0,18],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "所有[Science]建筑+1[Production]\n处于黄金时代时对骑乘单位+1移动"
-		"uniqueName": "远视之邦",//文明特性名
+		
+		"uniqueText": "All [Science] buildings provide +1[Production]\n+1 [Movement] for mounted units during Golden Ages"//所有[Science]建筑+1[Production]\n处于黄金时代时对骑乘单位+1移动"
+		"uniqueName": "Far-Sighted Nation"//远视之邦",//文明特性名
 		"uniques": [
 		"[+1 Production] from every [Science]"
 		"[+1] Movement <for [Mounted] units> <during a Golden Age>",
@@ -1566,7 +1599,7 @@
 	{
 		"name": "Rune Continent",//符文大陆
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "LXL",
 		"adjective": ["x"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1581,9 +1614,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [118, 143, 6],//文明内部色*
 		"innerColor": [0,110,18],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": "杀人获取100%战力的金钱"
-		"uniqueName": "G世界",//文明特性名
+		"uniqueName": "G World"//G世界",//文明特性名
 		"uniques": [
 		"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
 			],//文明特性具体效果
@@ -1595,7 +1628,7 @@
 	{
 		"name": "Recalling nothingness",//追忆虚无
 		"civilopediaText":[
-        {"text": "投稿者：Dead Life"}],
+        {"text": "设计者：Dead Life"}],
 		"leaderName": "寒念",
 		"adjective": ["x"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1610,7 +1643,7 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [118, 1, 6],//文明内部色*
 		"innerColor": [0,0,118],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		"uniqueName": "All for human",//文明特性名
 		"uniques": [
 		"[+1] Movement <for [Mounted] units>",
@@ -1622,7 +1655,7 @@
 	{
 		"name": "ikun",
 		"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 		"leaderName": "蔡虚鲲",
 		"adjective": ["x"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1637,8 +1670,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [8, 151, 6],//文明内部色*
 		"innerColor": [60,0,15],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueName": "人人爱鲲",//文明特性名
+		
+		"uniqueName": "Everyone Loves Kun"//人人爱鲲",//文明特性名
 		"uniques": [
 		"[+1 Faith] [in all cities]",
 			],//文明特性具体效果
@@ -1649,7 +1682,7 @@
 	{
 		"name": "Sea Tauren",//海上牛头人
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "牛头战士",
 		"adjective": ["x"],
 		"startBias": ["Coast"],//起始偏好
@@ -1665,21 +1698,21 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [81, 251, 36],//文明内部色*
 		"innerColor": [130,0,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueName": "我要牛了你",//文明特性名
+		
+		"uniqueName": "Tauren Impact"//牛头人冲击",//文明特性名
 		"uniques": [
 			"Comment [May capture killed [Water] units]",
 			"[+1 Food] from [Water] tiles [in all cities]",
-			//"Comment [Connects trade routes over water]", 
+			"Comment [Connects trade routes over water]", 
 			],//文明特性具体效果
-			"cities": ["鲲鲲圣地",]
+			"cities": ["海上牛头人",]
 			
 	},
 	
 	{
 		"name": "刀光鸽聚集地",
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "桐谷好人",
 		"adjective": ["x"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1694,9 +1727,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 0, 0],//文明内部色*
 		"innerColor": [0,0,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "任何人都不能从[胜利进度]查看你的当前数值\n你的平民单位获得[Black coat]晋升,军事单位获得[Elucidator]晋升。\n [Black coat]:当你的军事单位与平民单位重叠时,其他人无法直接看到你的军事单位(仍然能进行战斗)"
-		"uniqueName": "我爱拉刀光",//文明特性名
+		
+		"uniqueText": "Others cannot check your values from [Victory Progress]\nYour civilian units gain [Black coat] promotion, military units gain [Elucidator] promotion.\n[Black coat]： When your military units stack with civilians, others cannot directly see them (combat still possible)"//任何人都不能从[胜利进度]查看你的当前数值\n你的平民单位获得[Black coat]晋升,军事单位获得[Elucidator]晋升。\n [Black coat]:当你的军事单位与平民单位重叠时,其他人无法直接看到你的军事单位(仍然能进行战斗)"
+		"uniqueName": "Beater"//封弊者",//文明特性名
 		"uniques": [
 		"[Civilian] units gain the [Black coat] promotion"
 		"[Military] units gain the [Elucidator] promotion"
@@ -1709,7 +1742,7 @@
 	{
 		"name": "YinBei",//印北
 		"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 		"leaderName": "李固",
 		"adjective": ["x"],
 		"startBias": ["Tundra","Avoid [Desert]"],//起始偏好
@@ -1725,8 +1758,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [181, 51, 236],//文明内部色*
 		"innerColor": [0,0,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueName": "冻土之血",//文明特性名
+		
+		"uniqueName": "Frozen Blood"//冻土之血",//文明特性名
 		"uniques": [
 				"[+1 Food, +1 Gold] from [Tundra] tiles [in all cities]",//冻土加粮金
 				"[-1 Production] from [Forest] tiles [in all cities]",//减产出
@@ -1739,7 +1772,7 @@
 	{
 			"name": "Network Pigeon gathering place",//网络鸽聚集地
 			"civilopediaText":[
-        {"text": "投稿者：网络卡"}],
+        {"text": "设计者：网络卡"}],
 			"leaderName": "网络卡",
 		//"startBias": ["El Dorado"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1754,7 +1787,7 @@
 			"outerColor": [120, 86, 25],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
 			//"uniqueText": ""
-			"uniqueName": "咕咕咕咕！！！",//文明特性名
+			"uniqueName": "Coo Coo Coo Coo!!!"//咕咕咕咕！！！",//文明特性名
 			"uniques": [
 			"[+10]% [Faith] [in all cities]",
 			"[+1 Faith, +1 Culture] from every [Wheat]",
@@ -1767,7 +1800,7 @@
 	{
 		"name": "Forest League",//森林同盟会
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "周树人",
 		"adjective": ["x"],
 		"startBias": ["Forest"],//起始偏好
@@ -1783,9 +1816,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [151, 0, 150],//文明内部色*
 		"innerColor": [0,151,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": ""*/
-		"uniqueName": "森林之子",//文明特性名
+		"uniqueName": "Children of the Forest"//森林之子",//文明特性名
 		"uniques": [
 		"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		"Empire enters a [2]-turn Golden Age<upon constructing [Faith]> <before the [Medieval era]> <before turn number [60]>",
@@ -1799,7 +1832,7 @@
 	{
 		"name": "Friends of the City State",//城邦之友
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "和谐人",
 		"adjective": ["x"],
 		"preferredVictoryType": "Diplomatic",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -1814,9 +1847,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [251, 0, 150],//文明内部色*
 		"innerColor": [0,151,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "任何人都不能从[胜利进度]查看你的当前数值\n你的平民单位获得[黑色大衣]晋升,军事单位获得[阐释者]晋升。\n [黑色大衣]:当你的军事单位与平民单位重叠时,其他人无法直接看到你的军事单位(仍然能进行战斗)"*/
-		"uniqueName": "带善人",//文明特性名
+		"uniqueName": "The Great Kind Person"//带善人",//文明特性名
 		"uniques": [
 		"City-State territory always counts as friendly territory",
 		"Allied City-States will occasionally gift Great People",
@@ -1832,7 +1865,7 @@
 	{
 		"name": "MassWill-SourceOfLife",//大群意志-生命源泉
 		"civilopediaText":[
-        {"text": "投稿者：蓝天"}],
+        {"text": "设计者：蓝天"}],
 		"leaderName": "伊祖米克",
 		"adjective": ["x"],
 		"startBias": ["Coast"],//起始偏好
@@ -1848,9 +1881,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [1, 215, 150],//文明内部色*
 		"innerColor": [200,11,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "任何人都不能从[胜利进度]查看你的当前数值\n你的平民单位获得[黑色大衣]晋升,军事单位获得[阐释者]晋升。\n [黑色大衣]:当你的军事单位与平民单位重叠时,其他人无法直接看到你的军事单位(仍然能进行战斗)"*/
-		"uniqueName": "【回响:给养】",//文明特性名
+		"uniqueName": "【Echo： Provision】"//【回响:给养】",//文明特性名
 		"uniques": [
 	"Enables embarkation for land units <starting from the [Ancient era]>", //为陆地启用登船
 	"Enables [All] units to enter ocean tiles"
@@ -1866,7 +1899,7 @@
 	{
 		"name": "MassWill-Growth",//大群意志-蔓延枝条
 		"civilopediaText":[
-        {"text": "投稿者：蓝天"}],
+        {"text": "设计者：蓝天"}],
 		"leaderName": "伊祖米克",
 		"adjective": ["x"],
 		"startBias": ["Coast"],//起始偏好
@@ -1882,9 +1915,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [1, 215, 150],//文明内部色*
 		"innerColor": [200,11,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "任何人都不能从[胜利进度]查看你的当前数值\n你的平民单位获得[黑色大衣]晋升,军事单位获得[阐释者]晋升。\n [黑色大衣]:当你的军事单位与平民单位重叠时,其他人无法直接看到你的军事单位(仍然能进行战斗)"*/
-		"uniqueName": "【回响:枯荣】",//文明特性名
+		"uniqueName": "【Echo： Withering】"//【回响:枯荣】",//文明特性名
 		"uniques": [
 	"Enables embarkation for land units <starting from the [Ancient era]>", //为陆地启用登船
 	"[+1 Food] [in all cities]<during the [Ancient era]>"
@@ -1898,7 +1931,7 @@
 	{
 		"name": "MassWill-Necrosion",//大群意志-腐化之心
 		"civilopediaText":[
-        {"text": "投稿者：蓝天"}],
+        {"text": "设计者：蓝天"}],
 		"leaderName": "玛利图斯",
 		"adjective": ["x"],
 		"startBias": ["Coast"],//起始偏好
@@ -1914,9 +1947,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [1, 215, 150],//文明内部色*
 		"innerColor": [200,11,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "任何人都不能从[胜利进度]查看你的当前数值\n你的平民单位获得[黑色大衣]晋升,军事单位获得[阐释者]晋升。\n [黑色大衣]:当你的军事单位与平民单位重叠时,其他人无法直接看到你的军事单位(仍然能进行战斗)"*/
-		"uniqueName": "【回响:众我】",//文明特性名
+		"uniqueName": "【Echo： Collective Self】"//【回响:众我】",//文明特性名
 		"uniques": [
 	"Enables embarkation for land units <starting from the [Ancient era]>", //为陆地启用登船
 	"Enables [All] units to enter ocean tiles"//允许进海
@@ -1930,7 +1963,7 @@
 	{
 		"name": "Dice Divine Sect",//骰子神教
 		"civilopediaText":[
-        {"text": "投稿者：骰子"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "骰子娘",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -1946,9 +1979,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [111, 215, 0],//文明内部色*
 		"innerColor": [100,131,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "分别有25%的概率使我方单位可以额外攻击一次。\n有56%/28%/14%/7%的概率使每个城市的人口增长增加10%/25%/40%/60%\n创建万神殿时额外选择一个万神殿,创建宗教时额外提供一个万神殿"
-		"uniqueName": "随机应变",//文明特性名
+		
+		"uniqueText": "25% chance to grant our units an additional attack.\n56%/28%/14%/7% chance to increase population growth in each city by 10%/25%/40%/60% respectively.\nWhen founding a Pantheon, gain an additional Pantheon belief. When founding a Religion, gain an additional Pantheon belief"//分别有25%的概率使我方单位可以额外攻击一次。\n有56%/28%/14%/7%的概率使每个城市的人口增长增加10%/25%/40%/60%\n创建万神殿时额外选择一个万神殿,创建宗教时额外提供一个万神殿"
+		"uniqueName": "Adaptability"//随机应变",//文明特性名
 		"uniques": [
 		"May choose [1] additional belief(s) of any type when [founding] a religion"
 		"Gain a free [Pantheon] belief<upon founding a Pantheon>"
@@ -1966,7 +1999,7 @@
 	{
 		"name": "Kjerag",//谢拉格
 		"civilopediaText":[
-        {"text": "投稿者：云咕咕"}],
+        {"text": "设计者：云咕咕"}],
 		"leaderName": "银灰",
 		"adjective": ["x"],
 		"startBias": ["Tundra","Avoid [Desert]"],//起始偏好
@@ -1982,9 +2015,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [11, 255, 0],//文明内部色*
 		"innerColor": [10,50,10],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[Snow]地块+1[Food]\n非丘陵[Tundra]与[Snow]+1[Production]"
-		"uniqueName": "复兴之路",//文明特性名
+		
+		"uniqueText": "[Snow] tiles +1[Food]\nNon-hill [Tundra] and [Snow] tiles +1[Production]"//[Snow]地块+1[Food]\n非丘陵[Tundra]与[Snow]+1[Production]"
+		"uniqueName": "Path of Revival"//复兴之路",//文明特性名
 		"uniques": [
 		"[+1 Production] from [Tundra] tiles without [Hill] [in this city]",//地块加产
 		"[+1 Production] from [Snow] tiles without [Hill] [in this city]",//地块加产
@@ -1999,7 +2032,7 @@
 	{
 		"name": "Laterano",//拉特兰
 		"civilopediaText":[
-        {"text": "投稿者：骰子"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "策划",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2015,9 +2048,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [1, 255, 210],//文明内部色*
 		"innerColor": [137,0,210],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿,创建宗教时额外提供一个任意信仰"*/
-		"uniqueName": "苦难之路",//文明特性名
+		"uniqueName": "Path of Suffering"//苦难之路",//文明特性名
 		"uniques": [
 		"[All] units gain the [共感] promotion",
 		
@@ -2028,7 +2061,7 @@
 	{
 	    "name":"Spirit of Mori"//森之灵
 	    "civilopediaText":[
-        {"text": "投稿者：小朋友遮目"}],
+        {"text": "设计者：小朋友遮目"}],
         "leaderName":"小朋友遮目"
        "adjective": ["x"],
 		"startBias": ["Forest"],//起始偏好
@@ -2044,9 +2077,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [130,0,10],//文明内部色*
 			"innerColor": [25,255,25],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "远程单位+1射程+1视野\n我方单位与敌方近战单位战斗时-15%战斗力,如果是远程单位额外-15%战斗力\n我方远程单位与地方远程单位战斗时-15%战斗力\n单位处于森林地块时+15%战斗力"
-			"uniqueName": "森之灵"
+			
+			"uniqueText": "Ranged units gain +1 range and +1 vision\nOur units suffer -15% combat strength when fighting enemy melee units, with an additional -15% for ranged units\nOur ranged units suffer -15% combat strength when fighting enemy ranged units\nUnits gain +15% combat strength when in forest tiles"//远程单位+1射程+1视野\n我方单位与敌方近战单位战斗时-15%战斗力,如果是远程单位额外-15%战斗力\n我方远程单位与地方远程单位战斗时-15%战斗力\n单位处于森林地块时+15%战斗力"
+			"uniqueName": "Spirit of the Forest"//森之灵"
             "uniques":[
             "[+1] Sight <for [Ranged] units>",//增加视野
             "[+1] Range<for [Ranged] units>",//射程增加
@@ -2060,7 +2093,7 @@
 	{
 		"name": "Zeai",//泽埃
 		"civilopediaText":[
-        {"text": "投稿者：ze君"}],
+        {"text": "设计者：ze君"}],
 		"leaderName": "诺雷·维森特期·科蒙斯特",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2075,8 +2108,8 @@
         "tradeRequest": "和平相处,平等互利",//向玩家申请交易时
 		"outerColor": [255,255,0],//文明内部色*
 		"innerColor": [148,0,211],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueName": "伽泰君主",//文明特性名
+		
+		"uniqueName": "Gata Monarch"//伽泰君主",//文明特性名
 		"uniques": [
 		"[+2 Culture, +4 Faith] [in all cities in which the majority religion is a major religion]",
 			],//文明特性具体效果
@@ -2087,7 +2120,7 @@
 	{
 	    "name":"Silania"//西兰尼亚
 	    "civilopediaText":[
-        {"text": "投稿者：潜水"}],
+        {"text": "设计者：潜水"}],
         "leaderName":"斯亨四世"
        "adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2103,9 +2136,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [180,120,10],//文明内部色*
 			"innerColor": [25,55,25],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "联合尼亚"
+			"uniqueName": "United Nia"//联合尼亚"
             "uniques":[
             "[+33]% [Food] from City-States",
             "[+33]% [Culture] from City-States",
@@ -2119,7 +2152,7 @@
 	{
 	    "name":"知可英王国"
 	    "civilopediaText":[
-        {"text": "投稿者：潜水"}],
+        {"text": "设计者：潜水"}],
         "leaderName":"垭夫●沙和尔的"
        "adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2135,9 +2168,9 @@
         "tradeRequest": "这是为了把你从深渊中拉回。",//向玩家申请交易时
 		"outerColor": [178, 34, 34],//文明内部色*
 		"innerColor": [255,0,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "尚武社会"
+		"uniqueName": "Martial Society"//尚武社会"
         "uniques":[
         "[All] units gain the [Quick Study] promotion",
             ]
@@ -2146,7 +2179,7 @@
 	{
 	    "name":"云冀之庭"
 	    "civilopediaText":[
-        {"text": "投稿者：遗封"}],
+        {"text": "设计者：遗封"}],
         "leaderName":"遗封"
        "adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2162,9 +2195,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [230,0,10],//文明内部色*
 			"innerColor": [125,25,25],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "战线推进"
+			"uniqueName": "Frontline Advance"//战线推进"
             "uniques":[
             "Earn [80]% of killed [Military] unit's [Strength] as [Science]",//杀人拿战力的
            "[All] units gain the [战线修筑] promotion",
@@ -2176,7 +2209,7 @@
 	{
 	    "name":"Heavenly God Machine Soldier"//天神机兵
 	    "civilopediaText":[
-        {"text": "投稿者：带汪神"}],
+        {"text": "设计者：带汪神"}],
         "leaderName":"统一意识"
        "adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2193,9 +2226,9 @@
         "tradeRequest": "我觉得你们的能力有待证明,进行一次交易(询问)",//向玩家申请交易时
 		"outerColor": [ 0, 0, 0],//文明内部色*
 		"innerColor": [255,255,0],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "每座城市获得免费的[Gestalt consciousness]\n建造首都已有的建筑时[Production]增加30%\n单位/建筑/领土内的道路不需要维护费\n-80%[Gold]产出，但每个建筑+1[Gold]"
-			"uniqueName": "格式塔"
+			
+			"uniqueText": "Each city receives a free [Gestalt consciousness]\n+30% [Production] when constructing buildings already present in the capital\nUnits/buildings/roads within territory require no maintenance\n-80% [Gold] output, but each building provides +1[Gold]"//每座城市获得免费的[Gestalt consciousness]\n建造首都已有的建筑时[Production]增加30%\n单位/建筑/领土内的道路不需要维护费\n-80%[Gold]产出，但每个建筑+1[Gold]"
+			"uniqueName": "Gestalt"//格式塔"
             "uniques":[
             "Gain a free [Gestalt consciousness] [in all cities]"
             "[+30]% Production towards any buildings that already exist in the Capital"
@@ -2210,7 +2243,7 @@
 	{
 	    "name":"Holy Peak"//神圣之巅
 	    "civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
         "leaderName":"凯瑞德斯"
        "adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2226,9 +2259,9 @@
         "tradeRequest": "路途遥远,我从内心向您发出崇高的敬意。",//向玩家申请交易时
 		"outerColor": [28, 54, 54],//文明内部色*
 		"innerColor": [86,0,80],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "神之恩泽"
+		"uniqueName": "Divine Grace"//神之恩泽"
         "uniques":[
         "[+2 Faith] from [{Luxury resource} {non-[Improvement]}] tiles [in this city]",//奢侈加信仰
         "[+1 Faith] from [{Bonus resource} {non-[Improvement]}] tiles [in this city]",//奖金加信仰
@@ -2239,7 +2272,7 @@
 	{
 		"name": "Song's chaebol",//宋氏财阀
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "宋医师",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2255,9 +2288,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [1, 155, 110],//文明内部色*
 		"innerColor": [37,35,210],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿,创建宗教时额外提供一个任意信仰"*/
-		"uniqueName": "吸血压榨",//文明特性名
+		"uniqueName": "Bloodsucking Exploitation"//吸血压榨",//文明特性名
 		"uniques": [
 		"[-150]% maintenance cost for [all] buildings [in all cities]"
 		"Each city founded increases culture cost of policies [150]% less than normal"
@@ -2272,7 +2305,7 @@
 	{
 		"name": "Fungal kingdom",//真菌国度
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "蘑菇人",
 		"adjective": ["x"],
 		"startBias": ["Forest"],//起始偏好
@@ -2288,9 +2321,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [211, 155, 110],//文明内部色*
 		"innerColor": [37,35,210],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "感染孢子",//文明特性名
+		"uniqueName": "Infectious Spores"//感染孢子",//文明特性名
 		"uniques": [
 		//"Nullifies Growth [in all cities]"
 		"[-10]% growth [in this city]<in cities with at least [1] [Population]>"
@@ -2306,7 +2339,7 @@
 	{
 		"name": "Bird free pigeon nest",//无鸟鸽子窝
 		"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 		"leaderName": "麻雀",
 		"adjective": ["x"],
 		"startBias": ["Forest"],//起始偏好
@@ -2322,9 +2355,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [2, 180, 1],//文明内部色*
 		"innerColor": [217,5,20],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": ""*/
-		"uniqueName": "麻雀虽小",//文明特性名
+		"uniqueName": "Small but Mighty"//麻雀虽小",//文明特性名
 		"uniques": [
 		"Receive triple Gold from Barbarian encampments and pillaging Cities"
 		"[-50]% Gold cost of upgrading"
@@ -2336,7 +2369,7 @@
 	{
 		"name": "Chaotic Pigeon Nest",//混沌鸽子窝
 		"civilopediaText":[
-        {"text": "投稿者：特勒西"}],
+        {"text": "设计者：特勒西"}],
 		"leaderName": "特勒西",
 		"adjective": ["x"],
 		"startBias": ["Forest"],//起始偏好
@@ -2352,9 +2385,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [211, 155, 110],//文明内部色*
 		"innerColor": [37,35,210],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿,创建宗教时额外提供一个任意信仰"*/
-		"uniqueName": "混沌崇拜",//文明特性名
+		"uniqueName": "Chaos Worship"//混沌崇拜",//文明特性名
 		"uniques": [
 		"When defeating a [Barbarian] unit, earn [20] Gold and recruit it<with [33]% chance>"
 		"May buy [{Melee} {Land}] units with [Faith] for [2] times their normal Production cost"
@@ -2366,7 +2399,7 @@
 	{
 		"name": "Zeaikat",//泽埃伽泰
 		"civilopediaText":[
-        {"text": "投稿者：ze君"}],
+        {"text": "设计者：ze君"}],
 		"leaderName": "慕勒布朗·列叶·里亚姿蒙",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2383,8 +2416,8 @@
 "tradeRequest": "做生意,不寒碜",//向玩家申请交易时
 			"outerColor": [151,160,221],//文明内部色*
 			"innerColor": [255,255,0],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueName": "瑟提亚模式",//文明特性名
+			
+		"uniqueName": "Setia Mode"//瑟提亚模式",//文明特性名
 		"uniques": [
 		"[-20]% Gold cost of upgrading <when at war>"
 		"[Gold] cost of purchasing [Melee] units [-33]% <when at war>"
@@ -2396,7 +2429,7 @@
 	{
 		"name": "Takeoff Federation",//起飞联邦
 		"civilopediaText":[
-        {"text": "投稿者：起某"}],
+        {"text": "设计者：起某"}],
 		"leaderName": "起某",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2413,13 +2446,13 @@
             "tradeRequest": "和平贸易,既得钱又得声誉",//向玩家申请交易时
 			"outerColor": [127,155,212],//文明内部色*
 			"innerColor": [240,255,255],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueName": "联邦模式",//文明特性名
+			
+			"uniqueName": "Federation Mode"//联邦模式",//文明特性名
 		"uniques": [
 		"[-3] Movement <for [Mounted] units><before turn number [36]>",
-		"[1] free [Horseman] units appear<upon declaring war on [Major] Civilizations>"
-		"[1] free [Horseman] units appear<upon declaring war on [Major] Civilizations><after discovering [Horseback Riding]>"
-		"[2] free [Knight] units appear<upon declaring war on [Major] Civilizations><after discovering [Chivalry]>"
+		"[1] free [Horseman] units appear<upon declaring war with a major Civilization>"
+		"[1] free [Horseman] units appear<upon declaring war with a major Civilization><after discovering [Horseback Riding]>"
+		"[2] free [Knight] units appear<upon declaring war with a major Civilization><after discovering [Chivalry]>"
 			],//文明特性具体效果
 			"cities": ["起地","南思","荒芜","飞者","南平","西纳","延巴","卡齐纳","安其","扎贝","麦那","桑纳","意掩钉真","科拉","科音布拉","衷菲","莱斯","云中燕","满洪","布亚里","仲玉","阿克尚","樊扎","上克","马尔","奈克","明难","安可","安思"]
 			
@@ -2428,7 +2461,7 @@
 	{
 		"name": "Giant Windmill",//大风车
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "酒瓶",
 		"adjective": ["x"],
 		"startBias": ["Grassland"],//起始偏好
@@ -2444,8 +2477,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [11, 15, 10],//文明内部色*
 		"innerColor": [137,35,210],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueName": "大风车吱呀吱哟哟地转",//文明特性名
+		
+		"uniqueName": "The Windmill Creaks"//大风车吱呀吱哟哟地转",//文明特性名
 		"uniques": [
 		"Gain a free [Windmill] [in all cities]<in tiles without [Hill]>"
 		"[+1 Food, -1 Production] from [Hill] tiles [in this city]",//淡水非冲击的沙漠加粮
@@ -2457,7 +2490,7 @@
 	{
 		"name": "SB",//撒比
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "SB",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2473,9 +2506,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [255, 125, 150],//文明内部色*
 		"innerColor": [17,135,110],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		"uniqueText": "所有单位-1移动力,攻击需要架设"
-		"uniqueName": "我是SB",//文明特性名
+		"uniqueName": "I Am SB"//我是SB",//文明特性名
 		"uniques": [
 		"[All] units gain the [SB up] promotion",
 			],//文明特性具体效果
@@ -2486,7 +2519,7 @@
 	{
 		"name": "HuaHan",//华汉
 		"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 		"leaderName": "王明宝",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2502,9 +2535,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [255, 125, 250],//文明内部色*
 		"innerColor": [17,35,10],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿,创建宗教时额外提供一个任意信仰"*/
-		"uniqueName": "比例税制",//文明特性名
+		"uniqueName": "Proportional Taxation"//比例税制",//文明特性名
 		"uniques": [
 		"[+100]% [Gold]"
 			],//文明特性具体效果
@@ -2515,7 +2548,7 @@
 	{
 		"name": "Excalibur",//王者之剑
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "King",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2531,8 +2564,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [25, 0, 255],//文明内部色*
 		"innerColor": [17,35,10],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "击杀任何单位获得1层[Honing],每1层[Honing]可以提升单位2%战斗力,每层[Honing]持续10回合。"
+		
+		"uniqueText": "Gain 1 stack of [Honing] when killing any unit. Each stack of [Honing] increases unit combat strength by 2%, lasting 10 turns per stack"//击杀任何单位获得1层[Honing],每1层[Honing]可以提升单位2%战斗力,每层[Honing]持续10回合。"
 		"uniqueName": "Excalibur",//文明特性名
 		"uniques": [
 		"[All] units gain the [Honing] promotion",
@@ -2545,7 +2578,7 @@
 	{
 		"name": "Immortal Shield",//不朽之盾
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Guardian",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2561,8 +2594,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [25, 215, 25],//文明内部色*
 		"innerColor": [17,35,10],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "单位拥有3次直接回复一定HP的机会。"
+		
+		"uniqueText": "Units have 3 chances to directly restore HP"//单位拥有3次直接回复一定HP的机会。"
 		"uniqueName": "Immortal Shield",//文明特性名
 		"uniques": [
 		"[All] units gain the [Tough] promotion",
@@ -2574,7 +2607,7 @@
 	{
 		"name": "Holy Staff",//神圣之杖
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "教皇",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2590,7 +2623,7 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [25, 125, 65],//文明内部色*
 		"innerColor": [17,35,109],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		/*"uniqueText": "分别有33%的概率使你发单位可以额外攻击一次/额外获得1点移动。\n有60%/30%/15%的概率使每个城市的食物增加1/2/4点\n创建万神殿时额外选择一个万神殿,创建宗教时额外提供一个任意信仰"*/
 		"uniqueName": "Holy Staff",//文明特性名
 		"uniques": [
@@ -2606,7 +2639,7 @@
 	{
 		"name": "The King of Garbage",//垃圾之王
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "The King of Garbage",
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2622,8 +2655,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [25, 68, 215],//文明内部色*
 		"innerColor": [127,35,19],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[Marsh]+2[Production]与[Faith]\n开阔地形+1[Production]与[Gold],崎岖地形+1[Food]与[Gold],但是奖金资源以及奢侈资源不提供产出,战略资源减少2点全产出\n城市2格范围内有奢侈资源时-4[Happiness],2格内没有奢侈资源时+2[Happiness]"
+		
+		"uniqueText": "[Marsh]+2[Production] and [Faith]\nOpen terrain +1[Production] and [Gold], rough terrain +1[Food] and [Gold], but bonus and luxury resources provide no yields, strategic resources provide -2 to all yields\nCities gain -4[Happiness] when luxury resources are within 2 tiles, +2[Happiness] when no luxury resources within 2 tiles"//[Marsh]+2[Production]与[Faith]\n开阔地形+1[Production]与[Gold],崎岖地形+1[Food]与[Gold],但是奖金资源以及奢侈资源不提供产出,战略资源减少2点全产出\n城市2格范围内有奢侈资源时-4[Happiness],2格内没有奢侈资源时+2[Happiness]"
 		"uniqueName": "The King of Garbage",//文明特性名
 		"uniques": [
 		"[+2 Production, +2 Faith] from [Marsh] tiles [in this city]",//沼泽加产
@@ -2645,7 +2678,7 @@
 	{
 		"name": "A majestic country",//雄伟之国
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "建筑师",
 		"adjective": ["x"],
 		"startBias": ["Mountain"],//起始偏好
@@ -2661,8 +2694,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [215, 68, 215],//文明内部色*
 		"innerColor": [17,35,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "伟人建筑能够为周围一圈的地块提供1点对应的产出\n研究[Engineering]后每隔400年获得一个免费伟人(不可重复)"
+		
+		"uniqueText": "Great Person improvements provide +1 corresponding yield to adjacent tiles\nAfter researching [Engineering], gain a free Great Person every 400 years (non-repeatable)"//伟人建筑能够为周围一圈的地块提供1点对应的产出\n研究[Engineering]后每隔400年获得一个免费伟人(不可重复)"
 		"uniqueName": "A majestic country",//文明特性名
 		"uniques": [
 		
@@ -2709,37 +2742,10 @@
 			"cities": ["A majestic country",]
 	},
 	
-	/*{
-		"name": "Earth Spirit Hall",//地灵殿
-		"leaderName": "Komeiji Koishi",//古明地恋
-		"adjective": ["x"],
-		//"startBias": ["Tundra"],//起始偏好
-		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
-		"startIntroPart1": "咕咕咕",//介绍1
-		"startIntroPart2": "咕咕咕",//介绍2
-		"declaringWar": "咕咕咕！",//向玩家宣战
-		"attacked":"咕 咕 咕 ！",//被玩家宣战
-		"defeated": "咕……",//被玩家打败时
-        "introduction": "咕,咕咕？",//初见
-        "neutralHello": "咕咕咕~",//通常问候
-        "hateHello": "咕咕！",//战争时问候
-        "tradeRequest": "咕咕~",//向玩家申请交易时
-		"outerColor": [208, 193, 94],//文明内部色*
-		"innerColor": [200, 145, 200],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		//"uniqueText": ""
-		"uniqueName": "Unconscious level of ability",//文明特性名
-		"uniques": [
-		
-		
-			],//文明特性具体效果
-			"cities": ["Earth Spirit Hall",]
-	},*/
-	
 	{
 		"name": "Hakurei Shrine",//博丽神社
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Hakurei Reimu",//博丽灵梦
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2755,7 +2761,7 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [235, 0, 0],//文明内部色*
 		"innerColor": [255, 255, 255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
 		"uniqueName": "Bullet Screen Evasion Expert",//文明特性名
 		"uniques": [
@@ -2765,36 +2771,10 @@
 			"cities": ["Hakurei Shrine",]
 	},
 	
-	/*{
-		"name": "Hedgehog Nest",//刺猬窝
-		"leaderName": "Hedgehog",//刺猬
-		"adjective": ["x"],
-		//"startBias": ["Tundra"],//起始偏好
-		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
-		"startIntroPart1": "咕咕咕",//介绍1
-		"startIntroPart2": "咕咕咕",//介绍2
-		"declaringWar": "咕咕咕！",//向玩家宣战
-		"attacked":"咕 咕 咕 ！",//被玩家宣战
-		"defeated": "咕……",//被玩家打败时
-        "introduction": "咕,咕咕？",//初见
-        "neutralHello": "咕咕咕~",//通常问候
-        "hateHello": "咕咕！",//战争时问候
-        "tradeRequest": "咕咕~",//向玩家申请交易时
-		"outerColor": [185, 60, 60],//文明内部色*
-		"innerColor": [55, 155, 25],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "Deals 5 damage to enemies attacking our unit and loses 2XP"
-		"uniqueName": "你敢打我？",//文明特性名
-		"uniques": [
-		"[All] units gain the [Hedgehog] promotion",
-			],//文明特性具体效果
-			"cities": ["Hedgehog Nest",]
-	},*/
-	
 	{
 		"name": "Elchia Federation",//艾尔奇亚联邦
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Sora & Shiro",//空&白
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2810,8 +2790,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [185, 60, 60],//文明内部色*
 		"innerColor": [255, 255, 255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "●每拥有一枚种族之棋,就会获得特殊的效果:\n1枚:城邦好感下降速率-50%\n2枚:与城市比我方多的文明作战时+15%战斗力\n3枚:单位在[Forest]地块作战时+15%战斗力,[Forest]+1[Production]\n4枚:每座城市+2[Science]与[Gold]\n5枚:军事单位在开阔地形+1移动力\n6枚:新建军事单位获得[Vampire]晋升\n7枚:远程单位可在船运状态下攻击,所有单位上岸不消耗移动力\n8枚:消耗4枚[Race Chess],获得一次[Pseudocode - Heavenly Strike]的使用次数\n\n●获得种族之棋的方法:\n从中古开始,进入新时代+1\n与文明宣布友谊+1\n进入黄金时代+1\n建造世界奇观+1"
+		
+		"uniqueText": "● For each Race Chess owned, gain special effects：\n1：City-State influence decay rate -50%\n2：+15% combat strength against civilizations with more cities\n3：+15% combat strength in [Forest] tiles, [Forest]+1[Production]\n4：Each city +2[Science] and [Gold]\n5：Military units +1 movement in open terrain\n6：New military units gain [Vampire] promotion\n7：Ranged units can attack while embarked, all units disembark without movement cost\n8：Consume 4 [Race Chess] to gain 1 use of [Pseudocode - Heavenly Strike]\n\n● Ways to obtain Race Chess：\n+1 when entering new era starting from Medieval\n+1 when declaring friendship with civilization\n+1 when entering Golden Age\n+1 when constructing World Wonder"//●每拥有一枚种族之棋,就会获得特殊的效果:\n1枚:城邦好感下降速率-50%\n2枚:与城市比我方多的文明作战时+15%战斗力\n3枚:单位在[Forest]地块作战时+15%战斗力,[Forest]+1[Production]\n4枚:每座城市+2[Science]与[Gold]\n5枚:军事单位在开阔地形+1移动力\n6枚:新建军事单位获得[Vampire]晋升\n7枚:远程单位可在船运状态下攻击,所有单位上岸不消耗移动力\n8枚:消耗4枚[Race Chess],获得一次[Pseudocode - Heavenly Strike]的使用次数\n\n●获得种族之棋的方法:\n从中古开始,进入新时代+1\n与文明宣布友谊+1\n进入黄金时代+1\n建造世界奇观+1"
 		"uniqueName": "Race Chess",//文明特性名
 		"uniques": [
 		"[All] units gain the [The Power of Unity] promotion",
@@ -2842,7 +2822,7 @@
 	{
 		"name": "Breath of the Wild",//荒野之息
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Link",//林克
 		"adjective": ["x"],
 		"startBias": ["Mountain"],//起始偏好
@@ -2858,8 +2838,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [21, 60, 210],//文明内部色*
 		"innerColor": [55, 255, 0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "●可以通过大军事家切换护佑的英杰获得不同的效果,单位选择非塞尔达的其中1个英杰的技能:\n●米法:单位获得1次回复25HP的机会\n●乌尔波扎:随时代提升战斗力(+5%→+20%)\n●塞尔达:首都建造建筑时获得当前时代平均所需科技值的30%的科技点数(电气时代后停止增长)\n●达尔克尔:防御时+15%战斗力,有且仅有一次+100%防御力的机会\n●力巴尔:单位永久获得空降"
+		
+		"uniqueText": "● Can switch between Champions' blessings using Great Generals, units can choose 1 non-Zelda Champion skill：\n● Mipha：Unit gains 1 chance to restore 25HP\n● Urbosa：Combat strength increases with era (+5%→+20%)\n● Zelda：Capital gains 30% of current era's average tech cost as science when constructing buildings (stops growing after Industrial Era)\n● Daruk：+15% combat strength when defending, with one-time +100% defense chance\n● Revali：Units permanently gain paradrop ability"//●可以通过大军事家切换护佑的英杰获得不同的效果,单位选择非塞尔达的其中1个英杰的技能:\n●米法:单位获得1次回复25HP的机会\n●乌尔波扎:随时代提升战斗力(+5%→+20%)\n●塞尔达:首都建造建筑时获得当前时代平均所需科技值的30%的科技点数(电气时代后停止增长)\n●达尔克尔:防御时+15%战斗力,有且仅有一次+100%防御力的机会\n●力巴尔:单位永久获得空降"
 		"uniqueName": "Guardians of the Four Gods",//文明特性名
 		"uniques": [
 		"[Military] units gain the [The Power of Heroes] promotion",
@@ -2869,12 +2849,12 @@
 		//" <when above [0] [Hero Counter]><when below [2] [Hero Counter]>"//水
 		
 		
-		"Gain [8] [Science] <upon constructing [Buildings]> <in cities with a [Palace]> <during the [Ancient era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//远古
-		"Gain [27] [Science] <upon constructing [Buildings]> <in cities with a [Palace]> <during the [Classical era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//古典
-		"Gain [75] [Science] <upon constructing [Buildings]> <in cities with a [Palace]> <during the [Medieval era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//中古
-		"Gain [190] [Science] <upon constructing [Buildings]> <in cities with a [Palace]> <during the [Renaissance era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//启蒙
-		"Gain [390] [Science] <upon constructing [Buildings]> <in cities with a [Palace]> <during the [Industrial era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//工业
-		"Gain [712] [Science] <upon constructing [Buildings]> <in cities with a [Palace]> <starting from the [Modern era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//电气
+		"Gain [8] [Science] <upon constructing [Buildings] [in capital]> <during the [Ancient era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//远古
+		"Gain [27] [Science] <upon constructing [Buildings] [in capital]> <during the [Classical era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//古典
+		"Gain [75] [Science] <upon constructing [Buildings] [in capital]> <during the [Medieval era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//中古
+		"Gain [190] [Science] <upon constructing [Buildings] [in capital]> <during the [Renaissance era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//启蒙
+		"Gain [390] [Science] <upon constructing [Buildings] [in capital]> <during the [Industrial era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//工业
+		"Gain [712] [Science] <upon constructing [Buildings] [in capital]> <starting from the [Modern era]><when above [2] [Hero Counter]><when below [4] [Hero Counter]>",//电气
 		
 		
 		
@@ -2892,7 +2872,7 @@
 	{
 		"name": "Magical Girl",//魔法少女
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "丘比",//丘比
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -2908,9 +2888,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [208, 193, 94],//文明内部色*
 		"innerColor": [200, 145, 200],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "初始拥有150[Magic power],可以消耗平民单位回复10点\n军事单位在战争时每回合都会消耗1[Magic power],非战争时每回合有10%概率消耗1[Magic power],击杀单位回复3[Magic power]并获得1[Demon Night Counter]\n当[Magic power]高于50时,可以消耗5[Magic power]使所有军事单位在本回合提升10%战斗力\n当[Magic power]为0时,停止所有增长,战斗力-9999%\n当[Demon Night Counter]达到500时,可以建造[]获取游戏胜利"
-		"uniqueName": "奇迹与魔法",//文明特性名
+		
+		"uniqueText": "Start with 150[Magic power], can consume civilian units to restore 10\nMilitary units consume 1[Magic power] per turn during war, 10% chance to consume 1 during peace, killing units restores 3[Magic power] and grants 1[Demon Night Counter]\nWhen [Magic power]>50, can spend 5 to give all military units +10% combat strength for 1 turn\nWhen [Magic power] is 0, halt all growth, combat strength -9999%\nWhen [Demon Night Counter] reaches 500, can construct unique wonder to achieve victory"//初始拥有150[Magic power],可以消耗平民单位回复10点\n军事单位在战争时每回合都会消耗1[Magic power],非战争时每回合有10%概率消耗1[Magic power],击杀单位回复3[Magic power]并获得1[Demon Night Counter]\n当[Magic power]高于50时,可以消耗5[Magic power]使所有军事单位在本回合提升10%战斗力\n当[Magic power]为0时,停止所有增长,战斗力-9999%\n当[Demon Night Counter]达到500时,可以建造专属奇观获取游戏胜利"
+		"uniqueName": "Miracle and Magic"//奇迹与魔法",//文明特性名
 		"uniques": [
 		"Instantly provides [150] [Magic power]"//拿资源
 		"[Military] units gain the [Burning Magic I] promotion",//给晋升
@@ -2936,7 +2916,7 @@
 	{
 		"name": "Shuruima",//恕瑞玛
 		"civilopediaText":[
-        {"text": "投稿者：带汪神"}],
+        {"text": "设计者：带汪神"}],
 		"leaderName": "阿兹尔",//阿兹尔
 		"adjective": ["x"],
 		"startBias": ["Avoid [Jungle]","Avoid [Forest]", "Desert"],
@@ -2952,9 +2932,9 @@
         "tradeRequest": "和恕瑞玛站在一起吧",//向玩家申请交易时
 		"outerColor": [201, 203, 0],//文明内部色*
 		"innerColor": [128, 0, 150],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[Military]单位获得[Sandman I](在沙漠地块获得晋升时回复25HP)\n每进入一个新时代获得一个[Ascender],直到启蒙时代\n非丘陵与冲积平原的沙漠地块+1[Production]与[Food]"
-		"uniqueName": "黄沙之国",//文明特性名
+		
+		"uniqueText": "[Military] units gain [Sandman I] (when promoted in desert tiles, heal 25HP)\nGain 1[Ascender] when entering new era until Enlightenment Era\nNon-hill and non-floodplain desert tiles +1[Production] and [Food]"//[Military]单位获得[Sandman I](在沙漠地块获得晋升时回复25HP)\n每进入一个新时代获得一个[Ascender],直到启蒙时代\n非丘陵与冲积平原的沙漠地块+1[Production]与[Food]"
+		"uniqueName": "Land of Yellow Sand"//黄沙之国",//文明特性名
 		"uniques": [
 		"[Military] units gain the [Sandman I] promotion",//给晋升
 		
@@ -2970,7 +2950,7 @@
 	{
 		"name": "FSM",//FSM
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Flying Spaghetti",//飞天意面
 		"adjective": ["x"],
 		//"startBias": ["Wine","Sugar"],
@@ -2986,7 +2966,7 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [1, 203, 160],//文明内部色*
 		"innerColor": [8, 0, 150],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		"uniqueText": "[Wine]与[Sugar]地块+2[Production][Happiness][Faith][Food]\n城市范围4格内有[Wine]或[Sugar]时+1[Production]与+2[Faith](每种限1次)"
 		"uniqueName": "Flying Spaghetti Monsterism",//文明特性名
 		"uniques": [
@@ -3002,7 +2982,7 @@
 	{
 		"name": "Star Explorer",//星之探索者
 		"civilopediaText":[
-        {"text": "投稿者：骰子"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "星萌",//星萌
 		"adjective": ["x"],
 		//"startBias": ["Wine","Sugar"],
@@ -3018,7 +2998,7 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [138, 43, 226],//文明内部色*
 		"innerColor": [0,0,128],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": "   "
 		"uniqueName": "Revealing the Dust Star",//文明特性名
 		"uniques": [
@@ -3033,7 +3013,7 @@
 	{
 		"name": "Ant tribe",//蚁族
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "蚁王",//蚁王
 		"adjective": ["x"],
 		//"startBias": ["Wine","Sugar"],
@@ -3049,9 +3029,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [18, 43, 126],//文明内部色*
 		"innerColor": [0,180,128],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": "   "
-		"uniqueName": "集合之力",//文明特性名
+		"uniqueName": "Collective Power"//集合之力",//文明特性名
 		"uniques": [
 		"[-15]% Strength<for [Melee] units>"
 		"[+100]% to Flank Attack bonuses"
@@ -3062,7 +3042,7 @@
 	{
 		"name": "Green grassland",//青青草原
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Pleasant Goat",//喜羊羊
 		"adjective": ["x"],
 		"startBias": ["Grassland"],//起始偏
@@ -3078,7 +3058,7 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [188, 0, 126],//文明内部色*
 		"innerColor": [0,80,128],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": "   "
 		"uniqueName": "Green grassland",//文明特性名
 		"uniques": [
@@ -3087,43 +3067,10 @@
 			"cities": ["Green grassland",]
 	},
 	
-	
-	
-	/*{
-		"name": "Fire Demon",//火之恶魔
-		"leaderName": "Shendu",//圣主
-		"adjective": ["x"],
-		//"startBias": ["Wine","Sugar"],
-		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
-		"startIntroPart1": "咕咕咕",//介绍1
-		"startIntroPart2": "咕咕咕",//介绍2
-		"declaringWar": "咕咕咕！",//向玩家宣战
-		"attacked":"咕 咕 咕 ！",//被玩家宣战
-		"defeated": "咕……",//被玩家打败时
-        "introduction": "咕,咕咕？",//初见
-        "neutralHello": "咕咕咕~",//通常问候
-        "hateHello": "咕咕！",//战争时问候
-        "tradeRequest": "咕咕~",//向玩家申请交易时
-		"outerColor": [138, 43, 226],//文明内部色*
-		"innerColor": [0,0,128],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "每次建造奇观,你都会获得一个符咒,每个符咒提供不同的效果\n[Ox Charm]:军事单位+10%战斗力\n[Rabbit Charm]:军事单位+1移动力"
-		"uniqueName": "Twelve Zodiac Charms",//文明特性名
-		"uniques": [
-		"Instantly provides [5] [Charms]<upon constructing [Wonder]>"//奇观拿符咒
-		//"Instantly provides [1] [Charms]<upon discovering a Natural Wonder>"//奇观拿棋2
-		
-		"Provides [1] [Ox Charm] <when above [0] [Charms]>"//给符咒-牛
-		"Provides [1] [Rabbit Charm] <when above [1] [Charms]>"//给符咒-兔
-		"Provides [1] [Snake Charm] <when above [2] [Charms]>"//给符咒-蛇
-		"Provides [1] [Talisman charm] <when above [3] [Charms]>"//给符咒-马
-			],//文明特性具体效果
-			"cities": ["Shendu",]
-	},*/
 	{
 		"name": "Abydos highschool",//阿拜多斯高等学院
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：鱼子酱256"}],
 		"leaderName": "小鸟游星野",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3139,9 +3086,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [111, 215, 0],//文明内部色*
 		"innerColor": [100,131,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "所有城市-100%[Gold]产出\n单位击杀单位时获得等于其战斗力100%的[Gold]，掠夺不消耗移动力并拥有3倍收益\n每8回合会根据建筑的数量获得一次大量[Gold]产出"
-		"uniqueName": "收获日",//文明特性名
+		
+		"uniqueText": "All cities -100%[Gold] output\nWhen units kill other units, gain [Gold] equal to 100% of their combat strength, pillaging costs no movement and grants 3x rewards\nEvery 8 turns gain a large amount of [Gold] based on number of buildings"//所有城市-100%[Gold]产出\n单位击杀单位时获得等于其战斗力100%的[Gold]，掠夺不消耗移动力并拥有3倍收益\n每8回合会根据建筑的数量获得一次大量[Gold]产出"
+		"uniqueName": "Payday"//收获日",//文明特性名
 		"uniques": [
 		"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
 	   "Receive triple Gold from Barbarian encampments and pillaging Cities",//三倍掠夺
@@ -3157,7 +3104,7 @@
 	{
 		"name": "Millennium Science School - Game Development Department",//千年 - 游戏开发部
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "柚子",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3173,8 +3120,8 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [11, 25, 0],//文明内部色*
 		"innerColor": [100,131,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[Happiness]建筑额外提供+1[Science]\n[Plantation]的[Luxury resource]地块+1[Production]"
+		
+		"uniqueText": "[Happiness] buildings provide additional +1[Science]\n[Plantation] on [Luxury resource] tiles +1[Production]"//[Happiness]建筑额外提供+1[Science]\n[Plantation]的[Luxury resource]地块+1[Production]"
 		"uniqueName": "G.Bibei",//文明特性名
 		"uniques": [
 		"[+1 Science] from all [Happiness] buildings"
@@ -3190,7 +3137,7 @@
 	{
 		"name": "Gehenna School - Convenience House 68",//歌赫娜-便利屋68
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "爱露",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3206,9 +3153,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 85, 190],//文明内部色*
 		"innerColor": [100,131,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "拥有5位[Mercenary],可以通过贸易雇佣给其他文明,使其获得军队战斗力+15%（上限30%）,但其他文明需要每回合向你支付10[Gold]与2[Culture]与2[Science]"
-		"uniqueName": "便利屋,使命必达！",//文明特性名
+		
+		"uniqueText": "Own 5 [Mercenary] units that can be hired by other civilizations through trade, granting their armies +15% combat strength (max 30%), but requiring them to pay you 10[Gold], 2[Culture] and 2[Science] per turn"//拥有5位[Mercenary],可以通过贸易雇佣给其他文明,使其获得军队战斗力+15%（上限30%）,但其他文明需要每回合向你支付10[Gold]与2[Culture]与2[Science]"
+		"uniqueName": "Convenience Store, Mission Guaranteed! "//便利屋,使命必达！",//文明特性名
 		"uniques": [
 		"Instantly provides [1] [68]"//拿资源
 		"Provides [5] [Mercenary]"//给雇佣兵
@@ -3221,7 +3168,7 @@
 	{
 		"name": "Caesar Group",//凯撒集团
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "凯撒",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3237,9 +3184,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [1, 125, 20],//文明内部色*
 		"innerColor": [100,31,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "可以和其他文明进行特殊交易(交易[Culture][Science][Faith])"
-		"uniqueName": "合作愉快",//文明特性名
+		
+		"uniqueText": "Can conduct special trades with other civilizations (trading [Culture][Science][Faith])"//可以和其他文明进行特殊交易(交易[Culture][Science][Faith])"
+		"uniqueName": "Pleasant Cooperation"//合作愉快",//文明特性名
 		"uniques": [
 		"Provides [1] [Caesar provides: Culture 5]"
 		"Provides [1] [Caesar provides: Science 5]"
@@ -3255,7 +3202,7 @@
 	{
 			"name": "BOSS The King of the Undead",//不死者之王
 			"civilopediaText":[
-        {"text": "投稿者：秋雨\n此文明不推荐在联机中使用"}],
+        {"text": "设计者：秋雨\n此文明不推荐在联机中使用"}],
 			"leaderName": "The King of the Undead",
 			"adjective": ["The King of the Undead"],
 		//"startBias": ["Forest"],//起始偏好
@@ -3272,9 +3219,9 @@
         "tradeRequest": "来各取所需吧！",//向玩家申请交易时
         "outerColor": [205, 255, 205],//文明内部色*
 		"innerColor": [10,15,15],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "减少80%来自人口的不快乐\n击杀[Military]后获得[Strength] [50]%的[Science][Culture]与100%的[Gold]\n黄金时代持续时间+100%,当与其他文明宣战时进入黄金时代\n每次获得奇观进入黄金时代\n所有 [Military] 获得 [Undead] 晋升,处于黄金时代时+10%战斗力"
-		"uniqueName": "不死者之王",//文明特性名
+		
+		"uniqueText": "Reduce unhappiness from population by 80%\nWhen killing [Military] units, gain [Science] and [Culture] equal to 50% of their [Strength], and [Gold] equal to 100%\nGolden Age duration +100%, enter Golden Age when declaring war on other civilizations\nEnter Golden Age when obtaining a wonder\nAll [Military] units gain [Undead] promotion, +10% combat strength during Golden Age"//减少80%来自人口的不快乐\n击杀[Military]后获得[Strength] [50]%的[Science][Culture]与100%的[Gold]\n黄金时代持续时间+100%,当与其他文明宣战时进入黄金时代\n每次获得奇观进入黄金时代\n所有 [Military] 获得 [Undead] 晋升,处于黄金时代时+10%战斗力"
+		"uniqueName": "King of the Undead"//不死者之王",//文明特性名
 		"uniques": [
 		"[-80]% Unhappiness from [Population] [in all cities]"
 		"Earn [50]% of killed [Military] unit's [Strength] as [Science]",//杀人拿战力的
@@ -3283,7 +3230,7 @@
 		"[Military] units gain the [Undead] promotion"//获得晋升
 		"[+100]% Golden Age length"
 		"[+10]% Strength<during a Golden Age>"
-		"Empire enters golden age<upon declaring war on [Major] Civilizations>"//宣战开黄金
+		"Empire enters golden age<upon declaring war with a major Civilization>"//宣战开黄金
 		"Empire enters golden age<upon constructing [Wonder]>"//奇观开黄金
 		],//文明特性具体效果
 		"cities": ["大坟墓",]
@@ -3292,7 +3239,7 @@
 	{
 		"name": "Endymion",//恩底弥翁
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "魔导王",//魔导王
 		"adjective": ["x"],
 		//"startBias": ["Tundra"],//起始偏好
@@ -3308,9 +3255,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [28, 193, 194],//文明内部色*
 		"innerColor": [120, 215, 170],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "根据[Magic power]的数量提升特性:\n50:贸易路线+2[Gold]+2[Science]\n100:每个城市+1[Science]+1[Production]\n200:每有1个政策获得+1[Culture]+2[Faith]\n300:每个城市+2[Gold]\n400:[Science]建筑+2[Production][Gold]\n700:[Academy]+3[Gold]+2[Production],并提升来自[Academy]的25%产出\n1000:每个城市+3[Gold][Food][Faith][Production]\n\n获取魔力的方法:\n每次建造建筑+5[Magic power],建造军事单位+2[Magic power],建造奇观+50[Magic power]\n创建万神殿+10[Magic power],创建宗教+30[Magic power],提升宗教+50[Magic power]\n进入黄金时代+20[Magic power]\n军事单位击杀单位时+3[Magic power]"
-		"uniqueName": "魔法都市 恩底弥翁",//文明特性名
+		
+		"uniqueText": "Effects scale with [Magic power] amount：\n50：Trade routes +2[Gold]+2[Science]\n100：Each city +1[Science]+1[Production]\n200：Each policy +1[Culture]+2[Faith]\n300：Each city +2[Gold]\n400：[Science] buildings +2[Production][Gold]\n700：[Academy]+3[Gold]+2[Production], and +25% output from [Academy]\n1000：Each city +3[Gold][Food][Faith][Production]\n\nWays to gain [Magic power]：\nConstructing buildings +5, military units +2, wonders +50\nFounding Pantheon +10, founding Religion +30, enhancing Religion +50\nEntering Golden Age +20\nMilitary units killing units +3"//根据[Magic power]的数量提升特性:\n50:贸易路线+2[Gold]+2[Science]\n100:每个城市+1[Science]+1[Production]\n200:每有1个政策获得+1[Culture]+2[Faith]\n300:每个城市+2[Gold]\n400:[Science]建筑+2[Production][Gold]\n700:[Academy]+3[Gold]+2[Production],并提升来自[Academy]的25%产出\n1000:每个城市+3[Gold][Food][Faith][Production]\n\n获取魔力的方法:\n每次建造建筑+5[Magic power],建造军事单位+2[Magic power],建造奇观+50[Magic power]\n创建万神殿+10[Magic power],创建宗教+30[Magic power],提升宗教+50[Magic power]\n进入黄金时代+20[Magic power]\n军事单位击杀单位时+3[Magic power]"
+		"uniqueName": "Magical City - Endymion"//魔法都市 恩底弥翁",//文明特性名
 		"uniques": [
 		"Discover [Resource Technology]"//开资源
 		"[Military] units gain the [Magic Control I] promotion"//获得晋升
@@ -3339,7 +3286,7 @@
 	{
 		"name": "Domain King",//王战
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "洛普特",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3355,9 +3302,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [195, 0, 240],//文明内部色*
 		"innerColor": [0,131,220],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "伟人单位可建立城市\n前4次建立城市后进入黄金时代\n[Domain King's Team-A]:近战/10力/2移动/无特殊效果"
-		"uniqueName": "域王的馈赠",//文明特性名
+		
+		"uniqueText": "Great Person units can found cities\nEnter Golden Age after founding first 4 cities\n[Domain King's Team-A]：Melee/10 Strength/2 Movement/No special effects"//伟人单位可建立城市\n前4次建立城市后进入黄金时代\n[Domain King's Team-A]:近战/10力/2移动/无特殊效果"
+		"uniqueName": "Domain King's Gift"//域王的馈赠",//文明特性名
 		"uniques": [
 		"Instantly provides [4] [Domain King Counter]"//拿资源
 		"[Great Person] units gain the [King] promotion"//获得晋升
@@ -3371,7 +3318,7 @@
 	{
 		"name": "Baiyin City",//白银城
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "白银姬",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3387,9 +3334,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [55, 0, 210],//文明内部色*
 		"innerColor": [255,255,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[Strategic resource]+1[Happiness]+2[Gold],但奢侈品提供的[Happiness]-1\n敌方远程单位在我方境内移动额外消耗1移动力"
-		"uniqueName": "迷宫城的白银姬",//文明特性名
+		
+		"uniqueText": "[Strategic resource]+1[Happiness]+2[Gold], but luxury resources provide -1[Happiness]\nEnemy ranged units consume +1 Movement when moving in your territory"//[Strategic resource]+1[Happiness]+2[Gold],但奢侈品提供的[Happiness]-1\n敌方远程单位在我方境内移动额外消耗1移动力"
+		"uniqueName": "Silver Princess of Labyrinth City"//迷宫城的白银姬",//文明特性名
 		"uniques": [
 		"[+1 Happiness, +2 Gold] from [Strategic resource] tiles [in this city]",//红色增加
 		"[-1] Happiness from each type of luxury resource"//奢侈减快乐
@@ -3405,7 +3352,7 @@
 	{
 		"name": "Giant viruses",//巨大病毒
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "病毒",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3421,9 +3368,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [55, 0, 210],//文明内部色*
 		"innerColor": [255,255,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "城市自然扩张所需[Culture]-90%\n建造[Civilian]单位时-10%[Production],建造[Settler]单位时额外-25%[Production]\n军事单位获得[Energy replenishment]:随首都距离增加战斗力直到+15%,在友好领土拥有双倍移动力,远程单位在友好领土+10%战斗力\n拥有3次扩张机会"
-		"uniqueName": "无限扩张",//文明特性名
+		
+		"uniqueText": "City natural expansion required [Culture] -90%\nWhen constructing [Civilian] units： -10% [Production], when constructing [Settler] units： additional -25% [Production]\nMilitary units gain [Energy replenishment]： Combat Strength increases with distance from Capital up to +15%, double movement in friendly territory, ranged units get +10% Combat Strength in friendly territory\nGain 3 expansion opportunities"//城市自然扩张所需[Culture]-90%\n建造[Civilian]单位时-10%[Production],建造[Settler]单位时额外-25%[Production]\n军事单位获得[Energy replenishment]:随首都距离增加战斗力直到+15%,在友好领土拥有双倍移动力,远程单位在友好领土+10%战斗力\n拥有3次扩张机会"
+		"uniqueName": "Infinite Expansion"//无限扩张",//文明特性名
 		"uniques": [
 		"[-90]% Culture cost of natural border growth [in all cities]"
 		"[-25]% Production when constructing [Settler] units [in all cities]"
@@ -3440,7 +3387,7 @@
 	{
 		"name": "MC",//MC
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "史蒂夫",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3456,9 +3403,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 0, 120],//文明内部色*
 		"innerColor": [50,231,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		"uniqueText": "工人建造设施所需时间-15%-\n建造建筑时+5%[Production]\n矿井不再提供基础产出,而是改为80%/60%/40%/5%/的概率获得以下加成:\n+1[Production]\n↑+1[Gold]\n↑+1[Production]\n↑+2[Production]+2[Gold]\n\n[Puppet recasting]:消耗2单位[Iron]恢复65HP并获得根据首都距离提升的战斗力(最高25%)"
-		"uniqueName": "采集与建造",//文明特性名
+		"uniqueName": "Gathering and Construction"//采集与建造",//文明特性名
 		"uniques": [
 		"[-1 Production] from every [Mine]"
 		"[+1 Production] from every [Mine]<with [80]% chance>"
@@ -3476,7 +3423,7 @@
 	{
 		"name": "Ice Phoenix Phoenix",//冰凤皇-菲尼克斯
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "菲尼克斯",
 		"adjective": ["x"],
 		"startBias": ["Tundra","Avoid [Desert]"],//起始偏好
@@ -3492,9 +3439,10 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 225, 225],//文明内部色*
 		"innerColor": [0,50,225],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "初始获得传统政策与自主政策1\n取消文化增长,改为进入古典时代获得1个免费政策,进入中古时代获得2个免费政策,以此类推\n每个文化建筑+1[Happiness]+1[Production]+1[Gold]\n购买地块花费减少70%"
-		"uniqueName": "极地自封",//文明特性名
+		
+		"uniqueText": "Start with Tradition and Liberty policy trees unlocked\nCulture growth is replaced by receive 1 free policy upon entering Classical Era, 2 free policies in Medieval Era, scaling with each subsequent era\nEach cultural building provides +1[Happiness] +1[Production] +1[Gold]\nTile purchase cost reduced by 70%"
+		//初始获得传统政策与自主政策1\n取消文化增长,改为进入古典时代获得1个免费政策,进入中古时代获得2个免费政策,以此类推\n每个文化建筑+1[Happiness]+1[Production]+1[Gold]\n购买地块花费减少70%"
+		"uniqueName": "Polar Policy Seclusion"//极地自封",//文明特性名
 		"uniques": [
 		"Starts with [Tradition] adopted"//传统开门
 		"Adopt [Liberty]"//自主开门
@@ -3518,7 +3466,7 @@
 	{
 		"name": "Centurion Knight",//百夫长骑士
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "骑士皇 雷加蒂娅",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3534,9 +3482,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [255, 0, 20],//文明内部色*
 		"innerColor": [20,1,130],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "所有III级晋升提供+15%战斗力并提供100%战斗获取的XP,同时根据不同晋升提供不同效果:\n[Shock III]:+50%侧翼攻击加成\n[Drill III]:防御远程攻击时+33%战斗力\n[Accuracy III]:射程+1视野+1\n[Barrage III]:射击可以无视地形\n[Survivalism III]:+2移动力\n[Medic II]:所有治疗效果翻倍\n[Formation II]:+15%战斗力"
-		"uniqueName": "誓约之徽",//文明特性名
+		
+		"uniqueText": "All Level III promotions provide +15% combat strength and 100% XP from combat, with additional effects：\n[Shock III]：+50% flanking bonus\n[Drill III]：+33% combat strength when defending against ranged attacks\n[Accuracy III]：+1 Range +1 Vision\n[Barrage III]：Attacks ignore terrain\n[Survivalism III]：+2 Movement\n[Medic II]：All healing effects doubled\n[Formation II]：+15% combat strength"//所有III级晋升提供+15%战斗力并提供100%战斗获取的XP,同时根据不同晋升提供不同效果:\n[Shock III]:+50%侧翼攻击加成\n[Drill III]:防御远程攻击时+33%战斗力\n[Accuracy III]:射程+1视野+1\n[Barrage III]:射击可以无视地形\n[Survivalism III]:+2移动力\n[Medic II]:所有治疗效果翻倍\n[Formation II]:+15%战斗力"
+		"uniqueName": "Emblem of Oath"//誓约之徽",//文明特性名
 		"uniques": [
 		//3级晋升
 		"[+15]% Strength<for units with [Shock III]>"//冲击3级额外
@@ -3572,7 +3520,7 @@
 	{
 		"name": "Beidi Hunting tribe",//北地狩族
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "神狩",
 		"adjective": ["x"],
 		"startBias": ["Tundra","Avoid [Desert]"],//起始偏好
@@ -3588,9 +3536,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [210, 125, 20],//文明内部色*
 		"innerColor": [180,31,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "近战单位击杀蛮族时获得一个[Hunter]\n对战蛮族时+100%战斗力\n击杀单位时失去8[Science]与4[Culture],同时获得击杀单位战斗力200%的[Gold](若不足以扣除则会变为负数)"
-		"uniqueName": "狂蛮怒海",//文明特性名
+		
+		"uniqueText": "Melee units gain 1 [Hunter] when killing barbarians\n+100% combat strength against barbarians\nWhen killing units, lose 8[Science] and 4[Culture], but gain [Gold] equal to 200% of the unit's combat strength (may go negative if insufficient)"//近战单位击杀蛮族时获得一个[Hunter]\n对战蛮族时+100%战斗力\n击杀单位时失去8[Science]与4[Culture],同时获得击杀单位战斗力200%的[Gold](若不足以扣除则会变为负数)"
+		"uniqueName": "Savage Fury Sea"//狂蛮怒海",//文明特性名
 		"uniques": [
 		"[Military] units gain the [God's Hunt I] promotion"
 		"[Melee] units gain the [God's Hunt II] promotion"
@@ -3602,7 +3550,7 @@
 	{
 		"name": "Mongolian Hunter",//蒙古上单
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "傲之追猎者",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3618,9 +3566,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [150, 205, 0],//文明内部色*
 		"innerColor": [250,1,150],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": "建造任意建筑时,在此城市获得"
-		"uniqueName": "猎马",//文明特性名
+		"uniqueName": "Horse Hunting"//猎马",//文明特性名
 		"uniques": [
 		"[+100]% Strength<vs [Mounted] units>"
 		"[+50]% Strength<vs [Chariot Archer] units>"
@@ -3634,7 +3582,7 @@
 	{
 		"name": "Rock Phoenix Emperor - Brevinia",//岩凤皇-布莱维尼娅
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "岩雀",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3650,9 +3598,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [180, 5, 0],//文明内部色*
 		"innerColor": [20,158,150],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "军事单位在战斗时额外获得1点XP与回复2HP"
-		"uniqueName": "坚忍",//文明特性名
+		
+		"uniqueText": "Military units gain +1 XP and heal 2HP after combat"//军事单位在战斗时额外获得1点XP与回复2HP"
+		"uniqueName": "Perseverance"//坚忍",//文明特性名
 		"uniques": [
     	"[Military] units gain the [Rock toughness] promotion"
 			],//文明特性具体效果
@@ -3663,7 +3611,7 @@
 	{
 		"name": "Flame Phoenix - Falmanla",//焰凤皇-法尔曼拉
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "法尔",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3679,9 +3627,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [180, 255, 0],//文明内部色*
 		"innerColor": [120,18,150],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "近战单位死亡后会生成[余烬]\n[余烬]:6战斗力/8射程 攻击后自毁/1回合后自毁 被攻击时-80%战斗力"
-		"uniqueName": "生命传导",//文明特性名
+		
+		"uniqueText": "Melee units spawn [Ash] upon death\n[Ash]：6 Strength/8 Range, self-destructs after attacking or 1 turn, -80% combat strength when attacked"//近战单位死亡后会生成[Ash]\n[Ash]:6战斗力/8射程 攻击后自毁/1回合后自毁 被攻击时-80%战斗力"
+		"uniqueName": "Life Conduction"//生命传导",//文明特性名
 		"uniques": [
     	"[Melee] units gain the [Flame of Life] promotion"
 			],//文明特性具体效果
@@ -3692,7 +3640,7 @@
 	{
 			"name": "Heavenly Phoenix - Wings of Freedom",//岚凤皇-自由者之翼
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "翎羽",
 			"adjective": ["自由者之翼"],
 		"startBias": ["Mountain"],//起始偏好
@@ -3710,9 +3658,9 @@
             "tradeRequest": "我们的商队到访了。",//向玩家申请交易时
 			"outerColor": [128, 138, 135],//文明内部色*
 			"innerColor": [25,25,135],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
+			
 			//"uniqueText": ""
-			"uniqueName": "奇袭空队",//文明特性名
+			"uniqueName": "Surprise Air Team"//奇袭空队",//文明特性名
 			"uniques": [
 		"[Land] units gain the [Wings of Freedom] promotion"
 			],//文明特性具体效果
@@ -3721,9 +3669,9 @@
 	},
 	
 	{
-		"name": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"name": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"civilopediaText":[
-        {"text": "投稿者：秋雨\n\n此文明不推荐在联机中使用"}],
+        {"text": "设计者：秋雨\n\n此文明不推荐在联机中使用"}],
 		"leaderName": "神凰",
 		"adjective": ["x"],
 		//"startBias": [],//起始偏好
@@ -3739,9 +3687,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [87, 125, 25],//文明内部色*
 		"innerColor": [30,50,125],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "每进入一个新时代获得2个免费政策\n军事单位可以进行空降,并且每次发生战斗使全体单位获得1XP\n[Culture]建筑获得+4[Gold][Happiness][Production],[Faith]建筑获得+4[Science][Food][Culture]"
-		"uniqueName": "四天之凰",//文明特性名
+		
+		"uniqueText": "Gain 2 free policies when entering new era\nMilitary units can paradrop, and each combat gives all units 1XP\n[Culture] buildings provide +4[Gold][Happiness][Production], [Faith] buildings provide +4[Science][Food][Culture]"//每进入一个新时代获得2个免费政策\n军事单位可以进行空降,并且每次发生战斗使全体单位获得1XP\n[Culture]建筑获得+4[Gold][Happiness][Production],[Faith]建筑获得+4[Science][Food][Culture]"
+		"uniqueName": "Phoenix of Four Heavens"//四天之凰",//文明特性名
 		"uniques": [
 		"[2] Free Social Policies<upon entering the [Classical era]>"//古典政策
 		"[2] Free Social Policies<upon entering the [Medieval era]>"//中古政策
@@ -3764,7 +3712,7 @@
 	{
 		"name": "Blood Witch",//血巫
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "阿莱斯",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3780,9 +3728,9 @@
         "tradeRequest": "来做一个交易如何？",//向玩家申请交易时
 		"outerColor": [120, 58, 150],//文明内部色*
 		"innerColor": [0,252,150],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "击杀单位获取其50%战斗力的[Faith]\n每击杀8个非蛮族单位获得2[Happiness](上限12)\n每击杀8个蛮族单位使单位+5%战斗力(上限15%)并与蛮族作战时额外获得+50%战斗力(上限200%)\n可以以逐渐上涨的价格使用信仰购买[Altar of Life]"
-		"uniqueName": "血祭",//文明特性名
+		
+		"uniqueText": "Gain [Faith] equal to 50% of killed unit's combat strength\nEvery 8 non-barbarian units killed grants 2[Happiness] (max 12)\nEvery 8 barbarians killed gives units +5% combat strength (max 15%) and +50% vs barbarians (max 200%)\nCan purchase [Altar of Life] with gradually increasing [Faith] cost"//击杀单位获取其50%战斗力的[Faith]\n每击杀8个非蛮族单位获得2[Happiness](上限12)\n每击杀8个蛮族单位使单位+5%战斗力(上限15%)并与蛮族作战时额外获得+50%战斗力(上限200%)\n可以以逐渐上涨的价格使用信仰购买[Altar of Life]"
+		"uniqueName": "Blood Sacrifice"//血祭",//文明特性名
 		"uniques": [
     	"[Military] units gain the [Terror] promotion"
     	"Earn [50]% of killed [Military] unit's [Strength] as [Faith]",//杀人拿战力的
@@ -3802,7 +3750,7 @@
 	{
 		"name": "Minstrel",//吟游者
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "阿尔图罗",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3818,9 +3766,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [250, 67, 0],//文明内部色*
 		"innerColor": [10,218,10],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "可以使任意伟人转化为[奏者](限1个)\n可以切换文明状态：激昂/普通/沉沦\n激昂：停止[Science]增长，每座城市+4[Happiness]，对战受伤单位+15%战斗力，非相邻单位无法发现军事单位，城市组建军事单位时+15%[Production]\n沉沦：停止人口增长，每座城市+20%[Culture]产出与[Science]产出"
-		"uniqueName": "律动曲调",//文明特性名
+		
+		"uniqueText": "Can convert any Great Person into [Performer] (limit 1)\nCan switch civilization state：Frenzy/Normal/Slumber\nFrenzy：Stop [Science] growth, each city +4[Happiness], +15% vs wounded units, non-adjacent units cannot detect military, +15%[Production] when training military\nSlumber：Stop population growth, each city +20%[Culture] and [Science] output"//可以使任意伟人转化为[奏者](限1个)\n可以切换文明状态：激昂/普通/沉沦\n激昂：停止[Science]增长，每座城市+4[Happiness]，对战受伤单位+15%战斗力，非相邻单位无法发现军事单位，城市组建军事单位时+15%[Production]\n沉沦：停止人口增长，每座城市+20%[Culture]产出与[Science]产出"
+		"uniqueName": "Rhythmic Melody"//律动曲调",//文明特性名
 		"uniques": [
 		"Provides [1] [Performer counter]"//提供奏者计数器
 		"Provides [1] [Switch Counter]"//提供切换计数器
@@ -3859,7 +3807,7 @@
 	{
 		"name": "Great Britain",//大不列颠
 		"civilopediaText":[
-        {"text": "投稿者：亚瑟●潘德拉贡"}],
+        {"text": "设计者：亚瑟●潘德拉贡"}],
 		"leaderName": "亚瑟●潘德拉贡",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3875,9 +3823,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [80, 7, 50],//文明内部色*
 		"innerColor": [10,218,120],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "骑士精神",//文明特性名
+		"uniqueName": "Chivalry"//骑士精神",//文明特性名
 		"uniques": [
 		"[+20]% Strength <for [Mounted] units> <when fighting in [Friendly Land] tiles>"
 		"[Gold] cost of purchasing [Mounted] units [-50]%"
@@ -3889,7 +3837,7 @@
 	{
 		"name": "Blood Shadow Group",//血影组
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "猎杀者",
 		//"startBias": ["Coast"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -3904,9 +3852,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [250, 77, 150],//文明内部色*
 		"innerColor": [10,2,120],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "军事单位可以探测城市中心，并且在进攻时与满血单位战斗提升33%战斗力\n军事单位击杀单位时获得其战斗力100%的[Gold]\n[Blood Shadow II]：在进攻时与满血单位战斗提升64%战斗力"
-		"uniqueName": "猎杀标记",//文明特性名
+		
+		"uniqueText": "Military units can detect city centers and gain +33% combat strength when attacking full-health units\nGain [Gold] equal to 100% of killed unit's combat strength\n[Blood Shadow II]：+64% combat strength when attacking full-health units"//军事单位可以探测城市中心，并且在进攻时与满血单位战斗提升33%战斗力\n军事单位击杀单位时获得其战斗力100%的[Gold]\n[Blood Shadow II]：在进攻时与满血单位战斗提升64%战斗力"
+		"uniqueName": "Hunting Mark"//猎杀标记",//文明特性名
 		"uniques": [
 		"[Military] units gain the [Blood Shadow I] promotion"
 		"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
@@ -3921,7 +3869,7 @@
 	{
 		"name": "Basalt City",//玄武城
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "武钢",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3937,9 +3885,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [18, 47, 140],//文明内部色*
 		"innerColor": [30,21,120],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "可以按4:1的比例将[Production]转化为[Gold]或[Culture]\n可以按2:1的比例将[Production]转化为[Faith]\n可以使用200+N[Faith]购买[Excavate ruins](标准速度，N为购买次数*100)\n[Excavate ruins]:购买时生成[Ancient ruins]"
-		"uniqueName": "玄化",//文明特性名
+		
+		"uniqueText": "Can convert [Production] to [Gold] or [Culture] at 4：1 ratio\nCan convert [Production] to [Faith] at 2：1 ratio\nCan spend 200+N[Faith] to purchase [Excavate ruins] (Standard speed, N is purchase count*100)\n[Excavate ruins]：Spawns [Ancient ruins] when purchased"//可以按4:1的比例将[Production]转化为[Gold]或[Culture]\n可以按2:1的比例将[Production]转化为[Faith]\n可以使用200+N[Faith]购买[Excavate ruins](标准速度，N为购买次数*100)\n[Excavate ruins]:购买时生成[Ancient ruins]"
+		"uniqueName": "Mystical Transformation"//玄化",//文明特性名
 		"uniques": [
 		"Enables conversion of city production to [Culture]"
 		"Enables conversion of city production to [Gold]"
@@ -3956,7 +3904,7 @@
 	{
 		"name": "Andragon",//安德拉贡
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "萨卡奇奇里斯",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -3972,9 +3920,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [99, 147, 99],//文明内部色*
 		"innerColor": [80,0,120],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "祖脉",//文明特性名
+		"uniqueName": "Ancestral Vein"//祖脉",//文明特性名
 		"uniques": [
 		"[+100]% Yield from every [Mine] <in tiles without [Bonus resource]>"
 			],//文明特性具体效果
@@ -3985,7 +3933,7 @@
 	{
 		"name": "Sonic",//索尼克
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "音速索尼克",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4001,9 +3949,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [199, 147, 99],//文明内部色*
 		"innerColor": [30,77,180],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "单位可生成3次道路\n道理与铁路维护费-125%\n[Hedgehog Rolling Ball]:8近战/远程战斗力 2射程/4→ 攻击后可移动/可转化为[Hedgehog]"
-		"uniqueName": "极极极速",//文明特性名
+		
+		"uniqueText": "Units can build roads 3 times\nRoad and Railroad maintenance -125%\n[Hedgehog Rolling Ball]：8 Melee/Ranged Strength 2 Range/4→ Can move after attacking/Can transform into [Hedgehog]"//单位可生成3次道路\n道理与铁路维护费-125%\n[Hedgehog Rolling Ball]:8近战/远程战斗力 2射程/4→ 攻击后可移动/可转化为[Hedgehog]"
+		"uniqueName": "Extreme Speed"//极极极速",//文明特性名
 		"uniques": [
 		"[All] units gain the [Track paving] promotion"
 		"[-100]% maintenance on road & railroads"
@@ -4015,7 +3963,7 @@
 	{
 		"name": "Deep Ones",//深潜者
 		"civilopediaText":[
-        {"text": "投稿者：未知"}],
+        {"text": "设计者：未知"}],
 		"leaderName": "深潜者族长",
 		"startBias": ["Coast"],//起始偏好
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -4030,9 +3978,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 69, 107],//文明内部色*
 		"innerColor": [250,1,150],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "从远古时代获得船运能力不受船运影响，并且单位可以进入海洋\n陆地单位在水上/淡水地块拥有双倍移动力，并且在登陆时获得1行动力\n每座海滨城市+1[Happiness]与[Faith]"
-		"uniqueName": "潜海奇袭",//文明特性名
+		
+		"uniqueText": "Gain embarkation ability from Ancient Era without penalty, units can enter ocean\nLand units have double movement on water/freshwater tiles and gain 1 Movement when disembarking\nEach coastal city +1[Happiness] and [Faith]"//从远古时代获得船运能力不受船运影响，并且单位可以进入海洋\n陆地单位在水上/淡水地块拥有双倍移动力，并且在登陆时获得1行动力\n每座海滨城市+1[Happiness]与[Faith]"
+		"uniqueName": "Submarine Ambush"//潜海奇袭",//文明特性名
 		"uniques": [
 		"[+1 Happiness, +1 Faith] [in all coastal cities]",//
 		"[Land] units gain the [Deep Ones] promotion"
@@ -4047,7 +3995,7 @@
 	{
 		"name": "Black Forest",//黑森林
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "莎布·尼古拉斯",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4063,9 +4011,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [210, 125, 20],//文明内部色*
 		"innerColor": [180,31,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "奢侈品不再提供快乐，人口不再减少[Happiness]并且反而每2人口提供1[Happiness]，但获得新人口后若[Food]少于上一阶段所需[Food]的20%则减少1人口\n-15%人口增长\n每个[Happiness]建筑-4[Happiness]，但提供+1[Food]与[Production]"
-		"uniqueName": "极乐繁衍",//文明特性名
+		
+		"uniqueText": "Luxury resources no longer provide happiness, population no longer reduces [Happiness] and instead provides 1[Happiness] per 2 population, but gaining new population when [Food] is less than 20% of previous requirement reduces population by 1\n-15% population growth\nEach [Happiness] building -4[Happiness] but provides +1[Food] and [Production]"//奢侈品不再提供快乐，人口不再减少[Happiness]并且反而每2人口提供1[Happiness]，但获得新人口后若[Food]少于上一阶段所需[Food]的20%则减少1人口\n-15%人口增长\n每个[Happiness]建筑-4[Happiness]，但提供+1[Food]与[Production]"
+		"uniqueName": "Blissful Reproduction"//极乐繁衍",//文明特性名
 		"uniques": [
 		//"[+100]% unhappiness from the number of cities", 
 		"[-100]% Unhappiness from [Population] [in all cities]"
@@ -4084,7 +4032,7 @@
 	{
 		"name": "No.100 Royal King",//No.100 皇室王
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "切里",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4100,9 +4048,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [99, 147, 99],//文明内部色*
 		"innerColor": [80,0,120],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "皇帝特权",//文明特性名
+		"uniqueName": "Emperor's Privilege"//皇帝特权",//文明特性名
 		"uniques": [
 		"[+1 Gold, +1 Production] per [3] population [in capital]",
 		"[+1 Science, +1 Faith, +1 Production, +1 Gold, +1 Culture] per [4] population [in capital]",
@@ -4116,7 +4064,7 @@
 	{
 		"name": "The goblin gang",//哥布林团伙
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "大哥 布林",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4132,9 +4080,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [129, 57, 199],//文明内部色*
 		"innerColor": [80,80,120],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "军事单位每回合提供1士气(上限36)，军事单位死亡后减少3士气\n士气低于13时军队-10%战斗力，城市+20%人口增长\n士气高于24时军队+10%战斗力，城市-20%人口增长井+1[Happiness](首都额外+1)"
-		"uniqueName": "欺软怕硬",//文明特性名
+		
+		"uniqueText": "Military units provide 1 Morale per turn (max 36), lose 3 Morale when military units die\nWhen Morale is below 13, armies get -10% Combat Strength, cities get +20% population growth\nWhen Morale is above 24, armies get +10% Combat Strength, cities get -20% population growth and +1 [Happiness] (Capital gets an additional +1)"//军事单位每回合提供1士气(上限36)，军事单位死亡后减少3士气\n士气低于13时军队-10%战斗力，城市+20%人口增长\n士气高于24时军队+10%战斗力，城市-20%人口增长并+1[Happiness](首都额外+1)"
+		"uniqueName": "Bullying the Weak"//欺软怕硬",//文明特性名
 		"uniques": [
 		"[Military] units gain the [Bully the weak and fear the strong] promotion"
 		"[+20]% growth [in all cities]<when below [13] [Goblin Counter]>"
@@ -4149,7 +4097,7 @@
 	{
 		"name": "Wilde",//薇尔德
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Lili Will",//莉莉薇儿
 		"adjective": ["x"],
 		"startBias": ["Mountain"],//起始偏好
@@ -4165,9 +4113,9 @@
         "tradeRequest": "这是我们部族的特产。",//向玩家申请交易时
 		"outerColor": [29, 87, 111],//文明内部色*
 		"innerColor": [255,255,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "陆地单位可以穿过山脉，在丘陵/山脉上移动所消耗的移动力减半"
-		"uniqueName": "山地民族",//文明特性名
+		
+		"uniqueText": "Land units can cross mountains, movement cost halved on Hills/Mountains"//陆地单位可以穿过山脉，在丘陵/山脉上移动所消耗的移动力减半"
+		"uniqueName": "Mountain People"//山地民族",//文明特性名
 		"uniques": [
 		"[Land] units gain the [Mountain ethnic groups] promotion"
 			],//文明特性具体效果
@@ -4178,7 +4126,7 @@
 	{
 		"name": "Knights Alliance",//骑士同盟
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "Gloria",//歌洛利亚
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4194,10 +4142,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [89, 127, 181],//文明内部色*
 		"innerColor": [255,255,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "可以与其他文明签订[Knight's Oath](最多3份)\n我方与拥有[Knight's Oath]的文明新建军事单位获得[The Glory of Knights]"
-		//\n[The Glory of Knights]:拥有[Knight's Oath]时，军事单位与单位相邻时+10%防御力并在回合结束时回复5HP
-		"uniqueName": "荣耀与誓约",//文明特性名
+		
+		"uniqueText": "Can sign [Knight's Oath] with other civilizations (max 3)\nNew military units created by us or civilizations with [Knight's Oath] gain [The Glory of Knights]"//可以与其他文明签订[Knight's Oath](最多3份)\n我方与拥有[Knight's Oath]的文明新建军事单位获得[The Glory of Knights]"
+		"uniqueName": "Glory and Oaths"//荣耀与誓约",//文明特性名
 		"uniques": [
 		"Provides [3] [Knight's Oath]"//给誓约
 		"[Military] units gain the [The Glory of Knights] promotion"
@@ -4210,7 +4157,7 @@
 	{
 		"name": "Magic Kingdom",//法皇国
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "萨曼莎",//萨曼莎
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4226,9 +4173,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [208, 155, 32],//文明内部色*
 		"innerColor": [255,255,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "在与其他文明签订防御条约时获得免费伟人\n所有单位每回合恢复4HP并额外获取25%XP\n平民单位受到近战攻击时撤退，并且+2视野"
-		"uniqueName": "庇护之光",//文明特性名
+		
+		"uniqueText": "Gain a free Great Person when signing Defensive Pacts with other civilizations\nAll units heal +4 HP per turn and gain +25% XP\nCivilian units retreat when attacked by melee units and gain +2 [Sight]"//在与其他文明签订防御条约时获得免费伟人\n所有单位每回合恢复4HP并额外获取25%XP\n平民单位受到近战攻击时撤退，并且+2视野"
+		"uniqueName": "Light of Sanctuary"//庇护之光",//文明特性名
 		"uniques": [
 		"Free Great Person<upon declaring a defensive pact>"//免费伟人
 		"[All] units gain the [The Light of Shelter] promotion"
@@ -4241,7 +4188,7 @@
 	{
 		"name": "Steam Steel United Nations",//汽与钢联合国
 		"civilopediaText":[
-        {"text": "投稿者：苏莱曼十一世"}],
+        {"text": "设计者：苏莱曼十一世"}],
 		"leaderName": "苏莱曼十一世",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4257,9 +4204,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [8, 255, 150],//文明内部色*
 		"innerColor": [122,25,55],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "每个专业人员额外为城市提供2[Production]\n研究[Writing]之前无法获得伟人点数，研究[Writing]之后伟人获取速率+25%\n首都获得一个免费的[Library]"
-		"uniqueName": "精英人口",//文明特性名
+		
+		"uniqueText": "Each Specialist provides additional +2[Production] to the city\nCannot generate Great Person points before researching [Writing], after researching [Writing] Great Person generation rate +25%\nCapital gains a free [Library]"//每个专业人员额外为城市提供2[Production]\n研究[Writing]之前无法获得伟人点数，研究[Writing]之后伟人获取速率+25%\n首都获得一个免费的[Library]"
+		"uniqueName": "Elite Population"//精英人口",//文明特性名
 		"uniques": [
 		"[+25]% Great Person generation [in this city]<after discovering [Writing]>",
 		"[-100]% Great Person generation [in this city]<before discovering [Writing]>",
@@ -4275,7 +4222,7 @@
 	{
 		"name": "BOSS Golden God",//BOSS 黄金之神
 		"civilopediaText":[
-        {"text": "投稿者：秋雨\n此文明不推荐在联机中使用"}],
+        {"text": "设计者：秋雨\n此文明不推荐在联机中使用"}],
 		"leaderName": "金",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4291,9 +4238,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [208, 155, 32],//文明内部色*
 		"innerColor": [22,85,175],//文明外部色*
-		//"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "每个建筑+1并+10%全产出"
-		"uniqueName": "黄金国度",//文明特性名
+		//
+		"uniqueText": "Each building provides +1 and +10% to all yields"//每个建筑+1并+10%全产出"
+		"uniqueName": "Golden Kingdom"//黄金国度",//文明特性名
 		"uniques": [
 		"[+1 Food, +1 Science, +1 Faith, +1 Production, +1 Gold, +1 Culture, +1 Happiness] from every [Buildings]",
 		"[+10]% Yield from every [Buildings]"
@@ -4304,7 +4251,7 @@
 	{
 		"name": "Millennium Science School - Seminar",//千年 - 研讨会
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "早濑优香",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4320,9 +4267,9 @@
         "tradeRequest": "经过我的计算，你不会拒绝这项交易。",//向玩家申请交易时
 		"outerColor": [0, 51, 153],//文明内部色*
 		"innerColor": [252,250,252],//文明外部色*
-		//"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "持续研究技术时逐渐获得[Science]与[Gold]加成\n单位防御时-5%战斗力，进攻时+7%战斗力，防御建筑提供的城市战斗力随时代增加(从15%开始)"
-		"uniqueName": "冷酷的计算使&没包人的愤怒",//文明特性名
+		//
+		"uniqueText": "Gain increasing [Science] and [Gold] bonuses while continuously researching technologies\nUnits: -5% [Strength] when defending, +7% [Strength] when attacking\nDefense building bonuses to city [Strength] scale with Era (starting at +15%)"//持续研究技术时逐渐获得[Science]与[Gold]加成\n单位防御时-5%战斗力，进攻时+7%战斗力，防御建筑提供的城市战斗力随时代增加(从15%开始)"
+		"uniqueName": "Ruthless Calculation & Anger of the Breadless"//冷酷的计算使&没包人的愤怒",//文明特性名
 		"uniques": [
 		"[+1 Science] per every [10] [Science]"
 		"[-1 Science] per every [30] [Science]"
@@ -4353,7 +4300,7 @@
 	{
 		"name": "Firewood fire",//薪火
 		"civilopediaText":[
-        {"text": "投稿者：苏莱曼十一世"}],
+        {"text": "设计者：苏莱曼十一世"}],
 		"leaderName": "苏云安",
 		"adjective": ["薪火不灭"],
 		//"startBias": ["Mountain"],
@@ -4370,8 +4317,8 @@
 		"outerColor": [240,35,0],//文明内部色
 		"innerColor": [255,223,0],//文明外部色
 		"favoredReligion": "Islam",
-		"uniqueText": "每1人口+1[Production][Food]产出\n每2人口+1[Production][Gold]产出\n军事单位每回合回复5HP，蛮族+50%战斗力，近战单位击杀蛮族可以进行招募\n所有城市获得免费法庭，单位维护费-60%"
-		"uniqueName": "最后的薪火",
+		"uniqueText": "Per Population：+1[Production][Food]\nPer 2 Population：+1[Production][Gold]\nMilitary units heal +5 HP per turn, Barbarians +50% [Strength]\nMelee units can recruit after killing Barbarians\nAll cities gain free Courthouse, Unit maintenance -60%"//每1人口+1[Production][Food]产出\n每2人口+1[Production][Gold]产出\n军事单位每回合回复5HP，蛮族+50%战斗力，近战单位击杀蛮族可以进行招募\n所有城市获得免费法庭，单位维护费-60%"
+		"uniqueName": "The Last Ember"//最后的薪火",
 		"uniques": ["[+1 Production, +1 Food] per [1] population [in all cities]",
 		"[+1 Production, +1 Gold] per [2] population [in all cities]",
 		"Gain a free [Courthouse] [in annexed cities]",
@@ -4384,7 +4331,7 @@
 	{
 		"name": "Pottery Pig",//陶猪
 		"civilopediaText":[
-        {"text": "投稿者：秋雨\n此文明不推荐在联机中使用"}],
+        {"text": "设计者：秋雨\n此文明不推荐在联机中使用"}],
 		"leaderName": "猪猪存钱罐",//猪猪存钱罐
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4400,9 +4347,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [208, 155, 72],//文明内部色*
 		"innerColor": [5,255,155],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "目前无法正常使用\n当拥有的[Gold]变为负数后，获得以下加成(正数的情况下会倒扣)：\n每-5[Gold]统计+1[Faith]\n每-10[Gold]统计+1[Science]\n每-15[Gold]统计+1[Culture]"
-		"uniqueName": "无偿贷款",//文明特性名
+		
+		"uniqueText": "Currently not functioning properly\nWhen owned [Gold] becomes negative, gain the following bonuses (positive values cause penalties):\nPer -5[Gold]: +1[Faith]\nPer -10[Gold]: +1[Science]\nPer -15[Gold]: +1[Culture]"//目前无法正常使用\n当拥有的[Gold]变为负数后，获得以下加成(正数的情况下会倒扣)：\n每-5[Gold]统计+1[Faith]\n每-10[Gold]统计+1[Science]\n每-15[Gold]统计+1[Culture]"
+		"uniqueName": "Interest-Free Loans"//无偿贷款",//文明特性名
 		"uniques": [
 		"[+1 Faith] per every [5] [Gold]"
 		"[+1 Science] per every [10] [Gold]"
@@ -4416,7 +4363,7 @@
 	{
 		"name": "Doll House",//人偶之家
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "莉莉",//莉莉
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4432,9 +4379,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [208, 155, 72],//文明内部色*
 		"innerColor": [55,55,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "根据'时间'获取效果(每轮24回合，N＝政策数)：\n1~12时：单位-10%战斗力，获得+N*3[Gold]\n13~24时：获得+N[Culture]\n20~24时：单位+10%战斗力+1移动，建造时间-50%，每个建筑+1[Science]"
-		"uniqueName": "月回时",//文明特性名
+		
+		"uniqueText": "Effects based on 'Time' (24 turns per cycle, N is number of Policies)：\nTurns 1~12：Units -10% [Strength], gain +N*3[Gold]\nTurns 13~24：Gain +N[Culture]\nTurns 20~24：Units +10% [Strength] +1 [Movement], Construction time -50%, each building +1[Science]"//根据'时间'获取效果(每轮24回合，N＝政策数)：\n1~12时：单位-10%战斗力，获得+N*3[Gold]\n13~24时：获得+N[Culture]\n20~24时：单位+10%战斗力+1移动，建造时间-50%，每个建筑+1[Science]"
+		"uniqueName": "Lunar Cycle"//月回时",//文明特性名
 		"uniques": [
 		"Discover [Resource Technology]"//开资源
 		//"Instantly provides [1] [Magic power]"//拿魔力
@@ -4459,7 +4406,7 @@
 	{   
 	    "name": "SP-Acrisis",//SP爱克里西斯
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "爱希莉亚",
 			"adjective": ["炼金之国"],
 		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -4475,9 +4422,9 @@
             "tradeRequest": "庆贺吧,爱克里西斯的商队来到了此地。",//向玩家申请交易时
 			"outerColor": [255, 215, 000],//文明内部色*
 			"innerColor": [218,25,95],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "通过6个步骤完成[Alchemy Formation]获得加成，其中黑土/白垩/赤成/黄金各提供1个+2[Happiness]的奢侈品(括号内为标速所需[Culture])：\n黑土(180)：该城市丘陵地块+1[Gold]，非奖金地块+1[Gold]\n白垩(350/750)：每个城市+2[Production][Food][Culture]，组建平民单位+50%产并使其+1移动\n赤成(350/750)：每个城市组建近战单位时+25%产能，获得4个免费枪兵\n黄金(1500)：进入16回合黄金时代，每个城市+20%[Production]与[Culture]\n炼金阵结(3000)：进入24回合黄金时代，获得2个免费政策，获得3个免费科技"
-			"uniqueName": "炼成阵",//文明特性名
+			
+			"uniqueText": "Complete [Alchemy Formation] in 6 steps for bonuses. Each resource (Black Soil/Chalk/Red Success/Gold) provides a +2[Happiness] Luxury (Required [Culture] at Standard speed in parentheses)：\nBlack Soil (180)：Hills +1[Gold], non-Bonus tiles +1[Gold] in this city\nChalk (350/750)：Each city +2[Production][Food][Culture], civilian units +50% [Production] and +1 [Movement]\nRed Success (350/750)：+25% [Production] when building melee units in any city, gain 4 free Spearmen\nGold (1500)：Enter 16-turn Golden Age, all cities +20% [Production] and [Culture]\nFormation Complete (3000)：Enter 24-turn Golden Age, gain 2 free Policies, gain 3 free Technologies"//通过6个步骤完成[Alchemy Formation]获得加成，其中黑土/白垩/赤成/黄金各提供1个+2[Happiness]的奢侈品(括号内为标速所需[Culture])：\n黑土(180)：该城市丘陵地块+1[Gold]，非奖金地块+1[Gold]\n白垩(350/750)：每个城市+2[Production][Food][Culture]，组建平民单位+50%产并使其+1移动\n赤成(350/750)：每个城市组建近战单位时+25%产能，获得4个免费枪兵\n黄金(1500)：进入16回合黄金时代，每个城市+20%[Production]与[Culture]\n炼金阵结(3000)：进入24回合黄金时代，获得2个免费政策，获得3个免费科技"
+			"uniqueName": "Alchemy Formation"//炼成阵",//文明特性名
 			"uniques": [
 		"May buy [The alchemy array plan is launched] buildings for [25] [Culture] [in all cities]"//开启
 		"May buy [Black Earth Alchemy Formation] buildings for [180] [Culture] [in all cities]<when above [20] [Magic power]>"//黑土
@@ -4499,7 +4446,7 @@
 	{
 		"name": "Alasong",//阿拉颂
 		"civilopediaText":[
-        {"text": "投稿者：德克萨斯"}],
+        {"text": "设计者：德克萨斯"}],
 		"leaderName": "迪尔斯",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4515,9 +4462,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [96, 56, 17],//文明内部色*
 		"innerColor": [144,238,144],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "阿拉颂精神",//文明特性名
+		"uniqueName": "Spirit of Arason"//阿拉颂精神",//文明特性名
 		"uniques": [
 		"Gain enough Faith for [3]% of a Great Prophet <after discovering [Writing]> <upon turn end>"
 		"Gain enough Faith for [5]% of a Great Prophet <after discovering [Philosophy]> <upon turn end>"
@@ -4546,8 +4493,8 @@
 			"outerColor": [10, 132, 64],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
 			"favouredReligion": "Pokemon",//当作为ai时选择的宗教
-			"uniqueName": "大地的坂木",//文明特性名
-			"uniqueText": "[Desert]+1[Gold],非[Flood plains]与[Hill]时+1[Production]\n非[Hill]的[Desert]地块与2块以上[Desert]相邻时+1[Food]，若为[Flood plains]则改为-1[Food]+1[Production]\n可以使用两倍成本的[Faith]购买[Diglett]"
+			"uniqueName": "Earth's Sakaki"//大地的坂木",//文明特性名
+			"uniqueText": "[Desert]+1[Gold], +1[Production] if not [Flood plains] or [Hill]\nNon-[Hill] [Desert] tiles adjacent to ≥2 [Desert] gain +1[Food]; if [Flood plains] instead -1[Food]+1[Production]\nCan purchase [Diglett] with [Faith] at double cost"//[Desert]+1[Gold],非[Flood plains]与[Hill]时+1[Production]\n非[Hill]的[Desert]地块与2块以上[Desert]相邻时+1[Food]，若为[Flood plains]则改为-1[Food]+1[Production]\n可以使用两倍成本的[Faith]购买[Diglett]"
 			"uniques": [
 			"Provides [1] [R]"//地鼠购买权
 			"May buy [Diglett] units with [Faith] for [2] times their normal Production cost",//购买地鼠
@@ -4565,7 +4512,7 @@
 	{
 		"name": "Scieation",//凡尔训
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "乌托",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4581,9 +4528,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [6, 56, 177],//文明内部色*
 		"innerColor": [144,238,14],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "直到工业时代为止每次进入新时代获得那个时代及之前的时代各1个随机可研究科技（不包括远古时代）\n可研究科技：即为拥有前置科技，玩家可自己选择研究的科技"
-		"uniqueName": "科技大爆炸",//文明特性名
+		
+		"uniqueText": "Gain 1 random researchable technology from each era up to the current era when advancing to a new era (excluding Ancient Era)\nResearchable technology：Requires prerequisite techs, player can choose to research"//直到工业时代为止每次进入新时代获得那个时代及之前的时代各1个随机可研究科技（不包括远古时代）\n可研究科技：即为拥有前置科技，玩家可自己选择研究的科技"
+		"uniqueName": "Tech Explosion"//科技大爆炸",//文明特性名
 		"uniques": [
 		
 		"[1] free random researchable Tech(s) from the [Ancient era]<upon entering the [Classical era]>"//远古
@@ -4612,7 +4559,7 @@
 	{
 		"name": "Poland",//波兰
 		"civilopediaText":[
-        {"text": "投稿者：抚意wind"}],
+        {"text": "设计者：抚意wind"}],
         "startBias": ["Plains"],//起始偏好
 		"leaderName": "卡其米日三世",
 		"adjective": ["波兰"],
@@ -4638,8 +4585,8 @@
 
 		"outerColor": [ 241, 3, 0 ],
 		"innerColor": [ 80, 11, 14 ],
-		"uniqueText": "进入新时代时获得1个免费政策（不包括远古时代）\n政策推广成本+15%",
-		"uniqueName": "团结进取", //文明特性名
+		"uniqueText": "Gain 1 free Policy when advancing to a new era (excluding Ancient Era)\nPolicy adoption cost +15%"//进入新时代时获得1个免费政策（不包括远古时代）\n政策推广成本+15%",
+		"uniqueName": "United Progress"//团结进取", //文明特性名
 		"uniques": [
 		
 			" Free Social Policy<upon entering the [Classical era]>", //古典政策
@@ -4659,7 +4606,7 @@
 	{
 		"name": "Don't Starve",//饥荒
 		"civilopediaText":[
-        {"text": "投稿者：书墨"}],
+        {"text": "设计者：书墨"}],
 		"leaderName": "兔人",
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4675,9 +4622,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [177, 255, 150],//文明内部色*
 		"innerColor": [12,12,55],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[Cattle][Horses][Sheep]所在地块不再提供[Food]，[Bananas][Wheat]+1[Food]"
-		"uniqueName": "我不吃肉",//文明特性名
+		
+		"uniqueText": "[Cattle][Horses][Sheep] tiles no longer provide [Food], [Bananas][Wheat] +1[Food]"//[Cattle][Horses][Sheep]所在地块不再提供[Food]，[Bananas][Wheat]+1[Food]"
+		"uniqueName": "I Don't Eat Meat"//我不吃肉",//文明特性名
 		"uniques": [
 		"[-10 Food] from [Cattle] tiles [in this city]",
 	    "[-10 Food] from [Horses] tiles [in this city]",
@@ -4692,7 +4639,7 @@
 	{
 		"name": "Frank",//法兰克
 		"civilopediaText":[
-        {"text": "投稿者：殇秋之羽"}],
+        {"text": "设计者：殇秋之羽"}],
 		"leaderName": "查理大帝",
 		"adjective": ["法兰克"],
 		"startBias": ["Avoid [Tundra]"],
@@ -4709,8 +4656,8 @@
 		"outerColor": [0,0,180],
 		"innerColor": [255,255,255],
 		"favoredReligion": "Islam",
-		"uniqueName": "封臣体系",
-		"uniqueText": "[Farm][Mine][Pasture][Lumber mill][Trading post]与相同种设施且仅与一个相邻时+1[Gold]",
+		"uniqueName": "Vassal System"//封臣体系",
+		"uniqueText": "[Farm][Mine][Pasture][Lumber mill][Trading post] gain +1[Gold] when adjacent to exactly one identical improvement"//[Farm][Mine][Pasture][Lumber mill][Trading post]与相同种设施且仅与一个相邻时+1[Gold]",
 		"uniques": ["[+1 Gold] from every [Farm] <with [1] to [1] neighboring [Farm] tiles>",//农场
 		
 		"[+1 Gold] from every [Mine] <with [1] to [1] neighboring [Mine] tiles>",//矿井
@@ -4730,7 +4677,7 @@
 	{
 		"name": "Sea Story",//海物语
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "玛琳",//玛琳
 		"adjective": ["x"],
 		"startBias": ["Coast"],//起始偏好
@@ -4746,16 +4693,16 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [168, 155, 72],//文明内部色*
 		"innerColor": [5,255,155],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "从远古时代获得船运能力不受船运影响\n陆地单位在下海时保持正常视野\n城市新组建的单位+5XP"
-		"uniqueName": "海之心 鱼之心",//文明特性名
+		
+		"uniqueText": "Gain Convey ability from Ancient Era unaffected by shipments\nLand units retain normal [Sight] when embarking\nNewly trained units in cities gain +5 XP\nAcquisition rate of [Aquatic star][Jellyfish] increased by 10x/5x respectively"//从远古时代获得船运能力不受船运影响\n陆地单位在下海时保持正常视野\n城市新组建的单位+5XP\n[Aquatic star][Jellyfish]的获取速率分别提升10/5倍"
+		"uniqueName": "Heart of Sea, Heart of Fish"//海之心 鱼之心",//文明特性名
 		"uniques": [
 		"Enables embarkation for land units <starting from the [Ancient era]>", //为陆地启用登船
 		"[Land] units gain the [Seaman] promotion"
 		"New [All] units start with [5] XP [in all cities]"
 		
-		/*"[Aquatic star] is earned [+1000]% faster"//10倍获取
-		"[Jellyfish] is earned [+500]% faster"//5倍获取*/
+		"[Aquatic star] is earned [+1000]% faster"//10倍获取
+		"[Jellyfish] is earned [+500]% faster"//5倍获取
 			],//文明特性具体效果
 			"cities": ["海城",]
 			
@@ -4764,7 +4711,7 @@
 	{
 		"name": "FlowerFruitMountain",//花果山
 		"civilopediaText":[
-        {"text": "投稿者：抚意wind"}],
+        {"text": "设计者：抚意wind"}],
 		"leaderName": "美猴王",
 		"adjective": ["花果山"],
 		"startBias": ["Mountain"],
@@ -4787,8 +4734,8 @@
 		"tradeRequest": "今番却促成好买卖.",
 		"outerColor": [ 16, 16, 16 ],
 		"innerColor": [ 255, 200, 200 ],
-		"uniqueText": "所有近战单位获得[Stubborn monkey]：所有地形消耗1移动力",
-		"uniqueName": "顽劣猴性",
+		"uniqueText": "All melee units gain [Stubborn monkey]：All terrain costs 1 [Movement]"//所有近战单位获得[Stubborn monkey]：所有地形消耗1移动力",
+		"uniqueName": "Stubborn Monkey Nature"//顽劣猴性",
 		"uniques": [
 			"[Melee] units gain the [Stubborn monkey] promotion",
 			//"[Military] units No movement cost to pillage",
@@ -4799,7 +4746,7 @@
 	{
 		"name": "Minotaur",//米诺陶
 		"civilopediaText":[
-        {"text": "投稿者：啊米诺斯"}],
+        {"text": "设计者：啊米诺斯"}],
 		"leaderName": "我的牛牛要爆了",//我的牛牛要爆了
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4815,9 +4762,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 125, 62],//文明内部色*
 		"innerColor": [5,195,155],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "每个城市可以设立不同的建筑以提升城市等级\n根据城市等级提升城市战斗力\n设施建造时间+50%"
-		"uniqueName": "迷宫规划大师",//文明特性名
+		
+		"uniqueText": "Each city can construct unique buildings to increase City Level\nCity [Strength] increases with City Level\nConstruction time of improvements +50%"//每个城市可以设立不同的建筑以提升城市等级\n根据城市等级提升城市战斗力\n设施建造时间+50%"
+		"uniqueName": "Master Labyrinth Planner"//迷宫规划大师",//文明特性名
 		"uniques": [
 		"Provides [1] [Minotaur]"//提供资源
 		"Provides [1] [BuildingSwitch]"//提供资源
@@ -4832,7 +4779,7 @@
 	{
 		"name": "Dystopia",//敌托邦
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "暗夜",//暗夜
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -4848,9 +4795,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [70, 5, 162],//文明内部色*
 		"innerColor": [0,0,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "自身的城邦基准值提升50，自身提升城邦影响速度+100%其他文明对城邦影响力下降速度+100%\n在敌国领土+1移动，在设施上时额外获得每回合回复15HP\n劫掠不消耗移动力"
-		"uniqueName": "敌托邦",//文明特性名
+		
+		"uniqueText": "City-State baseline influence increased by 50, influence gain rate with City-States +100%\nOther civilizations' influence decay rate with City-States +100%\n+1 [Movement] in enemy territory, heal +15 HP per turn when on improvements\nPillaging costs no [Movement]"//自身的城邦基准值提升50，自身提升城邦影响速度+100%其他文明对城邦影响力下降速度+100%\n在敌国领土+1移动，在设施上时额外获得每回合回复15HP\n劫掠不消耗移动力"
+		"uniqueName": "Dystopia"//敌托邦",//文明特性名
 		"uniques": [
 		"Influence of all other civilizations with all city-states degrades [100]% faster"//其他文明城邦好感下降
 		"Resting point for Influence with City-States is increased by [50]"
@@ -4866,7 +4813,7 @@
 	{
 		"name": "Mosuoduo",//莫索俄多
 		"civilopediaText":[
-        {"text": "投稿者：苏莱曼十一世"}],
+        {"text": "设计者：苏莱曼十一世"}],
 		"leaderName": "彼多里昂",
 		"adjective": ["x"],
 		"startBias": ["Flood plains","Oasis","Desert"],//起始偏好
@@ -4882,9 +4829,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [170, 5, 12],//文明内部色*
 		"innerColor": [255,133,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "你的非奖金/奢侈资源[Flood plains]+1[Production]，你的绿洲+1[Faith]与[Production]\n你的宗教传播距离无限，但是每座城市提供的宗教压力降低至3\n当有城市信仰你的宗教时，获得30[Gold],25[Science],0[Culture]，在创立宗教后，额外获得一次并使基数+25，在强化宗教之后，额外获得一次并使基数+50"
-		"uniqueName": "沙河之子",//文明特性名
+		
+		"uniqueText": "Your non-Bonus/Luxury [Flood plains] +1[Production], your Oases +1[Faith] and [Production]\nYour Religion spreads to infinite range, but Religious Pressure per city reduced to 3\nWhen a city follows your Religion：Gain 30[Gold],25[Science],0[Culture]\nAfter founding Religion：Additional trigger with base +25\nAfter enhancing Religion：Additional trigger with base +50"//你的非奖金/奢侈资源[Flood plains]+1[Production]，你的绿洲+1[Faith]与[Production]\n你的宗教传播距离无限，但是每座城市提供的宗教压力降低至3\n当有城市信仰你的宗教时，获得30[Gold],25[Science],0[Culture]，在创立宗教后，额外获得一次并使基数+25，在强化宗教之后，额外获得一次并使基数+50"
+		"uniqueName": "Children of the Sand River"//沙河之子",//文明特性名
 		"uniques": [
 		"[+1 Production] from [Flood plains] tiles [in this city]<in tiles without [Bonus resource]><in tiles without [Luxury resource]>",
 		"[+1 Faith, +1 Production] from [Oasis] tiles [in this city]",
@@ -4901,7 +4848,7 @@
 	{
 		"name": "TPenguin",//T企鹅
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "藤椒",//暗夜
 		"adjective": ["x"],
 		"startBias": ["Tundra","Snow"],//起始偏好
@@ -4917,9 +4864,9 @@
         "tradeRequest": "泥宠Q币嘛~",//向玩家申请交易时
 		"outerColor": [70, 5, 162],//文明内部色*
 		"innerColor": [0,0,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[Snow]+1[Food]，不处于[Hill]时额外+1[Production]与[Food]\n不处于[Hill]的[Tundra]+1[Production]\n[Ice]+5[Food]+3[Production]+2[Culture]\n可以进行【氪金】，可以将独有资源其交易给其他玩家使其获得【氪金】能力"
-		"uniqueName": "泥宠Q币嘛",//文明特性名
+		
+		"uniqueText": "[Snow]+1[Food], if not on [Hill] additional +1[Production] and [Food]\nNon-[Hill] [Tundra] +1[Production]\n[Ice]+5[Food]+3[Production]+2[Culture]\nCan perform [Krunker], can trade unique resources to other players granting them [Krunker] ability"//[Snow]+1[Food]，不处于[Hill]时额外+1[Production]与[Food]\n不处于[Hill]的[Tundra]+1[Production]\n[Ice]+5[Food]+3[Production]+2[Culture]\n可以进行【氪金】，可以将独有资源其交易给其他玩家使其获得【氪金】能力"
+		"uniqueName": "Mud Pet Q Coins"//泥宠Q币嘛",//文明特性名
 		"uniques": [
 		"[+1 Production] from [Tundra] tiles without [Hill] [in this city]",//地块加产
 		"[+1 Production, +1 Food] from [Snow] tiles without [Hill] [in this city]",//地块加产
@@ -4935,7 +4882,7 @@
 	{
 		"name": "Akahura",//阿卡胡拉
 		"civilopediaText":[
-        {"text": "投稿者：骰子"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "祖玛玛",
 		"adjective": ["x"],
 		"startBias": ["Jungle"],//起始偏好
@@ -4951,9 +4898,9 @@
         "tradeRequest": "你好？",//向玩家申请交易时
 		"outerColor": [20, 135, 211],//文明内部色*
 		"innerColor": [0,88,0],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "每块[Jungle]+1[Science]并使周围的陆地地块+1[Gold](上限2)\n[Jungle]与2块以上的[Jungle]相邻时+1[Production],与3块以上的[Jungle]相邻时+1[Food]\n单位获得[Woodsman]，处于[Jungle]时+1移动力；处于[Jungle]1格范围内时在境外+10治愈时额外恢复的生命值；处于2格范围内时+5%战斗力"
-		"uniqueName": "密林悍将",//文明特性名
+		
+		"uniqueText": "Each [Jungle] tile +1[Science] and adjacent land tiles +1[Gold] (max 2)\n[Jungle] adjacent to ≥2 [Jungle] +1[Production], adjacent to ≥3 [Jungle] +1[Food]\nUnits gain [Woodsman]：+1 [Movement] in [Jungle]\nWhen within 1 tile of [Jungle]：+10 HP healed when healing in foreign territory\nWhen within 2 tiles of [Jungle]：+5% [Strength]"//每块[Jungle]+1[Science]并使周围的陆地地块+1[Gold](上限2)\n[Jungle]与2块以上的[Jungle]相邻时+1[Production],与3块以上的[Jungle]相邻时+1[Food]\n单位获得[Woodsman]，处于[Jungle]时+1移动力；处于[Jungle]1格范围内时在境外+10治愈时额外恢复的生命值；处于2格范围内时+5%战斗力"
+		"uniqueName": "Jungle Champions"//密林悍将",//文明特性名
 		"uniques": [
 		"[All] units gain the [Woodsman] promotion",
 		
@@ -4974,44 +4921,12 @@
 			
 	},
 	
-	{
-			"name": "SP-VampirE",//SP黄巾军
-			"civilopediaText":[
-        {"text": "投稿者：苏莱曼十一世&抚意wind"}],
-			"leaderName": "张角",
-			"adjective": ["VampirE"],
-		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教
-		"startIntroPart1": "咕咕咕",
-		"startIntroPart2": "咕咕咕",
-		"declaringWar": "咕咕！",
-		"attacked": "咕咕！",
-		"defeated": "咕咕.",
-		"introduction": "咕咕.",
-		"neutralHello": "咕咕咕",
-		"neutralLetsHearIt": [ "咕咕咕" ],
-		"neutralNo": [ "咕咕咕" ],
-		"neutralYes": [ "咕咕咕" ],
-		"hateHello": "咕咕咕",
-		"hateLetsHearIt": [ "咕咕咕" ],
-		"hateNo": [ "咕咕咕" ],
-		"hateYes": [ "咕咕咕" ],
-		"afterPeace": "咕咕咕",
-		"tradeRequest": "咕咕咕",
-		"outerColor": [ 241, 3, 0 ],
-		"innerColor": [ 80, 11, 14 ],
-		"uniqueText": "每座城市[Faith]收入+25%\n可以用1倍成本的[Faith]购买陆地军事单位\n军事单位-15%战斗力",
-		"uniqueName": "苍天已死，黄天当立", //文明特性名
-		"uniques": [
-			"[+25]% [Faith] [in all cities]"
-"May buy [{Military} {Land} {non-[Diglett]} {non-[FineHair]}] units with [Faith] for [1] times their normal Production cost"
-             "[-15]% Strength"], //文明特性具体效果
-		"cities": ["苍天已死","黄天当立"]
-	}
+	
 	
 	{
 		"name": "TrinityGeneralSchool-TeaParty",//崔妮蒂综合学院-茶话会
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "百合园圣娅",
 		"adjective": ["x"],
 		//"startBias": ["Flood plains","Oasis","Desert"],//起始偏好
@@ -5027,9 +4942,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 65, 62],//文明内部色*
 		"innerColor": [205,233,34],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "建造所有建筑时自动探索地图\n城市带来的不满降低原本的1/3\n首都以外的城市+10%[Production][Science][Gold]"
-		"uniqueName": "预知梦&茶话会",//文明特性名
+		
+		"uniqueText": "Automatically explore the map when constructing all buildings\nUnhappiness caused by cities is reduced to one-third of the original\nCities other than the Capital gain +10% [Production], +10% [Science], and +10% [Gold]"//建造所有建筑时自动探索地图\n城市带来的不满降低原本的1/3\n首都以外的城市+10%[Production][Science][Gold]"
+		"uniqueName": "Premonition Dream & Tea Party"//预知梦&茶话会",//文明特性名
 		"uniques": [
 		"Reveal up to [28] [All] within a [256] tile radius<upon constructing [All]>"
 		"Reveal up to [5] [Luxury resource] within a [256] tile radius<upon constructing [All]>"
@@ -5049,7 +4964,7 @@
 	{
 		"name": "Rhodes",//罗德岛
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "凯尔希",
 		"adjective": ["x"],
 		//"startBias": ["Flood plains","Oasis","Desert"],//起始偏好
@@ -5065,9 +4980,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 0, 0],//文明内部色*
 		"innerColor": [255,255,255],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "可以向其他文明派遣[MedicalStaff](最多5份)\n我方与拥有[MedicalStaff]的文明新建军事单位获得[AccompanyingMedicalCare]\n[AccompanyingMedicalCare]:拥有[MedicalStaff]时，军事单位自愈时额外回复10HP，回合结束时回复5HP"
-		"uniqueName": "战地医生",//文明特性名
+		
+		"uniqueText": "Can send [MedicalStaff] to other civilizations (up to 5)\nNew military units created by us and civilizations with [MedicalStaff] gain [AccompanyingMedicalCare]\n[AccompanyingMedicalCare]：When [MedicalStaff] is present, military units heal additional 10 HP when self-healing and recover 5 HP at end of turn"//可以向其他文明派遣[MedicalStaff](最多5份)\n我方与拥有[MedicalStaff]的文明新建军事单位获得[AccompanyingMedicalCare]\n[AccompanyingMedicalCare]:拥有[MedicalStaff]时，军事单位自愈时额外回复10HP，回合结束时回复5HP"
+		"uniqueName": "Battlefield Medic"//战地医生",//文明特性名
 		"uniques": [
 		"Provides [5] [MedicalStaff]"//给誓约
 		"[Military] units gain the [AccompanyingMedicalCare] promotion"
@@ -5079,7 +4994,7 @@
 	{
 		"name": "AlliedHyakkiyakoAcademy-YinYangDepartment",//百鬼夜行联合学院-阴阳部
 		"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "天地妮娅",
 		"adjective": ["x"],
 		//"startBias": ["Flood plains","Oasis","Desert"],//起始偏好
@@ -5095,9 +5010,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [0, 65, 62],//文明内部色*
 		"innerColor": [205,233,34],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "[Faith]建筑+1[Culture],[Culture]建筑+1[Faith]\n处于【奇数/偶数】回合时【+33%/-33%】[Culture],处于【偶数/奇数】回合时【-33%/+33%】[Faith]\n可以派遣【和乐千世】在城市"
-		"uniqueName": "千世超可爱！",//文明特性名
+		
+		"uniqueText": "[Faith] buildings provide +1 [Culture], and [Culture] buildings provide +1 [Faith]\nDuring [Odd/Even] turns, gain [+33%/-33%] [Culture]; during [Even/Odd] turns, gain [-33%/+33%] [Faith].\nAllows sending [Kagayama Chiyo] to cities"//[Faith]建筑+1[Culture],[Culture]建筑+1[Faith]\n处于【奇数/偶数】回合时【+33%/-33%】[Culture],处于【偶数/奇数】回合时【-33%/+33%】[Faith]\n可以派遣【和乐千世】在城市"
+		"uniqueName": "Chise So Cute!"//千世超可爱！",//文明特性名
 		"uniques": [
 		"[+1 Culture] from every [Faith]"
 		"[+1 Faith] from every [Culture]"
@@ -5116,7 +5031,7 @@
 	{
 		"name": "SunNeverSets",//日不落帝国
 		"civilopediaText":[
-        {"text": "投稿者：苏莱曼十一世\n编写者：抚意wind"}],
+        {"text": "设计者：苏莱曼十一世\n编写者：抚意wind"}],
 		"leaderName": "丘吉尔",
 		"adjective": [ "英国" ],
 		"preferredVictoryType": "Cultural",
@@ -5139,8 +5054,8 @@
 		"tradeRequest": "咕咕咕",
 		"outerColor": [ 241, 3, 0 ],
 		"innerColor": [ 80, 11, 14 ],
-		"uniqueText": "陆地军事单位获得[NavalSupport]\n海上军事单位+1移动+1视野",
-		"uniqueName": "皇家海军", //文明特性名
+		"uniqueText": "Land military units gain [NavalSupport]\nNaval military units plus 1 Movement plus 1 Sight"//陆地军事单位获得[NavalSupport]\n海上军事单位+1移动+1视野",
+		"uniqueName": "Royal Navy"//皇家海军", //文明特性名
 		"uniques": [
 		"[{Land} {Military}] units gain the [NavalSupport] promotion",
         "[+1] Movement <for [{Military} {Water}] units>",
@@ -5154,7 +5069,7 @@
 	{
 		"name": "SnowDemon",//雪之魅魔
 		"civilopediaText":[
-        {"text": "投稿者：长枪"}],
+        {"text": "设计者：长枪"}],
 		"leaderName": "魅魔",//暗夜
 		"adjective": ["x"],
 		"startBias": ["Tundra","Snow"],//起始偏好
@@ -5170,9 +5085,9 @@
         "tradeRequest": "咕咕咕~",//向玩家申请交易时
 		"outerColor": [170, 5, 162],//文明内部色*
 		"innerColor": [255,170,60],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "每个处于冻土的城市会使所有处于冻土的城市+1[Food][Production][Faith](此效果在第15回合后生效)\n无法通过战斗获取大军事家\n单位战斗力-10%"
-		"uniqueName": "极地信仰",//文明特性名
+		
+		"uniqueText": "Each city on Tundra causes all cities on Tundra to gain +1 [Food], +1 [Production], and +1 [Faith] (this effect activates after turn 15)\nCannot earn Great Generals through combat\nUnits get -10% Combat Strength"//每个处于冻土的城市会使所有处于冻土的城市+1[Food][Production][Faith](此效果在第15回合后生效)\n无法通过战斗获取大军事家\n单位战斗力-10%"
+		"uniqueName": "Polar Faith"//极地信仰",//文明特性名
 		"uniques": [
 		"Provides [1] [SnowDemonCounter]"//提供资源
 		"[Great General] is earned [-500]% faster"
@@ -5184,7 +5099,7 @@
 	{
         "name": "FireworksSlave",//薪怒
         "civilopediaText":[
-        {"text": "投稿者：薪火单推人"}],
+        {"text": "设计者：薪火单推人"}],
         "leaderName": "ペニス",
         "adjective": ["火p"],
         "declaringWar": "主人！",
@@ -5196,16 +5111,16 @@
         "tradeRequest": "主人——",
         "outerColor": [255,51,51],
 		"innerColor": [244,248,0],
-		"uniqueName": "信誉处理方案",
+		"uniqueName": "Credit Solution"//信誉处理方案",
 		/*"uniqueText": "每个自然奇观+1[Production]\n军事单位-5%维修费用\n每座坐落于河流之上的海滨城市+1[Happiness]\n城市自然扩张的[Culture]需求-5%\n在友好领土上作战+5%[Strength]\n城市当于6到6块未开发森林相邻时+1[Food]\n所有在首都建成的建筑在其他城市建造时+5%[Production]\n攻城单位当攻击时对战城市+10%[Strength]\n陆地单位对战城邦+5%[Strength]\n与城邦有5点基础影响力\n远程单位当攻击时对战乘骑单位时+5%[Strength]\n进入古典时代时+2[Science]\n每座城市-5%建筑维修费用\n击杀敌方军事单位获得其[Strength]5%的[Culture]与[Science]\n每座城市+5%[Production]\n+10%[Food]来自于城邦\n+5%侧翼攻击加成\n每条贸易路线+1[Production]\n黄金时代的长度+5%\n在发现工业化后所有的城市当建造建筑时+5%[Production]\n在发现经济学后所有的城市+5%[Gold]产出\n在发现建筑设计学后所有的城市当建造奇观时+5%[Production]\n在发现军事科学后所有的城市建造陆地单位时+5%[Production]\n在发现生物学后所有的城市建造平民单位时+5%[Production]\n在发现火药后所有的城市建造攻程单位时+5%[Production]\n在发现蒸汽机后所有的城市建造水上单位时+5%[Production]\n道路与铁路维修费-5%\n研究文字时获得一个免费的斥候\n研究教育学时获得一个免费的工人\n研究工程学时获得一个免费的弓箭手\n研究戏剧与诗歌时首都获得一个免费的勇士\n研究火药时获得一个免费的投石车\n研究文官制度时获得一个免费的枪兵\n研究膛线时获得一个免费的长剑士\n城市每9人口+1[Culture]\n城市每8人口+1[Faith]\n城市每7人口+1[Happiness]\n城市每6人口+1[Food]\n城市每5人口+1[Gold]\n临近城市的所有单位每回合自愈时+1hp"*/
 		"uniques": ["[+1 Production] from every [Natural Wonder]","[-5]% maintenance costs <for [Military] units>","[+1 Happiness] in cities on [River] tiles","[-5]% Culture cost of natural border growth [in all cities]","[+5]% Strength <when fighting in [Friendly Land] tiles>","[+1 Food] [in all cities] <with [6] to [6] neighboring [{unimproved} {Forest}] tiles>","[+5]% Production towards any buildings that already exist in the Capital","[+10]% Strength<vs cities> <for [Siege] units> <when attacking>","[+5]% Strength<vs [City-States]> <for [Land] units>","Resting point for Influence with City-States is increased by [5]","[+5]% Strength<vs [Mounted] units> <for [Ranged] units> <when attacking>","[+2 Science] <starting from the [Classical era]>","[-5]% maintenance cost for [All] buildings [in all cities]","Earn [5]% of killed [Military] unit's [Strength] as [Culture]","Earn [5]% of killed [Military] unit's [Strength] as [Science]","[+1]% [Production] [in all cities]","[+10]% [Food] from City-States","[+5]% to Flank Attack bonuses<for [All] units>","[+1 Production] from each Trade Route","[+5]% Golden Age length","[+5]% Production when constructing [All] buildings [in all cities] <after discovering [Industrialization]>","[+5]% [Gold] [in all cities] <after discovering [Economics]>","[+5]% Production when constructing [Land] units [in all cities] <after discovering [Military Science]>","[+5]% Production when constructing [Siege] units [in all cities] <after discovering [Gunpowder]>","[+5]% Production when constructing [Water] units [in all cities] <after discovering [Steam Power]>","[-5]% maintenance on road & railroads","Free [Scout] appears <upon discovering [Writing] technology>","Free [Worker] appears <upon discovering [Education] technology>","Free [Archer] appears <upon discovering [Engineering] technology>","Free [Warrior] appears <upon discovering [Drama and Poetry] technology>","Free [Catapult] appears <upon discovering [Gunpowder] technology>","Free [Spearman] appears <upon discovering [Civil Service] technology>","Free [Longswordsman] appears <upon discovering [Rifling] technology>","[+1 Culture] per [9] population [in all cities]","[+1 Faith] per [8] population [in all cities]","[+1 Happiness] per [7] population [in all cities]","[+1 Food] per [6] population [in all cities]","[+1 Gold] per [5] population [in all cities]","[All] Units adjacent to this city heal [+1] HP per turn when healing"],
-		"cities": ["薪火大人","薪火小姐","薪火妹妹","薪火哥哥","薪火女儿"],                                
+		"cities": ["薪火大人","薪火小姐","薪火妹妹","薪火哥哥","薪火女儿"],                                           
     }
 	
 	{
 		"name": "MengKangDe",//蒙康德
 		"civilopediaText":[
-        {"text": "投稿者：大松饼"}],
+        {"text": "设计者：大松饼"}],
 		"leaderName": "句谦安",
 		"adjective": ["x"],
 		//"startBias": ["Flood plains","Oasis","Desert"],//起始偏好
@@ -5221,9 +5136,9 @@
         "tradeRequest": "这会很好，你将得到巨大的利益",//向玩家申请交易时
 		"outerColor": [252, 255, 65],//文明内部色*
 		"innerColor": [255,99,99],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "每12回合/建造奇观后会获得2单位[JianJia]\n拥有此资源时，所有城市+2[Gold]，购买单位的花费-40%，购买建筑的花费-60%"
-		"uniqueName": "超市大甩卖",//文明特性名
+		
+		"uniqueText": "Gain 2 units of [JianJia] every 12 turns/after constructing a Wonder\nWhen possessing this resource：all cities +2 [Gold]，unit purchase cost -40%，building purchase cost -60%"//每12回合/建造奇观后会获得2单位[JianJia]\n拥有此资源时，所有城市+2[Gold]，购买单位的花费-40%，购买建筑的花费-60%"
+		"uniqueName": "Supermarket Sale"//超市大甩卖",//文明特性名
 		"uniques": [
 		"Provides [4] [JianJia]<every [12] turns>"//回合资源
 		"Instantly provides [4] [JianJia]<upon constructing [Wonder]>"//奇观拿资源
@@ -5240,7 +5155,7 @@
 	{
 		"name": "ElvenKingdom",//精灵之国
 		"civilopediaText":[
-        {"text": "投稿者：书生"}],
+        {"text": "设计者：书生"}],
 		"leaderName": "泰坦妮亚&奥伯龙",//暗夜
 		"adjective": ["x"],
 		"startBias": ["Forest","Jungle"],//起始偏好
@@ -5256,9 +5171,9 @@
         "tradeRequest": "咕咕咕~",//向玩家申请交易时
 		"outerColor": [96, 175, 87],//文明内部色*
 		"innerColor": [144,238,144],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "城市与森林相邻时，该城市与森林相邻的非战略/奢侈资源地块+1[Gold]，若为丛林地块再额外+1[Food]\n城市与丛林相邻时，该城市与丛林相邻的非战略/奢侈资源地块+1[Gold]，若为森林地块再额外+1[Faith]\n当同时与森林和丛林相邻时，该城市同时与森林和丛林相邻的地块+1[Happiness]"
-		"uniqueName": "生命之森",//文明特性名
+		
+		"uniqueText": "When a city is adjacent to Forest, non-strategic/luxury resource tiles adjacent to Forest for this city gain +1 [Gold], if it's Jungle tile additionally gains +1 [Food]\nWhen a city is adjacent to Jungle, non-strategic/luxury resource tiles adjacent to Jungle for this city gain +1 [Gold], if it's Forest tile additionally gains +1 [Faith]\nWhen adjacent to both Forest and Jungle, tiles simultaneously adjacent to both Forest and Jungle for this city gain +1 [Happiness]"//城市与森林相邻时，该城市与森林相邻的非战略/奢侈资源地块+1[Gold]，若为丛林地块再额外+1[Food]\n城市与丛林相邻时，该城市与丛林相邻的非战略/奢侈资源地块+1[Gold]，若为森林地块再额外+1[Faith]\n当同时与森林和丛林相邻时，该城市同时与森林和丛林相邻的地块+1[Happiness]"
+		"uniqueName": "Forest of Life"//生命之森",//文明特性名
 		"uniques": [
 		"Provides [1] [ElvenKingdomCounter]"//提供资源
 			],//文明特性具体效果
@@ -5269,7 +5184,7 @@
 	{
 			"name": "StarDraftsman",//星之绘图者
 			"civilopediaText":[
-        {"text": "投稿者：骰子"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "星陨",
 			"adjective": ["星陨"],
 		"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -5284,9 +5199,9 @@
             "tradeRequest": "看看货？",//向玩家申请交易时
 			"outerColor": [0, 43, 126],//文明内部色*
 			"innerColor": [0,120,248],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "根据探索地图的地块获得收益\n任意非丘陵地块：+1[Gold]\n[River]：+1[Culture]-2[Gold]\n[Mountain]：+3[Science]-5[Gold]"
-			"uniqueName": "图绘山河卷",//文明特性名
+			
+			"uniqueText": "Gain yields based on explored map tiles\nAny non-hill tiles： +1 [Gold]\n[River]： +1 [Culture] and -2 [Gold]\n[Mountain]： +3 [Science] and -5 [Gold]"//根据探索地图的地块获得收益\n任意非丘陵地块：+1[Gold]\n[River]：+1[Culture]-2[Gold]\n[Mountain]：+3[Science]-5[Gold]"
+			"uniqueName": "Illustrated Rivers and Mountains Scroll"//图绘山河卷",//文明特性名
 			"uniques": [
 	        "[All] units gain the [CaptureLandscapes] promotion"
 			],//文明特性具体效果
@@ -5298,7 +5213,7 @@
 	{
 			"name": "VersatileScenery",//山河社稷
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "墨韵",
 			"adjective": ["墨韵"],
 		"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -5313,13 +5228,13 @@
             "tradeRequest": "吾得良藏一批，子有意乎？",//向玩家申请交易时
 			"outerColor": [178, 178, 175],//文明内部色*
 			"innerColor": [0,0,0],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "移民有且仅有1次机会可以生成山脉/丘陵，工人有且仅有1次机会可以生成森林/丛林（消耗1移动力）\n获得的战略资源翻倍\n设施建造时间-25%"
-			"uniqueName": "墨韵绘江山，水墨点染意飘渺",//文明特性名
+			
+			"uniqueText": "Settlers have one-time ability to generate Mountains/Hills, Workers have one-time ability to generate Forest/Jungle (cost 1 Movement)\nStrategic resources doubled\nImprovement construction time minus 25%"//移民有且仅有1次机会可以生成山脉/丘陵，工人有且仅有1次机会可以生成森林/丛林（消耗1移动力）\n获得的战略资源翻倍\n设施建造时间-25%"
+			"uniqueName": "Ink Rhyme Paints Rivers, Water Ink Dots Drift"//墨韵绘江山，水墨点染意飘渺",//文明特性名
 			"uniques": [
 	        "[Settler] units gain the [MoveMountain] promotion"
 	        "[Worker] units gain the [SummoningForest] promotion"
-	        "[+100]% [Strategic] resource production"
+	        "Quantity of strategic resources produced by the empire +[+100]%"
 	        "Can build [all] improvements at a [+25]% rate",
 			],//文明特性具体效果
 			"cities": ["漓墨镇","砚池郡","墨香县","徽墨城","宣纸坊","青砚市",]
@@ -5329,7 +5244,7 @@
 	{
 			"name": "HexagramMaster",//卦师
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "玄",
 			"adjective": ["八卦"],
 		"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -5344,9 +5259,9 @@
             "tradeRequest": "吾此有所藏宝物，敢问阁下是否有意于交流？",//向玩家申请交易时
 			"outerColor": [255, 255, 255],//文明内部色*
 			"innerColor": [0,0,0],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "每过一定回合可以进行选择以获取收益。"
-			"uniqueName": "八卦通幽 趋吉避凶",//文明特性名
+			
+			"uniqueText": "Gain choices periodically for benefits"//每过一定回合可以进行选择以获取收益。"
+			"uniqueName": "Eight Trigrams Mystic Path"//八卦通幽 趋吉避凶",//文明特性名
 			"uniques": [
 	        "Triggers a [夜观天象 I] event<every [4] turns><upon turn end><after turn number [1]>"
 	        "Triggers a [夜观天象 II] event<every [16] turns><upon turn end><after turn number [3]>"
@@ -5360,8 +5275,8 @@
 	{
 		"name": "Sakura",//樱花国
 		"civilopediaText":[
-        {"text": "投稿者：苏莱曼十一世\n编写者：抚意wind"}],
-		"leaderName": "真战犯",//真战犯
+        {"text": "设计者：苏莱曼十一世\n编写者：抚意wind"}],
+		"leaderName": "真",//真
 		"adjective": [ "Sakura" ],
 		"preferredVictoryType": "Scientific",
 		"startIntroPart1": "咕咕咕",
@@ -5382,8 +5297,8 @@
 		"tradeRequest": "咕咕咕",
 		"outerColor": [ 255, 255, 255 ],
 		"innerColor": [ 255, 0, 0 ],
-		"uniqueText": "击败军事单位后获得其战斗力×200%的金钱\n近战军事单位获得[March10th]晋升",
-		"uniqueName": "天卡板载", //文明特性名
+		"uniqueText": "After defeating military unit, gain Gold equal to 200% of its Strength\nMelee military units gain March 10th promotion"//击败军事单位后获得其战斗力×200%的金钱\n近战军事单位获得[March10th]晋升",
+		"uniqueName": "Tianka Banzai"//天卡板载", //文明特性名
 		"uniques": [
 		"Earn [200]% of killed [All] unit's [Strength] as [Gold]",
 		"[Sword] units gain the [March10th] promotion",
@@ -5395,7 +5310,7 @@
 	{
 		"name": "AirBandits",//空战之王
 		"civilopediaText":[
-        {"text": "投稿者：苏莱曼十一世\n编写者：抚意wind"}],
+        {"text": "设计者：苏莱曼十一世\n编写者：抚意wind"}],
 		"leaderName": "骇人空袭者",
 		"adjective": [ "空战之王" ],
 		"preferredVictoryType": "Cultural",
@@ -5417,8 +5332,8 @@
 		"tradeRequest": "咕咕咕",
 		"outerColor": [ 138, 43, 226 ],
 		"innerColor": [ 51, 153, 255 ],
-		"uniqueText": "你的空军单位获得[March]晋升\n你的空军单位经验获取＋50%\n你研发[Industrialization]后获得免费的[Flight]"
-		"uniqueName": "永不谢幕的空军", //文明特性名
+		"uniqueText": "Your Air units gain the [March] promotion\nYour Air units gain +50% experience\nYou receive a free [Flight] upon researching [Industrialization]"//你的空军单位获得[March]晋升\n你的空军单位经验获取＋50%\n你研发[Industrialization]后获得免费的[Flight]"
+		"uniqueName": "Never-ending Air Force"//永不谢幕的空军", //文明特性名
 		"uniques": ["[Air] units gain the [March] promotion",
 		"[+50]% XP gained from combat <for [Air] units>",
 		"Discover [Flight] <upon discovering [Industrialization] technology>",
@@ -5430,7 +5345,7 @@
 	{
 		"name": "BlackEarthAlchemySociety",//黑土炼金学会
 		"civilopediaText":[
-        {"text": "投稿者：麻麻鳗鱼"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "哈基米",//
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -5446,9 +5361,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [255, 252, 162],//文明内部色*
 		"innerColor": [15,39,125],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "移山填海",//文明特性名
+		"uniqueName": "Mountain Mover"//移山填海",//文明特性名
 		"uniques": [
 		"[Civilian] units gain the [Alchemy] promotion"
 		"[2] Movement<for [Settler] units>",//增加移动
@@ -5461,7 +5376,7 @@
 	{
 		"name": "Imitator",//模仿者
 		"civilopediaText":[
-        {"text": "投稿者：麻麻鳗鱼"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "欧曼吉里●曼波",//
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -5477,9 +5392,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [25, 252, 162],//文明内部色*
 		"innerColor": [15,39,225],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "在任何人建造远古科技的非军营/城墙建筑时，你不具有该建筑的城市自动获得那个建筑的效果\n古典时代前组建建筑与军事单位时-20%[Production]"
-		"uniqueName": "镜面双生",//文明特性名
+		
+		"uniqueText": "When any civilization constructs an ancient-era non-Barracks/non-Walls building, your cities without that building automatically gain its effects\n-20% [Production] when constructing buildings and military units before the Classical Era"//在任何人建造远古科技的非军营/城墙建筑时，你不具有该建筑的城市自动获得那个建筑的效果\n古典时代前组建建筑与军事单位时-20%[Production]"
+		"uniqueName": "Mirror Twins"//镜面双生",//文明特性名
 		"uniques": [
 		"[+2 Culture] [in this city]<if [Monument] is constructed by anybody><in cities without a [Monument]>"//纪念碑
 		
@@ -5511,7 +5426,7 @@
 	{
 	    "name": "CastleDestroyer",//城堡破坏者
 		"civilopediaText":[
-        {"text": "投稿者：麻麻鳗鱼"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "妄",//
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -5527,9 +5442,9 @@
         "tradeRequest": "有空？",//向玩家申请交易时
 		"outerColor": [25, 252, 92],//文明内部色*
 		"innerColor": [95, 219, 25],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
+		
 		//"uniqueText": ""
-		"uniqueName": "破坏者",//文明特性名
+		"uniqueName": "Saboteur"//破坏者",//文明特性名
 		"uniques": [
 		"Comment [Destroys tile improvements when attacking]"//破坏设施
 		"[+200]% Strength <in cities with a [Walls]> <in [Enemy Land] tiles>"
@@ -5543,7 +5458,7 @@
 	{
 			"name": "Springans",//护宝炮妖
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "姬特",
 			"adjective": ["姬特"],
 			"startBias": ["Desert"],//起始偏好
@@ -5561,9 +5476,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [58, 143, 126],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "在建造单位/建筑时逐渐获得加成\n初始获得[SpringansKitt]，15回合后可以作为工人使用\n平民单位可以消耗15HP增加临时移动，军事单位可以消耗35HP以及1[Gold]增加临时移动，所有单位都能消耗1HP以及消耗我方最近城市产能增加临时移动"
-			"uniqueName": "三匠之号",//文明特性名
+			
+			"uniqueText": "Gradually gain bonuses when constructing units/buildings\nInitially obtain [SpringansKitt], after 15 turns it can be used as a worker\nCivilian units can consume 15 HP to gain temporary movement, military units can consume 35 HP and 1 [Gold] to gain temporary movement, all units can consume 1 HP and spend production from our nearest city to gain temporary movement"//在建造单位/建筑时逐渐获得加成\n初始获得[SpringansKitt]，15回合后可以作为工人使用\n平民单位可以消耗15HP增加临时移动，军事单位可以消耗35HP以及1[Gold]增加临时移动，所有单位都能消耗1HP以及消耗我方最近城市产能增加临时移动"
+			"uniqueName": "Three Artisans Title"//三匠之号",//文明特性名
 			"uniques": [
 			"Provides [1] [K]"//提供资源
 			
@@ -5589,7 +5504,7 @@
 	{
 		"name": "KingBarbarians",//蛮族之王
 		"civilopediaText":[
-        {"text": "投稿者：抚意wind\n编写者：抚意wind"}],
+        {"text": "设计者：抚意wind\n编写者：抚意wind"}],
 		"leaderName": "蛮族之王",
 		"adjective": [ "蛮族之王" ],
 		"startBias": [ "Grassland" ],
@@ -5612,8 +5527,8 @@
 		"tradeRequest": "咕咕咕",
 		"outerColor": [ 241, 3, 0 ],
 		"innerColor": [ 80, 11, 14 ],
-		"uniqueText":"收到新蛮寨出现的信息，拆毁蛮寨时获得3倍金钱，单位无需维护费。\n不能吞并城市，对战城市时-15%力。可以在傀儡的城市中以金钱购买物品\n军事单位获得[BarbarianKing'sWrath]:对战蛮族时+2048%力，只能靠劫掠回复生命，击杀蛮族单位时可以俘获\n平民单位获得[Slave]:视野+1，战斗中获得的经验-200%",
-		"uniqueName": "蛮族之王", //文明特性名
+		"uniqueText":"Receive notifications when new Barbarian Outposts appear, gain triple gold when razing Barbarian Outposts, units require no maintenance\nCannot annex cities, -15% Combat Strength when attacking cities\nCan purchase items with gold in puppeted cities\nMilitary units gain [BarbarianKing'sWrath]：+2048% Combat Strength against Barbarians, can only heal through pillaging, can capture Barbarian units when killing them\nCivilian units gain [Slave]：Can be consumed to provide one copy of all strategic resources, -200% experience gained from combat"//收到新蛮寨出现的信息，拆毁蛮寨时获得3倍金钱，单位无需维护费。\n不能吞并城市，对战城市时-15%力。可以在傀儡的城市中以金钱购买物品\n军事单位获得[BarbarianKing'sWrath]:对战蛮族时+2048%力，只能靠劫掠回复生命，击杀蛮族单位时可以俘获\n平民单位获得[Slave]:可以消耗以提供所有战略资源一份，战斗中获得的经验-200%",
+		"uniqueName": "Barbarian King"//蛮族之王", //文明特性名
 		"uniques": [
 		"[Military] units gain the [BarbarianKing'sWrath] promotion",//蛮王buff
 	    "Receive triple Gold from Barbarian encampments and pillaging Cities",
@@ -5676,7 +5591,7 @@
 	    {
 		"name": "Holy knight empire",//神圣骑士帝国
 		"civilopediaText":[
-        {"text": "投稿者：我™莱娜"}],
+        {"text": "设计者：我™莱娜"}],
 		"leaderName": "雪之歌",
 		"preferredVictoryType": "Domination",
 		"startBias": ["Horses"],		
@@ -5688,8 +5603,8 @@
 		"neutralHello": "来吧！我慷慨的朋友！",
 		"hateHello": "让我们坐下来好好谈谈,好吗？",
 		"tradeRequest":"这对我们都有好处,我喜欢这样！",
-		"uniqueText": "[Cattle]+1[Production]-1[Food],\n未开发的[Sheep]+1[Food],\n[Bonus resource]-1[Gold],\n平坦地形城市中心产出持平丘陵,\n弓箭单位获得晋升[山地猎手]",
-              "uniqueName": "发育！发育！发育！",
+		"uniqueText": "[Cattle] provides +1 [Production] and -1 [Food],\nUndeveloped [Sheep] provides +1 [Food],\n[Bonus resource] provides -1 [Gold],\nFlat terrain city centers output equals hills,\nArchery units gain the [Mountain hunter] promotion"//[Cattle]+1[Production]-1[Food],\n未开发的[Sheep]+1[Food],\n[Bonus resource]-1[Gold],\n平坦地形城市中心产出持平丘陵,\n弓箭单位获得晋升[Mountain hunter]",
+              "uniqueName": "Grow! Grow! Grow!"//发育！发育！发育！",
               "uniques": [
         "[+1 Production, -1 Food] from every [Cattle]",
         "[+1 Food] from every [Sheep]<in [unimproved] tiles>",
@@ -5709,7 +5624,7 @@
 		"leaderName": "西卡阿",
 		
 		"civilopediaText":[
-        {"text": "投稿者：幻想研究员.exe\n编写者：幻想研究员.exe"}],
+        {"text": "设计者：幻想研究员.exe\n编写者：幻想研究员.exe"}],
 		"adjective": ["纳吉亚"],
 		"preferredVictoryType":"Domination",
 
@@ -5736,7 +5651,7 @@
 	{
 		"name": "TheLastShadowClan",//末影族
 		"civilopediaText":[
-        {"text": "投稿者：麻麻鳗鱼"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "末影龙",//
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -5752,9 +5667,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [25, 22, 12],//文明内部色*
 		"innerColor": [61,165,205],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "所有单位+1视野，平民拥有斥候能力\n非水军单位在水上时每回合结束-10HP\n受到远程攻击时防御力随机提升（0~40%）\n建造所有建筑时提升10%[Production]\n当平民单位在敌国停留足够久时，即可建造[LastShadowShip]"
-		"uniqueName": "末影之星",//文明特性名
+		
+		"uniqueText": "All units +1 vision, civilian units possess scout abilities\nNon-naval units lose 10 HP per turn when on water tiles\nDefense randomly increases (0~40%) when receiving ranged attacks\n+10% [Production] when constructing all buildings\nWhen civilian units remain in enemy territory long enough, they can construct [LastShadowShip]"//所有单位+1视野，平民拥有斥候能力\n非水军单位在水上时每回合结束-10HP\n受到远程攻击时防御力随机提升（0~40%）\n建造所有建筑时提升10%[Production]\n当平民单位在敌国停留足够久时，即可建造[LastShadowShip]"
+		"uniqueName": "Ender Star"//末影之星",//文明特性名
 		"uniques": [
 		"[All] units gain the [MYR] promotion"
 		"[+1] Sight",//增加视野
@@ -5768,7 +5683,7 @@
 	{
 		"name": "NaztaEmpire",//纳兹塔武装帝国
 		"civilopediaText":[
-        {"text": "投稿者：麻麻鳗鱼"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "阿比乌里",//
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -5784,9 +5699,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [5, 22, 12],//文明内部色*
 		"innerColor": [61,185,225],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "初始获得2单位[Iron]\n与城市数量不多于你的文明战斗时+10%战斗力\n与城市数量多于你的文明战斗时-15%战斗力\n占领城市后获得该城市[Production]10倍的[Gold]与[Faith]\n傀儡城市-80%不快乐\n[Sword]单位可以在攻击后移动"
-		"uniqueName": "远行",//文明特性名
+		
+		"uniqueText": "Start with 2 units of [Iron]\n+10% Combat Strength when fighting civilizations with no more cities than you\n-15% Combat Strength when fighting civilizations with more cities than you\nAfter capturing a city, gain [Gold] and [Faith] equal to 10 times the city's [Production]\nPuppeted cities generate -80% unhappiness\n[Sword] units can move after attacking"//初始获得2单位[Iron]\n与城市数量不多于你的文明战斗时+10%战斗力\n与城市数量多于你的文明战斗时-15%战斗力\n占领城市后获得该城市[Production]10倍的[Gold]与[Faith]\n傀儡城市-80%不快乐\n[Sword]单位可以在攻击后移动"
+		"uniqueName": "Long Journey"//远行",//文明特性名
 		"uniques": [
 		"Provides [2] [Iron]"
 		"[-25]% Strength <when fighting units from a Civilization with more Cities than you>"
@@ -5801,40 +5716,10 @@
 			
 	},
 	
-	/*{
-		"name": "烂泥怪",//烂泥怪
-		"civilopediaText":[
-        {"text": "投稿者：麻麻鳗鱼"}],
-		"leaderName": "烂泥基斯",//
-		"adjective": ["x"],
-		//"startBias": ["Coast"],//起始偏好
-		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
-		"startIntroPart1": "咕咕咕",//介绍1
-		"startIntroPart2": "咕咕咕",//介绍2
-		"declaringWar": "咕咕咕！",//向玩家宣战
-		"attacked":"咕 咕 咕 ！",//被玩家宣战
-		"defeated": "咕……",//被玩家打败时
-        "introduction": "咕,咕咕？",//初见
-        "neutralHello": "咕咕咕~",//通常问候
-        "hateHello": "咕咕！",//战争时问候
-        "tradeRequest": "咕咕~",//向玩家申请交易时
-		"outerColor": [185, 22, 12],//文明内部色*
-		"innerColor": [21,95,25],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "所有单位在沼泽地块1格范围内移动只消耗1移动力，在沼泽地块内回合结束时回复5HP\n枪兵可以转化为勇士并获得30[Gold]，战车射手可以转化为弓箭手并获得30[Gold]"
-		"uniqueName": "不定型流体",//文明特性名
-		"uniques": [
-		"[All] units gain the [沼地爬行] promotion"
-			],//文明特性具体效果
-			"cities": ["沼泽之家",]
-			
-	},*/
-	
-	
 	{
 		"name": "MinatHamaInstrument",//米纳特哈玛仪
 		"civilopediaText":[
-        {"text": "投稿者：秋雨喵"}],
+        {"text": "设计者：秋雨喵"}],
 		"leaderName": "佩佩",//佩佩
 		"adjective": ["x"],
 		"startBias": ["Desert"],
@@ -5850,9 +5735,9 @@
         "tradeRequest": "来商议一下合作的项目吧！",//向玩家申请交易时
 		"outerColor": [201, 203, 0],//文明内部色*
 		"innerColor": [128, 0, 150],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "选择文明后播放《Mystic Light Quest》\n[Oasis]地块+1[Science]与[Gold]\n非绿洲[Desert]地块根据与[Oasis]地块的距离与数量获得以下效果：\n绿洲1格内：非[Flood plains]与[Hill]的地块+1[Production]与[Food]\n绿洲2格内：地块+1[Gold]\n绿洲2格外：河流地块+1[Faith]，河流地块以外+1[Gold]"
-		"uniqueName": "富饶的绿洲之都",//文明特性名
+		
+		"uniqueText": "Play 《Mystic Light Quest》 after selecting a civilization\n[Oasis] tiles yield +1 [Science] and +1 [Gold]\nNon-oasis [Desert] tiles gain the following effects based on distance and quantity from [Oasis] tiles：Within 1 tile of Oasis：Non-[Flood plains] and non-[Hill] tiles yield +1 [Production] and +1 [Food]\nWithin 2 tiles of Oasis：Tiles yield +1 [Gold]\nBeyond 2 tiles from Oasis：River tiles yield +1 [Faith]，non-river tiles yield +1 [Gold]"//选择文明后播放《Mystic Light Quest》\n[Oasis]地块+1[Science]与[Gold]\n非绿洲[Desert]地块根据与[Oasis]地块的距离与数量获得以下效果：\n绿洲1格内：非[Flood plains]与[Hill]的地块+1[Production]与[Food]\n绿洲2格内：地块+1[Gold]\n绿洲2格外：河流地块+1[Faith]，河流地块以外+1[Gold]"
+		"uniqueName": "Oasis Capital of Plenty"//富饶的绿洲之都",//文明特性名
 		"uniques": [
 		"[+1 Gold, +1 Science] from [Oasis] tiles [in this city]",//绿洲加成
 		"[All] units gain the [溜冰冰] promotion"
@@ -5873,7 +5758,7 @@
 	{
 		"name": "Vakentar",//瓦肯塔尔（破军
 		"civilopediaText":[
-        {"text": "投稿者：麻麻鳗鱼"}],
+        {"text": "设计者：秋雨"}],
 		"leaderName": "贾图尔",//
 		"adjective": ["x"],
 		//"startBias": ["Coast"],//起始偏好
@@ -5889,9 +5774,9 @@
         "tradeRequest": "咕咕~",//向玩家申请交易时
 		"outerColor": [57, 72, 252],//文明内部色*
 		"innerColor": [171,185,25],//文明外部色*
-		"favouredReligion": "P",//当作为ai时选择的宗教
-		"uniqueText": "被你攻击过的文明2个回合内单位失去地形防御（无地形加成+无法驻守）。"
-		"uniqueName": "破军",//文明特性名
+		
+		"uniqueText": "Civilizations you attacked lose terrain defense for 2 turns (no terrain bonus + cannot garrison)"//被你攻击过的文明2个回合内单位失去地形防御（无地形加成+无法驻守）。"
+		"uniqueName": "Army Breaker"//破军",//文明特性名
 		"uniques": [
 	    "[All] units gain the [LegionRampage] promotion"
 			],//文明特性具体效果
@@ -5902,7 +5787,7 @@
 	{
 			"name": "Charybyss",//卡里比斯
 			"civilopediaText":[
-        {"text": "投稿者：秋雨"}],
+        {"text": "设计者：秋雨"}],
 			"leaderName": "卡珊拉",
 			"adjective": ["深渊领主"],
 			"startBias": ["Coast"],//起始偏好
@@ -5920,9 +5805,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [10, 31, 58],//文明内部色*
 			"innerColor": [75,240,224],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "单位可以将水上地块当作陆地行动（不影响其他判定）\n在水上地块的单位视野+1，并且在海滨中移动力消耗减半\n水上地块+1[Culture]与[Gold],[Ocean]地块额外+1[Food]\n每回合获得1魔力，处于水上的单位可消耗3魔力与1行动力获得1回合的：+1射程，+10%战斗力"
-			"uniqueName": "深渊领主",//文明特性名
+			
+			"uniqueText": "Units can treat water tiles as land for movement (without affecting other judgments)\nUnits on water tiles gain +1 vision and have movement cost halved in coastal waters\nWater tiles yield +1 [Culture] and +1 [Gold], [Ocean] tiles additionally yield +1 [Food]\nGain 1 Mana per turn, units on water can consume 3 Mana and 1 action point to gain for 1 turn：+1 Range, +10% Combat Strength"//单位可以将水上地块当作陆地行动（不影响其他判定）\n在水上地块的单位视野+1，并且在海滨中移动力消耗减半\n水上地块+1[Culture]与[Gold],[Ocean]地块额外+1[Food]\n每回合获得1魔力，处于水上的单位可消耗3魔力与1行动力获得1回合的：+1射程，+10%战斗力"
+			"uniqueName": "Abyssal Lord"//深渊领主",//文明特性名
 			"uniques": [
 			"[All] units gain the [AbyssLurk] promotion"
 			"[+1 Culture, +1 Gold] from [Water] tiles [in this city]",
@@ -5941,7 +5826,7 @@
 	{
 			"name": "ScarwoodClan",//树痕部落
 			"civilopediaText":[
-			{"text": "投稿者：秋雨"}],
+			{"text": "设计者：秋雨"}],
 			"leaderName": "埃克提尔尼尔",
 			"adjective": ["木裂战士"],
 			"startBias": ["Tundra","Avoid [Desert]"],//起始偏好
@@ -5958,9 +5843,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [44, 74, 62],//文明内部色*
 			"innerColor": [28,95,140],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText":"在[Tundra][Snow]地块获得双倍移动力\n单位低于50HP时每次移动回复4HP\n[Tundra][Snow]基础产出与[Grassland]相同，并且[Tundra]+1[Production]"
-			"uniqueName": "不屈木裂",//文明特性名
+			
+			"uniqueText":"Gains double movement on [Tundra] and [Snow] tiles\nUnits recover 4 HP per move when below 50 HP\n[Tundra] and [Snow] base yield equals [Grassland], and [Tundra] provides +1 [Production]"//在[Tundra][Snow]地块获得双倍移动力\n单位低于50HP时每次移动回复4HP\n[Tundra][Snow]基础产出与[Grassland]相同，并且[Tundra]+1[Production]"
+			"uniqueName": "Unyielding Woodsplitter"//不屈木裂",//文明特性名
 			"uniques": [
 			"[All] units gain the [SnowfieldWarrior] promotion"
 			
@@ -5974,7 +5859,7 @@
 	{
 			"name": "DevonCorporation",//得文公司
 			"civilopediaText":[
-			{"text": "投稿者：秋雨"}],
+			{"text": "设计者：秋雨"}],
 			"leaderName": "兹伏奇·大吾",
 			"adjective": ["大误算"],
 			//"startBias": ["Tundra","Avoid [Desert]"],//起始偏好
@@ -5990,9 +5875,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [44, 74, 62],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "每回合积累1点数（上限20），消耗20点可以进行算力爆发（期间不会回复点数）\n设：[Melee]单位=M，[Ranged]单位=R，现有[Gold]=G，时代编号（初始为0）=E，推行政策数=P\n在达成以下条件时算力爆发将获得增益（持续10回合）：\n\n(M+R)*10=G且(M+R)=(E+2)*2:\n所有单位+10%战斗力、攻击时+10%战斗力\n\nM*10+R*20=G且(M+R)=(E+P)*2:\n所有单位+15%战斗力、攻击时+10%战斗力并+1移动力\n\n(M%(R+1))*50=G且(M+R)*2=E*P:\n所有单位+15%战斗力、攻击时+15%战斗力、+1移动力并每移动1格回复5HP获得2XP\n\n(M+R+E+P)*20=G且M*R=E*P:\n所有单位+15%战斗力、攻击时+25%战斗力、+1移动力并每移动1格回复5HP获得2XP、射程+1\n\n"
-			"uniqueName": "巨金怪",//文明特性名Pasture
+			
+			"uniqueText": "[Accumulate 1 point per turn (max 20), consume 20 points to activate Computing Burst (no point recovery during burst)\n][Set：[Melee] units equals M, [Ranged] units equals R, current [Gold] equals G, Era number (starts at 0) equals E, Policies enacted equals P\n][Gain the following bonuses when activating Computing Burst under these conditions (lasts 10 turns)：\n]\n[(M+R)*10 equals G and (M+R) equals (E+2)*2：\n][All units +10% Combat Strength, +10% Combat Strength when attacking\n]\n[M*10+R*20 equals G and (M+R) equals (E+P)*2：\n][All units +15% Combat Strength, +10% Combat Strength when attacking and +1 Movement\n]\n[(M%(R+1))*50 equals G and (M+R)*2 equals E*P：\n][All units +15% Combat Strength, +15% Combat Strength when attacking, +1 Movement, heal 5 HP and gain 2 XP per tile moved\n]\n[(M+R+E+P)*20 equals G and M*R equals E*P：\n][All units +15% Combat Strength, +25% Combat Strength when attacking, +1 Movement, heal 5 HP and gain 2 XP per tile moved, +1 Range\n]"	//"每回合积累1点数（上限20），消耗20点可以进行算力爆发（期间不会回复点数）\n设：[Melee]单位=M，[Ranged]单位=R，现有[Gold]=G，时代编号（初始为0）=E，推行政策数=P\n在达成以下条件时算力爆发将获得增益（持续10回合）：\n\n(M+R)*10=G且(M+R)=(E+2)*2:\n所有单位+10%战斗力、攻击时+10%战斗力\n\nM*10+R*20=G且(M+R)=(E+P)*2:\n所有单位+15%战斗力、攻击时+10%战斗力并+1移动力\n\n(M%(R+1))*50=G且(M+R)*2=E*P:\n所有单位+15%战斗力、攻击时+15%战斗力、+1移动力并每移动1格回复5HP获得2XP\n\n(M+R+E+P)*20=G且M*R=E*P:\n所有单位+15%战斗力、攻击时+25%战斗力、+1移动力并每移动1格回复5HP获得2XP、射程+1\n\n"
+			"uniqueName": "Metagross"//巨金怪",//文明特性名Pasture
 			"uniques": [
 			"[All] units gain the [MatrixComputation] promotion"
 			"Provides [1] [Devon]"
@@ -6003,7 +5888,7 @@
 		{
 			"name": "Switzerland",//瑞士
 			"civilopediaText":[
-			{"text": "投稿者：秋雨"}],
+			{"text": "设计者：秋雨"}],
 			"leaderName": "威廉·泰尔",
 			"adjective": ["x"],
 			"startBias": ["Mountain"],//起始偏好
@@ -6019,9 +5904,9 @@
             "tradeRequest": "用乌里州的硬木换你的丝绸？公平交易才能让箭矢不偏不倚！",//向玩家申请交易时
 			"outerColor": [218, 41, 28],//文明内部色*
 			"innerColor": [255, 255, 255],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "当军事单位＞平民单位时：所有城市建造建筑时+10%[Production]\n当军事单位=平民单位时：所有城市+2[Gold]与[Science]\n当军事单位＜平民单位时：所有城市建造军事单位时+30%[Production]\n"
-			"uniqueName": "兵民一体",//文明特性名
+			
+			"uniqueText": "When military units greater than civilian units：All cities gain +10% [Production] when constructing buildings\nWhen military units equals civilian units：All cities gain +2 [Gold] and +2 [Science]\nWhen military units less than civilian units：All cities gain +30% [Production] when constructing military units"//当军事单位＞平民单位时：所有城市建造建筑时+10%[Production]\n当军事单位=平民单位时：所有城市+2[Gold]与[Science]\n当军事单位＜平民单位时：所有城市建造军事单位时+30%[Production]"
+			"uniqueName": "Soldier-Civilian Unity"//兵民一体",//文明特性名
 			"uniques": [
 			"[+10]% Production when constructing [All] buildings [in all cities]<when number of [[Military] Units] is more than [[[Civilian] Units]]>"
 			"[+2 Gold, +2 Science] [in all cities]<when number of [[Military] Units] is equal to [[[Civilian] Units]]>"
@@ -6034,7 +5919,7 @@
 	{
 			"name": "RedTagMercenaryCorps",//红标佣兵团
 			"civilopediaText":[
-			{"text": "投稿者：蓝天"}],
+			{"text": "设计者：蓝天"}],
 			"leaderName": "渗透者",
 			"adjective": ["x"],
 			//"startBias": ["Mountain"],//起始偏好
@@ -6050,14 +5935,14 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [218, 41, 28],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			//"uniqueText": "单位可以消耗金钱直接获取XP（3:1）"
-			"uniqueName": "红标合同",//文明特性名
+			
+			、、"uniqueText": "单位可以消耗金钱直接获取XP（3:1）"
+			"uniqueName": "Red Contract"//红标合同",//文明特性名
 			"uniques": [
 			"[Military] units gain the [RedTag I] promotion<hidden from users>"
-			"Comment [可以消耗[Gold]获得XP（比例3+时代编号:1）]",
+			"Comment [Can consume [Gold] to gain XP (ratio 3+Era number)]"//可以消耗[Gold]获得XP（比例3+时代编号）]",
 			"Earn [-20]% of killed [Military] unit's [Cost] as [Gold]<hidden from users>",//杀人拿战力的
-			"Comment [击杀单位时扣除目标单位成本20%的[Gold]]",
+			"Comment [Deduct 20% of target unit cost in [Gold] when killing units]"//击杀单位时扣除目标单位成本20%的[Gold]]",
 			
 			"[+1 Gold] from [Bonus resource] tiles [in this city]",//奖金减产出
 			],//文明特性具体效果
@@ -6080,10 +5965,10 @@
 			"tradeRequest": "Would you listen to my proposal?",
 			"outerColor": [65, 54, 42],//文明内部色*
 			"innerColor": [78, 244, 234],//文明外部色*
-			"uniqueName": "无垠之地",//文明特性名
+			"uniqueName": "Boundless Land"//无垠之地",//文明特性名
 			"uniques": [
             "Gain a free [GreatExpanseAbility] [in all cities]<hidden from users>"
-			"Comment [建造城市后立即获得8块领土]",
+			"Comment [Immediately gain 8 tiles territory after founding city]"//建造城市后立即获得8块领土]",
 			],
 			"cities": ["肖肖尼","瓦沙基堡","肖肖尼瀑布","肖肖尼湖","肖肖尼河","沙瓦诺山","肖恩戈波维","肖肖尼-班诺克","肖肖尼-派尤特","东肖肖尼","西肖肖尼","风河","鸭谷","霍尔堡","肖肖尼峡谷","肖肖尼村","廷比沙","大盆地","蛇河","黄石","内华达肖肖尼","肖肖尼保留地"]
 
@@ -6092,7 +5977,7 @@
 	{
 			"name": "No.200JokerMonarch",//No.200小丑皇
 			"civilopediaText":[
-			{"text": "投稿者：秋雨"}],
+			{"text": "设计者：秋雨"}],
 			"leaderName": "Joker",
 			"adjective": ["小丑皇"],
 			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
@@ -6107,20 +5992,9 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [218, 41, 28],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
-			"uniqueText": "不同兵种有且仅有4个单位时，对应的兵种+15%战斗力\n第10回合之前研究的初始科技([Pottery]/[Animal Husbandry]/[Archery]/[Mining])科技积累花色点数(♠/♥/♣/♦)，根据点数获取增益：\n3♠：建造可以获取奢侈资源的设施时获取2格内的奢侈地块\n5♠：每座城市+2[Science]\n3♥：建造[Pasture]后获得10[Gold]\n5♥：[Cattle][Sheep][Horses]+1[Gold]\n3♣：建造弓箭单位时+15%[Production]\n5♣：所有[Camp]+1[Happiness]\n3♦：所有[Mine]+1[Faith]\n5♦：建造[Mine]后获取获取2格内的战略地块(即便未解锁)"
+			"uniqueText": "\n第10回合之前研究的初始科技([Pottery]/[Animal Husbandry]/[Archery]/[Mining])科技积累花色点数(♠/♥/♣/♦)，根据点数获取增益：\n3♠：所有粮仓资源+1[Faith],所有水上奢侈资源+1[Production]\n5♠：建造平民单位时+20%产能\n3♥：[Cattle][Sheep][Horses]+1[Gold]\n5♥：所有奇观+2[Happiness]\n3♣：建造可以获取奢侈资源的设施时获取2格内的奢侈地块\n5♣：建造近战/远程单位时+10%/15%[Production]\n3♦：建造可以获取战略资源后获取获取2格内的战略地块(即便未解锁)\n5♦：所有[Luxury resource]-2[Gold]+1[Production]\n"
 			"uniqueName": "王牌百搭",//文明特性名
 			"uniques": [
-            "[+15]% Strength <when number of [[Sword] Units] is equal to [4]><for [Sword] units>",//4个加力
-			"[+15]% Strength <when number of [[Archery] Units] is equal to [4]><for [Archery] units>",//4个加力
-			"[+15]% Strength <when number of [[Mounted] Units] is equal to [4]><for [Mounted] units>",//4个加力
-			"[+15]% Strength <when number of [[Siege] Units] is equal to [4]><for [Siege] units>",//4个加力
-			"[+15]% Strength <when number of [[Ranged Gunpowder] Units] is equal to [4]><for [Ranged Gunpowder] units>",//4个加力
-			"[+15]% Strength <when number of [[Armored] Units] is equal to [4]><for [Armored] units>",//4个加力
-			"[+15]% Strength <when number of [[Melee Water] Units] is equal to [4]><for [Melee Water] units>",//4个加力
-			"[+15]% Strength <when number of [[Ranged Water] Units] is equal to [4]><for [Ranged Water] units>",//4个加力
-			"[+15]% Strength <when number of [[Submarine] Units] is equal to [4]><for [Submarine] units>",//4个加力
-			"[+15]% Strength <when number of [[LandSwordWater] Units] is equal to [4]><for [LandSwordWater] units>",//4个加力
-			
 			"Provides [1] [JokerMonarchAbility-Spade]<every [1] turns><while researching [Pottery]><when number of [turns] is less than [11]>"//回合资源
 			"Provides [1] [JokerMonarchAbility-Heart]<every [1] turns><while researching [Animal Husbandry]><when number of [turns] is less than [11]>"//回合资源
 			"Provides [1] [JokerMonarchAbility-Club]<every [1] turns><while researching [Archery]><when number of [turns] is less than [11]>"//回合资源
@@ -6133,17 +6007,27 @@
 			"[+1 Science]<when number of [turns] is between [5] and [9]><hidden from users>"//根据点数加成
 			"[-1 Science]<when number of [turns] is between [10] and [14]><hidden from users>"//根据点数加成
 			
+			"[+1 Faith] from [Deer] tiles [in this city]<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>",
+			"[+1 Faith] from [Bananas] tiles [in this city]<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>",
+			"[+1 Faith] from [Wheat] tiles [in this city]<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>",
+			//"[+1 Production] from [Water] tiles [in this city]<in tiles without [Bonus resource]><when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"
+			"[+1 Production] from [Water] tiles [in this city]<in tiles without [Luxury resource]><when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"
+			//"[+1 Production] from [Water] tiles [in this city]<in tiles without [Strategic resource]><when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"
 			
-			"[+2 Science] [in all cities] <when number of [JokerMonarchAbility-Spade] is more than [4]><hidden from users>"//根据点数加成
 			
-			"[+1 Gold] from [Cattle] tiles [in this city]<when number of [JokerMonarchAbility-Heart] is more than [4]><hidden from users>",//牛羊马加钱
-			"[+1 Gold] from [Horses] tiles [in this city]<when number of [JokerMonarchAbility-Heart] is more than [4]><hidden from users>",//牛羊马加钱
-			"[+1 Gold] from [Sheep] tiles [in this city]<when number of [JokerMonarchAbility-Heart] is more than [4]><hidden from users>",//牛羊马加钱
+			"[+20]% Production when constructing [Civilian] units [in all cities] <when number of [JokerMonarchAbility-Spade] is more than [4]><hidden from users>"//根据点数加成
 			
-			"[+15]% Production when constructing [Archery] units [in all cities]<when number of [JokerMonarchAbility-Club] is more than [2]><hidden from users>"
-			"[+1 Happiness] from [Camp] tiles [in this city]<when number of [JokerMonarchAbility-Club] is more than [4]><hidden from users>",//猎场加乐
+			"[+1 Gold] from [Cattle] tiles [in this city]<when number of [JokerMonarchAbility-Heart] is more than [2]><hidden from users>",//牛羊马加钱
+			"[+1 Gold] from [Horses] tiles [in this city]<when number of [JokerMonarchAbility-Heart] is more than [2]><hidden from users>",//牛羊马加钱
+			"[+1 Gold] from [Sheep] tiles [in this city]<when number of [JokerMonarchAbility-Heart] is more than [2]><hidden from users>",//牛羊马加钱
 			
-			"[+1 Faith] from [Mine] tiles [in this city]<when number of [JokerMonarchAbility-Diamond] is more than [2]><hidden from users>",//矿井加信
+			"[+2 Happiness] from every [Wonder]<when number of [JokerMonarchAbility-Heart] is more than [2]><hidden from users>"
+			
+			"[+15]% Production when constructing [Melee] units [in all cities]<when number of [JokerMonarchAbility-Club] is more than [4]><hidden from users>"
+			"[+15]% Production when constructing [Ranged] units [in all cities]<when number of [JokerMonarchAbility-Club] is more than [4]><hidden from users>"
+			"[+1 Food] from [Camp] tiles [in this city]<when number of [JokerMonarchAbility-Club] is more than [4]><hidden from users>",//猎场加乐
+			
+			"[+1 Production, -2 Gold] from [Luxury resource] tiles [in this city]<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
 			],
 			"cities": ["黑桃A", "红心A", "梅花A", "方块A", "黑桃2", "红心2", "梅花2", "方块2", "黑桃3", "红心3", "梅花3", "方块3", "黑桃4", "红心4", "梅花4", "方块4", "黑桃5", "红心5", "梅花5", "方块5", "黑桃6", "红心6", "梅花6", "方块6", "黑桃7", "红心7", "梅花7", "方块7", "黑桃8", "红心8", "梅花8", "方块8", "黑桃9", "红心9", "梅花9", "方块9", "黑桃10", "红心10", "梅花10", "方块10", "黑桃J", "红心J", "梅花J", "方块J", "黑桃Q", "红心Q", "梅花Q", "方块Q", "黑桃K", "红心K", "梅花K", "方块K"]
     },
@@ -6151,7 +6035,7 @@
 	{
 			"name": "原始之地",//原始之地
 			"civilopediaText":[
-			{"text": "投稿者：秋雨"}],
+			{"text": "设计者：秋雨"}],
 			"leaderName": "固拉多",
 			"adjective": ["固拉多"],
 			//"startBias": ["Mountain"],//起始偏好
@@ -6167,8 +6051,8 @@
             "tradeRequest": "咕咕~",//向玩家申请交易时
 			"outerColor": [218, 41, 28],//文明内部色*
 			"innerColor": [255,255,255],//文明外部色*
-			"favouredReligion": "P",//当作为ai时选择的宗教
-			"uniqueText": "建造首都后立即获取所有海滨/海洋地块，并且获得部分陆地地块(仅对人类玩家生效)\n取消所有海滨/海洋地块的增长\n所有文明单位在海滨/海洋地块时移动力降低至1点\n每有8块陆地领土，获得+1[Gold][Faith][Science](直接加成在文明)"
+			
+			"uniqueText": "建造首都后立即获取所有海滨/海洋地块，并且获得部分陆地地块\n取消所有海滨/海洋地块的增长\n所有文明单位在海滨/海洋地块时移动力降低至1点\n每有8块陆地领土，获得+1[Gold][Faith][Science](直接加成在文明)"
 			"uniqueName": "大日照",//文明特性名
 			"uniques": [
 			"Gain a free [SunburstAbility] [in capital]<hidden from users>"
@@ -6176,8 +6060,6 @@
 			"[-10 Production, -10 Food, -10 Gold, -10 Faith, -10 Culture, -10 Science] from [Ocean] tiles [in this city]",//奢侈减产出
 			
 			"[+1 Gold, +1 Faith, +1 Science]<for every [8] [Owned [Land] Tiles]>",//文明buff
-			//"[-10] Movement<in [Coast] tiles>"
-			//"[-10] Movement<in [Ocean] tiles>"
 			
 			],//文明特性具体效果
 			"cities": ["原始之地"]
@@ -6208,38 +6090,13 @@
         "innerColor": [255,255,255],
 
 		"favoredReligion": "Christianity",
-		"uniqueText": "军事单位在异国领土结束回合时获得1[Gold]\n军事单位在敌对领土结束回合时获得1[Science][Culture][Faith]"
-		"uniqueName": "送",
+		"uniqueText": "Military units gain 1[Gold] when ending turn in foreign territory\nMilitary units gain 1[Science][Culture][Faith] when ending turn in hostile territory"//军事单位在异国领土结束回合时获得1[Gold]\n军事单位在敌对领土结束回合时获得1[Science][Culture][Faith]"
+		"uniqueName": "Gift"//送",
 		"uniques": ["Comment [军事单位在异国领土结束回合时获得1[Gold]]","Comment [军事单位在敌对领土结束回合时获得1[Science]]", "Comment [军事单位在敌对领土结束回合时获得1[Culture]]", "Comment [军事单位在敌对领土结束回合时获得1[Faith]]","[Military] units gain the [Song] promotion <hidden from users>"],
 		"cities": ["Song","Soong","Sooong","Soooong","Sooooong","Soooooong","Soooooooong","Sooooooooooooong","Soooooooooooooooooong",],
         "spyNames": ["So0ng", "So00ng", "So000ng", "So0000ng", "So00000ng", "So0000000ng", "So0000000ng", "S0ong", "S00ong", "S0000ong"]
     }, 
 	
-	/*{
-			"name": "测试",//No.200小丑皇
-			"civilopediaText":[
-			{"text": "投稿者：秋雨"}],
-			"leaderName": "Joker",
-			"adjective": ["小丑皇"],
-			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
-			"startIntroPart1": "咕咕咕",//介绍1
-			"startIntroPart2": "咕咕咕",//介绍2
-			"declaringWar": "咕咕咕！",//向玩家宣战
-			"attacked":"咕 咕 咕 ！",//被玩家宣战
-			"defeated": "咕……",//被玩家打败时
-            "introduction": "咕,咕咕？",//初见
-            "neutralHello": "咕咕咕~",//通常问候
-            "hateHello": "咕咕！",//战争时问候
-            "tradeRequest": "咕咕~",//向玩家申请交易时
-			"outerColor": [218, 41, 28],//文明内部色*
-			"innerColor": [255,255,255],//文明外部色*
-			//"uniqueText": ""
-			"uniqueName": "王牌百搭",//文明特性名
-			"uniques": [
-            
-			],
-			"cities": ["黑桃A",]
-    },*/
 	{
 		"name": "Wonderland",//不思议之国
 		"leaderName": "爱丽丝",
@@ -6434,4 +6291,45 @@
 		"cities": ["Seoul","Pyongyang","Hamhung","Busan","Chongjin","Incheon","Sinuiju","Daegu","Pyongsong","Ulsan","Wonsan","Daejeon","Kaesong","Gwangju","Hyesan","Suwon","Raseon","Jeonju","Haeju","Chuncheon","Sariwon","Changwon"],
         "spyNames": ["Kim", "Park", "Han", "Na", "Kong", "Yu", "Ahn", "Na", "Da", "Eun"]
     },
+	
+	{
+			"name": "NoiralbaSpire",//黑白塔
+			"civilopediaText":[
+			{"text": "设计者：秋雨"}],
+			"leaderName": "白",
+			"adjective": ["白"],
+			//"startBias": ["Mountain"],//起始偏好
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [0, 0, 0],//文明内部色*
+			"innerColor": [255,255,255],//文明外部色*
+			"uniqueText": "初始拥有两个移民，可以拥有两个首都，同时拥有宫殿加成（额外首都城市不消耗快乐）。首都的属性下降至65%（[Culture]等、人口增长、城市血量、城市战斗力）\n移民+1移动与视野"
+			"uniqueName": "双城记",//文明特性名
+			"uniques": [
+			"[1] free [Settler] units appear"
+			"Provides a [NoiralbaSpireAbility] in your first [2] cities for free"
+			"[+1] Sight <for [Settler] units>",//增加视野
+			"[+1] Movement <for [Settler] units>",//增加视野
+			],//文明特性具体效果
+			"cities": ["黑塔","白塔"]
+	},
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 ]

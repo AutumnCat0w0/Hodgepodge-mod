@@ -16,9 +16,11 @@
 		"uniques": ["Indicates the capital city"
 		"Gain control over [Coast] tiles in a [100]-tile radius<for [原始之地] Civilizations><for [Human player] Civilizations><hidden from users>"
 		"Gain control over [Ocean] tiles in a [100]-tile radius<for [原始之地] Civilizations><for [Human player] Civilizations><hidden from users>"
-		"Gain control over [Luxury resource] tiles in a [100]-tile radius<for [测试] Civilizations><for [Human player] Civilizations><hidden from users>"
-		
 		"Gain control over [Land] tiles in a [2]-tile radius<for [原始之地] Civilizations><for [Human player] Civilizations><hidden from users>"
+		
+		"Connects trade routes over water<for [Sea Tauren] Civilizations><hidden from users>"//海上牛头人UA
+		
+		"[-3 Production, -3 Science, -3 Gold, -1 Culture, -3 Happiness]<for [NoiralbaSpire] Civilizations><hidden from users>"//黑白塔UA
 		]
 	},
 
@@ -935,6 +937,30 @@
 		"Unsellable"//无法出售
 		"Moves to new capital when capital changes",//首都更变时转移
 		"Comment [只要存在，所有文明在水上移动力变为1]",
+		]
+	},
+	
+	{
+		"name": "NoiralbaSpireAbility",//黑白塔能力
+		"cost": 0,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityHealth": -70,
+		"requiredTech": "Special technology",
+		"uniques": [
+		"Unsellable"//无法出售
+		"[-35]% Strength for cities<in this city>"
+		"[-35]% [Culture]<in this city>"
+		"[-35]% [Gold]<in this city>"
+		"[-35]% [Production]<in this city>"
+		"[-35]% [Science]<in this city>"
+		"[-35]% [Faith]<in this city>"
+		"[-35]% growth [in this city]"
+		"[+3 Happiness]<hidden from users>"//黑白塔UA
+		"Indicates the capital city"
+		"Comment [额外首都不消耗多余的[Happiness]]",
 		]
 	},
 	
@@ -3543,6 +3569,21 @@
 		"requiredBuilding": "Library",
 		"uniques": ["Must be next to [Mountain]","Free Technology","Unsellable"],
 		"requiredTech": "Astronomy"
+	},
+	
+	{
+		"name": "BlackTower",//黑塔
+		"uniqueTo": "NoiralbaSpire",//黑白塔
+		"replaces": "Monument",//所代替
+		//"production":3,
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 0,
+		"uniques": [
+		"[+10]% of excess happiness converted to [Culture]"
+		"[-50]% production cost<in [in capital] cities>"
+		"Destroyed when the city is captured"]
 	},
 	
 ]
