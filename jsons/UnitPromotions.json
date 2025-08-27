@@ -1115,7 +1115,7 @@
 	{
         "name": "Fireworks Protection",//薪火守护
         "uniques":[
-        "[This Unit] heals [3] HP <upon ending a turn in a [Land] tile>",
+        "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile>",
         "May capture killed [Barbarians] units",
         "Gain [-10] [Gold]<upon defeating a [Barbarians] unit>"
         //"When defeating a [Barbarians] unit, earn [-10] Gold and recruit it",
@@ -2028,5 +2028,13 @@
         "name": "Feng",//风
         "uniques":["[+1] Movement"]
     },
-	
+	{
+        "name": "I will always stalk",//我会一直视奸你的
+        "uniques":[
+        "[+1] Sight",
+        "Can see over obstacles",
+        "Invisible to others <when not at war>",
+        "Invisible to others <for [Suspicious Looking Eye] units> <when at war>",
+        ]
+    },
 ]

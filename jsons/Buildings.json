@@ -3302,7 +3302,7 @@
 		"cost": 0,
 		"hurryCostModifier": 10,
 		"uniques": [
-		"Unbuildable <when below [1] [TheHallOfHate]> <hidden from users>",
+		"Only available <for [TheHallOfHate] Civilizations> <hidden from users>",
 		"Can only be built <in [in capital] cities>",
 		"Instantly provides [9] [DyingCounter]",
 		"Remove [Reincarnation Hall] [in this city] <hidden from users>",
@@ -3310,7 +3310,7 @@
 		},//隐藏建筑
 		
 		{
-		"name": "“鲜血”",
+		"name": "'Blood'",//“鲜血”
 		"uniqueTo": "TheHallOfHate",//憎恶之馆
 		"replaces": "Shrine",
 		"faith": 2,
@@ -3584,6 +3584,17 @@
 		"[+10]% of excess happiness converted to [Culture]"
 		"[-50]% production cost<in [in capital] cities>"
 		"Destroyed when the city is captured"]
+	},
+	{
+		"name": "Another Eye",//另一双注视着的眼睛
+		"uniqueTo": "Stalk",//视奸
+		"replaces": "Walls",//所代替
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured",
+		"Comment [令敌方近战单位在这个城市中无视野]"
+		]
 	},
 	
 ]

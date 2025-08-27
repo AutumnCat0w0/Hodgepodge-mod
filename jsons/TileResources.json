@@ -607,15 +607,6 @@
 	},
 	
 	{
-		"name": "TheHallOfHate",//轮回之馆
-		"resourceType": "Strategic",
-		"revealedBy": "Special technology",
-		"uniques": [
-		"Will not be displayed in Civilopedia"//不会在百科中显示
-		]
-	},
-	
-	{
 		"name": "DyingCounter",//濒死计数器
 		"resourceType": "Bonus",
 		"revealedBy": "Resource Technology",
@@ -817,6 +808,17 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
+		]
+	},
+	
+	{
+		"name": "HideCounter",//隐藏计数器
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded",//不能交易
+		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
 	

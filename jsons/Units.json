@@ -2821,7 +2821,11 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques": ["Can be earned through combat"],
+		"uniques": [
+		"Can be earned through combat"
+		"Great Person - [War]<hidden from users>", 
+		"Is part of Great Person group [General]<hidden from users>",
+		],
 		"promotions": ["Ignore terrain cost","Quick Study"],//免费晋升
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
@@ -2839,6 +2843,8 @@
 		"cost": 40,
 		"uniques": [
 		"Can be earned through combat",
+		"Great Person - [War]<hidden from users>", 
+		"Is part of Great Person group [General]<hidden from users>",
 		],
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
@@ -3275,7 +3281,7 @@
 	}
 	
 	{
-		"name": "上位种族",
+		"name": "Superior Race",//上位种族
 		"unitType": "Civilian",
 		"replaces": "Worker",
 		"uniqueTo": "TheHallOfHate"//憎恶之馆
@@ -3642,8 +3648,45 @@
 		"attackSound": "arrow"
 	},
 	
-	
-	
+	{
+		"name": "WhiteTower",//白塔
+		"unitType": "Archery",
+		"uniqueTo": "NoiralbaSpire",//黑白塔
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"range": 2,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+		"[-50]% production cost<in [in capital] cities>"
+		"No defensive terrain bonus", 
+		"Rough terrain penalty"
+		],
+		"attackSound": "arrow"
+	},
+	{
+		"name": "Suspicious Looking Eye",//可疑眼球
+		"unitType": "Scout",
+		"uniqueTo": "Stalk",//视奸
+		"replaces": "Scout",
+		"movement": 3,
+		"strength": 5,
+		"cost": 40,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects",
+		"Cannot attack",
+		"[+1] Sight",
+		"Shijian <in tiles not adjacent to [Friendly Land] tiles> <within [3] tiles of a [City center]> <hidden from users>",
+		"Comment [在与友好领土不相邻的地块上且位于城市中心3格范围内+2[Culture]]",
+		"Limited to [3] per Civilization"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+	},
 	
 	
 	
