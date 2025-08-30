@@ -607,6 +607,15 @@
 	},
 	
 	{
+		"name": "TheHallOfHate",//轮回之馆
+		"resourceType": "Strategic",
+		"revealedBy": "Special technology",
+		"uniques": [
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
 		"name": "DyingCounter",//濒死计数器
 		"resourceType": "Bonus",
 		"revealedBy": "Resource Technology",
@@ -765,7 +774,7 @@
 		"Not shown on world screen",//不显示
 		"Stockpiled"//库存
 		"[+15]% Strength"
-		"[+15]% Strength<when attacking>"
+		"[+25]% Strength<when attacking>"
 		"[+1] Movement"//移动
 		"[1] Range"
 		]
@@ -820,6 +829,11 @@
 		"Not shown on world screen",//不显示
 		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
+	},
+	{
+		"name": "Cocoa Bean",//可可豆
+		"resourceType": "Luxury",
+		"revealedBy": "Resource Technology",
 	},
 	
 ]

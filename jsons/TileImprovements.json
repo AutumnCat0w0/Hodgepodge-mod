@@ -94,12 +94,14 @@
 	},
 	{
 		"name": "Plantation",//种植园
+		"terrainsCanBeBuiltOn": ["Cocoa Tree"],
 		"turnsToBuild": 6,
 		"gold": 1,
 		"techRequired": "Calendar",
 		"uniques": [
 		"[+1 Food] <after discovering [Fertilizer]>", 
-		"Can only be built to improve a resource", 
+		"Can only be built to improve a resource <for [non-[SP-Aztecs]] Civilizations><hidden from users>", 
+		"Comment [Can only be built to improve a resource]",
 		"Pillaging this improvement yields approximately [+10 Gold]"
 		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"
 		],

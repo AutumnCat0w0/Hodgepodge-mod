@@ -35,6 +35,22 @@
 					"Considered [Undesirable] when determining start locations"]
 	},
 	
+	{
+		"name": "Cocoa Tree",//可可树
+		"type": "TerrainFeature",
+		"occursOn": ["Grassland","Desert","Plains","Tundra","Hill","Snow"],
+		"uniques": [
+		"Must be adjacent to [7] [Great Barrier Reef] tiles",
+			],
+		"impassable": false,
+		"unbuildable": true,
+	}
+	
+	
+	///////////////////////////奇观//////////////////////////
+	///////////////////////////奇观//////////////////////////
+	///////////////////////////奇观//////////////////////////
+	///////////////////////////奇观//////////////////////////
 	
 	{
 		"name": "Mount Qomolangma",//珠穆朗玛峰
@@ -205,5 +221,7 @@
 					"Occurs in groups of [3] to [4] tiles"
 					"Every [9] tiles with this terrain will receive a major deposit of a strategic resource."],
 	},
+	
+	
 
 ]

@@ -1993,7 +1993,7 @@
 		"name": "Solar Disk",//太阳圆盘
 		"uniqueTo": "Shuruima",//恕瑞玛
 		"replaces": "Monument",//所代替
-		"culture": 3,
+		"culture": 2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
@@ -2290,7 +2290,7 @@
 	
 	{
 		"name": "G-Ice Crystal Temple",//G-冰晶神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Shrine",//所代替
 		"faith":1,
 		"culture": 1,
@@ -2302,7 +2302,7 @@
 	},
 	
 	{   "name": "G-Cornerstone Temple",//G-磐石神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens"//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens"//四天之千神凰
 		"replaces": "Stone Works",//所代替
 		"faith":1,
 		"happiness": 2,
@@ -2320,7 +2320,7 @@
 	
 	{
 		"name": "G-Bathing Fire Temple",//G-浴火神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Barracks",//所代替原版的建筑（如果不想取代可以不写这项）
 		"hurryCostModifier": 25,
 		"faith":1,
@@ -2336,7 +2336,7 @@
 	
 	{
 		"name": "G-Sky Temple",//G-岚空神殿
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
 		"food":2,
 		"faith":1,
@@ -2671,8 +2671,10 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"production": 10},
 		"uniques": [
-		"[+1 Gold] from every [Buildings] <in this city><when below [13] [Magic power]>"
-		"[+1 Faith] from every [Culture] <in this city><when above [12] [Magic power]>"
+		"[+1 Gold] from every [Buildings] <in this city><when below [13] [Magic power]><hidden from users>"
+		 "Comment [当时间计数≤12时所有建筑[+1 Gold]]",
+		"[+1 Faith] from every [Culture] <in this city><when above [12] [Magic power]><hidden from users>"
+		 "Comment [当时间计数≥13时所有文化建筑[+1 Faith]]",
 		],
 		"requiredTech": "Metal Casting"
 	},
@@ -3302,7 +3304,7 @@
 		"cost": 0,
 		"hurryCostModifier": 10,
 		"uniques": [
-		"Only available <for [TheHallOfHate] Civilizations> <hidden from users>",
+		"Unbuildable <when below [1] [TheHallOfHate]> <hidden from users>",
 		"Can only be built <in [in capital] cities>",
 		"Instantly provides [9] [DyingCounter]",
 		"Remove [Reincarnation Hall] [in this city] <hidden from users>",
@@ -3310,7 +3312,7 @@
 		},//隐藏建筑
 		
 		{
-		"name": "'Blood'",//“鲜血”
+		"name": "“鲜血”",
 		"uniqueTo": "TheHallOfHate",//憎恶之馆
 		"replaces": "Shrine",
 		"faith": 2,
@@ -3585,6 +3587,7 @@
 		"[-50]% production cost<in [in capital] cities>"
 		"Destroyed when the city is captured"]
 	},
+	
 	{
 		"name": "Another Eye",//另一双注视着的眼睛
 		"uniqueTo": "Stalk",//视奸
@@ -3596,5 +3599,42 @@
 		"Comment [令敌方近战单位在这个城市中无视野]"
 		]
 	},
+	{
+		"name": "Nursery Garden",
+		"uniqueTo": "SP-Aztecs",
+		"replaces": "Granary",//所代替
+		"food": 2,
+		"percentStatBonus": {"food": 10},
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	
+	{
+		"name": "Justicarum",//审判庭
+		"uniqueTo": "StellarArbiter",//星之仲裁者
+		"replaces": "Walls",//所代替原版的建筑（如果不想取代可以不写这项）
+		"happiness":1,
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"cost": 50
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": [
+		"Gain [10] [Culture]<upon discovering [All] technology><(modified by game speed)><hidden from users>"
+		"Gain [15] [Faith]<upon discovering [All] technology><(modified by game speed)><hidden from users>"
+		"Gain [20] [Gold]<upon discovering [All] technology><(modified by game speed)><hidden from users>"
+		"Comment [研究科技后获得10[Culture]、15[Faith]、20[Gold](标准速度)]",
+		"Destroyed when the city is captured"
+		]
+	},
+	
+	
+	
+	
+	
+	
 	
 ]

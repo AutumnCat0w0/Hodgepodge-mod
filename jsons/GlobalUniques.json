@@ -17,8 +17,5 @@
         "[This Unit] heals [15] HP <upon ending a turn in a [Improvement] tile> <in [Enemy Land] tiles> <for [Dystopia] Civilizations>",
         "May capture killed [Water] units <for [Sea Tauren] Civilizations>",
         "Destroys tile improvements when attacking <for [CastleDestroyer] Civilizations>"
-    ],
-    "unitUniques": [
-    "No Sight <for [Melee] units> <in cities with a [Another Eye]> <in [Enemy Land] tiles>"
     ]
 }

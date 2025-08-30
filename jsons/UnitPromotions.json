@@ -446,8 +446,7 @@
 	{
         "name": "Fungal infection",//真菌感染
 	 "uniques": [
-	 "[+1] population in a random city<upon defeating a [Military] unit>"
-	 "[-1] population [in all cities]<upon defeating a [Barbarian] unit>"
+	 "[+1] population in a random city<upon defeating a [non-[Barbarian]] unit>"
 	 ]
 	},
 	
@@ -801,7 +800,7 @@
 	{
         "name": "Ascender",//飞升者
 	    "uniques": [
-	    "[+25]% Strength"
+	    "[+15]% Strength"
 		"[+1] Movement"//移动
 		"Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
 		"[+50]% XP gained from combat"
@@ -924,9 +923,9 @@
         "name": "God's Hunt I",//神狩
 	 "uniques": [
 		"Gain [-4] [Culture]<upon defeating a [All] unit>"
-		"Gain [-8] [Science]<upon defeating a [All] unit>"
-		"Earn [200]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的
-		"[+100]% Strength<vs [Barbarian] units>"
+		"Gain [-6] [Science]<upon defeating a [All] unit>"
+		"Earn [40]% of killed [Military] unit's [Cost] as [Gold]",//杀人拿产能的
+		"[+63]% Strength<vs [Barbarian] units>"
 	 ]
 	},
 	
@@ -1115,7 +1114,7 @@
 	{
         "name": "Fireworks Protection",//薪火守护
         "uniques":[
-        "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile>",
+        "[This Unit] heals [3] HP <upon ending a turn in a [Land] tile>",
         "May capture killed [Barbarians] units",
         "Gain [-10] [Gold]<upon defeating a [Barbarians] unit>"
         //"When defeating a [Barbarians] unit, earn [-10] Gold and recruit it",
@@ -1252,8 +1251,13 @@
 	{
 	"name": "AccompanyingMedicalCare",//随行医疗
 		"uniques": [
-		"All adjacent units heal [10] HP when healing<when above [0] [MedicalStaff]>"
-	    "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile> <when above [0] [MedicalStaff]>",
+		"All adjacent units heal [10] HP when healing<when above [0] [MedicalStaff]><for [non-[Rhodes]] Civilizations>"
+	    "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile> <when above [0] [MedicalStaff]><for [non-[Rhodes]] Civilizations>",
+		"Comment [拥有[MedicalStaff]时，军事单位自愈时额外恢复10HP，回合结束时恢复5HP]",
+		"All adjacent units heal [5] HP when healing<when above [0] [MedicalStaff]><for [Rhodes] Civilizations>"
+	    "[This Unit] heals [2] HP <upon ending a turn in a [Land] tile> <when above [0] [MedicalStaff]><for [Rhodes] Civilizations>",
+		"Comment [如果文明是[Rhodes]，效果减半]",
+		
 		],
 	},
 	
@@ -1766,7 +1770,7 @@
         "name": "ScarwoodChieftain I",//树痕领袖 I
 	    "uniques": [
 		"[+1] Movement"//移动
-		"[+15]% Strength bonus for [Military] units within [3] tiles",
+		"[+15]% Strength bonus for [Military] units within [2] tiles",
 		"Ignores Zone of Control"
 		"[This Unit] gains the [ScarwoodChieftain II] promotion<upon turn start><hidden from users><hidden from users>"
 		"[This Unit] loses the [ScarwoodChieftain II] promotion<upon turn end><hidden from users><hidden from users>"
@@ -1781,8 +1785,8 @@
 	{
         "name": "ScarwoodChieftain II",//树痕领袖 II
 	    "uniques": [
-			"[This Unit] loses the [ScarwoodCharge II] promotion <upon entering a [All] tile><hidden from users>",//破隐
-			"[non-[Ranged]] units gain the [ScarwoodChieftainX] promotion<for all movement><hidden from users>"
+			"[This Unit] loses the [ScarwoodChieftain II] promotion <upon entering a [All] tile>",//破隐
+			"[non-[Ranged]] units gain the [ScarwoodChieftainX] promotion<for all movement>"
 		]
 	},
 	
@@ -1810,8 +1814,7 @@
 		"Cannot attack"//无法攻击
 		"[-1] Movement"//移动
 		"[-100]% XP gained from combat"
-		"[+100]% Strength<when defending>"
-		"[This Unit] loses the [Frostchill II] status<for [0] movement><costs [+3 Faith] stats>"
+		"[This Unit] loses the [Frostchill II] status<for [0] movement><costs [+10 Faith] stats>"
 		]
 	},
 	
@@ -1992,6 +1995,7 @@
         "name": "RedTag-EradicatorCapacity",//红标-根除者能力
 	    "uniques": [
 		"Cannot attack<when number of [Gold] is less than [10]><hidden from users>"//无法攻击
+		"Cannot move"//无法移动
 		"Gain [-10] [Gold] <upon damaging a [All] unit><hidden from users>",//攻击扣钱
 		]
 	},
@@ -2028,6 +2032,7 @@
         "name": "Feng",//风
         "uniques":["[+1] Movement"]
     },
+	
 	{
         "name": "I will always stalk",//我会一直视奸你的
         "uniques":[
@@ -2037,4 +2042,40 @@
         "Invisible to others <for [Suspicious Looking Eye] units> <when at war>",
         ]
     },
+    {
+        "name": "Quetzalcoatl",//羽蛇神
+        "uniques":[
+        "Turn this tile into a [Cocoa Tree] tile<[1] times><for [0] movement><in [Land] tiles><for [Worker] units>",
+        "Turn this tile into a [Cocoa Tree] tile<[1] times><for [0] movement><in [Land] tiles><for [Great Person] units>",
+        ]
+    },
+	
+	{
+        "name": "Record",//记录
+        "uniques":[
+		"[This Unit] gains [1] XP<upon discovering a [All] tile><with [40]% chance><hidden from users>"
+		"Comment [每次探索概率获取XP]",
+		"[This Unit] upgrades for free including special upgrades <upon discovering a [Natural Wonder] tile><hidden from users>"
+		"Comment [发现[Natural Wonder]时升级]",
+        ]
+    },
+	
+	{
+        "name": "Verdict I",//裁决
+        "uniques":[
+		"[This Unit] gains the [Verdict II] promotion<upon turn start><hidden from users>"
+		"[This Unit] gains the [Verdict II] promotion<upon turn end><hidden from users>"
+		"[This Unit] loses the [Verdict II] promotion <upon entering combat><hidden from users>",//破回血
+		"Comment [在自己回合与自己回合外第一次受到攻击伤害时，回复7HP]",
+        ]
+    },
+	
+	{
+        "name": "Verdict II",//裁决X
+        "uniques":[
+		"[This Unit] heals [6] HP<upon entering combat>"
+		
+        ]
+    },
+	
 ]

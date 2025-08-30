@@ -1844,7 +1844,7 @@
 			"Can transform to [Warrior]"//转化为什么单位
 			"Can transform to [Archer]"//转化为什么单位
 	    "Can transform to [Spearman]"//转化为什么单位
-		"Can transform to [Horseman]<starting from the [Classical era]>"//转化为什么单位
+		"Can transform to [Horseman]<after discovering [Horseback Riding]><hidden from users>"//转化为什么单位
 			"Unbuildable", 
 			"Uncapturable"],
 		"promotions": ["Ascender"],
@@ -2203,6 +2203,7 @@
 		"cost": 46,
 		"upgradesTo": "Swordsman",
 		"uniques" : [
+		"Free [Hunter] appears<upon defeating a [Barbarian] unit>"
 		],
 		"attackSound": "nonmetalhit",
 		//"promotions": ["Fungal infection"],//免费晋升
@@ -2253,9 +2254,7 @@
 		"rangedStrength": 10,
 		"cost": 75,
 		"uniques" : [
-		"Free [Ash] appears <upon damaging a [All] unit><hidden from users>"
-		"Free [Ash] appears <upon losing at least [1] HP in a single attack><hidden from users>"
-		"Comment [每次攻击或被攻击时获得1个免费的[Ash]]",
+		"Free [Ash] appears <upon entering combat>"
 		],
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
@@ -2290,7 +2289,7 @@
 	{
 		"name": "G-Phoenix Guard",//神凰卫队
 		"unitType": "Sword",
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens"//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens"//四天之千神凰
 		"replaces": "Spearman",
 		"movement": 2,
 		"strength": 13,
@@ -2310,7 +2309,7 @@
 	
 	{
 		"name": "G-Phoenix Guardian",//神凰近卫
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千凰神
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千凰神
 		"replaces": "Warrior",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Sword",
 		"movement": 2,
@@ -2324,7 +2323,7 @@
 	
 	{
 		"name": "G-Phoenix Bow Team",//神凰弓队
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千神凰
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千神凰
 		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Archery",
 		"movement": 2,
@@ -2332,10 +2331,8 @@
 		"rangedStrength": 13,
 		"cost": 75,
 		"uniques" : [
-		"Free [Ash] appears <upon damaging a [All] unit><hidden from users>"
-		"Free [Ash] appears <upon losing at least [1] HP in a single attack><hidden from users>"
-		"Free [Ash] appears<upon defeating a [All] unit>"
-		"Comment [每次攻击或被攻击时获得1个免费的[Ash]]",
+		"Free [Ash] appears <upon entering combat>"
+		"Free [Ash] appears <upon entering combat>"
 		],
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
@@ -2346,7 +2343,7 @@
 	{
 		"name": "G-Phoenix Air Team",//神凰空队
 		"unitType": "Mounted",	
-		"uniqueTo": "The Thousand Phoenix God of the Four Heavens",//四天之千凰神
+		"uniqueTo": "BOSS The Thousand Phoenix God of the Four Heavens",//四天之千凰神
 		"replaces": "Horseman",
 		"movement": 4,
 		"strength": 14,
@@ -3099,13 +3096,11 @@
 		"strength": 4,
 		"cost": 25,
 		"uniques": [
-		"[This Unit] gains [1] XP<upon discovering a [All] tile><with [40]% chance><hidden from users>"
-		"[This Unit] upgrades for free including special upgrades <upon discovering a [Natural Wonder] tile>"
 		"May upgrade to [Archer] through ruins-like effects",
 		],
-		"promotions": ["Ignore terrain cost"],
+		"promotions": ["Ignore terrain cost","Record"],
 		"attackSound": "nonmetalhit"
-		"replacementTextForUniques":"根据探索程度获取XP\n首次发现自然奇观后自动升级"
+		//"replacementTextForUniques":"根据探索程度获取XP\n首次发现自然奇观后自动升级"
 	},
 	
 	{
@@ -3243,8 +3238,7 @@
 		"[-1] Sight",
 		"Never appears as a Barbarian unit"
 		"Can carry [9] [SpringansRockey] units"
-		"Free [SpringansRockey] appears <upon damaging a [All] unit><hidden from users>"
-		"Free [SpringansRockey] appears <upon losing at least [1] HP in a single attack><hidden from users>"
+		"Free [SpringansRockey] appears <upon entering combat>"
 		"Free [SpringansRockey] appears <upon losing at least [1] HP in a single attack><hidden from users>"
 		"Comment [每次攻击或被攻击时获得1个免费的[SpringansRockey]，被攻击时额外获得1个]",
 		],
@@ -3281,7 +3275,7 @@
 	}
 	
 	{
-		"name": "Superior Race",//上位种族
+		"name": "上位种族",
 		"unitType": "Civilian",
 		"replaces": "Worker",
 		"uniqueTo": "TheHallOfHate"//憎恶之馆
@@ -3537,7 +3531,7 @@
 		"[1] additional attacks per turn"
 		"[This Unit] gains the [RedTag-EradicatorCapacity] promotion <upon damaging a [All] unit><hidden from users>"
 		"[This Unit] loses the [RedTag-EradicatorCapacity] promotion <upon turn end><hidden from users>"
-		"Comment [每次额外攻击必须消耗10[Gold]，[Gold]不足时无法额外攻击]",
+		"Comment [第一次攻击后不可移动，每次额外攻击必须消耗10[Gold]，[Gold]不足时无法额外攻击]",
 		],
 		"attackSound": "arrow"
 	},
@@ -3663,12 +3657,14 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": [
-		"[-50]% production cost<in [in capital] cities>"
+		
 		"No defensive terrain bonus", 
 		"Rough terrain penalty"
 		],
 		"attackSound": "arrow"
 	},
+	
+	
 	{
 		"name": "Suspicious Looking Eye",//可疑眼球
 		"unitType": "Scout",
@@ -3688,9 +3684,42 @@
 		"attackSound": "nonmetalhit"
 	},
 	
+	{
+		"name": "Eagle Warrior",//雄鹰战士
+		"unitType": "Sword",
+		"uniqueTo": "SP-Aztecs",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>",
+		"Earn [100]% of killed [All] unit's [Strength] as [Faith]",
+		"Gain [20] [Faith] <upon being defeated> <(modified by game speed)>"
+		],
+		"promotions": ["Woodsman"],
+		"attackSound": "metalhit"
+	},
 	
-	
-	
+	{
+		"name": "Enforcer",//执行者
+		"uniqueTo": "StellarArbiter",//星之仲裁者
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+		],
+		"promotions": ["Verdict I"],
+		"attackSound": "metalhit"
+	},
 	
 	
 	
