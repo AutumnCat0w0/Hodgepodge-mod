@@ -5543,7 +5543,7 @@
 	}
 	
 	{
-		"name": "TheHallOfHate",//憎恶之棺
+		"name": "TheHallOfHate",//憎恶之馆
 		"leaderName": "美亚",
 		"adjective": ["米亚"]
 		"preferredVictoryType": "Domination",
@@ -6420,7 +6420,113 @@
 			
 	},
 	
+	{
+			"name": "Far Eastern Knights",//远东骑士团
+			"civilopediaText":[
+			{"text": "设计者：大松饼"}],
+			"leaderName": "柴科洛夫",
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [239, 200, 80],
+		    "innerColor": [20, 20, 20],
+			//"uniqueText": "",
+			"uniqueName": "富裕乡",//文明特性名
+			"uniques": [
+			"Comment [每有一个战略资源+1[Gold]]",
+			"[+1 Gold] <for every [Horses]> <hidden from users>",
+			"[+1 Gold] <for every [Iron]> <hidden from users>",
+			"[+1 Gold] <for every [Coal]> <hidden from users>",
+			"[+1 Gold] <for every [Oil]> <hidden from users>",
+			"[+1 Gold] <for every [Aluminum]> <hidden from users>",
+			"[+1 Gold] <for every [Uranium]> <hidden from users>",
+			"[+100]% [Horses] resource production"
+			],//文明特性具体效果
+			"cities": ["Far Eastern Knights"]
+	},
 	
+	{
+			"name": "Domination Organization",//支配组织
+			"civilopediaText":[
+			{"text": "设计者：大松饼"}],
+			"leaderName": "统计员",
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+		    "innerColor": [12, 75, 0],
+		    "outerColor": [220, 142, 76],
+			//"uniqueText": "",
+			"uniqueName": "我的油田我的矿",//文明特性名
+			"uniques": [
+			"[+1 Faith] <for every [[Farm] Tiles]>",
+			"[+1 Gold] <for every [[Mine] Tiles]>",
+			"Comment [该能力的数值计算来源于全球地块]"
+			],//文明特性具体效果
+			"cities": ["Domination Organization"]
+	},
 	
-	
+	{
+			"name": "See World",//视界
+			"civilopediaText":[
+			{"text": "设计者：大松饼\n掺小料者：薪火单推人"}],
+			"leaderName": "光线神",
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+		    "innerColor": [255,255,255],
+		    "outerColor": [0,0,0],
+			"uniqueText": "每12回合首都可以建造项目令与你交战的国家1回合内所有单位无视野（需为建造后计算12回合，开启期间[Stalk]文明无法触发其替代单位的特效）",
+			"uniqueName": "剥夺光明",//文明特性名
+			"uniques": [
+			"Provides [1] [Magic power] <when below [12] [Magic power]>",
+			"Provides [-1] [Cornea] <when above [0] [Cornea]>",
+			"Remove [Depriving the Light] [in all cities] <upon turn start> <when below [1] [Cornea]>"
+			],//文明特性具体效果
+			"cities": ["See World"]
+	},
+
+	/*{
+			"name": "List Domain God",//枚举领域大神
+			"civilopediaText":[
+			{"text": "设计者：秋雨\n总之就是秋猫猫\n诶嘿"}],
+			"leaderName": "认知偏差",
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+		    "innerColor": [243,211,96],
+		    "outerColor": [25,55,64],
+			"uniqueText": "每拥有一个其他文明未研究过的科技+1[Science]",
+			"uniqueName": "枚举枚举枚举",//文明特性名
+			"uniques": [
+			],//文明特性具体效果
+			"cities": ["List Domain God"]
+	},*/
 ]

@@ -1,7 +1,7 @@
 {//全局状态
    "name": "Global uniques",
     "uniques": [
-        //"Starts with [AristocracyX] adopted"
+        //"Starts with [AristocracyX] adopted",
 			"[-10] Movement<in [Coast] tiles> <if [SunburstAbility] is constructed by anybody>"
 			"[-10] Movement<in [Ocean] tiles> <if [SunburstAbility] is constructed by anybody>"
 			"[+100]% [Production] [in all cities]<for [City-States] Civilizations>",
@@ -16,6 +16,7 @@
         "Invisible to non-adjacent units <for [Military] units> <when above [0] [Snake Charm]>",
         "[This Unit] heals [15] HP <upon ending a turn in a [Improvement] tile> <in [Enemy Land] tiles> <for [Dystopia] Civilizations>",
         "May capture killed [Water] units <for [Sea Tauren] Civilizations>",
-        "Destroys tile improvements when attacking <for [CastleDestroyer] Civilizations>"
+        "Destroys tile improvements when attacking <for [CastleDestroyer] Civilizations>",
+        "No Sight <when at war> <if [Depriving the Light] is constructed by anybody> <for [non-[See World]] Civilizations>",
     ]
 }

@@ -1129,7 +1129,7 @@
 		"Can move after attacking",
 		//"No defensive terrain bonus",
 		"[-33]% Strength <vs cities> <when attacking>"
-		"[+15]% Strength <for [Spearman] units>"
+		"[+15]% Strength <vs [Spearman] units>"
 		],
 		"promotions": ["Gold Glory"],//免费晋升
 		"attackSound": "horse"
@@ -3275,7 +3275,7 @@
 	}
 	
 	{
-		"name": "上位种族",
+		"name": "Superior Race",
 		"unitType": "Civilian",
 		"replaces": "Worker",
 		"uniqueTo": "TheHallOfHate"//憎恶之馆
@@ -3677,7 +3677,7 @@
 		"uniques": ["May upgrade to [Archer] through ruins-like effects",
 		"Cannot attack",
 		"[+1] Sight",
-		"Shijian <in tiles not adjacent to [Friendly Land] tiles> <within [3] tiles of a [City center]> <hidden from users>",
+		"Shijian <in tiles not adjacent to [Friendly Land] tiles> <within [3] tiles of a [City center]> <if [Depriving the Light] is not constructed by anybody> <hidden from users>",
 		"Comment [在与友好领土不相邻的地块上且位于城市中心3格范围内+2[Culture]]",
 		"Limited to [3] per Civilization"],
 		"promotions": ["Ignore terrain cost"],
@@ -3721,9 +3721,56 @@
 		"attackSound": "metalhit"
 	},
 	
+	{
+		"name": "Far Eastern Knight",
+		"unitType": "Mounted",
+		"uniqueTo": "Far Eastern Knights",//远东骑士团
+		"replaces": "Knight",
+		"movement": 4,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
+		],
+		"promotions": ["[Far Eastern Knight] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Sickle Ranger",
+		"unitType": "Mounted",
+		"uniqueTo": "Domination Organization",
+		"replaces": "Horseman",
+		"movement": 6,
+		"strength": 12,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"requiredResource": "Horses",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
 	
-	
-	
+	{
+		"name": "Color",
+		"unitType": "Archery",
+		"uniqueTo": "See World",
+		"replaces": "Composite Bowman",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Construction",
+		"obsoleteTech": "Machinery",
+		"upgradesTo": "Crossbowman",
+		"uniques": ["Invisible to non-adjacent units"],
+		"promotions": ["Among the See World"],
+		"attackSound": "arrow"
+	},
 	
 	
 ]

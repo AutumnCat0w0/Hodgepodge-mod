@@ -3312,7 +3312,7 @@
 		},//隐藏建筑
 		
 		{
-		"name": "“鲜血”",
+		"name": "'Blood'",
 		"uniqueTo": "TheHallOfHate",//憎恶之馆
 		"replaces": "Shrine",
 		"faith": 2,
@@ -3545,7 +3545,7 @@
 		"uniques": ["Destroyed when the city is captured",
 		"[+100]% production cost <for every [Adopted [All] Policies]><hidden from users>",
 		"[+1 Culture] <for every [Adopted [All] Policies]><hidden from users>",
-		"Comment [每推行1个政策造价+100%]",
+		"Comment [每推行1个政策造价+100%（使用上一级的产能需求叠加）]",
 		"Comment [每推行1个政策+1[Culture]]",]
 	},
 	{
@@ -3631,10 +3631,70 @@
 		]
 	},
 	
+	{
+		"name": "Grass Feeding Field",
+		"uniqueTo": "Far Eastern Knights",
+		"replaces": "Stable",
+		"maintenance": 1,
+		"production": 2,
+		"requiredNearbyImprovedResources": [
+			"Horses",
+			"Sheep",
+			"Cattle"
+		],
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+15]% Production when constructing [Mounted] units [in this city]",
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]",
+			"Provides [1] [Horses]"
+		],
+		"requiredTech": "Horseback Riding"
+	},
 	
+	{
+		"name": "God of Agriculture",
+		"uniqueTo": "Domination Organization",
+		"replaces": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>",
+		"[+1 Food] <before founding a Pantheon>",
+		"[+1 Food] <after founding a religion>",
+		"[+1 Food] <after enhancing a religion>",
+		]
+	},
 	
+	{
+		"name": "Depriving the Light",//剥夺光明
+		"cost": 0,
+		"uniques": ["Unsellable",
+		"Only available <for [See World] Civilizations>",
+		"Unbuildable <when below [12] [Magic power]>",
+		"Instantly provides [1] [Cornea] <hidden from users>",
+		"Instantly consumes [12] [Magic power]",
+		"Comment [1回合后从此城市中移除]",
+		]
+	},
 	
-	
-	
+	{
+		"name": "H-H",//视平线
+		"uniqueTo": "See World",
+		"replaces": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>",
+		"[+1 Gold] from [All] tiles [in this city] <within [2] tiles of a [City center]> <in tiles not adjacent to [City center] tiles> <in tiles without [City center]> <hidden from users>",
+		"[+1 Faith] from [All] tiles [in this city] <within [3] tiles of a [City center]> <in tiles without [City center]> <in tiles not adjacent to [City center] tiles> <hidden from users>",
+		"[-1 Faith] from [All] tiles [in this city] <within [2] tiles of a [City center]> <in tiles without [City center]> <in tiles not adjacent to [City center] tiles> <in tiles without [City center]> <hidden from users>",
+		"Comment [在这个城市中2环地块+1[Gold]]",
+		"Comment [在这个城市中3环地块+1[Faith]]",
+		]
+	},
 	
 ]

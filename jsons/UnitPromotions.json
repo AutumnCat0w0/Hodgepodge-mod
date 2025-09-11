@@ -2078,4 +2078,21 @@
         ]
     },
 	
+	{
+	    "name": "[Far Eastern Knight] ability",
+		"uniques": ["[-50]% maintenance costs",
+		"[This Unit] gains [2] XP <in [Snow] tiles> <upon turn end>",
+		"[This Unit] gains [2] XP <in [Tundra] tiles> <upon turn end>",
+		"[This Unit] heals [10] HP <in [{non-[Snow]} {non-[Tundra]}] tiles> <upon turn end>"]
+	},
+	
+	{
+	    "name": "Among the See World",
+		"uniques": ["[This Unit] gains the [Among the See World-X] status for [2] turn(s) <[1] times> <requires [0] movement> <for [2] turns>"]
+	},
+	
+	{
+	    "name": "Among the See World-X",
+		"uniques": ["Invisible to other"]
+	},
 ]
