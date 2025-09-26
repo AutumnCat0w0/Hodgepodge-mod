@@ -1152,17 +1152,17 @@
         "name": "The Light of Justice I",//正义之光
 	    "uniques": [
 		"[This Unit] gains the [The Light of Justice II] promotion <for [0] movement><hidden from users>"//烧！
-		"Comment [在[Renaissance era]以及之前可以消耗信仰获取+10%战斗力提升（所需[Faith]随时代提升，从远古时代开始：25/50/100/150）]",
+		"Comment [在[Renaissance era]以及之前可以消耗信仰获取+10%战斗力提升（所需[Faith]随时代提升，从远古时代开始：20/40/60/80）]",
 	 ]
 	},
 	
 	{
         "name": "The Light of Justice II",//正义之光
 	    "uniques": [
-		"[This Unit] gains the [The Light of Justice III] promotion<when above [25] [Faith]><during the [Ancient era]>"//烧
-		"[This Unit] gains the [The Light of Justice III] promotion<when above [50] [Faith]><during the [Classical era]>"//烧
-		"[This Unit] gains the [The Light of Justice III] promotion<when above [100] [Faith]><during the [Medieval era]>"//烧
-		"[This Unit] gains the [The Light of Justice III] promotion<when above [150] [Faith]><during the [Renaissance era]>"//烧
+		"[This Unit] gains the [The Light of Justice III] promotion<when above [20] [Faith]><during the [Ancient era]>"//烧
+		"[This Unit] gains the [The Light of Justice III] promotion<when above [40] [Faith]><during the [Classical era]>"//烧
+		"[This Unit] gains the [The Light of Justice III] promotion<when above [60] [Faith]><during the [Medieval era]>"//烧
+		"[This Unit] gains the [The Light of Justice III] promotion<when above [80] [Faith]><during the [Renaissance era]>"//烧
 		"Doing so will consume this opportunity to choose a Promotion"
 	 ]
 	},
@@ -1171,10 +1171,10 @@
         "name": "The Light of Justice III",//正义之光
 	    "uniques": [
 		"[+10]% Strength<for [2] turns>"
-		"Gain [-25] [Faith]<during the [Ancient era]>"//减资源
-		"Gain [-50] [Faith]<during the [Classical era]>"//减资源
-		"Gain [-100] [Faith]<during the [Medieval era]>"//减资源
-		"Gain [-150] [Faith]<during the [Renaissance era]>"//减资源
+		"Gain [-20] [Faith]<during the [Ancient era]>"//减资源
+		"Gain [-40] [Faith]<during the [Classical era]>"//减资源
+		"Gain [-60] [Faith]<during the [Medieval era]>"//减资源
+		"Gain [-80] [Faith]<during the [Renaissance era]>"//减资源
 		"Doing so will consume this opportunity to choose a Promotion"
 	 ]
 	},
@@ -2094,5 +2094,22 @@
 	{
 	    "name": "Among the See World-X",
 		"uniques": ["Invisible to other"]
+	},
+	
+	{
+	    "name": "Deceased Spirits",
+		"uniques": ["Free [Little Skull] appears <upon being defeated> <for [non-[Little Skull]] units>",
+		"Instantly provides [1] [Undeads] <upon being defeated> <for [non-[Little Skull]] units>",]
+	},
+	
+	{
+	    "name": "Skull Emperors",
+		"uniques": ["Free [Little Skull] appears <costs [1] [Undeads]>"]
+	},
+	
+	{
+	    "name": "Firm scientific theories",
+		"uniques": ["Earn [10]% of the damage done to [All] units as [Science]",
+		"[+15]% Strength <when number of [Science] is more than [150]>"]
 	},
 ]

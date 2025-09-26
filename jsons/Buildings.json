@@ -2957,15 +2957,16 @@
 		"hurryCostModifier": 25,
 		"uniques": [
 		"[+1 Culture, +1 Faith] [in this city]<in cities without a [WarakuChise]>",//加产出
-		"[+10]% [Faith] [in this city]<in cities with a [WarakuChise]>"
-		"[+10]% [Culture] [in this city]<in cities with a [WarakuChise]>"
-		"[+10]% [Production] [in this city]<in cities with a [WarakuChise]>"
-		"[+10]% [Science] [in this city]<in cities with a [WarakuChise]>"
-		"[+10]% [Food] [in this city]<in cities with a [WarakuChise]>"
-		"[+10]% [Happiness] [in this city]<in cities with a [WarakuChise]>"
+		"[+5]% [Faith] [in this city]<in cities with a [WarakuChise]>"
+		"[+5]% [Culture] [in this city]<in cities with a [WarakuChise]>"
+		"[+5]% [Production] [in this city]<in cities with a [WarakuChise]>"
+		"[+5]% [Science] [in this city]<in cities with a [WarakuChise]>"
+		"[+5]% [Food] [in this city]<in cities with a [WarakuChise]>"
+		"[+5]% [Happiness] [in this city]<in cities with a [WarakuChise]>"
+		"[+5]% [Gold] [in this city]<in cities with a [WarakuChise]>"
 		            ]
 		"requiredTech": "Construction"
-		"replacementTextForUniques":"没有[WarakuChise]时+1[Culture]与[Faith],有[WarakuChise]时全产出+10%"
+		"replacementTextForUniques":"没有[WarakuChise]时+1[Culture]与[Faith],有[WarakuChise]时全产出+5%"
 	},
 	
 	{   
@@ -2976,17 +2977,18 @@
 		"hurryCostModifier": 10,
 		"maintenance": 0,
 		"uniques": [
-		"[+15]% [Production]<in this city><in cities without a [WarakuChise]>",//加产出
-		"[+20]% [Faith] [in this city]<in cities with a [WarakuChise]>"
-		"[+20]% [Culture] [in this city]<in cities with a [WarakuChise]>"
-		"[+20]% [Production] [in this city]<in cities with a [WarakuChise]>"
-		"[+20]% [Science] [in this city]<in cities with a [WarakuChise]>"
-		"[+20]% [Food] [in this city]<in cities with a [WarakuChise]>"
-		"[+20]% [Happiness] [in this city]<in cities with a [WarakuChise]>"
+		"[+10]% [Production]<in this city><in cities without a [WarakuChise]>",//加产出
+		"[+10]% [Faith] [in this city]<in cities with a [WarakuChise]>"
+		"[+10]% [Culture] [in this city]<in cities with a [WarakuChise]>"
+		"[+10]% [Production] [in this city]<in cities with a [WarakuChise]>"
+		"[+10]% [Science] [in this city]<in cities with a [WarakuChise]>"
+		"[+10]% [Food] [in this city]<in cities with a [WarakuChise]>"
+		"[+10]% [Happiness] [in this city]<in cities with a [WarakuChise]>"
+		"[+10]% [Gold] [in this city]<in cities with a [WarakuChise]>"
 		            ]
 		"requiredBuilding": "Colosseum",
 		"requiredTech": "Printing Press"
-		"replacementTextForUniques":"没有[WarakuChise]时+15%[Production],有[WarakuChise]时全产出+20%"
+		"replacementTextForUniques":"没有[WarakuChise]时+10%[Production],有[WarakuChise]时全产出+10%"
 	},
 	
 	{
@@ -3312,7 +3314,7 @@
 		},//隐藏建筑
 		
 		{
-		"name": "'Blood'",
+		"name": "“鲜血”",
 		"uniqueTo": "TheHallOfHate",//憎恶之馆
 		"replaces": "Shrine",
 		"faith": 2,
@@ -3545,7 +3547,7 @@
 		"uniques": ["Destroyed when the city is captured",
 		"[+100]% production cost <for every [Adopted [All] Policies]><hidden from users>",
 		"[+1 Culture] <for every [Adopted [All] Policies]><hidden from users>",
-		"Comment [每推行1个政策造价+100%（使用上一级的产能需求叠加）]",
+		"Comment [每推行1个政策造价+100%]",
 		"Comment [每推行1个政策+1[Culture]]",]
 	},
 	{
@@ -3662,7 +3664,7 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": ["Only available <when religion is enabled>",
-		"[+1 Food] <before founding a Pantheon>",
+		"[+1 Food] <after founding a Pantheon>",
 		"[+1 Food] <after founding a religion>",
 		"[+1 Food] <after enhancing a religion>",
 		]
@@ -3696,5 +3698,51 @@
 		"Comment [在这个城市中3环地块+1[Faith]]",
 		]
 	},
+	
+	{
+		"name": "Skeleton Tombstone",
+		"uniqueTo": "Clash Royale",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city",
+		"Free [Little Skull] appears <upon turn end> <after turn number [9]> <every [3] turns>",
+		"Free [Little Skull] appears <upon turn end> <after turn number [66]> <every [3] turns>",
+		]
+	},
+	
+	{
+		"name": "Scientific well",//科学井
+		"uniqueTo": "Forgotten Corner",
+		"replaces": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+		"[50]% of excess happiness converted to [Science]"],
+		"requiredTech": "Writing"
+	},
+	
+	{
+		"name": "Meeting House",//礼拜堂
+		"replaces": "Temple",
+		"uniqueTo": "Weeks",
+		"faith": 2,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured",
+		"[+17]% Natural religion spread [in this city]",
+		"[+15]% [Faith] [in this city] <when between [7] and [7] [Magic power]>"]
+	},
+	
+	
+	
+	
 	
 ]

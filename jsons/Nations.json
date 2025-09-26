@@ -5543,7 +5543,7 @@
 	}
 	
 	{
-		"name": "TheHallOfHate",//憎恶之馆
+		"name": "TheHallOfHate",//憎恶之棺
 		"leaderName": "美亚",
 		"adjective": ["米亚"]
 		"preferredVictoryType": "Domination",
@@ -6505,12 +6505,39 @@
 			],//文明特性具体效果
 			"cities": ["See World"]
 	},
-
-	/*{
-			"name": "List Domain God",//枚举领域大神
+	
+	{
+			"name": "Clash Royale",//皇室战争
 			"civilopediaText":[
-			{"text": "设计者：秋雨\n总之就是秋猫猫\n诶嘿"}],
-			"leaderName": "认知偏差",
+			{"text": "设计者：大松饼"}],
+			"leaderName": "骷髅帝王",
+			"preferredVictoryType": "Domination",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "hihihiha",//介绍1
+			"startIntroPart2": "hihihiha",//介绍2
+			"declaringWar": "hihihiha",//向玩家宣战
+			"attacked":"hihihiha",//被玩家宣战
+			"defeated": "hihihiha",//被玩家打败时
+            "introduction": "hihihiha",//初见
+            "neutralHello": "hihihiha",//通常问候
+            "hateHello": "hihihiha",//战争时问候
+            "tradeRequest": "hihihiha",//向玩家申请交易时
+		    "innerColor": [255,255,255],
+		    "outerColor": [25,25,112],
+			//"uniqueText": "",
+			"uniqueName": "hia～hia～hia～hia～",//文明特性名
+			"uniques": [
+			"[All] units gain the [Deceased Spirits] promotion",
+			"Comment [非[Little Skull]单位死亡时免费的[Little Skull]出现，并获得1[Undeads]]",
+			"[1] Unit Supply <for every [[Little Skull] Units]>"
+			],//文明特性具体效果
+			"cities": ["国王塔","公主塔-1","公主塔-2"]
+	},
+	
+	{
+			"name": "Forgotten Corner",//遗忘角落
+			"civilopediaText":[
+			{"text": "设计者：大松饼"}],
+			"leaderName": "观察者",
 			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
 			"startIntroPart1": "咕咕咕",//介绍1
 			"startIntroPart2": "咕咕咕",//介绍2
@@ -6521,12 +6548,84 @@
             "neutralHello": "咕咕咕~",//通常问候
             "hateHello": "咕咕！",//战争时问候
             "tradeRequest": "咕咕~",//向玩家申请交易时
-		    "innerColor": [243,211,96],
-		    "outerColor": [25,55,64],
-			"uniqueText": "每拥有一个其他文明未研究过的科技+1[Science]",
-			"uniqueName": "枚举枚举枚举",//文明特性名
+		    "innerColor": [155,195,142],
+		    "outerColor": [12,90,77],
+			"uniqueText": "直到原子时代，进入下一个时代时在首都获得所有上上个时代的世界奇观（限原版，不包含更多奇观模式下的拓展奇观，对于不满足要求的奇观可以强制建成）\n直到原子时代，建造上上个时代的国家奇观时+50%[Production]",
+			"uniqueName": "历史的尘埃",//文明特性名
 			"uniques": [
+			"Gain a free [Temple of Artemis] [in capital] <if [Temple of Artemis] is not constructed by anybody> <upon entering the [Medieval era]>",
+			"Gain a free [Stonehenge] [in capital] <if [Stonehenge] is not constructed by anybody> <upon entering the [Medieval era]>",
+			"Gain a free [The Great Library] [in capital] <if [The Great Library] is not constructed by anybody> <upon entering the [Medieval era]>",
+			"Gain a free [The Pyramids] [in capital] <if [The Pyramids] is not constructed by anybody> <upon entering the [Medieval era]>",
+			"Gain a free [Mausoleum of Halicarnassus] [in capital] <if [Mausoleum of Halicarnassus] is not constructed by anybody> <upon entering the [Medieval era]>",
+			"Gain a free [Statue of Zeus] [in capital] <if [Statue of Zeus] is not constructed by anybody> <upon entering the [Medieval era]>",
+			"Gain a free [The Great Lighthouse] [in capital] <if [The Great Lighthouse] is not constructed by anybody> <upon entering the [Renaissance era]>",
+			"Gain a free [The Oracle] [in capital] <if [The Oracle] is not constructed by anybody> <upon entering the [Renaissance era]>",
+			"Gain a free [Hanging Gardens] [in capital] <if [Hanging Gardens] is not constructed by anybody> <upon entering the [Renaissance era]>",
+			"Gain a free [Terracotta Army] [in capital] <if [Terracotta Army] is not constructed by anybody> <upon entering the [Renaissance era]>",
+			"Gain a free [Petra] [in capital] <if [Petra] is not constructed by anybody> <upon entering the [Renaissance era]>",
+			"Gain a free [Great Wall] [in capital] <if [Great Wall] is not constructed by anybody> <upon entering the [Renaissance era]>",
+			"Gain a free [Colossus] [in capital] <if [Colossus] is not constructed by anybody> <upon entering the [Renaissance era]>",
+			"Gain a free [Hagia Sophia] [in capital] <if [Hagia Sophia] is not constructed by anybody> <upon entering the [Industrial era]>",
+			"Gain a free [Great Mosque of Djenne] [in capital] <if [Great Mosque of Djenne] is not constructed by anybody> <upon entering the [Industrial era]>",
+			"Gain a free [Chichen Itza] [in capital] <if [Chichen Itza] is not constructed by anybody> <upon entering the [Industrial era]>",
+			"Gain a free [Machu Picchu] [in capital] <if [Machu Picchu] is not constructed by anybody> <upon entering the [Industrial era]>",
+			"Gain a free [Angkor Wat] [in capital] <if [Angkor Wat] is not constructed by anybody> <upon entering the [Industrial era]>",
+			"Gain a free [Alhambra] [in capital] <if [Alhambra] is not constructed by anybody> <upon entering the [Industrial era]>",
+			"Gain a free [Notre Dame] [in capital] <if [Notre Dame] is not constructed by anybody> <upon entering the [Industrial era]>",
+			"Gain a free [Sistine Chapel] [in capital] <if [Sistine Chapel] is not constructed by anybody> <upon entering the [Modern era]>",
+			"Gain a free [Forbidden Palace] [in capital] <if [Forbidden Palace] is not constructed by anybody> <upon entering the [Modern era]>",
+			"Gain a free [Leaning Tower of Pisa] [in capital] <if [Leaning Tower of Pisa] is not constructed by anybody> <upon entering the [Modern era]>",
+			"Gain a free [Himeji Castle] [in capital] <if [Himeji Castle] is not constructed by anybody> <upon entering the [Modern era]>",
+			"Gain a free [Taj Mahal] [in capital] <if [Taj Mahal] is not constructed by anybody> <upon entering the [Modern era]>",
+			"Gain a free [Porcelain Tower] [in capital] <if [Porcelain Tower] is not constructed by anybody> <upon entering the [Modern era]>",
+			"[+50]% Production when constructing [National College] wonders [in capital] <during the [Renaissance era]>",
+			"[+50]% Production when constructing [National Epic] wonders [in capital] <during the [Renaissance era]>",
+			"[+50]% Production when constructing [Circus Maximus] wonders [in capital] <during the [Renaissance era]>",
+			"[+50]% Production when constructing [Heroic Epic] wonders [in capital] <during the [Renaissance era]>",
+			"[+50]% Production when constructing [Grand Temple] wonders [in capital] <during the [Industrial era]>",
+			"[+50]% Production when constructing [National Treasury] wonders [in capital] <during the [Industrial era]>",
+			"[+50]% Production when constructing [Oxford University] wonders [in capital] <during the [Industrial era]>",
+			"[+50]% Production when constructing [Ironworks] wonders [in capital] <during the [Industrial era]>",
+			"[+50]% Production when constructing [Hermitage] wonders [in capital] <during the [Modern era]>",
+			"[+50]% Production when constructing [Kremlin] wonders [in capital] <during the [Modern era]>",
 			],//文明特性具体效果
-			"cities": ["List Domain God"]
-	},*/
+			"cities": ["Forgotten Corner"]
+	},
+	
+	{
+		"name": "Weeks",//周
+		"leaderName": "Starperiod",//星期
+		"adjective": ["X"]
+		"preferredVictoryType": "Domination",
+		"startIntroPart1": "一周，有七天，为七个星期，每星期都是独一无二的。 而到了星期七，为了赞美神明，星期七不在称为星期七，而是礼拜日。",//介绍第1段
+		"startIntroPart2": "哦！究竟是谁创造了这个伟大的发明！使人类的作息变得统一而有规律。七个星期，你们每个人有着不同的能力，去造福世间人类吧！",//介绍第2段
+		"declaringWar": "我是星期二，我来宣告你末日的开始！",//宣战
+		"attacked":"我是星期三，我誓死守护这一切！",//被宣战
+		"defeated": "我是星期六......一周的结束......",//似了
+        "introduction": "我是礼拜日，你好",//初见
+        "neutralHello": "我是星期四，幸福正走向我们，不是吗？",//中立问候
+        "hateHello": "我是星期一，就是你在捣乱?",//战争时问候
+        "tradeRequest": "我是星期五，我觉得我们会有一个完美的收场",//向玩家申请交易时
+		"outerColor": [143,130,188],//文明副色
+		"innerColor": [248,208,157],//文明主色
+		"uniqueName": "Seven Days",//七天
+		"uniqueText": "“My mood is different every day”\n(Different weeks provide different outputs of urban land parcels)",
+        "uniques": [
+        "Instantly provides [1] [Magic power]",
+        "Provides [1] [Magic power]",
+        "[+1 Production] from [All] tiles [in this city]<when between [1] and [1] [Magic power]>",
+        "[+1 Food] from [All] tiles [in this city]<when between [2] and [2] [Magic power]>",
+        "[+1 Gold] from [All] tiles [in this city]<when between [3] and [3] [Magic power]>",
+        "[+1 Science] from [All] tiles [in this city]<when between [4] and [4] [Magic power]>",
+        "[+1 Culture] from [All] tiles [in this city]<when between [5] and [5] [Magic power]>",
+        "[+1 Happiness] from [All] tiles [in this city]<when between [6] and [6] [Magic power]>",
+        "[+1 Faith] from [All] tiles [in this city]<when between [7] and [7] [Magic power]>",
+        "Provides [-7] [Magic power]<when above [6] [Magic power]>"
+        ],//文明特性
+		"cities": ["星期一","星期二","星期三","星期四","星期五","星期六","星期日"]//城市名	
+	    },
+
+	
+	
 ]

@@ -719,7 +719,8 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": [
-		"Consumes [1] [Horses]",
+		"Consumes [1] [Horses]<hidden from users>",
+		"Comment [额外消耗1单位[Horses]]",
 		"Can move after attacking",//a完可以跑
 		"No defensive terrain bonus", 
 		//"Rough terrain penalty"
@@ -759,6 +760,8 @@
 		"Can move after attacking",
 		"[-33]% Strength <vs cities> <when attacking>",
 		"[+15]% Strength<in cities following our religion>"
+		"Comment [在信仰我方宗教的城市时+15%战斗力]",
+		"Comment [我方其他单位在周围一格交战时+15%战斗力]",
 		],
 		"attackSound": "horse"
 		"replacementTextForUniques":"在信仰我方宗教的城市时+15%战斗力\n使周围1格的我方单位+15%战斗力"
@@ -1129,7 +1132,7 @@
 		"Can move after attacking",
 		//"No defensive terrain bonus",
 		"[-33]% Strength <vs cities> <when attacking>"
-		"[+15]% Strength <vs [Spearman] units>"
+		"[+15]% Strength <for [Spearman] units>"
 		],
 		"promotions": ["Gold Glory"],//免费晋升
 		"attackSound": "horse"
@@ -3275,7 +3278,7 @@
 	}
 	
 	{
-		"name": "Superior Race",
+		"name": "上位种族",
 		"unitType": "Civilian",
 		"replaces": "Worker",
 		"uniqueTo": "TheHallOfHate"//憎恶之馆
@@ -3657,7 +3660,7 @@
 		"obsoleteTech": "Chivalry",
 		"requiredResource": "Horses",
 		"uniques": [
-		
+		"[-50]% production cost<in [in capital] cities>"
 		"No defensive terrain bonus", 
 		"Rough terrain penalty"
 		],
@@ -3677,7 +3680,7 @@
 		"uniques": ["May upgrade to [Archer] through ruins-like effects",
 		"Cannot attack",
 		"[+1] Sight",
-		"Shijian <in tiles not adjacent to [Friendly Land] tiles> <within [3] tiles of a [City center]> <if [Depriving the Light] is not constructed by anybody> <hidden from users>",
+		"Shijian <in tiles not adjacent to [Friendly Land] tiles> <within [3] tiles of a [City center]> <hidden from users>",
 		"Comment [在与友好领土不相邻的地块上且位于城市中心3格范围内+2[Culture]]",
 		"Limited to [3] per Civilization"],
 		"promotions": ["Ignore terrain cost"],
@@ -3771,6 +3774,75 @@
 		"promotions": ["Among the See World"],
 		"attackSound": "arrow"
 	},
+	
+	{
+		"name": "Little Skull",//小骷髅
+		"unitType": "Archery",
+		//"uniqueTo": "Clash Royale",
+		"movement": 2,
+		"strength": 1,
+		"range": 1,
+		"rangedStrength": 1,
+		"cost": 25,
+		"uniques": ["Unbuildable", //无法建造
+		"Cannot be purchased",//无法购买
+		"[Target Unit] takes [5] damage <upon damaging a [All] unit>",
+		"[-100]% maintenance costs",
+		"Can transform to [Skull Emperor] <when number of [[Skull Emperor] Units] is less than [1]>",
+		"Comment [所有单位对战[Little Skull]单位时从战斗中获得的经验-100%，拥有[Combat encouragementr]晋升额外-40%，推行[Military Tradition]后额外-50%]"],
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Skull Emperor",
+		"unitType": "Civilian",
+		"uniqueTo": "Clash Royale",
+		"replaces": "Great General",
+		"uniques": [
+		"Unbuildable",
+		"Uncapturable",
+		],
+		"promotions": ["Skull Emperors"],
+		"movement": 3
+	},
+	
+	{
+		"name": "Materialist Warrior",//唯物主义战士
+		"uniqueTo": "Forgotten Corner",
+		"unitType": "Sword",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": [
+		"[+50]% Strength <vs [Mounted] units>",
+		],
+		"promotions": ["Firm scientific theories"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Blessing Cannon",//祝福火炮
+		"unitType": "Siege",
+		"replaces": "Artillery",
+		"uniqueTo": "Weeks",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 30,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	
+	
 	
 	
 ]

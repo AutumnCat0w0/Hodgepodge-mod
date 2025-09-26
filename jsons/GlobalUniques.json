@@ -18,5 +18,8 @@
         "May capture killed [Water] units <for [Sea Tauren] Civilizations>",
         "Destroys tile improvements when attacking <for [CastleDestroyer] Civilizations>",
         "No Sight <when at war> <if [Depriving the Light] is constructed by anybody> <for [non-[See World]] Civilizations>",
+        "[-100]% XP gained from combat <vs [Little Skull] units>",
+        "[-40]% XP gained from combat <vs [Little Skull] units> <for units with [Combat encouragementr]>",
+        "[-50]% XP gained from combat <vs [Little Skull] units> <after adopting [Military Tradition]>",
     ]
 }

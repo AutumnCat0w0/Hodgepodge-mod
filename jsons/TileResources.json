@@ -835,6 +835,7 @@
 		"resourceType": "Luxury",
 		"revealedBy": "Resource Technology",
 	},
+	
 	{
 		"name": "Cornea",//眼角膜
 		"resourceType": "Strategic",
@@ -843,6 +844,17 @@
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
 		//"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+		"name": "Undeads",//亡灵
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
 		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
