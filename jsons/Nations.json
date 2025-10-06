@@ -649,15 +649,14 @@
 		"outerColor": [114, 162, 233],
 		"innerColor": [61, 0, 109],
 		"favoredReligion": "Christianity",
-		"uniqueText": "Military units gain +15% [Strength] in enemy cities following your religion\nAfter turn 12, grants 100% of the [Strength] as [Faith] and 50% as [Culture] when military units are killed within 4 tiles of your religion's cities\nGrants 30% of the [Strength] as [Faith] when your units kill military units"//军事单位在信仰我方宗教的敌方城市中+15%战斗力\n第12回合开始，军事单位在信仰我方宗教的城市的4格范围内被击杀时，获取其战斗力100%的[Faith]与50%的[Culture]\n我方单位击杀军事单位时获取其战斗力30%的[Faith]
+		"uniqueText": "Military units gain +15% [Strength] in enemy cities following your religion\nAfter turn 12, grants 100% of the [Strength] as [Faith] and 50% as [Culture] when military units are killed within 4 tiles of your religion's cities\nGrants 30% of the [Strength] as [Faith] when your units kill military units"//军事单位在信仰我方宗教的敌方城市中+15%战斗力\n第12回合开始，军事单位在信仰我方宗教的城市的4格范围内被击杀时，获取其战斗力50%的[Faith]\n我方单位击杀军事单位时获取其战斗力30%的[Faith]
 		"uniqueName": "Divine Right"//君权神授",
 		"uniques": [
-		"[+15]% Strength<for [All] units><in cities following our religion><in [Foreign Land] tiles>"
+		"[+15]% Strength<for [All] units><in cities following our religion><in [Enemy Land] tiles>"
 		"[Military] units gain the [Crusades] promotion"
-		"Comment [[Earn [100]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion] [for [All] units] [after turn number [12]]]",
-		"Earn [50]% of killed [Military] unit's [Strength] as [Faith]<for [All] units><after turn number [12]>",
+		"Earn [50]% of [Military] unit's [Strength] as [Faith] when killed within 4 tiles of a city following this religion<after turn number [12]><Suppress warning [is not allowed on its target type]>",
+		//"Earn [50]% of [Military] unit's [Strength] as [Culture] when killed within 4 tiles of a city following this religion<after turn number [12]>",
 		"Earn [30]% of killed [Military] unit's [Strength] as [Faith]<for [All] units>",
-		"Earn [25]% of killed [Military] unit's [Strength] as [Culture]<for [All] units>",//杀人拿战力的
 		],
 
 		"cities": ["Constantinople", "Adrianople", "Nicaea", "Antioch", "Varna", "Ohrid", "Nicomedia", "Trebizond", "Cherson", "Sardica",
@@ -863,13 +862,12 @@
 			"innerColor": [255,255,255],//文明外部色*
 
 			
-			"uniqueText": "From the Ancient Era, after 10 turns, all cities gain +1 [Science], and receive [Gold] equal to twice the [Science] provided by this ability and [Culture] equal to half (rounded down). This effect lasts until the Enlightenment Era, with the [Science] yield increasing by +1 per era"//从远古时代开始,在10回合后,所有城市获得+1 [Science],并且获得此特性获得的[Science]*2的[Gold]与1/2的[Culture]（向下取整）。\n直到启蒙时代为止,每过一个时代使此特性获得的[Science]+1"
+			"uniqueText": "After 10 turns, all cities gain +1 [Science], and gain [Gold] equal to twice the [Science] provided by this trait and [Culture] equal to half of it (rounded down)\nEach era passed increases the [Science] from this trait by +1"//在10回合后,所有城市获得+1 [Science],并且获得此特性获得的[Science]*2的[Gold]与1/2的[Culture]（向下取整）。\n每过一个时代使此特性获得的[Science]+1"
 			"uniqueName": "Recording, Compilation, Inheritance"//记录,编纂,传承",//文明特性名
 			"uniques": [
-		"[+1 Science, +2 Gold] [in all cities]<after turn number [10]><during the [Ancient era]>"
-		"[+2 Science, +4 Gold, +1 Culture] [in all cities]<during the [Classical era]>"
-		"[+1 Culture, +3 Science, +6 Gold] [in all cities]<during the [Medieval era]>"
-		"[+2 Culture, +4 Science, +8 Gold] [in all cities]<starting from the [Renaissance era]>"
+			"[+1 Science, +2 Gold] [in all cities]<after turn number [10]><for every [KnowledgeX]>"
+			"[+1 Culture] [in all cities]<for every [2] [KnowledgeX]>"
+			"Instantly gain [1] [KnowledgeX]<upon entering a new era>"//提供计数器
 			],//文明特性具体效果
 			"cities": ["记录","编纂","传承",]
 			
@@ -877,7 +875,7 @@
 	
 	
 	{
-			"name": "Freedom Wings",//自由者之翼
+			"name": "Freedom Wings",//自由者之翼 自由之翼
 			"civilopediaText":[
         {"text": "设计者：秋雨"}],
 			"leaderName": "翎羽",
@@ -3256,7 +3254,7 @@
 		"outerColor": [28, 193, 194],//文明内部色*
 		"innerColor": [120, 215, 170],//文明外部色*
 		
-		"uniqueText": "Effects scale with [Magic power] amount：\n50：Trade routes +2[Gold]+2[Science]\n100：Each city +1[Science]+1[Production]\n200：Each policy +1[Culture]+2[Faith]\n300：Each city +2[Gold]\n400：[Science] buildings +2[Production][Gold]\n700：[Academy]+3[Gold]+2[Production], and +25% output from [Academy]\n1000：Each city +3[Gold][Food][Faith][Production]\n\nWays to gain [Magic power]：\nConstructing buildings +5, military units +2, wonders +50\nFounding Pantheon +10, founding Religion +30, enhancing Religion +50\nEntering Golden Age +20\nMilitary units killing units +3"//根据[Magic power]的数量提升特性:\n50:贸易路线+2[Gold]+2[Science]\n100:每个城市+1[Science]+1[Production]\n200:每有1个政策获得+1[Culture]+2[Faith]\n300:每个城市+2[Gold]\n400:[Science]建筑+2[Production][Gold]\n700:[Academy]+3[Gold]+2[Production],并提升来自[Academy]的25%产出\n1000:每个城市+3[Gold][Food][Faith][Production]\n\n获取魔力的方法:\n每次建造建筑+5[Magic power],建造军事单位+2[Magic power],建造奇观+50[Magic power]\n创建万神殿+10[Magic power],创建宗教+30[Magic power],提升宗教+50[Magic power]\n进入黄金时代+20[Magic power]\n军事单位击杀单位时+3[Magic power]"
+		"uniqueText": "根据[Magic power]的数量提升特性:\n50:贸易路线+2[Gold]+2[Science]\n100:每个城市+1[Science]+1[Production]\n200:每有1个政策获得+2[Faith]\n300:每个城市+2[Gold]\n600:[Science]建筑+1[Production]2[Gold]\n1000:[Academy]+3[Gold]+2[Production],并提升来自[Academy]的15%产出\n1500:每个城市+3[Gold][Faith][Production]\n\n获取魔力的方法:\n每次建造建筑+5[Magic power],建造军事单位+2[Magic power],建造奇观+30[Magic power]\n创建万神殿+10[Magic power],创建宗教+30[Magic power],提升宗教+50[Magic power]\n进入黄金时代+20[Magic power]\n军事单位击杀单位时+3[Magic power]"//
 		"uniqueName": "Magical City - Endymion"//魔法都市 恩底弥翁",//文明特性名
 		"uniques": [
 		"Discover [Resource Technology]"//开资源
@@ -3264,7 +3262,7 @@
 		
 		"Instantly provides [5] [Magic power]<upon constructing [All]>"//建筑拿魔力
 		//"Instantly provides [2] [Magic power]<upon gaining a [Military] unit>"//单位拿魔力
-		"Instantly provides [50] [Magic power]<upon constructing [Wonder]>"//奇观拿魔力
+		"Instantly provides [30] [Magic power]<upon constructing [Wonder]>"//奇观拿魔力
 		"Instantly provides [10] [Magic power]<upon founding a Pantheon>"//万神殿拿魔力
 		"Instantly provides [30] [Magic power]<upon founding a Religion>"//创教拿魔力
 		"Instantly provides [50] [Magic power]<upon enhancing a Religion>"//提升宗教拿魔力
@@ -3272,12 +3270,12 @@
 		
 		"[+2 Gold, +2 Science] from each Trade Route<when above [50] [Magic power]>"//贸易路线
 		"[+1 Science, +1 Production] [in all cities]<when above [100] [Magic power]>"//每个城市
-		"[+2 Faith, +1 Culture] per [1] social policies adopted<when above [200] [Magic power]>"//每个政策
+		"[+2 Faith] per [1] social policies adopted<when above [200] [Magic power]>"//每个政策
 		"[+2 Gold] [in all cities]<when above [300] [Magic power]>"//每个城市
-		"[+2 Production, +2 Gold] from all [Science] buildings<when above [400] [Magic power]>"//每个建筑
-		"[+25]% Yield from every [Academy]<when above [700] [Magic power]>"
-		"[+3 Gold, +2 Production] from every [Academy]<when above [700] [Magic power]>"
-		"[+3 Food, +3 Gold, +3 Faith, +3 Production] [in all cities]<when above [1000] [Magic power]>"
+		"[+1 Production, +2 Gold] from all [Science] buildings<when above [600] [Magic power]>"//每个建筑
+		"[+15]% Yield from every [Academy]<when above [1000] [Magic power]>"
+		"[+3 Gold, +2 Production] from every [Academy]<when above [1000] [Magic power]>"
+		"[+3 Gold, +3 Faith, +3 Production] [in all cities]<when above [1500] [Magic power]>"
 		
 			],//文明特性具体效果
 			"cities": ["恩底弥翁",]
@@ -3767,20 +3765,20 @@
 		"outerColor": [250, 67, 0],//文明内部色*
 		"innerColor": [10,218,10],//文明外部色*
 		
-		"uniqueText": "Can convert any Great Person into [Performer] (limit 1)\nCan switch civilization state：Frenzy/Normal/Slumber\nFrenzy：Stop [Science] growth, each city +4[Happiness], +15% vs wounded units, non-adjacent units cannot detect military, +15%[Production] when training military\nSlumber：Stop population growth, each city +20%[Culture] and [Science] output"//可以使任意伟人转化为[奏者](限1个)\n可以切换文明状态：激昂/普通/沉沦\n激昂：停止[Science]增长，每座城市+4[Happiness]，对战受伤单位+15%战斗力，非相邻单位无法发现军事单位，城市组建军事单位时+15%[Production]\n沉沦：停止人口增长，每座城市+20%[Culture]产出与[Science]产出"
+		"uniqueText": "Can convert any Great Person into [Performer] (limit 1)\nCan switch civilization state：Exhilarated/Normal/Decadent\nExhilarated：Stops [Science] growth, each city +2 [Happiness], against wounded units +15% combat strength, when city produces military units +15% [Production]\nDecadent：Stops population growth, each city +20% [Culture] output and [Science] output"//可以使任意伟人转化为[奏者](限1个)\n可以切换文明状态：激昂/普通/沉沦\n激昂：停止[Science]增长，每座城市+2[Happiness]，对战受伤单位+15%战斗力，城市组建军事单位时+15%[Production]\n沉沦：停止人口增长，每座城市+20%[Culture]产出与[Science]产出
 		"uniqueName": "Rhythmic Melody"//律动曲调",//文明特性名
 		"uniques": [
 		"Provides [1] [Performer counter]"//提供奏者计数器
 		"Provides [1] [Switch Counter]"//提供切换计数器
-		"[Military] units gain the [Concerted] promotion"
+		//"[Military] units gain the [Concerted] promotion"
 		"[Great Person] units gain the [Solo] promotion"
 		
 		
 		
-    	"[+4 Happiness] from every specialist [in all cities]<when above [0] [Rhythm counter]>"//计数器高于0(激昂)
-    	"Nullifies [Science] [in all cities] <when above [0] [Rhythm counter]>"
-    	"[+15]% Strength<vs [Wounded] units><when above [0] [Rhythm counter]>"
-    	"[+15]% Production when constructing [Military] units [in all cities]<when above [0] [Rhythm counter]>"
+    	"[+2 Happiness] [in all cities]<when number of [Rhythm counter] is more than [0]>"//计数器高于0(激昂)
+    	"Nullifies [Science] [in all cities] <when number of [Rhythm counter] is more than [0]>"
+    	"[+15]% Strength<vs [Wounded] units><when number of [Rhythm counter] is more than [0]>"
+    	"[+15]% Production when constructing [Military] units [in all cities]<when number of [Rhythm counter] is more than [0]>"
     	
     	
     	
@@ -4205,7 +4203,7 @@
 		"outerColor": [8, 255, 150],//文明内部色*
 		"innerColor": [122,25,55],//文明外部色*
 		
-		"uniqueText": "Each Specialist provides additional +2[Production] to the city\nCannot generate Great Person points before researching [Writing], after researching [Writing] Great Person generation rate +25%\nCapital gains a free [Library]"//每个专业人员额外为城市提供2[Production]\n研究[Writing]之前无法获得伟人点数，研究[Writing]之后伟人获取速率+25%\n首都获得一个免费的[Library]"
+		"uniqueText": "Each Specialist provides additional +2[Production] to the city\nCannot generate Great Person points before researching [Writing], after researching [Writing] Great Person generation rate +25%\nCapital gains a free [Library]"//每个专业人员额外为城市提供2[Production]\n研究[Writing]之前无法获得伟人点数，研究[Writing]之后伟人获取速率+25%\n首都获得一个免费的[Library]"Engineer
 		"uniqueName": "Elite Population"//精英人口",//文明特性名
 		"uniques": [
 		"[+25]% Great Person generation [in this city]<after discovering [Writing]>",
@@ -5806,7 +5804,7 @@
 			"outerColor": [10, 31, 58],//文明内部色*
 			"innerColor": [75,240,224],//文明外部色*
 			
-			"uniqueText": "Units can treat water tiles as land for movement (without affecting other judgments)\nUnits on water tiles gain +1 vision and have movement cost halved in coastal waters\nWater tiles yield +1 [Culture] and +1 [Gold], [Ocean] tiles additionally yield +1 [Food]\nGain 1 Mana per turn, units on water can consume 3 Mana and 1 action point to gain for 1 turn：+1 Range, +10% Combat Strength"//单位可以将水上地块当作陆地行动（不影响其他判定）\n在水上地块的单位视野+1，并且在海滨中移动力消耗减半\n水上地块+1[Culture]与[Gold],[Ocean]地块额外+1[Food]\n每回合获得1魔力，处于水上的单位可消耗3魔力与1行动力获得1回合的：+1射程，+10%战斗力"
+			"uniqueText": "Units can treat water tiles as land for movement (without affecting other judgments)\nUnits on water tiles gain +1 vision and have movement cost halved in coastal waters\nWater tiles yield +1 [Culture] and +1 [Gold], [Ocean] tiles additionally yield +1 [Food]\nGain 1 Mana per turn, units on water can consume 3 Mana and 1 action point to gain for 1 turn：+1 Range, +10% Combat Strength"//单位可以将水上地块当作陆地行动（不影响其他判定）\n在水上地块的单位视野+1，并且在海滨中移动力消耗减半\n水上地块+1[Culture]与[Gold],[Ocean]地块额外+1[Food]\n每回合获得1魔力（上限10），处于水上的单位可消耗3魔力与1行动力获得1回合的：-1视野，+1射程，对战城市在攻击时-110%战斗力"
 			"uniqueName": "Abyssal Lord"//深渊领主",//文明特性名
 			"uniques": [
 			"[All] units gain the [AbyssLurk] promotion"
@@ -5844,12 +5842,12 @@
 			"outerColor": [44, 74, 62],//文明内部色*
 			"innerColor": [28,95,140],//文明外部色*
 			
-			"uniqueText":"Double movement on [Tundra] and [Snow] tiles\nUnits heal 2 HP per movement and double when below 50 HP\n[Tundra] and [Snow] tiles have the same base yield as [Grassland] and [Tundra] provides +1[Production]"//在[Tundra][Snow]地块获得双倍移动力\n单位每次移动回复2HP，低于50HP时翻倍\n[Tundra][Snow]基础产出与[Grassland]相同，并且[Tundra]+1[Production]"
+			"uniqueText":"Double movement on [Tundra] and [Snow] tiles\nUnits heal 2 HP per movement and double when below 50 HP\n[Tundra] and [Snow] tiles have the same base yield as [Grassland] and [Tundra] provides +1[Production]"//在[Tundra][Snow]地块获得双倍移动力\n单位每次移动回复2HP，低于50HP时翻倍\n[Tundra][Snow]基础产出与[Grassland]相同，并且无资源或战略资源的[Tundra]+1[Production]"
 			"uniqueName": "Unyielding Woodsplitter"//不屈木裂",//文明特性名
 			"uniques": [
 			"[All] units gain the [SnowfieldWarrior] promotion"
 			
-			"[+1 Production] from [Tundra] tiles [in this city]",//地块加产
+			"[+1 Production] from [{Tundra}{non-[Bonus resource]}{non-[Luxury resource]}] tiles [in this city]",//地块加产
 			"[+1 Food] from [Tundra] tiles without [Hill] [in this city]",//地块加产
 			"[+2 Food] from [Snow] tiles without [Hill] [in this city]",//地块加产
 			],//文明特性具体效果
@@ -6626,6 +6624,202 @@
 		"cities": ["星期一","星期二","星期三","星期四","星期五","星期六","星期日"]//城市名	
 	    },
 
+		{
+			"name": "Arian",//艾瑞恩
+			"civilopediaText":[
+			{"text": "设计者：秋雨"}],
+			"leaderName": "肯瓦里",
+			"adjective": ["肯瓦里"],
+			//"startBias": ["Mountain"],//起始偏好
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [0, 0, 0],//文明内部色*
+			"innerColor": [255,255,255],//文明外部色*
+			"uniqueText": "每座城市自然扩张文化需求-33%\n建造城市时自动获取3格内的战略资源（即使未研究/即使在敌方领土）\n单位在友好领土移动时返还1移动力。"
+			"uniqueName": "圣土",//文明特性名
+			"uniques": [
+			"[-33]% Culture cost of natural border growth [in all cities]"
+			"Gain a free [ArianAbility] [in all cities]"
+			],//文明特性具体效果
+			"cities": ["艾瑞恩"]
+		},
+	
+		{
+			"name": "Soasmork",//索斯默克
+			"civilopediaText":[
+			{"text": "设计者：秋雨"}],
+			"leaderName": "安吉拉",
+			"adjective": ["安吉拉"],
+			//"startBias": ["Mountain"],//起始偏好
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [76, 175, 80],//文明内部色*
+			"innerColor": [33,219,244],//文明外部色*
+			"uniqueText": "若修建设施后所在地块的对应产出低于2点，则将其提升至2点\n[City center]视为淡水地块，[Mine]可以修建在淡水附近\n使拥有基础产出的设施获取地块的奢侈"
+			"uniqueName": "死地复生",//文明特性名
+			"uniques": [
+			
+			],//文明特性具体效果
+			"cities": ["艾瑞恩"]
+		},
+	
+	    {
+			"name": "Fishing Civ",//捞鱼文明
+			"civilopediaText":[
+			{"text": "设计者：苏莱曼"}],
+			"leaderName": "魔女",
+			"startBias": ["Coast"],//起始偏好
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [33, 66, 109],//文明内部色*
+			"innerColor": [156,222,34],//文明外部色*
+			"uniqueName": "唉，轮椅捞鱼",//文明特性名
+			"uniques": [
+			"[+2 Gold, +1 Production] from every [Fishing Boats]",
+			"[+2 Production] [in this city] <within [3] tiles of a [Fishing Boats]>"
+			],//文明特性具体效果
+			"cities": ["Fishing Civ"]
+		},
+	
+	    {
+			"name": "Overlord",//霸主
+			"civilopediaText":[
+			{"text": "设计者：苏莱曼"}],
+			"leaderName": "攻势战列舰",
+			"startBias": ["Coast"],//起始偏好
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [17, 0, 217],//文明内部色*
+			"innerColor": [114,200,31],//文明外部色*
+			"uniqueName": "一切为了人之领",//文明特性名
+			"uniqueText": "军事单位与同类型单位相邻时+15%战斗力，与远程单位相邻时-10%战斗力\n军事单位一旦死亡获得15[Gold]\n建造[Walls]建筑时+30%产能\n每个建有[Walls]的城市令所有城市+1[Science]"
+			"uniques": [
+			"[+15]% Strength <for [Sword] units> <when adjacent to a [Sword] unit>",
+			"[+15]% Strength <for [Gunpowder] units> <when adjacent to a [Gunpowder] unit>",
+			"[+15]% Strength <for [Archery] units> <when adjacent to a [Archery] unit>",
+			"[+15]% Strength <for [Ranged Gunpowder] units> <when adjacent to a [Ranged Gunpowder] unit>",
+			"[+15]% Strength <for [Scout] units> <when adjacent to a [Scout] unit>",
+			"[+15]% Strength <for [Mounted] units> <when adjacent to a [Mounted] unit>",
+			"[+15]% Strength <for [Armored] units> <when adjacent to a [Armored] unit>",
+			"[+15]% Strength <for [Siege] units> <when adjacent to a [Siege] unit>",
+			"[+15]% Strength <for [Melee Water] units> <when adjacent to a [Melee Water] unit>",
+			"[+15]% Strength <for [Ranged Water] units> <when adjacent to a [Ranged Water] unit>",
+			"[+15]% Strength <for [Submarine] units> <when adjacent to a [Submarine] unit>",
+			"[+15]% Strength <for [Aircraft Carrier] units> <when adjacent to a [Aircraft Carrier] unit>",
+			"[+15]% Strength <for [Fighter] units> <when adjacent to a [Fighter] unit>",
+			"[+15]% Strength <for [Bomber] units> <when adjacent to a [Bomber] unit>",
+			"[+15]% Strength <for [Atomic Bomber] units> <when adjacent to a [Atomic Bomber] unit>",
+			"[+15]% Strength <for [Missile] units> <when adjacent to a [Missile] unit>",
+			"[+15]% Strength <for [Helicopter] units> <when adjacent to a [Helicopter] unit>",
+			"[-10]% Strength <for [Military] units> <when adjacent to a [Ranged] unit>",
+			"[Military] units gain the [Overlord Ability] promotion",
+			"[+30]% Production when constructing [Walls] buildings [in all cities]",
+			],//文明特性具体效果
+			"cities": ["Overlord"]
+		},
+	
+	    {
+			"name": "Ave Mujica",//Ave Mujica
+			"civilopediaText":[
+			{"text": "设计者：薪火单推人"}],
+			"leaderName": "丰川祥子",
+			"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+			"startIntroPart1": "咕咕咕",//介绍1
+			"startIntroPart2": "咕咕咕",//介绍2
+			"declaringWar": "咕咕咕！",//向玩家宣战
+			"attacked":"咕 咕 咕 ！",//被玩家宣战
+			"defeated": "咕……",//被玩家打败时
+            "introduction": "咕,咕咕？",//初见
+            "neutralHello": "咕咕咕~",//通常问候
+            "hateHello": "咕咕！",//战争时问候
+            "tradeRequest": "咕咕~",//向玩家申请交易时
+			"outerColor": [181,80,135],//文明内部色*
+			"innerColor": [68,9,47],//文明外部色*
+			"uniqueName": "假面舞会的邀请",//文明特性名
+			"uniqueText": "选择文明后播放《Ave Mujica》\n每座城市+8%[Science], +8%[Production], +8%[Happiness], +8%[Culture], +8%[Food]\n游戏开始后每10回合需要选择并移除其中一项点数加成（快速模式下改为7回合），当所有加成均移除后可组建所有Ave Mujica队员",
+			"uniques": [
+			"Gain a free [Do not fear Oblivious] [in capital] <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]>",
+			"Gain a free [Do not fear Timoris] [in capital] <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]>",
+			"Gain a free [Do not fear Doloris] [in capital] <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]>",
+			"Gain a free [Do not fear Amoris] [in capital] <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]>",
+			"Gain a free [Do not fear Mortis] [in capital] <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]>",
+			"Provides [1] [Magic power] <when below [50] [Magic power]>",
+			"Provides [1] [Magic power] <when between [0] and [5] [Magic power]> <on [Quick] game speed>",
+			"Provides [1] [Magic power] <when between [10] and [15] [Magic power]> <on [Quick] game speed>",
+			"Provides [1] [Magic power] <when between [20] and [25] [Magic power]> <on [Quick] game speed>",
+			"Provides [1] [Magic power] <when between [30] and [35] [Magic power]> <on [Quick] game speed>",
+			"Provides [1] [Magic power] <when between [40] and [45] [Magic power]> <on [Quick] game speed>",
+			"Triggers a [-OTDAM-] event <upon turn start> <when between [10] and [10] [Magic power]>",
+			"Triggers a [-TDAM-] event <upon turn start> <when between [20] and [20] [Magic power]> <when above [0] [_TI_]> <when above [0] [_DO_]> <when above [0] [_AM_]> <when above [0] [_MO_]>",
+			"Triggers a [-ODAM-] event <upon turn start> <when between [20] and [20] [Magic power]> <when above [0] [_OB_]> <when above [0] [_DO_]> <when above [0] [_AM_]> <when above [0] [_MO_]>",
+			"Triggers a [-OTAM-] event <upon turn start> <when between [20] and [20] [Magic power]> <when above [0] [_OB_]> <when above [0] [_TI_]> <when above [0] [_AM_]> <when above [0] [_MO_]>",
+			"Triggers a [-OTDM-] event <upon turn start> <when between [20] and [20] [Magic power]> <when above [0] [_OB_]> <when above [0] [_TI_]> <when above [0] [_DO_]> <when above [0] [_MO_]>",
+			"Triggers a [-OTDA-] event <upon turn start> <when between [20] and [20] [Magic power]> <when above [0] [_OB_]> <when above [0] [_TI_]> <when above [0] [_DO_]> <when above [0] [_AM_]>",
+			"Triggers a [-OTD-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_OB_]> <when above [0] [_TI_]> <when above [0] [_DO_]>",
+            "Triggers a [-OTA-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_OB_]> <when above [0] [_TI_]> <when above [0] [_AM_]>",
+            "Triggers a [-OTM-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_OB_]> <when above [0] [_TI_]> <when above [0] [_MO_]>",
+            "Triggers a [-ODA-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_OB_]> <when above [0] [_DO_]> <when above [0] [_AM_]>",
+            "Triggers a [-ODM-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_OB_]> <when above [0] [_DO_]> <when above [0] [_MO_]>",
+            "Triggers a [-OAM-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_OB_]> <when above [0] [_AM_]> <when above [0] [_MO_]>",
+            "Triggers a [-TDA-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_TI_]> <when above [0] [_DO_]> <when above [0] [_AM_]>",
+            "Triggers a [-TDM-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_TI_]> <when above [0] [_DO_]> <when above [0] [_MO_]>",
+            "Triggers a [-TAM-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_TI_]> <when above [0] [_AM_]> <when above [0] [_MO_]>",
+            "Triggers a [-DAM-] event <upon turn start> <when between [30] and [30] [Magic power]> <when above [0] [_DO_]> <when above [0] [_AM_]> <when above [0] [_MO_]>",
+            "Triggers a [-OT-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_OB_]> <when above [0] [_TI_]>",
+            "Triggers a [-OD-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_OB_]> <when above [0] [_DO_]>",
+            "Triggers a [-OA-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_OB_]> <when above [0] [_AM_]>",
+            "Triggers a [-OM-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_OB_]> <when above [0] [_MO_]>",
+            "Triggers a [-TD-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_TI_]> <when above [0] [_DO_]>",
+            "Triggers a [-TA-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_TI_]> <when above [0] [_AM_]>",
+            "Triggers a [-TM-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_TI_]> <when above [0] [_MO_]>",
+            "Triggers a [-DA-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_DO_]> <when above [0] [_AM_]>",
+            "Triggers a [-DM-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_DO_]> <when above [0] [_MO_]>",
+            "Triggers a [-AM-] event <upon turn start> <when between [40] and [40] [Magic power]> <when above [0] [_AM_]> <when above [0] [_MO_]>",
+            "Triggers a [-O-] event <upon turn start> <when between [50] and [50] [Magic power]> <when above [0] [_OB_]>",
+            "Triggers a [-T-] event <upon turn start> <when between [50] and [50] [Magic power]> <when above [0] [_TI_]>",
+            "Triggers a [-D-] event <upon turn start> <when between [50] and [50] [Magic power]> <when above [0] [_DO_]>",
+            "Triggers a [-A-] event <upon turn start> <when between [50] and [50] [Magic power]> <when above [0] [_AM_]>",
+            "Triggers a [-M-] event <upon turn start> <when between [50] and [50] [Magic power]> <when above [0] [_MO_]>"
+			],//文明特性具体效果
+			"cities": ["KiLLKiSS","Ave Mujica","Imprisoned XII","Crucifix X","颜","八芒星","天球のMúsica","黑色生日","双月：深潜林中","Choir 'S' Choir","神明、笨蛋","Mas?uerade Rhapsody Re?uest","在美好的世界里也找不到的地方","Angles","Symbol I : Fire","Symbol II : Air","Symbol III : Water","Symbol IV : Earth","Ether"]
+		},
+	
+	
+	
+	
+	
 	
 	
 ]

@@ -306,11 +306,10 @@
 	
 	{
 		"name": "Rhythm counter",//律动计数器
-		"resourceType": "Luxury",
+		"resourceType": "Bonus",
 		"uniques": [
 		"Cannot be traded"//不能交易
 		//"Stockpiled"
-		"[-4 Happiness]"
 		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
@@ -855,6 +854,73 @@
 		"uniques": [
 		"Cannot be traded"//不能交易
 		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+		"name": "KnowledgeX",//知识计数器
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		//"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		
+		]
+	},
+	
+	{
+		"name": "_OB_",
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+		"name": "_TI_",
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+		"name": "_DO_",
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+		"name": "_AM_",
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Will not be displayed in Civilopedia"//不会在百科中显示
+		]
+	},
+	
+	{
+		"name": "_MO_",
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
 		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},

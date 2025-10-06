@@ -156,5 +156,583 @@
         }
 		
         ]
-    }
+    },
+    
+    //Ave Mujica
+    //序列5
+    {
+        "name":"-OTDAM-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    //序列4
+    {
+        "name":"-TDAM-",
+        "choices":[
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-ODAM-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OTAM-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OTDM-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OTDA-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    //序列3
+    {
+        "name":"-OTD-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OTA-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OTM-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-ODA-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-ODM-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OAM-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-DAM-",
+        "choices":[
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-TAM-",
+        "choices":[
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-TDM-",
+        "choices":[
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-TDA-",
+        "choices":[
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    //序列2
+    {
+        "name":"-OT-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OD-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OA-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-OM-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-TD-",
+        "choices":[
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-TA-",
+        "choices":[
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-TM-",
+        "choices":[
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-DA-",
+        "choices":[
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-DM-",
+        "choices":[
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-AM-",
+        "choices":[
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
+    //序列1
+    {
+        "name":"-O-",
+        "choices":[
+        {
+        "text":"我，毋畏遗忘",
+        "uniques":[
+        "Remove [Do not fear Oblivious] [in capital]",
+		    ],
+        },
+        ]
+    },
+    {
+        "name":"-T-",
+        "choices":[
+        {
+        "text":"我，毋畏恐惧",
+        "uniques":["Remove [Do not fear Timoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-D-",
+        "choices":[
+        {
+        "text":"我，毋畏悲伤",
+        "uniques":["Remove [Do not fear Doloris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-A-",
+        "choices":[
+        {
+        "text":"我，毋畏爱",
+        "uniques":["Remove [Do not fear Amoris] [in capital]",
+            ],
+        },
+        ]
+    },
+    {
+        "name":"-M-",
+        "choices":[
+        {
+        "text":"我，毋畏死亡",
+        "uniques":["Remove [Do not fear Mortis] [in capital]",
+            ],
+        },
+        ]
+    },
 ]

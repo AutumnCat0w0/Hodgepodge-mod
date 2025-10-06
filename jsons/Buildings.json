@@ -37,6 +37,19 @@
 			"[+1 Production] from [Marble] tiles [in this city]"],
 		"requiredTech": "Calendar"
 	},
+	
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredTech": "Masonry",
+		"uniques": ["Destroyed when the city is captured",
+		"[+1 Science] [in all cities] <for [Overlord] Civilizations> <hidden from users>"]
+	},
+	////原版建筑////
+	////原版建筑////
+	////原版建筑////
 	////原版建筑////
 	////原版建筑////
 	////原版建筑////
@@ -964,6 +977,22 @@
 		]
 	},
 	
+	{
+		"name": "ArianAbility",//艾瑞恩能力
+		"cost": 0,
+		"requiredTech": "Special technology",
+		"uniques": [
+		"Unsellable"//无法出售
+		"Gain control over [Horses] tiles in a [3]-tile radius<hidden from users>"
+		"Gain control over [Iron] tiles in a [3]-tile radius<hidden from users>"
+		"Gain control over [Coal] tiles in a [3]-tile radius<hidden from users>"
+		"Gain control over [Oil] tiles in a [3]-tile radius<hidden from users>"
+		"Gain control over [Aluminum] tiles in a [3]-tile radius<hidden from users>"
+		"Gain control over [Uranium] tiles in a [3]-tile radius<hidden from users>"
+		"Comment [建造城市时自动获取3格内的战略资源地块]",
+		]
+	},
+	
 	/////////////////////伪ub///////////////////////
 	/////////////////////伪ub///////////////////////
 	/////////////////////伪ub///////////////////////
@@ -1104,7 +1133,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Masonry",
 		"uniques": [
-		"[+5]% Strength for cities"
+		"[+10]% Strength for cities<for every [100] [Faith]><in this city>"
 		"Destroyed when the city is captured"
 		]
 	},
@@ -1564,8 +1593,8 @@
 		"cost": 40,
 		"requiredTech": "Pottery",
 		"uniques": [
-		"Gain [10]-[20] [Faith]<upon constructing [Culture]>"
-		"Gain [8]-[16] [Culture]<upon constructing [Faith]><in this city>"
+		"Gain [10]-[20] [Faith]<upon constructing [Culture] [in this city]>"
+		"Gain [8]-[16] [Culture]<upon constructing [Culture] [in this city]>"
 		"Only available <when religion is enabled>"]
 	},
 	
@@ -1998,7 +2027,8 @@
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
-		"[+1 Faith] [in this city]<in cities with at least [2] [Population]> <in tiles adjacent to [Desert] tiles>",
+		"[+1 Culture] [in capital]",
+		"[+1 Faith] [in this city]<in cities with at least [3] [Population]> <in tiles adjacent to [Desert] tiles>",
 		"Destroyed when the city is captured"]
 	},
 	
@@ -2143,9 +2173,9 @@
 		"maintenance": 1,
 		"uniques": [
 		"[+1 Science] per [2] population [in this city]"
-		"[+1 Science, +1 Faith] per [2] population [in this city]<when above [300] [Magic power]>"
-		"[+1 Science, +1 Culture] per [2] population [in this city]<when above [800] [Magic power]>"
-		"[+1 Science, +1 Gold] per [2] population [in this city]<when above [1300] [Magic power]>"
+		"[+1 Faith] per [2] population [in this city]<when above [300] [Magic power]>"
+		"[+1 Culture] per [2] population [in this city]<when above [600] [Magic power]>"
+		"[+1 Science] per [2] population [in this city]<when above [900] [Magic power]>"
 		],
 		"requiredTech": "Writing"
 	},
@@ -2831,6 +2861,7 @@
 		"[8] units cost no maintenance"
 		"Automatically built in all cities where it is buildable"
 		"Destroyed when the city is captured"
+		"Unsellable",//不可出售
 		],
 		"requiredTech": "Bronze Working"
 	},
@@ -3410,13 +3441,14 @@
 		"name": "Featstone",//狼居胥
 		"uniqueTo": "Vakentar",//瓦肯塔尔）破军
 		"replaces": "Monument",//所代替
-		"culture":1,
+		"culture":2,
 		"cost": 40,
 		"hurryCostModifier": 40,
 		"maintenance": 1,
 		"uniques": [
 		"[+1 Culture] from all [{Culture} {non-[Palace]}] buildings<in this city>"
-		"Cost increases by [3] per owned city"//每个建造提升成本
+		//"Cost increases by [3] per owned city"//每个建造提升成本
+		"Provides [2] [Horses]"
 		"Destroyed when the city is captured"]
 	},
 	
@@ -3730,7 +3762,7 @@
 	{
 		"name": "Meeting House",//礼拜堂
 		"replaces": "Temple",
-		"uniqueTo": "Weeks",
+		"uniqueTo": "Weeks",//周
 		"faith": 2,
 		"requiredBuilding": "Shrine",
 		"maintenance": 2,
@@ -3738,11 +3770,135 @@
 		"requiredTech": "Philosophy",
 		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured",
 		"[+17]% Natural religion spread [in this city]",
-		"[+15]% [Faith] [in this city] <when between [7] and [7] [Magic power]>"]
+		"[+15]% [Faith] [in this city] <when between [7] and [7] [Magic power]><hidden from users>"
+		"Comment [处于周日时此城市+15%[Faith]]",
+		]
 	},
 	
+	{
+		"name": "PendulumShrine",//灵摆祠堂
+		"uniqueTo": "Arian",//艾瑞恩
+		"replaces": "Granary",//所代替原版的建筑（如果不想取代可以不写这项）
+		"food": 2,
+		"cost": 60,
+		"maintenance": 1,
+		"hurryCostModifier": 30,
+		"specialistSlots": {"Saint": 1 ,"HolyMother": 1},
+		"uniques": [
+		"[-1 Faith, +1 Food] from all [Faith] buildings<in this city>"
+		"[+1 Food] from [Deer] tiles [in this city]",
+		"[+1 Food] from [Bananas] tiles [in this city]",
+		"[+1 Food] from [Wheat] tiles [in this city]",
+		"Comment [获得专属伟人席位]",
+			],
+		"civilopediaText": [{"text":"[GreatSaint]", "link":"Units/GreatSaint"},
+			{"text":"[GreatHolyMother]", "link":"Units/GreatHolyMother"},]
+		"requiredTech": "Pottery"
+	},
 	
+	{
+		"name": "Circle",//圆阵
+		"uniqueTo": "Soasmork",//索斯默克
+		"replaces": "Monument",//所代替
+		//"production":3,
+		"culture": 2,
+		"cost": 40,
+		"hurryCostModifier": 40,
+		"maintenance": 1,
+		"uniques": [
+		"[+1 Gold, +1 Science]<for every [Owned [Luxury resource] Tiles]><hidden from users><in this city>"
+		"Comment [领土内每有1个奢侈资源，+1[Gold]+1[Science]]",
+		"Destroyed when the city is captured"]
+	},
 	
+	{
+		"name": "Magical Girl Shipyard",//魔女造船厂
+		"uniqueTo": "Fishing Civ",//捞鱼文明
+		"replaces": "Harbor",//所代替
+		"cost": 60,
+		"maintenance": 3,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water","Must be next to [Coast]",
+			"Comment [需求科技改为[Construction]]"],
+		"requiredTech": "Construction"
+	},
 	
+	{
+		"name": "Heavy Weapon Station",//重武器站
+		"uniqueTo": "Overlord",//霸主
+		"replaces": "Barracks",//所代替
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured",
+		"[+10]% Production when constructing [PUSH] units [in this city]",
+		"[+20]% Production when constructing [Walls] buildings [in this city]",
+		"[+1 Faith, +2 Gold] <starting from the [Medieval era]>"],
+		"requiredTech": "Bronze Working"
+	},
 	
+	{
+		"name": "Do not fear Oblivious",//毋畏遗忘
+		"cost": 0,
+		"uniques": ["Comment [我，毋畏遗忘]",
+		"[+8]% [Science] [in all cities]"
+		"Unbuildable",
+		"Unsellable",
+		"Provides [1] [_OB_] <hidden from users>"],
+	},
+	
+	{
+		"name": "Do not fear Timoris",//毋畏恐惧
+		"cost": 0,
+		"uniques": ["Comment [我，毋畏恐惧]",
+		"[+8]% [Production] [in all cities]"
+		"Unbuildable",
+		"Unsellable",
+		"Provides [1] [_TI_] <hidden from users>"],
+	},
+	
+	{
+		"name": "Do not fear Doloris",//毋畏悲伤
+		"cost": 0,
+		"uniques": ["Comment [我，毋畏悲伤]",
+		"[+8]% [Happiness] [in all cities]"
+		"Unbuildable",
+		"Unsellable",
+		"Provides [1] [_DO_] <hidden from users>"],
+	},
+	
+	{
+		"name": "Do not fear Amoris",//毋畏爱
+		"cost": 0,
+		"uniques": ["Comment [我，毋畏爱]",
+		"[+8]% [Culture] [in all cities]"
+		"Unbuildable",
+		"Unsellable",
+		"Provides [1] [_AM_] <hidden from users>"],
+	},
+	
+	{
+		"name": "Do not fear Mortis",//毋畏死亡
+		"cost": 0,
+		"uniques": ["Comment [我，毋畏死亡]",
+		"[+8]% [Food] [in all cities]"
+		"Unbuildable",
+		"Unsellable",
+		"Provides [1] [_MO_] <hidden from users>"],
+	},
+	
+	{
+		"name": "Bimonthly",//双月
+		"uniqueTo": "Ave Mujica",
+		"replaces": "Amphitheater",//所代替
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured",
+		"[-100]% production cost <when number of [[Togawa Sakiko] Units] is less than [1]> <when number of [[Hachiman Suzu] Units] is less than [1]> <when number of [[Misumi Hatsuka] Units] is less than [1]> <when number of [[Yutenji Nyamu] Units] is less than [1]> <when number of [[Wakaba Mutsumi] Units] is less than [1]> <hidden from users>",
+		"Comment [所有Ave mujica成员在场时造价-100%]"],
+		"requiredTech": "Drama and Poetry"
+	},
 ]

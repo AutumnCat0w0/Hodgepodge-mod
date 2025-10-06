@@ -1,17 +1,14 @@
 [//单位
     /*{
 		"name": "测试",//
-		"uniqueTo": "Millennium Science School - Seminar",//千年 - 研讨会",
+		"uniqueTo": "测试",//千年 - 研讨会",
 		"replaces": "Scout",//取代
 		"unitType": "Sword",
 		"strength": 7,
-		"movement": 10,
+		"movement": 2,
 		"cost": 10,
 		"uniques": [
-		"Can move immediately once bought"
-		"Transfer Movement to [All]"
-		"[Target Unit] takes [3] damage<requires [0] movement><[13] times>"
-		"[Target Unit] takes [99] damage<upon damaging a [All] unit>"
+		Automation is a primary action
 		"Never appears as a Barbarian unit"//蛮子不得造
 		],
 		"promotions": ["Ignore terrain cost","CCC"],
@@ -54,8 +51,8 @@
 		"uniques": [
 		"Cannot enter ocean tiles <before discovering [Astronomy]>", 
 		"May create improvements on water resources", 
-		"Can build [江东铁壁] improvements on tiles"
-		"Uncapturable"]
+		"Can build [江东铁壁] improvements on tiles <hidden from users>"
+		"Uncapturable","Automation is a primary action"]
 	},
 	
 	{
@@ -693,6 +690,35 @@
 		"civilopediaText": [{"text":"由[ProteanJoker]转化而来", "link":"Units/ProteanJoker"},]
 	},
 	
+	{
+		"name": "GreatSaint",//大圣女//艾瑞恩
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Special technology",
+		"uniques": [
+		"[All] units gain the [GreatSaintAbility] promotion<for all movement><[3] times> <after which this unit is consumed><hidden from users>"
+		"Comment [消耗所有移动力为所有单位回复25HP，并回复1移动力（仅限3次）]",
+		"Never appears as a Barbarian unit"//蛮子不得造
+		"Unbuildable", 
+		"Uncapturable"
+		 ],
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "GreatHolyMother",//大圣母
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Special technology",
+		"uniques": [
+		"Gain a free [Monastery] [in this city]<[1] times> <after which this unit is consumed>"
+		"Never appears as a Barbarian unit"//蛮子不得造
+		"Unbuildable", 
+		"Uncapturable"
+		 ],
+		"attackSound": "arrow"
+	},
+	
 	////////////////////////伪uu///////////////////////
 	////////////////////////伪uu///////////////////////
 	////////////////////////伪uu///////////////////////
@@ -750,7 +776,7 @@
 		"replaces": "Knight",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Mounted",
 		"movement": 3,
-		"strength": 24,
+		"strength": 22,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
@@ -760,11 +786,9 @@
 		"Can move after attacking",
 		"[-33]% Strength <vs cities> <when attacking>",
 		"[+15]% Strength<in cities following our religion>"
-		"Comment [在信仰我方宗教的城市时+15%战斗力]",
 		"Comment [我方其他单位在周围一格交战时+15%战斗力]",
 		],
 		"attackSound": "horse"
-		"replacementTextForUniques":"在信仰我方宗教的城市时+15%战斗力\n使周围1格的我方单位+15%战斗力"
 	},
 	
 	{
@@ -1351,11 +1375,11 @@
 		"unitType": "Civilian",
 		"uniques": [
             "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
-            "Can Spread Religion<[4] times>"
+            "Can Spread Religion <for [0] movement> <[4] times>"
 			"Removes other religions when spreading religion",
             "May found a religion",
             "May enhance a religion",
-			"May enter foreign tiles without open borders", "[-1] Sight",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
 			"Free Great Person<by consuming this unit>"
 			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
@@ -2539,7 +2563,7 @@
 		"cost": 40,
 		"upgradesTo": "Swordsman",
 		"uniques" : [
-		"[+10]% Strength bonus for [Military] units within [1] tiles",
+		"Comment [使与此单位相邻的单位+10%战斗力]",
 		"Ignores Zone of Control"
 		],
 		"attackSound": "nonmetalhit",
@@ -3336,8 +3360,9 @@
 		"obsoleteTech": "Civil Service",
 		"uniques": [
 		"[+50]% Strength <vs [Mounted] units>"
-		"[+20]% Strength <for [7] turns> <hidden from users>"
-		"该单位进场后持续7回合回合+20%战斗力。"
+		"[+4]% Strength <when attacking> <for every [[ArraySpearman] Units]> <when number of [[ArraySpearman] Units] is less than [5]> <hidden from users>",
+		"[+20]% Strength <when attacking> <when number of [[ArraySpearman] Units] is more than [4]> <hidden from users>",
+		"Comment [令所有[ArraySpearman]单位攻击时+4%战斗力（至多20%）]"
 		],
 		"attackSound": "metalhit"
 	},
@@ -3366,7 +3391,7 @@
 	
 	{
 		"name": "Abysslurk",//深渊潜伏者
-		"uniqueTo": "Charybyss",//卡里比斯
+		"uniqueTo": "Charybyss",//卡里比斯 深渊
 		"replaces": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
@@ -3376,7 +3401,7 @@
 		"uniques": [
 		"[This Unit] gains the [Umbraghast I] promotion<upon turn end><hidden from users>"
 		"[This Unit] loses the [Umbraghast I] promotion<upon turn start><hidden from users>"
-		"Comment [一旦被攻击，进入3回合的隐身状态。下次攻击前无视区块控制并获得+50%战斗力。]",
+		"Comment [一旦被攻击，下次攻击前无视区块控制并获得+50%战斗力。并且在非敌方境内时获得隐身。]",
 		"Comment [处于隐身状态时，立即并每回合回复10HP，一旦移动将解除隐身状态]",
 		"May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"
 		],
@@ -3386,8 +3411,8 @@
 	},
 	
 	{
-		"name": "Abyssoth",//潜渊猎食者
-		"uniqueTo": "Charybyss",//卡里比斯
+		"name": "Abyssoth",//潜渊猎食者 
+		"uniqueTo": "Charybyss",//卡里比斯 深渊
 		"replaces": "Composite Bowman",//所代替原版的建筑（如果不想取代可以不写这项）
 		"unitType": "Archery",
 		"movement": 2,
@@ -3395,13 +3420,13 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"uniques": [
-		"[-20]% Strength<hidden from users>"
+		"[-10]% Strength<hidden from users>"
 		"Ranged attacks may be performed over obstacles<hidden from users>"//跨越障碍
 		"Instantly provides [1] [Magic power]<upon damaging a [All] unit><hidden from users>"
 		"[Target Unit] gains the [Hadalgrip] promotion<upon damaging a [All] unit><hidden from users>"
-		"Comment [可以跨过障碍进行射击，攻击获得1[Magic power]并额外造成5点伤害]",
+		"Comment [可以跨过障碍进行射击，对战单位时攻击获得1[Magic power]并额外造成5点伤害]",
 		"Comment [攻击使目标[Hadalgrip]：必须消耗1移动力解除否则无法攻击/移动]",
-		"Comment [战斗力-20%，科技移动至[Bronze Working]（产能不变）]",
+		"Comment [战斗力-10%，科技移动至[Bronze Working]（产能不变）]",
 		],
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Machinery",
@@ -3788,7 +3813,7 @@
 		"Cannot be purchased",//无法购买
 		"[Target Unit] takes [5] damage <upon damaging a [All] unit>",
 		"[-100]% maintenance costs",
-		"Can transform to [Skull Emperor] <when number of [[Skull Emperor] Units] is less than [1]>",
+		"Can transform to [Skull Emperor] <when number of [[Skull Emperor] Units] is less than [1]><for [Clash Royale] Civilizations>",
 		"Comment [所有单位对战[Little Skull]单位时从战斗中获得的经验-100%，拥有[Combat encouragementr]晋升额外-40%，推行[Military Tradition]后额外-50%]"],
 		"attackSound": "arrow"
 	},
@@ -3842,7 +3867,269 @@
 		"attackSound": "artillery"
 	},
 	
+	{
+		"name": "ArianNun",//艾瑞恩修女
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Arian",//艾瑞恩
+		"movement": 2,
+		"cost": 56,
+		"uniques": [
+		"Can build [Land] improvements on tiles", 
+		"Automation is a primary action"
+		"[This Unit] gains the [Tag] promotion<upon turn start><hidden from users>"
+		"[This Unit] loses the [Tag] promotion<upon turn end><hidden from users>"
+		"Comment [每个偶数回合可以数消耗1移动力使最近的范围内城市获得3[Production]（随速度调整）]",
+		],
+		
+	},
 	
 	
+	{   
+		"name": "OlivierWar-Arb",//奥利维战弩
+		"uniqueTo": "Soasmork",//索斯默克
+		"replaces": "Crossbowman",//所代替
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"range": 2,
+		"cost": 120,
+		"uniques": [
+		"Double movement in [Rough terrain]<hidden from users>",
+		"Can see over obstacles<hidden from users>"
+		"Comment [在[Rough terrain]获得双倍移动力，视野可以穿过障碍]",
+		
+		"[+6]% Strength<for every adjacent [Rough terrain]><hidden from users>"
+		"[+1] Sight<for every adjacent [Rough terrain]><hidden from users>"
+		"Comment [每个相邻的[Rough terrain]+6%战斗力，并且+1视野]",
+		
+		],
+		"promotions": ["Indirect Fire",],//免费晋升
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
 	
+	{
+		"name": "Magical Girl Worker",//魔女工人
+		"unitType": "Civilian Water",
+		"uniqueTo": "Fishing Civ",//捞鱼文明
+		"replaces": "Work Boats",//所代替
+		"movement": 4,
+		"cost": 30,
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>",
+            "Uncapturable", "Automation is a primary action",
+            "Can instantly construct a [Fishing Boats] improvement <for all movement> <[3] times> <after which this unit is consumed>",
+            "Comment [无需科技]"]
+	},
+	
+	{
+		"name": "PUSH",//攻势
+		"unitType": "Mounted",
+		"uniqueTo": "Overlord",//霸主
+		"replaces": "Knight",//所代替
+		"movement": 4,
+		"strength": 20,
+		"cost": 180,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit",
+		"[+60]% Strength <when adjacent to a [PUSH] unit>",
+		"[+50]% XP gained from combat"],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Togawa Sakiko",//丰川祥子
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 95,
+		"replacementTextForUniques": "战斗力随时代变化而变化\n造成伤害以及受到伤害均可以获得黄金时代点数，黄金时代期间视为处于Fever状态\n\n可以切换钢琴（初始）或风琴音色演奏：\n钢琴：攻击时+25%战斗力（战斗力随时代变化而变化）\n风琴：目标攻击单位额外受到9伤害\n\nFever期间在每回合可以额外攻击1次且攻击后可移动",
+		"uniques": [
+		"[+55]% Strength <during the [Medieval era]>",
+		"[+85]% Strength <during the [Renaissance era]>",
+		"[+150]% Strength <during the [Industrial era]>",
+		"[+350]% Strength <during the [Modern era]>",
+		"[+450]% Strength <during the [Atomic era]>",
+		"[+580]% Strength <during the [Information era]>",
+		"[+800]% Strength <during the [Future era]>",
+		"Never appears as a Barbarian unit <hidden from users>",
+		"Unbuildable <for [non-[Ave Mujica]] Civilizations>",
+		"Unbuildable <if [Do not fear Oblivious] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Timoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Doloris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Amoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Mortis] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Limited to [1] per Civilization",
+		"[This Unit] gains the [Togawa Sakiko: Piano] promotion <for [1] movement> <for units with [Togawa Sakiko: Organ]>",
+		"[This Unit] gains the [Togawa Sakiko: Organ] promotion <for [1] movement> <for units with [Togawa Sakiko: Piano]>",
+		"[1] additional attacks per turn <during a Golden Age>",
+		"Can move after attacking <during a Golden Age>",
+		"Instantly gain [5] [Golden Age points] <upon damaging a [All] unit>",
+		"Instantly gain [5] [Golden Age points] <upon losing at least [1] HP in a single attack>",
+		"[This Unit] heals [12] HP <upon turn end> <when adjacent to a [Misumi Hatsuka] unit>",
+		"[+8]% Strength <when adjacent to a [Misumi Hatsuka] unit>"],
+		"promotions": ["Togawa Sakiko: Piano"],//免费晋升
+		"attackSound": "crossbow"
+	},
+	
+	{
+		"name": "Hachiman Suzu",//八幡海铃
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 14,
+		"cost": 95,
+		"replacementTextForUniques": "战斗力随时代变化而变化\n造成伤害以及受到伤害均可以获得黄金时代点数，黄金时代期间视为处于Fever状态\n\n攻击时令目标攻击单位一回合内无法攻击\n\nFever期间移动力+1且对非相邻单位隐身",
+		"uniques": [
+		"[+35]% Strength <during the [Medieval era]>",
+		"[+75]% Strength <during the [Renaissance era]>",
+		"[+150]% Strength <during the [Industrial era]>",
+		"[+300]% Strength <during the [Modern era]>",
+		"[+370]% Strength <during the [Atomic era]>",
+		"[+480]% Strength <during the [Information era]>",
+		"[+600]% Strength <during the [Future era]>",
+		"Never appears as a Barbarian unit <hidden from users>",
+		"Unbuildable <for [non-[Ave Mujica]] Civilizations>",
+		"Unbuildable <if [Do not fear Oblivious] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Timoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Doloris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Amoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Mortis] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Limited to [1] per Civilization",
+		"[Target Unit] gains the [Cannot move] status for [1] turn(s) <upon damaging a [All] unit>",
+		"[+1] Movement <during a Golden Age>",
+		"Invisible to non-adjacent units <during a Golden Age>",
+		"Instantly gain [5] [Golden Age points] <upon damaging a [All] unit>",
+		"Instantly gain [5] [Golden Age points] <upon losing at least [1] HP in a single attack>"],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Misumi Hatsuka",//三角初华
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 95,
+		"replacementTextForUniques": "战斗力随时代变化而变化\n造成伤害以及受到伤害均可以获得黄金时代点数，黄金时代期间视为处于Fever状态\n\n所有相邻单位在恢复时额外3生命值\n所有相邻单位回合结束时恢复5生命值\n与[Togawa Sakiko]相邻时仅令[Togawa Sakiko]在回合结束时恢复12生命值且令[Togawa Sakiko]+8%战斗力\n\nFever期间在2格内军事单位+17%战斗力",
+		"uniques": [
+		"[+60]% Strength <during the [Medieval era]>",
+		"[+95]% Strength <during the [Renaissance era]>",
+		"[+165]% Strength <during the [Industrial era]>",
+		"[+355]% Strength <during the [Modern era]>",
+		"[+450]% Strength <during the [Atomic era]>",
+		"[+580]% Strength <during the [Information era]>",
+		"[+800]% Strength <during the [Future era]>",
+		"Never appears as a Barbarian unit <hidden from users>",
+		"Unbuildable <for [non-[Ave Mujica]] Civilizations>",
+		"Unbuildable <if [Do not fear Oblivious] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Timoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Doloris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Amoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Mortis] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Limited to [1] per Civilization",
+		"All adjacent units heal [+3] HP when healing",
+		"SakichanSakichanSakichan <when adjacent to a [Togawa Sakiko] unit>",
+		"[+17]% Strength bonus for [Military] units within [2] tiles <during a Golden Age>"
+		],
+		"attackSound": "crossbow"
+	},
+	
+	{
+		"name": "Yutenji Nyamu",//祐天寺若麦
+		"unitType": "Sword",
+		"movement": 3,
+		"strength": 13,
+		"cost": 95,
+		"replacementTextForUniques": "战斗力随时代变化而变化\n造成伤害以及受到伤害均可以获得黄金时代点数，黄金时代期间视为处于Fever状态\n\n不限制攻击次数且攻击后可移动\n每次攻击追加随机浮动的额外伤害（最高为7）\n\nFever期间相邻的敌方单位结束回合时受到18伤害",
+		"uniques": [
+		"[+35]% Strength <during the [Medieval era]>",
+		"[+75]% Strength <during the [Renaissance era]>",
+		"[+150]% Strength <during the [Industrial era]>",
+		"[+300]% Strength <during the [Modern era]>",
+		"[+370]% Strength <during the [Atomic era]>",
+		"[+480]% Strength <during the [Information era]>",
+		"[+600]% Strength <during the [Future era]>",
+		"Never appears as a Barbarian unit <hidden from users>",
+		"Unbuildable <for [non-[Ave Mujica]] Civilizations>",
+		"Unbuildable <if [Do not fear Oblivious] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Timoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Doloris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Amoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Mortis] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Limited to [1] per Civilization",
+		"Can move after attacking",
+		"[99] additional attacks per turn",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [10]% chance>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [20]% chance>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [30]% chance>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>",
+		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>",
+		"Adjacent enemy units ending their turn take [18] damage <during a Golden Age>"
+		],
+		"attackSound": "crossbow"
+	},
+	
+	{
+		"name": "Wakaba Mutsumi",//若叶睦
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 95,
+		"replacementTextForUniques": "战斗力随时代变化而变化\n造成伤害以及受到伤害均可以获得黄金时代点数，黄金时代期间视为处于Fever状态\n\n死亡时免费的[Mortis]出现，[Mortis]可以在3回合后可转化为[Wakaba Mutsumi]（[Mortis]存在期间[Wakaba Mutsumi]不可组建）\n对目标单位造成伤害时自身受到6伤害\n\nFever期间免疫来自自己的额外伤害且在近战前撤退",
+		"uniques": [
+		"[+35]% Strength <during the [Medieval era]>",
+		"[+75]% Strength <during the [Renaissance era]>",
+		"[+150]% Strength <during the [Industrial era]>",
+		"[+300]% Strength <during the [Modern era]>",
+		"[+370]% Strength <during the [Atomic era]>",
+		"[+480]% Strength <during the [Information era]>",
+		"[+600]% Strength <during the [Future era]>",
+		"Never appears as a Barbarian unit <hidden from users>",
+		"Unbuildable <for [non-[Ave Mujica]] Civilizations>",
+		"Unbuildable <if [Do not fear Oblivious] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Timoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Doloris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Amoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Unbuildable <if [Do not fear Mortis] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
+		"Limited to [1] per Civilization",
+		"Unbuildable <when number of [[Mortis] Unit] is more than [0]>",
+		"[This Unit] takes [6] damage <upon damaging a [All] unit> <when not in a Golden Age>",
+		"Free [Mortis] appears <upon being defeated>",
+		"Withdraws before melee combat <during a Golden Age>"
+		],
+		"attackSound": "crossbow"
+	},
+	
+	{
+		"name": "Mortis",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 9999,
+		"uniques": [
+		"Comment [战斗力随时代变化而变化]",
+		"[+35]% Strength <during the [Medieval era]> <hidden from users>",
+		"[+75]% Strength <during the [Renaissance era]> <hidden from users>",
+		"[+150]% Strength <during the [Industrial era]> <hidden from users>",
+		"[+300]% Strength <during the [Modern era]> <hidden from users>",
+		"[+370]% Strength <during the [Atomic era]> <hidden from users>",
+		"[+480]% Strength <during the [Information era]> <hidden from users>",
+		"[+600]% Strength <during the [Future era]> <hidden from users>",
+		"Unbuildable",
+		"Cannot be purchased",
+		"Cannot attack",
+		"[This Unit] gains the [无法转化为[Wakaba Mutsumi]] status for [3] turn(s)",
+		"Can transform to [Wakaba Mutsumi] <for units without [无法转化为[Wakaba Mutsumi]]>"
+		],
+		"attackSound": "crossbow"
+	},
 ]

@@ -21,5 +21,8 @@
         "[-100]% XP gained from combat <vs [Little Skull] units>",
         "[-40]% XP gained from combat <vs [Little Skull] units> <for units with [Combat encouragementr]>",
         "[-50]% XP gained from combat <vs [Little Skull] units> <after adopting [Military Tradition]>",
+		"[This Unit] gains [1] movement<upon entering a [All] tile><in [Friendly Land] tiles><for [Arian] Civilizations>"
+		"[+15]% Strength<when adjacent to a [Wilde Dancer] unit><hidden from users>",
+		"[This Unit] heals [5] HP <upon turn end> <when adjacent to a [non-[SakichanSakichanSakichan]] unit> <when adjacent to a [Misumi Hatsuka] unit>"
     ]
 }

@@ -1229,8 +1229,8 @@
 	{
         "name": "Crusades",//十字军
 	    "uniques": [
-	    //"Can Spread Religion<for [0] movement> <[1] times>"
 	    "[+15]% Strength<when adjacent to a [ArmoredHorseTeam] unit><hidden from users>"
+	    //"Can Spread Religion<[4] times>"
 	 ]
 	},
 	
@@ -1500,8 +1500,9 @@
 	{
         "name": "AbyssLurkX",//深渊潜伏-附属
 	    "uniques": [
-		"[1] Range<in [Water] tiles>"
-		"[+10]% Strength<in [Water] tiles>"
+	    "[-1] Sight",//
+		"[+1] Range<in [Water] tiles>"
+		"[-100]% Strength <vs cities> <when attacking>",
 		]
 	},
 
@@ -1527,7 +1528,7 @@
 	{
         "name": "Umbraghast II",//黑暗幽灵
 	    "uniques": [
-		"Invisible to others<hidden from users>",//隐身
+		"Invisible to others<in [non-[Enemy Land]] tiles><hidden from users>",//隐身
 		"[This Unit] heals [10] HP <hidden from users>",
 		"[This Unit] heals [10] HP <upon ending a turn in a [All] tile> <hidden from users>",
 		"[This Unit] gains the [Umbraghast III] promotion<upon turn start><hidden from users>"
@@ -2066,7 +2067,7 @@
 		"[This Unit] gains the [Verdict II] promotion<upon turn start><hidden from users>"
 		"[This Unit] gains the [Verdict II] promotion<upon turn end><hidden from users>"
 		"[This Unit] loses the [Verdict II] promotion <upon entering combat><hidden from users>",//破回血
-		"Comment [在自己回合与自己回合外第一次受到攻击伤害时，回复7HP]",
+		"Comment [在自己回合与自己回合外第一次受到攻击伤害时，回复6HP]",
         ]
     },
 	
@@ -2111,5 +2112,73 @@
 	    "name": "Firm scientific theories",
 		"uniques": ["Earn [10]% of the damage done to [All] units as [Science]",
 		"[+15]% Strength <when number of [Science] is more than [150]>"]
+	},
+	
+	{
+	    "name": "Tag",//标记
+		"uniques": [
+		"[This Unit] loses the [Tag] promotion<for [1] movement><when number of [[turns]%2] is equal to [0]><costs [-2 Production] stats><hidden from users><on [Double speed] game speed>"//二倍速
+		"[This Unit] loses the [Tag] promotion<for [1] movement><when number of [[turns]%2] is equal to [0]><costs [-2 Production] stats><hidden from users><on [Quick] game speed>"//快速
+		"[This Unit] loses the [Tag] promotion<for [1] movement><when number of [[turns]%2] is equal to [0]><costs [-3 Production] stats><hidden from users><on [Standard] game speed>"//标准
+		"[This Unit] loses the [Tag] promotion<for [1] movement><when number of [[turns]%2] is equal to [0]><costs [-5 Production] stats><hidden from users><on [Epic] game speed>"//史诗
+		"[This Unit] loses the [Tag] promotion<for [1] movement><when number of [[turns]%2] is equal to [0]><costs [-9 Production] stats><hidden from users><on [Marathon] game speed>"//马拉松
+		"[This Unit] loses the [Tag] promotion<for [1] movement><when number of [[turns]%2] is equal to [0]><costs [-15 Production] stats><hidden from users><on [One fifth speed] game speed>"//五分一
+		]
+	},
+	
+	{
+	    "name": "GreatSaintAbility",//大圣女能力
+		"uniques": [
+		"[This Unit] heals [50] HP", 
+		"Doing so will consume this opportunity to choose a Promotion",
+		"[This Unit] loses the [Bloodrot I] promotion<hidden from users>",
+		"[This Unit] loses the [Bloodrot II] promotion<hidden from users>",
+		"[This Unit] loses the [Bloodrot III] promotion<hidden from users>",
+		"[This Unit] gains [1] movement",
+		]
+	},
+	
+	{
+	    "name": "Overlord Ability",//霸主能力
+		"uniques": [
+		"Gain [15] [Gold]<upon being defeated>"
+		]
+	},
+	
+	{
+	    "name": "Togawa Sakiko: Organ",//丰川祥子：风琴
+		"uniques": [
+		"[Target Unit] takes [9] damage <upon damaging a [All] unit>",
+		"[This Unit] loses the [Togawa Sakiko: Piano] promotion"
+		]
+	},
+	
+	{
+	    "name": "Togawa Sakiko: Piano",//丰川祥子：钢琴
+		"uniques": [
+		"[+25]% Strength <when attacking> <before the [Medieval era]>",
+		"[+38]% Strength <when attacking> <during the [Medieval era]>",
+		"[+46]% Strength <when attacking> <during the [Renaissance era]>",
+		"[+62]% Strength <when attacking> <during the [Industrial era]>",
+		"[+112]% Strength <when attacking> <during the [Modern era]>",
+		"[+137]% Strength <when attacking> <during the [Atomic era]>",
+		"[+170]% Strength <when attacking> <during the [Information era]>",
+		"[+225]% Strength <when attacking> <during the [Future era]>",
+		"[This Unit] loses the [Togawa Sakiko: Organ] promotion"
+		]
+	},
+	
+	{
+	    "name": "Cannot move",//不可移动
+		"uniques": [
+		"Cannot move"
+		]
+	},
+	
+	{
+	    "name": "无法转化为[Wakaba Mutsumi]",
+		"uniques": [
+		"Comment [该晋升消失前无法转化为[Wakaba Mutsumi]]"
+		]
 	},
 ]

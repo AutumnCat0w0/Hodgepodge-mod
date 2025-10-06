@@ -5,7 +5,18 @@
 	/////////////原版设施////////////////////
 	/////////////原版设施////////////////////
 	/////////////原版设施////////////////////
-	
+	{
+		"name": "City center",//市中心
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
+            "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"
+			"Fresh water<for [Soasmork] Civilizations><hidden from users><Suppress warning [is not allowed on its target type]>"
+			],
+        "civilopediaText": [
+			{"text":"Marks the center of a city"},
+			{"text":"Appearance changes with the technological era of the owning civilization"}
+		]
+	},
 		
 	
 	{
@@ -17,7 +28,34 @@
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
-            "Pillaging this improvement yields approximately [+18 Gold]"],
+            "Pillaging this improvement yields approximately [+18 Gold]"
+			
+			"Ensures a minimum tile yield of [+2 Food]<for [Soasmork] Civilizations><hidden from users>"//索斯默克
+		"Provides [1] [Furs] <in [Furs] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Cotton] <in [Cotton] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Dyes] <in [Dyes] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Gems] <in [Gems] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Gold Ore] <in [Gold Ore] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Silver] <in [Silver] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Incense] <in [Incense] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Ivory] <in [Ivory] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Silk] <in [Silk] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Spices] <in [Spices] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Wine] <in [Wine] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Sugar] <in [Sugar] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Marble] <in [Marble] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Whales] <in [Whales] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Pearls] <in [Pearls] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Jewelry] <in [Jewelry] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Porcelain] <in [Porcelain] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Citrus] <in [Citrus] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Copper] <in [Copper] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Crab] <in [Crab] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Salt] <in [Salt] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Truffles] <in [Truffles] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Tea] <in [Tea] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Jade] <in [Jade] tiles><for [Soasmork] Civilizations><hidden from users>"
+			],
 		"shortcutKey": "F"
 	},
 	{
@@ -26,7 +64,33 @@
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Construction",
-		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"],
+		"uniques": ["[+1 Production] <after discovering [Scientific Theory]>", "Pillaging this improvement yields approximately [+10 Gold]"
+		"Ensures a minimum tile yield of [+2 Production]<for [Soasmork] Civilizations><hidden from users>"//索斯默克
+		"Provides [1] [Furs] <in [Furs] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Cotton] <in [Cotton] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Dyes] <in [Dyes] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Gems] <in [Gems] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Gold Ore] <in [Gold Ore] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Silver] <in [Silver] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Incense] <in [Incense] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Ivory] <in [Ivory] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Silk] <in [Silk] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Spices] <in [Spices] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Wine] <in [Wine] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Sugar] <in [Sugar] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Marble] <in [Marble] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Whales] <in [Whales] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Pearls] <in [Pearls] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Jewelry] <in [Jewelry] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Porcelain] <in [Porcelain] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Citrus] <in [Citrus] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Copper] <in [Copper] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Crab] <in [Crab] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Salt] <in [Salt] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Truffles] <in [Truffles] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Tea] <in [Tea] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Jade] <in [Jade] tiles><for [Soasmork] Civilizations><hidden from users>"
+		],
 		"shortcutKey": "L"
 	},
 	{
@@ -38,13 +102,40 @@
 		"uniques": ["[+2 Production] <in [Andosols] tiles>",
 		"[+1 Production] <after discovering [Chemistry]>", 
 		"Pillaging this improvement yields approximately [+20 Gold]",
-		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"
-		"Gain control over [Horses] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
-		"Gain control over [Iron] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
-		"Gain control over [Coal] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
-		"Gain control over [Oil] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
-		"Gain control over [Aluminum] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
-		"Gain control over [Uranium] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"
+		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"//小丑皇
+		"Gain control over [Horses] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"//小丑皇
+		"Gain control over [Iron] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"//小丑皇
+		"Gain control over [Coal] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"//小丑皇
+		"Gain control over [Oil] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"//小丑皇
+		"Gain control over [Aluminum] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"//小丑皇
+		"Gain control over [Uranium] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Diamond] is more than [4]><hidden from users>"//小丑皇
+		
+		"Ensures a minimum tile yield of [+2 Production]<for [Soasmork] Civilizations><hidden from users>"//索斯默克
+		"Can also be built on tiles adjacent to fresh water<for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Furs] <in [Furs] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Cotton] <in [Cotton] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Dyes] <in [Dyes] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Gems] <in [Gems] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Gold Ore] <in [Gold Ore] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Silver] <in [Silver] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Incense] <in [Incense] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Ivory] <in [Ivory] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Silk] <in [Silk] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Spices] <in [Spices] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Wine] <in [Wine] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Sugar] <in [Sugar] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Marble] <in [Marble] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Whales] <in [Whales] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Pearls] <in [Pearls] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Jewelry] <in [Jewelry] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Porcelain] <in [Porcelain] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Citrus] <in [Citrus] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Copper] <in [Copper] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Crab] <in [Crab] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Salt] <in [Salt] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Truffles] <in [Truffles] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Tea] <in [Tea] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Jade] <in [Jade] tiles><for [Soasmork] Civilizations><hidden from users>"
 		],
 		"shortcutKey": "M"
 	},
@@ -54,7 +145,33 @@
 		"gold": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Guilds",
-		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"uniques": ["[+1 Gold] <after discovering [Economics]>", "Pillaging this improvement yields approximately [+20 Gold]"
+		"Ensures a minimum tile yield of [+2 Gold]<for [Soasmork] Civilizations><hidden from users>"//索斯默克
+		"Provides [1] [Furs] <in [Furs] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Cotton] <in [Cotton] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Dyes] <in [Dyes] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Gems] <in [Gems] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Gold Ore] <in [Gold Ore] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Silver] <in [Silver] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Incense] <in [Incense] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Ivory] <in [Ivory] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Silk] <in [Silk] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Spices] <in [Spices] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Wine] <in [Wine] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Sugar] <in [Sugar] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Marble] <in [Marble] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Whales] <in [Whales] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Pearls] <in [Pearls] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Jewelry] <in [Jewelry] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Porcelain] <in [Porcelain] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Citrus] <in [Citrus] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Copper] <in [Copper] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Crab] <in [Crab] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Salt] <in [Salt] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Truffles] <in [Truffles] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Tea] <in [Tea] tiles><for [Soasmork] Civilizations><hidden from users>"
+		"Provides [1] [Jade] <in [Jade] tiles><for [Soasmork] Civilizations><hidden from users>"
+		],
 		"shortcutKey": "T"
 	},
 
@@ -104,6 +221,8 @@
 		"Comment [Can only be built to improve a resource]",
 		"Pillaging this improvement yields approximately [+10 Gold]"
 		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"
+		
+		"Ensures a minimum tile yield of [+2 Gold]<for [Soasmork] Civilizations><hidden from users>"//索斯默克
 		],
 		"shortcutKey": "P"
 	},
@@ -345,6 +464,8 @@
 		"turnsToBuild": 7,
 		"science": 2,
 		"uniques": ["Can only be built on [Luxury resource] tiles"
+		"Provides [1] [KnowledgeX]<hidden from users>"
+		"Comment [使UA提供的[Science]+1]",
 		"[+1 Production] <in [Hill] tiles>",
 		"[+1 Science, +1 Happiness] <after discovering [Education]>", 
 		],
@@ -568,6 +689,23 @@
 		"我方单位在结晶上移动拥有双倍移动力；根据结晶数量提升军队战斗力"
 		]
 	},
-	
+	{
+		"name": "Broken Mirror Surface",//破碎镜面
+		"uniqueTo": "Ave Mujica",
+		"replaces": "Pasture",//所代替
+		"faith":1,
+		"turnsToBuild": 5,
+		"techRequired": "Animal Husbandry",
+		"uniques": [
+		"[-1 Faith] <in [Open terrain] tiles>",
+		"Improves [Ivory] resource in this tile",
+		"Improves [Stone] resource in this tile",
+		"[+1 Food] <after discovering [Fertilizer]>", 
+		"Can only be built to improve a resource", 
+		"Pillaging this improvement yields approximately [+10 Gold]"
+		"Gain [10] [Gold] <when number of [JokerMonarchAbility-Heart] is more than [2]><hidden from users>",
+		],
+		"shortcutKey": "P"
+	},
 	
 ]
