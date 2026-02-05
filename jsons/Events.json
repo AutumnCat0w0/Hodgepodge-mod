@@ -735,4 +735,61 @@
         },
         ]
     },
+    {
+        "name":"Sarnaga Protoss Breakthrough Event",
+        "choices":[
+        {
+        "text":"萨尔纳加塑造了群星，亦将升格他们的造物",
+        "uniques":["Instantly provides [1] [Magic power] <hidden from users>",
+            ],
+        },
+        {
+        "text":"不选择突破",
+        "uniques":["Instantly provides [2] [Magic power] <hidden from users>",
+            ],
+        },
+        ]
+    },
+    
+    {
+        "name":"Welcome to the Pleasance",//欢迎来到游乐园
+        "text":"欢迎来到游乐园，以下为该模式内容简绍：\n1.无法组建[Settler]单位，改为每20回合获得免费的[Settler]\n2.所有单位移动力+1\n3.首都建立后赠送免费的[Worker]\n4.所有地块设施仅需1回合可建成\n5.游戏开始赠送4项自选免费科技\n6.可在下方选择起始阵容",
+        "choices":[
+        {
+        "text":"选择该阵容",
+        "uniques":[
+        "[3] free [Warrior] units appear",
+        "Free [Archer] appears"
+		    ],
+        },
+        {
+        "text":"选择该阵容",
+        "uniques":[
+        "[3] free [Archer] units appear",
+		    ],
+        },
+        {
+        "text":"选择该阵容",
+        "uniques":[
+        "Free [Warrior] appears"
+        "Free [Archer] appears",
+        "[3] free [Scout] units appear",
+		    ],
+        },
+        {
+        "text":"选择该阵容",
+        "uniques":[
+        "Free [Spearman] appears"
+        "Free [Archer] appears",
+        "Free [Scout] appears",
+		    ],
+        },
+        {
+        "text":"选择该阵容",
+        "uniques":[
+        "[2] free [Spearman] units appear",
+		    ],
+        },
+        ]
+    }
 ]

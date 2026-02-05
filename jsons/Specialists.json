@@ -34,7 +34,7 @@
 	
 	{
 		"name":"Saint",//圣女
-		"faith":3,
+		"faith":2,
 		"production":2,
 		"greatPersonPoints": {"GreatSaint":3},//大圣女
 		"color": [255, 215, 100]
@@ -42,7 +42,7 @@
 	
 	{
 		"name":"HolyMother",//圣母
-		"food":3,
+		"food":2,
 		"faith":2,
 		"greatPersonPoints": {"GreatHolyMother":3},//大圣母
 		"color": [120, 30, 60]

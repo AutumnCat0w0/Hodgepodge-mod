@@ -3,9 +3,34 @@
         "name": "Holy Warriors",//神圣战士
         "type": "Follower",
         "uniques": [
-        "Comment [在中古时代之前可以以2倍成本的[Faith]购买 陆地 军事 单位]"
-        //"May buy [{Military} {Land} {non-[伪UU]} {non-['AHugeUglyThing']}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]><hidden from users>"
+        "Comment [在工业时代之前可以以2倍成本的[Faith]购买 陆地 军事 单位]"
+        "May buy [{Military} {Land} {non-[PUU]} {non-['AHugeUglyThing']}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]><hidden from users>"
         ]
+    },
+	
+	{
+        "name": "Faith Healers",//治愈之神
+        "type": "Pantheon",
+        "uniques": [
+	"[{non-[SwordfishMKI]} {non-[MakiFighterJet]} {non-[StukaBomber]}] Units adjacent to this city heal [+30] HP per turn when healing<hidden from users>"
+			"Comment [[All] Units adjacent to this city heal [+30] HP per turn when healing]"
+			]
+        // This should be worded better
+    },
+	
+	{
+        "name": "Religious Texts",//宗教典籍
+        "type": "Enhancer",
+        "uniques": [
+		"[+34]% Natural religion spread [in all cities]<for [non-[Mosuoduo]] Civilizations><hidden from users>", 
+		"[+34]% Natural religion spread [in all cities]<for [non-[Mosuoduo]] Civilizations><hidden from users> <after discovering [Printing Press]>"
+		
+		"[+5]% Natural religion spread [in all cities]<for [Mosuoduo] Civilizations><hidden from users>", 
+		"[+5]% Natural religion spread [in all cities]<for [Mosuoduo] Civilizations><hidden from users> <after discovering [Printing Press]>"
+		
+		"Comment [[+34]% Natural religion spread [in all cities]]",
+		"Comment [[+34]% Natural religion spread [in all cities]<after discovering [Printing Press]>]",
+		]
     },
     
     

@@ -924,4 +924,50 @@
 		"Will not be displayed in Civilopedia"//不会在百科中显示
 		]
 	},
+	
+	{
+		"name": "MonsterCounter",//莫提斯计数器
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		]
+	},
+	
+	{
+		"name": "No.1 Ball",//1号球
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中
+		]
+	},
+	
+	{
+		"name": "No.2 Ball",//2号球
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Not shown on world screen",//不显示
+		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中
+		]
+	},
+	
+	{
+		"name": "Artifact Fragment",//神器碎片
+		"resourceType": "Strategic",
+		"revealedBy": "Resource Technology",
+		"uniques": [
+		"Cannot be traded"//不能交易
+		"Stockpiled"//库存
+		"Will not be displayed in Civilopedia"//不会在百科中
+		]
+	},
 ]

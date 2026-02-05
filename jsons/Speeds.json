@@ -1,5 +1,34 @@
 [
     {
+        "name": "Triple speed",//三倍速
+        "modifier": 0.33,
+        "productionCostModifier": 0.33,
+        "goldCostModifier": 0.33,
+        "scienceCostModifier": 0.33,
+        "cultureCostModifier": 0.33,
+        "faithCostModifier": 0.33,
+        "improvementBuildLengthModifier": 0.33,
+        "barbarianModifier": 0.33,
+        "goldGiftModifier": 1.75,
+        "cityStateTributeScalingInterval": 2.5,
+        "goldenAgeLengthModifier": 0.50,
+        "religiousPressureAdjacentCity": 13,
+        "peaceDealDuration": 5,
+        "dealDuration": 18,
+        "startYear": -4000,
+        "turns": [
+            {"yearsPerTurn": 120, "untilTurn":  25},
+            {"yearsPerTurn": 80, "untilTurn":  40},
+            {"yearsPerTurn": 60, "untilTurn": 50},
+            {"yearsPerTurn": 40, "untilTurn": 65},
+            {"yearsPerTurn": 20, "untilTurn": 78},
+            {"yearsPerTurn":  10, "untilTurn": 98},
+            {"yearsPerTurn":  5, "untilTurn": 130},
+            {"yearsPerTurn":  2, "untilTurn": 165}
+        ]
+    },
+    
+    {
         "name": "Double speed",//二倍速
         "modifier": 0.5,//整体速度
         "productionCostModifier": 0.5,//产能需求

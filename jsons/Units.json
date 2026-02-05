@@ -1,14 +1,17 @@
 [//单位
     /*{
 		"name": "测试",//
-		"uniqueTo": "测试",//千年 - 研讨会",
+		"uniqueTo": "Millennium Science School - Seminar",//千年 - 研讨会",
 		"replaces": "Scout",//取代
 		"unitType": "Sword",
-		"strength": 7,
+		"strength": 10,
+		"rangedStrength": 11,
+		"range": 10,
 		"movement": 2,
 		"cost": 10,
 		"uniques": [
 		Automation is a primary action
+		//"[-100] Range",//射程增加
 		"Never appears as a Barbarian unit"//蛮子不得造
 		],
 		"promotions": ["Ignore terrain cost","CCC"],
@@ -162,6 +165,7 @@
 		"[+1] Range <in [Hill] tiles>"
 		"Cannot move"
 		"[50]% chance to intercept air attacks<starting from the [Modern era]>"
+		"PUU<hidden from users>"
 		],
 		"replacementTextForUniques": "\n [[50]% chance to intercept air attacks<starting from the [Modern era]>] \n [Cannot move] \n [随着时代增长战斗力（从古典起，每过一个时代+100%，直到电气时代停止增长）]\n [[+1] Sight] \n [[-100]% 战斗力与[Siege]单位对战在防御时] \n [在丘陵地块+1射程]"
 		"promotions": ["Indirect Fire","Accuracy II",],//免费晋升
@@ -183,6 +187,7 @@
 		"Nuclear weapon of Strength [2]", 
 		"Blast radius [2]",
 		"Never appears as a Barbarian unit"//蛮子不得造
+		"PUU<hidden from users>"
 		]
 		"attackSound": "throw"
 	},
@@ -203,6 +208,7 @@
 		"Never appears as a Barbarian unit"
 		
 		"Cost increases by [10] when built"
+		"PUU<hidden from users>"
 		],
 		//"promotions": ["CostIncrease"],//免费晋升
 		"hurryCostModifier": 20,
@@ -218,6 +224,7 @@
 		"requiredTech": "Special technology",
 		"uniques": [
 		"Never appears as a Barbarian unit"//蛮子不得造
+		"PUU<hidden from users>"
 		],
 		//"promotions": ["Great Generals I"],//免费晋升
 		"attackSound": "metalhit"
@@ -238,6 +245,7 @@
 		"Can transform to [Awakening Gargoyle]<when above [0] [Awakening counter]>"
 		"[-33]% Strength<vs [Melee] units>"
 		"Never appears as a Barbarian unit"//蛮子不得造
+		"PUU<hidden from users>"
 		],
 		"promotions": ["Cover I"],//免费晋升
 		"attackSound": "metalhit"
@@ -253,6 +261,7 @@
 		"uniques": [
 		"Instantly consumes [1] [Awakening counter]"//立即消耗
 		"Never appears as a Barbarian unit"//蛮子不得造
+		"PUU<hidden from users>"
 		],
 		"promotions": ["Awakening Gargoyle"],//免费晋升
 		"attackSound": "metalhit"
@@ -274,6 +283,7 @@
 		"Self-destructs when attacking"
 		"[-20]% Strength<when defending>"
 		"Never appears as a Barbarian unit"//蛮子不得造
+		"PUU<hidden from users>"
 		],
 		"promotions": ["Indirect Fire"],//免费晋升
 		"attackSound": "arrow"
@@ -294,6 +304,7 @@
 		//"[+10] HP when healing"
 		"Never appears as a Barbarian unit"//蛮子不得造
 		"Must set up to ranged attack"
+		"PUU<hidden from users>"
 		 ],
 		"attackSound": "arrow"
 	},
@@ -318,7 +329,7 @@
 		"Instantly provides [2] [Blood Witch Counter - Distortion]<hidden from users>"
 		"Instantly provides [1] [Blood Witch Counter - Distortion]<upon ending a turn in a [All] tile><when below [7] [Blood Witch Counter - Distortion]><hidden from users>"
 		"Free [Distortion derivative] appears<for [1] movement><when above [1] [Blood Witch Counter - Distortion]><hidden from users>"
-		
+		"PUU<hidden from users>"
 		],
 		"attackSound": "arrow"
 		//"promotions": ["燃尽"],//免费晋升
@@ -334,6 +345,7 @@
 		"uniques": [
 		"Instantly consumes [2] [Blood Witch Counter - Distortion]"
 		"[This Unit] takes [7] damage<upon ending a turn in a [All] tile>"//每回合掉血
+		"PUU<hidden from users>"
 		],
 		//"promotions": ["Cover I"],
 		"attackSound": "metalhit"
@@ -345,6 +357,7 @@
 		"requiredTech": "Special technology",
 		"cost": 0,
 		"uniques": [
+		"PUU<hidden from users>"
             "[+15]% Strength bonus for [Military] units within [5] tiles <when above [0] [Rhythm counter]>"//计数器高于0（激昂）
             
             
@@ -372,6 +385,7 @@
 		"upgradesTo": "Knight",
 		//"requiredResource": "Horses",
 		"uniques": [
+		"PUU<hidden from users>"
 		"Can move after attacking",
 		"Can transform to [Hedgehog]"//转化为什么单位
 		],
@@ -387,6 +401,7 @@
 		"cost": 75,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"PUU<hidden from users>"
 		"[+200]% Strength <vs cities> <when attacking>",
 		"Cannot move"//无法移动
 		"No Sight"//无视野
@@ -400,10 +415,11 @@
 		"name": "Magic Kingdom Spearmen X",//法皇国投枪兵 投枪模式
 		"unitType": "Sword",
 		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 9,
+		"strength": 9,
+		"rangedStrength": 11,
 		"cost": 56,
 		"uniques": [
+		"PUU<hidden from users>"
 		"[+25]% Strength <vs [Mounted] units>"
 		"Can transform to [Magic Kingdom Spearmen]"//转化为什么单位
 		],
@@ -423,6 +439,7 @@
 		//"hurryCostModifier": -35,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"PUU<hidden from users>"
 		//"Unit will heal every turn, even if it performs an action"//每回合都会回血
 		"[+20] HP when healing"
 		"Never appears as a Barbarian unit"//蛮子不得造
@@ -440,6 +457,7 @@
 		"cost": 65,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"PUU<hidden from users>"
 		"Unbuildable", //无法建造
 		"Cannot be purchased<when below [1] [R]>"//无法购买
 		//"Can pass through impassable tiles",//可以无视地行
@@ -459,6 +477,7 @@
 		"cost": 90,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"PUU<hidden from users>"
 		    "Can pass through impassable tiles",//可以无视地行
 			"Invisible to non-adjacent units", //只有附近的才能看到
 			"Can build [Road] improvements on tiles",//可以制造道路
@@ -478,6 +497,7 @@
 		"requiredTech": "Special technology",
 		"cost": 20,
 		"uniques": [
+		"PUU<hidden from users>"
 		    "Unbuildable",
 			"Cannot attack",
 			"Never appears as a Barbarian unit",
@@ -493,6 +513,7 @@
 		"requiredTech": "Special technology",
 		"cost": 0,
 		"uniques": [
+		"PUU<hidden from users>"
 		"Instantly consumes [1] [UniversalCounter]<hidden from users>"
 		"Instantly provides [1] [ElitismCounter]<upon losing at least [1] HP in a single attack><hidden from users>"
 		"[This Unit] takes [100] damage<upon ending a turn in a [All] tile><hidden from users>"//每回合掉血
@@ -518,18 +539,20 @@
 	},
 	
 	{
-	"name": "SwordfishMKI",//
+	"name": "SwordfishMKI",//剑鱼MKI
 		"unitType": "Bomber",
 		"movement": 7,
-		"strength": 8,
-		"rangedStrength": 8,
+		"strength": 10,
+		"rangedStrength": 10,
 		"range": 5,
 		"requiredTech": "Special technology",
 		"cost": 0,
 		"uniques": [
-		"[+30]% Strength <when stacked with a [FifthInfantryBrigade] unit>"
+		"PUU<hidden from users>"
+		"[+60]% Strength <when stacked with a [FifthInfantryBrigade] unit>"
 		"Unit will heal every turn, even if it performs an action"//每回合都会回血
 		"[+10] HP when healing"
+		"Comment [不受万神殿[Faith Healers]的效果影响]"
 		 ],
 		 
 		"attackSound": "arrow"
@@ -542,6 +565,7 @@
 		"strength": 8,
 		"movement": 2,
 		"uniques": [
+		"PUU<hidden from users>"
 		"Can build [Land] improvements on tiles<after turn number [20]>",
 		"[-100]% Strength <when stacked with a [Civilian] unit>"
 		"Cannot attack"//无法攻击不能攻击
@@ -566,6 +590,7 @@
 		"cost": 40,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"PUU<hidden from users>"
 		"Self-destructs when attacking"
 		"Never appears as a Barbarian unit"//蛮子不得造
 		 ],
@@ -582,6 +607,7 @@
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
 		"uniques": [
+		"PUU<hidden from users>"
 		"Comment [改为[Sword]兵种]",
 		"Can move after attacking",
 		"No defensive terrain bonus",
@@ -623,6 +649,7 @@
 		"strength": 16,
 		"cost": 100,
 		"uniques": [
+		"PUU<hidden from users>"
 		"May travel on Water tiles without embarking<hidden from users>"
 		"Double movement in [Coast]<hidden from users>"
 		"Double movement in [Ocean]<hidden from users>"
@@ -645,6 +672,7 @@
 		"cost": 110,
 		"requiredResource": "Horses",
 		"uniques": [
+		"PUU<hidden from users>"
 		"Can move after attacking",
 		"No defensive terrain bonus",
 		"[-33]% Strength <vs cities> <when attacking>"
@@ -667,6 +695,7 @@
 		"range": 2,
 		"cost": 110,
 		"uniques": [
+		"PUU<hidden from users>"
 		"Invisible to non-adjacent units", //只有附近的才能看
 		],
 		"attackSound": "crossbow"
@@ -681,6 +710,7 @@
 		"strength": 16,
 		"cost": 90,
 		"uniques": [
+		"PUU<hidden from users>"
 		"[+50]% Strength <vs [Mounted] units>"
 		"[This Unit] heals [35] HP <upon being promoted>"
 		],
@@ -696,6 +726,7 @@
 		"movement": 2,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"PUU<hidden from users>"
 		"[All] units gain the [GreatSaintAbility] promotion<for all movement><[3] times> <after which this unit is consumed><hidden from users>"
 		"Comment [消耗所有移动力为所有单位回复25HP，并回复1移动力（仅限3次）]",
 		"Never appears as a Barbarian unit"//蛮子不得造
@@ -711,6 +742,7 @@
 		"movement": 2,
 		"requiredTech": "Special technology",
 		"uniques": [
+		"PUU<hidden from users>"
 		"Gain a free [Monastery] [in this city]<[1] times> <after which this unit is consumed>"
 		"Never appears as a Barbarian unit"//蛮子不得造
 		"Unbuildable", 
@@ -931,7 +963,7 @@
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Pikeman",
-              "promotions": ["雷霆之力"],
+              "promotions": ["ThunderPower"],
 		"attackSound": "metalhit"
 	},	
 	
@@ -942,7 +974,7 @@
 		"uniqueTo": "VampirE",//黄巾军
 		"replaces": "Spearman",
 		"movement": 2,
-		"strength": 13,
+		"strength": 14,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
@@ -1056,7 +1088,7 @@
 		"cost": 150,
 		"uniques": [
 		"[+2] additional attacks per turn", //可以多a一次
-		//"[+80]% Strength <when attacking> <vs [Military] units>"//受伤的单位+10%力
+		"[-30]% Strength <when attacking> <vs [Wounded] units>"
 		"[+50]% Strength <when attacking> <vs [non-[Wounded]] units>"//首刀暴击
 		],
 		"requiredTech": "Gunpowder",
@@ -1208,7 +1240,7 @@
 		"unitType": "Mounted",	
 		"uniqueTo": "ikun",//ikun
 		"replaces": "Horseman",
-		"movement": 3,
+		"movement": 4,
 		"strength": 12,
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
@@ -1379,7 +1411,8 @@
 			"Removes other religions when spreading religion",
             "May found a religion",
             "May enhance a religion",
-			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"May enter foreign tiles without open borders", 
+			"[-1] Sight", "Great Person - [Faith]",
 			"Free Great Person<by consuming this unit>"
 			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
 			"Takes your religion over the one in their birth city"],
@@ -1467,7 +1500,14 @@
 		"obsoleteTech": "Military Science",
 		"upgradesTo": "Cavalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit","Ignore terrain cost"],
+		"uniques": [
+		"Can move after attacking",
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>", 
+		"Never appears as a Barbarian unit",
+		
+		"Ignore terrain cost"
+		],
 		"attackSound": "horse"
 	},
 	
@@ -3172,16 +3212,16 @@
 		"strength": 7,
 		"rangedStrength": 10,
 		"range": 4,
-		"cost":90,
+		"cost":85,
 		"requiredTech": "Mathematics",
 		"obsoleteTech": "Flight",
 		"upgradesTo": "Triplane",
 		"uniques": [
-	    "Earn [50]% of killed [All] unit's [Strength] as [Gold]",
-	    "Earn [75]% of killed [All] unit's [Strength] as [Culture]",
+	    "Earn [100]% of killed [All] unit's [Strength] as [Culture]",
 	    "No defensive terrain bonus",
 	    "Must set up to ranged attack", 
 	    "[-1] Sight",
+		"Comment [不受万神殿[Faith Healers]的效果影响]"
 		]	
 		"attackSound": "arrow"
 	}
@@ -3191,20 +3231,21 @@
 		"uniqueTo": "AirBandits",//空战之王
 		"replaces": "Trebuchet",//所代替
 		"movement": 1,
-		"strength": 12,
+		"strength": 18,
 		"rangedStrength": 18,
 		"range": 4,
-		"cost":180,
+		"cost":160,
 		"requiredTech": "Physics",
 		"requiredResource": "Iron",
 		"obsoleteTech": "Flight",
 		"upgradesTo": "Great War Bomber",
 		"uniques": [
-	    "Earn [50]% of killed [All] unit's [Strength] as [Gold]",
+	    "Earn [100]% of killed [All] unit's [Strength] as [Gold]",
 	    "Earn [75]% of killed [All] unit's [Strength] as [Culture]",
 	    "No defensive terrain bonus",
 	    "Must set up to ranged attack", 
 	    "[-1] Sight",
+		"Comment [不受万神殿[Faith Healers]的效果影响]"
 		]	
 		"attackSound": "bombing"
 	},
@@ -3325,7 +3366,7 @@
 		"obsoleteTech": "Chivalry",
 		"upgradesTo": "Knight",
 		"uniques": [
-		"Heals [10] damage if it kills a unit<upon defeating a [All] unit> <in [{Forest} {Jungle}] tiles>",
+		"Heals [10] damage if it kills a unit",
 		"[+10] HP when healing <in [Hill] tiles>",
 		"Earn [50]% of killed [All] unit's [Strength] as [Gold] <in [Hill] tiles>",
 		],
@@ -3371,6 +3412,28 @@
 		"name": "Whirlfangs",//旋牙骑
 		"unitType": "Archery",
 		"uniqueTo": "Vakentar",//瓦肯塔尔（破军
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,		
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"obsoleteTech": "Chivalry",
+		"upgradesTo": "Knight",
+		"requiredResource": "Horses",
+		"uniques": [
+		"No defensive terrain bonus", 
+		"Rough terrain penalty"
+		"[Target Unit] gains the [Bloodrot I] promotion<upon damaging a [All] unit><hidden from users>"
+		"Comment [攻击使目标获得【血溃】：每回合结束时-3HP，每次受到攻击伤害时叠加1层，最多可叠加3层（可被浴火重生解除）。]",
+		],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "[Whirlfangs]",//旋牙骑
+		"unitType": "Archery",
+		"uniqueTo": "Vakentar-Breakthrough",//瓦肯塔尔（破军
 		"replaces": "Chariot Archer",
 		"movement": 4,
 		"strength": 6,
@@ -3661,7 +3724,7 @@
 		"movement": 2,
 		"strength": 3,
 		"rangedStrength": 4,
-		"cost": 36,
+		"cost": 40,
 		"uniques": ["[+100]% Strength",
 		"All tiles cost 1 movement"],
 		"requiredTech": "Archery",
@@ -3707,6 +3770,7 @@
 		"[+1] Sight",
 		"Shijian <in tiles not adjacent to [Friendly Land] tiles> <within [3] tiles of a [City center]> <hidden from users>",
 		"Comment [在与友好领土不相邻的地块上且位于城市中心3格范围内+2[Culture]]",
+		"Unable to pillage tiles",
 		"Limited to [3] per Civilization"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
@@ -4047,7 +4111,7 @@
 		"movement": 3,
 		"strength": 13,
 		"cost": 95,
-		"replacementTextForUniques": "战斗力随时代变化而变化\n造成伤害以及受到伤害均可以获得黄金时代点数，黄金时代期间视为处于Fever状态\n\n不限制攻击次数且攻击后可移动\n每次攻击追加随机浮动的额外伤害（最高为7）\n\nFever期间相邻的敌方单位结束回合时受到18伤害",
+		"replacementTextForUniques": "战斗力随时代变化而变化\n造成伤害以及受到伤害均可以获得黄金时代点数，黄金时代期间视为处于Fever状态\n\n不限制攻击次数且攻击后可移动\n每次攻击追加随机浮动的额外伤害（最高为7）\n"//\nFever期间相邻的敌方单位结束回合时受到18伤害",
 		"uniques": [
 		"[+35]% Strength <during the [Medieval era]>",
 		"[+75]% Strength <during the [Renaissance era]>",
@@ -4073,7 +4137,7 @@
 		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [50]% chance>",
 		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance>",
 		"[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [70]% chance>",
-		"Adjacent enemy units ending their turn take [18] damage <during a Golden Age>"
+		//"Adjacent enemy units ending their turn take [18] damage <during a Golden Age>"
 		],
 		"attackSound": "crossbow"
 	},
@@ -4101,7 +4165,7 @@
 		"Unbuildable <if [Do not fear Amoris] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
 		"Unbuildable <if [Do not fear Mortis] is constructed in at least [1] of [in all cities] cities> <hidden from users>",
 		"Limited to [1] per Civilization",
-		"Unbuildable <when number of [[Mortis] Unit] is more than [0]>",
+		"Unbuildable <when number of [MonsterCounter] is more than [0]>",
 		"[This Unit] takes [6] damage <upon damaging a [All] unit> <when not in a Golden Age>",
 		"Free [Mortis] appears <upon being defeated>",
 		"Withdraws before melee combat <during a Golden Age>"
@@ -4128,8 +4192,215 @@
 		"Cannot be purchased",
 		"Cannot attack",
 		"[This Unit] gains the [无法转化为[Wakaba Mutsumi]] status for [3] turn(s)",
-		"Can transform to [Wakaba Mutsumi] <for units without [无法转化为[Wakaba Mutsumi]]>"
+		"Can transform to [Wakaba Mutsumi] <costs [1] [MonsterCounter]><for units without [无法转化为[Wakaba Mutsumi]]>"
 		],
+		"attackSound": "crossbow"
+		"promotions": ["Multi-headedMonster"],
+	},
+	
+	
+	{
+		"name": "ProductivePower",//产能能产
+		"unitType": "Sword",
+		"uniqueTo": "Neng",//能
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"uniques": [
+		"[-5]% production cost<for every [5] [[Production] Per Turn]>"
+		"[+50]% Strength <vs [Mounted] units>"
+		],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Big Carter",//大卡特
+		"uniqueTo": "Heaven & the Mafia",
+		"replaces": "Knight",
+		"unitType": "Mounted",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 16,
+		"range": 3,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": [
+		"Can move after attacking",
+		],
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Zhangba Snake Spear",//丈八蛇矛
+		"unitType": "Sword",
+		"uniqueTo": "Three Kingdoms Kill Online",
+		"replaces": "Spearman",
+		"movement": 2,
+		"strength": 12,
+		"cost": 52,
+		"requiredTech": "Bronze Working",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Pikeman",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>",
+		"[+1] Strength"
+		],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Misfortune class phase cruiser",//厄运级相位巡洋舰
+		"unitType": "Mounted",
+		"uniqueTo": "Lude Left Path",
+		"replaces": "Horseman",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"uniques": [
+		"No defensive terrain bonus",
+		"[-33]% Strength <vs cities> <when attacking>",
+		"Invisible to others",
+		"Comment [[Scout]可以发现隐形的[Misfortune class phase cruiser]]"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "horse"
+	},
+	
+	{
+		"name": "Gyrene",//陆战队员
+		"unitType": "Civilian",
+		"uniqueTo": "Lude Left Path",
+		"movement": 3,
+		"cost": 25,
+		"uniques": [
+		"Invisible to non-adjacent units",
+		"Ignore terrain cost"
+		],
+	},
+	
+	{
+		"name": "Half a bag of ham sausage",//半袋火腿肠
+		"unitType": "Archery",
+		"uniqueTo": "Heaven & the Airline",//天国与航空公司
+		"replaces": "Chariot Archer",
+		"movement": 4,
+		"strength": 6,
+		"rangedStrength": 10,
+		"cost": 56,
+		"requiredTech": "The Wheel",
+		"upgradesTo": "Knight",
+		"obsoleteTech": "Chivalry",
+		"requiredResource": "Horses",
+		"uniques": [
+		"Comment [不受正面防御地形的影响如果未受随机影响]",
+		"Comment [进行移动力损耗计算时强调崎岖地形的影响如果未受随机影响]",
+		"No defensive terrain bonus <when number of [No.1 Ball] is different than [0]> <when number of [No.2 Ball] is different than [0]> <hidden from users>", 
+		"Rough terrain penalty <when number of [No.1 Ball] is different than [1]> <when number of [No.2 Ball] is different than [0]> <hidden from users>",
+		"Withdraws before melee combat <when between [2] and [2] [No.1 Ball]> <when between [0] and [0] [No.2 Ball]> <hidden from users>",
+		"Transfer Movement to [Civilian] <when between [0] and [0] [No.1 Ball]> <when between [1] and [1] [No.2 Ball]> <hidden from users>",
+		"Can see over obstacles <when between [1] and [1] [No.1 Ball]> <when between [1] and [1] [No.2 Ball]> <hidden from users>",
+		"Invisible to non-adjacent units <when between [2] and [2] [No.1 Ball]> <when between [1] and [1] [No.2 Ball]> <hidden from users>",
+		"Ignores Zone of Control <when between [0] and [0] [No.1 Ball]> <when between [2] and [2] [No.2 Ball]> <hidden from users>",
+		"May found a religion <when between [1] and [1] [No.1 Ball]> <when between [2] and [2] [No.2 Ball]> <hidden from users>",
+		"May enhance a religion <when between [2] and [2] [No.1 Ball]> <when between [2] and [2] [No.2 Ball]> <hidden from users>",
+		"Comment [根据游戏自身退出与进入的情况固定获得如下加成之一：\n1.进行移动力损耗计算时不再强调崎岖地形的影响\n2.不再不受正面防御地形的影响\n3.在近战前撤退\n4.将移动力转移至平民单位\n5.视野可以跨过障碍\n6.对非相邻单位隐身\n7.忽视地块控制权\n8.可创建一个宗教\n9.可增强一个宗教]",
+		],
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Ultra large bucket of instant noodles",//超大桶泡面
+		"unitType": "Civilian",
+		"uniqueTo": "Heaven & the Airline",//天国与航空公司
+		"replaces": "Settler",
+		"movement": 3,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction"],
+		"hurryCostModifier": 20
+	},
+	
+	{
+		"name": "Springtail",//跳虫
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 5,
+		"cost": 50,
+		"requiredTech": "Resource Technology",
+		"uniques": ["Unbuildable",
+		"Comment [至少拥有5座城市时获得+25%*时代序数的战斗力加成]"
+		"[+25]% Strength <during the [Ancient era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		"[+50]% Strength <during the [Classical era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		"[+75]% Strength <during the [Medieval era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		"[+100]% Strength <during the [Renaissance era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		"[+125]% Strength <during the [Industrial era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		"[+150]% Strength <during the [Modern era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		"[+175]% Strength <during the [Atomic era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		"[+200]% Strength <during the [Information era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		"[+225]% Strength <during the [Future era]> <when number of [[in all cities] Cities] is more than [4]> <hidden from users>",
+		],
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Wedding dress",//婚纱
+		"unitType": "Archery",
+		"uniqueTo": "Heaven & the Toy factory",//天国与玩具工厂
+		"replaces": "Archer",
+		"movement": 2,
+		"strength": 5,
+		"rangedStrength": 3,
+		"cost": 40,
+		"requiredTech": "Archery",
+		"obsoleteTech": "Construction",
+		"upgradesTo": "Composite Bowman",
+		"uniques": ["Can move after attacking",
+			"[4] additional attacks per turn",
+			"[This Unit] gains [1] movement <upon damaging a [All] unit>",
+			"[This Unit] gains [1] movement <upon damaging a [City] unit>",],
+		"attackSound": "arrow"
+	},
+	
+	{
+		"name": "Ultra advanced aerial ancient catapult",//超先进主义的架空远古投石机
+		"uniqueTo": "Special Opening",//特别开局
+		"replaces": "Catapult",
+		"unitType": "Siege",
+		"range": 3,
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 8,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Trebuchet",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw",
+		"promotions": ["Indirect Fire"],//免费晋升
+	},
+	
+	{
+		"name": "Sarnaga Sentinel",//萨尔纳加哨兵
+		"uniqueTo": "Sarnaga Protoss",//萨尔纳加神族
+		"replaces": "Crossbowman",
+		"unitType": "Archery",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"uniques": ["[This Unit] gains the [Sarnaga Sentinel - Promotion] promotion <upon defeating a [Military] unit>"],
+		"requiredTech": "Machinery",
+		"upgradesTo": "Gatling Gun",
+		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow"
 	},
 ]

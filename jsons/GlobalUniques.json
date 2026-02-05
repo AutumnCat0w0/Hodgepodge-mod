@@ -5,11 +5,24 @@
 			"[-10] Movement<in [Coast] tiles> <if [SunburstAbility] is constructed by anybody>"
 			"[-10] Movement<in [Ocean] tiles> <if [SunburstAbility] is constructed by anybody>"
 			"[+100]% [Production] [in all cities]<for [City-States] Civilizations>",
-		"May buy [{Military} {Land} {non-['AHugeUglyThing']}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]><after adopting [Holy Warriors]>"
+		//"May buy [{Military} {Land} {non-['AHugeUglyThing']}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]><after adopting [Holy Warriors]>"
 		"[+9 Happiness] <after adopting [Aqua]>",
 		"Gain a free [StrongerPolicies] [in capital] <when [PatternStrongerPolicies] Victory is enabled>",
 		"Gain a free [PowerfulBarbarians] [in capital] <when [PatternPowerfulBarbarians] Victory is enabled>",
 		"Gain a free [DarkWorld] [in capital] <when [PatternDarkWorld] Victory is enabled>",
+		"3dm <for units with [3血要没咯]>",
+		"6dm <for units with [6血要没咯]>",
+		"9dm <for units with [9血要没咯]>",
+		"12dm <for units with [12血要没咯]>",
+		"Xiayong <for units with [Narrow Brave]>",
+		//游乐园模式
+		"Cannot build [Settler] units <when [Pleasance] Victory is enabled>",
+		"[+1] Movement <for [All] units> <when [Pleasance] Victory is enabled>",
+		"Free [Worker] appears <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]> <when [Pleasance] Victory is enabled>",
+		"[-100]% construction time for [All] improvements <when [Pleasance] Victory is enabled>",
+		"Free [Settler] appears <upon turn start> <every [20] turns> <after turn number [10]> <when [Pleasance] Victory is enabled>",
+		"[4] Free Technologies <when [Pleasance] Victory is enabled>",
+		"Triggers a [Welcome to the Pleasance] event <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]> <when [Pleasance] Victory is enabled>",
             ]
     "unitUniques": [
         "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile> <when above [0] [Talisman charm]>",
@@ -23,6 +36,10 @@
         "[-50]% XP gained from combat <vs [Little Skull] units> <after adopting [Military Tradition]>",
 		"[This Unit] gains [1] movement<upon entering a [All] tile><in [Friendly Land] tiles><for [Arian] Civilizations>"
 		"[+15]% Strength<when adjacent to a [Wilde Dancer] unit><hidden from users>",
-		"[This Unit] heals [5] HP <upon turn end> <when adjacent to a [non-[SakichanSakichanSakichan]] unit> <when adjacent to a [Misumi Hatsuka] unit>"
+		"[This Unit] heals [5] HP <upon turn end> <when adjacent to a [non-[SakichanSakichanSakichan]] unit> <when adjacent to a [Misumi Hatsuka] unit>",
+		"[This Unit] gains the [9血要没咯] promotion <when adjacent to a [12dm] unit> <upon turn end>",
+		"[This Unit] gains the [6血要没咯] promotion <when adjacent to a [9dm] unit> <upon turn end>",
+		"[This Unit] gains the [3血要没咯] promotion <when adjacent to a [6dm] unit> <upon turn end>",
+		"Can see invisible [Misfortune class phase cruiser] units <for [Scout] units>"
     ]
 }

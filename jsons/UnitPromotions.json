@@ -301,7 +301,7 @@
 	
 	{
 	"name": "Wings of Freedom",//自由之翼
-		"uniques": ["May Paradrop up to [3] tiles from inside friendly territory",
+		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>",
 			"Can pass through impassable tiles"
 			"Ignores Zone of Control"
 			//"[+1] Sight <for [All] units>",//增加视野
@@ -309,7 +309,7 @@
 	},
 	
 	{
-        "name": "雷霆之力",
+        "name": "ThunderPower",//雷霆之力
 	 "uniques": [
 	 "[-10]% Strength for enemy [Military] units in adjacent [All] tiles"
 	 ],
@@ -391,7 +391,7 @@
         "name": "Deep-sea predation",//深海捕食
 	 "uniques": [
 	 "[This Unit] takes [20] damage<upon ending a turn in a [Desert] tile>",
-	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+	 "Heals [25] damage if it kills a unit",
 	 "[This Unit] gains [3] XP<upon defeating a [All] unit>",
 	 ]
 	},
@@ -413,9 +413,9 @@
 	},
 	
 	{
-        "name": "愈战愈勇",
+        "name": "Battle-hardened",//愈战愈勇
 	 "uniques": [
-	 "Heals [20] damage if it kills a unit<upon defeating a [All] unit>",
+	 "Heals [20] damage if it kills a unit",
 	 "[This Unit] gains [2] XP<when defending>",
 	 ]
 	},
@@ -438,7 +438,7 @@
 	{
         "name": "Vampire",//吸血鬼
 	 "uniques": [
-	 "Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+	 "Heals [25] damage if it kills a unit",
 	 "[+33]% Strength<vs [Barbarian] units>"
 	 ]
 	},
@@ -802,7 +802,7 @@
 	    "uniques": [
 	    "[+15]% Strength"
 		"[+1] Movement"//移动
-		"Heals [25] damage if it kills a unit<upon defeating a [All] unit>",
+		"Heals [25] damage if it kills a unit",
 		"[+50]% XP gained from combat"
 		"[+15]% Strength bonus for [Military] units within [2] tiles",
 	 ]
@@ -1389,7 +1389,14 @@
 	 "uniques": [
 	 "[-10]% Strength <for [Archery] units>",
      "[+1] Movement <in [Rough terrain] tiles> <for [Archery] units>",
-     "[+2]% Strength<when attacking> <upon ending a turn in a [Rough terrain] tile> <for [2] turns> <for [Archery] units>"]//-10战力，单位在崎岖结束回合+1移动持续1回合，单位在崎岖结束回合所有弓箭+2战力持续3回合
+     "[This Unit] gains the [Mountain hunterX] promotion<upon ending a turn in a [Rough terrain] tile><for [Archery] units>"]
+     },
+	 
+	 {
+	 "name": "Mountain hunterX",//山地猎手X
+	 "uniques": [
+	 "Doing so will consume this opportunity to choose a Promotion"
+     "[+2]% Strength<when attacking><for [2] turns>"]
      },
 	
 	 {
@@ -1454,10 +1461,25 @@
 	},
 	
 	{
+        "name": "LegionRampage-Breakthrough",//界破军之势
+	    "uniques": [
+	    "[Target Unit] gains the [LineBroken-Breakthrough] status for [2] turn(s) <upon damaging a [All] unit>",
+	    "[Target Unit] takes [5] damage <upon damaging a [All] unit> <in [Foreign Land] tiles> <within [1] tiles of a [Rough terrain]>"
+		]
+	},
+	
+	{
         "name": "LineBroken",//战线崩溃
 	    "uniques": [
 		"Provides [1] [LineBrokenCounter]<for [2] turns>"//战线崩溃计数器（破军计数器
 		"Doing so will consume this opportunity to choose a Promotion"
+		]
+	},
+	{
+        "name": "LineBroken-Breakthrough",//界战线崩溃
+	    "uniques": [
+		"No defensive terrain bonus",
+		"[-15]% Strength <when defending> <in [Open terrain] tiles>",
 		]
 	},
 	
@@ -2040,7 +2062,7 @@
         "[+1] Sight",
         "Can see over obstacles",
         "Invisible to others <when not at war>",
-        "Invisible to others <for [Suspicious Looking Eye] units> <when at war>",
+        "Invisible to others <in [Foreign Land] tiles> <in tiles without [Enemy Land]> <for [Suspicious Looking Eye] units> <when at war>",
         ]
     },
     {
@@ -2181,4 +2203,114 @@
 		"Comment [该晋升消失前无法转化为[Wakaba Mutsumi]]"
 		]
 	},
+	
+	{
+	    "name": "Multi-headedMonster",//多首的怪物 若叶睦/莫提斯
+		"uniques": [
+		"Instantly provides [1] [MonsterCounter]",
+		"Instantly consumes [1] [MonsterCounter]<upon being defeated>"//立即消耗
+		]
+	},
+	
+	{
+	    "name": "The towering bombing",//滔天的轰炸
+		"uniques": [
+		"[This Unit] gains the [The towering bombing - Deployment Status] promotion <costs [6] [Magic power]> <on [Double speed] game speed>",
+		"[This Unit] gains the [The towering bombing - Deployment Status] promotion <costs [8] [Magic power]> <on [Quick] game speed>",
+		"[This Unit] gains the [The towering bombing - Deployment Status] promotion <costs [12] [Magic power]> <on [Standard] game speed>",
+		"[This Unit] gains the [The towering bombing - Deployment Status] promotion <costs [18] [Magic power]> <on [Epic] game speed>",
+		"[This Unit] gains the [The towering bombing - Deployment Status] promotion <costs [36] [Magic power]> <on [Marathon] game speed>",
+		"[This Unit] gains the [The towering bombing - Deployment Status] promotion <costs [60] [Magic power]> <on [One fifth speed] game speed>",
+		]
+	},
+	
+	{
+	    "name": "The towering bombing - Deployment Status",//滔天的轰炸-部署状态
+		"uniques": [
+		"Can only attack [Military] units",
+		"Cannot move",
+		"[+2] Sight",
+        "[+2] Range",
+		"[Target Unit] gains the [12血要没咯] promotion <upon damaging a [All] unit>",
+		"[This Unit] loses the [The towering bombing - Deployment Status] promotion <upon damaging a [All] unit>"
+		]
+	},
+	
+	{
+	    "name": "12血要没咯",
+		"uniques": [
+		"[This Unit] takes [12] damage <upon turn start>",
+		"[This Unit] loses the [12血要没咯] promotion <upon turn end>",
+		]
+	},
+	
+	{
+	    "name": "9血要没咯",
+		"uniques": [
+		"[This Unit] takes [9] damage <upon turn start>",
+		"[This Unit] loses the [9血要没咯] promotion <upon turn end>",
+		]
+	},
+	
+	{
+	    "name": "6血要没咯",
+		"uniques": [
+		"[This Unit] takes [6] damage <upon turn start>",
+		"[This Unit] loses the [6血要没咯] promotion <upon turn end>",
+		]
+	},
+	
+	{
+	    "name": "3血要没咯",
+		"uniques": [
+		"[This Unit] takes [3] damage <upon turn start>",
+		"[This Unit] loses the [3血要没咯] promotion <upon turn end>",
+		]
+	},
+	
+	{
+	    "name": "Deliberation Zhangfei",//谋张飞
+		"uniques": [
+		"[This Unit] gains the [Deliberation Zhangfei - Narrow Brave] promotion <for [1] movement> <for units without [Narrow Brave]> <for units without [Deliberation Zhangfei - Narrow Brave]>"
+		]
+	},
+	
+	{
+	    "name": "Deliberation Zhangfei - Narrow Brave",//谋张飞-狭勇
+		"uniques": [
+		"[This Unit] gains the [Narrow Brave] promotion <upon damaging a [Ranged] unit>",
+		"[Target Unit] gains the [Narrow Brave] promotion <upon damaging a [Ranged] unit>",
+		"[This Unit] loses the [Deliberation Zhangfei - Narrow Brave] promotion <upon damaging a [All] unit>"
+		]
+	},
+	
+	{
+	    "name": "Narrow Brave",//狭勇
+		"uniques": [
+		"[This Unit] takes [20] damage <upon damaging a [non-[Xiayong]] unit>",
+		]
+	},
+	
+	{
+	    "name": "Lude Left Path - Promotion",//卢德左径-晋升
+		"uniques": [
+		"[Target Unit] is destroyed <upon damaging a [Civilian] unit>",
+		"Gain [15] [Gold] <upon defeating a [All] unit>"
+		]
+	},
+	
+	{
+	    "name": "双重打击",
+		"uniques": [
+		"[1] additional attacks per turn"
+		]
+	},
+	
+	{
+	    "name": "Sarnaga Sentinel - Promotion",
+		"uniques": [
+		"[1] additional attacks per turn",
+		"[+1] Movement"
+		]
+	}
 ]

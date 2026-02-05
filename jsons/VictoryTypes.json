@@ -46,4 +46,12 @@
         "Build [Building-PowerfulBarbarians]"
         ]
     },
+    
+    {//启用游乐园
+        "name":"Pleasance",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+        "Build [Building-Pleasance]"
+        ]
+    },
 ]
