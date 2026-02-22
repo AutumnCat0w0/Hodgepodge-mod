@@ -6119,6 +6119,7 @@
 		"uniqueName": "名为爱丽丝的少女",
 		"uniques": [
 		"[+100]% Culture cost of adopting new Policies",
+		"Instantly provides [1] [Magic power] <upon expending a [Rabbit] unit> <when number of [Magic power] is more than [0]>",
 		//传统
 		"[+3 Culture] [in capital]<after adopting [Tradition]>",
         "[-25]% Culture cost of natural border growth [in all cities]<after adopting [Tradition]>",
@@ -6941,7 +6942,7 @@
 		"outerColor": [199,99,200],//文明内部色*
 		"innerColor": [65,13,45],//文明外部色*
 		
-		"uniqueText": "令军事单位可以消耗1移动力使下次被攻击目标与自身获得[Narrow Brave]晋升（攻击没有[Narrow Brave]晋升的单位时受到20伤害）",
+		"uniqueText": "令远程单位可以消耗1移动力使下次被攻击远程目标与自身获得[Narrow Brave]晋升（攻击没有[Narrow Brave]晋升的单位时受到20伤害）",
 		"uniqueName": "狭勇"//文明特性名
 		"uniques": [
 	    "[Ranged] units gain the [Deliberation Zhangfei] promotion"
@@ -7043,7 +7044,7 @@
 		"uniqueText": "拥有至少2座城市且所有城市均建有[Blood pool]时，每8回合产生等同城市数量的[Springtail]\n（[Springtail]：5战斗力 4移动力 至少拥有5座城市时获得+25%*时代序数的战斗力加成）",
 		"uniqueName": "我即是虫群"//文明特性名
 		"uniques": [
-	    "Free [Springtail] appears <for every [[in all cities] Cities]> <every [8] turns> <if [Blood pool] is constructed in all [in all cities] cities> <when number of [[in all cities] Cities] is more than [1]>"
+	    "Free [Springtail] appears <for every [[in all cities] Cities]> <upon turn start> <every [8] turns> <if [Blood pool] is constructed in all [in all cities] cities> <when number of [[in all cities] Cities] is more than [1]>"
 			],//文明特性具体效果
 			"cities": ["Zerg",]
 			
@@ -7199,5 +7200,103 @@
 		"[-1] Unit Supply <for every [[All] Units]>"
 			],//文明特性具体效果
 			"cities": ["Sarnaga Protoss",]
+	},
+	
+	{
+		"name": "Komeiji Koishi",//古明地恋
+		"civilopediaText":[
+        {"text": "设计者：梅"}],
+		"leaderName": "古明地恋",
+		"adjective": ["x"],
+		//"startBias": ["Coast"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕,咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [43,255,64],//文明内部色*
+		"innerColor": [199,0,155],//文明外部色*
+		"uniqueName": "无意识的漫游"//文明特性名
+		"uniqueText": "在己方领土内对非相邻单位隐身\n每8回合可以触发为期2回合的对非相邻单位隐身，且效果结束前对战受伤单位+10%战斗力，+1移动力",
+		"uniques": [
+		"[All] units gain the [无意识的漫游] promotion",
+		"Provides [1] [Magic power]",
+		"Provides [-9] [Magic power] <when above [7] [Magic power]>"
+			],//文明特性具体效果
+			"cities": ["Chireiden",]
+	},
+	
+	{
+		"name": "Komeiji Satori",//古明地觉
+		"civilopediaText":[
+        {"text": "设计者：梅"}],
+		"leaderName": "古明地觉",
+		"adjective": ["x"],
+		//"startBias": ["Coast"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕,咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [43,255,64],//文明内部色*
+		"innerColor": [199,0,155],//文明外部色*
+		"uniqueName": "觉之瞳"//文明特性名
+		"uniqueText": "相邻敌方单位-10%战斗力\n对战远程单位防御时+10%战斗力\n[Pasture]与[Camp]-2[Food], +2[Production]\n对所有地块改良-50%的建造时间\n组建[Settler]时-20%[Production]",
+		"uniques": [
+		"[All] units gain the [觉之瞳] promotion",
+		"[-2 Food, +2 Production] from every [Pasture]",
+		"[-2 Food, +2 Production] from every [Camp]",
+		"[-50]% construction time for [All] improvements",
+		"[-20]% Production when constructing [Settler] units [in all cities]"
+			],//文明特性具体效果
+			"cities": ["Chireiden",]
+	},
+	
+	{
+		"name": "Hata no Kokoro",//琴心
+		"civilopediaText":[
+        {"text": "设计者：梅"}],
+		"leaderName": "琴心",
+		"adjective": ["x"],
+		//"startBias": ["Coast"],//起始偏好
+		"preferredVictoryType": "Scientific",//当该文明作为ai时偏好路线 科技/征服/外交/文化/宗教 
+		"startIntroPart1": "咕咕咕",//介绍1
+		"startIntroPart2": "咕咕咕",//介绍2
+		"declaringWar": "咕咕咕！",//向玩家宣战
+		"attacked":"咕 咕 咕 ！",//被玩家宣战
+		"defeated": "咕……",//被玩家打败时
+        "introduction": "咕,咕咕？",//初见
+        "neutralHello": "咕咕咕~",//通常问候
+        "hateHello": "咕咕！",//战争时问候
+        "tradeRequest": "咕咕~",//向玩家申请交易时
+		"outerColor": [199,0,155],//文明内部色*
+		"innerColor": [43,255,64],//文明外部色*
+		"uniqueName": "四面灵气"//文明特性名
+		"uniqueText": "拥有4种情绪，每回合随机一种情绪（喜、怒、哀、乐）\n喜：所有城市+1[Happiness]，+20%[Culture]\n怒：所有单位+10%战斗力\n哀：相邻敌方单位-10%战斗力\n乐: 所有单位+1移动力\n以上所有效果在研究[Philosophy]后翻倍",
+		"uniques": [
+		"Instantly provides [1] [No.1 Ball] <with [50]% chance> <upon turn start>",
+		"Instantly provides [1] [No.2 Ball] <with [50]% chance> <upon turn start>",
+		"Instantly consumes [2] [No.1 Ball] <when number of [No.1 Ball] is more than [0]> <upon turn start>",
+		"Instantly consumes [2] [No.2 Ball] <when number of [No.2 Ball] is more than [0]> <upon turn start>",
+		"Instantly provides [1] [No.1 Ball] <when number of [No.1 Ball] is less than [0]> <upon turn start>",
+		"Instantly provides [1] [No.2 Ball] <when number of [No.2 Ball] is less than [0]> <upon turn start>",
+		"[+1 Happiness] [in all cities] <when number of [No.1 Ball] is equal to [0]> <when number of [No.2 Ball] is equal to [0]>",
+		"[+20]% [Culture] [in all cities] <when number of [No.1 Ball] is equal to [0]> <when number of [No.2 Ball] is equal to [0]>",
+		"[+1] Movement <for [All] units> <when number of [No.1 Ball] is equal to [-1]> <when number of [No.2 Ball] is equal to [-1]>",
+		"[+1 Happiness] [in all cities] <when number of [No.1 Ball] is equal to [0]> <when number of [No.2 Ball] is equal to [0]> <after discovering [Philosophy]>",
+		"[+20]% [Culture] [in all cities] <when number of [No.1 Ball] is equal to [0]> <when number of [No.2 Ball] is equal to [0]> <after discovering [Philosophy]>",
+		"[+1] Movement <for [All] units> <when number of [No.1 Ball] is equal to [-1]> <when number of [No.2 Ball] is equal to [-1]> <after discovering [Philosophy]>"
+			],//文明特性具体效果
+			"cities": ["Hata no Kokoro",]
 	},
 ]

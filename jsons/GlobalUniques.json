@@ -40,6 +40,8 @@
 		"[This Unit] gains the [9血要没咯] promotion <when adjacent to a [12dm] unit> <upon turn end>",
 		"[This Unit] gains the [6血要没咯] promotion <when adjacent to a [9dm] unit> <upon turn end>",
 		"[This Unit] gains the [3血要没咯] promotion <when adjacent to a [6dm] unit> <upon turn end>",
-		"Can see invisible [Misfortune class phase cruiser] units <for [Scout] units>"
+		"Can see invisible [Misfortune class phase cruiser] units <for [Scout] units>",
+		"[This Unit] loses [1] movement <for [non-[Komeiji Koishi]] units> <upon entering a [Rose Path] tile>",
+		"[This Unit] takes [5] damage <for [non-[Komeiji Koishi]] units> <in [Rose Path] tiles> <upon turn end>"
     ]
 }

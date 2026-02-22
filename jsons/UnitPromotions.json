@@ -2312,5 +2312,27 @@
 		"[1] additional attacks per turn",
 		"[+1] Movement"
 		]
+	},
+	
+	{
+	    "name": "觉之瞳",
+		"uniques": [
+		"[-10]% Strength for enemy [All] units in adjacent [All] tiles",
+		"[+10]% Strength <vs [Ranged] units> <when defending>",
+		]
+	},
+	
+	{
+	    "name": "无意识的漫游",
+		"uniques": [
+		"Invisible to non-adjacent units <in [your] tiles>",
+		"Invisible to non-adjacent units <when between [7] and [8] [Magic power]>",
+		"[+1] Movement <when between [7] and [8] [Magic power]>",
+		"[+10]% Strength <vs [Wounded] units> <when between [7] and [8] [Magic power]>",
+		"[+10]% Strength <when number of [No.1 Ball] is equal to [-1]> <when number of [No.2 Ball] is equal to [0]>",
+		"[-10]% Strength for enemy [All] units in adjacent [All] tiles <when number of [No.1 Ball] is equal to [0]> <when number of [No.2 Ball] is equal to [-1]>",
+		"[+10]% Strength <when number of [No.1 Ball] is equal to [-1]> <when number of [No.2 Ball] is equal to [0]> <after discovering [Philosophy]>",
+		"[-10]% Strength for enemy [All] units in adjacent [All] tiles <when number of [No.1 Ball] is equal to [0]> <when number of [No.2 Ball] is equal to [-1]> <after discovering [Philosophy]>",
+		]
 	}
 ]

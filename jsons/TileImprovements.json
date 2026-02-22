@@ -714,6 +714,18 @@
 		"uniques": [
 		"Pillaging this improvement yields approximately [+150 Gold]"
 		],
-		"shortcutKey": "P"
+	},
+	{
+		"name": "Rose Path",//蔷薇幽径
+		"uniqueTo": "Komeiji Koishi",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 7,
+		"culture": 1,
+		"faith": 1,
+		"uniques": [
+		"Only available <in tiles adjacent to [Mountain] tiles>",
+		"Comment [非[Komeiji Koishi]文明的单位在该地块上结束回合时受到5伤害]",
+		"Comment [非[Komeiji Koishi]文明的单位在该地块上进入后失去1移动力]"
+		],
 	},
 ]

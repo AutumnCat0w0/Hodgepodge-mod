@@ -3606,12 +3606,12 @@
 		"uniqueTo": "Wonderland",//不可思议
 		"replaces": "Monument",
 		"culture": 2,
-		"cost": 20,
+		"cost": 40,
 		"maintenance": 1,
 		"uniques": [
 		"Destroyed when the city is captured",
 		"Comment [推行首个政策前不可用]",
-		"Only available <when number of [Adopted [All] Policies] is more than [0]> <hidden from users>",
+		"Unbuildable <when number of [Adopted [All] Policies] is less than [1]> <hidden from users>",
 		"[+1 Culture] <for every [Adopted [All] Policies]><hidden from users>",
 		"Comment [每推行1个政策+1[Culture]]",]
 	},
@@ -4085,5 +4085,47 @@
 		"Comment [[Artifact Fragment]数量到达3时，可选择令[Artifact Fragment]无数量限制，且每个[Artifact Fragment]+5%战斗力，单位补给需求加倍，或选择不突破上限]"
 		"[+1 Food, +1 Production, +1 Gold, +1 Happiness, +1 Culture, +1 Science, +1 Faith] <for every [Artifact Fragment]> <hidden from users>",
 		"Indicates the capital city"]
+	},
+	
+	{
+		"name": "Chireiden",//地灵殿
+		"uniqueTo": "Komeiji Koishi",//地灵殿（古明地恋）
+		"replaces": "Palace",//所代替
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 2,
+		"cityStrength": 4,
+		"cost": 1,
+		"cityHealth": 25,
+		"uniques": ["Indicates the capital city"]
+	},
+	
+	{
+		"name": "Guiling Altar",//怨灵坛
+		"uniqueTo": "Komeiji Satori",//地灵殿（古明地觉）
+		"replaces": "Shrine",//所代替
+		"faith": 3,
+		"production": 1,
+		"cost": 60,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": ["Only available <when religion is enabled>"]
+	},
+	
+	{
+		"name": "The Face of Hope",//希望之面
+		"uniqueTo": "Hata no Kokoro",//琴心
+		"replaces": "Temple",//所代替
+		"faith": 2,
+		"happiness": 1,
+		"culture": 1,
+		"requiredBuilding": "Shrine",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy",
+		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured",
+		"[-10]% Unhappiness from [Population] [in this city]"]
 	},
 ]

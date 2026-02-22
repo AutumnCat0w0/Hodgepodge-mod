@@ -3726,7 +3726,9 @@
 		"rangedStrength": 4,
 		"cost": 40,
 		"uniques": ["[+100]% Strength",
-		"All tiles cost 1 movement"],
+		"All tiles cost 1 movement",
+		"Comment [若本局游戏未献祭，可以进行献祭获得23[Culture](受游戏速度影响)，随后自身死亡]",
+		"Gain [23] [Culture] <when number of [Magic power] is less than [1]> <by consuming this unit> <hidden from users>"],
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Composite Bowman",
@@ -4402,5 +4404,44 @@
 		"upgradesTo": "Gatling Gun",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow"
+	},
+	
+	{
+		"name": "Vengeful Prison Guard",//怨灵狱卒
+		"uniqueTo": "Komeiji Satori",//地灵殿（古明地觉）
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 15,
+		"cost": 75,
+		"uniques": ["May capture killed [All] units",
+		"All tiles cost 1 movement"],
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	
+	{
+		"name": "Emotional Performer",//情绪表演者
+		"uniqueTo": "Hata no Kokoro",//琴心
+		"replaces": "Swordsman",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 13,
+		"cost": 75,
+		"uniques": ["Comment [在怒情绪下+10%战斗力]",
+		"Comment [在哀状态下相邻敌方单位-5%战斗力]",
+		"Comment [在乐状态下相邻单位恢复时额外5恢复量]",
+		"[+10]% Strength <when number of [No.1 Ball] is equal to [-1]> <when number of [No.2 Ball] is equal to [0]> <hidden from users>",
+		"[-5]% Strength for enemy [All] units in adjacent [All] tiles <when number of [No.1 Ball] is equal to [0]> <when number of [No.2 Ball] is equal to [-1]> <hidden from users>",
+		"All adjacent units heal [+5] HP when healing <when number of [No.1 Ball] is equal to [-1]> <when number of [No.2 Ball] is equal to [-1]> <hidden from users>"],
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
 	},
 ]
