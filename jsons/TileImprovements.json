@@ -95,11 +95,11 @@
 	},
 	{
 		"name": "Mine",//矿井
-		"terrainsCanBeBuiltOn": ["Hill","Andosols"],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Mining",
-		"uniques": ["[+2 Production] <in [Andosols] tiles>",
+		"uniques": [//"[+2 Production] <in [Andosols] tiles>",
 		"[+1 Production] <after discovering [Chemistry]>", 
 		"Pillaging this improvement yields approximately [+20 Gold]",
 		"Gain control over [Luxury resource] tiles in a [2]-tile radius<when number of [JokerMonarchAbility-Spade] is more than [2]><hidden from users>"//小丑皇
@@ -580,7 +580,7 @@
 		"Comment [在[Hill]时，[Food]增益转化为[Production]]"
 		"[+1 Production, -1 Food] <in [Hill] tiles> <after discovering [Civil Service]><hidden from users>",
 		"[+1 Food] <after discovering [Civil Service]>",
-		"[+2 Production] <in [Andosols] tiles>",
+		//"[+2 Production] <in [Andosols] tiles>",
 		],
 		"techRequired": "Masonry",
 	},

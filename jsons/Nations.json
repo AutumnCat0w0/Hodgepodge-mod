@@ -1028,7 +1028,7 @@
 		"uniqueName": "This Is Our Nature"//我们就这德性",//文明特性名
 		"uniques": [
 	    "Earn [50]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
-	   "Receive triple Gold from Barbarian encampments and pillaging Cities",//
+	   "Receive [+200]% Gold from Barbarian encampments and pillaging Cities",//
 	   "No movement cost to pillage"//无移动劫掠
 	   "May buy [Hippo] units with [Faith] for [2] times their normal Production cost",
 		],//文明特性具体效果
@@ -2359,7 +2359,7 @@
 		/*"uniqueText": ""*/
 		"uniqueName": "Small but Mighty"//麻雀虽小",//文明特性名
 		"uniques": [
-		"Receive triple Gold from Barbarian encampments and pillaging Cities"
+		"Receive [+200]% Gold from Barbarian encampments and pillaging Cities"
 		"[-50]% Gold cost of upgrading"
 			],//文明特性具体效果
 			"cities": ["Bird free pigeon nest",]
@@ -3091,7 +3091,7 @@
 		"uniqueName": "Payday"//收获日",//文明特性名
 		"uniques": [
 		"Earn [100]% of killed [Military] unit's [Strength] as [Gold]",//杀人拿战力的钱
-	   "Receive triple Gold from Barbarian encampments and pillaging Cities",//三倍掠夺
+	   "Receive [+200]% Gold from Barbarian encampments and pillaging Cities",//三倍掠夺
 	   "No movement cost to pillage"//无移动劫掠
 	   "[-100]% [Gold]"
 	   "[+200]% [Gold]<every [10] turns>"
@@ -5531,7 +5531,7 @@
 		"uniqueName": "Barbarian King"//蛮族之王", //文明特性名
 		"uniques": [
 		"[Military] units gain the [BarbarianKing'sWrath] promotion",//蛮王buff
-	    "Receive triple Gold from Barbarian encampments and pillaging Cities",
+	    "Receive [+200]% Gold from Barbarian encampments and pillaging Cities",
 	    "[2048] Unit Supply",
 	    "Notified of new Barbarian encampments",
 	    "May not annex cities",
@@ -6116,10 +6116,9 @@
         "outerColor": [252,245,199],
         "innerColor": [119,104,171],
 		"uniqueText": "政策效果额外触发一次\n推行新政策的文化花费+100%",
-		"uniqueName": "名为爱丽丝的少女",
+		"uniqueName": "蠕动潜行者",
 		"uniques": [
 		"[+100]% Culture cost of adopting new Policies",
-		"Instantly provides [1] [Magic power] <upon expending a [Rabbit] unit> <when number of [Magic power] is more than [0]>",
 		//传统
 		"[+3 Culture] [in capital]<after adopting [Tradition]>",
         "[-25]% Culture cost of natural border growth [in all cities]<after adopting [Tradition]>",
@@ -7195,7 +7194,7 @@
 		"Instantly provides [1] [Artifact Fragment] <after turn number [25]> <upon turn start> <every [12] turns> <before turn number [61]>",
 		"[+1] Strength <for [All] units> <for every [2] [Artifact Fragment]>",
 		"Triggers a [Sarnaga Protoss Breakthrough Event] event <when above [2] [Artifact Fragment]> <upon turn start> <when below [1] [Magic power]>",
-		"Instantly provides [1] [Artifact Fragment] <after turn number [61]> <upon turn start> <when between [1] and [1] [Magic power]>",
+		"Instantly provides [1] [Artifact Fragment] <after turn number [61]> <upon turn start> <every [12] turns> <when between [1] and [1] [Magic power]>",
 		"[+5]% Strength <for [All] units> <for every [1] [Artifact Fragment]> <when between [1] and [1] [Magic power]>",
 		"[-1] Unit Supply <for every [[All] Units]>"
 			],//文明特性具体效果

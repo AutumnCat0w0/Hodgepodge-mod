@@ -96,6 +96,13 @@
         "Unbuildable",
         "Will not be displayed in Civilopedia"]
     },
+    {//启用政策机制重构
+        "name": "Building-PolicyMechanismReconstruction",
+        "cost": 0,
+        "uniques":[
+        "Unbuildable",
+        "Will not be displayed in Civilopedia"]
+    },
     /*{
 		"name": "测试碑",//纪念碑
 		"uniqueTo": "测试",
@@ -1058,7 +1065,7 @@
 		"replaces": "Temple",
 		"uniqueTo": "SP-Egypt",//SP埃及
 		"maintenance": 2,
-		"uniques": ["Doubles Gold given to enemy if city is captured"],
+		"uniques": ["[+100]% Gold given to enemy if city is captured"],
 		"faith": 2,
 		"happiness": 1,
 		"culture": 2,
@@ -3602,18 +3609,21 @@
 			"Instantly gain [2] [Golden Age points] <upon turn end> <for every [Owned [Camp] Tiles]>"]
 	},
 	{
-		"name": "【Named Love】",//【名为爱】
+		"name": "Tea Party",//茶会
 		"uniqueTo": "Wonderland",//不可思议
 		"replaces": "Monument",
-		"culture": 2,
-		"cost": 40,
+		"culture": 1,
+		"cost": 20,
 		"maintenance": 1,
 		"uniques": [
 		"Destroyed when the city is captured",
-		"Comment [推行首个政策前不可用]",
+		/*"Comment [推行首个政策前不可用]",
 		"Unbuildable <when number of [Adopted [All] Policies] is less than [1]> <hidden from users>",
 		"[+1 Culture] <for every [Adopted [All] Policies]><hidden from users>",
-		"Comment [每推行1个政策+1[Culture]]",]
+		"Comment [每推行1个政策+1[Culture]]",*/
+		"[+1 Culture] <when number of [Adopted [All] Policies] is more than [1]> <hidden from users>",
+		"Comment [推行首个个政策后+1[Culture]]",
+		]
 	},
 	{
 		"name": "College",

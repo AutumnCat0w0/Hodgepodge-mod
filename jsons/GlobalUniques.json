@@ -23,6 +23,306 @@
 		"Free [Settler] appears <upon turn start> <every [20] turns> <after turn number [10]> <when [Pleasance] Victory is enabled>",
 		"[4] Free Technologies <when [Pleasance] Victory is enabled>",
 		"Triggers a [Welcome to the Pleasance] event <upon founding a city> <when number of [[in all cities] Cities] is equal to [1]> <when [Pleasance] Victory is enabled>",
+		//政策机制重构
+		// Aristocracy
+        "Remove [Legalism] <upon adopting [Aristocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Oligarchy] <upon adopting [Aristocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Landed Elite] <upon adopting [Aristocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Monarchy] <upon adopting [Aristocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Legalism
+        "Remove [Aristocracy] <upon adopting [Legalism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Oligarchy] <upon adopting [Legalism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Landed Elite] <upon adopting [Legalism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Monarchy] <upon adopting [Legalism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Oligarchy
+        "Remove [Aristocracy] <upon adopting [Oligarchy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Legalism] <upon adopting [Oligarchy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Landed Elite] <upon adopting [Oligarchy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Monarchy] <upon adopting [Oligarchy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Landed Elite
+        "Remove [Aristocracy] <upon adopting [Landed Elite]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Legalism] <upon adopting [Landed Elite]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Oligarchy] <upon adopting [Landed Elite]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Monarchy] <upon adopting [Landed Elite]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Monarchy
+        "Remove [Aristocracy] <upon adopting [Monarchy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Legalism] <upon adopting [Monarchy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Oligarchy] <upon adopting [Monarchy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Landed Elite] <upon adopting [Monarchy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+		
+		// Republic
+        "Remove [Citizenship] <upon adopting [Republic]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Collective Rule] <upon adopting [Republic]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Representation] <upon adopting [Republic]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Meritocracy] <upon adopting [Republic]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Citizenship
+        "Remove [Republic] <upon adopting [Citizenship]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Collective Rule] <upon adopting [Citizenship]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Representation] <upon adopting [Citizenship]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Meritocracy] <upon adopting [Citizenship]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Collective Rule
+        "Remove [Republic] <upon adopting [Collective Rule]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Citizenship] <upon adopting [Collective Rule]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Representation] <upon adopting [Collective Rule]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Meritocracy] <upon adopting [Collective Rule]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Representation
+        "Remove [Republic] <upon adopting [Representation]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Citizenship] <upon adopting [Representation]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Collective Rule] <upon adopting [Representation]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Meritocracy] <upon adopting [Representation]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Meritocracy
+        "Remove [Republic] <upon adopting [Meritocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Citizenship] <upon adopting [Meritocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Collective Rule] <upon adopting [Meritocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Representation] <upon adopting [Meritocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Warrior Code
+        "Remove [Discipline] <upon adopting [Warrior Code]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Military Tradition] <upon adopting [Warrior Code]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Military Caste] <upon adopting [Warrior Code]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Professional Army] <upon adopting [Warrior Code]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Discipline
+        "Remove [Warrior Code] <upon adopting [Discipline]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Military Tradition] <upon adopting [Discipline]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Military Caste] <upon adopting [Discipline]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Professional Army] <upon adopting [Discipline]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Military Tradition
+        "Remove [Warrior Code] <upon adopting [Military Tradition]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Discipline] <upon adopting [Military Tradition]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Military Caste] <upon adopting [Military Tradition]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Professional Army] <upon adopting [Military Tradition]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Military Caste
+        "Remove [Warrior Code] <upon adopting [Military Caste]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Discipline] <upon adopting [Military Caste]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Military Tradition] <upon adopting [Military Caste]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Professional Army] <upon adopting [Military Caste]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Professional Army
+        "Remove [Warrior Code] <upon adopting [Professional Army]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Discipline] <upon adopting [Professional Army]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Military Tradition] <upon adopting [Professional Army]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Military Caste] <upon adopting [Professional Army]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Organized Religion
+        "Remove [Mandate Of Heaven] <upon adopting [Organized Religion]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Theocracy] <upon adopting [Organized Religion]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Reformation] <upon adopting [Organized Religion]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Religion] <upon adopting [Organized Religion]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Mandate Of Heaven
+        "Remove [Organized Religion] <upon adopting [Mandate Of Heaven]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Theocracy] <upon adopting [Mandate Of Heaven]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Reformation] <upon adopting [Mandate Of Heaven]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Religion] <upon adopting [Mandate Of Heaven]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Theocracy
+        "Remove [Organized Religion] <upon adopting [Theocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Mandate Of Heaven] <upon adopting [Theocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Reformation] <upon adopting [Theocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Religion] <upon adopting [Theocracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Reformation
+        "Remove [Organized Religion] <upon adopting [Reformation]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Mandate Of Heaven] <upon adopting [Reformation]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Theocracy] <upon adopting [Reformation]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Religion] <upon adopting [Reformation]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Free Religion
+        "Remove [Organized Religion] <upon adopting [Free Religion]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Mandate Of Heaven] <upon adopting [Free Religion]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Theocracy] <upon adopting [Free Religion]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Reformation] <upon adopting [Free Religion]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Philantropy
+        "Remove [Aesthetics] <upon adopting [Philantropy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Scholasticism] <upon adopting [Philantropy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Cultural Diplomacy] <upon adopting [Philantropy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Educated Elite] <upon adopting [Philantropy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Aesthetics
+        "Remove [Philantropy] <upon adopting [Aesthetics]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Scholasticism] <upon adopting [Aesthetics]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Cultural Diplomacy] <upon adopting [Aesthetics]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Educated Elite] <upon adopting [Aesthetics]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Scholasticism
+        "Remove [Philantropy] <upon adopting [Scholasticism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Aesthetics] <upon adopting [Scholasticism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Cultural Diplomacy] <upon adopting [Scholasticism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Educated Elite] <upon adopting [Scholasticism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Cultural Diplomacy
+        "Remove [Philantropy] <upon adopting [Cultural Diplomacy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Aesthetics] <upon adopting [Cultural Diplomacy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Scholasticism] <upon adopting [Cultural Diplomacy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Educated Elite] <upon adopting [Cultural Diplomacy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Educated Elite
+        "Remove [Philantropy] <upon adopting [Educated Elite]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Aesthetics] <upon adopting [Educated Elite]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Scholasticism] <upon adopting [Educated Elite]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Cultural Diplomacy] <upon adopting [Educated Elite]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Naval Tradition
+        "Remove [Trade Unions] <upon adopting [Naval Tradition]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Merchant Navy] <upon adopting [Naval Tradition]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Mercantilism] <upon adopting [Naval Tradition]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Protectionism] <upon adopting [Naval Tradition]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Trade Unions
+        "Remove [Naval Tradition] <upon adopting [Trade Unions]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Merchant Navy] <upon adopting [Trade Unions]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Mercantilism] <upon adopting [Trade Unions]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Protectionism] <upon adopting [Trade Unions]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Merchant Navy
+        "Remove [Naval Tradition] <upon adopting [Merchant Navy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Trade Unions] <upon adopting [Merchant Navy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Mercantilism] <upon adopting [Merchant Navy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Protectionism] <upon adopting [Merchant Navy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Mercantilism
+        "Remove [Naval Tradition] <upon adopting [Mercantilism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Trade Unions] <upon adopting [Mercantilism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Merchant Navy] <upon adopting [Mercantilism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Protectionism] <upon adopting [Mercantilism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Protectionism
+        "Remove [Naval Tradition] <upon adopting [Protectionism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Trade Unions] <upon adopting [Protectionism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Merchant Navy] <upon adopting [Protectionism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Mercantilism] <upon adopting [Protectionism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Secularism
+        "Remove [Humanism] <upon adopting [Secularism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Thought] <upon adopting [Secularism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Sovereignty] <upon adopting [Secularism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Scientific Revolution] <upon adopting [Secularism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Humanism
+        "Remove [Secularism] <upon adopting [Humanism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Thought] <upon adopting [Humanism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Sovereignty] <upon adopting [Humanism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Scientific Revolution] <upon adopting [Humanism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Free Thought
+        "Remove [Secularism] <upon adopting [Free Thought]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Humanism] <upon adopting [Free Thought]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Sovereignty] <upon adopting [Free Thought]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Scientific Revolution] <upon adopting [Free Thought]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Sovereignty
+        "Remove [Secularism] <upon adopting [Sovereignty]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Humanism] <upon adopting [Sovereignty]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Thought] <upon adopting [Sovereignty]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Scientific Revolution] <upon adopting [Sovereignty]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Scientific Revolution
+        "Remove [Secularism] <upon adopting [Scientific Revolution]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Humanism] <upon adopting [Scientific Revolution]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Thought] <upon adopting [Scientific Revolution]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Sovereignty] <upon adopting [Scientific Revolution]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Constitution
+        "Remove [Universal Suffrage] <upon adopting [Constitution]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Civil Society] <upon adopting [Constitution]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Speech] <upon adopting [Constitution]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Democracy] <upon adopting [Constitution]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Universal Suffrage
+        "Remove [Constitution] <upon adopting [Universal Suffrage]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Civil Society] <upon adopting [Universal Suffrage]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Speech] <upon adopting [Universal Suffrage]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Democracy] <upon adopting [Universal Suffrage]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Civil Society
+        "Remove [Constitution] <upon adopting [Civil Society]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Universal Suffrage] <upon adopting [Civil Society]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Speech] <upon adopting [Civil Society]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Democracy] <upon adopting [Civil Society]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Free Speech
+        "Remove [Constitution] <upon adopting [Free Speech]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Universal Suffrage] <upon adopting [Free Speech]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Civil Society] <upon adopting [Free Speech]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Democracy] <upon adopting [Free Speech]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Democracy
+        "Remove [Constitution] <upon adopting [Democracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Universal Suffrage] <upon adopting [Democracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Civil Society] <upon adopting [Democracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Free Speech] <upon adopting [Democracy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Populism
+        "Remove [Militarism] <upon adopting [Populism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Fascism] <upon adopting [Populism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Police State] <upon adopting [Populism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Total War] <upon adopting [Populism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Militarism
+        "Remove [Populism] <upon adopting [Militarism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Fascism] <upon adopting [Militarism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Police State] <upon adopting [Militarism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Total War] <upon adopting [Militarism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Fascism
+        "Remove [Populism] <upon adopting [Fascism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Militarism] <upon adopting [Fascism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Police State] <upon adopting [Fascism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Total War] <upon adopting [Fascism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Police State
+        "Remove [Populism] <upon adopting [Police State]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Militarism] <upon adopting [Police State]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Fascism] <upon adopting [Police State]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Total War] <upon adopting [Police State]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Total War
+        "Remove [Populism] <upon adopting [Total War]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Militarism] <upon adopting [Total War]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Fascism] <upon adopting [Total War]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Police State] <upon adopting [Total War]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // United Front
+        "Remove [Planned Economy] <upon adopting [United Front]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Nationalism] <upon adopting [United Front]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Socialism] <upon adopting [United Front]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Communism] <upon adopting [United Front]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Planned Economy
+        "Remove [United Front] <upon adopting [Planned Economy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Nationalism] <upon adopting [Planned Economy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Socialism] <upon adopting [Planned Economy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Communism] <upon adopting [Planned Economy]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Nationalism
+        "Remove [United Front] <upon adopting [Nationalism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Planned Economy] <upon adopting [Nationalism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Socialism] <upon adopting [Nationalism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Communism] <upon adopting [Nationalism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Socialism
+        "Remove [United Front] <upon adopting [Socialism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Planned Economy] <upon adopting [Socialism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Nationalism] <upon adopting [Socialism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Communism] <upon adopting [Socialism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+
+        // Communism
+        "Remove [United Front] <upon adopting [Communism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Planned Economy] <upon adopting [Communism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Nationalism] <upon adopting [Communism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
+        "Remove [Socialism] <upon adopting [Communism]> <when [PatternPolicyMechanismReconstruction] Victory is enabled>",
             ]
     "unitUniques": [
         "[This Unit] heals [5] HP <upon ending a turn in a [Land] tile> <when above [0] [Talisman charm]>",

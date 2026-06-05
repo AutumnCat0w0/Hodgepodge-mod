@@ -54,4 +54,12 @@
         "Build [Building-Pleasance]"
         ]
     },
+    
+    {//启用政策机制重构
+        "name":"PatternPolicyMechanismReconstruction",
+        "hiddenInVictoryScreen":true,
+        "milestones":[
+        "Build [Building-PolicyMechanismReconstruction]"
+        ]
+    },
 ]

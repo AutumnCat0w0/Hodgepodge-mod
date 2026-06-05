@@ -82,7 +82,7 @@
 		    "Tile provides yield without assigned population"//不需要人
 			"Must be adjacent to [0] [Coast] tiles",
 			"Must be adjacent to [0] [Desert] tiles",
-			"Neighboring tiles will convert to [Andosols]"
+			//"Neighboring tiles will convert to [Andosols]"
 			],
 		"turnsInto": "Mountain",
 		"impassable": true,
@@ -90,7 +90,7 @@
 		"weight": 10
 	},
 	
-	{
+	/*{
 		"name": "Andosols",//火山土
 		"type": "Land",
 		"food": 2,
@@ -102,13 +102,14 @@
 		"uniques": [//"Base Terrain on this tile is not counted for Region determination",
 			"Units ending their turn on this terrain take [20] damage",
 			"[-5] Strength for cities built on this terrain",
+			"Must be adjacent to [1] [Eyjafjallajokull] tiles",
 			//"Doesn't generate naturally",
 			"Never receives any resources"
 	]
-		/*"civilopediaText": [
-		{"text":"只在艾雅法拉火山周围生成", "link":"艾雅法拉火山"}]*/
+		"civilopediaText": [
+		{"text":"只在艾雅法拉火山周围生成", "link":"艾雅法拉火山"}]
     "turnsInto": "Tundra",
-    },
+    },*/
     
     {
 		"name": "Devils Tower",//魔鬼塔
