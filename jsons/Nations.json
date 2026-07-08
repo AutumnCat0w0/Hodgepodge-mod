@@ -6071,7 +6071,6 @@
 		"adjective": ["Sugar"],
 		"startBias": ["Grassland"],
 		"preferredVictoryType": "Domination",
-		"personality": "Boudicca",
 
         "startIntroPart1": "Songsongsongsongsongsongsongsongsahur",
         "startIntroPart2": "luguanluguanluguanlulushijiandaole",
@@ -6261,7 +6260,6 @@
 		"adjective": ["Science"],
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
-		"personality": "Korea",
 
         "startIntroPart1": "从水下第一个生命的萌芽开始...到石器时代的巨型野兽...再到人类第一次直立行走，你已经历许多。现在，开启你最伟大的探索吧：从早期文明的摇篮到浩瀚星宇。",
         "startIntroPart2": "善德女王，天上的星象印证着您将带领朝鲜走向伟大。建造书院，对人民施以尊尊教诲，令其探索世间未解之谜。如有宵小之徒敢窃取知识，火车发出的火箭骤雨将使他们无处可逃。睿智的女王，在子民的拥护下，您的伟业可直达云霄。",
@@ -6358,7 +6356,6 @@
 		"adjective": ["Aztec"],
 		"startBias": ["Jungle"],
 		"preferredVictoryType": "Domination",
-		"personality": "Montezuma I",
 
         "startIntroPart1": "O divine Montezuma, your people welcome you! May your magnificence inspire all living things! The mighty Aztecs were nomads until the 12th century, when they choose to settle in the mesa central, which would later be called Mexico. Wars were frequent with other tribes to control the rich land surrounding the sacred lakes of Texcoco, Xaltocan and Zampango. In some 200 years, double-sided alliances and martial prowess made of the Aztecs the dominant power in the Central American basin, forming a mighty empire stretching from sea to sea. Alas, the empire fell under the assault of foreign devils - the Spaniards and many curses they brought with them! Wars between tribes and weaponry of doom used by the invaders made the great Aztec civilization crumble in only a few decades.",
         "startIntroPart2": "O mighty King Montezuma, do you hear the call of your people seeking for revenge? Will you lead them to victory under the light of the Five Suns? Will your new empire shine through the ages of history?",
